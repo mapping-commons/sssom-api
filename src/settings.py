@@ -2,11 +2,11 @@ from functools import lru_cache
 
 from pydantic import BaseSettings
 
-from .datamodels.sparql_implementation import SparqlImpl
+from .database.sparql_implementation import SparqlImpl, OntologyResource
 
 
 class Settings(BaseSettings):
-    config_file: str
+    sparql_endpoint: str
 
     class Config:
         env_file = ".env"
@@ -21,4 +21,4 @@ def get_settings() -> Settings:
 @lru_cache
 def get_sparql_implementation() -> SparqlImpl:
     settings = get_settings()
-    return SparqlImpl(settings.config_file)
+    return SparqlImpl(OntologyResource(settings.sparql_endpoint))

@@ -1,32 +1,29 @@
-from typing import List
+from typing import Iterator, List
 
 from fastapi import APIRouter, Depends
 
-from ..models import PaginationParams, Mapping
+from ..database.sparql_implementation import SparqlImpl, get_mappings
+
+from ..models import Page, PaginationParams, Mapping
 from ..depends import is_valid
 from ..utils import paginate
-from oaklib.implementations.ols.ols_implementation import OlsImplementation
+from ..settings import get_sparql_implementation
 
 router = APIRouter(prefix="/mappings", tags=["mappings"])
 
-@router.get("/{curie_id}", response_model=List[Mapping], summary="Get mappings by CURIE")
-def mappings_by_curie(
-  curie_id: str = Depends(is_valid), 
+@router.get("/", response_model=List[Mapping], summary="Get mappings")
+def mappings(
+  sparqlImpl: SparqlImpl = Depends(get_sparql_implementation), 
   pagination: PaginationParams = Depends()
 ):
-  response = {}
-  mappings = []
-  oi = OlsImplementation()
+  results = get_mappings(sparqlImpl)
+  return paginate(results, **pagination.dict())
 
-  for m in oi.get_sssom_mappings_by_curie(curie_id):
-    mapping = {}
-    mapping["predicate_id"] = m.predicate_id
-    mapping["object_id"] = m.object_id
-    mapping["object_label"] = m.object_label
-    mappings.append(mapping)
-  
-  
-  response["subject_id"] = curie_id
-  response["mappings"] = mappings
-
-  return paginate(response, **pagination.dict())
+@router.get("/{curie}",summary="Get mappings by CURIE")
+def mappings_by_curie(
+  sparqlImpl: SparqlImpl = Depends(get_sparql_implementation),
+  curie: str = Depends(is_valid), 
+  pagination: PaginationParams = Depends()
+):
+  results = get_mappings(sparqlImpl, curie)
+  return paginate(results, **pagination.dict())
