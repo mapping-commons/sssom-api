@@ -7,6 +7,11 @@ from pydantic.generics import GenericModel
 from sssom_schema import Mapping, MappingSet, MappingRegistry, MappingSetReference
 
 T = TypeVar("T")
+# class ResponseMapping(BaseModel):
+#   subject_id: Mapping.subject_id
+#   predicate_id: Mapping.predicate_id
+#   object_id: Mapping.object_id
+#   mapping_justification: Mapping.mapping_justification
 
 class PaginationParams(BaseModel):
   request: Request
@@ -14,7 +19,7 @@ class PaginationParams(BaseModel):
   page: int = Query(default=1, ge=1)
 
   class Config:
-      arbitrary_types_allowed = True
+    arbitrary_types_allowed = True
 
 
 class PaginationInfo(BaseModel):

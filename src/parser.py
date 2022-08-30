@@ -31,7 +31,7 @@ def read_mappings(config: str) -> ConjunctiveGraph:
   registry = registry_parser(config)
 
   for _, mapping_set_ref in registry.mapping_set_references.items():
-    print(mapping_set_ref.mapping_set_id)
+    print(f"Parsing mapping {mapping_set_ref.mapping_set_id}")
     mappings_graph += to_rdf_graph(parse_sssom_table(BASE_URL + mapping_set_ref.mapping_set_id + FILE_FORMAT))
 
   return mappings_graph
