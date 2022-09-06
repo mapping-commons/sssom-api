@@ -1,7 +1,7 @@
-from typing import Iterable, Union
+from typing import Iterable, Optional
 
 from rdflib import Namespace
-from rdflib.namespace import OWL
+from rdflib.namespace import OWL, RDF, DCTERMS
 
 from oaklib.implementations.sparql.abstract_sparql_implementation import _sparql_values
 from oaklib.utilities.mapping.sssom_utils import create_sssom_mapping
@@ -14,11 +14,14 @@ from oaklib.datamodels.vocabulary import (
 )
 from oaklib.resource import OntologyResource
 
-from ..models import Mapping
+from ..models import Mapping, MappingSet
 
 SSSOM = Namespace("https://w3id.org/sssom/")
 
 class SparqlImpl(SparqlImplementation):
+  def create_sssom_mapping_set(self, mapping_set_id: str, **kwargs) -> Optional[MappingSet]:
+    return MappingSet(mapping_set_id=mapping_set_id, **kwargs)
+
   def get_sssom_mappings_by_curie(self, curie: CURIE) -> Iterable[Mapping]:
     pred_uris = [self.curie_to_sparql(pred) for pred in ALL_MATCH_PREDICATES + [EQUIVALENT_CLASS]]
     query = SparqlQuery(
@@ -58,17 +61,25 @@ class SparqlImpl(SparqlImplementation):
       if m is not None:
         yield m
 
-# def get_terms(mappings) -> Iterable[ResponseMapping]:
-#   return (
-#     ResponseMapping(
-#       subject_id=m.subject_id,
-#       predicate_id=m.predicate_id,
-#       object_id=m.object_id,
-#       mapping_justification=m.mapping_justification
-#     )
-#     for m in mappings
-#   )
+  def get_mapping_sets(self) -> Iterable[MappingSet]:
+    query = SparqlQuery(
+      select=["?mapping_set", "?id", "?license"],
+      where=[f"?mapping_set <{RDF.type}> <{SSSOM.MappingSet}>",
+             f"?mapping_set <{SSSOM.mapping_set_id}> ?id",
+             f"?mapping_set <{DCTERMS.license}> ?license"],
+    )
+    bindings = self._query(query)
+    for row in bindings:
+      m = self.create_sssom_mapping_set(
+        mapping_set_id=row['id']['value'],
+        license=row['license']['value'])
+      if m is not None:
+        yield m
 
 def get_mappings(imp: SparqlImpl, curie: str) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_curie(curie)
   return mappings
+
+def get_mapping_sets(imp: SparqlImpl) -> Iterable[MappingSet]:
+  mapping_sets = imp.get_mapping_sets()
+  return mapping_sets
