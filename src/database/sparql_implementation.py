@@ -1,6 +1,6 @@
 from typing import Iterable, Union
 
-from rdflib import Namespace
+from rdflib import URIRef
 from rdflib.namespace import OWL
 
 from oaklib.implementations.sparql.abstract_sparql_implementation import _sparql_values
@@ -14,11 +14,28 @@ from oaklib.datamodels.vocabulary import (
 )
 from oaklib.resource import OntologyResource
 
+from sssom_schema import SSSOM
+from sssom.constants import SCHEMA_VIEW
 from ..models import Mapping
 
-SSSOM = Namespace("https://w3id.org/sssom/")
 
 class SparqlImpl(SparqlImplementation):
+  def get_slot_uri(field: str) -> str:
+    element_type = type(field)
+    cn = element_type.class_name
+    slot = SCHEMA_VIEW.induced_slot(field, cn)
+    return SCHEMA_VIEW.get_uri(slot, expand=True)
+
+  def default_query(self, field, value) -> SparqlQuery:
+    query = SparqlQuery(
+      select=["*"],
+      where = []
+    )
+    return query
+
+  def get_sssom_mapping_by_field(self, field: str, value: str) -> Iterable[Mapping]:
+    pass
+  
   def get_sssom_mappings_by_curie(self, curie: CURIE) -> Iterable[Mapping]:
     pred_uris = [self.curie_to_sparql(pred) for pred in ALL_MATCH_PREDICATES + [EQUIVALENT_CLASS]]
     query = SparqlQuery(
@@ -69,6 +86,10 @@ class SparqlImpl(SparqlImplementation):
 #     for m in mappings
 #   )
 
-def get_mappings(imp: SparqlImpl, curie: str) -> Iterable[Mapping]:
-  mappings = imp.get_sssom_mappings_by_curie(curie)
+def get_mappings(imp: SparqlImpl, curie: CURIE) -> Iterable[Mapping]:
+  mappings = imp.get_sssom_mappings_by_field(curie)
+  return mappings
+
+def get_mappings_field(imp: SparqlImpl, field: str, value: str) -> Iterable[Mapping]:
+  mappings = imp.get_sssom_mapping_by_field(field, value)
   return mappings
