@@ -1,4 +1,4 @@
-from typing import Iterable, Union
+from typing import Iterable, List, Union
 
 from rdflib import URIRef
 from rdflib.namespace import OWL
@@ -15,27 +15,59 @@ from oaklib.datamodels.vocabulary import (
 from oaklib.resource import OntologyResource
 
 from sssom_schema import SSSOM
-from sssom.constants import SCHEMA_VIEW
+from sssom.constants import SCHEMA_VIEW, MAPPING_SLOTS
 from ..models import Mapping
 
 
 class SparqlImpl(SparqlImplementation):
-  def get_slot_uri(field: str) -> str:
-    element_type = type(field)
-    cn = element_type.class_name
-    slot = SCHEMA_VIEW.induced_slot(field, cn)
-    return SCHEMA_VIEW.get_uri(slot, expand=True)
+  def value_to_sparql(self, value: str) -> str:
+    if value.startswith("http"):
+      return f"<{value}>"
+    elif ":" in value:
+      return self.curie_to_sparql(value)
+    else:
+      return value
 
-  def default_query(self, field, value) -> SparqlQuery:
+  def get_slot_uri(self, field: str) -> str:
+    return SCHEMA_VIEW.get_uri(field, expand=True)
+    
+  def default_query(self, slots: List, field: str, value: str) -> SparqlQuery:
     query = SparqlQuery(
       select=["*"],
       where = []
     )
+    filter = self.get_slot_uri(field)
+    query.where.append(f"?_x <{filter}> {self.value_to_sparql(value)}")
+
+    slots.remove(field)
+    for f in slots:
+      f_uri = self.get_slot_uri(f)
+      opt = f"OPTIONAL {{?_x <{f_uri}> ?{f}}}"
+      query.where.append(opt)
+
     return query
 
-  def get_sssom_mapping_by_field(self, field: str, value: str) -> Iterable[Mapping]:
-    pass
-  
+  def transform_result(self, row: dict) -> dict:
+    result = {}
+
+    for k, v in row.items():
+      if k != "_x":
+        if v["value"] == 'None':
+          result[k] = None
+        else:
+          result[k] = v["value"]
+    
+    return result
+
+  def get_sssom_mappings_by_field(self, field: str, value: str) -> Iterable[Mapping]:
+    bindings = self._query(self.default_query(MAPPING_SLOTS, field, value))
+    for row in bindings:
+      r = self.transform_result(row)
+      r[f"{field}"] = value
+      m = create_sssom_mapping(**r)
+      if m is not None:
+        yield m
+
   def get_sssom_mappings_by_curie(self, curie: CURIE) -> Iterable[Mapping]:
     pred_uris = [self.curie_to_sparql(pred) for pred in ALL_MATCH_PREDICATES + [EQUIVALENT_CLASS]]
     query = SparqlQuery(
@@ -87,9 +119,9 @@ class SparqlImpl(SparqlImplementation):
 #   )
 
 def get_mappings(imp: SparqlImpl, curie: CURIE) -> Iterable[Mapping]:
-  mappings = imp.get_sssom_mappings_by_field(curie)
+  mappings = imp.get_sssom_mappings_by_curie(curie)
   return mappings
 
 def get_mappings_field(imp: SparqlImpl, field: str, value: str) -> Iterable[Mapping]:
-  mappings = imp.get_sssom_mapping_by_field(field, value)
+  mappings = imp.get_sssom_mappings_by_field(field, value)
   return mappings

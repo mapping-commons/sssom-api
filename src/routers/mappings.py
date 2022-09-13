@@ -29,7 +29,7 @@ def mappings_by_curie(
   results = get_mappings(sparqlImpl, curie)
   return paginate(results, **pagination.dict())
 
-@router.get("/{field}/{value}", summary="Get mappings by any field available in Mapping datamodel")
+@router.get("/{field}/{value:path}", summary="Get mappings by any field available in Mapping datamodel")
 def mappings_by_field(
   field: str,
   value: str,
