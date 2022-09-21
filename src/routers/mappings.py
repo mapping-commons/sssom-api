@@ -1,23 +1,33 @@
-from typing import Iterator, List
+from typing import Iterator, List, Union
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 
-from ..database.sparql_implementation import SparqlImpl, get_mappings, get_mappings_field
+from ..database.sparql_implementation import (
+  SparqlImpl, 
+  get_mappings, 
+  get_mappings_field,
+  get_mappings_query )
 
 from ..models import Page, PaginationParams, Mapping
 from ..depends import is_valid
-from ..utils import paginate
+from ..utils import paginate, parser_filter
 from ..settings import get_sparql_implementation
 
 router = APIRouter(prefix="/mappings", tags=["mappings"])
 
-# @router.get("/", summary="Get mappings")
-# def mappings(
-#   sparqlImpl: SparqlImpl = Depends(get_sparql_implementation), 
-#   pagination: PaginationParams = Depends()
-# ):
-#   results = get_mappings(sparqlImpl)
-#   return paginate(results, **pagination.dict())
+@router.get("/", summary="Get all mappings")
+def mappings(
+  sparqlImpl: SparqlImpl = Depends(get_sparql_implementation), 
+  pagination: PaginationParams = Depends(),
+  filter: Union[List[str], None] = Query(default=None),
+):
+  filter_parsed = parser_filter(Mapping, filter)
+  if filter_parsed is None:
+    raise HTTPException(status_code=302, detail=f'Not valid filter')
+  else:
+    results = get_mappings_query(sparqlImpl, filter_parsed)
+    return paginate(results, **pagination.dict())
+
 
 # response_model=Page[Mapping]
 @router.get("/{curie}", summary="Get mappings by CURIE")

@@ -31,20 +31,40 @@ class SparqlImpl(SparqlImplementation):
   def get_slot_uri(self, field: str) -> str:
     return SCHEMA_VIEW.get_uri(field, expand=True)
     
-  def default_query(self, slots: List, field: str, value: str) -> SparqlQuery:
+  def default_query(self, slots: List, field: Union[str, None]=None, value: Union[str, None]=None) -> SparqlQuery:
     query = SparqlQuery(
       select=["*"],
       where = []
     )
-    filter = self.get_slot_uri(field)
-    query.where.append(f"?_x <{filter}> {self.value_to_sparql(value)}")
 
-    slots.remove(field)
+    if field != None and value != None:
+      filter = self.get_slot_uri(field)
+      query.where.append(f"?_x <{filter}> {self.value_to_sparql(value)}")
+      slots.remove(field)
+    
     for f in slots:
       f_uri = self.get_slot_uri(f)
       opt = f"OPTIONAL {{?_x <{f_uri}> ?{f}}}"
       query.where.append(opt)
 
+    return query
+
+  def add_filters(self, query: SparqlQuery, filter: Union[List[dict], None]=None) -> SparqlQuery:
+    if filter is None:
+      return query
+
+    for f in filter:
+      if f["operator"] == "ge":
+        query.add_filter(f"?{f['field']} >= {f['value']}")
+      if f["operator"] == "gt":
+        query.add_filter(f"?{f['field']} > {f['value']}")
+      if f["operator"] == "le":
+        query.add_filter(f"?{f['field']} <= {f['value']}")
+      if f["operator"] == "lt":
+        query.add_filter(f"?{f['field']} < {f['value']}")
+      if f["operator"] == "contains":
+        query.add_filter(f"CONTAINS(?{f['field']}, '{f['value']}')")
+    
     return query
 
   def transform_result(self, row: dict) -> dict:
@@ -107,6 +127,16 @@ class SparqlImpl(SparqlImplementation):
       if m is not None:
         yield m
 
+  def get_sssom_mappings_query(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
+    default_query = self.add_filters(self.default_query(MAPPING_SLOTS), filter)
+    print(default_query.query_str())
+    bindings = self._query(default_query)
+    for row in bindings:
+      r = self.transform_result(row)
+      m = create_sssom_mapping(**r)
+      if m is not None:
+        yield m
+    
 # def get_terms(mappings) -> Iterable[ResponseMapping]:
 #   return (
 #     ResponseMapping(
@@ -124,4 +154,8 @@ def get_mappings(imp: SparqlImpl, curie: CURIE) -> Iterable[Mapping]:
 
 def get_mappings_field(imp: SparqlImpl, field: str, value: str) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_field(field, value)
+  return mappings
+
+def get_mappings_query(imp: SparqlImpl, filter: Union[List[dict], None]) -> Iterable[Mapping]:
+  mappings = imp.get_sssom_mappings_query(filter)
   return mappings
