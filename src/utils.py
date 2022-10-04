@@ -1,4 +1,5 @@
-from typing import Iterable, TypeVar, Union
+
+from typing import Iterable, TypeVar, Union, List
 
 from fastapi import Request
 
@@ -35,3 +36,22 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
             next=_replace_page_param(request, next_page),
         ),
     )
+
+def parser_filter(datamodel: T, filter: Union[List[str], None] = None) -> Union[List[dict], None]:
+  filter_pars = []
+
+  if filter is None:
+    return filter_pars
+
+  for f in filter:
+    fil = f.split(":")
+    if len(fil) > 3:
+      return None
+    
+    field, operator, value = fil
+    if not hasattr(datamodel, field):
+      return None
+
+    filter_pars.append({"field": field, "operator": operator, "value": value})
+
+  return filter_pars
