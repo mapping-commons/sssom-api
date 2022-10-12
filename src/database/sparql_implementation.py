@@ -15,8 +15,9 @@ from oaklib.datamodels.vocabulary import (
 from oaklib.resource import OntologyResource
 
 from sssom_schema import SSSOM
-from sssom.constants import SCHEMA_VIEW, MAPPING_SLOTS, MAPPING_SET_SLOTS
+from sssom.constants import SCHEMA_VIEW, MAPPING_SLOTS
 from ..models import Mapping, MappingSet
+from ..utils import parse_fields_type
 
 SSSOM = Namespace("https://w3id.org/sssom/")
 
@@ -32,20 +33,23 @@ class SparqlImpl(SparqlImplementation):
   def get_slot_uri(self, field: str) -> str:
     return SCHEMA_VIEW.get_uri(field, expand=True)
     
-  def default_query(self, slots: List, field: Union[str, None]=None, value: Union[str, None]=None) -> SparqlQuery:
+  def default_query(self, slots: List, subject: Union[str, None]=None, field: Union[str, None]=None, value: Union[str, None]=None) -> SparqlQuery:
     query = SparqlQuery(
       select=["*"],
       where = []
     )
+    
+    if subject == None:
+      subject = "?_x"
 
     if field != None and value != None:
       filter = self.get_slot_uri(field)
-      query.where.append(f"?_x <{filter}> {self.value_to_sparql(value)}")
+      query.where.append(f"{subject} <{filter}> {self.value_to_sparql(value)}")
       slots.remove(field)
     
     for f in slots:
       f_uri = self.get_slot_uri(f)
-      opt = f"OPTIONAL {{?_x <{f_uri}> ?{f}}}"
+      opt = f"OPTIONAL {{ {subject} <{f_uri}> ?{f} }}"
       query.where.append(opt)
 
     return query
@@ -79,6 +83,15 @@ class SparqlImpl(SparqlImplementation):
           result[k] = v["value"]
     print(result)
     return result
+
+  def transform_result_list(results):
+    # sparql results in one list
+    out = []
+    for row in results:
+      for k, v in row.items():
+        out.append(v)
+
+    return out
 
   def get_sssom_mappings_by_field(self, field: str, value: str) -> Iterable[Mapping]:
     bindings = self._query(self.default_query(MAPPING_SLOTS, field, value))
@@ -142,14 +155,28 @@ class SparqlImpl(SparqlImplementation):
         yield m
     
   def get_sssom_mapping_sets_query(self, filter: Union[List[dict], None]) -> Iterable[MappingSet]:
-    default_query = self.add_filters(self.default_query(MAPPING_SET_SLOTS), filter)
+    fields_list, fields_single = parse_fields_type(MappingSet)
+    default_query = self.add_filters(self.default_query(fields_single), filter)
+    
     print(default_query.query_str())
     bindings = self._query(default_query)
+    
     for row in bindings:
       r = self.transform_result(row)
-      m = self.create_sssom_mapping_set(**r)
-      if m is not None:
-        yield m
+      for field in fields_list:
+        default_query_list = self.add_filters(self.default_query(slots=list(field), subject=r["_x"]), filter)
+        bindings_list = self.transform_result_list(self._query(default_query_list))
+        r[f"{field}"] = bindings_list
+      
+      for m in r["mappings"]:
+        default_query_mapping = self.add_filters(self.default_query(slots=Mapping, subject=m), filter)
+        bindings = self._query(default_query_mapping)
+        for row in bindings:
+          m = self.transform_result(row)
+      
+      # m = self.create_sssom_mapping_set(**r)
+      # if m is not None:
+      #   yield m
 
 def get_mappings(imp: SparqlImpl, curie: CURIE) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_curie(curie)
