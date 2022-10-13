@@ -56,16 +56,8 @@ def parser_filter(datamodel: T, filter: Union[List[str], None] = None) -> Union[
 
   return filter_pars
 
-def parse_fields_type(datamodel: T):
-  fields = datamodel.__dataclass_fields__
-  fields_list = []
-  fields_single = []
-
-  for field, desc in fields.items():
-    type = desc.default
-    if isinstance(type, list):
-      fields_list.append(field)
-    else:
-      fields_single.append(field)
+def parse_fields_type(multivalued_fields: List, slots: List):  
+  fields_list = set(multivalued_fields) & set(slots)
+  fields_single = set(slots) - fields_list
 
   return fields_list, fields_single
