@@ -1,10 +1,10 @@
 dev:
 	uvicorn src.main:app --reload
 
-ttl_from_registry: registry.yml
-	cd src && python3 sparql_endpoint.py $<
+ttl_from_registry: data/registry.yml
+	cd src && python3 registry_parser.py $<
 
 deploy:
-	docker run -d -v $(PWD)/mappings.ttl:/code/mapping.ttl \
+	docker run -d -v $(PWD)/data/mappings.ttl:/code/mapping.ttl \
 		-v $(PWD)/.env:/code/.env -p 80:80 anitacaron/sssom-api:v0.0.1
 
