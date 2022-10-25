@@ -14,10 +14,12 @@ services:
     depends_on:
       - triplestore
       - upload-triplestore
-  triplestore:
-    image: yyz1989/rdf4j:latest
     environment:
-      - JVM_PARAMS=-Xms1G -Xmx5G
+      - SPARQL_ENDPOINT=http://triplestore:8080/rdf4j-server/repositories/sssom/query?query=
+  triplestore:
+    image: eclipse/rdf4j-workbench:latest
+    environment:
+      - JVM_PARAMS=-Xms3G -Xmx5G
       - RDF4J_DATA=/data 
     ports:
       - 8080:8080

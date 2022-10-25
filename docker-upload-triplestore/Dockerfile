@@ -1,4 +1,4 @@
-FROM yyz1989/rdf4j
+FROM eclipse/rdf4j-workbench
 
 VOLUME /data
 
