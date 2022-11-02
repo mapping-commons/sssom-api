@@ -15,7 +15,7 @@ services:
       - triplestore
       - upload-triplestore
     environment:
-      - SPARQL_ENDPOINT=http://triplestore:8080/rdf4j-server/repositories/sssom/query?query=
+      - SPARQL_ENDPOINT=http://triplestore:8080/rdf4j-server/repositories/sssom?query=
   triplestore:
     image: eclipse/rdf4j-workbench:latest
     environment:
