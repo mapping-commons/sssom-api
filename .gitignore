@@ -1,3 +1,4 @@
 __pycache__
 .env
-/data
+/data/mappings.ttl
+/data/registry.yml
