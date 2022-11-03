@@ -4,7 +4,7 @@ services:
   api:
     build:
       context: .
-      dockerfile: docker-api/Dockerfile
+      dockerfile: api.Dockerfile
     command: uvicorn app.main:app --host 0.0.0.0
     volumes:
       - ./src:/code/app
@@ -15,7 +15,7 @@ services:
       - triplestore
       - upload-triplestore
     environment:
-      - SPARQL_ENDPOINT=http://triplestore:8080/rdf4j-server/repositories/sssom?query=
+      - SPARQL_ENDPOINT=http://triplestore:8080/rdf4j-server/repositories/sssom
   triplestore:
     image: eclipse/rdf4j-workbench:latest
     environment:
@@ -26,7 +26,7 @@ services:
   upload-triplestore:
     build:
       context: .
-      dockerfile: docker-upload-triplestore/Dockerfile
+      dockerfile: upload.Dockerfile
     depends_on:
       - triplestore
     links:
