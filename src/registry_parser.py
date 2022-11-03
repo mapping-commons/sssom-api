@@ -4,7 +4,7 @@ from parser import read_mappings
 
 def main(args):
   mappings_graph = read_mappings(args.registry)
-  return mappings_graph.serialize("../mappings.ttl")
+  return mappings_graph.serialize("../data/mappings.ttl")
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
