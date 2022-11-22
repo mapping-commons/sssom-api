@@ -1,10 +1,11 @@
 
-import argparse, json, yaml
+import argparse, json, yaml, uuid
 
 from rdflib import ConjunctiveGraph
 from sssom.parsers import parse_sssom_table
 from sssom.writers import to_rdf_graph, to_json
 from models import MappingRegistry, MappingSetReference
+from sssom_schema import SSSOM
 
 def registry_parser(config: str) -> MappingRegistry:
   with open(config, 'r') as f:
@@ -24,6 +25,19 @@ def registry_parser(config: str) -> MappingRegistry:
     )
   )
 
+def generate_uuid(input):
+  input_concat = ''.join(input)
+  id = uuid.uuid5(uuid.NAMESPACE_DNS, input_concat)
+  
+  return f'{SSSOM}{str(id).replace("-", "")}'
+
+def add_uuid(input):
+  input["@id"] = generate_uuid([input["mapping_set_id"]])
+  for mapping in input["mappings"]:
+    mapping_key = [mapping["subject_id"], mapping["predicate_id"], mapping["object_id"], mapping["mapping_justification"]]
+    mapping["@id"] = generate_uuid(mapping_key)
+  return input
+
 def read_mappings(config: str) -> ConjunctiveGraph:
   # mappings_graph = ConjunctiveGraph()
   mappings_json = []
@@ -33,14 +47,14 @@ def read_mappings(config: str) -> ConjunctiveGraph:
   for _, mapping_set_ref in registry.mapping_set_references.items():
     print(f"Parsing mapping_set_id {mapping_set_ref.mapping_set_id}")
     # mappings_graph += to_rdf_graph(parse_sssom_table(mapping_set_ref.mapping_set_id))
-    mappings_json.append(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id)))
+    mappings_json.append(add_uuid(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id))))
     
   return mappings_json
 
 def main(args):
   mappings_graph = read_mappings(args.registry)
   # mappings_graph.serialize("../data/mappings.ttl")
-  with open("../data/mappings.json", 'w', encoding='utf-8') as f:
+  with open("../data/mappings.jsonld", 'w', encoding='utf-8') as f:
     json.dump(mappings_graph, f, ensure_ascii=False, indent=2)
 
 if __name__ == '__main__':
