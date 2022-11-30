@@ -48,6 +48,7 @@ def read_mappings(config: str) -> ConjunctiveGraph:
     print(f"Parsing mapping_set_id {mapping_set_ref.mapping_set_id}")
     # mappings_graph += to_rdf_graph(parse_sssom_table(mapping_set_ref.mapping_set_id))
     mappings_json.append(add_uuid(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id))))
+    # mappings_json.append(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id)))
     
   return mappings_json
 
