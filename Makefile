@@ -1,7 +1,12 @@
 dev:
 	uvicorn src.main:app --reload
 
-ttl_from_registry: data/registry.yml
+REGISTRY_URL = https://raw.githubusercontent.com/mapping-commons/mh_mapping_initiative/master/registry.yml
+
+$(PWD)/data/registry.yml:
+	wget $(REGISTRY_URL) -O $@
+
+ttl_from_registry: $(PWD)/data/registry.yml
 	cd src && python3 registry_parser.py $<
 
 deploy_api:

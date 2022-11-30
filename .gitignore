@@ -1,4 +1,5 @@
 __pycache__
 .env
 /data/mappings.ttl
+/data/mappings.jsonld
 /data/registry.yml
