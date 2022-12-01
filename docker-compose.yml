@@ -35,3 +35,7 @@ services:
       - SERVER=http://triplestore:8080
     volumes:
       - ./data:/data
+  solr:
+    image: solr:9.1.0
+    ports:
+      - 8993:8389
