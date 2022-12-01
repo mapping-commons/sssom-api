@@ -31,11 +31,27 @@ def generate_uuid(input):
   
   return f'{SSSOM}{str(id).replace("-", "")}'
 
+def update_context(input: dict) -> dict:
+  for _, value in input["@context"].items():
+    if not isinstance(value, dict):
+      continue
+    
+    if not value.get('@type'):
+      continue
+
+    if value['@type'] != "rdfs:Resource":
+      continue
+    
+    value['@type'] = "@id"
+
+  return input
+
 def add_uuid(input):
   input["@id"] = generate_uuid([input["mapping_set_id"]])
   for mapping in input["mappings"]:
     mapping_key = [mapping["subject_id"], mapping["predicate_id"], mapping["object_id"], mapping["mapping_justification"]]
     mapping["@id"] = generate_uuid(mapping_key)
+    mapping["@type"] = "Mapping"
   return input
 
 def read_mappings(config: str) -> ConjunctiveGraph:
@@ -47,7 +63,8 @@ def read_mappings(config: str) -> ConjunctiveGraph:
   for _, mapping_set_ref in registry.mapping_set_references.items():
     print(f"Parsing mapping_set_id {mapping_set_ref.mapping_set_id}")
     # mappings_graph += to_rdf_graph(parse_sssom_table(mapping_set_ref.mapping_set_id))
-    mappings_json.append(add_uuid(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id))))
+    mappings_json.append(update_context(add_uuid(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id)))))
+    # mappings_json.append(add_uuid(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id))))
     # mappings_json.append(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id)))
     
   return mappings_json
