@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api.Dockerfile
+    command: uvicorn app.main:app --host 0.0.0.0
+    volumes:
+      - ./src:/code/app
+      - .env:/code/.env
+    ports:
+      - 8008:8000
+    depends_on:
+      - triplestore
+      - upload-triplestore
+    environment:
+      - SPARQL_ENDPOINT=http://triplestore:8080/rdf4j-server/repositories/sssom
+  triplestore:
+    image: eclipse/rdf4j-workbench:latest
+    environment:
+      - JVM_PARAMS=-Xms3G -Xmx5G
+      - RDF4J_DATA=/data 
+    ports:
+      - 8080:8080
+  upload-triplestore:
+    build:
+      context: .
+      dockerfile: upload.Dockerfile
+    depends_on:
+      - triplestore
+    links:
+      - triplestore
+    environment:
+      - SERVER=http://triplestore:8080
+    volumes:
+      - ./data:/data

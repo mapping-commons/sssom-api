@@ -1,3 +1,6 @@
+.vscode
 __pycache__
 .env
-mappings.ttl
+/data/mappings.ttl
+/data/mappings.jsonld
+/data/registry.yml
