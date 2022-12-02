@@ -43,6 +43,8 @@ class SparqlImpl(SparqlImplementation):
     
     if subject == None:
       subject = "?_x"
+    else:
+      subject = f'<{subject}>'
 
     if field != None and value != None:
       filter = self.get_slot_uri(field)
@@ -89,8 +91,7 @@ class SparqlImpl(SparqlImplementation):
     out = []
     for row in results:
       for k, v in row.items():
-        out.append(v)
-
+        out.append(v["value"])
     return out
 
   def get_sssom_mappings_by_field(self, field: str, value: str) -> Iterable[Mapping]:
@@ -154,34 +155,30 @@ class SparqlImpl(SparqlImplementation):
       if m is not None:
         yield m
     
-  def get_sssom_mapping_sets_query(self, request: Request, filter: Union[List[dict], None]) -> MappingSet:
+  def get_sssom_mapping_sets_query(self, request: Request, filter: Union[List[dict], None]):
     fields_list, fields_single = parse_fields_type(MULTIVALUED_SLOTS, MAPPING_SET_SLOTS)
+    # Search for single value attributes
     default_query = self.add_filters(self.default_query(fields_single), filter)
+    print(default_query.query_str())
     bindings = self._query(default_query)
     for row in bindings:
       r = self.transform_result(row)
+      # Search for multiple value attributes
       for field in fields_list:
         default_query_list = self.default_query(slots=[field], subject=r["_x"])
+        print(default_query_list.query_str())
         bindings_list = self.transform_result_list(self._query(default_query_list))
+        
         r[f"{field}"] = bindings_list
 
       mapps = []
-
-      # for m in r["mappings"]:
-      mapps.append({ "href": url_of(request, 'mappings.mapping_by_id', id=r["mappings"]) })
+      for m in r["mappings"]:
+        mapps.append({ "href": url_of(request, 'mappings.mapping_by_id', id=m) })
 
       r["mappings"] = mapps
-
-      yield r
-      # for m in r["mappings"]:
-      #   default_query_mapping = self.add_filters(self.default_query(slots=Mapping, subject=m), filter)
-      #   bindings = self._query(default_query_mapping)
-      #   for row in bindings:
-      #     m = self.transform_result(row)
       
-      # m = self.create_sssom_mapping_set(**r)
-      # if m is not None:
-      #   yield m
+      yield r
+
   def get_sssom_mapping_by_id(self, id: str) -> Mapping:
     default_query = self.default_query(slots=MAPPING_SLOTS, subject=id)
     bindings = self._query(default_query)
