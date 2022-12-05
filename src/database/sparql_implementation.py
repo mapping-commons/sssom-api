@@ -52,7 +52,10 @@ class SparqlImpl(SparqlImplementation):
       slots.remove(field)
     
     for f in slots:
-      f_uri = self.get_slot_uri(f)
+      if f == 'uuid':
+        f_uri = f'{SSSOM}uuid'
+      else:
+        f_uri = self.get_slot_uri(f)
       opt = f"OPTIONAL {{ {subject} <{f_uri}> ?{f} }}"
       query.where.append(opt)
 
@@ -90,6 +93,7 @@ class SparqlImpl(SparqlImplementation):
     # sparql results in one list
     out = []
     for row in results:
+      print(row)
       for k, v in row.items():
         out.append(v["value"])
     return out
@@ -165,7 +169,7 @@ class SparqlImpl(SparqlImplementation):
       r = self.transform_result(row)
       # Search for multiple value attributes
       for field in fields_list:
-        default_query_list = self.default_query(slots=[field], subject=r["_x"])
+        default_query_list = self.default_query(slots=[field, "uuid"], subject=r["_x"])
         print(default_query_list.query_str())
         bindings_list = self.transform_result_list(self._query(default_query_list))
         
@@ -180,7 +184,7 @@ class SparqlImpl(SparqlImplementation):
       yield r
 
   def get_sssom_mapping_by_id(self, id: str) -> Mapping:
-    default_query = self.default_query(slots=MAPPING_SLOTS, subject=id)
+    default_query = self.default_query(slots=["uuid"], subject=id)
     bindings = self._query(default_query)
     m = self.transform_result(bindings[0])
     return create_sssom_mapping(**m)

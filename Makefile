@@ -16,3 +16,6 @@ deploy_api:
 rebuild-%:
 	docker-compose up --force-recreate --build --no-deps $*
 
+build-sssom-api:
+	docker-compose up --build
+

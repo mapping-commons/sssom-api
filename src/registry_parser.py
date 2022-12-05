@@ -28,8 +28,9 @@ def registry_parser(config: str) -> MappingRegistry:
 def generate_uuid(input):
   input_concat = ''.join(input)
   id = uuid.uuid5(uuid.NAMESPACE_DNS, input_concat)
+  uu_id = str(id).replace("-", "")
   
-  return f'{SSSOM}{str(id).replace("-", "")}'
+  return f'{SSSOM}{uu_id}', uu_id
 
 def update_context(input: dict) -> dict:
   for _, value in input["@context"].items():
@@ -44,13 +45,15 @@ def update_context(input: dict) -> dict:
     
     value['@type'] = "@id"
 
+  input["@context"]["uuid"] = { "@type": "xsd:string"}
+
   return input
 
 def add_uuid(input):
-  input["@id"] = generate_uuid([input["mapping_set_id"]])
+  input["@id"], input["uuid"] = generate_uuid([input["mapping_set_id"]])
   for mapping in input["mappings"]:
     mapping_key = [mapping["subject_id"], mapping["predicate_id"], mapping["object_id"], mapping["mapping_justification"]]
-    mapping["@id"] = generate_uuid(mapping_key)
+    mapping["@id"], mapping["uuid"] = generate_uuid(mapping_key)
     mapping["@type"] = "Mapping"
   return input
 
