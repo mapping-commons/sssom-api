@@ -180,7 +180,7 @@ class SparqlImpl(SparqlImplementation):
           bindings_list = self.transform_result_list(self._query(default_query_list))
           r[f"{field}"] = bindings_list
       
-      r["mappings"] = [{ "href": url_of(request=request, name='mapping_sets.mappings_by_mapping_set', id=r["uuid"]) }]
+      r["mappings"] = { "href": url_of(request=request, name='mapping_sets.mappings_by_mapping_set', id=r["uuid"]) }
       r.pop("_x")
       yield r
 
