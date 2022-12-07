@@ -2,7 +2,10 @@ from typing import List, Union
 
 from fastapi import APIRouter, Depends, Query, HTTPException, Request
 
-from ..database.sparql_implementation import SparqlImpl, get_mapping_sets
+from ..database.sparql_implementation import (
+  SparqlImpl, 
+  get_mapping_sets,
+  get_mappings_by_mapping_set )
 
 from ..models import PaginationParams, MappingSet
 from ..utils import paginate, parser_filter
@@ -23,3 +26,12 @@ def mapping_sets(
   else:
     results = get_mapping_sets(request, sparqlImpl, filter_parsed)
     return paginate(results, **pagination.dict())
+
+@router.get("/{id}/mappings", summary="Get all mappings for a mapping set")
+def mappings_by_mapping_set(
+  id: str,
+  sparqlImpl: SparqlImpl = Depends(get_sparql_implementation),
+  pagination: PaginationParams = Depends()
+):
+  results = get_mappings_by_mapping_set(sparqlImpl, id)
+  return paginate(results, **pagination.dict())
