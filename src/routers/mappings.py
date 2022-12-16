@@ -6,7 +6,8 @@ from ..database.sparql_implementation import (
   SparqlImpl, 
   get_mappings, 
   get_mappings_field,
-  get_mappings_query )
+  get_mappings_query,
+  get_mapping_by_id )
 
 from ..models import Page, PaginationParams, Mapping
 from ..depends import is_valid
@@ -28,7 +29,13 @@ def mappings(
     results = get_mappings_query(sparqlImpl, filter_parsed)
     return paginate(results, **pagination.dict())
 
-
+@router.get("/{id}", summary="Get mapping by id")
+def mapping_by_id(
+  id: str,
+  sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)
+):
+  return get_mapping_by_id(sparqlImpl, id)
+  
 # response_model=Page[Mapping]
 @router.get("/{curie}", summary="Get mappings by CURIE")
 def mappings_by_curie(
@@ -51,3 +58,4 @@ def mappings_by_field(
   else: 
     results = get_mappings_field(sparqlImpl, field, value)
     return paginate(results, **pagination.dict())
+
