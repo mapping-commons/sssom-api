@@ -15,11 +15,14 @@ from oaklib.datamodels.vocabulary import (
 from oaklib.resource import OntologyResource
 
 from sssom_schema import SSSOM
-from sssom.constants import SCHEMA_VIEW, MAPPING_SLOTS
 from ..models import Mapping
 
 
 class SparqlImpl(SparqlImplementation):
+  def __post_init__(self, schema_view):
+    super(SparqlImplementation, self).__post_init__()
+    self.schema_view = schema_view
+
   def value_to_sparql(self, value: str) -> str:
     if value.startswith("http"):
       return f"<{value}>"
@@ -29,7 +32,7 @@ class SparqlImpl(SparqlImplementation):
       return value
 
   def get_slot_uri(self, field: str) -> str:
-    return SCHEMA_VIEW.get_uri(field, expand=True)
+    return self.schema_view.view.get_uri(field, expand=True)
     
   def default_query(self, slots: List, field: Union[str, None]=None, value: Union[str, None]=None) -> SparqlQuery:
     query = SparqlQuery(
@@ -46,7 +49,7 @@ class SparqlImpl(SparqlImplementation):
       f_uri = self.get_slot_uri(f)
       opt = f"OPTIONAL {{?_x <{f_uri}> ?{f}}}"
       query.where.append(opt)
-
+      
     return query
 
   def add_filters(self, query: SparqlQuery, filter: Union[List[dict], None]=None) -> SparqlQuery:
@@ -80,7 +83,7 @@ class SparqlImpl(SparqlImplementation):
     return result
 
   def get_sssom_mappings_by_field(self, field: str, value: str) -> Iterable[Mapping]:
-    bindings = self._query(self.default_query(MAPPING_SLOTS, field, value))
+    bindings = self._query(self.default_query(self.schema_view.mapping_slots, field, value))
     for row in bindings:
       r = self.transform_result(row)
       r[f"{field}"] = value
@@ -128,7 +131,7 @@ class SparqlImpl(SparqlImplementation):
         yield m
 
   def get_sssom_mappings_query(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
-    default_query = self.add_filters(self.default_query(MAPPING_SLOTS), filter)
+    default_query = self.add_filters(self.default_query(self.schema_view.mapping_slots), filter)
     print(default_query.query_str())
     bindings = self._query(default_query)
     for row in bindings:
