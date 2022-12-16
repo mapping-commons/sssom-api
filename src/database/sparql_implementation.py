@@ -16,12 +16,8 @@ from oaklib.resource import OntologyResource
 
 from sssom_schema import SSSOM
 
-
-from ..routers import url_of
 from ..models import Mapping, MappingSet
 from ..utils import parse_fields_type
-
-# SSSOM = Namespace("https://w3id.org/sssom/")
 
 class SparqlImpl(SparqlImplementation):
   def __post_init__(self, schema_view):
@@ -170,7 +166,7 @@ class SparqlImpl(SparqlImplementation):
         yield m
     
   def get_sssom_mapping_sets_query(self, request: Request, filter: Union[List[dict], None]):
-    fields_list, fields_single = parse_fields_type(MULTIVALUED_SLOTS, MAPPING_SET_SLOTS)
+    fields_list, fields_single = parse_fields_type(multivalued_fields=self.schema_view.multivalued_slots, slots=self.schema_view.mapping_set_slots)
     fields_single.add("uuid")
     # Search for single value attributes
     default_query = self.add_filters(self.default_query(MappingSet.class_class_uri, fields_single), filter)
@@ -184,18 +180,18 @@ class SparqlImpl(SparqlImplementation):
           bindings_list = self.transform_result_list(self._query(default_query_list))
           r[f"{field}"] = bindings_list
       
-      r["mappings"] = { "href": url_of(request=request, name='mapping_sets.mappings_by_mapping_set', id=r["uuid"]) }
+      r["mappings"] = { "href": request.url_for(name='mappings_by_mapping_set', id=r["uuid"]) }
       r.pop("_x")
       yield r
 
   def get_sssom_mapping_by_id(self, id: str) -> Mapping:
-    default_query = self.default_query(Mapping.class_class_uri, slots=MAPPING_SLOTS, subject=f'{SSSOM}{id}')
+    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots, subject=f'{SSSOM}{id}')
     bindings = self._query(default_query)
     m = self.transform_result(bindings[0])
     return create_sssom_mapping(**m)
 
   def get_sssom_mappings_by_mapping_set_id(self, id: str) -> Iterable[Mapping]:
-    default_query = self.default_query(Mapping.class_class_uri, slots=MAPPING_SLOTS+["mapping_set"], field="mapping_set", value=f'{SSSOM}{id}', inverse=True)
+    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots+["mapping_set"], field="mapping_set", value=f'{SSSOM}{id}', inverse=True)
     bindings = self._query(default_query)
     for row in bindings:
       r = self.transform_result(row)
