@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from .routers import mappings, mapping_sets
+from .routers import mappings, mapping_sets, entities
 
 
 def create_app():
@@ -8,6 +8,7 @@ def create_app():
 
     app.include_router(mappings.router)
     app.include_router(mapping_sets.router)
+    app.include_router(entities.router)
     return app
 
 
