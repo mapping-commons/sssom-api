@@ -55,3 +55,9 @@ def parser_filter(datamodel: T, filter: Union[List[str], None] = None) -> Union[
     filter_pars.append({"field": field, "operator": operator, "value": value})
 
   return filter_pars
+
+def parse_fields_type(multivalued_fields: List, slots: List):  
+  fields_list = set(multivalued_fields) & set(slots)
+  fields_single = set(slots) - fields_list
+
+  return fields_list, fields_single

@@ -13,3 +13,9 @@ deploy_api:
 	docker run -d -v $(PWD)/data/mappings.ttl:/code/mapping.ttl \
 		-v $(PWD)/.env:/code/.env -p 80:80 anitacaron/sssom-api:v0.0.1
 
+rebuild-%:
+	docker-compose up --force-recreate --build --no-deps $*
+
+build-sssom-api:
+	docker-compose up --build
+
