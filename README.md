@@ -22,11 +22,11 @@ You can access the triplestore at `localhost:8080/rdf4j-workbench`.
 
 The SSSOM API is designed to be easy to use and has the following endpoints:
 
-`/entities/{CURIE}`
+### `/entities/{CURIE}`
 
 Retrive all mappings with `CURIE` as `subject_id` or `object_id`
 
-`/mappings/?filter`
+### `/mappings/?filter`
 
 Retrieve all mappings in the triplestore. It's possible to filter your results using the filter. The filter pattern is `[field]:[operator]:[value]`.
 
@@ -42,15 +42,19 @@ The list of operators is:
 | lt       | less than                |
 | contains | contains                 |
 
-`/mappings/{field}/{value}`
+### `/mappings/{field}/{value}`
 
 Retrieve the mappings with `field=value`. Check [here](https://mapping-commons.github.io/sssom/Mapping/) to see the complete list of fields/slots for a mapping.
 
-`/mapping_sets`
+### `/mappings/{id}`
+
+Retrieve a mapping by its id.
+
+### `/mapping_sets`
 
 Retrieve the mapping_sets in the triplestore.
 
-`/mapping_sets/{id}/mappings`
+### `/mapping_sets/{id}/mappings`
 
 Retrieve the mappings for a mapping set.
 
