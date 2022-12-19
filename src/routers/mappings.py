@@ -4,13 +4,11 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 
 from ..database.sparql_implementation import (
   SparqlImpl, 
-  get_mappings, 
   get_mappings_field,
   get_mappings_query,
   get_mapping_by_id )
 
-from ..models import Page, PaginationParams, Mapping
-from ..depends import is_valid
+from ..models import PaginationParams, Mapping
 from ..utils import paginate, parser_filter
 from ..settings import get_sparql_implementation
 
@@ -35,16 +33,6 @@ def mapping_by_id(
   sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)
 ):
   return get_mapping_by_id(sparqlImpl, id)
-  
-# response_model=Page[Mapping]
-@router.get("/{curie}", summary="Get mappings by CURIE")
-def mappings_by_curie(
-  sparqlImpl: SparqlImpl = Depends(get_sparql_implementation),
-  curie: str = Depends(is_valid),
-  pagination: PaginationParams = Depends()
-):
-  results = get_mappings(sparqlImpl, curie)
-  return paginate(results, **pagination.dict())
 
 @router.get("/{field}/{value:path}", summary="Get mappings by any field available in Mapping datamodel")
 def mappings_by_field(

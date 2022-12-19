@@ -105,9 +105,11 @@ class SparqlImpl(SparqlImplementation):
     return out
 
   def get_sssom_mappings_by_field(self, field: str, value: str) -> Iterable[Mapping]:
-    bindings = self._query(self.default_query(type=Mapping.class_class_uri, slots=self.schema_view.mapping_slots, field=field, value=value))
+    default_query = self.default_query(type=Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy(), field=field, value=value)
+    bindings = self._query(default_query)
     for row in bindings:
       r = self.transform_result(row)
+      r.pop("_x")
       r[f"{field}"] = value
       m = create_sssom_mapping(**r)
       if m is not None:
@@ -117,46 +119,13 @@ class SparqlImpl(SparqlImplementation):
     return MappingSet(mapping_set_id=mapping_set_id, **kwargs)
 
   def get_sssom_mappings_by_curie(self, curie: CURIE) -> Iterable[Mapping]:
-    pred_uris = [self.curie_to_sparql(pred) for pred in ALL_MATCH_PREDICATES + [EQUIVALENT_CLASS]]
-    query = SparqlQuery(
-      select=["?p", "?o", "?j"],
-      where=[f"?_x <{OWL.annotatedSource}> {self.curie_to_sparql(curie)}",
-        f"?_x <{OWL.annotatedProperty}> ?p",
-        f"?_x <{OWL.annotatedTarget}> ?o",
-        f"?_x <{SSSOM.mapping_justification}> ?j",
-        _sparql_values("p", pred_uris)],
-    )
-    bindings = self._query(query)
-    for row in bindings:
-      m = create_sssom_mapping(
-        subject_id=curie,
-        predicate_id=self.uri_to_curie(row["p"]["value"]),
-        object_id=self.uri_to_curie(row["o"]["value"]),
-        mapping_justification=row["j"]["value"],
-      )
-      if m is not None:
-        yield m
-    query = SparqlQuery(
-        select=["?s", "?p"],
-        where=[f"?_x <{OWL.annotatedSource}> ?s",
-          f"?_x <{OWL.annotatedProperty}> ?p",
-          f"?_x <{OWL.annotatedTarget}> {self.curie_to_sparql(curie)}",
-          f"?_x <{SSSOM.mapping_justification}> ?j",
-          _sparql_values("p", pred_uris)],
-    )
-    bindings = self._query(query)
-    for row in bindings:
-      m = create_sssom_mapping(
-        subject_id=self.uri_to_curie(row["s"]["value"]),
-        predicate_id=self.uri_to_curie(row["p"]["value"]),
-        object_id=curie,
-        mapping_justification=row["j"]["value"],
-      )
-      if m is not None:
-        yield m
-
+    for m in self.get_sssom_mappings_by_field(field="subject_id", value=curie):
+      yield m
+    for m in self.get_sssom_mappings_by_field(field="object_id", value=curie):
+      yield m
+    
   def get_sssom_mappings_query(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
-    default_query = self.add_filters(self.default_query(Mapping.class_class_uri, self.schema_view.mapping_slots), filter)
+    default_query = self.add_filters(self.default_query(Mapping.class_class_uri, self.schema_view.mapping_slots.copy()), filter)
     bindings = self._query(default_query)
     for row in bindings:
       r = self.transform_result(row)
@@ -166,7 +135,7 @@ class SparqlImpl(SparqlImplementation):
         yield m
     
   def get_sssom_mapping_sets_query(self, request: Request, filter: Union[List[dict], None]):
-    fields_list, fields_single = parse_fields_type(multivalued_fields=self.schema_view.multivalued_slots, slots=self.schema_view.mapping_set_slots)
+    fields_list, fields_single = parse_fields_type(multivalued_fields=self.schema_view.multivalued_slots, slots=self.schema_view.mapping_set_slots.copy())
     fields_single.add("uuid")
     # Search for single value attributes
     default_query = self.add_filters(self.default_query(MappingSet.class_class_uri, fields_single), filter)
@@ -185,13 +154,13 @@ class SparqlImpl(SparqlImplementation):
       yield r
 
   def get_sssom_mapping_by_id(self, id: str) -> Mapping:
-    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots, subject=f'{SSSOM}{id}')
+    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy(), subject=f'{SSSOM}{id}')
     bindings = self._query(default_query)
     m = self.transform_result(bindings[0])
     return create_sssom_mapping(**m)
 
   def get_sssom_mappings_by_mapping_set_id(self, id: str) -> Iterable[Mapping]:
-    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots+["mapping_set"], field="mapping_set", value=f'{SSSOM}{id}', inverse=True)
+    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy()+["mapping_set"], field="mapping_set", value=f'{SSSOM}{id}', inverse=True)
     bindings = self._query(default_query)
     for row in bindings:
       r = self.transform_result(row)
@@ -204,8 +173,8 @@ def get_mappings(imp: SparqlImpl, curie: CURIE) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_curie(curie)
   return mappings
 
-def get_mappings_field(imp: SparqlImpl, field: str, value: str, inverse=False) -> Iterable[Mapping]:
-  mappings = imp.get_sssom_mappings_by_field(field, value, inverse)
+def get_mappings_field(imp: SparqlImpl, field: str, value: str) -> Iterable[Mapping]:
+  mappings = imp.get_sssom_mappings_by_field(field, value)
   return mappings
 
 def get_mappings_query(imp: SparqlImpl, filter: Union[List[dict], None]) -> Iterable[Mapping]:

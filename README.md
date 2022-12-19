@@ -22,7 +22,7 @@ You can access the triplestore at `localhost:8080/rdf4j-workbench`.
 
 The SSSOM API is designed to be easy to use and has the following endpoints:
 
-`/entity/{CURIE}`
+`/entities/{CURIE}`
 
 Retrive all mappings with `CURIE` as `subject_id` or `object_id`
 
