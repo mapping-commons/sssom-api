@@ -29,6 +29,8 @@ class SparqlImpl(SparqlImplementation):
       return f"<{value}>"
     elif ":" in value:
       return self.curie_to_sparql(value)
+    elif isinstance(float(value), float):
+      return value
     else:
       return f'"{value}"'
 
