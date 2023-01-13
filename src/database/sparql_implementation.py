@@ -30,7 +30,7 @@ class SparqlImpl(SparqlImplementation):
     elif ":" in value:
       return self.curie_to_sparql(value)
     else:
-      return value
+      return f'"{value}"'
 
   def get_slot_uri(self, field: str) -> str:
     if field == 'uuid':
