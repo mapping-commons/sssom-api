@@ -51,7 +51,9 @@ def parser_filter(datamodel: T, filter: Union[List[str], None] = None) -> Union[
     field, operator, value = fil
     if not hasattr(datamodel, field):
       return None
-
+    
+    if field == 'confidence':
+      value = dec2sci(value)
     filter_pars.append({"field": field, "operator": operator, "value": value})
 
   return filter_pars
@@ -61,3 +63,11 @@ def parse_fields_type(multivalued_fields: List, slots: List):
   fields_single = set(slots) - fields_list
 
   return fields_list, fields_single
+
+# scientific e notation to decimal notation
+def sci2dec(number: str) -> float:
+  return float(number)
+
+# decimal notation to scientific e notation
+def dec2sci(number: float) -> str:
+  return '{:.2E}'.format(float(number))
