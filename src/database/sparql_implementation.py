@@ -107,7 +107,6 @@ class SparqlImpl(SparqlImplementation):
     return out
 
   def add_id(self, row):
-    print(row['_x'])
     if row.get('other'):
       other = json.loads(row["other"])
       other["mapping_id"] = row["_x"]
