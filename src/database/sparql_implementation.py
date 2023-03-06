@@ -106,13 +106,13 @@ class SparqlImpl(SparqlImplementation):
         out.append(v["value"])
     return out
 
-  def add_id(self, row):
+  def add_id(self, row, name_id):
     if row.get('other'):
       other = json.loads(row["other"])
       other["mapping_id"] = row["_x"]
       row["other"] = json.dumps(other)
     else:
-      row["other"] = json.dumps({"mapping_id": row["_x"]})
+      row["other"] = json.dumps({f"{name_id}": row["_x"]})
     row.pop("_x")
   
     return row
@@ -121,7 +121,7 @@ class SparqlImpl(SparqlImplementation):
     default_query = self.default_query(type=Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy(), field=field, value=value)
     bindings = self._query(default_query)
     for row in bindings:
-      r = self.add_id(self.transform_result(row))
+      r = self.add_id(self.transform_result(row), "sssomapi_mapping_id")
       r[f"{field}"] = value
       m = create_sssom_mapping(**r)
       if m is not None:
@@ -140,7 +140,7 @@ class SparqlImpl(SparqlImplementation):
     default_query = self.add_filters(self.default_query(Mapping.class_class_uri, self.schema_view.mapping_slots.copy()), filter)
     bindings = self._query(default_query)
     for row in bindings:
-      r = self.add_id(self.transform_result(row))
+      r = self.add_id(self.transform_result(row), "sssomapi_mapping_id")
       m = create_sssom_mapping(**r)
       if m is not None:
         yield m
@@ -174,7 +174,7 @@ class SparqlImpl(SparqlImplementation):
     default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy()+["mapping_set"], field="mapping_set", value=f'{SSSOM}{id}', inverse=True)
     bindings = self._query(default_query)
     for row in bindings:
-      r = self.add_id(self.transform_result(row))
+      r = self.add_id(self.transform_result(row), "sssomapi_mapping_id")
       m = create_sssom_mapping(**r)
       if m is not None:
         yield m
