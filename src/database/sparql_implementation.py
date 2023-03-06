@@ -140,7 +140,7 @@ class SparqlImpl(SparqlImplementation):
     default_query = self.add_filters(self.default_query(Mapping.class_class_uri, self.schema_view.mapping_slots.copy()), filter)
     bindings = self._query(default_query)
     for row in bindings:
-      r = self.add_id(self.transform_result(row), "sssomapi_mapping_id")
+      r = self.add_id(self.transform_result(row), "sssom_api:mapping_id")
       m = create_sssom_mapping(**r)
       if m is not None:
         yield m
@@ -174,7 +174,7 @@ class SparqlImpl(SparqlImplementation):
     default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy()+["mapping_set"], field="mapping_set", value=f'{SSSOM}{id}', inverse=True)
     bindings = self._query(default_query)
     for row in bindings:
-      r = self.add_id(self.transform_result(row), "sssomapi_mapping_id")
+      r = self.add_id(self.transform_result(row), "sssom_api:mapping_id")
       m = create_sssom_mapping(**r)
       if m is not None:
         yield m
