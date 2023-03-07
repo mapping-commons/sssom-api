@@ -178,11 +178,19 @@ class SparqlImpl(SparqlImplementation):
     query.where.append(f'?mapping_set {self.value_to_sparql(RDF.type)} {self.value_to_sparql(MappingSet.class_class_uri)}')
     query.where.append(f'?mapping {self.value_to_sparql(RDF.type)} {self.value_to_sparql(Mapping.class_class_uri)}')
     query.where.append(f'?_x {self.value_to_sparql(self.get_slot_uri("mapping_provider"))} ?mapping_provider')
-    # query.where.append(f'?_y {self.value_to_sparql(self.get_slot_uri("subject_id"))} ?entity')
-    # query.where.append(f'?_z {self.value_to_sparql(self.get_slot_uri("object_id"))} ?entity')
-    
     bindings = self._query(query)
-    return self.transform_result(bindings[0])
+    results = self.transform_result(bindings[0])
+
+    # Splitting the query for efficiency (get results faster)
+    query = SparqlQuery(
+      select=["(COUNT(DISTINCT ?entity) as ?nb_entity)"],
+      where=[]
+    )
+    clauses_entity = [f'?_y {self.value_to_sparql(self.get_slot_uri(pred))} ?entity' for pred in ["subject_id", "object_id"]]
+    query.where.append(f" UNION ".join([f"{{ {clause} }}" for clause in clauses_entity]))
+    bindings = self._query(query)
+    results.update(self.transform_result(bindings[0]))
+    return results
 
 def get_mappings(imp: SparqlImpl, curie: CURIE) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_curie(curie)
