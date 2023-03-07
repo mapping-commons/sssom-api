@@ -30,7 +30,7 @@ class SparqlImpl(SparqlImplementation):
     elif ":" in value:
       return self.curie_to_sparql(value)
     else:
-      return value
+      return f'"{value}"'
 
   def get_slot_uri(self, field: str) -> str:
     if field == 'uuid':
@@ -169,6 +169,29 @@ class SparqlImpl(SparqlImplementation):
       if m is not None:
         yield m
 
+  def get_stats(self):
+    query = SparqlQuery(
+      select=["(COUNT(DISTINCT ?mapping) as ?nb_mapping) (COUNT(DISTINCT ?mapping_set) as ?nb_mapping_set) (COUNT(DISTINCT ?mapping_provider) as ?nb_mapping_provider) (COUNT(DISTINCT ?entity) as ?nb_entity)"],
+      where = []
+    )
+    
+    query.where.append(f'?mapping_set {self.value_to_sparql(RDF.type)} {self.value_to_sparql(MappingSet.class_class_uri)}')
+    query.where.append(f'?mapping {self.value_to_sparql(RDF.type)} {self.value_to_sparql(Mapping.class_class_uri)}')
+    query.where.append(f'?_x {self.value_to_sparql(self.get_slot_uri("mapping_provider"))} ?mapping_provider')
+    bindings = self._query(query)
+    results = self.transform_result(bindings[0])
+
+    # Splitting the query for efficiency (get results faster)
+    query = SparqlQuery(
+      select=["(COUNT(DISTINCT ?entity) as ?nb_entity)"],
+      where=[]
+    )
+    clauses_entity = [f'?_y {self.value_to_sparql(self.get_slot_uri(pred))} ?entity' for pred in ["subject_id", "object_id"]]
+    query.where.append(f" UNION ".join([f"{{ {clause} }}" for clause in clauses_entity]))
+    bindings = self._query(query)
+    results.update(self.transform_result(bindings[0]))
+    return results
+
 def get_mappings(imp: SparqlImpl, curie: CURIE) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_curie(curie)
   return mappings
@@ -192,3 +215,7 @@ def get_mapping_by_id(imp: SparqlImpl, id: str) -> Mapping:
 def get_mappings_by_mapping_set(imp: SparqlImpl, id: str) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_mapping_set_id(id)
   return mappings
+
+def get_stats(imp: SparqlImpl):
+  stats = imp.get_stats()
+  return stats
