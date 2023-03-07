@@ -7,13 +7,9 @@ from .routers import mappings, mapping_sets, entities, stats
 def create_app():
     app = FastAPI()
 
-    origins = [
-      "http://localhost:8008",
-    ]
-
     app.add_middleware(
       CORSMiddleware,
-      allow_origins=origins,
+      allow_origins=["*"],
       allow_credentials=True,
       allow_methods=["*"],
       allow_headers=["*"]
