@@ -1,0 +1,1 @@
+SSSOM_API_MAPPING_ID = "sssom_api:mapping_id"
