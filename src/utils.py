@@ -21,6 +21,8 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
     prev_page = None
     next_page = None
     data = []
+    total_items = len(iterable)
+    total_pages = abs(total_items / limit)
     for idx, item in enumerate(iterable):
         if idx == start - 1:
             prev_page = page - 1
@@ -34,6 +36,8 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
         pagination=PaginationInfo(
             previous=_replace_page_param(request, prev_page),
             next=_replace_page_param(request, next_page),
+            total_items=total_items,
+            total_pages=total_pages
         ),
     )
 
