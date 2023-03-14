@@ -25,6 +25,9 @@ class PaginationParams(BaseModel):
 class PaginationInfo(BaseModel):
   previous: Union[str, None] = None
   next: Union[str, None] = None
+  page_number: int
+  total_items: int
+  total_pages: int
 
 
 class Page(GenericModel, Generic[T]):

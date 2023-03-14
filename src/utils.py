@@ -1,5 +1,7 @@
 
 from typing import Iterable, TypeVar, Union, List
+import itertools
+import functools
 
 from fastapi import Request
 
@@ -21,7 +23,10 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
     prev_page = None
     next_page = None
     data = []
-    for idx, item in enumerate(iterable):
+    iter_data, iter_total = itertools.tee(iterable)
+    total_items = functools.reduce(lambda prev, curr: prev + 1, iter_total, 0)
+    total_pages = round(total_items / limit)
+    for idx, item in enumerate(iter_data):
         if idx == start - 1:
             prev_page = page - 1
         if idx >= start and idx < stop:
@@ -34,6 +39,9 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
         pagination=PaginationInfo(
             previous=_replace_page_param(request, prev_page),
             next=_replace_page_param(request, next_page),
+            page_number=page, 
+            total_items=total_items,
+            total_pages=total_pages
         ),
     )
 
