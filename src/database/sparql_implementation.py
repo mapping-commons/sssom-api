@@ -118,11 +118,12 @@ class SparqlImpl(SparqlImplementation):
   def create_sssom_mapping_set(self, mapping_set_id: str, **kwargs) -> Optional[MappingSet]:
     return MappingSet(mapping_set_id=mapping_set_id, **kwargs)
 
-  def get_sssom_mappings_by_curie(self, curie: CURIE) -> Iterable[Mapping]:
-    for m in self.get_sssom_mappings_by_field(field="subject_id", value=curie):
-      yield m
-    for m in self.get_sssom_mappings_by_field(field="object_id", value=curie):
-      yield m
+  def get_sssom_mappings_by_curie(self, curies: List[str]) -> Iterable[Mapping]:
+    for curie in curies.curies:
+      for m in self.get_sssom_mappings_by_field(field="subject_id", value=curie):
+        yield m
+      for m in self.get_sssom_mappings_by_field(field="object_id", value=curie):
+        yield m
     
   def get_sssom_mappings_query(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
     default_query = self.add_filters(self.default_query(Mapping.class_class_uri, self.schema_view.mapping_slots.copy()), filter)

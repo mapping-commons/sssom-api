@@ -34,3 +34,6 @@ class Page(GenericModel, Generic[T]):
   data: List[T]
   pagination: PaginationInfo
 
+
+class SearchEntity(BaseModel):
+  curies: List[str]
