@@ -2,6 +2,7 @@
 from typing import Iterable, TypeVar, Union, List
 import itertools
 import functools
+import math
 
 from fastapi import Request
 
@@ -25,7 +26,7 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
     data = []
     iter_data, iter_total = itertools.tee(iterable)
     total_items = functools.reduce(lambda prev, curr: prev + 1, iter_total, 0)
-    total_pages = round(total_items / limit)
+    total_pages = math.ceil(total_items / limit)
     for idx, item in enumerate(iter_data):
         if idx == start - 1:
             prev_page = page - 1
