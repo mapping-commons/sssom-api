@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "sssom-api"
+version = "0.1.0"
+description = "The Simple Standard for Sharing Ontological Mappings (SSSOM) API is a tool for accessing ontological mappings between different ontologies."
+authors = ["Anita Caron <anitacaron@users.noreply.github.com>"]
+license = "http://www.apache.org/licenses/LICENSE-2.0"
+readme = "README.md"
+packages = [{include = "sssom_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.68.0"
+pydantic = "^1.8.0"
+unicorn = "^0.15.9"
+sssom-schema = "^0.11.0"
+oaklib = "v0.1.71"
+sssom = "^0.3.25"
+curies = "^0.5.2"
+
+[tool.poetry.group.dev.dependencies]
+tox = "^4.4.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
