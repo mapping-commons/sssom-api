@@ -72,11 +72,26 @@ def read_mappings(config: str) -> ConjunctiveGraph:
     
   return mappings_json
 
+def transform_solr(mapping_sets):
+  mappings = []
+  for mapping_set in mapping_sets:
+    for mapping in mapping_set["mappings"]:
+      mapping["mapping_set_id"] = mapping_set["mapping_set_id"]
+      if not mapping.get("mapping_provider"):
+        mapping["mapping_provider"] = mapping_set["mapping_provider"]
+      mappings.append(mapping)
+  
+  return mappings
+
 def main(args):
   mappings_graph = read_mappings(args.registry)
   # mappings_graph.serialize("../data/mappings.ttl")
   with open("../data/mappings.jsonld", 'w', encoding='utf-8') as f:
     json.dump(mappings_graph, f, ensure_ascii=False, indent=2)
+
+  mappings_solr = transform_solr(mappings_graph)
+  with open("../data/mappings_solr.json", 'w', encoding='utf-8') as f:
+    json.dump(mappings_solr, f, ensure_ascii=False, indent=2)
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
