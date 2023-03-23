@@ -47,4 +47,3 @@ services:
       precreate-core sssom; exec solr -f"
 volumes:
   solr_data:
-    external: true
