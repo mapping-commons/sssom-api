@@ -77,7 +77,7 @@ def transform_solr(mapping_sets):
   for mapping_set in mapping_sets:
     for mapping in mapping_set["mappings"]:
       mapping["mapping_set_id"] = mapping_set["mapping_set_id"]
-      if not mapping.get("mapping_provider"):
+      if not mapping.get("mapping_provider") and mapping_set.get("mapping_provider"):
         mapping["mapping_provider"] = mapping_set["mapping_provider"]
       mappings.append(mapping)
   

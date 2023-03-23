@@ -7,7 +7,7 @@ $(PWD)/data/registry.yml:
 	wget $(REGISTRY_URL) -O $@
 
 jsonld_from_registry: $(PWD)/data/registry.yml
-	cd src && python3 registry_parser.py $<
+	cd src && python registry_parser.py $<
 
 deploy_api:
 	docker run -d -v $(PWD)/data/mappings.ttl:/code/mapping.ttl \
