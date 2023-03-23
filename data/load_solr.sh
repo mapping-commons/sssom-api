@@ -14,25 +14,5 @@ do
 done
 
 echo "Indexing $collection in server $host:$port"
-curl --location --request POST "http://$host:$port/solr/$collection/update/json?commit=true" --header 'Content-Type: application/json' --data-binary '@dump.jsonld'
-# curl "http://$host:$port/solr/$collection/update/json/docs"\
-# '?split=/mappings'\
-# '&f=mapping_set_id:/mapping_set_id'\
-# '&f=license:/license'\
-# '&f=mapping_set_description:/mapping_set_description'\
-# '&f=mapping_provider:/mapping_provider'\
-# '&f=mapping_justification:/mappings/mapping_justification'\
-# '&f=subject_id:/mappings/subject_id'\
-# '&f=predicate_id:/mappings/predicate_id'\
-# '&f=object_id:/mappings/object_id'\
-# '&f=subject_label:/mappings/subject_label'\
-# '&f=object_label:/mappings/object_label'\
-# '&echo=true'\
-#  -H 'Content-type:application/json' --data-binary '@dump.jsonld'
+curl --location --request POST "http://$host:$port/solr/$collection/update/json?commit=true" --header 'Content-Type: application/json' --data-binary '@mappings.jsonld'
 
-# '{
-#  "set": {
-#  "my_params": {
-#  "split": "/mappings",
-#  "f": ["mapping_set_id:/mapping_set_id","license:/license","mapping_set_description:/mapping_set_description","mapping_provider:/mapping_provider","mapping_justification:/mappings/mapping_justification", "subject_id:/mappings/subject_id", "subject_label:/mappings/subject_label", "predicate_id:/mappings/predicate_id", "object_id:/mappings/object_id", "object_label:/mappings/object_label"]
-#  }}}'
