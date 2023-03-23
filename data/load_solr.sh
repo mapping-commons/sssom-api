@@ -14,5 +14,5 @@ do
 done
 
 echo "Indexing $collection in server $host:$port"
-curl --location --request POST "http://$host:$port/solr/$collection/update/json?commit=true" --header 'Content-Type: application/json' --data-binary '@mappings.jsonld'
+curl --location --request POST "http://$host:$port/solr/$collection/update/json?commit=true" --header 'Content-Type: application/json' --data-binary '@mappings_solr.json'
 
