@@ -3,10 +3,11 @@ from typing import Iterable, TypeVar, Union, List
 import itertools
 import functools
 import math
+from collections import Counter
 
 from fastapi import Request
 
-from .models import Page, PaginationInfo
+from .models import Page, PaginationInfo, FacetInfo
 
 
 def _replace_page_param(request: Request, new_page: Union[int, None]) -> Union[str, None]:
@@ -24,7 +25,7 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
     prev_page = None
     next_page = None
     data = []
-    iter_data, iter_total = itertools.tee(iterable)
+    iter_data, iter_total, iter_facets = itertools.tee(iterable, 3)
     total_items = functools.reduce(lambda prev, curr: prev + 1, iter_total, 0)
     total_pages = math.ceil(total_items / limit)
     for idx, item in enumerate(iter_data):
@@ -44,6 +45,15 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
             total_items=total_items,
             total_pages=total_pages
         ),
+        facets=_create_facets(iter_facets)
+    )
+
+def _create_facets(data: Iterable[T]) -> FacetInfo:
+    iter_mj, iter_pred = itertools.tee(data)
+    
+    return FacetInfo(
+        mapping_justification=dict(Counter(list(map(lambda d: d["mapping_justification"], iter_mj)))),
+        predicate=dict(Counter(list(map(lambda d: d["predicate_id"], iter_pred)))),
     )
 
 def parser_filter(datamodel: T, filter: Union[List[str], None] = None) -> Union[List[dict], None]:
