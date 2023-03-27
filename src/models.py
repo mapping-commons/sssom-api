@@ -27,7 +27,7 @@ class PaginationInfo(BaseModel):
 
 class FacetInfo(BaseModel):
   mapping_justification: dict
-  predicate: dict
+  predicate_id: dict
 
 
 class Page(GenericModel, Generic[T]):
