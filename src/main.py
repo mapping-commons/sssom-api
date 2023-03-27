@@ -19,6 +19,12 @@ def create_app():
     app.include_router(mapping_sets.router)
     app.include_router(entities.router)
     app.include_router(stats.router)
+
+    app_ui = FastAPI()
+
+    app_ui.include_router(entities.router_ui)
+
+    app.mount("/ui", app_ui)
     return app
 
 
