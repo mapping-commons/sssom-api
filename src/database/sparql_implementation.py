@@ -16,7 +16,7 @@ from oaklib.resource import OntologyResource
 
 from sssom_schema import SSSOM
 
-from ..models import Mapping, MappingSet
+from ..models import Mapping, MappingSet, SearchEntity
 from ..utils import parse_fields_type
 
 class SparqlImpl(SparqlImplementation):
@@ -104,16 +104,29 @@ class SparqlImpl(SparqlImplementation):
         out.append(v["value"])
     return out
 
-  def get_sssom_mappings_by_field(self, field: str, value: str) -> Iterable[Mapping]:
-    default_query = self.default_query(type=Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy(), field=field, value=value)
+  def get_mappings_by_field(self, field: str, value: str):
+    default_query = self.default_query(type=Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy()+["uuid"], field=field, value=value)
     bindings = self._query(default_query)
+    return bindings
+
+  def get_sssom_mappings_by_field(self, field: str, value: str) -> Iterable[Mapping]:
+    bindings = self.get_mappings_by_field(field, value)
     for row in bindings:
       r = self.transform_result(row)
       r.pop("_x")
+      r.pop("uuid")
       r[f"{field}"] = value
       m = create_sssom_mapping(**r)
       if m is not None:
         yield m
+
+  def get_ui_mappings_by_field(self, field: str, value: str) -> dict:
+    bindings = self.get_mappings_by_field(field, value)
+    for row in bindings:
+      r = self.transform_result(row)
+      r.pop("_x")
+      r[f"{field}"] = value
+      yield r
 
   def create_sssom_mapping_set(self, mapping_set_id: str, **kwargs) -> Optional[MappingSet]:
     return MappingSet(mapping_set_id=mapping_set_id, **kwargs)
@@ -123,6 +136,13 @@ class SparqlImpl(SparqlImplementation):
       for m in self.get_sssom_mappings_by_field(field="subject_id", value=curie):
         yield m
       for m in self.get_sssom_mappings_by_field(field="object_id", value=curie):
+        yield m
+
+  def get_ui_mappings_by_curie(self, curies: SearchEntity):
+    for curie in curies.curies:
+      for m in self.get_ui_mappings_by_field(field="subject_id", value=curie):
+        yield m
+      for m in self.get_ui_mappings_by_field(field="object_id", value=curie):
         yield m
     
   def get_sssom_mappings_query(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
@@ -195,6 +215,10 @@ class SparqlImpl(SparqlImplementation):
 
 def get_mappings(imp: SparqlImpl, curie: CURIE) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_curie(curie)
+  return mappings
+
+def get_mappings_ui(imp: SparqlImpl, curies: SearchEntity):
+  mappings = imp.get_ui_mappings_by_curie(curies)
   return mappings
 
 def get_mappings_field(imp: SparqlImpl, field: str, value: str) -> Iterable[Mapping]:
