@@ -17,7 +17,7 @@ from oaklib.resource import OntologyResource
 from sssom_schema import SSSOM
 
 from ..models import Mapping, MappingSet
-from ..utils import parse_fields_type
+from ..utils import parse_fields_type, OBO_CURIE_CONVERTER
 
 class SparqlImpl(SparqlImplementation):
   def __post_init__(self, schema_view):

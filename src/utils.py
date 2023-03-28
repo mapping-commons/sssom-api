@@ -3,11 +3,13 @@ from typing import Iterable, TypeVar, Union, List
 import itertools
 import functools
 import math
+import curies
 
 from fastapi import Request
 
 from .models import Page, PaginationInfo
 
+OBO_CURIE_CONVERTER = curies.get_obo_converter()
 
 def _replace_page_param(request: Request, new_page: Union[int, None]) -> Union[str, None]:
     if new_page is None:
