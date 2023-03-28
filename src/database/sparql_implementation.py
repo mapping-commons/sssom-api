@@ -125,7 +125,9 @@ class SparqlImpl(SparqlImplementation):
     for row in bindings:
       r = self.transform_result(row)
       r.pop("_x")
-      r[f"{field}"] = value
+      r[f"{field}"] = OBO_CURIE_CONVERTER.expand(value)
+      r["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(r["subject_id"])
+      r["object_id_curie"] = OBO_CURIE_CONVERTER.compress(r["object_id"])
       yield r
 
   def create_sssom_mapping_set(self, mapping_set_id: str, **kwargs) -> Optional[MappingSet]:
