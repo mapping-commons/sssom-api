@@ -17,7 +17,7 @@ from oaklib.resource import OntologyResource
 from sssom_schema import SSSOM
 
 from ..models import Mapping, MappingSet, SearchEntity
-from ..utils import parse_fields_type
+from ..utils import parse_fields_type, OBO_CURIE_CONVERTER
 
 class SparqlImpl(SparqlImplementation):
   def __post_init__(self, schema_view):
@@ -125,7 +125,9 @@ class SparqlImpl(SparqlImplementation):
     for row in bindings:
       r = self.transform_result(row)
       r.pop("_x")
-      r[f"{field}"] = value
+      r[f"{field}"] = OBO_CURIE_CONVERTER.expand(value)
+      r["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(r["subject_id"])
+      r["object_id_curie"] = OBO_CURIE_CONVERTER.compress(r["object_id"])
       yield r
 
   def create_sssom_mapping_set(self, mapping_set_id: str, **kwargs) -> Optional[MappingSet]:
