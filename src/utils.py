@@ -1,13 +1,14 @@
 
 from typing import Iterable, TypeVar, Union, List
 import itertools
-import functools
 import math
+from toolz.recipes import countby
+from toolz.itertoolz import count
 import curies
 
 from fastapi import Request
 
-from .models import Page, PaginationInfo
+from .models import Page, PaginationInfo, FacetInfo
 
 OBO_CURIE_CONVERTER = curies.get_obo_converter()
 
@@ -26,8 +27,8 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
     prev_page = None
     next_page = None
     data = []
-    iter_data, iter_total = itertools.tee(iterable)
-    total_items = functools.reduce(lambda prev, curr: prev + 1, iter_total, 0)
+    iter_data, iter_total, iter_facets = itertools.tee(iterable, 3)
+    total_items = count(iter_total)
     total_pages = math.ceil(total_items / limit)
     for idx, item in enumerate(iter_data):
         if idx == start - 1:
@@ -46,6 +47,15 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
             total_items=total_items,
             total_pages=total_pages
         ),
+        facets=_create_facets(iter_facets)
+    )
+
+def _create_facets(data: Iterable[T]) -> FacetInfo:
+    iter_mj, iter_pred = itertools.tee(data)
+    
+    return FacetInfo(
+        mapping_justification=countby(lambda d: d["mapping_justification"], iter_mj),
+        predicate_id=countby(lambda d: d["predicate_id"], iter_pred),
     )
 
 def parser_filter(datamodel: T, filter: Union[List[str], None] = None) -> Union[List[dict], None]:

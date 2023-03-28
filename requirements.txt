@@ -6,3 +6,4 @@ sssom
 oaklib==v0.1.71
 pydantic[dotenv]
 curies
+toolz
