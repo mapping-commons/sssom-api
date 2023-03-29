@@ -17,7 +17,7 @@ from oaklib.resource import OntologyResource
 from sssom_schema import SSSOM
 
 from ..models import Mapping, MappingSet, SearchEntity
-from ..utils import parse_fields_type
+from ..utils import parse_fields_type, sci2dec
 
 class SparqlImpl(SparqlImplementation):
   def __post_init__(self, schema_view):
@@ -92,6 +92,8 @@ class SparqlImpl(SparqlImplementation):
     for k, v in row.items():
       if v["value"] == 'None':
         result[k] = None
+      elif 'confidence' in k:
+        result['confidence'] = sci2dec(v["value"])
       else:
         result[k] = v["value"]
     return result
@@ -103,6 +105,12 @@ class SparqlImpl(SparqlImplementation):
       for _, v in row.items():
         out.append(v["value"])
     return out
+  
+  def _get_fields(self, slots_type):
+    fields_list, fields_single = parse_fields_type(multivalued_fields=self.schema_view.multivalued_slots.copy(), slots=slots_type)
+    fields_single.add("uuid")
+    
+    return fields_list, fields_single
 
   def get_mappings_by_field(self, field: str, value: str):
     default_query = self.default_query(type=Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy()+["uuid"], field=field, value=value)
@@ -175,10 +183,22 @@ class SparqlImpl(SparqlImplementation):
       yield r
 
   def get_mapping_by_id(self, id: str):
-    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy()+["uuid"], subject=f'{SSSOM}{id}')
-    bindings = self._query(default_query)
-    m = self.transform_result(bindings[0])
-    return m
+    fields_list, fields_single = self._get_fields(slots_type=self.schema_view.mapping_slots.copy())
+    # Search for single value attributes
+    default_query = self.default_query(Mapping.class_class_uri, slots=fields_single, subject=f'{SSSOM}{id}')
+    bindings = self._query(default_query)[0]
+    
+    r = self.transform_result(bindings)
+    # Search for multiple value attributes
+    for field in fields_list:
+      default_query_list = self.default_query(Mapping.class_class_uri, slots=[field], subject=f'{SSSOM}{id}')
+      results = self._query(default_query_list)
+      bindings_list = self.transform_result_list(results)
+      if len(bindings_list):
+        r[f"{field}"] = bindings_list
+    
+    return r
+    
   
   def get_sssom_mapping_by_id(self, id: str) -> Mapping:
     mapping = self.get_mapping_by_id(id)
