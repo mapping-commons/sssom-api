@@ -174,11 +174,16 @@ class SparqlImpl(SparqlImplementation):
       r.pop("_x")
       yield r
 
-  def get_sssom_mapping_by_id(self, id: str) -> Mapping:
-    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy(), subject=f'{SSSOM}{id}')
+  def get_mapping_by_id(self, id: str):
+    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy()+["uuid"], subject=f'{SSSOM}{id}')
     bindings = self._query(default_query)
     m = self.transform_result(bindings[0])
-    return create_sssom_mapping(**m)
+    return m
+  
+  def get_sssom_mapping_by_id(self, id: str) -> Mapping:
+    mapping = self.get_mapping_by_id(id)
+    mapping.pop("uuid")
+    return create_sssom_mapping(**mapping)
 
   def get_sssom_mappings_by_mapping_set_id(self, id: str) -> Iterable[Mapping]:
     default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy()+["mapping_set"], field="mapping_set", value=f'{SSSOM}{id}', inverse=True)
@@ -236,6 +241,9 @@ def get_mapping_sets(request: Request, imp: SparqlImpl, filter: Union[List[dict]
 def get_mapping_by_id(imp: SparqlImpl, id: str) -> Mapping:
   mapping = imp.get_sssom_mapping_by_id(id)
   return mapping
+
+def get_ui_mapping_by_id(imp: SparqlImpl, id: str) -> dict:
+  return imp.get_mapping_by_id(id)
 
 def get_mappings_by_mapping_set(imp: SparqlImpl, id: str) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_mapping_set_id(id)

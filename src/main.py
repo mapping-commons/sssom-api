@@ -23,6 +23,7 @@ def create_app():
     app_ui = FastAPI()
 
     app_ui.include_router(entities.router_ui)
+    app_ui.include_router(mappings.router_ui)
 
     app.mount("/ui", app_ui)
     return app
