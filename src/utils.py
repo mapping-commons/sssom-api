@@ -4,11 +4,13 @@ import itertools
 import math
 from toolz.recipes import countby
 from toolz.itertoolz import count
+import curies
 
 from fastapi import Request
 
 from .models import Page, PaginationInfo, FacetInfo
 
+OBO_CURIE_CONVERTER = curies.get_obo_converter()
 
 def _replace_page_param(request: Request, new_page: Union[int, None]) -> Union[str, None]:
     if new_page is None:
