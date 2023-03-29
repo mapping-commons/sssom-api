@@ -265,7 +265,11 @@ def get_mapping_by_id(imp: SparqlImpl, id: str) -> Mapping:
   return mapping
 
 def get_ui_mapping_by_id(imp: SparqlImpl, id: str) -> dict:
-  return imp.get_mapping_by_id(id)
+  mapping = imp.get_mapping_by_id(id)
+  mapping["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(mapping["subject_id"])
+  mapping["object_id_curie"] = OBO_CURIE_CONVERTER.compress(mapping["object_id"])
+
+  return mapping
 
 def get_mappings_by_mapping_set(imp: SparqlImpl, id: str) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_mapping_set_id(id)
