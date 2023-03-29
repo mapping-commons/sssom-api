@@ -82,7 +82,7 @@ class SparqlImpl(SparqlImplementation):
       if f["operator"] == "lt":
         query.add_filter(f"?{f['field']} < {f['value']}")
       if f["operator"] == "contains":
-        query.add_filter(f"CONTAINS(?{f['field']}, '{f['value']}')")
+        query.add_filter(f"CONTAINS(STR(?{f['field']}), '{f['value']}')")
     
     return query
 
