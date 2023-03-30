@@ -65,7 +65,7 @@ def parser_filter(datamodel: T, filter: Union[List[str], None] = None) -> Union[
     return filter_pars
 
   for f in filter:
-    fil = f.split(":")
+    fil = f.split("|")
     if len(fil) > 3:
       return None
     
@@ -75,6 +75,8 @@ def parser_filter(datamodel: T, filter: Union[List[str], None] = None) -> Union[
     
     if field == 'confidence':
       value = dec2sci(value)
+    if field == 'subject_id' or field == 'object_id':
+       value = OBO_CURIE_CONVERTER.expand(value)
     filter_pars.append({"field": field, "operator": operator, "value": value})
 
   return filter_pars
