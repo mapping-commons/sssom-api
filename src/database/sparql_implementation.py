@@ -60,14 +60,14 @@ class SparqlImpl(SparqlImplementation):
     
     if fields != None:
       for field, values in fields.items():
-        # filter = self.value_to_sparql(self.get_slot_uri(field))
+        if field == "mapping_set":
+          filter = self.value_to_sparql(self.get_slot_uri(field))
+        if inverse:
+          query.where.append(f"OPTIONAL {{ ?{field} {filter} {subject} }}")
+    
         if values != None:
           values = list(map(lambda x: self.value_to_sparql(x), values))
           query.add_filter(f'?{field} IN ( {", ".join(values)})')
-        # if inverse:
-        #   query.where.append(f"{self.value_to_sparql(value)} {filter} {subject}")
-        # else:
-        #   query.where.append(f"{subject} {filter} {self.value_to_sparql(value)}")
 
     return query
 
