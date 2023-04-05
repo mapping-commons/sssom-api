@@ -22,13 +22,31 @@ You can access the triplestore at `localhost:8080/rdf4j-workbench`.
 
 The SSSOM API is designed to be easy to use and has the following endpoints:
 
-### `/entities/{CURIE}`
+### `/entities`
 
-Retrive all mappings with `CURIE` as `subject_id` or `object_id`
+POST endpoint to retrive all mappings with `CURIE` as `subject_id` or `object_id` and optionally filtering by mapping justification and predicate id.
+
+The request body is
+
+```json
+{
+  "curies": [
+    "string"
+  ],
+  "mapping_justification": [
+    "string"
+  ],
+  "predicate_id": [
+    "string"
+  ]
+}
+```
+
+Only the object curies is required.
 
 ### `/mappings/?filter`
 
-Retrieve all mappings in the triplestore. It's possible to filter your results using the filter. The filter pattern is `[field]:[operator]:[value]`.
+Retrieve all mappings in the triplestore. It's possible to filter your results using the filter. The filter pattern is `[field]|[operator]|[value]`.
 
 For the complete list of fields, check [here](https://mapping-commons.github.io/sssom/Mapping/).
 
