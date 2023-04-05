@@ -1,14 +1,16 @@
 from typing import List, Union
 
 from fastapi import APIRouter, Depends, HTTPException, Query
+from sssom_schema import Mapping
 
 from ..database.sparql_implementation import (
     SparqlImpl,
+    get_ui_mapping_by_id,
     get_mapping_by_id,
     get_mappings_field,
     get_mappings_query,
 )
-from ..models import Mapping, PaginationParams
+from ..models import PaginationParams
 from ..settings import get_sparql_implementation
 from ..utils import paginate, parser_filter
 
@@ -48,3 +50,13 @@ def mappings_by_field(
     else:
         results = get_mappings_field(sparqlImpl, field, value)
         return paginate(results, **pagination.dict())
+
+
+router_ui = APIRouter(prefix="/mappings", tags=["mappings"])
+
+@router_ui.get("/{id}", summary="Get mapping by id")
+def mapping_by_id_ui(
+    id: str,
+    sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)
+):
+    return get_ui_mapping_by_id(sparqlImpl, id)

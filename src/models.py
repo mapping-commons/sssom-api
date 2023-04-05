@@ -24,10 +24,18 @@ class PaginationInfo(BaseModel):
     total_pages: int
 
 
+class FacetInfo(BaseModel):
+  mapping_justification: dict
+  predicate_id: dict
+
+
 class Page(GenericModel, Generic[T]):
-    data: List[T]
-    pagination: PaginationInfo
+  data: List[T]
+  pagination: PaginationInfo
+  facets: FacetInfo
 
 
 class SearchEntity(BaseModel):
-    curies: List[str]
+  curies: List[str]
+  mapping_justification: Union[List[str], None] = None
+  predicate_id: Union[List[str], None] = None

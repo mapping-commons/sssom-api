@@ -1,12 +1,16 @@
+import curies
 import functools
 import itertools
 import math
+from toolz.itertoolz import count
+from toolz.recipes import countby
 from typing import Iterable, List, TypeVar, Union
 
 from fastapi import Request
 
-from .models import Page, PaginationInfo
+from .models import Page, PaginationInfo, FacetInfo
 
+OBO_CURIE_CONVERTER = curies.get_obo_converter()
 
 def _replace_page_param(request: Request, new_page: Union[int, None]) -> Union[str, None]:
     if new_page is None:
@@ -23,8 +27,8 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
     prev_page = None
     next_page = None
     data = []
-    iter_data, iter_total = itertools.tee(iterable)
-    total_items = functools.reduce(lambda prev, curr: prev + 1, iter_total, 0)
+    iter_data, iter_total, iter_facets = itertools.tee(iterable, 3)
+    total_items = count(iter_total)
     total_pages = math.ceil(total_items / limit)
     for idx, item in enumerate(iter_data):
         if idx == start - 1:
@@ -43,6 +47,15 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
             total_items=total_items,
             total_pages=total_pages,
         ),
+        facets=_create_facets(iter_facets)
+    )
+
+def _create_facets(data: Iterable[T]) -> FacetInfo:
+    iter_mj, iter_pred = itertools.tee(data)
+    
+    return FacetInfo(
+        mapping_justification=countby(lambda d: d["mapping_justification"], iter_mj),
+        predicate_id=countby(lambda d: d["predicate_id"], iter_pred),
     )
 
 
@@ -55,7 +68,7 @@ def parser_filter(
         return filter_pars
 
     for f in filter:
-        fil = f.split(":")
+        fil = f.split("|")
         if len(fil) > 3:
             return None
 
@@ -65,6 +78,8 @@ def parser_filter(
 
         if field == "confidence":
             value = dec2sci(float(value))
+        if field == "subject_id" or field == "object_id":
+            value = OBO_CURIE_CONVERTER.expand(value)
         filter_pars.append({"field": field, "operator": operator, "value": value})
 
     return filter_pars
