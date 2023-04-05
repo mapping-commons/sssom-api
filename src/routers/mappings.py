@@ -5,10 +5,10 @@ from sssom_schema import Mapping
 
 from ..database.sparql_implementation import (
     SparqlImpl,
-    get_ui_mapping_by_id,
     get_mapping_by_id,
     get_mappings_field,
     get_mappings_query,
+    get_ui_mapping_by_id,
 )
 from ..models import PaginationParams
 from ..settings import get_sparql_implementation
@@ -54,9 +54,7 @@ def mappings_by_field(
 
 router_ui = APIRouter(prefix="/mappings", tags=["mappings"])
 
+
 @router_ui.get("/{id}", summary="Get mapping by id")
-def mapping_by_id_ui(
-    id: str,
-    sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)
-):
+def mapping_by_id_ui(id: str, sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)):
     return get_ui_mapping_by_id(sparqlImpl, id)

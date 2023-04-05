@@ -1,24 +1,23 @@
-import curies
-import functools
 import itertools
 import math
-from toolz.itertoolz import count
-from toolz.recipes import countby
 from typing import Iterable, List, TypeVar, Union
 
+import curies
 from fastapi import Request
+from toolz.itertoolz import count
+from toolz.recipes import countby
 
-from .models import Page, PaginationInfo, FacetInfo
+from .models import FacetInfo, Page, PaginationInfo
 
 OBO_CURIE_CONVERTER = curies.get_obo_converter()
+
+T = TypeVar("T")
+
 
 def _replace_page_param(request: Request, new_page: Union[int, None]) -> Union[str, None]:
     if new_page is None:
         return None
     return str(request.url.include_query_params(page=new_page))
-
-
-T = TypeVar("T")
 
 
 def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> Page[T]:
@@ -47,12 +46,13 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
             total_items=total_items,
             total_pages=total_pages,
         ),
-        facets=_create_facets(iter_facets)
+        facets=_create_facets(iter_facets),
     )
+
 
 def _create_facets(data: Iterable[T]) -> FacetInfo:
     iter_mj, iter_pred = itertools.tee(data)
-    
+
     return FacetInfo(
         mapping_justification=countby(lambda d: d["mapping_justification"], iter_mj),
         predicate_id=countby(lambda d: d["predicate_id"], iter_pred),
