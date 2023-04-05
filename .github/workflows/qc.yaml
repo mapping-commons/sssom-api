@@ -2,9 +2,9 @@ name: Build and test
 
 on:
   push:
-    branches: [ main ]
+    branches: [ dev ]
   pull_request:
-    branches: [ main ]
+    branches: [ dev ]
 
 jobs:
   lint:
@@ -24,54 +24,54 @@ jobs:
       - name: Check code quality 
         run: |
           flake8 src/ tests/
+  # WIP
+  # test:
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     matrix:
+  #       python-version: [ '3.9' ]
 
-  test:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [ '3.9' ]
+  #   steps:
 
-    steps:
+  #     #----------------------------------------------
+  #     #       check-out repo and set-up python
+  #     #----------------------------------------------
+  #     - name: Check out repository
+  #       uses: actions/checkout@v3
 
-      #----------------------------------------------
-      #       check-out repo and set-up python
-      #----------------------------------------------
-      - name: Check out repository
-        uses: actions/checkout@v3
+  #     - name: Set up Python ${{ matrix.python-version }}
+  #       uses: actions/setup-python@v3
+  #       with:
+  #         python-version: ${{ matrix.python-version }}
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v3
-        with:
-          python-version: ${{ matrix.python-version }}
+  #     #----------------------------------------------
+  #     #          install & configure poetry
+  #     #----------------------------------------------
+  #     - name: Install Poetry
+  #       uses: snok/install-poetry@v1.3
+  #       with:
+  #         virtualenvs-create: true
+  #         virtualenvs-in-project: true
 
-      #----------------------------------------------
-      #          install & configure poetry
-      #----------------------------------------------
-      - name: Install Poetry
-        uses: snok/install-poetry@v1.3
-        with:
-          virtualenvs-create: true
-          virtualenvs-in-project: true
+  #     #----------------------------------------------
+  #     #       load cached venv if cache exists      
+  #     #----------------------------------------------
+  #     - name: Load cached venv
+  #       id: cached-poetry-dependencies
+  #       uses: actions/cache@v3
+  #       with:
+  #         path: .venv
+  #         key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
 
-      #----------------------------------------------
-      #       load cached venv if cache exists      
-      #----------------------------------------------
-      - name: Load cached venv
-        id: cached-poetry-dependencies
-        uses: actions/cache@v3
-        with:
-          path: .venv
-          key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+  #     #----------------------------------------------
+  #     # install dependencies if cache does not exist 
+  #     #----------------------------------------------
+  #     - name: Install dependencies
+  #       if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
+  #       run: poetry install --no-interaction --no-root
 
-      #----------------------------------------------
-      # install dependencies if cache does not exist 
-      #----------------------------------------------
-      - name: Install dependencies
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-        run: poetry install --no-interaction --no-root
-
-      #----------------------------------------------
-      #              run test suite   
-      #----------------------------------------------
-      - name: Run tests
-        run: poetry run pytest
+  #     #----------------------------------------------
+  #     #              run test suite   
+  #     #----------------------------------------------
+  #     - name: Run tests
+  #       run: poetry run pytest
