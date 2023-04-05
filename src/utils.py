@@ -1,8 +1,7 @@
-
-from typing import Iterable, TypeVar, Union, List
-import itertools
 import functools
+import itertools
 import math
+from typing import Iterable, List, TypeVar, Union
 
 from fastapi import Request
 
@@ -40,43 +39,49 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
         pagination=PaginationInfo(
             previous=_replace_page_param(request, prev_page),
             next=_replace_page_param(request, next_page),
-            page_number=page, 
+            page_number=page,
             total_items=total_items,
-            total_pages=total_pages
+            total_pages=total_pages,
         ),
     )
 
-def parser_filter(datamodel: T, filter: Union[List[str], None] = None) -> Union[List[dict], None]:
-  filter_pars = []
 
-  if filter is None:
+def parser_filter(
+    datamodel: object, filter: Union[List[str], None] = None
+) -> Union[List[dict], None]:
+    filter_pars = []
+
+    if filter is None:
+        return filter_pars
+
+    for f in filter:
+        fil = f.split(":")
+        if len(fil) > 3:
+            return None
+
+        field, operator, value = fil
+        if not hasattr(datamodel, field):
+            return None
+
+        if field == "confidence":
+            value = dec2sci(float(value))
+        filter_pars.append({"field": field, "operator": operator, "value": value})
+
     return filter_pars
 
-  for f in filter:
-    fil = f.split(":")
-    if len(fil) > 3:
-      return None
-    
-    field, operator, value = fil
-    if not hasattr(datamodel, field):
-      return None
-    
-    if field == 'confidence':
-      value = dec2sci(value)
-    filter_pars.append({"field": field, "operator": operator, "value": value})
 
-  return filter_pars
+def parse_fields_type(multivalued_fields: List, slots: List):
+    fields_list = set(multivalued_fields) & set(slots)
+    fields_single = set(slots) - fields_list
 
-def parse_fields_type(multivalued_fields: List, slots: List):  
-  fields_list = set(multivalued_fields) & set(slots)
-  fields_single = set(slots) - fields_list
+    return fields_list, fields_single
 
-  return fields_list, fields_single
 
 # scientific e notation to decimal notation
 def sci2dec(number: str) -> float:
-  return float(number)
+    return float(number)
+
 
 # decimal notation to scientific e notation
 def dec2sci(number: float) -> str:
-  return '{:.2E}'.format(float(number))
+    return "{:.2E}".format(float(number))
