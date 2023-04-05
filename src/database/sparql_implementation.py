@@ -16,8 +16,8 @@ from oaklib.resource import OntologyResource
 
 from sssom_schema import SSSOM
 
-from ..models import Mapping, MappingSet
-from ..utils import parse_fields_type
+from ..models import Mapping, MappingSet, SearchEntity
+from ..utils import parse_fields_type, OBO_CURIE_CONVERTER, sci2dec
 
 class SparqlImpl(SparqlImplementation):
   def __post_init__(self, schema_view):
@@ -40,7 +40,7 @@ class SparqlImpl(SparqlImplementation):
     else:
       return self.schema_view.view.get_uri(field, expand=True)
     
-  def default_query(self, type: object, slots: List, subject: Union[str, None]=None, field: Union[str, None]=None, value: Union[str, None]=None, inverse: bool=False) -> SparqlQuery:
+  def default_query(self, type: object, slots: List, subject: Union[str, None]=None, fields: Union[dict, None]=None, inverse: bool=False) -> SparqlQuery:
     query = SparqlQuery(
       select=["*"],
       where = []
@@ -51,21 +51,24 @@ class SparqlImpl(SparqlImplementation):
     else:
       subject = f'<{subject}>'
 
-    query.where.append(f'{subject} {self.value_to_sparql(RDF.type)} {self.value_to_sparql(type)}')
-
-    if field != None and value != None:
-      filter = self.value_to_sparql(self.get_slot_uri(field))
-      if inverse:
-        query.where.append(f"{self.value_to_sparql(value)} {filter} {subject}")
-      else:
-        query.where.append(f"{subject} {filter} {self.value_to_sparql(value)}")
-      slots.remove(field)
+    query.where.append(f'{subject} {self.value_to_sparql(RDF.type)} {self.value_to_sparql(type)}')            
     
     for f in slots:
       f_uri = self.get_slot_uri(f)
       opt = f"OPTIONAL {{ {subject} <{f_uri}> ?{f} }}"
       query.where.append(opt)
-      
+    
+    if fields != None:
+      for field, values in fields.items():
+        if field == "mapping_set":
+          filter = self.value_to_sparql(self.get_slot_uri(field))
+        if inverse:
+          query.where.append(f"OPTIONAL {{ ?{field} {filter} {subject} }}")
+    
+        if values != None:
+          values = list(map(lambda x: self.value_to_sparql(x), values))
+          query.add_filter(f'?{field} IN ( {", ".join(values)})')
+
     return query
 
   def add_filters(self, query: SparqlQuery, filter: Union[List[dict], None]=None) -> SparqlQuery:
@@ -82,7 +85,7 @@ class SparqlImpl(SparqlImplementation):
       if f["operator"] == "lt":
         query.add_filter(f"?{f['field']} < {f['value']}")
       if f["operator"] == "contains":
-        query.add_filter(f"CONTAINS(?{f['field']}, '{f['value']}')")
+        query.add_filter(f"CONTAINS(STR(?{f['field']}), '{f['value']}')")
     
     return query
 
@@ -92,6 +95,8 @@ class SparqlImpl(SparqlImplementation):
     for k, v in row.items():
       if v["value"] == 'None':
         result[k] = None
+      elif 'confidence' in k:
+        result['confidence'] = sci2dec(v["value"])
       else:
         result[k] = v["value"]
     return result
@@ -103,17 +108,40 @@ class SparqlImpl(SparqlImplementation):
       for _, v in row.items():
         out.append(v["value"])
     return out
+  
+  def _get_fields(self, slots_type):
+    fields_list, fields_single = parse_fields_type(multivalued_fields=self.schema_view.multivalued_slots.copy(), slots=slots_type)
+    fields_single.add("uuid")
+    
+    return fields_list, fields_single
 
-  def get_sssom_mappings_by_field(self, field: str, value: str) -> Iterable[Mapping]:
-    default_query = self.default_query(type=Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy(), field=field, value=value)
+  def get_mappings_by_field(self, fields: dict):
+    fields_list, fields_single = self._get_fields(slots_type=self.schema_view.mapping_slots.copy())
+    # Search for single value attributes
+    default_query = self.default_query(Mapping.class_class_uri, slots=fields_single, fields=fields)
+    print(default_query.query_str())
     bindings = self._query(default_query)
     for row in bindings:
       r = self.transform_result(row)
+      # Search for multiple value attributes
+      for field in fields_list:
+        default_query_list = self.default_query(Mapping.class_class_uri, slots=[field], subject=r["_x"], fields=fields)
+        results = self._query(default_query_list)
+        bindings_list = self.transform_result_list(results)
+        if len(bindings_list):
+          r[f"{field}"] = bindings_list
+      yield r
+
+  def get_sssom_mappings_by_field(self, fields: dict) -> Iterable[Mapping]:
+    bindings = self.get_mappings_by_field(fields)
+    for row in bindings:
+      r = self.transform_result(row)
       r.pop("_x")
-      r[f"{field}"] = value
+      r.pop("uuid")
       m = create_sssom_mapping(**r)
       if m is not None:
         yield m
+    
 
   def create_sssom_mapping_set(self, mapping_set_id: str, **kwargs) -> Optional[MappingSet]:
     return MappingSet(mapping_set_id=mapping_set_id, **kwargs)
@@ -124,6 +152,27 @@ class SparqlImpl(SparqlImplementation):
         yield m
       for m in self.get_sssom_mappings_by_field(field="object_id", value=curie):
         yield m
+
+  def get_ui_mappings_by_curie(self, search_filter: SearchEntity):
+    filters = search_filter.dict()
+    curies = filters.pop('curies')
+    
+    filters["subject_id"] = [OBO_CURIE_CONVERTER.expand(curie) for curie in curies]
+    bindings = self.get_mappings_by_field(filters)
+    for row in bindings:
+      row.pop("_x")
+      row["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(row["subject_id"])
+      row["object_id_curie"] = OBO_CURIE_CONVERTER.compress(row["object_id"])
+      yield row
+
+    filters.pop("subject_id")
+    filters["object_id"] = [OBO_CURIE_CONVERTER.expand(curie) for curie in curies]
+    bindings = self.get_mappings_by_field(filters)
+    for row in bindings:
+      row.pop("_x")
+      row["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(row["subject_id"])
+      row["object_id_curie"] = OBO_CURIE_CONVERTER.compress(row["object_id"])
+      yield row
     
   def get_sssom_mappings_query(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
     default_query = self.add_filters(self.default_query(Mapping.class_class_uri, self.schema_view.mapping_slots.copy()), filter)
@@ -154,11 +203,28 @@ class SparqlImpl(SparqlImplementation):
       r.pop("_x")
       yield r
 
+  def get_mapping_by_id(self, id: str):
+    fields_list, fields_single = self._get_fields(slots_type=self.schema_view.mapping_slots.copy())
+    # Search for single value attributes
+    default_query = self.default_query(Mapping.class_class_uri, slots=fields_single, subject=f'{SSSOM}{id}')
+    bindings = self._query(default_query)[0]
+    
+    r = self.transform_result(bindings)
+    # Search for multiple value attributes
+    for field in fields_list:
+      default_query_list = self.default_query(Mapping.class_class_uri, slots=[field], subject=f'{SSSOM}{id}')
+      results = self._query(default_query_list)
+      bindings_list = self.transform_result_list(results)
+      if len(bindings_list):
+        r[f"{field}"] = bindings_list
+    
+    return r
+    
+  
   def get_sssom_mapping_by_id(self, id: str) -> Mapping:
-    default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy(), subject=f'{SSSOM}{id}')
-    bindings = self._query(default_query)
-    m = self.transform_result(bindings[0])
-    return create_sssom_mapping(**m)
+    mapping = self.get_mapping_by_id(id)
+    mapping.pop("uuid")
+    return create_sssom_mapping(**mapping)
 
   def get_sssom_mappings_by_mapping_set_id(self, id: str) -> Iterable[Mapping]:
     default_query = self.default_query(Mapping.class_class_uri, slots=self.schema_view.mapping_slots.copy()+["mapping_set"], field="mapping_set", value=f'{SSSOM}{id}', inverse=True)
@@ -197,6 +263,10 @@ def get_mappings(imp: SparqlImpl, curie: CURIE) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_curie(curie)
   return mappings
 
+def get_mappings_ui(imp: SparqlImpl, curies: SearchEntity):
+  mappings = imp.get_ui_mappings_by_curie(curies)
+  return mappings
+
 def get_mappings_field(imp: SparqlImpl, field: str, value: str) -> Iterable[Mapping]:
   mappings = imp.get_sssom_mappings_by_field(field, value)
   return mappings
@@ -211,6 +281,13 @@ def get_mapping_sets(request: Request, imp: SparqlImpl, filter: Union[List[dict]
 
 def get_mapping_by_id(imp: SparqlImpl, id: str) -> Mapping:
   mapping = imp.get_sssom_mapping_by_id(id)
+  return mapping
+
+def get_ui_mapping_by_id(imp: SparqlImpl, id: str) -> dict:
+  mapping = imp.get_mapping_by_id(id)
+  mapping["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(mapping["subject_id"])
+  mapping["object_id_curie"] = OBO_CURIE_CONVERTER.compress(mapping["object_id"])
+
   return mapping
 
 def get_mappings_by_mapping_set(imp: SparqlImpl, id: str) -> Iterable[Mapping]:

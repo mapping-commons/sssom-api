@@ -7,11 +7,6 @@ from pydantic.generics import GenericModel
 from sssom_schema import Mapping, MappingSet, MappingRegistry, MappingSetReference
 
 T = TypeVar("T")
-# class ResponseMapping(BaseModel):
-#   subject_id: Mapping.subject_id
-#   predicate_id: Mapping.predicate_id
-#   object_id: Mapping.object_id
-#   mapping_justification: Mapping.mapping_justification
 
 class PaginationParams(BaseModel):
   request: Request
@@ -30,10 +25,18 @@ class PaginationInfo(BaseModel):
   total_pages: int
 
 
+class FacetInfo(BaseModel):
+  mapping_justification: dict
+  predicate_id: dict
+
+
 class Page(GenericModel, Generic[T]):
   data: List[T]
   pagination: PaginationInfo
+  facets: FacetInfo
 
 
 class SearchEntity(BaseModel):
   curies: List[str]
+  mapping_justification: Union[List[str], None] = None
+  predicate_id: Union[List[str], None] = None

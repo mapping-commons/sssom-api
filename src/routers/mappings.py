@@ -6,7 +6,8 @@ from ..database.sparql_implementation import (
   SparqlImpl, 
   get_mappings_field,
   get_mappings_query,
-  get_mapping_by_id )
+  get_mapping_by_id,
+  get_ui_mapping_by_id )
 
 from ..models import PaginationParams, Mapping
 from ..utils import paginate, parser_filter
@@ -47,3 +48,12 @@ def mappings_by_field(
     results = get_mappings_field(sparqlImpl, field, value)
     return paginate(results, **pagination.dict())
 
+
+router_ui = APIRouter(prefix="/mappings", tags=["mappings"])
+
+@router_ui.get("/{id}", summary="Get mapping by id")
+def mapping_by_id(
+  id: str,
+  sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)
+):
+  return get_ui_mapping_by_id(sparqlImpl, id)
