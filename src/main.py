@@ -1,18 +1,18 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .routers import mappings, mapping_sets, entities, stats
+from .routers import entities, mapping_sets, mappings, stats
 
 
 def create_app():
     app = FastAPI()
 
     app.add_middleware(
-      CORSMiddleware,
-      allow_origins=["*"],
-      allow_credentials=True,
-      allow_methods=["*"],
-      allow_headers=["*"]
+        CORSMiddleware,
+        allow_origins=["*"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
     )
 
     app.include_router(mappings.router)
@@ -30,5 +30,3 @@ def create_app():
 
 
 app = create_app()
-
-
