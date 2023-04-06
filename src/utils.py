@@ -1,6 +1,6 @@
 import itertools
 import math
-from typing import Iterable, List, TypeVar, Union
+from typing import Iterable, List, Tuple, TypeVar, Union
 
 import curies
 from fastapi import Request
@@ -50,7 +50,7 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
     )
 
 
-def _create_facets(data: Iterable[T]) -> FacetInfo:
+def _create_facets(data: Iterable[object]) -> FacetInfo:
     iter_mj, iter_pred = itertools.tee(data)
 
     return FacetInfo(
@@ -85,7 +85,7 @@ def parser_filter(
     return filter_pars
 
 
-def parse_fields_type(multivalued_fields: List, slots: List):
+def parse_fields_type(multivalued_fields: List[str], slots: List[str]) -> Tuple[set, set]:
     fields_list = set(multivalued_fields) & set(slots)
     fields_single = set(slots) - fields_list
 

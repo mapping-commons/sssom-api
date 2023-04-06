@@ -1,13 +1,14 @@
 from typing import List, Union
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
+from sssom_schema import MappingSet
 
 from ..database.sparql_implementation import (
     SparqlImpl,
     get_mapping_sets,
     get_mappings_by_mapping_set,
 )
-from ..models import MappingSet, PaginationParams
+from ..models import PaginationParams
 from ..settings import get_sparql_implementation
 from ..utils import paginate, parser_filter
 
