@@ -126,7 +126,7 @@ class SparqlImpl(SparqlImplementation):
         )
         # Search for single value attributes
         default_query = self.default_query(
-            Mapping.class_class_uri, slots=fields_single, fields=fields
+            type=Mapping.class_class_uri, slots=fields_single, fields=fields
         )
         bindings = self._query(default_query)
         for row in bindings:
@@ -134,7 +134,7 @@ class SparqlImpl(SparqlImplementation):
             # Search for multiple value attributes
             for field in fields_list:
                 default_query_list = self.default_query(
-                    Mapping.class_class_uri, slots=set(field), subject=r["_x"], fields=fields
+                    type=Mapping.class_class_uri, slots={field}, subject=r["_x"], fields=fields
                 )
                 results = self._query(default_query_list)
                 bindings_list = self.transform_result_list(results)
@@ -193,7 +193,10 @@ class SparqlImpl(SparqlImplementation):
 
     def get_sssom_mappings_query(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
         default_query = self.add_filters(
-            self.default_query(Mapping.class_class_uri, self.schema_view.mapping_slots.copy()),
+            self.default_query(
+                type=Mapping.class_class_uri,
+                slots=self.schema_view.mapping_slots.copy(),
+            ),
             filter,
         )
         bindings = self._query(default_query)
@@ -214,7 +217,7 @@ class SparqlImpl(SparqlImplementation):
         fields_single.add("uuid")
         # Search for single value attributes
         default_query = self.add_filters(
-            self.default_query(MappingSet.class_class_uri, fields_single), filter
+            self.default_query(type=MappingSet.class_class_uri, slots=fields_single), filter
         )
         bindings = self._query(default_query)
         for row in bindings:
@@ -223,7 +226,7 @@ class SparqlImpl(SparqlImplementation):
             for field in fields_list:
                 if field != "mappings":
                     default_query_list = self.default_query(
-                        MappingSet.class_class_uri, slots=set(field), subject=r["_x"]
+                        type=MappingSet.class_class_uri, slots={field}, subject=r["_x"]
                     )
                     bindings_list = self.transform_result_list(self._query(default_query_list))
                     r[f"{field}"] = bindings_list
@@ -238,7 +241,7 @@ class SparqlImpl(SparqlImplementation):
         )
         # Search for single value attributes
         default_query = self.default_query(
-            Mapping.class_class_uri, slots=fields_single, subject=f"{SSSOM}{id}"
+            type=Mapping.class_class_uri, slots=fields_single, subject=f"{SSSOM}{id}"
         )
         bindings = self._query(default_query)[0]
 
@@ -246,7 +249,7 @@ class SparqlImpl(SparqlImplementation):
         # Search for multiple value attributes
         for field in fields_list:
             default_query_list = self.default_query(
-                Mapping.class_class_uri, slots=set(field), subject=f"{SSSOM}{id}"
+                type=Mapping.class_class_uri, slots={field}, subject=f"{SSSOM}{id}"
             )
             results = self._query(default_query_list)
             bindings_list = self.transform_result_list(results)
@@ -263,7 +266,7 @@ class SparqlImpl(SparqlImplementation):
     def get_sssom_mappings_by_mapping_set_id(self, id: str) -> Iterable[Mapping]:
         fields = {"mapping_set": f"{SSSOM}{id}"}
         default_query = self.default_query(
-            Mapping.class_class_uri,
+            type=Mapping.class_class_uri,
             slots=self.schema_view.mapping_slots.copy().append("mapping_set"),
             fields=fields,
             inverse=True,
