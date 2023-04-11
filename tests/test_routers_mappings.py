@@ -1,14 +1,50 @@
-from fastapi.testclient import TestClient
+import pytest
+import requests
+
+from requests.exceptions import ConnectionError
 
 
-def test_get_single_mapping(client: TestClient):
-    id = "8c835ed637ab5d11a29d088080f10114"
-    response = client.get(f"/mappings/{id}")
+def is_responsive(url: str) -> bool:  # type: ignore
+    try:
+        response = requests.get(url)
+        if response.status_code == 200:
+            return True
+    except ConnectionError:
+        return False
+    
+
+@pytest.fixture(scope="session")
+def api_service(docker_ip, docker_services) -> str:
+    """ Ensure that SSSOM API service is up and responsive. """
+    
+    port = docker_services.port_for("api", 8000)
+    url = f"http://{docker_ip}:{port}"
+    docker_services.wait_until_responsive(
+        timeout=120, pause=0.1, check=lambda: is_responsive(f"{url}/docs")
+    )
+    return url
+    
+    
+def test_get_single_mapping(api_service: str):
+    id = "38995e842357535cb5907261476d0174"
+    response = requests.get(f"{api_service}/ui/mappings/{id}")
     assert response.status_code == 200
     body = response.json()
     assert body == {
-        "subject_id": "http://purl.obolibrary.org/obo/MP_0001289",
-        "predicate_id": "http://www.w3.org/2004/02/skos/core#closeMatch",
-        "object_id": "http://purl.obolibrary.org/obo/HP_0007968",
-        "mapping_justification": "https://w3id.org/semapv/LexicalMatching",
+        "mapping_justification": "https://w3id.org/semapv/ManualMappingCuration",
+        "mapping_date": "2021-05-27",
+        "subject_id": "http://purl.obolibrary.org/obo/MP_0000001",
+        "comment": "KidsFirst; the best you could do is the MP root term that covers all phenotypes both normal and abnormal",
+        "confidence": 1,
+        "predicate_id": "http://www.w3.org/2004/02/skos/core#narrowMatch",
+        "subject_label": "mammalian phenotype",
+        "uuid": "38995e842357535cb5907261476d0174",
+        "object_id": "http://purl.obolibrary.org/obo/HP_0000118",
+        "object_label": "Phenotypic abnormality",
+        "author_id": [
+            "https://orcid.org/0000-0002-6490-7723",
+            "https://orcid.org/0000-0003-4606-0597",
+        ],
+        "subject_id_curie": "MP:0000001",
+        "object_id_curie": "HP:0000118",
     }
