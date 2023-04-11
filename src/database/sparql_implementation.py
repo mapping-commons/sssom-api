@@ -246,7 +246,7 @@ class SparqlImpl(SparqlImplementation):
         # Search for multiple value attributes
         for field in fields_list:
             default_query_list = self.default_query(
-                Mapping.class_class_uri, slots=set(field), subject=f"{SSSOM}{id}"
+                type=Mapping.class_class_uri, slots={field}, subject=f"{SSSOM}{id}"
             )
             results = self._query(default_query_list)
             bindings_list = self.transform_result_list(results)
