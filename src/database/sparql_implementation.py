@@ -191,19 +191,43 @@ class SparqlImpl(SparqlImplementation):
             row["object_id_curie"] = OBO_CURIE_CONVERTER.compress(row["object_id"])
             yield row
 
-    def get_sssom_mappings_query(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
+    def get_mappings_by_filter(self, filter: Union[List[dict], None]) -> Iterable[dict]:
+        fields_list, fields_single = self._get_fields(
+            slots_type=self.schema_view.mapping_slots.copy()
+        )
+        # Search for single value attributes
         default_query = self.add_filters(
             self.default_query(
                 type=Mapping.class_class_uri,
-                slots=self.schema_view.mapping_slots.copy(),
+                slots=fields_single,
             ),
             filter,
         )
         bindings = self._query(default_query)
         for row in bindings:
             r = self.transform_result(row)
+            # Search for multiple value attributes
+            for field in fields_list:
+                default_query_list = self.add_filters(
+                    self.default_query(
+                        type=Mapping.class_class_uri, 
+                        slots={field}, 
+                        subject=r["_x"],
+                    ),
+                    filter
+                )
+                results = self._query(default_query_list)
+                bindings_list = self.transform_result_list(results)
+                if len(bindings_list):
+                    r[f"{field}"] = bindings_list
             r.pop("_x")
-            m = create_sssom_mapping(**r)
+            yield r
+            
+    def get_sssom_mappings_by_filter(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
+        bindings = self.get_mappings_by_filter(filter)
+        for row in bindings:
+            row.pop("uuid")
+            m = create_sssom_mapping(**row)
             if m is not None:
                 yield m
 
@@ -338,8 +362,15 @@ def get_mappings_field(imp: SparqlImpl, field: str, value: str) -> Iterable[Mapp
 
 
 def get_mappings_query(imp: SparqlImpl, filter: Union[List[dict], None]) -> Iterable[Mapping]:
-    mappings = imp.get_sssom_mappings_query(filter)
+    mappings = imp.get_sssom_mappings_by_filter(filter)
     return mappings
+
+def get_mappings_by_filter_ui(imp: SparqlImpl, filter: Union[List[dict], None]) -> Iterable[dict]:
+    mappings = imp.get_mappings_by_filter(filter)
+    for m in mappings:
+        m["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(m["subject_id"])
+        m["object_id_curie"] = OBO_CURIE_CONVERTER.compress(m["object_id"])
+        yield m
 
 
 def get_mapping_sets(
