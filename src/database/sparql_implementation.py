@@ -210,11 +210,11 @@ class SparqlImpl(SparqlImplementation):
             for field in fields_list:
                 default_query_list = self.add_filters(
                     self.default_query(
-                        type=Mapping.class_class_uri, 
-                        slots={field}, 
+                        type=Mapping.class_class_uri,
+                        slots={field},
                         subject=r["_x"],
                     ),
-                    filter
+                    filter,
                 )
                 results = self._query(default_query_list)
                 bindings_list = self.transform_result_list(results)
@@ -222,7 +222,7 @@ class SparqlImpl(SparqlImplementation):
                     r[f"{field}"] = bindings_list
             r.pop("_x")
             yield r
-            
+
     def get_sssom_mappings_by_filter(self, filter: Union[List[dict], None]) -> Iterable[Mapping]:
         bindings = self.get_mappings_by_filter(filter)
         for row in bindings:
@@ -364,6 +364,7 @@ def get_mappings_field(imp: SparqlImpl, field: str, value: str) -> Iterable[Mapp
 def get_mappings_query(imp: SparqlImpl, filter: Union[List[dict], None]) -> Iterable[Mapping]:
     mappings = imp.get_sssom_mappings_by_filter(filter)
     return mappings
+
 
 def get_mappings_by_filter_ui(imp: SparqlImpl, filter: Union[List[dict], None]) -> Iterable[dict]:
     mappings = imp.get_mappings_by_filter(filter)
