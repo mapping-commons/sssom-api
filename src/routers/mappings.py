@@ -60,16 +60,16 @@ router_ui = APIRouter(prefix="/mappings", tags=["mappings"])
 def mapping_by_id_ui(id: str, sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)):
     return get_ui_mapping_by_id(sparqlImpl, id)
 
+    # TODO #66 check if valid curie in subject_id, predicate_id and object_id
+
 
 @router_ui.get("/", summary="Get mappings with optional filters")
 def mappings_ui(
     sparqlImpl: SparqlImpl = Depends(get_sparql_implementation),
     pagination: PaginationParams = Depends(),
-    filter: Union[List[str], None] = Query(default=None),
+    subject_id: Union[str, None] = None,
+    predicate_id: Union[str, None] = None,
+    object_id: Union[str, None] = None,
 ):
-    filter_parsed = parser_filter(Mapping, filter)
-    if filter_parsed is None:
-        raise HTTPException(status_code=302, detail="Not valid filter")
-    else:
-        results = get_mappings_by_filter_ui(sparqlImpl, filter_parsed)
-        return paginate(results, **pagination.dict())
+    results = get_mappings_by_filter_ui(sparqlImpl, subject_id, predicate_id, object_id)
+    return paginate(results, **pagination.dict())
