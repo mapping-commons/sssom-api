@@ -366,7 +366,38 @@ def get_mappings_query(imp: SparqlImpl, filter: Union[List[dict], None]) -> Iter
     return mappings
 
 
-def get_mappings_by_filter_ui(imp: SparqlImpl, filter: Union[List[dict], None]) -> Iterable[dict]:
+def get_mappings_by_filter_ui(
+    imp: SparqlImpl,
+    subject_id: Union[str, None],
+    predicate_id: Union[str, None],
+    object_id: Union[str, None],
+) -> Iterable[dict]:
+    filter = []
+    if subject_id is not None:
+        filter.append(
+            {
+                "field": "subject_id",
+                "operator": "contains",
+                "value": OBO_CURIE_CONVERTER.expand(subject_id),
+            }
+        )
+    if predicate_id is not None:
+        filter.append(
+            {
+                "field": "predicate_id",
+                "operator": "contains",
+                "value": predicate_id,
+                # "value": OBO_CURIE_CONVERTER.expand(predicate_id),
+            }
+        )
+    if object_id is not None:
+        filter.append(
+            {
+                "field": "object_id",
+                "operator": "contains",
+                "value": OBO_CURIE_CONVERTER.expand(object_id),
+            }
+        )
     mappings = imp.get_mappings_by_filter(filter)
     for m in mappings:
         m["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(m["subject_id"])
