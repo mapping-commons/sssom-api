@@ -4,3 +4,4 @@ __pycache__
 /data/mappings.ttl
 /data/mappings.jsonld
 /data/registry.yml
+poetry.lock
