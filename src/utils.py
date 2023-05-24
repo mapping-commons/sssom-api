@@ -9,8 +9,6 @@ from toolz.recipes import countby
 
 from .models import FacetInfo, Page, PaginationInfo
 
-OBO_CURIE_CONVERTER = curies.get_obo_converter()
-
 T = TypeVar("T")
 
 
@@ -79,7 +77,9 @@ def parser_filter(
         if field == "confidence":
             value = dec2sci(float(value))
         if field == "subject_id" or field == "object_id":
-            value = OBO_CURIE_CONVERTER.expand(value)
+            value = expand_uri(value)
+        if field == "predicate_id":
+            value = expand_uri(value, True)
         filter_pars.append({"field": field, "operator": operator, "value": value})
 
     return filter_pars
@@ -100,3 +100,18 @@ def sci2dec(number: str) -> float:
 # decimal notation to scientific e notation
 def dec2sci(number: float) -> str:
     return "{:.2E}".format(float(number))
+
+
+def expand_uri(uri: str, is_pred: bool = False) -> str:
+    curie_obo_converter = curies.get_obo_converter()
+    curie_bioregistry_converter = curies.get_bioregistry_converter()
+    if is_pred:
+        return str(curie_bioregistry_converter.expand(uri))
+    return str(curie_obo_converter.expand(uri))
+
+
+def compress_uri(uri: str, is_pred: bool = False) -> str:
+    curie_bioregistry_converter = curies.get_bioregistry_converter(web=True)
+    if is_pred:
+        return str(curie_bioregistry_converter.compress(uri))
+    return str(curie_bioregistry_converter.compress(uri)).upper()
