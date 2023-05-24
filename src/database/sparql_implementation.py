@@ -8,7 +8,7 @@ from rdflib.namespace._RDF import RDF
 from sssom_schema import SSSOM, Mapping, MappingSet
 
 from ..models import SearchEntity
-from ..utils import OBO_CURIE_CONVERTER, parse_fields_type, sci2dec
+from ..utils import compress_uri, expand_uri, parse_fields_type, sci2dec
 
 
 class SparqlImpl(SparqlImplementation):
@@ -159,13 +159,13 @@ class SparqlImpl(SparqlImplementation):
         filters = search_filter.dict()
         curies = filters.pop("curies")
 
-        filters["subject_id"] = [OBO_CURIE_CONVERTER.expand(curie) for curie in curies]
+        filters["subject_id"] = [expand_uri(curie) for curie in curies]
         bindings = self.get_sssom_mappings_by_field(filters)
         for m in bindings:
             yield m
 
         filters.pop("subject_id")
-        filters["object_id"] = [OBO_CURIE_CONVERTER.expand(curie) for curie in curies]
+        filters["object_id"] = [expand_uri(curie) for curie in curies]
         bindings = self.get_sssom_mappings_by_field(filters)
         for m in bindings:
             yield m
@@ -174,21 +174,23 @@ class SparqlImpl(SparqlImplementation):
         filters = search_filter.dict()
         curies = filters.pop("curies")
 
-        filters["subject_id"] = [OBO_CURIE_CONVERTER.expand(curie) for curie in curies]
+        filters["subject_id"] = [expand_uri(curie) for curie in curies]
         bindings = self.get_mappings_by_field(filters)
         for row in bindings:
             row.pop("_x")
-            row["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(row["subject_id"])
-            row["object_id_curie"] = OBO_CURIE_CONVERTER.compress(row["object_id"])
+            row["subject_id_curie"] = compress_uri(row["subject_id"])
+            row["predicate_id_curie"] = compress_uri(row["predicate_id"], True)
+            row["object_id_curie"] = compress_uri(row["object_id"])
             yield row
 
         filters.pop("subject_id")
-        filters["object_id"] = [OBO_CURIE_CONVERTER.expand(curie) for curie in curies]
+        filters["object_id"] = [expand_uri(curie) for curie in curies]
         bindings = self.get_mappings_by_field(filters)
         for row in bindings:
             row.pop("_x")
-            row["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(row["subject_id"])
-            row["object_id_curie"] = OBO_CURIE_CONVERTER.compress(row["object_id"])
+            row["subject_id_curie"] = compress_uri(row["subject_id"])
+            row["predicate_id_curie"] = compress_uri(row["predicate_id"], True)
+            row["object_id_curie"] = compress_uri(row["object_id"])
             yield row
 
     def get_mappings_by_filter(self, filter: Union[List[dict], None]) -> Iterable[dict]:
@@ -203,6 +205,7 @@ class SparqlImpl(SparqlImplementation):
             ),
             filter,
         )
+        print(default_query.query_str())
         bindings = self._query(default_query)
         for row in bindings:
             r = self.transform_result(row)
@@ -378,7 +381,7 @@ def get_mappings_by_filter_ui(
             {
                 "field": "subject_id",
                 "operator": "contains",
-                "value": OBO_CURIE_CONVERTER.expand(subject_id),
+                "value": expand_uri(subject_id),
             }
         )
     if predicate_id is not None:
@@ -386,8 +389,7 @@ def get_mappings_by_filter_ui(
             {
                 "field": "predicate_id",
                 "operator": "contains",
-                "value": predicate_id,
-                # "value": OBO_CURIE_CONVERTER.expand(predicate_id),
+                "value": expand_uri(predicate_id, True),
             }
         )
     if object_id is not None:
@@ -395,13 +397,14 @@ def get_mappings_by_filter_ui(
             {
                 "field": "object_id",
                 "operator": "contains",
-                "value": OBO_CURIE_CONVERTER.expand(object_id),
+                "value": expand_uri(object_id),
             }
         )
     mappings = imp.get_mappings_by_filter(filter)
     for m in mappings:
-        m["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(m["subject_id"])
-        m["object_id_curie"] = OBO_CURIE_CONVERTER.compress(m["object_id"])
+        m["subject_id_curie"] = compress_uri(m["subject_id"])
+        m["predicate_id_curie"] = compress_uri(m["predicate_id"], True)
+        m["object_id_curie"] = compress_uri(m["object_id"])
         yield m
 
 
@@ -419,8 +422,9 @@ def get_mapping_by_id(imp: SparqlImpl, id: str) -> Optional[Mapping]:
 
 def get_ui_mapping_by_id(imp: SparqlImpl, id: str) -> dict:
     mapping = imp.get_mapping_by_id(id)
-    mapping["subject_id_curie"] = OBO_CURIE_CONVERTER.compress(mapping["subject_id"])
-    mapping["object_id_curie"] = OBO_CURIE_CONVERTER.compress(mapping["object_id"])
+    mapping["subject_id_curie"] = compress_uri(mapping["subject_id"])
+    mapping["predicate_id_curie"] = compress_uri(mapping["predicate_id"], True)
+    mapping["object_id_curie"] = compress_uri(mapping["object_id"])
 
     return mapping
 
