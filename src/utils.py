@@ -11,6 +11,10 @@ from .models import FacetInfo, Page, PaginationInfo
 
 T = TypeVar("T")
 
+# TODO #74 Use complete context from obo context.json
+CURIE_OBO_CONVERTER = curies.get_obo_converter()
+CURIE_BIOREGISTRY_CONVERTER = curies.get_bioregistry_converter()
+
 
 def _replace_page_param(request: Request, new_page: Union[int, None]) -> Union[str, None]:
     if new_page is None:
@@ -103,15 +107,12 @@ def dec2sci(number: float) -> str:
 
 
 def expand_uri(uri: str, is_pred: bool = False) -> str:
-    curie_obo_converter = curies.get_obo_converter()
-    curie_bioregistry_converter = curies.get_bioregistry_converter()
     if is_pred:
-        return str(curie_bioregistry_converter.expand(uri))
-    return str(curie_obo_converter.expand(uri))
+        return str(CURIE_BIOREGISTRY_CONVERTER.expand(uri))
+    return str(CURIE_OBO_CONVERTER.expand(uri))
 
 
 def compress_uri(uri: str, is_pred: bool = False) -> str:
-    curie_bioregistry_converter = curies.get_bioregistry_converter(web=True)
     if is_pred:
-        return str(curie_bioregistry_converter.compress(uri))
-    return str(curie_bioregistry_converter.compress(uri)).upper()
+        return str(CURIE_BIOREGISTRY_CONVERTER.compress(uri))
+    return str(CURIE_BIOREGISTRY_CONVERTER.compress(uri)).upper()
