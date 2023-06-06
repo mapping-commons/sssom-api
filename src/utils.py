@@ -1,8 +1,9 @@
 import itertools
+import json
 import math
 from typing import Iterable, List, Tuple, TypeVar, Union
 
-import curies
+from curies import Converter
 from fastapi import Request
 from toolz.itertoolz import count
 from toolz.recipes import countby
@@ -11,9 +12,9 @@ from .models import FacetInfo, Page, PaginationInfo
 
 T = TypeVar("T")
 
-# TODO #74 Use complete context from obo context.json
-CURIE_OBO_CONVERTER = curies.get_obo_converter()
-CURIE_BIOREGISTRY_CONVERTER = curies.get_bioregistry_converter()
+with open("./resources/obo.context.jsonld") as f:
+    OBO_CONTEXT = json.load(f)
+CURIE_OBO_CONVERTER = Converter.from_prefix_map(OBO_CONTEXT["@context"])
 
 
 def _replace_page_param(request: Request, new_page: Union[int, None]) -> Union[str, None]:
@@ -83,7 +84,7 @@ def parser_filter(
         if field == "subject_id" or field == "object_id":
             value = expand_uri(value)
         if field == "predicate_id":
-            value = expand_uri(value, True)
+            value = expand_uri(value)
         filter_pars.append({"field": field, "operator": operator, "value": value})
 
     return filter_pars
@@ -106,13 +107,9 @@ def dec2sci(number: float) -> str:
     return "{:.2E}".format(float(number))
 
 
-def expand_uri(uri: str, is_pred: bool = False) -> str:
-    if is_pred:
-        return str(CURIE_BIOREGISTRY_CONVERTER.expand(uri))
+def expand_uri(uri: str) -> str:
     return str(CURIE_OBO_CONVERTER.expand(uri))
 
 
-def compress_uri(uri: str, is_pred: bool = False) -> str:
-    if is_pred:
-        return str(CURIE_BIOREGISTRY_CONVERTER.compress(uri))
-    return str(CURIE_BIOREGISTRY_CONVERTER.compress(uri)).upper()
+def compress_uri(uri: str) -> str:
+    return str(CURIE_OBO_CONVERTER.compress(uri))

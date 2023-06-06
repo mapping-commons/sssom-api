@@ -189,7 +189,7 @@ class SparqlImpl(SparqlImplementation):
         bindings = self.get_mappings_by_field(filters)
         for row in bindings:
             row["subject_id_curie"] = compress_uri(row["subject_id"])
-            row["predicate_id_curie"] = compress_uri(row["predicate_id"], True)
+            row["predicate_id_curie"] = compress_uri(row["predicate_id"])
             row["object_id_curie"] = compress_uri(row["object_id"])
             yield row
 
@@ -198,7 +198,7 @@ class SparqlImpl(SparqlImplementation):
         bindings = self.get_mappings_by_field(filters)
         for row in bindings:
             row["subject_id_curie"] = compress_uri(row["subject_id"])
-            row["predicate_id_curie"] = compress_uri(row["predicate_id"], True)
+            row["predicate_id_curie"] = compress_uri(row["predicate_id"])
             row["object_id_curie"] = compress_uri(row["object_id"])
             yield row
 
@@ -373,7 +373,7 @@ def get_mappings_by_filter_ui(
             {
                 "field": "predicate_id",
                 "operator": "contains",
-                "value": expand_uri(predicate_id, True),
+                "value": expand_uri(predicate_id),
             }
         )
     if object_id is not None:
@@ -387,7 +387,7 @@ def get_mappings_by_filter_ui(
     mappings = imp.get_mappings_by_filter(filter)
     for m in mappings:
         m["subject_id_curie"] = compress_uri(m["subject_id"])
-        m["predicate_id_curie"] = compress_uri(m["predicate_id"], True)
+        m["predicate_id_curie"] = compress_uri(m["predicate_id"])
         m["object_id_curie"] = compress_uri(m["object_id"])
         yield m
 
@@ -407,7 +407,7 @@ def get_mapping_by_id(imp: SparqlImpl, id: str) -> Optional[Mapping]:
 def get_ui_mapping_by_id(imp: SparqlImpl, id: str) -> dict:
     mapping = imp.get_mapping_by_id(id)
     mapping["subject_id_curie"] = compress_uri(mapping["subject_id"])
-    mapping["predicate_id_curie"] = compress_uri(mapping["predicate_id"], True)
+    mapping["predicate_id_curie"] = compress_uri(mapping["predicate_id"])
     mapping["object_id_curie"] = compress_uri(mapping["object_id"])
 
     return mapping
