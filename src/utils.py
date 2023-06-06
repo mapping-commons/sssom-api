@@ -9,9 +9,11 @@ from toolz.recipes import countby
 
 from .models import FacetInfo, Page, PaginationInfo
 
-OBO_CURIE_CONVERTER = curies.get_obo_converter()
-
 T = TypeVar("T")
+
+# TODO #74 Use complete context from obo context.json
+CURIE_OBO_CONVERTER = curies.get_obo_converter()
+CURIE_BIOREGISTRY_CONVERTER = curies.get_bioregistry_converter()
 
 
 def _replace_page_param(request: Request, new_page: Union[int, None]) -> Union[str, None]:
@@ -79,7 +81,9 @@ def parser_filter(
         if field == "confidence":
             value = dec2sci(float(value))
         if field == "subject_id" or field == "object_id":
-            value = OBO_CURIE_CONVERTER.expand(value)
+            value = expand_uri(value)
+        if field == "predicate_id":
+            value = expand_uri(value, True)
         filter_pars.append({"field": field, "operator": operator, "value": value})
 
     return filter_pars
@@ -100,3 +104,15 @@ def sci2dec(number: str) -> float:
 # decimal notation to scientific e notation
 def dec2sci(number: float) -> str:
     return "{:.2E}".format(float(number))
+
+
+def expand_uri(uri: str, is_pred: bool = False) -> str:
+    if is_pred:
+        return str(CURIE_BIOREGISTRY_CONVERTER.expand(uri))
+    return str(CURIE_OBO_CONVERTER.expand(uri))
+
+
+def compress_uri(uri: str, is_pred: bool = False) -> str:
+    if is_pred:
+        return str(CURIE_BIOREGISTRY_CONVERTER.compress(uri))
+    return str(CURIE_BIOREGISTRY_CONVERTER.compress(uri)).upper()
