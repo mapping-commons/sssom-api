@@ -8,7 +8,7 @@ from fastapi import Request
 from toolz.itertoolz import count
 from toolz.recipes import countby
 
-from .models import FacetInfo, Page, PaginationInfo
+from .models import ConfidenceInfo, FacetInfo, Page, PaginationInfo
 
 T = TypeVar("T")
 
@@ -54,11 +54,26 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
 
 
 def _create_facets(data: Iterable[object]) -> FacetInfo:
-    iter_mj, iter_pred = itertools.tee(data)
+    iter_mj, iter_pred, iter_conf = itertools.tee(data, 3)
 
+    list_iter_conf = list(iter_conf)
     return FacetInfo(
         mapping_justification=countby(lambda d: d["mapping_justification"], iter_mj),
         predicate_id=countby(lambda d: d["predicate_id"], iter_pred),
+        confidence=ConfidenceInfo(
+            min=min(
+                map(
+                    lambda d: d["confidence"] if d.get("confidence") else 0.0,  # type: ignore
+                    list_iter_conf,
+                )
+            ),
+            max=max(
+                map(
+                    lambda d: d["confidence"] if d.get("confidence") else 0.0,  # type: ignore
+                    list_iter_conf,
+                )
+            ),
+        ),
     )
 
 
