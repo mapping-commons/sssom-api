@@ -24,9 +24,15 @@ class PaginationInfo(BaseModel):
     total_pages: int
 
 
+class ConfidenceInfo(BaseModel):
+    min: float = 0.0
+    max: float = 1.0
+
+
 class FacetInfo(BaseModel):
     mapping_justification: dict
     predicate_id: dict
+    confidence: ConfidenceInfo
 
 
 class Page(GenericModel, Generic[T]):
