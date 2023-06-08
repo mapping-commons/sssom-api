@@ -1,12 +1,11 @@
 show repositories
 drop sssom.
 yes
-create memory.
+create native.
 sssom
 SSSOM triplestore
 10000
-true
-0
+spoc,posc
 org.eclipse.rdf4j.query.algebra.evaluation.impl.StrictEvaluationStrategyFactory
 show repositories
 open sssom.
