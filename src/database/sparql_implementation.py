@@ -21,7 +21,7 @@ class SparqlImpl(SparqlImplementation):
         if value.startswith("http"):
             return f"<{value}>"
         elif ":" in value:
-            return self.curie_to_sparql(value)
+            return f"<{expand_uri(value)}>"
         else:
             return f'"{value}"'
 
