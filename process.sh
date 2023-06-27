@@ -7,22 +7,22 @@ echo "Start: upload-triplestore"
 echo "TIME:"
 date
 
-SETUP=${WORKSPACE}/rdf4j_sssom.txt
-RDF4J=/opt/eclipse-rdf4j-${RDF4J_VERSION}
-RDF4JSERVER=${SERVER}/rdf4j-server
+# SETUP=${WORKSPACE}/rdf4j_sssom.txt
+#BLAZEGRAPH_UID=/opt/eclipse-rdf4j-${RDF4J_VERSION}
+BLAZEGRAPHSERVER=${SERVER}/
 DATA=/data/ols
 
 if [ `ls $DATA/*.jsonld.gz | wc -l` -lt 1 ]; then echo "ERROR: No data in data directory! Aborting.. " && exit 1; fi
 
-echo 'Waiting for RDF4J server..'
-until $(curl --output /dev/null --silent --head --fail ${RDF4JSERVER}); do
+echo 'Waiting for BLAZEGRAPH WORKBENCH..'
+until $(curl --output /dev/null --silent --head --fail ${BLAZEGRAPHSERVER}); do
     printf '.'
     sleep 5
 done
 
-echo "connect "${RDF4JSERVER}|cat - ${SETUP} > /tmp/out && mv /tmp/out ${SETUP}
-cat ${SETUP}
-cat ${SETUP} | sh ${RDF4J}/bin/console.sh
+# echo "connect "${RDF4JSERVER}|cat - ${SETUP} > /tmp/out && mv /tmp/out ${SETUP}
+# cat ${SETUP}
+# cat ${SETUP} | sh ${RDF4J}/bin/console.sh
 
 ls -lh $DATA
 
