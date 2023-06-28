@@ -1,37 +1,50 @@
 version: '3.8'
 
 services:
-  api:
-    build:
-      context: .
-      dockerfile: api.Dockerfile
+  sssom-backend:
+    build: ./backend
     command: uvicorn app.main:app --host 0.0.0.0
-    volumes:
-      - ./src:/code/app
-      - .env:/code/.env
+    # volumes:
+    #   - ./src:/code/app
+    #   - .env:/code/.env
     ports:
       - 8008:8000
     depends_on:
-      - triplestore
-      - upload-triplestore
+      - sssom-solr
+      - sssom-neo4j
     environment:
       - SPARQL_ENDPOINT=http://triplestore:8080/rdf4j-server/repositories/sssom
-  triplestore:
-    image: eclipse/rdf4j-workbench:latest
-    environment:
-      - JAVA_OPTS=-Xms10g -Xmx20g
-      - RDF4J_DATA=/data 
-    ports:
-      - 8080:8080
-  upload-triplestore:
-    build:
-      context: .
-      dockerfile: upload.Dockerfile
-    depends_on:
-      - triplestore
-    links:
-      - triplestore
-    environment:
-      - SERVER=http://triplestore:8080
+  sssom-dataload:
+    build: ./dataload
     volumes:
-      - ./data:/data
+      - sssom-solr-data:/opt/solr/server/solr:rw
+      - sssom-neo4j-data:/opt/neo4j/data:rw
+      - ./data:/mnt/data:ro
+    command: ./dataload.dockersh ${sssom_DATALOAD_ARGS:-}
+  sssom-solr:
+    image: solr:9.0.0
+    environment:
+      - SOLR_HOME=/mnt/sssom-solr-data
+    ports:
+      - 8983:8983
+    volumes:
+      - sssom-solr-data:/mnt/sssom-solr-data
+    command: ["-f"]
+    depends_on:
+      sssom-dataload:
+        condition: service_completed_successfully
+  sssom-neo4j:
+    image: neo4j:4.4.9-community
+    ports:
+      - 7474:7474
+      - 7687:7687
+    volumes:
+      - sssom-neo4j-data:/var/lib/neo4j/data
+    environment:
+      - NEO4J_AUTH=none
+    depends_on:
+      sssom-dataload:
+        condition: service_completed_successfully
+volumes:
+  sssom-solr-data:
+  sssom-neo4j-data: 
