@@ -1,12 +1,9 @@
-import csv
 import argparse
-import os
+import json
+import csv
 from pathlib import Path
 from collections import defaultdict
-from sssom.parsers import parse_sssom_table
-
 from sssom_stream import get_sssom_tsv_headers
-from sssom_stream import stream_sssom_tsv
 
 from ordered_set import OrderedSet
 
@@ -27,41 +24,33 @@ def main():
     else:
         input_files = [input_path]
 
-    with open(output_path, "w", newline="", encoding="utf-8") as output_file:
+    printed_node_ids = OrderedSet()
+    node_ids_to_print = OrderedSet()  # nodes we need to print but didn't get a label for yet
+
+    with open(output_path, "w", encoding="utf-8") as output_file:
         for file in input_files:
-            write_mappings(file, output_file)
+            write_mappings(file, output_file, printed_node_ids, node_ids_to_print)
 
-def write_mappings(input_file, nodes_writer, edges_writer, printed_node_ids, node_ids_to_print, edge_headers):
+        # Print nodes without labels
+        for leftover_node_id in node_ids_to_print:
+            print_node(leftover_node_id, leftover_node_id, output_file)
 
-    mapping_set = stream_sssom_tsv(input_file)
-    mapping_set_header = next(mapping_set)
+def write_mappings(input_file, output_file, printed_node_ids, node_ids_to_print):
 
-    # Iterate over the TSV lines
-    for line in mapping_set:
+    f = open(input_file, 'r')
+    yaml_header,column_headers = get_sssom_tsv_headers(f)
+
+    reader = csv.DictReader(f, delimiter='\t', fieldnames=column_headers)
+
+    for line in reader:
         subj_id = line["subject_id"]
         subj_label = line["subject_label"]
         obj_id = line["object_id"]
         obj_label = line["object_label"]
+        visit_node(subj_id, subj_label, output_file, printed_node_ids, node_ids_to_print)
+        visit_node(obj_id, obj_label, output_file, printed_node_ids, node_ids_to_print)
 
-        add_node(subj_id, subj_label, input_file, nodes_writer,
-                 edges_writer, printed_node_ids, node_ids_to_print, edge_headers)
-        add_node(obj_id, obj_label, input_file, nodes_writer,
-                 edges_writer, printed_node_ids, node_ids_to_print, edge_headers)
-
-        row = [None] * len(edge_headers)
-        for col, header in enumerate(edge_headers):
-            if header == ":START_ID":
-                row[col] = subj_id
-            elif header == ":TYPE":
-                row[col] = line["predicate_id"]
-            elif header == ":END_ID":
-                row[col] = obj_id
-            else:
-                row[col] = line[header]
-        edges_writer.writerow(row)
-
-def add_node(node_id, node_label, input_file, nodes_writer, edges_writer, printed_node_ids,
-             node_ids_to_print, edge_headers):
+def visit_node(node_id, node_label, output_file, printed_node_ids, node_ids_to_print):
     if node_id in printed_node_ids or node_id in node_ids_to_print:
         return
 
@@ -72,16 +61,19 @@ def add_node(node_id, node_label, input_file, nodes_writer, edges_writer, printe
     node_ids_to_print.discard(node_id)
     printed_node_ids.add(node_id)
 
-    print_node(node_id, node_label, nodes_writer)
+    print_node(node_id, node_label, output_file)
 
-
-def print_node(node_id, node_label, nodes_writer):
+def print_node(node_id, node_label, output_file):
     curie_prefix = node_id.split(":")[0]
     curie_local_part = node_id.split(":")[1]
 
-    nodes_writer.writerow(
-        [node_id, "MappedEntity", node_label, curie_prefix, curie_local_part])
-
+    output_file.write(json.dumps({
+        'node_id': node_id,
+        'curie_prefix': curie_prefix,
+        'curie_local_part': curie_local_part,
+        'node_label': node_label
+    }))
+    output_file.write("\n")
 
 if __name__ == "__main__":
     main()

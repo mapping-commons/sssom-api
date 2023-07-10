@@ -13,10 +13,12 @@ services:
       - sssom-solr
       - sssom-neo4j
     environment:
-      - SPARQL_ENDPOINT=http://triplestore:8080/rdf4j-server/repositories/sssom
+      - SSSOM_SOLR_HOST=http://sssom-solr:8983
+      - SSSOM_NEO4J_HOST=bolt://sssom-neo4j:7687
   sssom-dataload:
     build: ./dataload
     volumes:
+      - ./${SSSOM_TSV_PATH:?SSSOM TSV path required}:/mnt/tsv:ro
       - sssom-solr-data:/opt/solr/server/solr:rw
       - sssom-neo4j-data:/opt/neo4j/data:rw
       - ./data:/mnt/data:ro

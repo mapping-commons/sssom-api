@@ -6,7 +6,6 @@ from collections import defaultdict
 from sssom.parsers import parse_sssom_table
 
 from sssom_stream import get_sssom_tsv_headers
-from sssom_stream import stream_sssom_tsv
 
 from ordered_set import OrderedSet
 
@@ -70,10 +69,8 @@ def write_mappings(input_file, nodes_writer, edges_writer, printed_node_ids, nod
         obj_id = line["object_id"]
         obj_label = line["object_label"]
 
-        add_node(subj_id, subj_label, input_file, nodes_writer,
-                 edges_writer, printed_node_ids, node_ids_to_print, edge_headers)
-        add_node(obj_id, obj_label, input_file, nodes_writer,
-                 edges_writer, printed_node_ids, node_ids_to_print, edge_headers)
+        visit_node(subj_id, subj_label, nodes_writer, printed_node_ids, node_ids_to_print)
+        visit_node(obj_id, obj_label, nodes_writer, printed_node_ids, node_ids_to_print)
 
         row = [None] * len(edge_headers)
         for col, header in enumerate(edge_headers):
@@ -87,8 +84,7 @@ def write_mappings(input_file, nodes_writer, edges_writer, printed_node_ids, nod
                 row[col] = line[header]
         edges_writer.writerow(row)
 
-def add_node(node_id, node_label, input_file, nodes_writer, edges_writer, printed_node_ids,
-             node_ids_to_print, edge_headers):
+def visit_node(node_id, node_label, nodes_writer, printed_node_ids, node_ids_to_print):
     if node_id in printed_node_ids or node_id in node_ids_to_print:
         return
 
