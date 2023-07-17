@@ -1,27 +1,26 @@
 version: '3.8'
 
 services:
-  sssom-backend:
-    build: ./backend
-    command: uvicorn app.main:app --host 0.0.0.0
-    # volumes:
-    #   - ./src:/code/app
-    #   - .env:/code/.env
-    ports:
-      - 8008:8000
-    depends_on:
-      - sssom-solr
-      - sssom-neo4j
-    environment:
-      - SSSOM_SOLR_HOST=http://sssom-solr:8983
-      - SSSOM_NEO4J_HOST=bolt://sssom-neo4j:7687
+  # sssom-backend:
+  #   build: ./backend
+  #   command: uvicorn app.main:app --host 0.0.0.0
+  #   # volumes:
+  #   #   - ./src:/code/app
+  #   #   - .env:/code/.env
+  #   ports:
+  #     - 8008:8000
+  #   depends_on:
+  #     - sssom-solr
+  #     - sssom-neo4j
+  #   environment:
+  #     - SSSOM_SOLR_HOST=http://sssom-solr:8983
+  #     - SSSOM_NEO4J_HOST=bolt://sssom-neo4j:7687
   sssom-dataload:
     build: ./dataload
     volumes:
       - ./${SSSOM_TSV_PATH:?SSSOM TSV path required}:/mnt/tsv:ro
       - sssom-solr-data:/opt/solr/server/solr:rw
       - sssom-neo4j-data:/opt/neo4j/data:rw
-      - ./data:/mnt/data:ro
     command: ./dataload.dockersh ${sssom_DATALOAD_ARGS:-}
   sssom-solr:
     image: solr:9.0.0
@@ -35,18 +34,18 @@ services:
     depends_on:
       sssom-dataload:
         condition: service_completed_successfully
-  sssom-neo4j:
-    image: neo4j:4.4.9-community
-    ports:
-      - 7474:7474
-      - 7687:7687
-    volumes:
-      - sssom-neo4j-data:/var/lib/neo4j/data
-    environment:
-      - NEO4J_AUTH=none
-    depends_on:
-      sssom-dataload:
-        condition: service_completed_successfully
+  # sssom-neo4j:
+  #   image: neo4j:4.4.9-community
+  #   ports:
+  #     - 7474:7474
+  #     - 7687:7687
+  #   volumes:
+  #     - sssom-neo4j-data:/var/lib/neo4j/data
+  #   environment:
+  #     - NEO4J_AUTH=none
+  #   depends_on:
+  #     sssom-dataload:
+  #       condition: service_completed_successfully
 volumes:
   sssom-solr-data:
   sssom-neo4j-data: 

@@ -1,13 +1,16 @@
 #!/bin/bash
 
 echo Loading data...
-./create_datafiles.sh file:///mnt/tsv /tmp/out $@
-./load_into_neo4j.sh /opt/neo4j /tmp/out
+./create_datafiles.sh /mnt/tsv /tmp/out $@
+# ./load_into_neo4j.sh /opt/neo4j /tmp/out/nodes.csv /tmp/out/edges.csv
 rm -rf /opt/solr/server/solr/*
 cp -r /opt/dataload/solr_config/* /opt/solr/server/solr/
-./load_into_solr.sh /opt/solr /tmp/out
-./create_neo4j_indexes.sh /opt/neo4j
+./load_into_solr.sh /opt/solr /tmp/out/mappings.jsonl
+#./create_neo4j_indexes.sh /opt/neo4j
 chmod -R 777 /opt/solr
-chmod -R 777 /opt/neo4j
+# chmod -R 777 /opt/neo4j
+du -hl /opt/solr/server/solr/
+
+
 
 

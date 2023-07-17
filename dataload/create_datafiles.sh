@@ -10,11 +10,14 @@ SCRIPT_PATH=$(dirname $(readlink -f $0))
 INDIR=$1
 OUTDIR=$2
 
+echo create_datafiles.sh loading from $INDIR
+du -hl $INDIR
+
 rm -f $OUTDIR/*
 
-echo sssom2neo
-python3 $SCRIPT_PATH/src/sssom2neo.py --input $INDIR --output-nodes $OUTDIR/nodes.csv --output-edges $OUTDIR/edges.csv
+# echo sssom2neo
+# python3 $SCRIPT_PATH/src/sssom2neo.py --input $INDIR --output-nodes $OUTDIR/nodes.csv --output-edges $OUTDIR/edges.csv
 
 echo sssom2solr
-python3 $SCRIPT_PATH/src/sssom2solr.py --input $INDIR --output $OUTDIR/nodes.jsonl
+python3 $SCRIPT_PATH/src/sssom2solr.py --input $INDIR --output $OUTDIR/mappings.jsonl
 

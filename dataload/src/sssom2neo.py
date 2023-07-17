@@ -61,6 +61,8 @@ def write_mappings(input_file, nodes_writer, edges_writer, printed_node_ids, nod
     f = open(input_file, 'r')
     yaml_header,column_headers = get_sssom_tsv_headers(f)
 
+    # curie_map = yaml_header['curie_map']
+
     reader = csv.DictReader(f, delimiter='\t', fieldnames=column_headers)
 
     for line in reader:

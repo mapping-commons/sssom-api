@@ -2,10 +2,7 @@ import argparse
 import json
 import csv
 from pathlib import Path
-from collections import defaultdict
 from sssom_stream import get_sssom_tsv_headers
-
-from ordered_set import OrderedSet
 
 def main():
     parser = argparse.ArgumentParser()
@@ -24,56 +21,47 @@ def main():
     else:
         input_files = [input_path]
 
-    printed_node_ids = OrderedSet()
-    node_ids_to_print = OrderedSet()  # nodes we need to print but didn't get a label for yet
-
     with open(output_path, "w", encoding="utf-8") as output_file:
         for file in input_files:
-            write_mappings(file, output_file, printed_node_ids, node_ids_to_print)
+            write_mappings(file, output_file)
 
-        # Print nodes without labels
-        for leftover_node_id in node_ids_to_print:
-            print_node(leftover_node_id, leftover_node_id, output_file)
-
-def write_mappings(input_file, output_file, printed_node_ids, node_ids_to_print):
+def write_mappings(input_file, output_file):
 
     f = open(input_file, 'r')
     yaml_header,column_headers = get_sssom_tsv_headers(f)
+    curie_map = yaml_header['curie_map']
+
+    mapping_set_props = dict()
+    if 'mapping_set_id' in yaml_header:
+        mapping_set_props['mapping_set_id'] = yaml_header['mapping_set_id']
+    if 'mapping_set_group' in yaml_header:
+        mapping_set_props['mapping_set_group'] = yaml_header['mapping_set_group']
+
+    # possible option if we need the entire header in results, but should be
+    # excluded from indexing in solr config
+    #
+    #mapping_set_props['mapping_set_header'] = json.dumps(yaml_header)
 
     reader = csv.DictReader(f, delimiter='\t', fieldnames=column_headers)
 
     for line in reader:
-        subj_id = line["subject_id"]
-        subj_label = line["subject_label"]
-        obj_id = line["object_id"]
-        obj_label = line["object_label"]
-        visit_node(subj_id, subj_label, output_file, printed_node_ids, node_ids_to_print)
-        visit_node(obj_id, obj_label, output_file, printed_node_ids, node_ids_to_print)
+        line.update(mapping_set_props)
+        line['subject_iri'] = curie_to_iri(line['subject_id'], curie_map)
+        line['predicate_iri'] = curie_to_iri(line['predicate_id'], curie_map)
+        line['object_iri'] = curie_to_iri(line['object_id'], curie_map)
+        output_file.write(json.dumps(line))
+        output_file.write("\n")
 
-def visit_node(node_id, node_label, output_file, printed_node_ids, node_ids_to_print):
-    if node_id in printed_node_ids or node_id in node_ids_to_print:
-        return
-
-    if not node_label:
-        node_ids_to_print.add(node_id)
-        return
-
-    node_ids_to_print.discard(node_id)
-    printed_node_ids.add(node_id)
-
-    print_node(node_id, node_label, output_file)
-
-def print_node(node_id, node_label, output_file):
-    curie_prefix = node_id.split(":")[0]
-    curie_local_part = node_id.split(":")[1]
-
-    output_file.write(json.dumps({
-        'node_id': node_id,
-        'curie_prefix': curie_prefix,
-        'curie_local_part': curie_local_part,
-        'node_label': node_label
-    }))
-    output_file.write("\n")
+def curie_to_iri(curie, curie_map):
+    if not ':' in curie:
+        return ''
+    prefix = curie[:curie.index(":")]
+    local_part = curie[curie.index(":")+1:]
+    if prefix in curie_map:
+        iri_prefix = curie_map[prefix]
+        return iri_prefix + local_part
+    else:
+        return ''
 
 if __name__ == "__main__":
     main()
