@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .routers import entities, mapping_sets, mappings, stats
+# from .routers import entities, mapping_sets, mappings, stats
+from .routers import mappings
 
 
 def create_app():
@@ -16,16 +17,10 @@ def create_app():
     )
 
     app.include_router(mappings.router)
-    app.include_router(mapping_sets.router)
-    app.include_router(entities.router)
-    app.include_router(stats.router)
+    # app.include_router(mapping_sets.router)
+    # app.include_router(entities.router)
+    # app.include_router(stats.router)
 
-    app_ui = FastAPI()
-
-    app_ui.include_router(entities.router_ui)
-    app_ui.include_router(mappings.router_ui)
-
-    app.mount("/ui", app_ui)
     return app
 
 

@@ -1,75 +1,25 @@
 from typing import List, Union
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, Request
 from sssom_schema import Mapping
 
-from ..database.sparql_implementation import (
-    SparqlImpl,
-    get_mapping_by_id,
-    get_mappings_by_filter_ui,
-    get_mappings_field,
-    get_mappings_query,
-    get_ui_mapping_by_id,
-)
 from ..models import PaginationParams
-from ..settings import get_sparql_implementation
-from ..utils import paginate, parser_filter
+from ..repository import get_mappings, get_mappings_by_id
+from ..utils import parser_filter
 
 router = APIRouter(prefix="/mappings", tags=["mappings"])
 
-
-@router.get(path="/", summary="Get all mappings")
+@router.get(path="/", summary="Get mappings")
 def mappings(
-    sparqlImpl: SparqlImpl = Depends(get_sparql_implementation),
-    pagination: PaginationParams = Depends(),
-    filter: Union[List[str], None] = Query(default=None),
+    request:Request,
+    min_confidence:float = None,
+    max_confidence:float = None,
+    pagination: PaginationParams = Depends()
 ):
-    filter_parsed = parser_filter(Mapping, filter)
-    if filter_parsed is None:
-        raise HTTPException(status_code=302, detail="Not valid filter")
-    else:
-        results = get_mappings_query(sparqlImpl, filter_parsed)
-        return paginate(results, **pagination.dict())
-
+    return get_mappings(pagination, request.query_params, min_confidence, max_confidence)
 
 @router.get(path="/{id}", summary="Get mapping by id")
-def mapping_by_id(id: str, sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)):
-    return get_mapping_by_id(sparqlImpl, id)
+def mapping_by_id(id: str):
+    return get_mappings_by_id(id)
 
 
-@router.get(
-    path="/{field}/{value:path}", summary="Get mappings by any field available in Mapping datamodel"
-)
-def mappings_by_field(
-    field: str,
-    value: str,
-    sparqlImpl: SparqlImpl = Depends(get_sparql_implementation),
-    pagination: PaginationParams = Depends(),
-):
-    if not hasattr(Mapping, field):
-        raise HTTPException(status_code=302, detail=f"Not valid field {field}")
-    else:
-        results = get_mappings_field(sparqlImpl, field, value)
-        return paginate(results, **pagination.dict())
-
-
-router_ui = APIRouter(prefix="/mappings", tags=["mappings"])
-
-
-@router_ui.get("/{id}", summary="Get mapping by id")
-def mapping_by_id_ui(id: str, sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)):
-    return get_ui_mapping_by_id(sparqlImpl, id)
-
-    # TODO #66 check if valid curie in subject_id, predicate_id and object_id
-
-
-@router_ui.get("/", summary="Get mappings with optional filters")
-def mappings_ui(
-    sparqlImpl: SparqlImpl = Depends(get_sparql_implementation),
-    pagination: PaginationParams = Depends(),
-    subject_id: Union[str, None] = None,
-    predicate_id: Union[str, None] = None,
-    object_id: Union[str, None] = None,
-):
-    results = get_mappings_by_filter_ui(sparqlImpl, subject_id, predicate_id, object_id)
-    return paginate(results, **pagination.dict())
