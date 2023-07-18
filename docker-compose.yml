@@ -17,7 +17,7 @@ services:
     environment:
       - SPARQL_ENDPOINT=http://triplestore:8889/bigdata/sparql
   triplestore:
-    image: lyrasis/blazegraph:2.1.5
+    image: anitacaron/blazegraph:v0.1
     environment:
       - JVM_MEM=10g
     ports:

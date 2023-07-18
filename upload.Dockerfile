@@ -1,4 +1,4 @@
-FROM lyrasis/blazegraph:2.1.5
+FROM anitacaron/blazegraph:v0.1
 
 VOLUME /data
 
