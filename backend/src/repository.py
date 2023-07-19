@@ -26,7 +26,8 @@ def encode_query_value(key, values):
 def encode_query(filters:ImmutableMultiDict[str,str]):
 	fq = []
 	for k in filters.keys():
-		fq.append(encode_query_value(k, filters.getlist(k)))
+		if not k in ['min_confidence', 'max_confidence', 'entity_id']:
+			fq.append(encode_query_value(k, filters.getlist(k)))
 	return fq
 
 def create_paged_mappings_response(body, pagination:PaginationParams):
@@ -44,15 +45,20 @@ def create_paged_mappings_response(body, pagination:PaginationParams):
 		'data': body['response']['docs']
 	}
 
-def get_mappings(pagination:PaginationParams, filters:ImmutableMultiDict[str,str], min_confidence = None, max_confidence = None):
+def get_mappings(pagination:PaginationParams, filters:ImmutableMultiDict[str,str], entity_id, min_confidence = None, max_confidence = None):
+	q = '*'
+	qf = ''
+	if entity_id != None:
+		q = entity_id
+		qf = 'subject_id object_id'
 	return create_paged_mappings_response(
 		solr_select('sssom_mappings', [
 			('defType', 'edismax'),
-			('q', '*'),
-			('qf', ''),
+			('q', q),
+			('qf', qf),
 			('fq', encode_query(filters)),
 			('facet', 'true'),
-			('facetFields', ['mapping_justification', 'predicate_id']),
+			('facet.field', ['mapping_justification', 'predicate_id']),
 			('start', (pagination.page-1) * pagination.limit),
 			('rows', pagination.limit)
 		]),
@@ -60,7 +66,7 @@ def get_mappings(pagination:PaginationParams, filters:ImmutableMultiDict[str,str
 	)
 
 
-def get_mappings_by_id(id:str):
+def get_mapping_by_id(id:str):
 	res = solr_select('ssssom_mappings', [
 			('q', ImmutableMultiDict[str,str](
 				('id', id)
