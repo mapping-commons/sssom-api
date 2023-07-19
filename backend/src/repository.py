@@ -20,11 +20,8 @@ def solr_select(core, query_params):
 	print('solr: get ' + url)
 	return requests.get(url).json()
 
-def encode(values:list[str]):
-	return "(" + ' OR '.join(values.map(lambda v: "\"" + escape_query_chars(v) + "\"")) + ")"
-
 def encode_query_value(key, values):
-	return map(values, lambda v: key + ":" + encode(v))
+	return key + ":(" + ' OR '.join( ("\"" + escape_query_chars(v) + "\"") for v in values) + ")"
 
 def encode_query(filters:ImmutableMultiDict[str,str]):
 	fq = []
@@ -56,7 +53,7 @@ def get_mappings(pagination:PaginationParams, filters:ImmutableMultiDict[str,str
 			('fq', encode_query(filters)),
 			('facet', 'true'),
 			('facetFields', ['mapping_justification', 'predicate_id']),
-			('start', pagination.page * pagination.limit),
+			('start', (pagination.page-1) * pagination.limit),
 			('rows', pagination.limit)
 		]),
 		pagination
