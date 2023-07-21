@@ -15,17 +15,18 @@ services:
       - triplestore
       - upload-triplestore
     environment:
-      - SPARQL_ENDPOINT=http://triplestore:8889/bigdata/sparql
+      - SPARQL_ENDPOINT=http://triplestore:9999/bigdata/sparql
   triplestore:
-    image: anitacaron/blazegraph:v0.1
+    image: anitacaron/blazegraph:v0.3.1
+    command: java -server -Xmx10g -jar blazegraph.jar
     environment:
-      - JVM_MEM=10g
+      - JAVA_OPTS=-Xmx10G
     ports:
-      - 8889:8080
+      - 9999:9999
     volumes:
       - ./data:/data:ro
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://triplestore:8889/"]
+      test: ["CMD", "curl", "-f", "http://triplestore:9999/"]
       interval: 3s
       timeout: 5s
       retries: 3
@@ -38,6 +39,6 @@ services:
     links:
       - triplestore
     environment:
-      - SERVER=http://triplestore:8889
+      - SERVER=http://triplestore:9999/bigdata
     volumes:
       - ./data:/data
