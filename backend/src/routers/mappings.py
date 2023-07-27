@@ -1,4 +1,4 @@
-from typing import List, Union
+from typing import Annotated, List, Union
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
 from fastapi.datastructures import QueryParams
@@ -15,10 +15,11 @@ def mappings(
     request:Request,
     min_confidence:float = None,
     max_confidence:float = None,
-    entity_id:str = None,
+    entity_id:Annotated[list[str], Query()] = None,
+    facets:Annotated[list[str], Query()] = None,
     pagination: PaginationParams = Depends()
 ):
-    return get_mappings(pagination, request.query_params, entity_id, min_confidence, max_confidence)
+    return get_mappings(pagination.page, pagination.limit, request.query_params, entity_id, facets, min_confidence, max_confidence)
 
 @router.get(path="/{id}", summary="Get mapping by id")
 def mapping_by_id(id: str):

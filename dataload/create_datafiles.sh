@@ -19,5 +19,12 @@ rm -f $OUTDIR/*
 # python3 $SCRIPT_PATH/src/sssom2neo.py --input $INDIR --output-nodes $OUTDIR/nodes.csv --output-edges $OUTDIR/edges.csv
 
 echo sssom2solr
-python3 $SCRIPT_PATH/src/sssom2solr.py --input $INDIR --output $OUTDIR/mappings.jsonl
+python3 $SCRIPT_PATH/src/sssom2solr.py \
+    --input $INDIR \
+    --output-mappings $OUTDIR/mappings.jsonl \
+    --output-mapping-sets $OUTDIR/mapping_sets.jsonl
+
+
+
+
 
