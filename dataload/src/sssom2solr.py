@@ -81,6 +81,7 @@ def write_mappings(input_file, output_mappings, output_mapping_sets, all_distinc
         distinct_entity_iris.add(line['object_iri'])
         output_mappings.write(json.dumps(line))
         output_mappings.write("\n")
+        num_mappings = num_mappings + 1
 
     output_mapping_set = {}
     output_mapping_set.update(yaml_header)
