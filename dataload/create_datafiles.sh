@@ -22,7 +22,9 @@ echo sssom2solr
 python3 $SCRIPT_PATH/src/sssom2solr.py \
     --input $INDIR \
     --output-mappings $OUTDIR/mappings.jsonl \
-    --output-mapping-sets $OUTDIR/mapping_sets.jsonl
+    --output-mapping-sets $OUTDIR/mapping_sets.jsonl \
+    --output-stats $OUTDIR/stats.jsonl
+
 
 
 

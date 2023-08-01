@@ -38,25 +38,16 @@ def create_paged_mappings_response(body, pagination:PaginationParams):
 			'total_items': body['response']['numFound'],
 			'total_pages': ceil(float(body['response']['numFound'])/pagination.limit)
 		},
-		'facets': {
-			'mapping_justification': body['facet_counts']['facet_fields'].get('mapping_justification', {}),
-			'predicate_id': body['facet_counts']['facet_fields'].get('predicate_id', {}),
-			'confidence': {} # TODO
-		},
+		'facets': body["facet_counts"]["facet_fields"],
 		'data': body['response']['docs']
 	}
 
-def get_mappings(page:int, limit:int, filters:ImmutableMultiDict[str,str], entity_id:list[str], facets:list[str], min_confidence = None, max_confidence = None):
-	q = '*'
-	qf = ''
-	if entity_id != None:
-		q = " OR ".join(entity_id)
-		qf = 'subject_id object_id'
+def get_mappings(page:int, limit:int, filters:ImmutableMultiDict[str,str], facets:list[str], min_confidence = None, max_confidence = None):
 	return create_paged_mappings_response(
 		solr_select('sssom_mappings', [
 			('defType', 'edismax'),
-			('q', q),
-			('qf', qf),
+			('q', '*'),
+			('qf', ''),
 			('fq', encode_query(filters)),
 			('facet', 'true'),
 			('facet.field', " ".join(facets))
@@ -66,6 +57,20 @@ def get_mappings(page:int, limit:int, filters:ImmutableMultiDict[str,str], entit
 		pagination
 	)
 
+def get_mapping_sets(page:int, limit:int, filters:ImmutableMultiDict[str,str], facets:list[str]):
+	return create_paged_mappings_response(
+		solr_select('sssom_mappings', [
+			('defType', 'edismax'),
+			('q', '*'),
+			('qf', ''),
+			('fq', encode_query(filters)),
+			('facet', 'true'),
+			('facet.field', " ".join(facets))
+			('start', (pagination.page-1) * pagination.limit),
+			('rows', pagination.limit)
+		]),
+		pagination
+	)
 
 def get_mapping_by_id(id:str):
 	res = solr_select('ssssom_mappings', [
@@ -76,6 +81,11 @@ def get_mapping_by_id(id:str):
 	return res['response']['docs'][0]
 
 
-	
 def solr_stats():
-	get_mappings(
+	res = get_mappings(0, 1, ImmutableMultiDict(), ["id", "entity_iri", "mapping_set_id"])
+	return {
+		"numMappings": res["facets"]["id"],
+		"numEntities": res["facets"]["entity_iri"],
+		"numMappingSets": res["facets"]["mapping_set_id"],
+	}
+

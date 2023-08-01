@@ -124,9 +124,10 @@
 
 	    
 
-    <!-- oxo2: all fields are indexed as text by default, but numeric fields need to be manually specified -->
-    <field name="confidence" type="pdouble" indexed="true" stored="true" multiValued="false" />
-    <field name="semantic_similarity_score" type="pdouble" indexed="true" stored="true" multiValued="false" />
+    <!-- OLS4: we are using dynamic fields for everything so no need to specify much of a schema.
+	 however we do need to specify the fields we DON'T want to be indexed
+    -->
+    <field name="_json" type="ols4json" indexed="false" stored="true" multiValued="false" />
 
 
 

@@ -5,7 +5,7 @@ echo Loading data...
 # ./load_into_neo4j.sh /opt/neo4j /tmp/out/nodes.csv /tmp/out/edges.csv
 rm -rf /opt/solr/server/solr/*
 cp -r /opt/dataload/solr_config/* /opt/solr/server/solr/
-./load_into_solr.sh /opt/solr /tmp/out/mappings.jsonl /tmp/out/mapping_sets.jsonl
+./load_into_solr.sh /opt/solr /tmp/out/mappings.jsonl /tmp/out/mapping_sets.jsonl /tmp/out/stats.jsonl
 #./create_neo4j_indexes.sh /opt/neo4j
 chmod -R 777 /opt/solr
 # chmod -R 777 /opt/neo4j

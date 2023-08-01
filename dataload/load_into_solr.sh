@@ -26,11 +26,21 @@ wget --method POST --no-proxy -O - --server-response --content-on-error=on --hea
 sleep 5
 
 
+echo Uploading stats from $4 to solr
+ls -hl $4
+
+wget --method POST --no-proxy -O - --server-response --content-on-error=on --header="Content-Type: application/json" --body-file $4 \
+    http://127.0.0.1:8983/solr/sssom_stats/update/json/docs?commit=true
+sleep 5
+
 
 wget http://localhost:8983/solr/sssom_mapping_sets/update?commit=true
 sleep 5
 
 wget http://localhost:8983/solr/sssom_mappings/update?commit=true
+sleep 5
+
+wget http://localhost:8983/solr/sssom_stats/update?commit=true
 sleep 5
 
 
