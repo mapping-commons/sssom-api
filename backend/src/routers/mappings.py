@@ -15,11 +15,10 @@ def mappings(
     request:Request,
     min_confidence:float = None,
     max_confidence:float = None,
-    entity_id:Annotated[list[str], Query()] = None,
-    facets:Annotated[list[str], Query()] = None,
+    facets:Annotated[list[str], Query()] = [],
     pagination: PaginationParams = Depends()
 ):
-    return get_mappings(pagination.page, pagination.limit, request.query_params, entity_id, facets, min_confidence, max_confidence)
+    return get_mappings(pagination.page, pagination.limit, request.query_params, facets, min_confidence, max_confidence)
 
 @router.get(path="/{id}", summary="Get mapping by id")
 def mapping_by_id(id: str):
