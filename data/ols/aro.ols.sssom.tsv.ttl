@@ -1,0 +1,431 @@
+@prefix PDB: <https://www.rcsb.org/structure/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:09f632b29f5156c98b23fbd9d85ab7da a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "aro.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/aro.ols.sssom.tsv> ;
+    sssom:mappings sssom:0dd75437ed255ccfa9f6d45935ae6f9d,
+        sssom:11664959d14b592d835b9d17c56e07d7,
+        sssom:1171f632b9d75af4a50d36fb81b4d59d,
+        sssom:120800724d055d4a874aa345a0b9b239,
+        sssom:137ae3a1213f5974acea6c291eeae261,
+        sssom:1e7e241008b75a38aae764d0dc33ee49,
+        sssom:20633fdb258f565481e4ef7e7fc8d381,
+        sssom:20f2af7334dd52228c09dcb8857935d0,
+        sssom:290cce6493a9572493e1f796a920636e,
+        sssom:4e2aa49f65ea553c81ef92643aaa0a21,
+        sssom:4e6362713f6f5224a208f28d22809ec3,
+        sssom:4f2dce8ac8b05ce3afadbc626475541b,
+        sssom:565c7e87e9f3550b8ab25aa093b7004e,
+        sssom:5ddd41c43c9a50fdba35ab8fc0b948a5,
+        sssom:6070de43617850bb99eb44270ea34c23,
+        sssom:64344fddddf65822a9559d5bdc0975aa,
+        sssom:6452d1cce3f059e19a3cbf0b49ff803a,
+        sssom:6bd6c29df6285ce4b092e9bd8f26f899,
+        sssom:6bed4e8ef280514e867cca5652ae5af9,
+        sssom:6cdfadc3023857efb888a3df6e7a3283,
+        sssom:874433be4c665c828e563e2578a9b66e,
+        sssom:8dad9f889b7b5a1f9ce815d993c295ff,
+        sssom:949295c0b1c651ae8f0f1e83b88e9a42,
+        sssom:97a78b37bc0d5925bcbd0a9be246a4b9,
+        sssom:9b52f5ea9d02550bbc9c9f0ad7e2c839,
+        sssom:9f06ba122a595dc5ac0f3acaf52d1da0,
+        sssom:a3ff658fba995687bfd89f9fbc0df39b,
+        sssom:a790ecea5c00520ca9c754563893a8ba,
+        sssom:aaa5236f491058749c369eb50a80acc1,
+        sssom:b0e8683b4c5554999b33ab8051364dde,
+        sssom:b4de5811aebb52eb99f8d6d102075065,
+        sssom:bdd555f255ba58e282da7ffc1aa1b259,
+        sssom:c0391f8b9a8a5db09561f414ff1fe822,
+        sssom:c0d8e398562a5cceb5ff0e5bc4c5d6d2,
+        sssom:c3ba1976515b5418a5be1826eee538da,
+        sssom:cfe7bccf49905d899cd0fbe006e82bf1,
+        sssom:d17a3e36a2ae57bf88f2c8d100e6571e,
+        sssom:d1d0b9b218a1528dafdeb666ece785d0,
+        sssom:d342091af9415ea48918a6f48fd8717d,
+        sssom:d8108015fb3b550f964da9ac8a9365c7,
+        sssom:e33e34f2b8055d129b658bec20089062,
+        sssom:e4a18b93aa295e45be1aa74cc3e426b2,
+        sssom:f2f3376b5bd15c36810f373539d17896,
+        sssom:f4577e3a36e55ce4b5b5b15044398c0d,
+        sssom:f4b8fcc1a52b5f50a859d83f5e069cfe,
+        sssom:f8fdc23d5812565ab8812b5982c93963 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/aro> ;
+            sssom:local_id "aro.ols" ] ;
+    sssom:uuid "09f632b29f5156c98b23fbd9d85ab7da"^^<xsd:string> .
+
+sssom:0dd75437ed255ccfa9f6d45935ae6f9d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000589> ;
+    owl:annotatedTarget PDB:5ZGE ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "NDM-1" ;
+    sssom:uuid "0dd75437ed255ccfa9f6d45935ae6f9d"^^<xsd:string> .
+
+sssom:11664959d14b592d835b9d17c56e07d7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000237> ;
+    owl:annotatedTarget PDB:1EK9 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "TolC" ;
+    sssom:uuid "11664959d14b592d835b9d17c56e07d7"^^<xsd:string> .
+
+sssom:1171f632b9d75af4a50d36fb81b4d59d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000506> ;
+    owl:annotatedTarget PDB:1LNW ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "MexR" ;
+    sssom:uuid "1171f632b9d75af4a50d36fb81b4d59d"^^<xsd:string> .
+
+sssom:120800724d055d4a874aa345a0b9b239 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000865> ;
+    owl:annotatedTarget PDB:2IYF ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "oleD" ;
+    sssom:uuid "120800724d055d4a874aa345a0b9b239"^^<xsd:string> .
+
+sssom:137ae3a1213f5974acea6c291eeae261 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000247> ;
+    owl:annotatedTarget PDB:1S2T ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "phosphoenolpyruvate (PEP) mutase" ;
+    sssom:uuid "137ae3a1213f5974acea6c291eeae261"^^<xsd:string> .
+
+sssom:1e7e241008b75a38aae764d0dc33ee49 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3004121> ;
+    owl:annotatedTarget PDB:1EWF ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "BPI" ;
+    sssom:uuid "1e7e241008b75a38aae764d0dc33ee49"^^<xsd:string> .
+
+sssom:20633fdb258f565481e4ef7e7fc8d381 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000582> ;
+    owl:annotatedTarget PDB:2QDT ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "L1 beta-lactamase" ;
+    sssom:uuid "20633fdb258f565481e4ef7e7fc8d381"^^<xsd:string> .
+
+sssom:20f2af7334dd52228c09dcb8857935d0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3004038> ;
+    owl:annotatedTarget PDB:3B61 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pseudomonas aeruginosa emrE" ;
+    sssom:uuid "20f2af7334dd52228c09dcb8857935d0"^^<xsd:string> .
+
+sssom:290cce6493a9572493e1f796a920636e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002655> ;
+    owl:annotatedTarget PDB:3OVC ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "APH(4)-Ia" ;
+    sssom:uuid "290cce6493a9572493e1f796a920636e"^^<xsd:string> .
+
+sssom:4e2aa49f65ea553c81ef92643aaa0a21 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000533> ;
+    owl:annotatedTarget PDB:3FPP ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "macA" ;
+    sssom:uuid "4e2aa49f65ea553c81ef92643aaa0a21"^^<xsd:string> .
+
+sssom:4e6362713f6f5224a208f28d22809ec3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3003099> ;
+    owl:annotatedTarget PDB:2QDS ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cphA2" ;
+    sssom:uuid "4e6362713f6f5224a208f28d22809ec3"^^<xsd:string> .
+
+sssom:4f2dce8ac8b05ce3afadbc626475541b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002547> ;
+    owl:annotatedTarget PDB:1V0C ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "AAC(6')-Ib-cr1" ;
+    sssom:uuid "4f2dce8ac8b05ce3afadbc626475541b"^^<xsd:string> .
+
+sssom:565c7e87e9f3550b8ab25aa093b7004e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002637> ;
+    owl:annotatedTarget PDB:3N4T ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "APH(2'')-IVa" ;
+    sssom:uuid "565c7e87e9f3550b8ab25aa093b7004e"^^<xsd:string> .
+
+sssom:5ddd41c43c9a50fdba35ab8fc0b948a5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000866> ;
+    owl:annotatedTarget PDB:2IYA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "oleI" ;
+    sssom:uuid "5ddd41c43c9a50fdba35ab8fc0b948a5"^^<xsd:string> .
+
+sssom:6070de43617850bb99eb44270ea34c23 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3004043> ;
+    owl:annotatedTarget PDB:2F1M ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Escherichia coli acrA" ;
+    sssom:uuid "6070de43617850bb99eb44270ea34c23"^^<xsd:string> .
+
+sssom:64344fddddf65822a9559d5bdc0975aa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3004041> ;
+    owl:annotatedTarget PDB:2F1M ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Klebsiella pneumoniae acrA" ;
+    sssom:uuid "64344fddddf65822a9559d5bdc0975aa"^^<xsd:string> .
+
+sssom:6452d1cce3f059e19a3cbf0b49ff803a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000010> ;
+    owl:annotatedTarget PDB:1E4E ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "vanA" ;
+    sssom:uuid "6452d1cce3f059e19a3cbf0b49ff803a"^^<xsd:string> .
+
+sssom:6bd6c29df6285ce4b092e9bd8f26f899 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000621> ;
+    owl:annotatedTarget PDB:3BLM ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "PC1 beta-lactamase (blaZ)" ;
+    sssom:uuid "6bd6c29df6285ce4b092e9bd8f26f899"^^<xsd:string> .
+
+sssom:6bed4e8ef280514e867cca5652ae5af9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002644> ;
+    owl:annotatedTarget PDB:1ND4 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "APH(3')-IIa" ;
+    sssom:uuid "6bed4e8ef280514e867cca5652ae5af9"^^<xsd:string> .
+
+sssom:6cdfadc3023857efb888a3df6e7a3283 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000379> ;
+    owl:annotatedTarget PDB:1WP1 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "OprM" ;
+    sssom:uuid "6cdfadc3023857efb888a3df6e7a3283"^^<xsd:string> .
+
+sssom:874433be4c665c828e563e2578a9b66e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000860> ;
+    owl:annotatedTarget PDB:3FRH ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "rmtB" ;
+    sssom:uuid "874433be4c665c828e563e2578a9b66e"^^<xsd:string> .
+
+sssom:8dad9f889b7b5a1f9ce815d993c295ff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000535> ;
+    owl:annotatedTarget PDB:3FTJ ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "macB" ;
+    sssom:uuid "8dad9f889b7b5a1f9ce815d993c295ff"^^<xsd:string> .
+
+sssom:949295c0b1c651ae8f0f1e83b88e9a42 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3004039> ;
+    owl:annotatedTarget PDB:3B61 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Escherichia coli emrE" ;
+    sssom:uuid "949295c0b1c651ae8f0f1e83b88e9a42"^^<xsd:string> .
+
+sssom:97a78b37bc0d5925bcbd0a9be246a4b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3001307> ;
+    owl:annotatedTarget PDB:2Z2P ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "vgbA" ;
+    sssom:uuid "97a78b37bc0d5925bcbd0a9be246a4b9"^^<xsd:string> .
+
+sssom:9b52f5ea9d02550bbc9c9f0ad7e2c839 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000858> ;
+    owl:annotatedTarget PDB:3FZG ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "armA" ;
+    sssom:uuid "9b52f5ea9d02550bbc9c9f0ad7e2c839"^^<xsd:string> .
+
+sssom:9f06ba122a595dc5ac0f3acaf52d1da0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000489> ;
+    owl:annotatedTarget PDB:2HYD ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "sav1866" ;
+    sssom:uuid "9f06ba122a595dc5ac0f3acaf52d1da0"^^<xsd:string> .
+
+sssom:a3ff658fba995687bfd89f9fbc0df39b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002635> ;
+    owl:annotatedTarget PDB:3HAV ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "APH(2'')-IIa" ;
+    sssom:uuid "a3ff658fba995687bfd89f9fbc0df39b"^^<xsd:string> .
+
+sssom:a790ecea5c00520ca9c754563893a8ba a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000309> ;
+    owl:annotatedTarget PDB:2GFP ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "emrD" ;
+    sssom:uuid "a790ecea5c00520ca9c754563893a8ba"^^<xsd:string> .
+
+sssom:aaa5236f491058749c369eb50a80acc1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000423> ;
+    owl:annotatedTarget PDB:3D40 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "FomA" ;
+    sssom:uuid "aaa5236f491058749c369eb50a80acc1"^^<xsd:string> .
+
+sssom:b0e8683b4c5554999b33ab8051364dde a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000862> ;
+    owl:annotatedTarget PDB:3LCV ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "sgm" ;
+    sssom:uuid "b0e8683b4c5554999b33ab8051364dde"^^<xsd:string> .
+
+sssom:b4de5811aebb52eb99f8d6d102075065 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3004042> ;
+    owl:annotatedTarget PDB:2F1M ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Enterobacter cloacae acrA" ;
+    sssom:uuid "b4de5811aebb52eb99f8d6d102075065"^^<xsd:string> .
+
+sssom:bdd555f255ba58e282da7ffc1aa1b259 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000205> ;
+    owl:annotatedTarget PDB:2XYO ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "tet(X)" ;
+    sssom:uuid "bdd555f255ba58e282da7ffc1aa1b259"^^<xsd:string> .
+
+sssom:c0391f8b9a8a5db09561f414ff1fe822 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000377> ;
+    owl:annotatedTarget PDB:1T5E ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "MexA" ;
+    sssom:uuid "c0391f8b9a8a5db09561f414ff1fe822"^^<xsd:string> .
+
+sssom:c0d8e398562a5cceb5ff0e5bc4c5d6d2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000216> ;
+    owl:annotatedTarget PDB:1IWG ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "acrB" ;
+    sssom:uuid "c0d8e398562a5cceb5ff0e5bc4c5d6d2"^^<xsd:string> .
+
+sssom:c3ba1976515b5418a5be1826eee538da a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000469> ;
+    owl:annotatedTarget PDB:1ZZ6 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "hydroxypropylphosphonic acid epoxidase" ;
+    sssom:uuid "c3ba1976515b5418a5be1826eee538da"^^<xsd:string> .
+
+sssom:cfe7bccf49905d899cd0fbe006e82bf1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000378> ;
+    owl:annotatedTarget PDB:2V50 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "MexB" ;
+    sssom:uuid "cfe7bccf49905d899cd0fbe006e82bf1"^^<xsd:string> .
+
+sssom:d17a3e36a2ae57bf88f2c8d100e6571e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3003035> ;
+    owl:annotatedTarget PDB:2BM7 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mfpA" ;
+    sssom:uuid "d17a3e36a2ae57bf88f2c8d100e6571e"^^<xsd:string> .
+
+sssom:d1d0b9b218a1528dafdeb666ece785d0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002700> ;
+    owl:annotatedTarget PDB:1QHN ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cmlv" ;
+    sssom:uuid "d1d0b9b218a1528dafdeb666ece785d0"^^<xsd:string> .
+
+sssom:d342091af9415ea48918a6f48fd8717d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000172> ;
+    owl:annotatedTarget PDB:4JH1 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "FosB" ;
+    sssom:uuid "d342091af9415ea48918a6f48fd8717d"^^<xsd:string> .
+
+sssom:d8108015fb3b550f964da9ac8a9365c7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002647> ;
+    owl:annotatedTarget PDB:1L8T ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "APH(3')-IIIa" ;
+    sssom:uuid "d8108015fb3b550f964da9ac8a9365c7"^^<xsd:string> .
+
+sssom:e33e34f2b8055d129b658bec20089062 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002312> ;
+    owl:annotatedTarget PDB:2OV5 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "KPC-2" ;
+    sssom:uuid "e33e34f2b8055d129b658bec20089062"^^<xsd:string> .
+
+sssom:e4a18b93aa295e45be1aa74cc3e426b2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000149> ;
+    owl:annotatedTarget PDB:1NPB ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "FosA" ;
+    sssom:uuid "e4a18b93aa295e45be1aa74cc3e426b2"^^<xsd:string> .
+
+sssom:f2f3376b5bd15c36810f373539d17896 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002272> ;
+    owl:annotatedTarget PDB:1KO2 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "VIM-2" ;
+    sssom:uuid "f2f3376b5bd15c36810f373539d17896"^^<xsd:string> .
+
+sssom:f4577e3a36e55ce4b5b5b15044398c0d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3002662> ;
+    owl:annotatedTarget PDB:3I0O ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "APH(9)-Ia" ;
+    sssom:uuid "f4577e3a36e55ce4b5b5b15044398c0d"^^<xsd:string> .
+
+sssom:f4b8fcc1a52b5f50a859d83f5e069cfe a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000198> ;
+    owl:annotatedTarget PDB:2P7K ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "FosX" ;
+    sssom:uuid "f4b8fcc1a52b5f50a859d83f5e069cfe"^^<xsd:string> .
+
+sssom:f8fdc23d5812565ab8812b5982c93963 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aro:3000375> ;
+    owl:annotatedTarget PDB:1YUB ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "ErmB" ;
+    sssom:uuid "f8fdc23d5812565ab8812b5982c93963"^^<xsd:string> .
+

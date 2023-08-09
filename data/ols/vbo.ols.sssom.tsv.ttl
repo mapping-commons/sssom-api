@@ -1,0 +1,4030 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:912fbed1e4765d4584aa02f6ea27238d a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "vbo.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/vbo.ols.sssom.tsv> ;
+    sssom:mappings sssom:0050765c74e15ceabe113b47f8618fca,
+        sssom:009901f8eaa8550f91bc53211f3ce878,
+        sssom:00e4999415285e36859e6212e4813371,
+        sssom:01eb306b8bdc5f6089267e2cf7726857,
+        sssom:022dcc332d6c506b82c18d8c6ae76dae,
+        sssom:0579c232ea955ab69d48e6288e9cadbf,
+        sssom:0612ffc97aca5334be32f60b787d034d,
+        sssom:0672818435a05d8d92704631e2d4b9f0,
+        sssom:076c3169dcc4523aac63faa7d24af735,
+        sssom:07a79bf89d875ae1aa30859d8ff840ef,
+        sssom:0840875adfbe52cca5cf83ee7e0cc970,
+        sssom:0876b918a67f526292fd6a79c36549de,
+        sssom:098df8831e8b5b8283778d534aefc112,
+        sssom:0a012fd401d255ea91206d5100b17b46,
+        sssom:0ab5295895e151869961fb873f6ea265,
+        sssom:0b62cc6d9b345607926a9912f1ac403e,
+        sssom:0b7b1b568d5e5a989f305b78a6c2063a,
+        sssom:0bba028739415395b09128f8c1ad6443,
+        sssom:0bf023e7bf3253dcb94212b6db7c35f1,
+        sssom:0c8a016143b25eed94453883eaa611c2,
+        sssom:0cd4999e45245b2d8c21f1c64ed71eca,
+        sssom:0f275e57aa7b5878b286361017a6c6e9,
+        sssom:0ff13828506453c2a0df259bd3064fa3,
+        sssom:109051816ed254c78a507edb46d4bc99,
+        sssom:11568b731e365827b9c1b3aaf5780855,
+        sssom:12c10906a5375c0b8ad839b594257aed,
+        sssom:12c689010e5a5d3a83499b62591eb774,
+        sssom:162572055de555b594d2c4c6a0cd8ab3,
+        sssom:16af7cef08ab5a42b766e0195b889a8e,
+        sssom:16b28b3f25b6543c816f7da7e83bf1c1,
+        sssom:16b882279a0f5cb3b003a1efe805121e,
+        sssom:16ecae19079a52629ab1a028bb4b4efd,
+        sssom:171588ea2e14541ba8b1d6aef70874e5,
+        sssom:1796644bb905514a81f13a2a3c3ba497,
+        sssom:1894886cbb64590c871aaf4482560158,
+        sssom:18e2d8b89bcb5da18196e0f265395d8f,
+        sssom:1965cc9205cf56e7b4bd31fd1375c64c,
+        sssom:19761fb3fbae544aa4180c154911f2b0,
+        sssom:19797dddf241532db10a686e424e1bf6,
+        sssom:1a6ae44b533e5a7186c5782a1add051b,
+        sssom:1b1c8c2293ed57519fc2d3a2ca3a7f20,
+        sssom:1c4d81989ea2527c935d2dc79710b30e,
+        sssom:1cff937da51d514b96ca1d572753a97d,
+        sssom:1de757510edb5bd8a9fc9838c43fb169,
+        sssom:1f081e302a24596a8dc8b1de1dfbb4a1,
+        sssom:1fac13bd48fb5247a39f15c1faf6c544,
+        sssom:1fcbf67d431e51f38cf9b51c4ed45c22,
+        sssom:208748d635b85ab884f21cfb9c76580e,
+        sssom:211c9ba5f8785fbaa6b944de1530adc4,
+        sssom:21ec6467ec3d586187660822b3c9bcad,
+        sssom:2212cb75d9dc5d26adc4236375f8309a,
+        sssom:223386fb6b74525b9690117a075982f5,
+        sssom:22be07ea1fe55b3ca592f51391dfd38c,
+        sssom:22d5197ef1b85a169ee162f056d57e47,
+        sssom:230b906b1aec5dba80b95124543700f0,
+        sssom:232d3ed2bff853b6bea5e26d47f09609,
+        sssom:232f8572b1855ddb8e1a7154c36bc94c,
+        sssom:24397f2ba9c651ccb700758fbed9e3ee,
+        sssom:24400ea083bc5bca9b7d67d5bffba7ad,
+        sssom:246834cdd4e95213b363e661023fb89a,
+        sssom:24a3763066f05e9091b637012cd36a95,
+        sssom:2565be5415d3599c925a99fb1f53fa0f,
+        sssom:2615c0d1fbe15ae38ebc4aa990522111,
+        sssom:26b72a0b67fc584d841e49bc19d207d4,
+        sssom:26c4586998565a3b9924b505fd78005a,
+        sssom:26dea70c1dba59f2a2da7c7c38028626,
+        sssom:27a99dc8bce05930befb7f32f4d09134,
+        sssom:27e7588d676e5d49975645ae7af1e4bf,
+        sssom:28a13d6da52e5d3081c62542d18e449f,
+        sssom:2900e9d9c062542e867346a1a41005f7,
+        sssom:29c81b57bf1954bbb374b5fd895d14ef,
+        sssom:29fcca596a485116b7cc32d8001e2c5c,
+        sssom:2a12d226ca145415954079ea10fc6c56,
+        sssom:2ac5dfe383bc598db7d3be46c6a9c3ce,
+        sssom:2b2f95b0f58d5646875d501a18610687,
+        sssom:2b370ba3d2f2563ba6ef0187c33636e5,
+        sssom:2b85979a9456551cbad93b9eb6aab68b,
+        sssom:2b9a927539ea5b8290540a1d101ff134,
+        sssom:2ba182852456500595cf356fef768897,
+        sssom:2bb740ff0add5985b0d2fdf97ce0c87c,
+        sssom:2cec1b98b8135a82a615a567e9fa4f2c,
+        sssom:2d3d94337dfb57f9a504465f67f7f192,
+        sssom:2dee0d40f1685bff8c828e810bae5e35,
+        sssom:2e06ce2921a3549da82a47e575f7a624,
+        sssom:2e595cd7fdf653129721a659905baa2d,
+        sssom:301c1cb05d34582b9dfc9b182e8ec86a,
+        sssom:30ed272454b85a0c8bd5697c031f7b5e,
+        sssom:319ce33583c650edb01054def7ccaf49,
+        sssom:31ab627a8ca754fbbbf4797a2df542bd,
+        sssom:31d65d6104dd5f7692ddf027d4aeb328,
+        sssom:325759a65bf4560b930e4ccb3a90474e,
+        sssom:3277185576275f70802e6751d2ded997,
+        sssom:329c378eea5c5e47bccdd446212d475b,
+        sssom:32bb7db2f6e25c4897b8172aa0d68653,
+        sssom:3470d25f314654a2b6a7602c1d2575c9,
+        sssom:3558fc04c3fa546aad47bac930292fa6,
+        sssom:35f2035847615b62a8ae28221904840b,
+        sssom:363b45dff2fc5303a26f134c738733f2,
+        sssom:365ff98cdb8155ebb3a936ec3e206aa5,
+        sssom:37a60f52a09a5f04a6c5c11a8bf5d2da,
+        sssom:37afad7770ad5c9d8d9e9162a0489fae,
+        sssom:3817cf2283035ea68dacca981d2654c9,
+        sssom:389ac468c42156869940965c00ebd9ff,
+        sssom:38fcb426023b5543bc2a426b0242f642,
+        sssom:396c637d4a0450098da102408e0df459,
+        sssom:39940eb495a759149486e9f94bea007b,
+        sssom:39a9c965ae5d5223a56be968137d801c,
+        sssom:3aaa8a6497b45f1b80963d8af0b58b8f,
+        sssom:3ae2d2c2ec785242892e6d36117472a5,
+        sssom:3b02ac9625fd50cb8b1e07f7a094254f,
+        sssom:3b31b5d9e37356eb9f3871fb654b3b7d,
+        sssom:3b391b685ede521a9e9a6a877d6c771e,
+        sssom:3bca3a160e8a52ffadebe7d1814d4b0c,
+        sssom:3c90f3c4445f5986bf39abaeadfcae0b,
+        sssom:3ddf84deb45d55b99987190305acff00,
+        sssom:3ebc9a9cc7f058e7b66acfb45b0a305b,
+        sssom:3ebe6955dd665373b78b235dd35386d3,
+        sssom:3ee578512e9c5f0fba9491324f2849a0,
+        sssom:400420be383151f4816aeaa3bab7f1dc,
+        sssom:4082b658ccf951408e6ef0ab6f2b65ae,
+        sssom:40dc9d5171ec55a18570d4c1d8f3d389,
+        sssom:414f54b552fb5742bfbdc5a80daaf074,
+        sssom:417b58804ae55b25aaf4188754105d4f,
+        sssom:41ab62a9c1a65ee2add6e73293e2c9f3,
+        sssom:41d77bf1098752acbf6d8ceb4ae27ba7,
+        sssom:421b3b1d094a5b7985bfb463c24280db,
+        sssom:425a537a84cf531ca34f372008541b68,
+        sssom:42941ef854f25c33aa62561d423994b0,
+        sssom:429509d0857d523a86e0cd46673b6986,
+        sssom:4309f5c66ba653cfbae2cd7778c1a092,
+        sssom:431c871b96d0504fbe36721ffb2d3ff7,
+        sssom:445f03cdcf905fef88f83f328df2e551,
+        sssom:4463c01774b653c7b1a379728f62869d,
+        sssom:44b280a17a365764bc624372d1528501,
+        sssom:4512587a1dc85df5a7031dc1a9f0296d,
+        sssom:45bbb96653895e039f5e9f5ea060776b,
+        sssom:46f6de9a6a9d56109a7275717f2bf69c,
+        sssom:474b1ae9f2a75c23a7994c05a31db0e1,
+        sssom:47700b2bfc635a47bd5a5722ad84d877,
+        sssom:481a573928de521db4f95fc3955ba703,
+        sssom:48a70674e4a95d0d8e1e8d820c8312f2,
+        sssom:49c8a9508ccf5d7ea52a9911b3fe883d,
+        sssom:4a073bf7ac0758778ed5b20166bf8457,
+        sssom:4b11292adfb05ad7997f4fcdf53c537e,
+        sssom:4d335410ac5a5f3ab18a0e3f01eff384,
+        sssom:4fff756a5bb95582890702f656eed110,
+        sssom:506382478fa450dba460435076282ee0,
+        sssom:50e3c7b315835fef9b9d93cffc0a3a0b,
+        sssom:511f3d27ffce5040b0a0f18255bdf6f0,
+        sssom:5233f03ba2265ea59731fd889af6c55f,
+        sssom:5287a4393dd050cb9590c11bb0c3645a,
+        sssom:54e748206d5d566788dab24a63a795bd,
+        sssom:552e8f79d39e5de9a58450e67c80d90b,
+        sssom:55375979ed6852db81d53635c7ff8119,
+        sssom:55f219908ca7555f9cf1d1a773bfd52f,
+        sssom:568c7b2af9df55c88a2e7f6af78ddb4a,
+        sssom:56ee1a46724655ad8cd74611992a68bc,
+        sssom:57c3dcec3b4d5ca8898b9360da896521,
+        sssom:57ccd3e6496a52899f0ff131eb214c98,
+        sssom:5816c4e85e8455af8523553a4f5ea5e0,
+        sssom:58d8d9d6049f58c797408ff357d1b386,
+        sssom:5ac79c3db5db5823a4d482d5dfbeb9fa,
+        sssom:5b219451511154b6aa3bac3dfb1b56df,
+        sssom:5c30515972ff5f73951b583e8333fd33,
+        sssom:5c73d87029aa5955944061443da80e24,
+        sssom:5e714236294f59288a12fcc2fda8be85,
+        sssom:5fe201103ede5ab19feb085f3994ad33,
+        sssom:60200fe52b4e5b4ab3a2afc31db03cc8,
+        sssom:60397dfabdba5c87bd1592e79923e516,
+        sssom:60824b6138c058eea1475e5a8a9f7287,
+        sssom:613aa9152e6e5a3daa1777512e006fd8,
+        sssom:61f92da4cfdb51f89d8aa9511637397c,
+        sssom:6204f5e03a9a51f0887d642fb19a1acb,
+        sssom:621a24413045523f8ba44d9d6b5aaa29,
+        sssom:621ea1fe495c5870a6e6e90002eb89f1,
+        sssom:628539d6ace250ef95ff6620edba692c,
+        sssom:64d2be26511651e4b80438c85d67cb52,
+        sssom:6569cbeeb75e5f62baa3d7ca00e5a645,
+        sssom:65b696d935645f1284777d32a368c69b,
+        sssom:65c997809f4250c391d8365f80cdb391,
+        sssom:65d3e409525b5413b819caac6446d033,
+        sssom:66541d0146225851960bd1e00c1d15ef,
+        sssom:66b4a60c92605e30ab4b50964a900416,
+        sssom:66df5a3abe24554d9a68500fa22d160e,
+        sssom:670d08dd361e50e186c99155a0ca04a0,
+        sssom:67554404603f55f6b5eb14a8cf282d13,
+        sssom:686ab0fe6a7f51b781e5ab26e3bd30aa,
+        sssom:68b6fcc0b2185682b24e7f123e73958a,
+        sssom:68e1c621e41156169f16b5533655505b,
+        sssom:693c5a25e6e85b1dab2d343650c3af01,
+        sssom:6956961b42a658b1bc2f96fa5052e67f,
+        sssom:6a1d4222b3f85d26916a54519abd76c8,
+        sssom:6b5fb4ee878f5e7280469a9cc701f1c9,
+        sssom:6ce431bb0f04509cb8fd43be585be242,
+        sssom:6e0bfbb44f8b5eec879cdc11667bb93e,
+        sssom:6ee8c87d4732505789fd48173b914138,
+        sssom:6f2483a2354d594c896cb11dce18acf2,
+        sssom:6f4d12e63899534081e082e8543cc98d,
+        sssom:6f6919d86f515d74bda02ed9f50972f6,
+        sssom:6f85f00c346a56e9bca8f61f6d2fd22a,
+        sssom:7012bad3373954129e662aa3342f5614,
+        sssom:7121fc62d403535eaf5dd3d4ed9a0d3c,
+        sssom:71b4194ba9095df880e4b85320734a60,
+        sssom:72433004361a52bc93e114ebd6e6f9c6,
+        sssom:72501b2731b65ea4b8991aa3a3af6b55,
+        sssom:726c656583c35ed8abab33e9b919a190,
+        sssom:72834f760da15c6f81edf44d628bd5f4,
+        sssom:73c98c429951571d92cee7321e0b98c6,
+        sssom:73e0ac3a650951dea7700bc2b1d7c481,
+        sssom:74f934e077635080b88fbcab2600d7c9,
+        sssom:7553c3cc4f7b5f20843e460aa64a3ff1,
+        sssom:756d9fd27cd85caa818437ecb9e0a2a0,
+        sssom:7619417ab1235a62846cce76e4ee5492,
+        sssom:7624c902504459c5a54976080975bed0,
+        sssom:763d49063e0f51ba8fa4d66286c4dd92,
+        sssom:76b798da67765db091797ef5c871e750,
+        sssom:76e7acdd3a195aa0a2a3628f790cd6d1,
+        sssom:78682e318305531ca4739c002212f8a3,
+        sssom:78bcc30621f85abd8bcb019d607b287e,
+        sssom:78c12dab4b3c563b9be40669bde003c4,
+        sssom:78db2032274853be8c9d15d9e77bed2e,
+        sssom:7aa149ffd43a5dddba2bd64dd874794b,
+        sssom:7bdba0b3671e5658befcefb70edefcc7,
+        sssom:7be1a50dd2c85f00b09ee0eb9c4789fc,
+        sssom:7cad58b262335c9498e561dfc26ce3cc,
+        sssom:7d639702db8255bfa7c431e63bff810d,
+        sssom:7d9d1699581f5110a72400b0acb4397b,
+        sssom:7dccb9efb40654d882c868ae212c3c3d,
+        sssom:7fbd0b65f67252159c6312f136181720,
+        sssom:8140a4cbd2e95464b51e7df2f1375baf,
+        sssom:814109a597e0529f84b14f5586769a39,
+        sssom:816543f5615c5532965434620f5abfee,
+        sssom:81a446c4f352594997754eef31e35543,
+        sssom:81f0b53860a451e8af4973ad8edc2fcc,
+        sssom:82157eb6b5d35e9b97f3ba941930a63f,
+        sssom:821b73872e5f54b883d6aa0eef2ba0ca,
+        sssom:84bdca1476ef54b0a36b57b1a47d46d7,
+        sssom:854fe894ece85ec08224460b949247d9,
+        sssom:87002828cea6529896bc63d92b850720,
+        sssom:872bd71f06f6576d961e495e93efda2b,
+        sssom:87ff9c87e43c5386b4e5b34910a15c88,
+        sssom:8827a0cf45a757f1bdce4863feaa85cf,
+        sssom:88645deb0f0152918d9316001555422a,
+        sssom:8873179086e55192b3ef436196fdbc37,
+        sssom:889331c8f5725fe4bd05d3219c2f43b2,
+        sssom:88b04e9533b651ba92f9b5f3d02fbfb0,
+        sssom:88f54affb0d65abe813bda8bb59ea434,
+        sssom:89a5d35bbbbd551187ba7975e83189d3,
+        sssom:8a21edd03d09581d94b52b75114c4141,
+        sssom:8a796c74f3cb588ca5af1426fa9a854a,
+        sssom:8aa570e478ab59b5897db86b056b6ccb,
+        sssom:8c29c60fef1c563b9b400a621ef140de,
+        sssom:8ca826626f195c3893d0fa6a949fd7a7,
+        sssom:8fe478a94aea588092c29cd22f4f397e,
+        sssom:91326a2a816550418d36886af9999df6,
+        sssom:9201224fa4b853d682d7f38ba47200af,
+        sssom:926edc69cc775bf6b231f37838823bee,
+        sssom:92a5cde4471a5d00aa2b6f47893cf5f3,
+        sssom:92c65c3249025698935446eb84d57884,
+        sssom:9320b783ace257e9a81b59e7b6b75f1b,
+        sssom:93a891ee70565e6891b25dad33bb8777,
+        sssom:93aeb7963bdb5707a80cf619e9d828c8,
+        sssom:93f073646d90577196fa37e63203e6bf,
+        sssom:943ac78a3f44568dbc193967b2a0b283,
+        sssom:943f0c319f425f4589ef736adaf9ea3f,
+        sssom:9478e70973365f4b95921ceb6fde2fad,
+        sssom:94abf6b6719a5bb3888dbc569b75eaf4,
+        sssom:94ae6f08e2c6529b9913fab555769db6,
+        sssom:95a1ca4b5ded5b89b29b9e56a694add5,
+        sssom:95a53d7135c85028ba9fb1ff2467c63e,
+        sssom:96c049d0bb8f55748cfda6232959f9f3,
+        sssom:96fe3729c451581987459ee19b40d2b9,
+        sssom:9713bb487a76543f9de177454844bd68,
+        sssom:98c3b65018e45cbda9bee0e22aff685e,
+        sssom:99734447c9ff549db400f5ee663c9a69,
+        sssom:99cd827dba7050d69a88c2dda50b807c,
+        sssom:9b1234463152573d931a2d9042bf16cf,
+        sssom:9b29d163aaa459789044c1065c7d7b1e,
+        sssom:9b67a1a9debd550380dffadade5f8758,
+        sssom:9c59020f0bf75b50aca35cefb6654341,
+        sssom:9ca03857324457ac96d548218e8c3ec0,
+        sssom:9cc71c4a07d25f7aa77917b26b85b5fb,
+        sssom:9d9247cba4985575bd2e648dcdbb08f2,
+        sssom:9d9ddc924f655cd999272c12dce324d2,
+        sssom:9ee7f46cdfc3516bbbb7cf1073b64a6d,
+        sssom:9fc05aa4db2156d0803820feab60f4b7,
+        sssom:a026852f6bdd58f38dca5e6df00d8233,
+        sssom:a13fd6f9d61d5e5bb905a87f37dffbfb,
+        sssom:a2afb4c41cad51b2bc916e062b2a39f1,
+        sssom:a2c4ab35ec3a5f0694f9ee40a3d293de,
+        sssom:a4543017fc6c57588f50f8521631f936,
+        sssom:a47bd8216efc530a93b1b40243d069b1,
+        sssom:a5241a9ca7ed5dd4a3f4a76ed7488a65,
+        sssom:a524c5b005af5e7aac8328e43f96645d,
+        sssom:a5352dcd5e5856468d15bd7a84f4650a,
+        sssom:a751bb54a4a85f39aa333c544aa4cb46,
+        sssom:a8076191a2be57dd9dbb71c172f89b4f,
+        sssom:a88c5c774e50598497570ba8361c7629,
+        sssom:a8d227ff7f995c67989db4c09160c744,
+        sssom:a8f8570e68b05b08abfc0c9e28ba2ef9,
+        sssom:aa6e67bb6693565e97d309a829aae965,
+        sssom:aae436cca74f54aabcb7603d03f5ebcd,
+        sssom:ab4f9c60230757db9a7c5446f91b9dc0,
+        sssom:ab681f2f02a0504c88658948ef8ce77b,
+        sssom:ad67b7611c395a1abe0662c8617c72a2,
+        sssom:aeab6f20fa635ac5a2585793d74db39b,
+        sssom:aeec44d8ce445760a7f2e4b7fab028b4,
+        sssom:aef91015f4a75e7681e1bd116ae53d7a,
+        sssom:af0f850941cf5defab020c74cfcbd81d,
+        sssom:af661e5ed9c55c198848ca4bdd71dcdf,
+        sssom:af82856b8a5e5b4ea2aef69c2dda6553,
+        sssom:b048203fc3c45b96b6b68996c03dc5d8,
+        sssom:b079b82d8934542e86a65aa2a9448b7e,
+        sssom:b10ad940485d5fa2bfbe8fc676353f63,
+        sssom:b10e89455a025938b07109ab1f59a312,
+        sssom:b200fec3c3c45c4bb2c11d0521245767,
+        sssom:b28a799683ee5d4cbde57718f3f618d3,
+        sssom:b2d51606329d57879ac49bd95d97e2ad,
+        sssom:b2e1a62cf2ec5101901e86b7b2809c11,
+        sssom:b32cf6278ba450d9a5678d36a681e612,
+        sssom:b3c5fa866a2450f99d0f87206b4d62dc,
+        sssom:b3f27f26f8895ea58ebdfdf1827e3521,
+        sssom:b470f3490d725104adaed298a1f57ab1,
+        sssom:b4dc6f8c0dbb53599e5400451041aefe,
+        sssom:b579717545cb5f9ba069ab02d1ecc1d1,
+        sssom:b5c29417c3d2586b8bfe0d6db29f4adb,
+        sssom:b5c82e33d05a57a1901a42e4d315788d,
+        sssom:b6c91103247d5242ac51ec7d0c193f5a,
+        sssom:b70bd6b8ea215d3bab00ff3216125534,
+        sssom:b899627460aa57db96384032c76b4c1d,
+        sssom:b93962c9e0c55c72b364bd82f27334e7,
+        sssom:b96ad8a6f9ba5e318d2d34c472b3d8fc,
+        sssom:b9a671f069c2542788984c51e0d60031,
+        sssom:bb5981e45a105edbaefa9360dd5bc36f,
+        sssom:bbbac218d3b45bb7a2c60eb5abae6456,
+        sssom:bc5f3e9e7d0d5d9baf134c24815b4714,
+        sssom:bcc044e510c850dd96785e9f82e4fa22,
+        sssom:bcc714071446531aade2e14811a14859,
+        sssom:bd9929df268a5023a891d4e7d7cfd9ab,
+        sssom:bd9b73d002505c2094b885c09a89c3df,
+        sssom:bddf99335a6d5dc4b9dffa854ce17482,
+        sssom:bf3b3aa98e7e531b826027e718e3fdf1,
+        sssom:bf6e98ba8288523ab3154623d3c0f246,
+        sssom:c03c88bcbbb752a39b2c8dbdc7f66e5f,
+        sssom:c09d5b22273259fda6ebb64966839766,
+        sssom:c09db1aeb3c95b378c053efdcfc77388,
+        sssom:c14d0d1127b254c39ca92ca9cc6e93b1,
+        sssom:c17843fc79ae52deafaf01af396b2d5f,
+        sssom:c3339cec634451daa8b0c7ca31661700,
+        sssom:c3829135ed92596d85d4c841d059052f,
+        sssom:c4077fe5d3855668a3449cef2b80235d,
+        sssom:c487f0b26b09592382902c34986ff1cb,
+        sssom:c54e2b8c96ab513ca9c6985bb601cc97,
+        sssom:c5ac6fbeac74550aac6778208cb7df01,
+        sssom:c5c9478d21875f52bb90bb8b2ce3b8e5,
+        sssom:c5de49ae306950d29bc90ac3d054dcdd,
+        sssom:c615f4e3aa37518bb83820df4f809ece,
+        sssom:c63d4a7f60255de482924b3775d92845,
+        sssom:c790983058a8525eb7714c750baf6522,
+        sssom:c83d023fdfe25fb3b738bb101e971999,
+        sssom:c8a454f832a652b989ca80bdf93cff58,
+        sssom:c8a9f01f1ff5533099b23d9157f07c4a,
+        sssom:c8ce6ffeb9fe539d85288cd130f0e331,
+        sssom:cab0f6f2cef75f288b9dda7eb1f23356,
+        sssom:caf5b45bbe5b57649ff879315f7586b5,
+        sssom:cbb52e000840539391c49bc2ce283c69,
+        sssom:cbf6d41823a0569ea1f3d78c1412d386,
+        sssom:ccffe47a15185f479246563c71b60f9f,
+        sssom:cdd5df7a137b5d12979646d8c87e29f0,
+        sssom:ce3e5bd28674566b97ae920e1d27b7e8,
+        sssom:cf70d6b3c4c451c392f094f0f8697511,
+        sssom:cfa48ad305705022aeef99c6b527ba0d,
+        sssom:d002d85d287e5b998b96f42c403f87cd,
+        sssom:d0871d8f3ea55e0ebb7134f2cf89a5e7,
+        sssom:d26ce9ea2d6c519e8a46175505821d38,
+        sssom:d2c2462a84e652adb1f6220cb8fd0b0b,
+        sssom:d3880c68749e535a85123e97ebff7fe6,
+        sssom:d5df92b5125650dcbe72444e9d74555d,
+        sssom:d611a50a7d6c5e41b3a956182a6546ca,
+        sssom:d6c4b29dd35b56bdaccbaba09d9ef568,
+        sssom:d7f971c4fade5facaf5dd9da01cb429f,
+        sssom:d850960d143e5252b314d36682763de9,
+        sssom:d9242a60d435535dba7eb155f1a649d9,
+        sssom:d9c925a29c3659fca8714f36eea2ce74,
+        sssom:da832f069fac5b2bb7787fb15d558101,
+        sssom:db17a8d3719357839ff813f73493ce00,
+        sssom:db4e8f336ee950239bcdcf14dfde0778,
+        sssom:dba183f5c8225502bdd7dcf14a77170b,
+        sssom:dc1e70a2aa0d53159f99dd0f5189c944,
+        sssom:dcf70b3de60f5adc9b32dc5e89a65ddb,
+        sssom:dd8e4f403a665a0783c28a095f225154,
+        sssom:ddce719a0bcd5d778a2895a7f1707daa,
+        sssom:de1054755485598a9b919c46e349f105,
+        sssom:def0a29f6f8a595bb7fa9d25771eff31,
+        sssom:defb2efed9d55dd299b64d3d19a19ee2,
+        sssom:df0644e2ec395ecb8ca803a0e5e7e99d,
+        sssom:df5178aac9e25359a893ef5ba133d417,
+        sssom:e043ebd2a76259db89f60581a982c8c9,
+        sssom:e07c76c1f0135774955f0c889918f950,
+        sssom:e0edd348eb99538eadd4f5a9356f4d98,
+        sssom:e13162c689b85dea9130c4e1677ca599,
+        sssom:e18215b3773b503e8adba61486f9bfce,
+        sssom:e1a6bf6371f253a68f6010b1eb32b8b2,
+        sssom:e62e4966fba7587c9586aaaf2cd1be3d,
+        sssom:e826443a953159cb8c25c3adfa030270,
+        sssom:e93e71f547ae524f86d0569cf8ce6b2e,
+        sssom:e9595dd0d5d152b09bd5425efbfe5eea,
+        sssom:e984cce6ea895de8a3a1288ff8ab33f0,
+        sssom:e98b0378a9e05896a3f200e22902a767,
+        sssom:ea0417cd78cb567c90da49ba3b60c2c0,
+        sssom:ea571b701acd53d79a59b4bbcf963d53,
+        sssom:eafc3a70415f58eebe9db2776fe5503c,
+        sssom:eb809cefb5875198887806da05311020,
+        sssom:eb9bff005bb151469b87b5b068768f20,
+        sssom:ec72cc386f8150cab830012146b2abf3,
+        sssom:ecd547bf98d65752ae5cb04465a12461,
+        sssom:eddadd5da1dc507f8bdbec52e0fc77f2,
+        sssom:ee88d9b7a34b54b185e0ac9ba48ae562,
+        sssom:eebfaa8561af5bc58713bb3ba682879a,
+        sssom:eee22bd1316b5e18a8dbe575606b23b9,
+        sssom:f000458b2ac15cb981b5ff4b56068d20,
+        sssom:f0c201b3670456918739013e032af378,
+        sssom:f0f5877b54cb5f5694116c3668e91abf,
+        sssom:f0f796bcab9156f683d53e5dc393e457,
+        sssom:f144183f0f205bd68d4c29b6e7124787,
+        sssom:f247ac235bd55a0e98f75367c3679df2,
+        sssom:f4436aa320545021b8a18f0611d28b3d,
+        sssom:f5729adb90f752828d25fb817f87d930,
+        sssom:f58ba972be685ae59c1cf4bc741c776b,
+        sssom:f5a4cfd2a73356b589fb24202d7c6c33,
+        sssom:f6de677ef36c585899d80f156b9937dd,
+        sssom:f704fd4a7c225c75ae3990d6a6921449,
+        sssom:f73c44ee1fb25d2b82568b300a3ad573,
+        sssom:f866289405fd588cb3db62c3491cbe3d,
+        sssom:f8d4ee08badb5990a4b094a1459a9f42,
+        sssom:f9663eefb08c5b7d9525072d2508a46b,
+        sssom:f9f829bd7a69597bab88290166eb2663,
+        sssom:fbbc1d992c6c509f9a04ea941aada17e,
+        sssom:fc57861a164a5585900bdba806cc44d3,
+        sssom:fc8987da372b5f4bb2caf54bc72689bd,
+        sssom:fdc466f1acad5a709e9d970481cb0092,
+        sssom:fe1444872a5c5e809708ec90f97d4553,
+        sssom:fe6179847f355df9900b778702f2458b,
+        sssom:fed81388281a525b9634e3b83178661d,
+        sssom:fef601deeea5564aa231249284f13a1f,
+        sssom:ffd05e1d9638595f99ae3a1721ba4888 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/vbo> ;
+            sssom:local_id "vbo.ols" ] ;
+    sssom:uuid "912fbed1e4765d4584aa02f6ea27238d"^^<xsd:string> .
+
+sssom:0050765c74e15ceabe113b47f8618fca a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201051> ;
+    owl:annotatedTarget <idog:268> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Poodle, Miniature (Dog)" ;
+    sssom:uuid "0050765c74e15ceabe113b47f8618fca"^^<xsd:string> .
+
+sssom:009901f8eaa8550f91bc53211f3ce878 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200610> ;
+    owl:annotatedTarget <idog:116> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Golden Retriever (Dog)" ;
+    sssom:uuid "009901f8eaa8550f91bc53211f3ce878"^^<xsd:string> .
+
+sssom:00e4999415285e36859e6212e4813371 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201374> ;
+    owl:annotatedTarget <idog:250> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Treeing Walker Coonhound (Dog)" ;
+    sssom:uuid "00e4999415285e36859e6212e4813371"^^<xsd:string> .
+
+sssom:01eb306b8bdc5f6089267e2cf7726857 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200365> ;
+    owl:annotatedTarget <idog:76> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cirneco dell'Etna (Dog)" ;
+    sssom:uuid "01eb306b8bdc5f6089267e2cf7726857"^^<xsd:string> .
+
+sssom:022dcc332d6c506b82c18d8c6ae76dae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201427> ;
+    owl:annotatedTarget <idog:258> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Wirehaired Pointing Griffon (Dog)" ;
+    sssom:uuid "022dcc332d6c506b82c18d8c6ae76dae"^^<xsd:string> .
+
+sssom:0579c232ea955ab69d48e6288e9cadbf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200055> ;
+    owl:annotatedTarget <idog:11> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Staffordshire Terrier (Dog)" ;
+    sssom:uuid "0579c232ea955ab69d48e6288e9cadbf"^^<xsd:string> .
+
+sssom:0612ffc97aca5334be32f60b787d034d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200779> ;
+    owl:annotatedTarget <idog:144> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Komondor (Dog)" ;
+    sssom:uuid "0612ffc97aca5334be32f60b787d034d"^^<xsd:string> .
+
+sssom:0672818435a05d8d92704631e2d4b9f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201023> ;
+    owl:annotatedTarget <idog:184> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Plott Hound (Dog)" ;
+    sssom:uuid "0672818435a05d8d92704631e2d4b9f0"^^<xsd:string> .
+
+sssom:076c3169dcc4523aac63faa7d24af735 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200553> ;
+    owl:annotatedTarget <idog:339> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Fresian Water Dog (Dog)" ;
+    sssom:uuid "076c3169dcc4523aac63faa7d24af735"^^<xsd:string> .
+
+sssom:07a79bf89d875ae1aa30859d8ff840ef a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201077> ;
+    owl:annotatedTarget <idog:194> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Portuguese Water Dog (Dog)" ;
+    sssom:uuid "07a79bf89d875ae1aa30859d8ff840ef"^^<xsd:string> .
+
+sssom:0840875adfbe52cca5cf83ee7e0cc970 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200921> ;
+    owl:annotatedTarget <idog:163> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mudi (Dog)" ;
+    sssom:uuid "0840875adfbe52cca5cf83ee7e0cc970"^^<xsd:string> .
+
+sssom:0876b918a67f526292fd6a79c36549de a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200655> ;
+    owl:annotatedTarget <idog:123> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hamiltonstovare (Dog)" ;
+    sssom:uuid "0876b918a67f526292fd6a79c36549de"^^<xsd:string> .
+
+sssom:098df8831e8b5b8283778d534aefc112 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200930> ;
+    owl:annotatedTarget <idog:164> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Neapolitan Mastiff (Dog)" ;
+    sssom:uuid "098df8831e8b5b8283778d534aefc112"^^<xsd:string> .
+
+sssom:0a012fd401d255ea91206d5100b17b46 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200865> ;
+    owl:annotatedTarget <idog:363> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Maremma Sheepdog (Dog)" ;
+    sssom:uuid "0a012fd401d255ea91206d5100b17b46"^^<xsd:string> .
+
+sssom:0ab5295895e151869961fb873f6ea265 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200642> ;
+    owl:annotatedTarget <idog:418> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Griffon Bruxellois (Dog)" ;
+    sssom:uuid "0ab5295895e151869961fb873f6ea265"^^<xsd:string> .
+
+sssom:0b62cc6d9b345607926a9912f1ac403e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200429> ;
+    owl:annotatedTarget <idog:85> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dandie Dinmont Terrier (Dog)" ;
+    sssom:uuid "0b62cc6d9b345607926a9912f1ac403e"^^<xsd:string> .
+
+sssom:0b7b1b568d5e5a989f305b78a6c2063a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200168> ;
+    owl:annotatedTarget <idog:37> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Black and Tan Coonhound (Dog)" ;
+    sssom:uuid "0b7b1b568d5e5a989f305b78a6c2063a"^^<xsd:string> .
+
+sssom:0bba028739415395b09128f8c1ad6443 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200304> ;
+    owl:annotatedTarget <idog:66> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Caucasian Shepherd Dog (Dog)" ;
+    sssom:uuid "0bba028739415395b09128f8c1ad6443"^^<xsd:string> .
+
+sssom:0bf023e7bf3253dcb94212b6db7c35f1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201401> ;
+    owl:annotatedTarget <idog:252> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Weimaraner (Dog)" ;
+    sssom:uuid "0bf023e7bf3253dcb94212b6db7c35f1"^^<xsd:string> .
+
+sssom:0c8a016143b25eed94453883eaa611c2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200914> ;
+    owl:annotatedTarget <idog:162> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mountain Cur (Dog)" ;
+    sssom:uuid "0c8a016143b25eed94453883eaa611c2"^^<xsd:string> .
+
+sssom:0cd4999e45245b2d8c21f1c64ed71eca a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200004> ;
+    owl:annotatedTarget <idog:2> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Afghan Hound (Dog)" ;
+    sssom:uuid "0cd4999e45245b2d8c21f1c64ed71eca"^^<xsd:string> .
+
+sssom:0f275e57aa7b5878b286361017a6c6e9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200622> ;
+    owl:annotatedTarget <idog:346> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Great Anglo-French White and Orange Hound (Dog)" ;
+    sssom:uuid "0f275e57aa7b5878b286361017a6c6e9"^^<xsd:string> .
+
+sssom:0ff13828506453c2a0df259bd3064fa3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200747> ;
+    owl:annotatedTarget <idog:139> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Kai Ken (Dog)" ;
+    sssom:uuid "0ff13828506453c2a0df259bd3064fa3"^^<xsd:string> .
+
+sssom:109051816ed254c78a507edb46d4bc99 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200976> ;
+    owl:annotatedTarget <idog:371> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Olde English Bulldogge (Dog)" ;
+    sssom:uuid "109051816ed254c78a507edb46d4bc99"^^<xsd:string> .
+
+sssom:11568b731e365827b9c1b3aaf5780855 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201389> ;
+    owl:annotatedTarget <idog:251> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Vizsla (Dog)" ;
+    sssom:uuid "11568b731e365827b9c1b3aaf5780855"^^<xsd:string> .
+
+sssom:12c10906a5375c0b8ad839b594257aed a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201029> ;
+    owl:annotatedTarget <idog:185> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pointer (Dog)" ;
+    sssom:uuid "12c10906a5375c0b8ad839b594257aed"^^<xsd:string> .
+
+sssom:12c689010e5a5d3a83499b62591eb774 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200962> ;
+    owl:annotatedTarget <idog:172> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Norwich Terrier (Dog)" ;
+    sssom:uuid "12c689010e5a5d3a83499b62591eb774"^^<xsd:string> .
+
+sssom:162572055de555b594d2c4c6a0cd8ab3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201080> ;
+    owl:annotatedTarget <idog:431> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Posavatz Hound (Dog)" ;
+    sssom:uuid "162572055de555b594d2c4c6a0cd8ab3"^^<xsd:string> .
+
+sssom:16af7cef08ab5a42b766e0195b889a8e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200938> ;
+    owl:annotatedTarget <idog:166> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Newfoundland (Dog)" ;
+    sssom:uuid "16af7cef08ab5a42b766e0195b889a8e"^^<xsd:string> .
+
+sssom:16b28b3f25b6543c816f7da7e83bf1c1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200508> ;
+    owl:annotatedTarget <idog:480> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Estonian Hound (Dog)" ;
+    sssom:uuid "16b28b3f25b6543c816f7da7e83bf1c1"^^<xsd:string> .
+
+sssom:16b882279a0f5cb3b003a1efe805121e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200709> ;
+    owl:annotatedTarget <idog:355> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Istrian Short-Haired Hound (Dog)" ;
+    sssom:uuid "16b882279a0f5cb3b003a1efe805121e"^^<xsd:string> .
+
+sssom:16ecae19079a52629ab1a028bb4b4efd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200688> ;
+    owl:annotatedTarget <idog:128> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Ibizan Hound (Dog)" ;
+    sssom:uuid "16ecae19079a52629ab1a028bb4b4efd"^^<xsd:string> .
+
+sssom:171588ea2e14541ba8b1d6aef70874e5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201008> ;
+    owl:annotatedTarget <idog:181> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Peruvian Inca Orchid (Dog)" ;
+    sssom:uuid "171588ea2e14541ba8b1d6aef70874e5"^^<xsd:string> .
+
+sssom:1796644bb905514a81f13a2a3c3ba497 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200062> ;
+    owl:annotatedTarget <idog:13> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Anatolian Shepherd Dog (Dog)" ;
+    sssom:uuid "1796644bb905514a81f13a2a3c3ba497"^^<xsd:string> .
+
+sssom:1894886cbb64590c871aaf4482560158 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201237> ;
+    owl:annotatedTarget <idog:221> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Silky Terrier (Dog)" ;
+    sssom:uuid "1894886cbb64590c871aaf4482560158"^^<xsd:string> .
+
+sssom:18e2d8b89bcb5da18196e0f265395d8f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201203> ;
+    owl:annotatedTarget <idog:482> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Segugio Maremmano (Dog)" ;
+    sssom:uuid "18e2d8b89bcb5da18196e0f265395d8f"^^<xsd:string> .
+
+sssom:1965cc9205cf56e7b4bd31fd1375c64c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200204> ;
+    owl:annotatedTarget <idog:46> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Boston Terrier (Dog)" ;
+    sssom:uuid "1965cc9205cf56e7b4bd31fd1375c64c"^^<xsd:string> .
+
+sssom:19761fb3fbae544aa4180c154911f2b0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200964> ;
+    owl:annotatedTarget <idog:173> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Nova Scotia Duck Tolling Retriever (Dog)" ;
+    sssom:uuid "19761fb3fbae544aa4180c154911f2b0"^^<xsd:string> .
+
+sssom:19797dddf241532db10a686e424e1bf6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201067> ;
+    owl:annotatedTarget <idog:190> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Portuguese Podengo (Dog)" ;
+    sssom:uuid "19797dddf241532db10a686e424e1bf6"^^<xsd:string> .
+
+sssom:1a6ae44b533e5a7186c5782a1add051b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200776> ;
+    owl:annotatedTarget <idog:282> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Kleiner Münsterländer Vorstehund (Dog)" ;
+    sssom:uuid "1a6ae44b533e5a7186c5782a1add051b"^^<xsd:string> .
+
+sssom:1b1c8c2293ed57519fc2d3a2ca3a7f20 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200456> ;
+    owl:annotatedTarget <idog:331> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dunker (Dog)" ;
+    sssom:uuid "1b1c8c2293ed57519fc2d3a2ca3a7f20"^^<xsd:string> .
+
+sssom:1c4d81989ea2527c935d2dc79710b30e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201198> ;
+    owl:annotatedTarget <idog:214> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Scottish Terrier (Dog)" ;
+    sssom:uuid "1c4d81989ea2527c935d2dc79710b30e"^^<xsd:string> .
+
+sssom:1cff937da51d514b96ca1d572753a97d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201009> ;
+    owl:annotatedTarget <idog:182> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Petit Basset Griffon Vendeen (Dog)" ;
+    sssom:uuid "1cff937da51d514b96ca1d572753a97d"^^<xsd:string> .
+
+sssom:1de757510edb5bd8a9fc9838c43fb169 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200862> ;
+    owl:annotatedTarget <idog:156> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Manchester Terrier (Dog)" ;
+    sssom:uuid "1de757510edb5bd8a9fc9838c43fb169"^^<xsd:string> .
+
+sssom:1f081e302a24596a8dc8b1de1dfbb4a1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201415> ;
+    owl:annotatedTarget <idog:255> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "West Highland White Terrier (Dog)" ;
+    sssom:uuid "1f081e302a24596a8dc8b1de1dfbb4a1"^^<xsd:string> .
+
+sssom:1fac13bd48fb5247a39f15c1faf6c544 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200129> ;
+    owl:annotatedTarget <idog:310> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bavarian Mountain Hound (Dog)" ;
+    sssom:uuid "1fac13bd48fb5247a39f15c1faf6c544"^^<xsd:string> .
+
+sssom:1fcbf67d431e51f38cf9b51c4ed45c22 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200046> ;
+    owl:annotatedTarget <idog:291> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Eskimo Dog (Dog)" ;
+    sssom:uuid "1fcbf67d431e51f38cf9b51c4ed45c22"^^<xsd:string> .
+
+sssom:208748d635b85ab884f21cfb9c76580e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200238> ;
+    owl:annotatedTarget <idog:54> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Brittany (Dog)" ;
+    sssom:uuid "208748d635b85ab884f21cfb9c76580e"^^<xsd:string> .
+
+sssom:211c9ba5f8785fbaa6b944de1530adc4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201081> ;
+    owl:annotatedTarget <idog:379> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Posavaz Hound (Dog)" ;
+    sssom:uuid "211c9ba5f8785fbaa6b944de1530adc4"^^<xsd:string> .
+
+sssom:21ec6467ec3d586187660822b3c9bcad a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201294> ;
+    owl:annotatedTarget <idog:233> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Stabyhoun (Dog)" ;
+    sssom:uuid "21ec6467ec3d586187660822b3c9bcad"^^<xsd:string> .
+
+sssom:2212cb75d9dc5d26adc4236375f8309a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200496> ;
+    owl:annotatedTarget <idog:334> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "English Shepherd (Dog)" ;
+    sssom:uuid "2212cb75d9dc5d26adc4236375f8309a"^^<xsd:string> .
+
+sssom:223386fb6b74525b9690117a075982f5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201274> ;
+    owl:annotatedTarget <idog:391> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Spanish Greyhound (Dog)" ;
+    sssom:uuid "223386fb6b74525b9690117a075982f5"^^<xsd:string> .
+
+sssom:22be07ea1fe55b3ca592f51391dfd38c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200732> ;
+    owl:annotatedTarget <idog:136> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Jagdterrier (Dog)" ;
+    sssom:uuid "22be07ea1fe55b3ca592f51391dfd38c"^^<xsd:string> .
+
+sssom:22d5197ef1b85a169ee162f056d57e47 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200290> ;
+    owl:annotatedTarget <idog:63> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cardigan Welsh Corgi (Dog)" ;
+    sssom:uuid "22d5197ef1b85a169ee162f056d57e47"^^<xsd:string> .
+
+sssom:230b906b1aec5dba80b95124543700f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201061> ;
+    owl:annotatedTarget <idog:270> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Poodle, Toy (Dog)" ;
+    sssom:uuid "230b906b1aec5dba80b95124543700f0"^^<xsd:string> .
+
+sssom:232d3ed2bff853b6bea5e26d47f09609 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201158> ;
+    owl:annotatedTarget <idog:381> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Saarloos Wolfhond (Dog)" ;
+    sssom:uuid "232d3ed2bff853b6bea5e26d47f09609"^^<xsd:string> .
+
+sssom:232f8572b1855ddb8e1a7154c36bc94c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200381> ;
+    owl:annotatedTarget <idog:410> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Continental Toy Spaniel (Dog)" ;
+    sssom:uuid "232f8572b1855ddb8e1a7154c36bc94c"^^<xsd:string> .
+
+sssom:24397f2ba9c651ccb700758fbed9e3ee a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200364> ;
+    owl:annotatedTarget <idog:326> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cimarron Uruguayo (Dog)" ;
+    sssom:uuid "24397f2ba9c651ccb700758fbed9e3ee"^^<xsd:string> .
+
+sssom:24400ea083bc5bca9b7d67d5bffba7ad a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200098> ;
+    owl:annotatedTarget <idog:17> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Australian Terrier (Dog)" ;
+    sssom:uuid "24400ea083bc5bca9b7d67d5bffba7ad"^^<xsd:string> .
+
+sssom:246834cdd4e95213b363e661023fb89a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201416> ;
+    owl:annotatedTarget <idog:403> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "West Siberian Laika (Dog)" ;
+    sssom:uuid "246834cdd4e95213b363e661023fb89a"^^<xsd:string> .
+
+sssom:24a3763066f05e9091b637012cd36a95 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200166> ;
+    owl:annotatedTarget <idog:312> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Billy (Dog)" ;
+    sssom:uuid "24a3763066f05e9091b637012cd36a95"^^<xsd:string> .
+
+sssom:2565be5415d3599c925a99fb1f53fa0f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200754> ;
+    owl:annotatedTarget <idog:140> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Karelian Bear Dog (Dog)" ;
+    sssom:uuid "2565be5415d3599c925a99fb1f53fa0f"^^<xsd:string> .
+
+sssom:2615c0d1fbe15ae38ebc4aa990522111 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200054> ;
+    owl:annotatedTarget <idog:265> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Pit Bull Terrier (Dog)" ;
+    sssom:uuid "2615c0d1fbe15ae38ebc4aa990522111"^^<xsd:string> .
+
+sssom:26b72a0b67fc584d841e49bc19d207d4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201309> ;
+    owl:annotatedTarget <idog:236> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Sussex Spaniel (Dog)" ;
+    sssom:uuid "26b72a0b67fc584d841e49bc19d207d4"^^<xsd:string> .
+
+sssom:26c4586998565a3b9924b505fd78005a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201356> ;
+    owl:annotatedTarget <idog:245> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Tornjak (Dog)" ;
+    sssom:uuid "26c4586998565a3b9924b505fd78005a"^^<xsd:string> .
+
+sssom:26dea70c1dba59f2a2da7c7c38028626 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200808> ;
+    owl:annotatedTarget <idog:150> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Lancashire Heeler (Dog)" ;
+    sssom:uuid "26dea70c1dba59f2a2da7c7c38028626"^^<xsd:string> .
+
+sssom:27a99dc8bce05930befb7f32f4d09134 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200702> ;
+    owl:annotatedTarget <idog:131> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Irish Setter (Dog)" ;
+    sssom:uuid "27a99dc8bce05930befb7f32f4d09134"^^<xsd:string> .
+
+sssom:27e7588d676e5d49975645ae7af1e4bf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201004> ;
+    owl:annotatedTarget <idog:428> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Peruvian Hairless Dog (Dog)" ;
+    sssom:uuid "27e7588d676e5d49975645ae7af1e4bf"^^<xsd:string> .
+
+sssom:28a13d6da52e5d3081c62542d18e449f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200502> ;
+    owl:annotatedTarget <idog:412> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Entlebuch Cattle Dog (Dog)" ;
+    sssom:uuid "28a13d6da52e5d3081c62542d18e449f"^^<xsd:string> .
+
+sssom:2900e9d9c062542e867346a1a41005f7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200467> ;
+    owl:annotatedTarget <idog:332> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dutch Smoushond (Dog)" ;
+    sssom:uuid "2900e9d9c062542e867346a1a41005f7"^^<xsd:string> .
+
+sssom:29c81b57bf1954bbb374b5fd895d14ef a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200193> ;
+    owl:annotatedTarget <idog:43> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Border Collie (Dog)" ;
+    sssom:uuid "29c81b57bf1954bbb374b5fd895d14ef"^^<xsd:string> .
+
+sssom:29fcca596a485116b7cc32d8001e2c5c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200066> ;
+    owl:annotatedTarget <idog:303> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Anglo-Francais de Petite Venerie (Dog)" ;
+    sssom:uuid "29fcca596a485116b7cc32d8001e2c5c"^^<xsd:string> .
+
+sssom:2a12d226ca145415954079ea10fc6c56 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200038> ;
+    owl:annotatedTarget <idog:272> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Cocker Spaniel (Dog)" ;
+    sssom:uuid "2a12d226ca145415954079ea10fc6c56"^^<xsd:string> .
+
+sssom:2ac5dfe383bc598db7d3be46c6a9c3ce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200323> ;
+    owl:annotatedTarget <idog:69> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cesky Terrier (Dog)" ;
+    sssom:uuid "2ac5dfe383bc598db7d3be46c6a9c3ce"^^<xsd:string> .
+
+sssom:2b2f95b0f58d5646875d501a18610687 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200108> ;
+    owl:annotatedTarget <idog:18> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Azawakh (Dog)" ;
+    sssom:uuid "2b2f95b0f58d5646875d501a18610687"^^<xsd:string> .
+
+sssom:2b370ba3d2f2563ba6ef0187c33636e5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200704> ;
+    owl:annotatedTarget <idog:132> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Irish Terrier (Dog)" ;
+    sssom:uuid "2b370ba3d2f2563ba6ef0187c33636e5"^^<xsd:string> .
+
+sssom:2b85979a9456551cbad93b9eb6aab68b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200692> ;
+    owl:annotatedTarget <idog:129> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Icelandic Sheepdog (Dog)" ;
+    sssom:uuid "2b85979a9456551cbad93b9eb6aab68b"^^<xsd:string> .
+
+sssom:2b9a927539ea5b8290540a1d101ff134 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200807> ;
+    owl:annotatedTarget <idog:149> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Lakeland Terrier (Dog)" ;
+    sssom:uuid "2b9a927539ea5b8290540a1d101ff134"^^<xsd:string> .
+
+sssom:2ba182852456500595cf356fef768897 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200410> ;
+    owl:annotatedTarget <idog:285> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dachshund, Miniature Smooth-Haired (Dog)" ;
+    sssom:uuid "2ba182852456500595cf356fef768897"^^<xsd:string> .
+
+sssom:2bb740ff0add5985b0d2fdf97ce0c87c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200686> ;
+    owl:annotatedTarget <idog:354> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hygen Hound (Dog)" ;
+    sssom:uuid "2bb740ff0add5985b0d2fdf97ce0c87c"^^<xsd:string> .
+
+sssom:2cec1b98b8135a82a615a567e9fa4f2c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200623> ;
+    owl:annotatedTarget <idog:119> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Great Dane (Dog)" ;
+    sssom:uuid "2cec1b98b8135a82a615a567e9fa4f2c"^^<xsd:string> .
+
+sssom:2d3d94337dfb57f9a504465f67f7f192 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200255> ;
+    owl:annotatedTarget <idog:57> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bull Terrier (Dog)" ;
+    sssom:uuid "2d3d94337dfb57f9a504465f67f7f192"^^<xsd:string> .
+
+sssom:2dee0d40f1685bff8c828e810bae5e35 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201102> ;
+    owl:annotatedTarget <idog:197> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Puli (Dog)" ;
+    sssom:uuid "2dee0d40f1685bff8c828e810bae5e35"^^<xsd:string> .
+
+sssom:2e06ce2921a3549da82a47e575f7a624 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201264> ;
+    owl:annotatedTarget <idog:390> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "South Russian Shepherd Dog (Dog)" ;
+    sssom:uuid "2e06ce2921a3549da82a47e575f7a624"^^<xsd:string> .
+
+sssom:2e595cd7fdf653129721a659905baa2d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200519> ;
+    owl:annotatedTarget <idog:102> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Field Spaniel (Dog)" ;
+    sssom:uuid "2e595cd7fdf653129721a659905baa2d"^^<xsd:string> .
+
+sssom:301c1cb05d34582b9dfc9b182e8ec86a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200583> ;
+    owl:annotatedTarget <idog:111> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "German Shorthaired Pointer (Dog)" ;
+    sssom:uuid "301c1cb05d34582b9dfc9b182e8ec86a"^^<xsd:string> .
+
+sssom:30ed272454b85a0c8bd5697c031f7b5e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200819> ;
+    owl:annotatedTarget <idog:152> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Leonberger (Dog)" ;
+    sssom:uuid "30ed272454b85a0c8bd5697c031f7b5e"^^<xsd:string> .
+
+sssom:319ce33583c650edb01054def7ccaf49 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201428> ;
+    owl:annotatedTarget <idog:259> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Wirehaired Vizsla (Dog)" ;
+    sssom:uuid "319ce33583c650edb01054def7ccaf49"^^<xsd:string> .
+
+sssom:31ab627a8ca754fbbbf4797a2df542bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200526> ;
+    owl:annotatedTarget <idog:104> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Finnish Spitz (Dog)" ;
+    sssom:uuid "31ab627a8ca754fbbbf4797a2df542bd"^^<xsd:string> .
+
+sssom:31d65d6104dd5f7692ddf027d4aeb328 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200955> ;
+    owl:annotatedTarget <idog:170> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Norwegian Elkhound (Dog)" ;
+    sssom:uuid "31d65d6104dd5f7692ddf027d4aeb328"^^<xsd:string> .
+
+sssom:325759a65bf4560b930e4ccb3a90474e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201220> ;
+    owl:annotatedTarget <idog:217> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Shiba Inu (Dog)" ;
+    sssom:uuid "325759a65bf4560b930e4ccb3a90474e"^^<xsd:string> .
+
+sssom:3277185576275f70802e6751d2ded997 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200744> ;
+    owl:annotatedTarget <idog:138> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Jindo (Dog)" ;
+    sssom:uuid "3277185576275f70802e6751d2ded997"^^<xsd:string> .
+
+sssom:329c378eea5c5e47bccdd446212d475b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200793> ;
+    owl:annotatedTarget <idog:146> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Kuvasz (Dog)" ;
+    sssom:uuid "329c378eea5c5e47bccdd446212d475b"^^<xsd:string> .
+
+sssom:32bb7db2f6e25c4897b8172aa0d68653 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200161> ;
+    owl:annotatedTarget <idog:34> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bernese Mountain Dog (Dog)" ;
+    sssom:uuid "32bb7db2f6e25c4897b8172aa0d68653"^^<xsd:string> .
+
+sssom:3470d25f314654a2b6a7602c1d2575c9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200980> ;
+    owl:annotatedTarget <idog:175> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Otterhound (Dog)" ;
+    sssom:uuid "3470d25f314654a2b6a7602c1d2575c9"^^<xsd:string> .
+
+sssom:3558fc04c3fa546aad47bac930292fa6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200392> ;
+    owl:annotatedTarget <idog:329> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Croatian Sheepdog (Dog)" ;
+    sssom:uuid "3558fc04c3fa546aad47bac930292fa6"^^<xsd:string> .
+
+sssom:35f2035847615b62a8ae28221904840b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200045> ;
+    owl:annotatedTarget <idog:6> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American English Coonhound (Dog)" ;
+    sssom:uuid "35f2035847615b62a8ae28221904840b"^^<xsd:string> .
+
+sssom:363b45dff2fc5303a26f134c738733f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200097> ;
+    owl:annotatedTarget <idog:273> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Australian Stumpy Tail Cattle Dog (Dog)" ;
+    sssom:uuid "363b45dff2fc5303a26f134c738733f2"^^<xsd:string> .
+
+sssom:365ff98cdb8155ebb3a936ec3e206aa5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201117> ;
+    owl:annotatedTarget <idog:200> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pyrenean Shepherd (Dog)" ;
+    sssom:uuid "365ff98cdb8155ebb3a936ec3e206aa5"^^<xsd:string> .
+
+sssom:37a60f52a09a5f04a6c5c11a8bf5d2da a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200036> ;
+    owl:annotatedTarget <idog:302> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Bully (Dog)" ;
+    sssom:uuid "37a60f52a09a5f04a6c5c11a8bf5d2da"^^<xsd:string> .
+
+sssom:37afad7770ad5c9d8d9e9162a0489fae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201358> ;
+    owl:annotatedTarget <idog:297> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Toy American Eskimo Dog (Dog)" ;
+    sssom:uuid "37afad7770ad5c9d8d9e9162a0489fae"^^<xsd:string> .
+
+sssom:3817cf2283035ea68dacca981d2654c9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200210> ;
+    owl:annotatedTarget <idog:48> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Boxer (Dog)" ;
+    sssom:uuid "3817cf2283035ea68dacca981d2654c9"^^<xsd:string> .
+
+sssom:389ac468c42156869940965c00ebd9ff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201189> ;
+    owl:annotatedTarget <idog:235> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Schnauzer, Standard (Dog)" ;
+    sssom:uuid "389ac468c42156869940965c00ebd9ff"^^<xsd:string> .
+
+sssom:38fcb426023b5543bc2a426b0242f642 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200836> ;
+    owl:annotatedTarget <idog:154> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Lowchen (Dog)" ;
+    sssom:uuid "38fcb426023b5543bc2a426b0242f642"^^<xsd:string> .
+
+sssom:396c637d4a0450098da102408e0df459 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200636> ;
+    owl:annotatedTarget <idog:280> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Greenland Dog (Dog)" ;
+    sssom:uuid "396c637d4a0450098da102408e0df459"^^<xsd:string> .
+
+sssom:39940eb495a759149486e9f94bea007b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200120> ;
+    owl:annotatedTarget <idog:20> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Basenji (Dog)" ;
+    sssom:uuid "39940eb495a759149486e9f94bea007b"^^<xsd:string> .
+
+sssom:39a9c965ae5d5223a56be968137d801c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200174> ;
+    owl:annotatedTarget <idog:38> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Black Russian Terrier (Dog)" ;
+    sssom:uuid "39a9c965ae5d5223a56be968137d801c"^^<xsd:string> .
+
+sssom:3aaa8a6497b45f1b80963d8af0b58b8f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201440> ;
+    owl:annotatedTarget <idog:298> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Xoloitzcuintli, Toy (Dog)" ;
+    sssom:uuid "3aaa8a6497b45f1b80963d8af0b58b8f"^^<xsd:string> .
+
+sssom:3ae2d2c2ec785242892e6d36117472a5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200154> ;
+    owl:annotatedTarget <idog:32> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bergamasco Shepherd Dog (Dog)" ;
+    sssom:uuid "3ae2d2c2ec785242892e6d36117472a5"^^<xsd:string> .
+
+sssom:3b02ac9625fd50cb8b1e07f7a094254f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200956> ;
+    owl:annotatedTarget <idog:427> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Norwegian Elkhound Black (Dog)" ;
+    sssom:uuid "3b02ac9625fd50cb8b1e07f7a094254f"^^<xsd:string> .
+
+sssom:3b31b5d9e37356eb9f3871fb654b3b7d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201200> ;
+    owl:annotatedTarget <idog:215> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Sealyham Terrier (Dog)" ;
+    sssom:uuid "3b31b5d9e37356eb9f3871fb654b3b7d"^^<xsd:string> .
+
+sssom:3b391b685ede521a9e9a6a877d6c771e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200450> ;
+    owl:annotatedTarget <idog:90> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dogue de Bordeaux (Dog)" ;
+    sssom:uuid "3b391b685ede521a9e9a6a877d6c771e"^^<xsd:string> .
+
+sssom:3bca3a160e8a52ffadebe7d1814d4b0c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200124> ;
+    owl:annotatedTarget <idog:309> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Basset Bleu de Gascogne (Dog)" ;
+    sssom:uuid "3bca3a160e8a52ffadebe7d1814d4b0c"^^<xsd:string> .
+
+sssom:3c90f3c4445f5986bf39abaeadfcae0b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200083> ;
+    owl:annotatedTarget <idog:299> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Atlas Mountain Dog (Dog)" ;
+    sssom:uuid "3c90f3c4445f5986bf39abaeadfcae0b"^^<xsd:string> .
+
+sssom:3ddf84deb45d55b99987190305acff00 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200419> ;
+    owl:annotatedTarget <idog:292> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dachshund, Standard Long-Haired (Dog)" ;
+    sssom:uuid "3ddf84deb45d55b99987190305acff00"^^<xsd:string> .
+
+sssom:3ebc9a9cc7f058e7b66acfb45b0a305b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200948> ;
+    owl:annotatedTarget <idog:369> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Norrbottenspets (Dog)" ;
+    sssom:uuid "3ebc9a9cc7f058e7b66acfb45b0a305b"^^<xsd:string> .
+
+sssom:3ebe6955dd665373b78b235dd35386d3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201379> ;
+    owl:annotatedTarget <idog:400> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Tyrolean Hound (Dog)" ;
+    sssom:uuid "3ebe6955dd665373b78b235dd35386d3"^^<xsd:string> .
+
+sssom:3ee578512e9c5f0fba9491324f2849a0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201207> ;
+    owl:annotatedTarget <idog:384> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Serbian Hound (Dog)" ;
+    sssom:uuid "3ee578512e9c5f0fba9491324f2849a0"^^<xsd:string> .
+
+sssom:400420be383151f4816aeaa3bab7f1dc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201048> ;
+    owl:annotatedTarget <idog:188> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Poodle (Dog)" ;
+    sssom:uuid "400420be383151f4816aeaa3bab7f1dc"^^<xsd:string> .
+
+sssom:4082b658ccf951408e6ef0ab6f2b65ae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201305> ;
+    owl:annotatedTarget <idog:395> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Styrian Coarse Haired Hound (Dog)" ;
+    sssom:uuid "4082b658ccf951408e6ef0ab6f2b65ae"^^<xsd:string> .
+
+sssom:40dc9d5171ec55a18570d4c1d8f3d389 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200163> ;
+    owl:annotatedTarget <idog:35> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bichon Frise (Dog)" ;
+    sssom:uuid "40dc9d5171ec55a18570d4c1d8f3d389"^^<xsd:string> .
+
+sssom:414f54b552fb5742bfbdc5a80daaf074 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0000663> ;
+    owl:annotatedTarget <idog:86> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Danish-Swedish Farmdog (Dog)" ;
+    sssom:uuid "414f54b552fb5742bfbdc5a80daaf074"^^<xsd:string> .
+
+sssom:417b58804ae55b25aaf4188754105d4f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200969> ;
+    owl:annotatedTarget <idog:174> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Old English Sheepdog (Dog)" ;
+    sssom:uuid "417b58804ae55b25aaf4188754105d4f"^^<xsd:string> .
+
+sssom:41ab62a9c1a65ee2add6e73293e2c9f3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200075> ;
+    owl:annotatedTarget <idog:304> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Ariegeois (Dog)" ;
+    sssom:uuid "41ab62a9c1a65ee2add6e73293e2c9f3"^^<xsd:string> .
+
+sssom:41d77bf1098752acbf6d8ceb4ae27ba7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200339> ;
+    owl:annotatedTarget <idog:277> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chihuahua, Long-Haired (Dog)" ;
+    sssom:uuid "41d77bf1098752acbf6d8ceb4ae27ba7"^^<xsd:string> .
+
+sssom:421b3b1d094a5b7985bfb463c24280db a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200893> ;
+    owl:annotatedTarget <idog:160> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Miniature Pinscher (Dog)" ;
+    sssom:uuid "421b3b1d094a5b7985bfb463c24280db"^^<xsd:string> .
+
+sssom:425a537a84cf531ca34f372008541b68 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201363> ;
+    owl:annotatedTarget <idog:271> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Toy Manchester Terrier (Dog)" ;
+    sssom:uuid "425a537a84cf531ca34f372008541b68"^^<xsd:string> .
+
+sssom:42941ef854f25c33aa62561d423994b0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200016> ;
+    owl:annotatedTarget <idog:300> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Alaskan Klee Kai (Dog)" ;
+    sssom:uuid "42941ef854f25c33aa62561d423994b0"^^<xsd:string> .
+
+sssom:429509d0857d523a86e0cd46673b6986 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201055> ;
+    owl:annotatedTarget <idog:367> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Poodle, Multi-Colored (Dog)" ;
+    sssom:uuid "429509d0857d523a86e0cd46673b6986"^^<xsd:string> .
+
+sssom:4309f5c66ba653cfbae2cd7778c1a092 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201011> ;
+    owl:annotatedTarget <idog:429> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Petit Brabancon (Dog)" ;
+    sssom:uuid "4309f5c66ba653cfbae2cd7778c1a092"^^<xsd:string> .
+
+sssom:431c871b96d0504fbe36721ffb2d3ff7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200667> ;
+    owl:annotatedTarget <idog:352> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hellenic Hound (Dog)" ;
+    sssom:uuid "431c871b96d0504fbe36721ffb2d3ff7"^^<xsd:string> .
+
+sssom:445f03cdcf905fef88f83f328df2e551 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201448> ;
+    owl:annotatedTarget <idog:262> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Yorkshire Terrier (Dog)" ;
+    sssom:uuid "445f03cdcf905fef88f83f328df2e551"^^<xsd:string> .
+
+sssom:4463c01774b653c7b1a379728f62869d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200552> ;
+    owl:annotatedTarget <idog:415> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "French White and Orange Hound (Dog)" ;
+    sssom:uuid "4463c01774b653c7b1a379728f62869d"^^<xsd:string> .
+
+sssom:44b280a17a365764bc624372d1528501 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200165> ;
+    owl:annotatedTarget <idog:36> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Biewer Terrier (Dog)" ;
+    sssom:uuid "44b280a17a365764bc624372d1528501"^^<xsd:string> .
+
+sssom:4512587a1dc85df5a7031dc1a9f0296d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201217> ;
+    owl:annotatedTarget <idog:216> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Shetland Sheepdog (Dog)" ;
+    sssom:uuid "4512587a1dc85df5a7031dc1a9f0296d"^^<xsd:string> .
+
+sssom:45bbb96653895e039f5e9f5ea060776b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200615> ;
+    owl:annotatedTarget <idog:118> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Grand Basset Griffon Vendeen (Dog)" ;
+    sssom:uuid "45bbb96653895e039f5e9f5ea060776b"^^<xsd:string> .
+
+sssom:46f6de9a6a9d56109a7275717f2bf69c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201434> ;
+    owl:annotatedTarget <idog:260> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Working Kelpie (Dog)" ;
+    sssom:uuid "46f6de9a6a9d56109a7275717f2bf69c"^^<xsd:string> .
+
+sssom:474b1ae9f2a75c23a7994c05a31db0e1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200003> ;
+    owl:annotatedTarget <idog:1> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Affenpinscher (Dog)" ;
+    sssom:uuid "474b1ae9f2a75c23a7994c05a31db0e1"^^<xsd:string> .
+
+sssom:47700b2bfc635a47bd5a5722ad84d877 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200017> ;
+    owl:annotatedTarget <idog:5> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Alaskan Malamute (Dog)" ;
+    sssom:uuid "47700b2bfc635a47bd5a5722ad84d877"^^<xsd:string> .
+
+sssom:481a573928de521db4f95fc3955ba703 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201442> ;
+    owl:annotatedTarget <idog:477> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Yakutian Laika (Dog)" ;
+    sssom:uuid "481a573928de521db4f95fc3955ba703"^^<xsd:string> .
+
+sssom:48a70674e4a95d0d8e1e8d820c8312f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201151> ;
+    owl:annotatedTarget <idog:207> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Russian Toy (Dog)" ;
+    sssom:uuid "48a70674e4a95d0d8e1e8d820c8312f2"^^<xsd:string> .
+
+sssom:49c8a9508ccf5d7ea52a9911b3fe883d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200389> ;
+    owl:annotatedTarget <idog:80> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Coton de Tulear (Dog)" ;
+    sssom:uuid "49c8a9508ccf5d7ea52a9911b3fe883d"^^<xsd:string> .
+
+sssom:4a073bf7ac0758778ed5b20166bf8457 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0000661> ;
+    owl:annotatedTarget <idog:55> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Broholmer (Dog)" ;
+    sssom:uuid "4a073bf7ac0758778ed5b20166bf8457"^^<xsd:string> .
+
+sssom:4b11292adfb05ad7997f4fcdf53c537e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201260> ;
+    owl:annotatedTarget <idog:228> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Soft Coated Wheaten Terrier (Dog)" ;
+    sssom:uuid "4b11292adfb05ad7997f4fcdf53c537e"^^<xsd:string> .
+
+sssom:4d335410ac5a5f3ab18a0e3f01eff384 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200845> ;
+    owl:annotatedTarget <idog:362> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Majorca Mastiff (Dog)" ;
+    sssom:uuid "4d335410ac5a5f3ab18a0e3f01eff384"^^<xsd:string> .
+
+sssom:4fff756a5bb95582890702f656eed110 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201125> ;
+    owl:annotatedTarget <idog:202> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Rat Terrier (Dog)" ;
+    sssom:uuid "4fff756a5bb95582890702f656eed110"^^<xsd:string> .
+
+sssom:506382478fa450dba460435076282ee0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200832> ;
+    owl:annotatedTarget <idog:426> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Long-Haired Pyrenean Sheepdog (Dog)" ;
+    sssom:uuid "506382478fa450dba460435076282ee0"^^<xsd:string> .
+
+sssom:50e3c7b315835fef9b9d93cffc0a3a0b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201120> ;
+    owl:annotatedTarget <idog:201> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Rafeiro do Alentejo (Dog)" ;
+    sssom:uuid "50e3c7b315835fef9b9d93cffc0a3a0b"^^<xsd:string> .
+
+sssom:511f3d27ffce5040b0a0f18255bdf6f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200420> ;
+    owl:annotatedTarget <idog:293> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dachshund, Standard Smooth-Haired (Dog)" ;
+    sssom:uuid "511f3d27ffce5040b0a0f18255bdf6f0"^^<xsd:string> .
+
+sssom:5233f03ba2265ea59731fd889af6c55f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201357> ;
+    owl:annotatedTarget <idog:246> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Tosa (Dog)" ;
+    sssom:uuid "5233f03ba2265ea59731fd889af6c55f"^^<xsd:string> .
+
+sssom:5287a4393dd050cb9590c11bb0c3645a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200602> ;
+    owl:annotatedTarget <idog:113> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "German Wirehaired Pointer (Dog)" ;
+    sssom:uuid "5287a4393dd050cb9590c11bb0c3645a"^^<xsd:string> .
+
+sssom:54e748206d5d566788dab24a63a795bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200641> ;
+    owl:annotatedTarget <idog:347> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Griffon Bleu de Gascogne (Dog)" ;
+    sssom:uuid "54e748206d5d566788dab24a63a795bd"^^<xsd:string> .
+
+sssom:552e8f79d39e5de9a58450e67c80d90b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200221> ;
+    owl:annotatedTarget <idog:51> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Braque du Bourbonnais (Dog)" ;
+    sssom:uuid "552e8f79d39e5de9a58450e67c80d90b"^^<xsd:string> .
+
+sssom:55375979ed6852db81d53635c7ff8119 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200049> ;
+    owl:annotatedTarget <idog:9> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Hairless Terrier (Dog)" ;
+    sssom:uuid "55375979ed6852db81d53635c7ff8119"^^<xsd:string> .
+
+sssom:55f219908ca7555f9cf1d1a773bfd52f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200188> ;
+    owl:annotatedTarget <idog:408> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bohemian Wire-Haired Pointing Griffon (Dog)" ;
+    sssom:uuid "55f219908ca7555f9cf1d1a773bfd52f"^^<xsd:string> .
+
+sssom:568c7b2af9df55c88a2e7f6af78ddb4a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200656> ;
+    owl:annotatedTarget <idog:351> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hanoverian Scent Hound (Dog)" ;
+    sssom:uuid "568c7b2af9df55c88a2e7f6af78ddb4a"^^<xsd:string> .
+
+sssom:56ee1a46724655ad8cd74611992a68bc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200948> ;
+    owl:annotatedTarget <idog:168> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Norrbottenspets (Dog)" ;
+    sssom:uuid "56ee1a46724655ad8cd74611992a68bc"^^<xsd:string> .
+
+sssom:57c3dcec3b4d5ca8898b9360da896521 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200267> ;
+    owl:annotatedTarget <idog:60> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cairn Terrier (Dog)" ;
+    sssom:uuid "57c3dcec3b4d5ca8898b9360da896521"^^<xsd:string> .
+
+sssom:57ccd3e6496a52899f0ff131eb214c98 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200644> ;
+    owl:annotatedTarget <idog:349> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Griffon Nivernais (Dog)" ;
+    sssom:uuid "57ccd3e6496a52899f0ff131eb214c98"^^<xsd:string> .
+
+sssom:5816c4e85e8455af8523553a4f5ea5e0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201352> ;
+    owl:annotatedTarget <idog:243> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Tibetan Spaniel (Dog)" ;
+    sssom:uuid "5816c4e85e8455af8523553a4f5ea5e0"^^<xsd:string> .
+
+sssom:58d8d9d6049f58c797408ff357d1b386 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201033> ;
+    owl:annotatedTarget <idog:378> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Polish Hound (Dog)" ;
+    sssom:uuid "58d8d9d6049f58c797408ff357d1b386"^^<xsd:string> .
+
+sssom:5ac79c3db5db5823a4d482d5dfbeb9fa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200421> ;
+    owl:annotatedTarget <idog:294> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dachshund, Standard Wire-Haired (Dog)" ;
+    sssom:uuid "5ac79c3db5db5823a4d482d5dfbeb9fa"^^<xsd:string> .
+
+sssom:5b219451511154b6aa3bac3dfb1b56df a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201439> ;
+    owl:annotatedTarget <idog:295> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Xoloitzcuintli, Standard (Dog)" ;
+    sssom:uuid "5b219451511154b6aa3bac3dfb1b56df"^^<xsd:string> .
+
+sssom:5c30515972ff5f73951b583e8333fd33 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200131> ;
+    owl:annotatedTarget <idog:24> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Beagle (Dog)" ;
+    sssom:uuid "5c30515972ff5f73951b583e8333fd33"^^<xsd:string> .
+
+sssom:5c73d87029aa5955944061443da80e24 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200445> ;
+    owl:annotatedTarget <idog:89> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dogo Argentino (Dog)" ;
+    sssom:uuid "5c73d87029aa5955944061443da80e24"^^<xsd:string> .
+
+sssom:5e714236294f59288a12fcc2fda8be85 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200713> ;
+    owl:annotatedTarget <idog:135> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Italian Greyhound (Dog)" ;
+    sssom:uuid "5e714236294f59288a12fcc2fda8be85"^^<xsd:string> .
+
+sssom:5fe201103ede5ab19feb085f3994ad33 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201145> ;
+    owl:annotatedTarget <idog:206> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Russell Terrier (Dog)" ;
+    sssom:uuid "5fe201103ede5ab19feb085f3994ad33"^^<xsd:string> .
+
+sssom:60200fe52b4e5b4ab3a2afc31db03cc8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200786> ;
+    owl:annotatedTarget <idog:145> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Kromfohrlander (Dog)" ;
+    sssom:uuid "60200fe52b4e5b4ab3a2afc31db03cc8"^^<xsd:string> .
+
+sssom:60397dfabdba5c87bd1592e79923e516 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201160> ;
+    owl:annotatedTarget <idog:476> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Saint Bernard (Dog)" ;
+    sssom:uuid "60397dfabdba5c87bd1592e79923e516"^^<xsd:string> .
+
+sssom:60824b6138c058eea1475e5a8a9f7287 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200185> ;
+    owl:annotatedTarget <idog:41> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Boerboel (Dog)" ;
+    sssom:uuid "60824b6138c058eea1475e5a8a9f7287"^^<xsd:string> .
+
+sssom:613aa9152e6e5a3daa1777512e006fd8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201258> ;
+    owl:annotatedTarget <idog:227> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Smooth Fox Terrier (Dog)" ;
+    sssom:uuid "613aa9152e6e5a3daa1777512e006fd8"^^<xsd:string> .
+
+sssom:61f92da4cfdb51f89d8aa9511637397c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200463> ;
+    owl:annotatedTarget <idog:93> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dutch Shepherd (Dog)" ;
+    sssom:uuid "61f92da4cfdb51f89d8aa9511637397c"^^<xsd:string> .
+
+sssom:6204f5e03a9a51f0887d642fb19a1acb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200528> ;
+    owl:annotatedTarget <idog:105> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Flat-Coated Retriever (Dog)" ;
+    sssom:uuid "6204f5e03a9a51f0887d642fb19a1acb"^^<xsd:string> .
+
+sssom:621a24413045523f8ba44d9d6b5aaa29 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200275> ;
+    owl:annotatedTarget <idog:276> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Canadian Eskimo Dog (Dog)" ;
+    sssom:uuid "621a24413045523f8ba44d9d6b5aaa29"^^<xsd:string> .
+
+sssom:621ea1fe495c5870a6e6e90002eb89f1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200575> ;
+    owl:annotatedTarget <idog:340> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "German Roughhaired Pointer (Dog)" ;
+    sssom:uuid "621ea1fe495c5870a6e6e90002eb89f1"^^<xsd:string> .
+
+sssom:628539d6ace250ef95ff6620edba692c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200719> ;
+    owl:annotatedTarget <idog:424> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Italian Short-Haired Segugio (Dog)" ;
+    sssom:uuid "628539d6ace250ef95ff6620edba692c"^^<xsd:string> .
+
+sssom:64d2be26511651e4b80438c85d67cb52 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200990> ;
+    owl:annotatedTarget <idog:372> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Patterdale Terrier (Dog)" ;
+    sssom:uuid "64d2be26511651e4b80438c85d67cb52"^^<xsd:string> .
+
+sssom:6569cbeeb75e5f62baa3d7ca00e5a645 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200509> ;
+    owl:annotatedTarget <idog:100> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Estrela Mountain Dog (Dog)" ;
+    sssom:uuid "6569cbeeb75e5f62baa3d7ca00e5a645"^^<xsd:string> .
+
+sssom:65b696d935645f1284777d32a368c69b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201000> ;
+    owl:annotatedTarget <idog:180> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Perro de Presa Canario (Dog)" ;
+    sssom:uuid "65b696d935645f1284777d32a368c69b"^^<xsd:string> .
+
+sssom:65c997809f4250c391d8365f80cdb391 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200497> ;
+    owl:annotatedTarget <idog:97> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "English Springer Spaniel (Dog)" ;
+    sssom:uuid "65c997809f4250c391d8365f80cdb391"^^<xsd:string> .
+
+sssom:65d3e409525b5413b819caac6446d033 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200506> ;
+    owl:annotatedTarget <idog:335> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Epagneul Pont-Audemer (Dog)" ;
+    sssom:uuid "65d3e409525b5413b819caac6446d033"^^<xsd:string> .
+
+sssom:66541d0146225851960bd1e00c1d15ef a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200631> ;
+    owl:annotatedTarget <idog:121> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Greater Swiss Mountain Dog (Dog)" ;
+    sssom:uuid "66541d0146225851960bd1e00c1d15ef"^^<xsd:string> .
+
+sssom:66b4a60c92605e30ab4b50964a900416 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201167> ;
+    owl:annotatedTarget <idog:433> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Saint Miguel Cattle Dog (Dog)" ;
+    sssom:uuid "66b4a60c92605e30ab4b50964a900416"^^<xsd:string> .
+
+sssom:66df5a3abe24554d9a68500fa22d160e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201185> ;
+    owl:annotatedTarget <idog:434> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Schnauzer (Dog)" ;
+    sssom:uuid "66df5a3abe24554d9a68500fa22d160e"^^<xsd:string> .
+
+sssom:670d08dd361e50e186c99155a0ca04a0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201180> ;
+    owl:annotatedTarget <idog:382> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Sarplaninac (Dog)" ;
+    sssom:uuid "670d08dd361e50e186c99155a0ca04a0"^^<xsd:string> .
+
+sssom:67554404603f55f6b5eb14a8cf282d13 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200215> ;
+    owl:annotatedTarget <idog:50> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bracco Italiano (Dog)" ;
+    sssom:uuid "67554404603f55f6b5eb14a8cf282d13"^^<xsd:string> .
+
+sssom:686ab0fe6a7f51b781e5ab26e3bd30aa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201174> ;
+    owl:annotatedTarget <idog:210> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Samoyed (Dog)" ;
+    sssom:uuid "686ab0fe6a7f51b781e5ab26e3bd30aa"^^<xsd:string> .
+
+sssom:68b6fcc0b2185682b24e7f123e73958a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201389> ;
+    owl:annotatedTarget <idog:421> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Vizsla (Dog)" ;
+    sssom:uuid "68b6fcc0b2185682b24e7f123e73958a"^^<xsd:string> .
+
+sssom:68e1c621e41156169f16b5533655505b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201242> ;
+    owl:annotatedTarget <idog:223> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Sloughi (Dog)" ;
+    sssom:uuid "68e1c621e41156169f16b5533655505b"^^<xsd:string> .
+
+sssom:693c5a25e6e85b1dab2d343650c3af01 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200651> ;
+    owl:annotatedTarget <idog:350> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Halden Hound (Dog)" ;
+    sssom:uuid "693c5a25e6e85b1dab2d343650c3af01"^^<xsd:string> .
+
+sssom:6956961b42a658b1bc2f96fa5052e67f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200172> ;
+    owl:annotatedTarget <idog:313> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Black Mouth Cur (Dog)" ;
+    sssom:uuid "6956961b42a658b1bc2f96fa5052e67f"^^<xsd:string> .
+
+sssom:6a1d4222b3f85d26916a54519abd76c8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200148> ;
+    owl:annotatedTarget <idog:31> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Belgian Shepherd Dog, Tervueren (Dog)" ;
+    sssom:uuid "6a1d4222b3f85d26916a54519abd76c8"^^<xsd:string> .
+
+sssom:6b5fb4ee878f5e7280469a9cc701f1c9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200132> ;
+    owl:annotatedTarget <idog:311> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Beagle Harrier (Dog)" ;
+    sssom:uuid "6b5fb4ee878f5e7280469a9cc701f1c9"^^<xsd:string> .
+
+sssom:6ce431bb0f04509cb8fd43be585be242 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201390> ;
+    owl:annotatedTarget <idog:401> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Volpino Italiano (Dog)" ;
+    sssom:uuid "6ce431bb0f04509cb8fd43be585be242"^^<xsd:string> .
+
+sssom:6e0bfbb44f8b5eec879cdc11667bb93e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200486> ;
+    owl:annotatedTarget <idog:94> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "English Cocker Spaniel (Dog)" ;
+    sssom:uuid "6e0bfbb44f8b5eec879cdc11667bb93e"^^<xsd:string> .
+
+sssom:6ee8c87d4732505789fd48173b914138 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200051> ;
+    owl:annotatedTarget <idog:10> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Leopard Hound (Dog)" ;
+    sssom:uuid "6ee8c87d4732505789fd48173b914138"^^<xsd:string> .
+
+sssom:6f2483a2354d594c896cb11dce18acf2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200814> ;
+    owl:annotatedTarget <idog:151> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Lapponian Herder (Dog)" ;
+    sssom:uuid "6f2483a2354d594c896cb11dce18acf2"^^<xsd:string> .
+
+sssom:6f4d12e63899534081e082e8543cc98d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200285> ;
+    owl:annotatedTarget <idog:319> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cao de Castro Laboreiro (Dog)" ;
+    sssom:uuid "6f4d12e63899534081e082e8543cc98d"^^<xsd:string> .
+
+sssom:6f6919d86f515d74bda02ed9f50972f6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200331> ;
+    owl:annotatedTarget <idog:323> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chien d'Artois (Dog)" ;
+    sssom:uuid "6f6919d86f515d74bda02ed9f50972f6"^^<xsd:string> .
+
+sssom:6f85f00c346a56e9bca8f61f6d2fd22a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200882> ;
+    owl:annotatedTarget <idog:159> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Miniature Bull Terrier (Dog)" ;
+    sssom:uuid "6f85f00c346a56e9bca8f61f6d2fd22a"^^<xsd:string> .
+
+sssom:7012bad3373954129e662aa3342f5614 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200660> ;
+    owl:annotatedTarget <idog:124> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Harrier (Dog)" ;
+    sssom:uuid "7012bad3373954129e662aa3342f5614"^^<xsd:string> .
+
+sssom:7121fc62d403535eaf5dd3d4ed9a0d3c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201436> ;
+    owl:annotatedTarget <idog:261> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Xoloitzcuintli (Dog)" ;
+    sssom:uuid "7121fc62d403535eaf5dd3d4ed9a0d3c"^^<xsd:string> .
+
+sssom:71b4194ba9095df880e4b85320734a60 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201032> ;
+    owl:annotatedTarget <idog:322> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Polish Greyhound (Dog)" ;
+    sssom:uuid "71b4194ba9095df880e4b85320734a60"^^<xsd:string> .
+
+sssom:72433004361a52bc93e114ebd6e6f9c6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200985> ;
+    owl:annotatedTarget <idog:176> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Papillon (Dog)" ;
+    sssom:uuid "72433004361a52bc93e114ebd6e6f9c6"^^<xsd:string> .
+
+sssom:72501b2731b65ea4b8991aa3a3af6b55 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200453> ;
+    owl:annotatedTarget <idog:91> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Drentsche Patrijshond (Dog)" ;
+    sssom:uuid "72501b2731b65ea4b8991aa3a3af6b55"^^<xsd:string> .
+
+sssom:726c656583c35ed8abab33e9b919a190 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200126> ;
+    owl:annotatedTarget <idog:22> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Basset Hound (Dog)" ;
+    sssom:uuid "726c656583c35ed8abab33e9b919a190"^^<xsd:string> .
+
+sssom:72834f760da15c6f81edf44d628bd5f4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201266> ;
+    owl:annotatedTarget <idog:435> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Southeastern European Shepherd (Dog)" ;
+    sssom:uuid "72834f760da15c6f81edf44d628bd5f4"^^<xsd:string> .
+
+sssom:73c98c429951571d92cee7321e0b98c6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200402> ;
+    owl:annotatedTarget <idog:82> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Czechoslovakian Wolfdog (Dog)" ;
+    sssom:uuid "73c98c429951571d92cee7321e0b98c6"^^<xsd:string> .
+
+sssom:73e0ac3a650951dea7700bc2b1d7c481 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201031> ;
+    owl:annotatedTarget <idog:377> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Poitevin (Dog)" ;
+    sssom:uuid "73e0ac3a650951dea7700bc2b1d7c481"^^<xsd:string> .
+
+sssom:74f934e077635080b88fbcab2600d7c9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201240> ;
+    owl:annotatedTarget <idog:222> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Skye Terrier (Dog)" ;
+    sssom:uuid "74f934e077635080b88fbcab2600d7c9"^^<xsd:string> .
+
+sssom:7553c3cc4f7b5f20843e460aa64a3ff1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201296> ;
+    owl:annotatedTarget <idog:234> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Staffordshire Bull Terrier (Dog)" ;
+    sssom:uuid "7553c3cc4f7b5f20843e460aa64a3ff1"^^<xsd:string> .
+
+sssom:756d9fd27cd85caa818437ecb9e0a2a0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201454> ;
+    owl:annotatedTarget <idog:109> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "German Pinscher (Dog)" ;
+    sssom:uuid "756d9fd27cd85caa818437ecb9e0a2a0"^^<xsd:string> .
+
+sssom:7619417ab1235a62846cce76e4ee5492 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200945> ;
+    owl:annotatedTarget <idog:167> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Norfolk Terrier (Dog)" ;
+    sssom:uuid "7619417ab1235a62846cce76e4ee5492"^^<xsd:string> .
+
+sssom:7624c902504459c5a54976080975bed0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201034> ;
+    owl:annotatedTarget <idog:430> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Polish Hunting Dog (Dog)" ;
+    sssom:uuid "7624c902504459c5a54976080975bed0"^^<xsd:string> .
+
+sssom:763d49063e0f51ba8fa4d66286c4dd92 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200621> ;
+    owl:annotatedTarget <idog:345> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Great Anglo-French White and Black Hound (Dog)" ;
+    sssom:uuid "763d49063e0f51ba8fa4d66286c4dd92"^^<xsd:string> .
+
+sssom:76b798da67765db091797ef5c871e750 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200088> ;
+    owl:annotatedTarget <idog:15> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Australian Cattle Dog (Dog)" ;
+    sssom:uuid "76b798da67765db091797ef5c871e750"^^<xsd:string> .
+
+sssom:76e7acdd3a195aa0a2a3628f790cd6d1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200856> ;
+    owl:annotatedTarget <idog:155> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Maltese (Dog)" ;
+    sssom:uuid "76e7acdd3a195aa0a2a3628f790cd6d1"^^<xsd:string> .
+
+sssom:78682e318305531ca4739c002212f8a3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201246> ;
+    owl:annotatedTarget <idog:225> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Slovensky Kopov (Dog)" ;
+    sssom:uuid "78682e318305531ca4739c002212f8a3"^^<xsd:string> .
+
+sssom:78bcc30621f85abd8bcb019d607b287e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201348> ;
+    owl:annotatedTarget <idog:241> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Thai Ridgeback (Dog)" ;
+    sssom:uuid "78bcc30621f85abd8bcb019d607b287e"^^<xsd:string> .
+
+sssom:78c12dab4b3c563b9be40669bde003c4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200638> ;
+    owl:annotatedTarget <idog:122> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Greyhound (Dog)" ;
+    sssom:uuid "78c12dab4b3c563b9be40669bde003c4"^^<xsd:string> .
+
+sssom:78db2032274853be8c9d15d9e77bed2e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201182> ;
+    owl:annotatedTarget <idog:383> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Schiller Hound (Dog)" ;
+    sssom:uuid "78db2032274853be8c9d15d9e77bed2e"^^<xsd:string> .
+
+sssom:7aa149ffd43a5dddba2bd64dd874794b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0000670> ;
+    owl:annotatedTarget <idog:199> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pyrenean Mastiff (Dog)" ;
+    sssom:uuid "7aa149ffd43a5dddba2bd64dd874794b"^^<xsd:string> .
+
+sssom:7bdba0b3671e5658befcefb70edefcc7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200067> ;
+    owl:annotatedTarget <idog:478> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Anjing Kintamani-Bali (Dog)" ;
+    sssom:uuid "7bdba0b3671e5658befcefb70edefcc7"^^<xsd:string> .
+
+sssom:7be1a50dd2c85f00b09ee0eb9c4789fc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0000668> ;
+    owl:annotatedTarget <idog:370> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Old Danish Pointing Dog (Dog)" ;
+    sssom:uuid "7be1a50dd2c85f00b09ee0eb9c4789fc"^^<xsd:string> .
+
+sssom:7cad58b262335c9498e561dfc26ce3cc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200375> ;
+    owl:annotatedTarget <idog:79> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Collie (Dog)" ;
+    sssom:uuid "7cad58b262335c9498e561dfc26ce3cc"^^<xsd:string> .
+
+sssom:7d639702db8255bfa7c431e63bff810d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201140> ;
+    owl:annotatedTarget <idog:327> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Romanian Carpathian Shepherd Dog (Dog)" ;
+    sssom:uuid "7d639702db8255bfa7c431e63bff810d"^^<xsd:string> .
+
+sssom:7d9d1699581f5110a72400b0acb4397b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200197> ;
+    owl:annotatedTarget <idog:45> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Borzoi (Dog)" ;
+    sssom:uuid "7d9d1699581f5110a72400b0acb4397b"^^<xsd:string> .
+
+sssom:7dccb9efb40654d882c868ae212c3c3d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200679> ;
+    owl:annotatedTarget <idog:420> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hungarian Hound - Transylvanian Scent Hound (Dog)" ;
+    sssom:uuid "7dccb9efb40654d882c868ae212c3c3d"^^<xsd:string> .
+
+sssom:7fbd0b65f67252159c6312f136181720 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200523> ;
+    owl:annotatedTarget <idog:103> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Finnish Lapphund (Dog)" ;
+    sssom:uuid "7fbd0b65f67252159c6312f136181720"^^<xsd:string> .
+
+sssom:8140a4cbd2e95464b51e7df2f1375baf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200716> ;
+    owl:annotatedTarget <idog:423> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Italian Rough-Haired Segugio (Dog)" ;
+    sssom:uuid "8140a4cbd2e95464b51e7df2f1375baf"^^<xsd:string> .
+
+sssom:814109a597e0529f84b14f5586769a39 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201340> ;
+    owl:annotatedTarget <idog:240> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Teddy Roosevelt Terrier (Dog)" ;
+    sssom:uuid "814109a597e0529f84b14f5586769a39"^^<xsd:string> .
+
+sssom:816543f5615c5532965434620f5abfee a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200705> ;
+    owl:annotatedTarget <idog:133> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Irish Water Spaniel (Dog)" ;
+    sssom:uuid "816543f5615c5532965434620f5abfee"^^<xsd:string> .
+
+sssom:81a446c4f352594997754eef31e35543 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200740> ;
+    owl:annotatedTarget <idog:281> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Japanese Spitz (Dog)" ;
+    sssom:uuid "81a446c4f352594997754eef31e35543"^^<xsd:string> .
+
+sssom:81f0b53860a451e8af4973ad8edc2fcc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201016> ;
+    owl:annotatedTarget <idog:183> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pharaoh Hound (Dog)" ;
+    sssom:uuid "81f0b53860a451e8af4973ad8edc2fcc"^^<xsd:string> .
+
+sssom:82157eb6b5d35e9b97f3ba941930a63f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201010> ;
+    owl:annotatedTarget <idog:374> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Petit Bleu de Gascogne (Dog)" ;
+    sssom:uuid "82157eb6b5d35e9b97f3ba941930a63f"^^<xsd:string> .
+
+sssom:821b73872e5f54b883d6aa0eef2ba0ca a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201316> ;
+    owl:annotatedTarget <idog:238> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Swedish Vallhund (Dog)" ;
+    sssom:uuid "821b73872e5f54b883d6aa0eef2ba0ca"^^<xsd:string> .
+
+sssom:84bdca1476ef54b0a36b57b1a47d46d7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200522> ;
+    owl:annotatedTarget <idog:337> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Finnish Hound (Dog)" ;
+    sssom:uuid "84bdca1476ef54b0a36b57b1a47d46d7"^^<xsd:string> .
+
+sssom:854fe894ece85ec08224460b949247d9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201250> ;
+    owl:annotatedTarget <idog:226> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Small Munsterlander (Dog)" ;
+    sssom:uuid "854fe894ece85ec08224460b949247d9"^^<xsd:string> .
+
+sssom:87002828cea6529896bc63d92b850720 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200440> ;
+    owl:annotatedTarget <idog:87> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Deutscher Wachtelhund (Dog)" ;
+    sssom:uuid "87002828cea6529896bc63d92b850720"^^<xsd:string> .
+
+sssom:872bd71f06f6576d961e495e93efda2b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200258> ;
+    owl:annotatedTarget <idog:58> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bulldog (Dog)" ;
+    sssom:uuid "872bd71f06f6576d961e495e93efda2b"^^<xsd:string> .
+
+sssom:87ff9c87e43c5386b4e5b34910a15c88 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201351> ;
+    owl:annotatedTarget <idog:242> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Tibetan Mastiff (Dog)" ;
+    sssom:uuid "87ff9c87e43c5386b4e5b34910a15c88"^^<xsd:string> .
+
+sssom:8827a0cf45a757f1bdce4863feaa85cf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200175> ;
+    owl:annotatedTarget <idog:39> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bloodhound (Dog)" ;
+    sssom:uuid "8827a0cf45a757f1bdce4863feaa85cf"^^<xsd:string> .
+
+sssom:88645deb0f0152918d9316001555422a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201389> ;
+    owl:annotatedTarget <idog:290> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Vizsla (Dog)" ;
+    sssom:uuid "88645deb0f0152918d9316001555422a"^^<xsd:string> .
+
+sssom:8873179086e55192b3ef436196fdbc37 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200800> ;
+    owl:annotatedTarget <idog:147> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Labrador Retriever (Dog)" ;
+    sssom:uuid "8873179086e55192b3ef436196fdbc37"^^<xsd:string> .
+
+sssom:889331c8f5725fe4bd05d3219c2f43b2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200674> ;
+    owl:annotatedTarget <idog:127> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hovawart (Dog)" ;
+    sssom:uuid "889331c8f5725fe4bd05d3219c2f43b2"^^<xsd:string> .
+
+sssom:88b04e9533b651ba92f9b5f3d02fbfb0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200321> ;
+    owl:annotatedTarget <idog:68> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Central Asian Shepherd Dog (Dog)" ;
+    sssom:uuid "88b04e9533b651ba92f9b5f3d02fbfb0"^^<xsd:string> .
+
+sssom:88f54affb0d65abe813bda8bb59ea434 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201105> ;
+    owl:annotatedTarget <idog:198> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pumi (Dog)" ;
+    sssom:uuid "88f54affb0d65abe813bda8bb59ea434"^^<xsd:string> .
+
+sssom:89a5d35bbbbd551187ba7975e83189d3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201275> ;
+    owl:annotatedTarget <idog:392> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Spanish Hound (Dog)" ;
+    sssom:uuid "89a5d35bbbbd551187ba7975e83189d3"^^<xsd:string> .
+
+sssom:8a21edd03d09581d94b52b75114c4141 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201043> ;
+    owl:annotatedTarget <idog:187> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pomeranian (Dog)" ;
+    sssom:uuid "8a21edd03d09581d94b52b75114c4141"^^<xsd:string> .
+
+sssom:8a796c74f3cb588ca5af1426fa9a854a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201071> ;
+    owl:annotatedTarget <idog:193> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Portuguese Sheepdog (Dog)" ;
+    sssom:uuid "8a796c74f3cb588ca5af1426fa9a854a"^^<xsd:string> .
+
+sssom:8aa570e478ab59b5897db86b056b6ccb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201284> ;
+    owl:annotatedTarget <idog:393> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Sporting Lucas Terrier (Dog)" ;
+    sssom:uuid "8aa570e478ab59b5897db86b056b6ccb"^^<xsd:string> .
+
+sssom:8c29c60fef1c563b9b400a621ef140de a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201184> ;
+    owl:annotatedTarget <idog:212> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Schipperke (Dog)" ;
+    sssom:uuid "8c29c60fef1c563b9b400a621ef140de"^^<xsd:string> .
+
+sssom:8ca826626f195c3893d0fa6a949fd7a7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200498> ;
+    owl:annotatedTarget <idog:98> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "English Toy Spaniel (Dog)" ;
+    sssom:uuid "8ca826626f195c3893d0fa6a949fd7a7"^^<xsd:string> .
+
+sssom:8fe478a94aea588092c29cd22f4f397e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200678> ;
+    owl:annotatedTarget <idog:353> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hungarian Greyhound (Dog)" ;
+    sssom:uuid "8fe478a94aea588092c29cd22f4f397e"^^<xsd:string> .
+
+sssom:91326a2a816550418d36886af9999df6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200997> ;
+    owl:annotatedTarget <idog:373> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Perdiguero de Burgos (Dog)" ;
+    sssom:uuid "91326a2a816550418d36886af9999df6"^^<xsd:string> .
+
+sssom:9201224fa4b853d682d7f38ba47200af a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201347> ;
+    owl:annotatedTarget <idog:436> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Thai Bangkaew Dog (Dog)" ;
+    sssom:uuid "9201224fa4b853d682d7f38ba47200af"^^<xsd:string> .
+
+sssom:926edc69cc775bf6b231f37838823bee a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201012> ;
+    owl:annotatedTarget <idog:375> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Petit Gascon-Saintongeois (Dog)" ;
+    sssom:uuid "926edc69cc775bf6b231f37838823bee"^^<xsd:string> .
+
+sssom:92a5cde4471a5d00aa2b6f47893cf5f3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200559> ;
+    owl:annotatedTarget <idog:279> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Gascogne Braque Français (Dog)" ;
+    sssom:uuid "92a5cde4471a5d00aa2b6f47893cf5f3"^^<xsd:string> .
+
+sssom:92c65c3249025698935446eb84d57884 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201155> ;
+    owl:annotatedTarget <idog:380> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Russian-European Laika (Dog)" ;
+    sssom:uuid "92c65c3249025698935446eb84d57884"^^<xsd:string> .
+
+sssom:9320b783ace257e9a81b59e7b6b75f1b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201332> ;
+    owl:annotatedTarget <idog:239> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Taiwan Dog (Dog)" ;
+    sssom:uuid "9320b783ace257e9a81b59e7b6b75f1b"^^<xsd:string> .
+
+sssom:93a891ee70565e6891b25dad33bb8777 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201372> ;
+    owl:annotatedTarget <idog:399> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Treeing Feist (Dog)" ;
+    sssom:uuid "93a891ee70565e6891b25dad33bb8777"^^<xsd:string> .
+
+sssom:93aeb7963bdb5707a80cf619e9d828c8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200503> ;
+    owl:annotatedTarget <idog:99> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Entlebucher Mountain Dog (Dog)" ;
+    sssom:uuid "93aeb7963bdb5707a80cf619e9d828c8"^^<xsd:string> .
+
+sssom:93f073646d90577196fa37e63203e6bf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200810> ;
+    owl:annotatedTarget <idog:425> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Landseer (European Continental Type) (Dog)" ;
+    sssom:uuid "93f073646d90577196fa37e63203e6bf"^^<xsd:string> .
+
+sssom:943ac78a3f44568dbc193967b2a0b283 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201244> ;
+    owl:annotatedTarget <idog:387> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Slovakian Wire-Haired Pointer (Dog)" ;
+    sssom:uuid "943ac78a3f44568dbc193967b2a0b283"^^<xsd:string> .
+
+sssom:943f0c319f425f4589ef736adaf9ea3f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200100> ;
+    owl:annotatedTarget <idog:305> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Austrian Black and Tan Hound (Dog)" ;
+    sssom:uuid "943f0c319f425f4589ef736adaf9ea3f"^^<xsd:string> .
+
+sssom:9478e70973365f4b95921ceb6fde2fad a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200047> ;
+    owl:annotatedTarget <idog:8> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Foxhound (Dog)" ;
+    sssom:uuid "9478e70973365f4b95921ceb6fde2fad"^^<xsd:string> .
+
+sssom:94abf6b6719a5bb3888dbc569b75eaf4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200194> ;
+    owl:annotatedTarget <idog:44> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Border Terrier (Dog)" ;
+    sssom:uuid "94abf6b6719a5bb3888dbc569b75eaf4"^^<xsd:string> .
+
+sssom:94ae6f08e2c6529b9913fab555769db6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200146> ;
+    owl:annotatedTarget <idog:28> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Belgian Shepherd Dog, Laekenois (Dog)" ;
+    sssom:uuid "94ae6f08e2c6529b9913fab555769db6"^^<xsd:string> .
+
+sssom:95a1ca4b5ded5b89b29b9e56a694add5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200235> ;
+    owl:annotatedTarget <idog:317> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Briquet Griffon Vendeen (Dog)" ;
+    sssom:uuid "95a1ca4b5ded5b89b29b9e56a694add5"^^<xsd:string> .
+
+sssom:95a53d7135c85028ba9fb1ff2467c63e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201353> ;
+    owl:annotatedTarget <idog:244> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Tibetan Terrier (Dog)" ;
+    sssom:uuid "95a53d7135c85028ba9fb1ff2467c63e"^^<xsd:string> .
+
+sssom:96c049d0bb8f55748cfda6232959f9f3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200376> ;
+    owl:annotatedTarget <idog:288> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Collie Rough (Dog)" ;
+    sssom:uuid "96c049d0bb8f55748cfda6232959f9f3"^^<xsd:string> .
+
+sssom:96fe3729c451581987459ee19b40d2b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200208> ;
+    owl:annotatedTarget <idog:47> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bouvier des Flandres (Dog)" ;
+    sssom:uuid "96fe3729c451581987459ee19b40d2b9"^^<xsd:string> .
+
+sssom:9713bb487a76543f9de177454844bd68 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200987> ;
+    owl:annotatedTarget <idog:177> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Parson Russell Terrier (Dog)" ;
+    sssom:uuid "9713bb487a76543f9de177454844bd68"^^<xsd:string> .
+
+sssom:98c3b65018e45cbda9bee0e22aff685e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200134> ;
+    owl:annotatedTarget <idog:25> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bearded Collie (Dog)" ;
+    sssom:uuid "98c3b65018e45cbda9bee0e22aff685e"^^<xsd:string> .
+
+sssom:99734447c9ff549db400f5ee663c9a69 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201154> ;
+    owl:annotatedTarget <idog:208> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Russian Tsvetnaya Bolonka (Dog)" ;
+    sssom:uuid "99734447c9ff549db400f5ee663c9a69"^^<xsd:string> .
+
+sssom:99cd827dba7050d69a88c2dda50b807c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200338> ;
+    owl:annotatedTarget <idog:71> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chihuahua (Dog)" ;
+    sssom:uuid "99cd827dba7050d69a88c2dda50b807c"^^<xsd:string> .
+
+sssom:9b1234463152573d931a2d9042bf16cf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200090> ;
+    owl:annotatedTarget <idog:266> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Australian Kelpie (Dog)" ;
+    sssom:uuid "9b1234463152573d931a2d9042bf16cf"^^<xsd:string> .
+
+sssom:9b29d163aaa459789044c1065c7d7b1e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201280> ;
+    owl:annotatedTarget <idog:230> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Spanish Water Dog (Dog)" ;
+    sssom:uuid "9b29d163aaa459789044c1065c7d7b1e"^^<xsd:string> .
+
+sssom:9b67a1a9debd550380dffadade5f8758 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201451> ;
+    owl:annotatedTarget <idog:438> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Yugoslavian Shepherd Dog - Sharplanina (Dog)" ;
+    sssom:uuid "9b67a1a9debd550380dffadade5f8758"^^<xsd:string> .
+
+sssom:9c59020f0bf75b50aca35cefb6654341 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200520> ;
+    owl:annotatedTarget <idog:413> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Fila Brasileiro (Dog)" ;
+    sssom:uuid "9c59020f0bf75b50aca35cefb6654341"^^<xsd:string> .
+
+sssom:9ca03857324457ac96d548218e8c3ec0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200764> ;
+    owl:annotatedTarget <idog:142> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Kerry Blue Terrier (Dog)" ;
+    sssom:uuid "9ca03857324457ac96d548218e8c3ec0"^^<xsd:string> .
+
+sssom:9cc71c4a07d25f7aa77917b26b85b5fb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200008> ;
+    owl:annotatedTarget <idog:3> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Airedale Terrier (Dog)" ;
+    sssom:uuid "9cc71c4a07d25f7aa77917b26b85b5fb"^^<xsd:string> .
+
+sssom:9d9247cba4985575bd2e648dcdbb08f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200351> ;
+    owl:annotatedTarget <idog:73> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chinese Shar-Pei (Dog)" ;
+    sssom:uuid "9d9247cba4985575bd2e648dcdbb08f2"^^<xsd:string> .
+
+sssom:9d9ddc924f655cd999272c12dce324d2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201418> ;
+    owl:annotatedTarget <idog:404> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Westphalian Dachsbracke (Dog)" ;
+    sssom:uuid "9d9ddc924f655cd999272c12dce324d2"^^<xsd:string> .
+
+sssom:9ee7f46cdfc3516bbbb7cf1073b64a6d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200046> ;
+    owl:annotatedTarget <idog:7> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Eskimo Dog (Dog)" ;
+    sssom:uuid "9ee7f46cdfc3516bbbb7cf1073b64a6d"^^<xsd:string> .
+
+sssom:9fc05aa4db2156d0803820feab60f4b7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200361> ;
+    owl:annotatedTarget <idog:75> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chow Chow (Dog)" ;
+    sssom:uuid "9fc05aa4db2156d0803820feab60f4b7"^^<xsd:string> .
+
+sssom:a026852f6bdd58f38dca5e6df00d8233 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200995> ;
+    owl:annotatedTarget <idog:179> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pembroke Welsh Corgi (Dog)" ;
+    sssom:uuid "a026852f6bdd58f38dca5e6df00d8233"^^<xsd:string> .
+
+sssom:a13fd6f9d61d5e5bb905a87f37dffbfb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200183> ;
+    owl:annotatedTarget <idog:40> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bluetick Coonhound (Dog)" ;
+    sssom:uuid "a13fd6f9d61d5e5bb905a87f37dffbfb"^^<xsd:string> .
+
+sssom:a2afb4c41cad51b2bc916e062b2a39f1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200537> ;
+    owl:annotatedTarget <idog:416> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Gascon Saintongeois (Dog)" ;
+    sssom:uuid "a2afb4c41cad51b2bc916e062b2a39f1"^^<xsd:string> .
+
+sssom:a2c4ab35ec3a5f0694f9ee40a3d293de a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200640> ;
+    owl:annotatedTarget <idog:417> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Griffon Belge (Dog)" ;
+    sssom:uuid "a2c4ab35ec3a5f0694f9ee40a3d293de"^^<xsd:string> .
+
+sssom:a4543017fc6c57588f50f8521631f936 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200804> ;
+    owl:annotatedTarget <idog:148> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Lagotto Romagnolo (Dog)" ;
+    sssom:uuid "a4543017fc6c57588f50f8521631f936"^^<xsd:string> .
+
+sssom:a47bd8216efc530a93b1b40243d069b1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201245> ;
+    owl:annotatedTarget <idog:224> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Slovensky Cuvac (Dog)" ;
+    sssom:uuid "a47bd8216efc530a93b1b40243d069b1"^^<xsd:string> .
+
+sssom:a5241a9ca7ed5dd4a3f4a76ed7488a65 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200023> ;
+    owl:annotatedTarget <idog:406> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Alpine Dachsbracke (Dog)" ;
+    sssom:uuid "a5241a9ca7ed5dd4a3f4a76ed7488a65"^^<xsd:string> .
+
+sssom:a524c5b005af5e7aac8328e43f96645d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200136> ;
+    owl:annotatedTarget <idog:26> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Beauceron (Dog)" ;
+    sssom:uuid "a524c5b005af5e7aac8328e43f96645d"^^<xsd:string> .
+
+sssom:a5352dcd5e5856468d15bd7a84f4650a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200442> ;
+    owl:annotatedTarget <idog:88> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Doberman Pinscher (Dog)" ;
+    sssom:uuid "a5352dcd5e5856468d15bd7a84f4650a"^^<xsd:string> .
+
+sssom:a751bb54a4a85f39aa333c544aa4cb46 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201411> ;
+    owl:annotatedTarget <idog:253> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Welsh Springer Spaniel (Dog)" ;
+    sssom:uuid "a751bb54a4a85f39aa333c544aa4cb46"^^<xsd:string> .
+
+sssom:a8076191a2be57dd9dbb71c172f89b4f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200214> ;
+    owl:annotatedTarget <idog:49> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Boykin Spaniel (Dog)" ;
+    sssom:uuid "a8076191a2be57dd9dbb71c172f89b4f"^^<xsd:string> .
+
+sssom:a88c5c774e50598497570ba8361c7629 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200620> ;
+    owl:annotatedTarget <idog:344> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Great Anglo-French Tricolor Hound (Dog)" ;
+    sssom:uuid "a88c5c774e50598497570ba8361c7629"^^<xsd:string> .
+
+sssom:a8d227ff7f995c67989db4c09160c744 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200710> ;
+    owl:annotatedTarget <idog:422> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Istrian Wire-Haired Hound (Dog)" ;
+    sssom:uuid "a8d227ff7f995c67989db4c09160c744"^^<xsd:string> .
+
+sssom:a8f8570e68b05b08abfc0c9e28ba2ef9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200123> ;
+    owl:annotatedTarget <idog:308> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Basset Artesien Normand (Dog)" ;
+    sssom:uuid "a8f8570e68b05b08abfc0c9e28ba2ef9"^^<xsd:string> .
+
+sssom:aa6e67bb6693565e97d309a829aae965 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200353> ;
+    owl:annotatedTarget <idog:74> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chinook (Dog)" ;
+    sssom:uuid "aa6e67bb6693565e97d309a829aae965"^^<xsd:string> .
+
+sssom:aae436cca74f54aabcb7603d03f5ebcd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200549> ;
+    owl:annotatedTarget <idog:414> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "French Tricolour Hound (Dog)" ;
+    sssom:uuid "aae436cca74f54aabcb7603d03f5ebcd"^^<xsd:string> .
+
+sssom:ab4f9c60230757db9a7c5446f91b9dc0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201035> ;
+    owl:annotatedTarget <idog:186> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Polish Lowland Sheepdog (Dog)" ;
+    sssom:uuid "ab4f9c60230757db9a7c5446f91b9dc0"^^<xsd:string> .
+
+sssom:ab681f2f02a0504c88658948ef8ce77b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201116> ;
+    owl:annotatedTarget <idog:432> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pyrenean Sheepdog - Smooth Faced (Dog)" ;
+    sssom:uuid "ab681f2f02a0504c88658948ef8ce77b"^^<xsd:string> .
+
+sssom:ad67b7611c395a1abe0662c8617c72a2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200577> ;
+    owl:annotatedTarget <idog:110> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "German Shepherd Dog (Dog)" ;
+    sssom:uuid "ad67b7611c395a1abe0662c8617c72a2"^^<xsd:string> .
+
+sssom:aeab6f20fa635ac5a2585793d74db39b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200189> ;
+    owl:annotatedTarget <idog:42> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bolognese (Dog)" ;
+    sssom:uuid "aeab6f20fa635ac5a2585793d74db39b"^^<xsd:string> .
+
+sssom:aeec44d8ce445760a7f2e4b7fab028b4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200411> ;
+    owl:annotatedTarget <idog:286> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dachshund, Miniature Wire-Haired (Dog)" ;
+    sssom:uuid "aeec44d8ce445760a7f2e4b7fab028b4"^^<xsd:string> .
+
+sssom:aef91015f4a75e7681e1bd116ae53d7a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201087> ;
+    owl:annotatedTarget <idog:195> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pudelpointer (Dog)" ;
+    sssom:uuid "aef91015f4a75e7681e1bd116ae53d7a"^^<xsd:string> .
+
+sssom:af0f850941cf5defab020c74cfcbd81d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200774> ;
+    owl:annotatedTarget <idog:143> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Kishu Ken (Dog)" ;
+    sssom:uuid "af0f850941cf5defab020c74cfcbd81d"^^<xsd:string> .
+
+sssom:af661e5ed9c55c198848ca4bdd71dcdf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200880> ;
+    owl:annotatedTarget <idog:158> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Miniature American Shepherd (Dog)" ;
+    sssom:uuid "af661e5ed9c55c198848ca4bdd71dcdf"^^<xsd:string> .
+
+sssom:af82856b8a5e5b4ea2aef69c2dda6553 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200758> ;
+    owl:annotatedTarget <idog:360> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Karst Shepherd Dog (Dog)" ;
+    sssom:uuid "af82856b8a5e5b4ea2aef69c2dda6553"^^<xsd:string> .
+
+sssom:b048203fc3c45b96b6b68996c03dc5d8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200735> ;
+    owl:annotatedTarget <idog:137> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Japanese Chin (Dog)" ;
+    sssom:uuid "b048203fc3c45b96b6b68996c03dc5d8"^^<xsd:string> .
+
+sssom:b079b82d8934542e86a65aa2a9448b7e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200340> ;
+    owl:annotatedTarget <idog:278> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chihuahua, Smooth-Haired (Dog)" ;
+    sssom:uuid "b079b82d8934542e86a65aa2a9448b7e"^^<xsd:string> .
+
+sssom:b10ad940485d5fa2bfbe8fc676353f63 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201251> ;
+    owl:annotatedTarget <idog:389> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Small Swiss Hound (Dog)" ;
+    sssom:uuid "b10ad940485d5fa2bfbe8fc676353f63"^^<xsd:string> .
+
+sssom:b10e89455a025938b07109ab1f59a312 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201361> ;
+    owl:annotatedTarget <idog:247> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Toy Fox Terrier (Dog)" ;
+    sssom:uuid "b10e89455a025938b07109ab1f59a312"^^<xsd:string> .
+
+sssom:b200fec3c3c45c4bb2c11d0521245767 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200906> ;
+    owl:annotatedTarget <idog:365> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Montenegrin Mountain Hound (Dog)" ;
+    sssom:uuid "b200fec3c3c45c4bb2c11d0521245767"^^<xsd:string> .
+
+sssom:b28a799683ee5d4cbde57718f3f618d3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200916> ;
+    owl:annotatedTarget <idog:366> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mountain Feist (Dog)" ;
+    sssom:uuid "b28a799683ee5d4cbde57718f3f618d3"^^<xsd:string> .
+
+sssom:b2d51606329d57879ac49bd95d97e2ad a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200186> ;
+    owl:annotatedTarget <idog:474> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bohemian Shepherd Dog (Dog)" ;
+    sssom:uuid "b2d51606329d57879ac49bd95d97e2ad"^^<xsd:string> .
+
+sssom:b2e1a62cf2ec5101901e86b7b2809c11 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201171> ;
+    owl:annotatedTarget <idog:209> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Saluki (Dog)" ;
+    sssom:uuid "b2e1a62cf2ec5101901e86b7b2809c11"^^<xsd:string> .
+
+sssom:b32cf6278ba450d9a5678d36a681e612 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201195> ;
+    owl:annotatedTarget <idog:213> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Scottish Deerhound (Dog)" ;
+    sssom:uuid "b32cf6278ba450d9a5678d36a681e612"^^<xsd:string> .
+
+sssom:b3c5fa866a2450f99d0f87206b4d62dc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200662> ;
+    owl:annotatedTarget <idog:125> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Havanese (Dog)" ;
+    sssom:uuid "b3c5fa866a2450f99d0f87206b4d62dc"^^<xsd:string> .
+
+sssom:b3f27f26f8895ea58ebdfdf1827e3521 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200345> ;
+    owl:annotatedTarget <idog:72> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chinese Crested (Dog)" ;
+    sssom:uuid "b3f27f26f8895ea58ebdfdf1827e3521"^^<xsd:string> .
+
+sssom:b470f3490d725104adaed298a1f57ab1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200499> ;
+    owl:annotatedTarget <idog:411> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "English Toy Terrier (Black & Tan) (Dog)" ;
+    sssom:uuid "b470f3490d725104adaed298a1f57ab1"^^<xsd:string> .
+
+sssom:b4dc6f8c0dbb53599e5400451041aefe a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200570> ;
+    owl:annotatedTarget <idog:108> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "German Longhaired Pointer (Dog)" ;
+    sssom:uuid "b4dc6f8c0dbb53599e5400451041aefe"^^<xsd:string> .
+
+sssom:b579717545cb5f9ba069ab02d1ecc1d1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200397> ;
+    owl:annotatedTarget <idog:81> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Curly Coated Retriever (Dog)" ;
+    sssom:uuid "b579717545cb5f9ba069ab02d1ecc1d1"^^<xsd:string> .
+
+sssom:b5c29417c3d2586b8bfe0d6db29f4adb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201370> ;
+    owl:annotatedTarget <idog:248> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Transylvanian Hound (Dog)" ;
+    sssom:uuid "b5c29417c3d2586b8bfe0d6db29f4adb"^^<xsd:string> .
+
+sssom:b5c82e33d05a57a1901a42e4d315788d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201424> ;
+    owl:annotatedTarget <idog:257> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Wire Fox Terrier (Dog)" ;
+    sssom:uuid "b5c82e33d05a57a1901a42e4d315788d"^^<xsd:string> .
+
+sssom:b6c91103247d5242ac51ec7d0c193f5a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200234> ;
+    owl:annotatedTarget <idog:53> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Briard (Dog)" ;
+    sssom:uuid "b6c91103247d5242ac51ec7d0c193f5a"^^<xsd:string> .
+
+sssom:b70bd6b8ea215d3bab00ff3216125534 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200024> ;
+    owl:annotatedTarget <idog:301> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Alpine Drachsbracke (Dog)" ;
+    sssom:uuid "b70bd6b8ea215d3bab00ff3216125534"^^<xsd:string> .
+
+sssom:b899627460aa57db96384032c76b4c1d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200335> ;
+    owl:annotatedTarget <idog:325> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chien Francais Tricolore (Dog)" ;
+    sssom:uuid "b899627460aa57db96384032c76b4c1d"^^<xsd:string> .
+
+sssom:b93962c9e0c55c72b364bd82f27334e7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201438> ;
+    owl:annotatedTarget <idog:287> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Xoloitzcuintli, Miniature (Dog)" ;
+    sssom:uuid "b93962c9e0c55c72b364bd82f27334e7"^^<xsd:string> .
+
+sssom:b96ad8a6f9ba5e318d2d34c472b3d8fc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200147> ;
+    owl:annotatedTarget <idog:29> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Belgian Shepherd Dog, Malinois (Dog)" ;
+    sssom:uuid "b96ad8a6f9ba5e318d2d34c472b3d8fc"^^<xsd:string> .
+
+sssom:b9a671f069c2542788984c51e0d60031 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201143> ;
+    owl:annotatedTarget <idog:205> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Rottweiler (Dog)" ;
+    sssom:uuid "b9a671f069c2542788984c51e0d60031"^^<xsd:string> .
+
+sssom:bb5981e45a105edbaefa9360dd5bc36f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200512> ;
+    owl:annotatedTarget <idog:101> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Eurasier (Dog)" ;
+    sssom:uuid "bb5981e45a105edbaefa9360dd5bc36f"^^<xsd:string> .
+
+sssom:bbbac218d3b45bb7a2c60eb5abae6456 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200618> ;
+    owl:annotatedTarget <idog:342> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Grand Gascon-Saintongeois (Dog)" ;
+    sssom:uuid "bbbac218d3b45bb7a2c60eb5abae6456"^^<xsd:string> .
+
+sssom:bc5f3e9e7d0d5d9baf134c24815b4714 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200847> ;
+    owl:annotatedTarget <idog:318> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Majorca Shepherd Dog (Dog)" ;
+    sssom:uuid "bc5f3e9e7d0d5d9baf134c24815b4714"^^<xsd:string> .
+
+sssom:bcc044e510c850dd96785e9f82e4fa22 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200409> ;
+    owl:annotatedTarget <idog:284> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dachshund, Miniature Long-Haired (Dog)" ;
+    sssom:uuid "bcc044e510c850dd96785e9f82e4fa22"^^<xsd:string> .
+
+sssom:bcc714071446531aade2e14811a14859 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201318> ;
+    owl:annotatedTarget <idog:397> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Swiss Hound (Dog)" ;
+    sssom:uuid "bcc714071446531aade2e14811a14859"^^<xsd:string> .
+
+sssom:bd9929df268a5023a891d4e7d7cfd9ab a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201281> ;
+    owl:annotatedTarget <idog:231> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Spinone Italiano (Dog)" ;
+    sssom:uuid "bd9929df268a5023a891d4e7d7cfd9ab"^^<xsd:string> .
+
+sssom:bd9b73d002505c2094b885c09a89c3df a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200333> ;
+    owl:annotatedTarget <idog:324> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chien Francais Blanc et Noir (Dog)" ;
+    sssom:uuid "bd9b73d002505c2094b885c09a89c3df"^^<xsd:string> .
+
+sssom:bddf99335a6d5dc4b9dffa854ce17482 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201313> ;
+    owl:annotatedTarget <idog:396> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Swedish Elkhound (Dog)" ;
+    sssom:uuid "bddf99335a6d5dc4b9dffa854ce17482"^^<xsd:string> .
+
+sssom:bf3b3aa98e7e531b826027e718e3fdf1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201455> ;
+    owl:annotatedTarget <idog:106> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "French Bulldog (Dog)" ;
+    sssom:uuid "bf3b3aa98e7e531b826027e718e3fdf1"^^<xsd:string> .
+
+sssom:bf6e98ba8288523ab3154623d3c0f246 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201409> ;
+    owl:annotatedTarget <idog:402> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Welsh Hound (Dog)" ;
+    sssom:uuid "bf6e98ba8288523ab3154623d3c0f246"^^<xsd:string> .
+
+sssom:c03c88bcbbb752a39b2c8dbdc7f66e5f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201160> ;
+    owl:annotatedTarget <idog:232> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Saint Bernard (Dog)" ;
+    sssom:uuid "c03c88bcbbb752a39b2c8dbdc7f66e5f"^^<xsd:string> .
+
+sssom:c09d5b22273259fda6ebb64966839766 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201421> ;
+    owl:annotatedTarget <idog:256> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Whippet (Dog)" ;
+    sssom:uuid "c09d5b22273259fda6ebb64966839766"^^<xsd:string> .
+
+sssom:c09db1aeb3c95b378c053efdcfc77388 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200117> ;
+    owl:annotatedTarget <idog:307> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Barak (Dog)" ;
+    sssom:uuid "c09db1aeb3c95b378c053efdcfc77388"^^<xsd:string> .
+
+sssom:c14d0d1127b254c39ca92ca9cc6e93b1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200495> ;
+    owl:annotatedTarget <idog:96> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "English Setter (Dog)" ;
+    sssom:uuid "c14d0d1127b254c39ca92ca9cc6e93b1"^^<xsd:string> .
+
+sssom:c17843fc79ae52deafaf01af396b2d5f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201056> ;
+    owl:annotatedTarget <idog:269> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Poodle, Standard (Dog)" ;
+    sssom:uuid "c17843fc79ae52deafaf01af396b2d5f"^^<xsd:string> .
+
+sssom:c3339cec634451daa8b0c7ca31661700 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201209> ;
+    owl:annotatedTarget <idog:385> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Serbian Tricolor Hound (Dog)" ;
+    sssom:uuid "c3339cec634451daa8b0c7ca31661700"^^<xsd:string> .
+
+sssom:c3829135ed92596d85d4c841d059052f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200781> ;
+    owl:annotatedTarget <idog:361> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Kooikerhondje (Dog)" ;
+    sssom:uuid "c3829135ed92596d85d4c841d059052f"^^<xsd:string> .
+
+sssom:c4077fe5d3855668a3449cef2b80235d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200700> ;
+    owl:annotatedTarget <idog:130> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Irish Red and White Setter (Dog)" ;
+    sssom:uuid "c4077fe5d3855668a3449cef2b80235d"^^<xsd:string> .
+
+sssom:c487f0b26b09592382902c34986ff1cb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200619> ;
+    owl:annotatedTarget <idog:343> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Grand Griffon Vendeen (Dog)" ;
+    sssom:uuid "c487f0b26b09592382902c34986ff1cb"^^<xsd:string> .
+
+sssom:c54e2b8c96ab513ca9c6985bb601cc97 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200427> ;
+    owl:annotatedTarget <idog:84> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dalmatian (Dog)" ;
+    sssom:uuid "c54e2b8c96ab513ca9c6985bb601cc97"^^<xsd:string> .
+
+sssom:c5ac6fbeac74550aac6778208cb7df01 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200643> ;
+    owl:annotatedTarget <idog:348> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Griffon Fauve de Bretagne (Dog)" ;
+    sssom:uuid "c5ac6fbeac74550aac6778208cb7df01"^^<xsd:string> .
+
+sssom:c5c9478d21875f52bb90bb8b2ce3b8e5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200227> ;
+    owl:annotatedTarget <idog:316> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Braque Saint Germain (Dog)" ;
+    sssom:uuid "c5c9478d21875f52bb90bb8b2ce3b8e5"^^<xsd:string> .
+
+sssom:c5de49ae306950d29bc90ac3d054dcdd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201247> ;
+    owl:annotatedTarget <idog:388> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Smaland Hound (Dog)" ;
+    sssom:uuid "c5de49ae306950d29bc90ac3d054dcdd"^^<xsd:string> .
+
+sssom:c615f4e3aa37518bb83820df4f809ece a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201302> ;
+    owl:annotatedTarget <idog:394> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Stephens' Cur (Dog)" ;
+    sssom:uuid "c615f4e3aa37518bb83820df4f809ece"^^<xsd:string> .
+
+sssom:c63d4a7f60255de482924b3775d92845 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200741> ;
+    owl:annotatedTarget <idog:358> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Japanese Terrier (Dog)" ;
+    sssom:uuid "c63d4a7f60255de482924b3775d92845"^^<xsd:string> .
+
+sssom:c790983058a8525eb7714c750baf6522 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200879> ;
+    owl:annotatedTarget <idog:283> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Miniature American Eskimo Dog (Dog)" ;
+    sssom:uuid "c790983058a8525eb7714c750baf6522"^^<xsd:string> .
+
+sssom:c83d023fdfe25fb3b738bb101e971999 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200896> ;
+    owl:annotatedTarget <idog:161> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Miniature Schnauzer (Dog)" ;
+    sssom:uuid "c83d023fdfe25fb3b738bb101e971999"^^<xsd:string> .
+
+sssom:c8a454f832a652b989ca80bdf93cff58 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201225> ;
+    owl:annotatedTarget <idog:219> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Shikoku (Dog)" ;
+    sssom:uuid "c8a454f832a652b989ca80bdf93cff58"^^<xsd:string> .
+
+sssom:c8a9f01f1ff5533099b23d9157f07c4a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200274> ;
+    owl:annotatedTarget <idog:61> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Canaan Dog (Dog)" ;
+    sssom:uuid "c8a9f01f1ff5533099b23d9157f07c4a"^^<xsd:string> .
+
+sssom:c8ce6ffeb9fe539d85288cd130f0e331 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200298> ;
+    owl:annotatedTarget <idog:65> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Catahoula Leopard Dog (Dog)" ;
+    sssom:uuid "c8ce6ffeb9fe539d85288cd130f0e331"^^<xsd:string> .
+
+sssom:cab0f6f2cef75f288b9dda7eb1f23356 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200241> ;
+    owl:annotatedTarget <idog:56> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Brussels Griffon (Dog)" ;
+    sssom:uuid "cab0f6f2cef75f288b9dda7eb1f23356"^^<xsd:string> .
+
+sssom:caf5b45bbe5b57649ff879315f7586b5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200027> ;
+    owl:annotatedTarget <idog:407> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Akita (Dog)" ;
+    sssom:uuid "caf5b45bbe5b57649ff879315f7586b5"^^<xsd:string> .
+
+sssom:cbb52e000840539391c49bc2ce283c69 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200616> ;
+    owl:annotatedTarget <idog:341> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Grand Bleu de Gascogne (Dog)" ;
+    sssom:uuid "cbb52e000840539391c49bc2ce283c69"^^<xsd:string> .
+
+sssom:cbf6d41823a0569ea1f3d78c1412d386 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200604> ;
+    owl:annotatedTarget <idog:114> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Giant Schnauzer (Dog)" ;
+    sssom:uuid "cbf6d41823a0569ea1f3d78c1412d386"^^<xsd:string> .
+
+sssom:ccffe47a15185f479246563c71b60f9f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200366> ;
+    owl:annotatedTarget <idog:77> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Clumber Spaniel (Dog)" ;
+    sssom:uuid "ccffe47a15185f479246563c71b60f9f"^^<xsd:string> .
+
+sssom:cdd5df7a137b5d12979646d8c87e29f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201089> ;
+    owl:annotatedTarget <idog:196> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pug (Dog)" ;
+    sssom:uuid "cdd5df7a137b5d12979646d8c87e29f0"^^<xsd:string> .
+
+sssom:ce3e5bd28674566b97ae920e1d27b7e8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200074> ;
+    owl:annotatedTarget <idog:315> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Ariege Pointing Dog (Dog)" ;
+    sssom:uuid "ce3e5bd28674566b97ae920e1d27b7e8"^^<xsd:string> .
+
+sssom:cf70d6b3c4c451c392f094f0f8697511 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201037> ;
+    owl:annotatedTarget <idog:296> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Polish Tatra Sheepdog (Dog)" ;
+    sssom:uuid "cf70d6b3c4c451c392f094f0f8697511"^^<xsd:string> .
+
+sssom:cfa48ad305705022aeef99c6b527ba0d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201373> ;
+    owl:annotatedTarget <idog:249> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Treeing Tennessee Brindle (Dog)" ;
+    sssom:uuid "cfa48ad305705022aeef99c6b527ba0d"^^<xsd:string> .
+
+sssom:d002d85d287e5b998b96f42c403f87cd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200294> ;
+    owl:annotatedTarget <idog:64> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Carolina Dog (Dog)" ;
+    sssom:uuid "d002d85d287e5b998b96f42c403f87cd"^^<xsd:string> .
+
+sssom:d0871d8f3ea55e0ebb7134f2cf89a5e7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200959> ;
+    owl:annotatedTarget <idog:171> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Norwegian Lundehund (Dog)" ;
+    sssom:uuid "d0871d8f3ea55e0ebb7134f2cf89a5e7"^^<xsd:string> .
+
+sssom:d26ce9ea2d6c519e8a46175505821d38 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200207> ;
+    owl:annotatedTarget <idog:314> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bouvier des Ardennes (Dog)" ;
+    sssom:uuid "d26ce9ea2d6c519e8a46175505821d38"^^<xsd:string> .
+
+sssom:d2c2462a84e652adb1f6220cb8fd0b0b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201059> ;
+    owl:annotatedTarget <idog:368> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Poodle, Standard Multi-Colored (Dog)" ;
+    sssom:uuid "d2c2462a84e652adb1f6220cb8fd0b0b"^^<xsd:string> .
+
+sssom:d3880c68749e535a85123e97ebff7fe6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200629> ;
+    owl:annotatedTarget <idog:120> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Great Pyrenees (Dog)" ;
+    sssom:uuid "d3880c68749e535a85123e97ebff7fe6"^^<xsd:string> .
+
+sssom:d5df92b5125650dcbe72444e9d74555d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200671> ;
+    owl:annotatedTarget <idog:126> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hokkaido (Dog)" ;
+    sssom:uuid "d5df92b5125650dcbe72444e9d74555d"^^<xsd:string> .
+
+sssom:d611a50a7d6c5e41b3a956182a6546ca a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201141> ;
+    owl:annotatedTarget <idog:328> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Romanian Mioritic Shepherd Dog (Dog)" ;
+    sssom:uuid "d611a50a7d6c5e41b3a956182a6546ca"^^<xsd:string> .
+
+sssom:d6c4b29dd35b56bdaccbaba09d9ef568 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200158> ;
+    owl:annotatedTarget <idog:33> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Berger Picard (Dog)" ;
+    sssom:uuid "d6c4b29dd35b56bdaccbaba09d9ef568"^^<xsd:string> .
+
+sssom:d7f971c4fade5facaf5dd9da01cb429f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201027> ;
+    owl:annotatedTarget <idog:376> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Podenco Canario (Dog)" ;
+    sssom:uuid "d7f971c4fade5facaf5dd9da01cb429f"^^<xsd:string> .
+
+sssom:d850960d143e5252b314d36682763de9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200613> ;
+    owl:annotatedTarget <idog:117> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Gordon Setter (Dog)" ;
+    sssom:uuid "d850960d143e5252b314d36682763de9"^^<xsd:string> .
+
+sssom:d9242a60d435535dba7eb155f1a649d9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200009> ;
+    owl:annotatedTarget <idog:263> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Akbash (Dog)" ;
+    sssom:uuid "d9242a60d435535dba7eb155f1a649d9"^^<xsd:string> .
+
+sssom:d9c925a29c3659fca8714f36eea2ce74 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200220> ;
+    owl:annotatedTarget <idog:275> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Braque d’Auvergne (Dog)" ;
+    sssom:uuid "d9c925a29c3659fca8714f36eea2ce74"^^<xsd:string> .
+
+sssom:da832f069fac5b2bb7787fb15d558101 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200932> ;
+    owl:annotatedTarget <idog:165> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Nederlandse Kooikerhondje (Dog)" ;
+    sssom:uuid "da832f069fac5b2bb7787fb15d558101"^^<xsd:string> .
+
+sssom:db17a8d3719357839ff813f73493ce00 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201423> ;
+    owl:annotatedTarget <idog:437> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "White Swiss Shepherd Dog (Dog)" ;
+    sssom:uuid "db17a8d3719357839ff813f73493ce00"^^<xsd:string> .
+
+sssom:db4e8f336ee950239bcdcf14dfde0778 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200299> ;
+    owl:annotatedTarget <idog:320> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Catalan Sheepdog (Dog)" ;
+    sssom:uuid "db4e8f336ee950239bcdcf14dfde0778"^^<xsd:string> .
+
+sssom:dba183f5c8225502bdd7dcf14a77170b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200068> ;
+    owl:annotatedTarget <idog:14> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Appenzeller Sennenhund (Dog)" ;
+    sssom:uuid "dba183f5c8225502bdd7dcf14a77170b"^^<xsd:string> .
+
+sssom:dc1e70a2aa0d53159f99dd0f5189c944 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200226> ;
+    owl:annotatedTarget <idog:52> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Braque Francais Pyrenean (Dog)" ;
+    sssom:uuid "dc1e70a2aa0d53159f99dd0f5189c944"^^<xsd:string> .
+
+sssom:dcf70b3de60f5adc9b32dc5e89a65ddb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201084> ;
+    owl:annotatedTarget <idog:481> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Prague Ratter (Dog)" ;
+    sssom:uuid "dcf70b3de60f5adc9b32dc5e89a65ddb"^^<xsd:string> .
+
+sssom:dd8e4f403a665a0783c28a095f225154 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201233> ;
+    owl:annotatedTarget <idog:220> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Siberian Husky (Dog)" ;
+    sssom:uuid "dd8e4f403a665a0783c28a095f225154"^^<xsd:string> .
+
+sssom:ddce719a0bcd5d778a2895a7f1707daa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200454> ;
+    owl:annotatedTarget <idog:92> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Drever (Dog)" ;
+    sssom:uuid "ddce719a0bcd5d778a2895a7f1707daa"^^<xsd:string> .
+
+sssom:de1054755485598a9b919c46e349f105 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200724> ;
+    owl:annotatedTarget <idog:357> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Jack Russell Terrier (Dog)" ;
+    sssom:uuid "de1054755485598a9b919c46e349f105"^^<xsd:string> .
+
+sssom:def0a29f6f8a595bb7fa9d25771eff31 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200714> ;
+    owl:annotatedTarget <idog:356> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Italian Hound (Dog)" ;
+    sssom:uuid "def0a29f6f8a595bb7fa9d25771eff31"^^<xsd:string> .
+
+sssom:defb2efed9d55dd299b64d3d19a19ee2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200137> ;
+    owl:annotatedTarget <idog:27> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bedlington Terrier (Dog)" ;
+    sssom:uuid "defb2efed9d55dd299b64d3d19a19ee2"^^<xsd:string> .
+
+sssom:df0644e2ec395ecb8ca803a0e5e7e99d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200406> ;
+    owl:annotatedTarget <idog:83> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dachshund (Dog)" ;
+    sssom:uuid "df0644e2ec395ecb8ca803a0e5e7e99d"^^<xsd:string> .
+
+sssom:df5178aac9e25359a893ef5ba133d417 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200759> ;
+    owl:annotatedTarget <idog:141> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Keeshond (Dog)" ;
+    sssom:uuid "df5178aac9e25359a893ef5ba133d417"^^<xsd:string> .
+
+sssom:e043ebd2a76259db89f60581a982c8c9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200231> ;
+    owl:annotatedTarget <idog:409> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Brazilian Terrier (Dog)" ;
+    sssom:uuid "e043ebd2a76259db89f60581a982c8c9"^^<xsd:string> .
+
+sssom:e07c76c1f0135774955f0c889918f950 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201068> ;
+    owl:annotatedTarget <idog:191> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Portuguese Podengo Pequeno (Dog)" ;
+    sssom:uuid "e07c76c1f0135774955f0c889918f950"^^<xsd:string> .
+
+sssom:e0edd348eb99538eadd4f5a9356f4d98 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201371> ;
+    owl:annotatedTarget <idog:398> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Treeing Cur (Dog)" ;
+    sssom:uuid "e0edd348eb99538eadd4f5a9356f4d98"^^<xsd:string> .
+
+sssom:e13162c689b85dea9130c4e1677ca599 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200103> ;
+    owl:annotatedTarget <idog:306> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Austrian Pinscher (Dog)" ;
+    sssom:uuid "e13162c689b85dea9130c4e1677ca599"^^<xsd:string> .
+
+sssom:e18215b3773b503e8adba61486f9bfce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200532> ;
+    owl:annotatedTarget <idog:338> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Francais Blanc et Orange (Dog)" ;
+    sssom:uuid "e18215b3773b503e8adba61486f9bfce"^^<xsd:string> .
+
+sssom:e1a6bf6371f253a68f6010b1eb32b8b2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200953> ;
+    owl:annotatedTarget <idog:169> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Norwegian Buhund (Dog)" ;
+    sssom:uuid "e1a6bf6371f253a68f6010b1eb32b8b2"^^<xsd:string> .
+
+sssom:e62e4966fba7587c9586aaaf2cd1be3d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201064> ;
+    owl:annotatedTarget <idog:189> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Porcelaine (Dog)" ;
+    sssom:uuid "e62e4966fba7587c9586aaaf2cd1be3d"^^<xsd:string> .
+
+sssom:e826443a953159cb8c25c3adfa030270 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201422> ;
+    owl:annotatedTarget <idog:405> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "White Shepherd (Dog)" ;
+    sssom:uuid "e826443a953159cb8c25c3adfa030270"^^<xsd:string> .
+
+sssom:e93e71f547ae524f86d0569cf8ce6b2e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201135> ;
+    owl:annotatedTarget <idog:204> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Rhodesian Ridgeback (Dog)" ;
+    sssom:uuid "e93e71f547ae524f86d0569cf8ce6b2e"^^<xsd:string> .
+
+sssom:e9595dd0d5d152b09bd5425efbfe5eea a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200377> ;
+    owl:annotatedTarget <idog:289> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Collie Smooth (Dog)" ;
+    sssom:uuid "e9595dd0d5d152b09bd5425efbfe5eea"^^<xsd:string> .
+
+sssom:e984cce6ea895de8a3a1288ff8ab33f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200505> ;
+    owl:annotatedTarget <idog:336> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Epagneul Picard (Dog)" ;
+    sssom:uuid "e984cce6ea895de8a3a1288ff8ab33f0"^^<xsd:string> .
+
+sssom:e98b0378a9e05896a3f200e22902a767 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200472> ;
+    owl:annotatedTarget <idog:333> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "East Siberian Laika (Dog)" ;
+    sssom:uuid "e98b0378a9e05896a3f200e22902a767"^^<xsd:string> .
+
+sssom:ea0417cd78cb567c90da49ba3b60c2c0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200656> ;
+    owl:annotatedTarget <idog:419> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hanoverian Scent Hound (Dog)" ;
+    sssom:uuid "ea0417cd78cb567c90da49ba3b60c2c0"^^<xsd:string> .
+
+sssom:ea571b701acd53d79a59b4bbcf963d53 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201412> ;
+    owl:annotatedTarget <idog:254> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Welsh Terrier (Dog)" ;
+    sssom:uuid "ea571b701acd53d79a59b4bbcf963d53"^^<xsd:string> .
+
+sssom:eafc3a70415f58eebe9db2776fe5503c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200439> ;
+    owl:annotatedTarget <idog:330> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Deutsche Bracke (Dog)" ;
+    sssom:uuid "eafc3a70415f58eebe9db2776fe5503c"^^<xsd:string> .
+
+sssom:eb809cefb5875198887806da05311020 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200706> ;
+    owl:annotatedTarget <idog:134> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Irish Wolfhound (Dog)" ;
+    sssom:uuid "eb809cefb5875198887806da05311020"^^<xsd:string> .
+
+sssom:eb9bff005bb151469b87b5b068768f20 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200994> ;
+    owl:annotatedTarget <idog:178> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pekingese (Dog)" ;
+    sssom:uuid "eb9bff005bb151469b87b5b068768f20"^^<xsd:string> .
+
+sssom:ec72cc386f8150cab830012146b2abf3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200867> ;
+    owl:annotatedTarget <idog:157> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mastiff (Dog)" ;
+    sssom:uuid "ec72cc386f8150cab830012146b2abf3"^^<xsd:string> .
+
+sssom:ecd547bf98d65752ae5cb04465a12461 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200816> ;
+    owl:annotatedTarget <idog:267> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Large Munsterlander (Dog)" ;
+    sssom:uuid "ecd547bf98d65752ae5cb04465a12461"^^<xsd:string> .
+
+sssom:eddadd5da1dc507f8bdbec52e0fc77f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200609> ;
+    owl:annotatedTarget <idog:115> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Glen of Imaal Terrier (Dog)" ;
+    sssom:uuid "eddadd5da1dc507f8bdbec52e0fc77f2"^^<xsd:string> .
+
+sssom:ee88d9b7a34b54b185e0ac9ba48ae562 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200125> ;
+    owl:annotatedTarget <idog:21> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Basset Fauve de Bretagne (Dog)" ;
+    sssom:uuid "ee88d9b7a34b54b185e0ac9ba48ae562"^^<xsd:string> .
+
+sssom:eebfaa8561af5bc58713bb3ba682879a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200286> ;
+    owl:annotatedTarget <idog:479> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cão de Gado Transmontano (Dog)" ;
+    sssom:uuid "eebfaa8561af5bc58713bb3ba682879a"^^<xsd:string> .
+
+sssom:eee22bd1316b5e18a8dbe575606b23b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200322> ;
+    owl:annotatedTarget <idog:321> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cesky Fousek (Dog)" ;
+    sssom:uuid "eee22bd1316b5e18a8dbe575606b23b9"^^<xsd:string> .
+
+sssom:f000458b2ac15cb981b5ff4b56068d20 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200261> ;
+    owl:annotatedTarget <idog:59> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bullmastiff (Dog)" ;
+    sssom:uuid "f000458b2ac15cb981b5ff4b56068d20"^^<xsd:string> .
+
+sssom:f0c201b3670456918739013e032af378 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200548> ;
+    owl:annotatedTarget <idog:107> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "French Spaniel (Dog)" ;
+    sssom:uuid "f0c201b3670456918739013e032af378"^^<xsd:string> .
+
+sssom:f0f5877b54cb5f5694116c3668e91abf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200875> ;
+    owl:annotatedTarget <idog:364> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mi-Ki (Dog)" ;
+    sssom:uuid "f0f5877b54cb5f5694116c3668e91abf"^^<xsd:string> .
+
+sssom:f0f796bcab9156f683d53e5dc393e457 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200309> ;
+    owl:annotatedTarget <idog:67> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cavalier King Charles Spaniel (Dog)" ;
+    sssom:uuid "f0f796bcab9156f683d53e5dc393e457"^^<xsd:string> .
+
+sssom:f144183f0f205bd68d4c29b6e7124787 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201069> ;
+    owl:annotatedTarget <idog:192> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Portuguese Pointer (Dog)" ;
+    sssom:uuid "f144183f0f205bd68d4c29b6e7124787"^^<xsd:string> .
+
+sssom:f247ac235bd55a0e98f75367c3679df2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200824> ;
+    owl:annotatedTarget <idog:153> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Lhasa Apso (Dog)" ;
+    sssom:uuid "f247ac235bd55a0e98f75367c3679df2"^^<xsd:string> .
+
+sssom:f4436aa320545021b8a18f0611d28b3d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201235> ;
+    owl:annotatedTarget <idog:386> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Silken Windhound (Dog)" ;
+    sssom:uuid "f4436aa320545021b8a18f0611d28b3d"^^<xsd:string> .
+
+sssom:f5729adb90f752828d25fb817f87d930 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200145> ;
+    owl:annotatedTarget <idog:30> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Belgian Shepherd Dog, Groenendael (Dog)" ;
+    sssom:uuid "f5729adb90f752828d25fb817f87d930"^^<xsd:string> .
+
+sssom:f58ba972be685ae59c1cf4bc741c776b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200490> ;
+    owl:annotatedTarget <idog:95> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "English Foxhound (Dog)" ;
+    sssom:uuid "f58ba972be685ae59c1cf4bc741c776b"^^<xsd:string> .
+
+sssom:f5a4cfd2a73356b589fb24202d7c6c33 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201315> ;
+    owl:annotatedTarget <idog:237> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Swedish Lapphund (Dog)" ;
+    sssom:uuid "f5a4cfd2a73356b589fb24202d7c6c33"^^<xsd:string> .
+
+sssom:f6de677ef36c585899d80f156b9937dd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201223> ;
+    owl:annotatedTarget <idog:218> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Shih Tzu (Dog)" ;
+    sssom:uuid "f6de677ef36c585899d80f156b9937dd"^^<xsd:string> .
+
+sssom:f704fd4a7c225c75ae3990d6a6921449 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200585> ;
+    owl:annotatedTarget <idog:112> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "German Spitz (Dog)" ;
+    sssom:uuid "f704fd4a7c225c75ae3990d6a6921449"^^<xsd:string> .
+
+sssom:f73c44ee1fb25d2b82568b300a3ad573 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201278> ;
+    owl:annotatedTarget <idog:229> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Spanish Mastiff (Dog)" ;
+    sssom:uuid "f73c44ee1fb25d2b82568b300a3ad573"^^<xsd:string> .
+
+sssom:f866289405fd588cb3db62c3491cbe3d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200182> ;
+    owl:annotatedTarget <idog:274> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Blue Picardy Spaniel (Dog)" ;
+    sssom:uuid "f866289405fd588cb3db62c3491cbe3d"^^<xsd:string> .
+
+sssom:f8d4ee08badb5990a4b094a1459a9f42 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201181> ;
+    owl:annotatedTarget <idog:211> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Schapendoes (Dog)" ;
+    sssom:uuid "f8d4ee08badb5990a4b094a1459a9f42"^^<xsd:string> .
+
+sssom:f9663eefb08c5b7d9525072d2508a46b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200326> ;
+    owl:annotatedTarget <idog:70> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chesapeake Bay Retriever (Dog)" ;
+    sssom:uuid "f9663eefb08c5b7d9525072d2508a46b"^^<xsd:string> .
+
+sssom:f9f829bd7a69597bab88290166eb2663 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200059> ;
+    owl:annotatedTarget <idog:12> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Water Spaniel (Dog)" ;
+    sssom:uuid "f9f829bd7a69597bab88290166eb2663"^^<xsd:string> .
+
+sssom:fbbc1d992c6c509f9a04ea941aada17e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200010> ;
+    owl:annotatedTarget <idog:4> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Akita (Dog)" ;
+    sssom:uuid "fbbc1d992c6c509f9a04ea941aada17e"^^<xsd:string> .
+
+sssom:fc57861a164a5585900bdba806cc44d3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200372> ;
+    owl:annotatedTarget <idog:78> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cocker Spaniel (Dog)" ;
+    sssom:uuid "fc57861a164a5585900bdba806cc44d3"^^<xsd:string> .
+
+sssom:fc8987da372b5f4bb2caf54bc72689bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200095> ;
+    owl:annotatedTarget <idog:16> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Australian Shepherd (Dog)" ;
+    sssom:uuid "fc8987da372b5f4bb2caf54bc72689bd"^^<xsd:string> .
+
+sssom:fdc466f1acad5a709e9d970481cb0092 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0201132> ;
+    owl:annotatedTarget <idog:203> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Redbone Coonhound (Dog)" ;
+    sssom:uuid "fdc466f1acad5a709e9d970481cb0092"^^<xsd:string> .
+
+sssom:fe1444872a5c5e809708ec90f97d4553 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200712> ;
+    owl:annotatedTarget <idog:62> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Italian Cane Corso (Dog)" ;
+    sssom:uuid "fe1444872a5c5e809708ec90f97d4553"^^<xsd:string> .
+
+sssom:fe6179847f355df9900b778702f2458b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200130> ;
+    owl:annotatedTarget <idog:23> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bavarian Mountain Scent Hound (Dog)" ;
+    sssom:uuid "fe6179847f355df9900b778702f2458b"^^<xsd:string> .
+
+sssom:fed81388281a525b9634e3b83178661d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200749> ;
+    owl:annotatedTarget <idog:359> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Kangal Dog (Dog)" ;
+    sssom:uuid "fed81388281a525b9634e3b83178661d"^^<xsd:string> .
+
+sssom:fef601deeea5564aa231249284f13a1f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200119> ;
+    owl:annotatedTarget <idog:19> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Barbet (Dog)" ;
+    sssom:uuid "fef601deeea5564aa231249284f13a1f"^^<xsd:string> .
+
+sssom:ffd05e1d9638595f99ae3a1721ba4888 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <vbo:0200034> ;
+    owl:annotatedTarget <idog:264> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "American Bulldog (Dog)" ;
+    sssom:uuid "ffd05e1d9638595f99ae3a1721ba4888"^^<xsd:string> .
+

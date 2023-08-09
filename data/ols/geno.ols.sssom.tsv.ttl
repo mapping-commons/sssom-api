@@ -1,0 +1,206 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:4e29925f6afe513088fa1137e19c4a20 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "geno.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/geno.ols.sssom.tsv> ;
+    sssom:mappings sssom:0e8a4495991053329e6b677a86c20ec9,
+        sssom:3688ae411ced5dc18aa067146fd847d5,
+        sssom:3afeb5087f4456d095de5a31b1d75e82,
+        sssom:4bd2264e4de9570e9b5025347b200152,
+        sssom:50555668816e504d9bce0b15321dc122,
+        sssom:6663d4b9e73159348272d14c229564eb,
+        sssom:738b7f2da9db575fbc37b9664908973a,
+        sssom:7c36bc66fb4a5392839fc349d1cec45a,
+        sssom:81eb44302ff657059006b9fca1e2744c,
+        sssom:88e763e0a7595056865342c22ae89269,
+        sssom:96e676d57ce15fbfb23fde3ac9a11cb2,
+        sssom:baa2e95a515b50238c39f51c15d4c2a7,
+        sssom:c3086ccedcde5c169636047afb7f6fdb,
+        sssom:c92a8140d25c5899a681b9dbda94a424,
+        sssom:cc4552464e00543d80ab2ed99feba155,
+        sssom:e4bf16cd3c895bd9972e65118e6ca6f4,
+        sssom:ed6ceb18bd8d5b9daddad7b15363d28e,
+        sssom:eddecfdf008b52d796f9e9a8bb06c973,
+        sssom:eefbdfa95da65316a4d55e5fab903997 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/geno> ;
+            sssom:local_id "geno.ols" ] ;
+    sssom:uuid "4e29925f6afe513088fa1137e19c4a20"^^<xsd:string> .
+
+sssom:0e8a4495991053329e6b677a86c20ec9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000952> ;
+    owl:annotatedTarget <hp:0001470> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Cinsiyete sınırlı otozomal dominant" ;
+    sssom:subject_label "sex-limited autosomal dominant inheritance" ;
+    sssom:uuid "0e8a4495991053329e6b677a86c20ec9"^^<xsd:string> .
+
+sssom:3688ae411ced5dc18aa067146fd847d5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000953> ;
+    owl:annotatedTarget <hp:0031362> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Transmission autosomique récessive limitée au sexe." ;
+    sssom:subject_label "sex-limited autosomal recessive inheritance" ;
+    sssom:uuid "3688ae411ced5dc18aa067146fd847d5"^^<xsd:string> .
+
+sssom:3afeb5087f4456d095de5a31b1d75e82 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000141> ;
+    owl:annotatedTarget <ncit:C45827> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Inheritance Mode" ;
+    sssom:subject_label "inheritance pattern" ;
+    sssom:uuid "3afeb5087f4456d095de5a31b1d75e82"^^<xsd:string> .
+
+sssom:4bd2264e4de9570e9b5025347b200152 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000941> ;
+    owl:annotatedTarget <hp:0001450> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Transmission liée à l'Y" ;
+    sssom:subject_label "Y-linked inheritance" ;
+    sssom:uuid "4bd2264e4de9570e9b5025347b200152"^^<xsd:string> .
+
+sssom:50555668816e504d9bce0b15321dc122 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000949> ;
+    owl:annotatedTarget <hp:0001427> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Hérédité mitochondriale" ;
+    sssom:subject_label "mitochondrial inheritance" ;
+    sssom:uuid "50555668816e504d9bce0b15321dc122"^^<xsd:string> .
+
+sssom:6663d4b9e73159348272d14c229564eb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000231> ;
+    owl:annotatedTarget <sio:000053> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "has proper part" ;
+    sssom:subject_label "has_proper_part" ;
+    sssom:uuid "6663d4b9e73159348272d14c229564eb"^^<xsd:string> .
+
+sssom:738b7f2da9db575fbc37b9664908973a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000935> ;
+    owl:annotatedTarget <hp:0010985> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Hérédité liée aux gonosomes" ;
+    sssom:subject_label "allosomal inheritance" ;
+    sssom:uuid "738b7f2da9db575fbc37b9664908973a"^^<xsd:string> .
+
+sssom:7c36bc66fb4a5392839fc349d1cec45a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000929> ;
+    owl:annotatedTarget <hp:0001426> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Hérédité multifactorielle" ;
+    sssom:subject_label "multifactorial inheritance" ;
+    sssom:uuid "7c36bc66fb4a5392839fc349d1cec45a"^^<xsd:string> .
+
+sssom:81eb44302ff657059006b9fca1e2744c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000930> ;
+    owl:annotatedTarget <hp:0010984> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Digenetische overerving" ;
+    sssom:subject_label "digenic inheritance" ;
+    sssom:uuid "81eb44302ff657059006b9fca1e2744c"^^<xsd:string> .
+
+sssom:88e763e0a7595056865342c22ae89269 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000146> ;
+    owl:annotatedTarget <hp:0001423> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Transmission dominante liée a l'X" ;
+    sssom:subject_label "X-linked dominant inheritance" ;
+    sssom:uuid "88e763e0a7595056865342c22ae89269"^^<xsd:string> .
+
+sssom:96e676d57ce15fbfb23fde3ac9a11cb2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000248> ;
+    owl:annotatedTarget <sio:000093> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "is proper part of" ;
+    sssom:subject_label "is_proper_part_of" ;
+    sssom:uuid "96e676d57ce15fbfb23fde3ac9a11cb2"^^<xsd:string> .
+
+sssom:baa2e95a515b50238c39f51c15d4c2a7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000788> ;
+    owl:annotatedTarget <so:0000400> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sequence_attribute" ;
+    sssom:subject_label "sequence feature attribute" ;
+    sssom:uuid "baa2e95a515b50238c39f51c15d4c2a7"^^<xsd:string> .
+
+sssom:c3086ccedcde5c169636047afb7f6fdb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000931> ;
+    owl:annotatedTarget <hp:0010983> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Hérédité oligogénique" ;
+    sssom:subject_label "oligogenic inheritance" ;
+    sssom:uuid "c3086ccedcde5c169636047afb7f6fdb"^^<xsd:string> .
+
+sssom:c92a8140d25c5899a681b9dbda94a424 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000932> ;
+    owl:annotatedTarget <hp:0010982> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Hérédité polygénique" ;
+    sssom:subject_label "polygenic inheritance" ;
+    sssom:uuid "c92a8140d25c5899a681b9dbda94a424"^^<xsd:string> .
+
+sssom:cc4552464e00543d80ab2ed99feba155 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000133> ;
+    owl:annotatedTarget <sio:001263> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "zygosity" ;
+    sssom:subject_label "zygosity" ;
+    sssom:uuid "cc4552464e00543d80ab2ed99feba155"^^<xsd:string> .
+
+sssom:e4bf16cd3c895bd9972e65118e6ca6f4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000141> ;
+    owl:annotatedTarget <hp:0000005> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Kalıtım Biçimi" ;
+    sssom:subject_label "inheritance pattern" ;
+    sssom:uuid "e4bf16cd3c895bd9972e65118e6ca6f4"^^<xsd:string> .
+
+sssom:ed6ceb18bd8d5b9daddad7b15363d28e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000149> ;
+    owl:annotatedTarget <hp:0001419> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Transmission récessive liée a l'X" ;
+    sssom:subject_label "X-linked recessive inheritance" ;
+    sssom:uuid "ed6ceb18bd8d5b9daddad7b15363d28e"^^<xsd:string> .
+
+sssom:eddecfdf008b52d796f9e9a8bb06c973 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000147> ;
+    owl:annotatedTarget <hp:0000006> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Autosomaal dominante overerving" ;
+    sssom:subject_label "autosomal dominant inheritance" ;
+    sssom:uuid "eddecfdf008b52d796f9e9a8bb06c973"^^<xsd:string> .
+
+sssom:eefbdfa95da65316a4d55e5fab903997 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <geno:0000936> ;
+    owl:annotatedTarget <hp:0001417> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Transmission liée à l'X" ;
+    sssom:subject_label "X-linked inheritance" ;
+    sssom:uuid "eefbdfa95da65316a4d55e5fab903997"^^<xsd:string> .
+

@@ -1,0 +1,44 @@
+@prefix PMID: <http://www.ncbi.nlm.nih.gov/pubmed/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:3ad8cf94ec665617857254dd20cef9da a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "wbphenotype.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/wbphenotype.ols.sssom.tsv> ;
+    sssom:mappings sssom:b16293f4e74f5c1999183049a49139f5,
+        sssom:b601023149855a3ba570cf60d899ee45,
+        sssom:eaf89e4801415487a34a1a3ff1cc2a44 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/wbphenotype> ;
+            sssom:local_id "wbphenotype.ols" ] ;
+    sssom:uuid "3ad8cf94ec665617857254dd20cef9da"^^<xsd:string> .
+
+sssom:b16293f4e74f5c1999183049a49139f5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <wbphenotype:0010004> ;
+    owl:annotatedTarget <wb:rk> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cell corpse degradation variant" ;
+    sssom:uuid "b16293f4e74f5c1999183049a49139f5"^^<xsd:string> .
+
+sssom:b601023149855a3ba570cf60d899ee45 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <wbphenotype:0000706> ;
+    owl:annotatedTarget PMID:15843430 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "gut granule biogenesis reduced" ;
+    sssom:uuid "b601023149855a3ba570cf60d899ee45"^^<xsd:string> .
+
+sssom:eaf89e4801415487a34a1a3ff1cc2a44 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <wbphenotype:0000702> ;
+    owl:annotatedTarget PMID:15341747 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "epithelial cell fusion failure" ;
+    sssom:uuid "eaf89e4801415487a34a1a3ff1cc2a44"^^<xsd:string> .
+

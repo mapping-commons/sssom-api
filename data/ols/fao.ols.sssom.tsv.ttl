@@ -1,0 +1,326 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:e725d4660ec3530d8e1f461df2a4e6c7 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "fao.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/fao.ols.sssom.tsv> ;
+    sssom:mappings sssom:0787e30493fb58adba0d95135cf5dc32,
+        sssom:0c82156106425d48badaf800aef1909f,
+        sssom:2127d783bb39543c846ffb491e08ad22,
+        sssom:2473d12e1fab581499a1a67121813bf4,
+        sssom:26e79091abe653b7b7bb1aa07b0ca124,
+        sssom:2b68264f99c55ee5ad0648bb3ea77663,
+        sssom:2bf91d773a885a1fba8ab049c73afe20,
+        sssom:31ded8d131e55f09943cb3b0c0f0fa73,
+        sssom:3db7c09dc29454509eb9d19b1c2ad43f,
+        sssom:4a063959cd87585392eb96b1557af324,
+        sssom:53bd876802a057a19c8b2c9da721bd0c,
+        sssom:54b6cdd2387f578781789fd9f1f0c8ce,
+        sssom:56dfcaef13775d28863b58e627d322c2,
+        sssom:5ba881cd744b51f6857bfe6bfefa8ab3,
+        sssom:5c073af083c35d498325fc5ab042665c,
+        sssom:68ce5265791859fbb359026fcd2ec993,
+        sssom:6a0c4fd9ee02585f9f34e3e3f7cbf488,
+        sssom:6c900479965d514fb8829344b67524ae,
+        sssom:743485aba02e50dd992a3b43fdeb0afe,
+        sssom:7f283a6415f75f87bed932a88256220b,
+        sssom:95ab71eb46585348a4ce9020bdb1a45f,
+        sssom:97314c85985a5070988e8ea01d0131e6,
+        sssom:97ed00a232fc5475802097f9914ce969,
+        sssom:aaa71f17b8ba5460a897d71c34645123,
+        sssom:b616496b0a225154ae9e652ee1c8a8f2,
+        sssom:c22a54a489a258cc8e2aed5df9d08c9b,
+        sssom:ccd5841f04ba5392b6f7929ead231300,
+        sssom:d199d08ce0095f3dba9d36ec921385ae,
+        sssom:e5c98a2b1732567d91d17a7aeb41d088,
+        sssom:edb69d2eca7e5587b4da25eb97abb4ff,
+        sssom:ef7437032a945d35950ad6fda6119132 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/fao> ;
+            sssom:local_id "fao.ols" ] ;
+    sssom:uuid "e725d4660ec3530d8e1f461df2a4e6c7"^^<xsd:string> .
+
+sssom:0787e30493fb58adba0d95135cf5dc32 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001028> ;
+    owl:annotatedTarget <bto:0001098> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sorocarp" ;
+    sssom:subject_label "sorocarp" ;
+    sssom:uuid "0787e30493fb58adba0d95135cf5dc32"^^<xsd:string> .
+
+sssom:0c82156106425d48badaf800aef1909f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000008> ;
+    owl:annotatedTarget <bto:0002161> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ascocarp" ;
+    sssom:subject_label "ascocarp" ;
+    sssom:uuid "0c82156106425d48badaf800aef1909f"^^<xsd:string> .
+
+sssom:2127d783bb39543c846ffb491e08ad22 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000042> ;
+    owl:annotatedTarget <go:0034299> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "reproductive blastospore formation" ;
+    sssom:subject_label "blastoconidium" ;
+    sssom:uuid "2127d783bb39543c846ffb491e08ad22"^^<xsd:string> .
+
+sssom:2473d12e1fab581499a1a67121813bf4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000007> ;
+    owl:annotatedTarget <bto:0000487> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fruit body" ;
+    sssom:subject_label "fruitbody" ;
+    sssom:uuid "2473d12e1fab581499a1a67121813bf4"^^<xsd:string> .
+
+sssom:26e79091abe653b7b7bb1aa07b0ca124 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001036> ;
+    owl:annotatedTarget <bto:0002164> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "perithecium" ;
+    sssom:subject_label "perithecium" ;
+    sssom:uuid "26e79091abe653b7b7bb1aa07b0ca124"^^<xsd:string> .
+
+sssom:2b68264f99c55ee5ad0648bb3ea77663 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000056> ;
+    owl:annotatedTarget <go:0075267> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aecium development" ;
+    sssom:subject_label "aecium" ;
+    sssom:uuid "2b68264f99c55ee5ad0648bb3ea77663"^^<xsd:string> .
+
+sssom:2bf91d773a885a1fba8ab049c73afe20 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001006> ;
+    owl:annotatedTarget <bto:0000660> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "mycelial cord" ;
+    sssom:subject_label "mycelial cord" ;
+    sssom:uuid "2bf91d773a885a1fba8ab049c73afe20"^^<xsd:string> .
+
+sssom:31ded8d131e55f09943cb3b0c0f0fa73 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001025> ;
+    owl:annotatedTarget <bto:0000890> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "mycelial felt" ;
+    sssom:subject_label "mycelial felt" ;
+    sssom:uuid "31ded8d131e55f09943cb3b0c0f0fa73"^^<xsd:string> .
+
+sssom:3db7c09dc29454509eb9d19b1c2ad43f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001053> ;
+    owl:annotatedTarget <bto:0006116> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "microsclerotium" ;
+    sssom:subject_label "microsclerotium" ;
+    sssom:uuid "3db7c09dc29454509eb9d19b1c2ad43f"^^<xsd:string> .
+
+sssom:4a063959cd87585392eb96b1557af324 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000047> ;
+    owl:annotatedTarget <bto:0002159> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cleistothecium" ;
+    sssom:subject_label "cleistothecium" ;
+    sssom:uuid "4a063959cd87585392eb96b1557af324"^^<xsd:string> .
+
+sssom:53bd876802a057a19c8b2c9da721bd0c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001031> ;
+    owl:annotatedTarget <bto:0001562> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aerial mycelium" ;
+    sssom:subject_label "aerial mycelium" ;
+    sssom:uuid "53bd876802a057a19c8b2c9da721bd0c"^^<xsd:string> .
+
+sssom:54b6cdd2387f578781789fd9f1f0c8ce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000001> ;
+    owl:annotatedTarget <bto:0001494> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fungus" ;
+    sssom:subject_label "fungal structure" ;
+    sssom:uuid "54b6cdd2387f578781789fd9f1f0c8ce"^^<xsd:string> .
+
+sssom:56dfcaef13775d28863b58e627d322c2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001029> ;
+    owl:annotatedTarget <bto:0001139> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "pseudoplasmodium" ;
+    sssom:subject_label "pseudoplasmodium" ;
+    sssom:uuid "56dfcaef13775d28863b58e627d322c2"^^<xsd:string> .
+
+sssom:5ba881cd744b51f6857bfe6bfefa8ab3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001052> ;
+    owl:annotatedTarget <bto:0005533> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fungal primordium" ;
+    sssom:subject_label "fungal primordium" ;
+    sssom:uuid "5ba881cd744b51f6857bfe6bfefa8ab3"^^<xsd:string> .
+
+sssom:5c073af083c35d498325fc5ab042665c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001027> ;
+    owl:annotatedTarget <bto:0000893> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "mycorrhiza" ;
+    sssom:subject_label "mycorrhiza" ;
+    sssom:uuid "5c073af083c35d498325fc5ab042665c"^^<xsd:string> .
+
+sssom:68ce5265791859fbb359026fcd2ec993 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001051> ;
+    owl:annotatedTarget <bto:0004822> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "germ tube" ;
+    sssom:subject_label "germ tube" ;
+    sssom:uuid "68ce5265791859fbb359026fcd2ec993"^^<xsd:string> .
+
+sssom:6a0c4fd9ee02585f9f34e3e3f7cbf488 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001034> ;
+    owl:annotatedTarget <bto:0002160> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "apothecium" ;
+    sssom:subject_label "apothecium" ;
+    sssom:uuid "6a0c4fd9ee02585f9f34e3e3f7cbf488"^^<xsd:string> .
+
+sssom:6c900479965d514fb8829344b67524ae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000051> ;
+    owl:annotatedTarget <go:0034297> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "oidium formation" ;
+    sssom:subject_label "oidium" ;
+    sssom:uuid "6c900479965d514fb8829344b67524ae"^^<xsd:string> .
+
+sssom:743485aba02e50dd992a3b43fdeb0afe a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000066> ;
+    owl:annotatedTarget <bto:0000515> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "haustorium" ;
+    sssom:subject_label "haustorium" ;
+    sssom:uuid "743485aba02e50dd992a3b43fdeb0afe"^^<xsd:string> .
+
+sssom:7f283a6415f75f87bed932a88256220b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000057> ;
+    owl:annotatedTarget <go:0075275> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "telium development" ;
+    sssom:subject_label "telium" ;
+    sssom:uuid "7f283a6415f75f87bed932a88256220b"^^<xsd:string> .
+
+sssom:95ab71eb46585348a4ce9020bdb1a45f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000010> ;
+    owl:annotatedTarget <go:0075259> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spore-bearing structure development" ;
+    sssom:subject_label "sporophore" ;
+    sssom:uuid "95ab71eb46585348a4ce9020bdb1a45f"^^<xsd:string> .
+
+sssom:97314c85985a5070988e8ea01d0131e6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000052> ;
+    owl:annotatedTarget <go:0043582> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sporangium development" ;
+    sssom:subject_label "sporangium" ;
+    sssom:uuid "97314c85985a5070988e8ea01d0131e6"^^<xsd:string> .
+
+sssom:97ed00a232fc5475802097f9914ce969 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001030> ;
+    owl:annotatedTarget <bto:0001562> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aerial mycelium" ;
+    sssom:subject_label "substrate mycelium" ;
+    sssom:uuid "97ed00a232fc5475802097f9914ce969"^^<xsd:string> .
+
+sssom:aaa71f17b8ba5460a897d71c34645123 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000055> ;
+    owl:annotatedTarget <go:0075289> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aplanospore formation" ;
+    sssom:subject_label "aplanospore" ;
+    sssom:uuid "aaa71f17b8ba5460a897d71c34645123"^^<xsd:string> .
+
+sssom:b616496b0a225154ae9e652ee1c8a8f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000053> ;
+    owl:annotatedTarget <go:0075271> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "zygosporangium development" ;
+    sssom:subject_label "zygosporangium" ;
+    sssom:uuid "b616496b0a225154ae9e652ee1c8a8f2"^^<xsd:string> .
+
+sssom:c22a54a489a258cc8e2aed5df9d08c9b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001035> ;
+    owl:annotatedTarget <bto:0002163> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "gymnothecium" ;
+    sssom:subject_label "gymnothecium" ;
+    sssom:uuid "c22a54a489a258cc8e2aed5df9d08c9b"^^<xsd:string> .
+
+sssom:ccd5841f04ba5392b6f7929ead231300 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0001008> ;
+    owl:annotatedTarget <bto:0001810> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sclerotium" ;
+    sssom:subject_label "sclerotium" ;
+    sssom:uuid "ccd5841f04ba5392b6f7929ead231300"^^<xsd:string> .
+
+sssom:d199d08ce0095f3dba9d36ec921385ae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000058> ;
+    owl:annotatedTarget <go:0075279> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "uredinium development" ;
+    sssom:subject_label "uredinium" ;
+    sssom:uuid "d199d08ce0095f3dba9d36ec921385ae"^^<xsd:string> .
+
+sssom:e5c98a2b1732567d91d17a7aeb41d088 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000011> ;
+    owl:annotatedTarget <bto:0001436> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "mycelium" ;
+    sssom:subject_label "mycelium" ;
+    sssom:uuid "e5c98a2b1732567d91d17a7aeb41d088"^^<xsd:string> .
+
+sssom:edb69d2eca7e5587b4da25eb97abb4ff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000012> ;
+    owl:annotatedTarget <bto:0000114> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "basidiocarp" ;
+    sssom:subject_label "basidiocarp" ;
+    sssom:uuid "edb69d2eca7e5587b4da25eb97abb4ff"^^<xsd:string> .
+
+sssom:ef7437032a945d35950ad6fda6119132 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <fao:0000054> ;
+    owl:annotatedTarget <go:0075247> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aeciospore formation" ;
+    sssom:subject_label "aeciospore" ;
+    sssom:uuid "ef7437032a945d35950ad6fda6119132"^^<xsd:string> .
+

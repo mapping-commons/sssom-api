@@ -1,0 +1,262 @@
+@prefix Wikipedia: <http://en.wikipedia.org/wiki/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:85be4b63dae35a57bae226f40e0c0c74 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "pato.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/pato.ols.sssom.tsv> ;
+    sssom:mappings sssom:02f10270c80050eca45a6e654db735a8,
+        sssom:13c179183fd153eb818f6737dd2a7aa5,
+        sssom:1a9072697a685a57b1d66bd426585066,
+        sssom:1bcbc8e3b330540e920ed43800b570c9,
+        sssom:26fdd8af893356d79b6039c3cf173580,
+        sssom:2b5ee0ea78c0516d9dc94ff5170e5c8d,
+        sssom:41aafb69073558bbb86af002892714b7,
+        sssom:4cc4aca5aa7f5c35a92fad1f8b8dc9b4,
+        sssom:4cc92b0a6f4759bbad6f7b7fa8951984,
+        sssom:57a4eb59ffce576db383b0200d919bf8,
+        sssom:5bc6590a21fd5d17a7836c3a8df62dc8,
+        sssom:6328491ab72a5a3091a7770f2a72cd0f,
+        sssom:65b21cd56c9e5d329c042752e06e64c5,
+        sssom:95a092f7f6f65041a50b81853e444f79,
+        sssom:a35213bf6e535c88b83d1c288c824885,
+        sssom:a68098782f8d545489a6122d3a66eb9b,
+        sssom:b4d23a254eb351528ad3fcfbb3c6dab2,
+        sssom:bb8c99e3b27e5878ba574f26c066a240,
+        sssom:bdf54ba3a5c9513bb4a1c3ca6eb1b3c3,
+        sssom:beb3c9e9e67e577eb622de432693322b,
+        sssom:c52056b861485237acc34b33345ce221,
+        sssom:cc56efc335a5528489d06c466a807e5e,
+        sssom:ccdbe3d459c7591faea4149f5635cf98,
+        sssom:d8b2a6fe05a55d4ba26c76561eb17157,
+        sssom:e035687caea3557a8f9f9a33b17bcb30,
+        sssom:eecf276cc8165ec184fe92e3cf67f6f0,
+        sssom:f18a4382ba76585280ed96fa8f88747b ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/pato> ;
+            sssom:local_id "pato.ols" ] ;
+    sssom:uuid "85be4b63dae35a57bae226f40e0c0c74"^^<xsd:string> .
+
+sssom:02f10270c80050eca45a6e654db735a8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070040> ;
+    owl:annotatedTarget <ilx:0100932> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "aspiny dendrite quality" ;
+    sssom:uuid "02f10270c80050eca45a6e654db735a8"^^<xsd:string> .
+
+sssom:13c179183fd153eb818f6737dd2a7aa5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070002> ;
+    owl:annotatedTarget <ilx:0101123> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "basket cell morphology" ;
+    sssom:uuid "13c179183fd153eb818f6737dd2a7aa5"^^<xsd:string> .
+
+sssom:1a9072697a685a57b1d66bd426585066 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070038> ;
+    owl:annotatedTarget <ilx:0110980> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "spiny dendrite quality" ;
+    sssom:uuid "1a9072697a685a57b1d66bd426585066"^^<xsd:string> .
+
+sssom:1bcbc8e3b330540e920ed43800b570c9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0001740> ;
+    owl:annotatedTarget <envo:03510037> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "radioactive material" ;
+    sssom:subject_label "activity (of a radionuclide)" ;
+    sssom:uuid "1bcbc8e3b330540e920ed43800b570c9"^^<xsd:string> .
+
+sssom:26fdd8af893356d79b6039c3cf173580 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0001018> ;
+    owl:annotatedTarget Wikipedia:Physical_property ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "physical quality" ;
+    sssom:uuid "26fdd8af893356d79b6039c3cf173580"^^<xsd:string> .
+
+sssom:2b5ee0ea78c0516d9dc94ff5170e5c8d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070026> ;
+    owl:annotatedTarget <nlx:378> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "multipolar neuron morphology" ;
+    sssom:uuid "2b5ee0ea78c0516d9dc94ff5170e5c8d"^^<xsd:string> .
+
+sssom:41aafb69073558bbb86af002892714b7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070026> ;
+    owl:annotatedTarget <ilx:0107196> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "multipolar neuron morphology" ;
+    sssom:uuid "41aafb69073558bbb86af002892714b7"^^<xsd:string> .
+
+sssom:4cc4aca5aa7f5c35a92fad1f8b8dc9b4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070036> ;
+    owl:annotatedTarget <ilx:0103022> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "dendrite quality" ;
+    sssom:uuid "4cc4aca5aa7f5c35a92fad1f8b8dc9b4"^^<xsd:string> .
+
+sssom:4cc92b0a6f4759bbad6f7b7fa8951984 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070040> ;
+    owl:annotatedTarget <sao:128827344> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "aspiny dendrite quality" ;
+    sssom:uuid "4cc92b0a6f4759bbad6f7b7fa8951984"^^<xsd:string> .
+
+sssom:57a4eb59ffce576db383b0200d919bf8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070041> ;
+    owl:annotatedTarget <sao:1706854098> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "varicose dendrite quality" ;
+    sssom:uuid "57a4eb59ffce576db383b0200d919bf8"^^<xsd:string> .
+
+sssom:5bc6590a21fd5d17a7836c3a8df62dc8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070006> ;
+    owl:annotatedTarget <nifext:2> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cortical bipolar morphology" ;
+    sssom:uuid "5bc6590a21fd5d17a7836c3a8df62dc8"^^<xsd:string> .
+
+sssom:6328491ab72a5a3091a7770f2a72cd0f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070010> ;
+    owl:annotatedTarget <ilx:0111036> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "stellate morphology" ;
+    sssom:uuid "6328491ab72a5a3091a7770f2a72cd0f"^^<xsd:string> .
+
+sssom:65b21cd56c9e5d329c042752e06e64c5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070029> ;
+    owl:annotatedTarget <ilx:0770102> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "corticothalamic projecting" ;
+    sssom:uuid "65b21cd56c9e5d329c042752e06e64c5"^^<xsd:string> .
+
+sssom:95a092f7f6f65041a50b81853e444f79 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070028> ;
+    owl:annotatedTarget <ilx:0770101> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "extratelencephalic projecting" ;
+    sssom:uuid "95a092f7f6f65041a50b81853e444f79"^^<xsd:string> .
+
+sssom:a35213bf6e535c88b83d1c288c824885 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070015> ;
+    owl:annotatedTarget <ilx:0109553> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "pyramidal family morphology" ;
+    sssom:uuid "a35213bf6e535c88b83d1c288c824885"^^<xsd:string> .
+
+sssom:a68098782f8d545489a6122d3a66eb9b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070034> ;
+    owl:annotatedTarget <ilx:0770100> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "intratelencephalic projecting" ;
+    sssom:uuid "a68098782f8d545489a6122d3a66eb9b"^^<xsd:string> .
+
+sssom:b4d23a254eb351528ad3fcfbb3c6dab2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070011> ;
+    owl:annotatedTarget <ilx:0102028> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "chandelier cell morphology" ;
+    sssom:uuid "b4d23a254eb351528ad3fcfbb3c6dab2"^^<xsd:string> .
+
+sssom:bb8c99e3b27e5878ba574f26c066a240 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070039> ;
+    owl:annotatedTarget <ilx:0112065> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "tufted dendrite quality" ;
+    sssom:uuid "bb8c99e3b27e5878ba574f26c066a240"^^<xsd:string> .
+
+sssom:bdf54ba3a5c9513bb4a1c3ca6eb1b3c3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070010> ;
+    owl:annotatedTarget <sao:9271919883> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "stellate morphology" ;
+    sssom:uuid "bdf54ba3a5c9513bb4a1c3ca6eb1b3c3"^^<xsd:string> .
+
+sssom:beb3c9e9e67e577eb622de432693322b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070006> ;
+    owl:annotatedTarget <ilx:0101312> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cortical bipolar morphology" ;
+    sssom:uuid "beb3c9e9e67e577eb622de432693322b"^^<xsd:string> .
+
+sssom:c52056b861485237acc34b33345ce221 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070041> ;
+    owl:annotatedTarget <ilx:0112263> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "varicose dendrite quality" ;
+    sssom:uuid "c52056b861485237acc34b33345ce221"^^<xsd:string> .
+
+sssom:cc56efc335a5528489d06c466a807e5e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070011> ;
+    owl:annotatedTarget <nifext:4> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "chandelier cell morphology" ;
+    sssom:uuid "cc56efc335a5528489d06c466a807e5e"^^<xsd:string> .
+
+sssom:ccdbe3d459c7591faea4149f5635cf98 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070039> ;
+    owl:annotatedTarget <sao:754373097> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "tufted dendrite quality" ;
+    sssom:uuid "ccdbe3d459c7591faea4149f5635cf98"^^<xsd:string> .
+
+sssom:d8b2a6fe05a55d4ba26c76561eb17157 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070030> ;
+    owl:annotatedTarget <ilx:0770103> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "near projecting" ;
+    sssom:uuid "d8b2a6fe05a55d4ba26c76561eb17157"^^<xsd:string> .
+
+sssom:e035687caea3557a8f9f9a33b17bcb30 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070015> ;
+    owl:annotatedTarget <sao:1465673360> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "pyramidal family morphology" ;
+    sssom:uuid "e035687caea3557a8f9f9a33b17bcb30"^^<xsd:string> .
+
+sssom:eecf276cc8165ec184fe92e3cf67f6f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0070002> ;
+    owl:annotatedTarget <nifext:3> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "basket cell morphology" ;
+    sssom:uuid "eecf276cc8165ec184fe92e3cf67f6f0"^^<xsd:string> .
+
+sssom:f18a4382ba76585280ed96fa8f88747b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pato:0000638> ;
+    owl:annotatedTarget <go:0006915> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "apoptotic process" ;
+    sssom:subject_label "apoptotic" ;
+    sssom:uuid "f18a4382ba76585280ed96fa8f88747b"^^<xsd:string> .
+

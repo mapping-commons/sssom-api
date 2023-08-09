@@ -1,0 +1,35 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:15a4349a3baa5a809facd85e1a500592 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "ons.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/ons.ols.sssom.tsv> ;
+    sssom:mappings sssom:623327976ac6502ca9529911fc78e4de,
+        sssom:9f060aeb1c555fe19493c25084cff644 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/ons> ;
+            sssom:local_id "ons.ols" ] ;
+    sssom:uuid "15a4349a3baa5a809facd85e1a500592"^^<xsd:string> .
+
+sssom:623327976ac6502ca9529911fc78e4de a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <ons:0000156> ;
+    owl:annotatedTarget <go:0006113> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fermentation" ;
+    sssom:subject_label "fermentation ons" ;
+    sssom:uuid "623327976ac6502ca9529911fc78e4de"^^<xsd:string> .
+
+sssom:9f060aeb1c555fe19493c25084cff644 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <ons:0000052> ;
+    owl:annotatedTarget <obi:0000630> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "hematology assay" ;
+    sssom:subject_label "blood analytics" ;
+    sssom:uuid "9f060aeb1c555fe19493c25084cff644"^^<xsd:string> .
+
