@@ -18,13 +18,14 @@ services:
       - SPARQL_ENDPOINT=http://triplestore:9999/bigdata/sparql
   triplestore:
     image: anitacaron/blazegraph:v0.3.1
-    command: java -server -Xmx10g -jar blazegraph.jar
+    command: java -server $JAVA_OPTS -Dcom.bigdata.rdf.sail.webapp.ConfigParams.propertyFile=/RWStore.properties -jar blazegraph.jar
     environment:
       - JAVA_OPTS=-Xmx10G
     ports:
       - 9999:9999
     volumes:
-      - ./data:/data:ro
+      - ./data/ols:/data
+      - ./data/RWStore.properties:/RWStore.properties
     healthcheck:
       test: ["CMD", "curl", "-f", "http://triplestore:9999/"]
       interval: 3s
@@ -41,4 +42,5 @@ services:
     environment:
       - SERVER=http://triplestore:9999/bigdata
     volumes:
-      - ./data:/data
+      - ./data/ols:/data
+      - ./data/RWStore.properties:/RWStore.properties
