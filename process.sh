@@ -11,6 +11,7 @@ date
 #BLAZEGRAPH_UID=/opt/eclipse-rdf4j-${RDF4J_VERSION}
 BLAZEGRAPHSERVER=${SERVER}/dataloader
 DATA=/data
+DATALOADER=/opt/SSSOM/
 
 #if [ `ls $DATA/*.jsonld.gz | wc -l` -lt 1 ]; then echo "ERROR: No data in data directory! Aborting.. " && exit 1; fi
 
@@ -30,7 +31,7 @@ ls -lh $DATA
 echo "TIME:"
 date
 
-cd $DATA
+cd $DATALOADER
 
 echo "curl -X POST --data-binary @dataloader.xml --header 'Content-Type:application/xml' http://localhost:9999/bigdata/dataloader"
 curl -X POST --data-binary @dataloader.xml --header 'Content-Type:application/xml' ${BLAZEGRAPHSERVER}
