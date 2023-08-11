@@ -16,7 +16,7 @@ DATALOADER=/opt/SSSOM/
 #if [ `ls $DATA/*.jsonld.gz | wc -l` -lt 1 ]; then echo "ERROR: No data in data directory! Aborting.. " && exit 1; fi
 
 echo 'Waiting for BLAZEGRAPH WORKBENCH..'
-until $(curl --output /dev/null --silent --head --fail ${BLAZEGRAPHSERVER}); do
+until $(curl --output /dev/null --silent --head --fail ${SERVER}); do
     printf '.'
     sleep 5
 done
@@ -32,9 +32,11 @@ echo "TIME:"
 date
 
 cd $DATALOADER
+echo $BLAZEGRAPHSERVER
 
-echo "curl -X POST --data-binary @dataloader.xml --header 'Content-Type:application/xml' http://localhost:9999/bigdata/dataloader"
-curl -X POST --data-binary @dataloader.xml --header 'Content-Type:application/xml' ${BLAZEGRAPHSERVER}
+echo "curl -X POST --data-binary @dataloader.xml --header 'Content-Type:application/xml' http://localhost:9999/blazegraph/dataloader"
+curl POST -v --data-binary @dataloader.xml --header 'Content-Type:application/xml' ${BLAZEGRAPHSERVER}
+
 
 
 # The following for loop writes the load commands into the RDF4J setup script

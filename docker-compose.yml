@@ -15,10 +15,10 @@ services:
       - triplestore
       - upload-triplestore
     environment:
-      - SPARQL_ENDPOINT=http://triplestore:9999/bigdata/sparql
+      - SPARQL_ENDPOINT=http://triplestore:9999/blazegraph/namespace/kb/sparql
   triplestore:
-    image: anitacaron/blazegraph:v0.3.1
-    command: java -server $JAVA_OPTS -Dcom.bigdata.rdf.sail.webapp.ConfigParams.propertyFile=/RWStore.properties -jar blazegraph.jar
+    image: anitacaron/blazegraph:v0.4
+    # command: java -server -Xmx10G -Dcom.bigdata.rdf.sail.webapp.ConfigParams.propertyFile=/RWStore.properties -jar blazegraph.jar
     environment:
       - JAVA_OPTS=-Xmx10G
     ports:
@@ -26,6 +26,7 @@ services:
     volumes:
       - ./data/ols:/data
       - ./data/RWStore.properties:/RWStore.properties
+      - ./data/log4j.properties:/log4j.properties
     healthcheck:
       test: ["CMD", "curl", "-f", "http://triplestore:9999/"]
       interval: 3s
@@ -40,7 +41,7 @@ services:
     links:
       - triplestore
     environment:
-      - SERVER=http://triplestore:9999/bigdata
+      - SERVER=http://triplestore:9999/blazegraph
     volumes:
       - ./data/ols:/data
       - ./data/RWStore.properties:/RWStore.properties

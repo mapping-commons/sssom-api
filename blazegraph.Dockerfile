@@ -17,7 +17,8 @@ RUN export JAVA_HOME
 ENV JAVA_OPTS=-Xmx10G
 RUN wget -nv https://github.com/blazegraph/database/releases/download/BLAZEGRAPH_2_1_6_RC/blazegraph.jar
 
-#CMD ["java -server ${JAVA_OPTS} -jar blazegraph.jar"]
+# java -server -Xmx10G -Dcom.bigdata.rdf.sail.webapp.ConfigParams.propertyFile=/RWStore.properties -jar blazegraph.jar
+CMD ["java", "-server", "-Xmx10G", "-Dcom.bigdata.rdf.sail.webapp.ConfigParams.propertyFile=/RWStore.properties", "-Dcom.bigdata.util.config.LogUtil=/log4.properties", "-jar", "blazegraph.jar"]
 ###### blazegraph-runner #####
 #ENV BR=1.7
 #ENV PATH "/tools/blazegraph-runner/bin:$PATH"

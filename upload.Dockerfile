@@ -1,4 +1,4 @@
-FROM anitacaron/blazegraph:v0.3.1
+FROM anitacaron/blazegraph:v0.4
 
 VOLUME /data
 
