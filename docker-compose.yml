@@ -24,7 +24,7 @@ services:
     ports:
       - 9999:9999
     volumes:
-      - ./data/ols:/data
+      - ./data/monarch:/data
       - ./data/RWStore.properties:/RWStore.properties
       - ./data/log4j.properties:/log4j.properties
     healthcheck:
@@ -43,5 +43,5 @@ services:
     environment:
       - SERVER=http://triplestore:9999/blazegraph
     volumes:
-      - ./data/ols:/data
+      - ./data/monarch:/data
       - ./data/RWStore.properties:/RWStore.properties
