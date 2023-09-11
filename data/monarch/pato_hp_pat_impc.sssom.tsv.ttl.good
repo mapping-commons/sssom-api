@@ -1,0 +1,350 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:dbf9af1584c55172be748901aaf5c3d5 a sssom:MappingSet ;
+    dcterms:creator orcid:0000-0002-2232-0967 ;
+    dcterms:description "The IMPC Mouse Morphology Mappings: Gross Pathology & Tissue Collection Test (PATO)" ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    rdfs:comment "What is the purpose of this entire table?" ;
+    sssom:mapping_provider <https://www.mousephenotype.org> ;
+    sssom:mapping_set_id <file:///Users/anitac/Documents/GitHub/ols-mapping-commons/pato_hp_pat_impc> ;
+    sssom:mappings sssom:0c55e82e319a522aacc764bd3275b2e4,
+        sssom:1333a05dbd4e54feb1fd9d3f1945919e,
+        sssom:1fe5448d308f5f879d9b530a44d8b5d8,
+        sssom:22ad088a09e653e68e9703dbd904af07,
+        sssom:23babe30cb47596bb7043ba5d807b014,
+        sssom:2817bfbfa8115a25a3272af6c2f27b0d,
+        sssom:3597ee93d2ba596780792c74afacabd6,
+        sssom:41c77982e00d5dfa902b16ec04fe5447,
+        sssom:4c99a87798c357f3bf5cbe59973bfea8,
+        sssom:527466531d1b5b70b76fbaa398904551,
+        sssom:56eebe6063d85d838d2a95165df79def,
+        sssom:5805114279e65cdeb329566ac7d81f82,
+        sssom:5a9e15312ace536dbf570c816877fa15,
+        sssom:67c6a658d6a05df08761f5428cd247b9,
+        sssom:6c257dca03875ba881f5eee59f98a234,
+        sssom:6ee2d5b82812536cbd279bac27247586,
+        sssom:7db080f239a4580ab4c0588888042978,
+        sssom:89b709c937be5227909a54954e05b620,
+        sssom:8bdf102974b254ab8df720ad4cca9565,
+        sssom:8cd991cbec625d56b764f09c716a3151,
+        sssom:94895ff94bca54b6815c8d85a332c0e9,
+        sssom:97b0068b977e56018ab0102df3e3c3c8,
+        sssom:a021ab5357c95f14be8c9c2292ccfff8,
+        sssom:ac4e568510ed5f5fadd49da302c09bd0,
+        sssom:ad5029973fb45903ade0e1801f28f13c,
+        sssom:b9d357c0221b5859bd5d510ae080744b,
+        sssom:c23946bd8d235f4b8e6e3e3e863b0d8b,
+        sssom:d11d07812c235ddea77243222d56a0c5,
+        sssom:d3468985104e59c6b4ca6b4d26a76f6d,
+        sssom:d6af3df609e956d58439c3fc32676073,
+        sssom:d795a208f5d35172ac901f05571b2a3d,
+        sssom:d7d3363147af5daca0789f99aba4888b,
+        sssom:d83ac7aab4175cd2892099e35db201e5,
+        sssom:d83c8f4ed05657f8b9dee26aa28fcd27,
+        sssom:e497783238a3582697fbc3fe41189432,
+        sssom:f75c3d16e156552cb26db82c460d53ee ;
+    sssom:uuid "dbf9af1584c55172be748901aaf5c3d5"^^<xsd:string> .
+
+sssom:0c55e82e319a522aacc764bd3275b2e4 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000952 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "brown" ;
+    sssom:uuid "0c55e82e319a522aacc764bd3275b2e4"^^<xsd:string> .
+
+sssom:1333a05dbd4e54feb1fd9d3f1945919e a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000587 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "decreased size" ;
+    sssom:uuid "1333a05dbd4e54feb1fd9d3f1945919e"^^<xsd:string> .
+
+sssom:1fe5448d308f5f879d9b530a44d8b5d8 a owl:Axiom ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource obo:PATO_0000627 ;
+    owl:annotatedTarget obo:HP_0030650 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Focal" ;
+    sssom:subject_label "focal" ;
+    sssom:uuid "1fe5448d308f5f879d9b530a44d8b5d8"^^<xsd:string> .
+
+sssom:22ad088a09e653e68e9703dbd904af07 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000322 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "red" ;
+    sssom:uuid "22ad088a09e653e68e9703dbd904af07"^^<xsd:string> .
+
+sssom:23babe30cb47596bb7043ba5d807b014 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000950 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "grey" ;
+    sssom:uuid "23babe30cb47596bb7043ba5d807b014"^^<xsd:string> .
+
+sssom:2817bfbfa8115a25a3272af6c2f27b0d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000407 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "flat" ;
+    sssom:uuid "2817bfbfa8115a25a3272af6c2f27b0d"^^<xsd:string> .
+
+sssom:3597ee93d2ba596780792c74afacabd6 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0002376 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "inflated" ;
+    sssom:uuid "3597ee93d2ba596780792c74afacabd6"^^<xsd:string> .
+
+sssom:41c77982e00d5dfa902b16ec04fe5447 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0002406 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "friable" ;
+    sssom:uuid "41c77982e00d5dfa902b16ec04fe5447"^^<xsd:string> .
+
+sssom:4c99a87798c357f3bf5cbe59973bfea8 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0001369 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "raised" ;
+    sssom:uuid "4c99a87798c357f3bf5cbe59973bfea8"^^<xsd:string> .
+
+sssom:527466531d1b5b70b76fbaa398904551 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0002416 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "sunken" ;
+    sssom:uuid "527466531d1b5b70b76fbaa398904551"^^<xsd:string> .
+
+sssom:56eebe6063d85d838d2a95165df79def a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0001891 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "ovate" ;
+    sssom:uuid "56eebe6063d85d838d2a95165df79def"^^<xsd:string> .
+
+sssom:5805114279e65cdeb329566ac7d81f82 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000586 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "increased size" ;
+    sssom:uuid "5805114279e65cdeb329566ac7d81f82"^^<xsd:string> .
+
+sssom:5a9e15312ace536dbf570c816877fa15 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000574 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "decreased length" ;
+    sssom:uuid "5a9e15312ace536dbf570c816877fa15"^^<xsd:string> .
+
+sssom:67c6a658d6a05df08761f5428cd247b9 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0002410 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "beige" ;
+    sssom:uuid "67c6a658d6a05df08761f5428cd247b9"^^<xsd:string> .
+
+sssom:6c257dca03875ba881f5eee59f98a234 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000367 ;
+    owl:annotatedTarget obo:HP_0012834 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Right" ;
+    sssom:subject_label "right" ;
+    sssom:uuid "6c257dca03875ba881f5eee59f98a234"^^<xsd:string> .
+
+sssom:6ee2d5b82812536cbd279bac27247586 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000387 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "soft" ;
+    sssom:uuid "6ee2d5b82812536cbd279bac27247586"^^<xsd:string> .
+
+sssom:7db080f239a4580ab4c0588888042978 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0002409 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "fluid-filled" ;
+    sssom:uuid "7db080f239a4580ab4c0588888042978"^^<xsd:string> .
+
+sssom:89b709c937be5227909a54954e05b620 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000318 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "blue" ;
+    sssom:uuid "89b709c937be5227909a54954e05b620"^^<xsd:string> .
+
+sssom:8bdf102974b254ab8df720ad4cca9565 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000317 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "black" ;
+    sssom:uuid "8bdf102974b254ab8df720ad4cca9565"^^<xsd:string> .
+
+sssom:8cd991cbec625d56b764f09c716a3151 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000618 ;
+    owl:annotatedTarget obo:HP_0012832 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Bilateral" ;
+    sssom:subject_label "bilateral" ;
+    sssom:uuid "8cd991cbec625d56b764f09c716a3151"^^<xsd:string> .
+
+sssom:94895ff94bca54b6815c8d85a332c0e9 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000386 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "hard" ;
+    sssom:uuid "94895ff94bca54b6815c8d85a332c0e9"^^<xsd:string> .
+
+sssom:97b0068b977e56018ab0102df3e3c3c8 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000634 ;
+    owl:annotatedTarget obo:HP_0012833 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Unilateral" ;
+    sssom:subject_label "unilateral" ;
+    sssom:uuid "97b0068b977e56018ab0102df3e3c3c8"^^<xsd:string> .
+
+sssom:a021ab5357c95f14be8c9c2292ccfff8 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000323 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "white" ;
+    sssom:uuid "a021ab5357c95f14be8c9c2292ccfff8"^^<xsd:string> .
+
+sssom:ac4e568510ed5f5fadd49da302c09bd0 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000573 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "increased length" ;
+    sssom:uuid "ac4e568510ed5f5fadd49da302c09bd0"^^<xsd:string> .
+
+sssom:ad5029973fb45903ade0e1801f28f13c a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0001791 ;
+    owl:annotatedTarget obo:HP_0030651 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Multifocal" ;
+    sssom:subject_label "multifocal (preferred synonym of multi-localised)" ;
+    sssom:uuid "ad5029973fb45903ade0e1801f28f13c"^^<xsd:string> .
+
+sssom:b9d357c0221b5859bd5d510ae080744b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000632 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "symmetrical" ;
+    sssom:uuid "b9d357c0221b5859bd5d510ae080744b"^^<xsd:string> .
+
+sssom:c23946bd8d235f4b8e6e3e3e863b0d8b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0002408 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "watery" ;
+    sssom:uuid "c23946bd8d235f4b8e6e3e3e863b0d8b"^^<xsd:string> .
+
+sssom:d11d07812c235ddea77243222d56a0c5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000954 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "pink" ;
+    sssom:uuid "d11d07812c235ddea77243222d56a0c5"^^<xsd:string> .
+
+sssom:d3468985104e59c6b4ca6b4d26a76f6d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000411 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "circular" ;
+    sssom:uuid "d3468985104e59c6b4ca6b4d26a76f6d"^^<xsd:string> .
+
+sssom:d6af3df609e956d58439c3fc32676073 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000320 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "green" ;
+    sssom:uuid "d6af3df609e956d58439c3fc32676073"^^<xsd:string> .
+
+sssom:d795a208f5d35172ac901f05571b2a3d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0002274 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "mottled" ;
+    sssom:uuid "d795a208f5d35172ac901f05571b2a3d"^^<xsd:string> .
+
+sssom:d7d3363147af5daca0789f99aba4888b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000366 ;
+    owl:annotatedTarget obo:HP_0012835 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Left" ;
+    sssom:subject_label "left" ;
+    sssom:uuid "d7d3363147af5daca0789f99aba4888b"^^<xsd:string> .
+
+sssom:d83ac7aab4175cd2892099e35db201e5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0001566 ;
+    owl:annotatedTarget obo:HP_0020034 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Diffuse" ;
+    sssom:subject_label "diffuse" ;
+    sssom:uuid "d83ac7aab4175cd2892099e35db201e5"^^<xsd:string> .
+
+sssom:d83c8f4ed05657f8b9dee26aa28fcd27 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0002401 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "random pattern" ;
+    sssom:uuid "d83c8f4ed05657f8b9dee26aa28fcd27"^^<xsd:string> .
+
+sssom:e497783238a3582697fbc3fe41189432 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0002402 ;
+    owl:annotatedTarget obo:HP_0030651 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Multifocal" ;
+    sssom:subject_label "multifocal to coalescing" ;
+    sssom:uuid "e497783238a3582697fbc3fe41189432"^^<xsd:string> .
+
+sssom:f75c3d16e156552cb26db82c460d53ee a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:PATO_0000324 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:subject_label "yellow" ;
+    sssom:uuid "f75c3d16e156552cb26db82c460d53ee"^^<xsd:string> .
+

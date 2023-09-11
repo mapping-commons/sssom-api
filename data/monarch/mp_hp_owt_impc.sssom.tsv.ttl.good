@@ -1,0 +1,256 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:f166888cd65c57af977fc97361d15fd0 a sssom:MappingSet ;
+    dcterms:creator orcid:0000-0002-2232-0967 ;
+    dcterms:description "The IMPC Mouse Morphology Mappings: Organ Weight Test" ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    sssom:mapping_provider <https://www.mousephenotype.org> ;
+    sssom:mapping_set_id <file:///Users/anitac/Documents/GitHub/ols-mapping-commons/mp_hp_owt_impc> ;
+    sssom:mappings sssom:2a08353617185773860a6dd4291d4049,
+        sssom:3fd7fa757b715486b94257fcd96c5f4d,
+        sssom:54ebb58b709f58e5b4b43e7d6b1b7ca9,
+        sssom:55d4c52e9e515e84828c13151f695365,
+        sssom:55f9671c11f15cee9561cb3a3682978a,
+        sssom:60f568eb46c7568494bd7857da589986,
+        sssom:67513fceca415a8ab026a539b4f0e3e4,
+        sssom:6b567820a06652ba9328e3dede2b9069,
+        sssom:6d776b4ea7865f108c13ccfe246ffb50,
+        sssom:8a9b8c55f33e58f8b2f042f3e694d4ca,
+        sssom:8b3e24f60bf75078870786a5311cb288,
+        sssom:969ddceabf7455cb95a44d6534bad4ea,
+        sssom:9a8c1ae1374a5781b4d8bfedcdfb8938,
+        sssom:a16d04192be35c4e8e13271e47384b77,
+        sssom:a7e5398a567b5aa09a773523e1bcf08e,
+        sssom:afab9a65be795f0db102818996bb0b26,
+        sssom:bac3aa51012d5205a94d438f5f73fc42,
+        sssom:cf574f7d6a4159ddb8cc71eb1462c84c,
+        sssom:cfb47e3c32255333a5c3ff884507c7dc,
+        sssom:dc35b0cc26c9557a896c20b6634e60a5,
+        sssom:dfe00051dbec5ad996625e9639e0460a,
+        sssom:e5720b4b21b05a62b10dcbc9fc9511bd,
+        sssom:ee0c0963d0875944a86b5dbca6c03617,
+        sssom:f9656c8f5b5f508599db4c13294a043a ;
+    sssom:uuid "f166888cd65c57af977fc97361d15fd0"^^<xsd:string> .
+
+sssom:2a08353617185773860a6dd4291d4049 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002981 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "increased liver weight" ;
+    sssom:uuid "2a08353617185773860a6dd4291d4049"^^<xsd:string> .
+
+sssom:3fd7fa757b715486b94257fcd96c5f4d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004852 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "decreased testis weight" ;
+    sssom:uuid "3fd7fa757b715486b94257fcd96c5f4d"^^<xsd:string> .
+
+sssom:54ebb58b709f58e5b4b43e7d6b1b7ca9 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004910 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "decreased seminal vesicle weight" ;
+    sssom:uuid "54ebb58b709f58e5b4b43e7d6b1b7ca9"^^<xsd:string> .
+
+sssom:55d4c52e9e515e84828c13151f695365 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002707 ;
+    owl:annotatedTarget obo:HP_0000077 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the kidney" ;
+    sssom:subject_label "abnormal kidney weight" ;
+    sssom:uuid "55d4c52e9e515e84828c13151f695365"^^<xsd:string> .
+
+sssom:55f9671c11f15cee9561cb3a3682978a a owl:Axiom ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource obo:MP_0001262 ;
+    owl:annotatedTarget obo:HP_0004325 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Decreased body weight" ;
+    sssom:subject_label "decreased body weight" ;
+    sssom:uuid "55f9671c11f15cee9561cb3a3682978a"^^<xsd:string> .
+
+sssom:60f568eb46c7568494bd7857da589986 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004850 ;
+    owl:annotatedTarget obo:HP_0000035 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormal testis morphology" ;
+    sssom:subject_label "abnormal testis weight" ;
+    sssom:uuid "60f568eb46c7568494bd7857da589986"^^<xsd:string> .
+
+sssom:67513fceca415a8ab026a539b4f0e3e4 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005629 ;
+    owl:annotatedTarget obo:HP_0002088 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormal lung morphology" ;
+    sssom:subject_label "abnormal lung weight" ;
+    sssom:uuid "67513fceca415a8ab026a539b4f0e3e4"^^<xsd:string> .
+
+sssom:6b567820a06652ba9328e3dede2b9069 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005631 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "decreased lung weight" ;
+    sssom:uuid "6b567820a06652ba9328e3dede2b9069"^^<xsd:string> .
+
+sssom:6d776b4ea7865f108c13ccfe246ffb50 a owl:Axiom ;
+    owl:annotatedProperty skos:narrowMatch ;
+    owl:annotatedSource obo:MP_0004951 ;
+    owl:annotatedTarget obo:HP_0001743 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the spleen" ;
+    sssom:subject_label "abnormal spleen weight" ;
+    sssom:uuid "6d776b4ea7865f108c13ccfe246ffb50"^^<xsd:string> .
+
+sssom:8a9b8c55f33e58f8b2f042f3e694d4ca a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004928 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "increased epididymis weight" ;
+    sssom:uuid "8a9b8c55f33e58f8b2f042f3e694d4ca"^^<xsd:string> .
+
+sssom:8b3e24f60bf75078870786a5311cb288 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004927 ;
+    owl:annotatedTarget obo:HP_0009714 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the epididymis" ;
+    sssom:subject_label "abnormal epididymis weight" ;
+    sssom:uuid "8b3e24f60bf75078870786a5311cb288"^^<xsd:string> .
+
+sssom:969ddceabf7455cb95a44d6534bad4ea a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004851 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "increased testis weight" ;
+    sssom:uuid "969ddceabf7455cb95a44d6534bad4ea"^^<xsd:string> .
+
+sssom:9a8c1ae1374a5781b4d8bfedcdfb8938 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004847 ;
+    owl:annotatedTarget obo:HP_0001392 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the liver" ;
+    sssom:subject_label "abnormal liver weight" ;
+    sssom:uuid "9a8c1ae1374a5781b4d8bfedcdfb8938"^^<xsd:string> .
+
+sssom:a16d04192be35c4e8e13271e47384b77 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004929 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "decreased epididymis weight" ;
+    sssom:uuid "a16d04192be35c4e8e13271e47384b77"^^<xsd:string> .
+
+sssom:a7e5398a567b5aa09a773523e1bcf08e a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004953 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "decreased spleen weight" ;
+    sssom:uuid "a7e5398a567b5aa09a773523e1bcf08e"^^<xsd:string> .
+
+sssom:afab9a65be795f0db102818996bb0b26 a owl:Axiom ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource obo:MP_0001260 ;
+    owl:annotatedTarget obo:HP_0004324 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Increased body weight" ;
+    sssom:subject_label "increased body weight" ;
+    sssom:uuid "afab9a65be795f0db102818996bb0b26"^^<xsd:string> .
+
+sssom:bac3aa51012d5205a94d438f5f73fc42 a owl:Axiom ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource obo:MP_0001259 ;
+    owl:annotatedTarget obo:HP_0004323 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of body weight" ;
+    sssom:subject_label "abnormal body weight" ;
+    sssom:uuid "bac3aa51012d5205a94d438f5f73fc42"^^<xsd:string> .
+
+sssom:cf574f7d6a4159ddb8cc71eb1462c84c a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004908 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "abnormal seminal vesicle weight" ;
+    sssom:uuid "cf574f7d6a4159ddb8cc71eb1462c84c"^^<xsd:string> .
+
+sssom:cfb47e3c32255333a5c3ff884507c7dc a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003917 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "increased kidney weight" ;
+    sssom:uuid "cfb47e3c32255333a5c3ff884507c7dc"^^<xsd:string> .
+
+sssom:dc35b0cc26c9557a896c20b6634e60a5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003402 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "decreased liver weight" ;
+    sssom:uuid "dc35b0cc26c9557a896c20b6634e60a5"^^<xsd:string> .
+
+sssom:dfe00051dbec5ad996625e9639e0460a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004909 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "increased seminal vesicle weight" ;
+    sssom:uuid "dfe00051dbec5ad996625e9639e0460a"^^<xsd:string> .
+
+sssom:e5720b4b21b05a62b10dcbc9fc9511bd a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004952 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "increased spleen weight" ;
+    sssom:uuid "e5720b4b21b05a62b10dcbc9fc9511bd"^^<xsd:string> .
+
+sssom:ee0c0963d0875944a86b5dbca6c03617 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003918 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "decreased kidney weight" ;
+    sssom:uuid "ee0c0963d0875944a86b5dbca6c03617"^^<xsd:string> .
+
+sssom:f9656c8f5b5f508599db4c13294a043a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005630 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "increased lung weight" ;
+    sssom:uuid "f9656c8f5b5f508599db4c13294a043a"^^<xsd:string> .
+

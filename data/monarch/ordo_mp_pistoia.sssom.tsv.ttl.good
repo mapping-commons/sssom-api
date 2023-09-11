@@ -1,0 +1,1258 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix wikidata: <https://www.wikidata.org/wiki/> .
+
+sssom:aa632c1bbb7755d092222e0845feb8fb a sssom:MappingSet ;
+    dcterms:description "The Pistoia Ontology Mappings: ordo_mp" ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    sssom:mapping_provider <https://www.pistoiaalliance.org/projects/current-projects/ontologies-mapping/> ;
+    sssom:mapping_set_id <file:///Users/anitac/Documents/GitHub/ols-mapping-commons/ordo_mp_pistoia> ;
+    sssom:mappings sssom:0023f6b7a80a5f34afb61218a8d2197e,
+        sssom:01982371e05a5be084b6a4be8f671dfd,
+        sssom:04e188253985560393e1f19992844166,
+        sssom:06e7628efa7759ee985d091d9d99cbb9,
+        sssom:0c097130bc865e22a36188b5947e9e76,
+        sssom:0c1b853d3cd759d08664637e1e8f6f76,
+        sssom:0dfc6d784c4958698f2e769d865299d5,
+        sssom:0eaf1abdb15c5ee6888052b095908c38,
+        sssom:12ace4827f3d55f6ac0d0b9b34f5d859,
+        sssom:13389184f37f522581a680eb6de4ab21,
+        sssom:16a0cc239aca5bf8a5ed74ad84242fbc,
+        sssom:16dd99e1f5755f3a98d940aff5287e90,
+        sssom:184260135ff65001945233987ca8b670,
+        sssom:1b74a235b6565c1c9d85897734c5727a,
+        sssom:241fc94f62db5444880897e85a2a1a0a,
+        sssom:2bcf0b73e9ee57e8b1611e6b934dbc9b,
+        sssom:2e3b8c4ba5525657acb25a6a043d79a5,
+        sssom:2edf9fb942c259de993df012c13607f9,
+        sssom:330c271944d250e6a39d6e2085084878,
+        sssom:3565ea34a096539a856e6f31c32356c5,
+        sssom:37d44f6409c45ecc868521e37fd00dcf,
+        sssom:3f56b0382a1155889eb58edb786c1fa2,
+        sssom:3f9689ea5a5b5b0f92ed2cf379bea3f0,
+        sssom:40b93de851aa54dda5cdfef04a730f07,
+        sssom:40f8148df49e5d7292dd3a3b3830628e,
+        sssom:42449a58e46b54e18d939781446ecde7,
+        sssom:431db4a8fbd45a0d96e28d3276cbf1d3,
+        sssom:44312819aabb53999633e60808695721,
+        sssom:48b84850f75a5111abc8055c5f07a4c9,
+        sssom:4989007c6b9f5f3caacf982512dad73d,
+        sssom:4acb20b6ea6d527484332a4822c76427,
+        sssom:4cddf839a4c25225933e7535edea8df6,
+        sssom:4dffe6ee814f5259818838093d540d89,
+        sssom:4e5941c5b7aa59fa858cfbd15ef1c7fe,
+        sssom:501bc93087cb576689fdd6af9981520f,
+        sssom:5050a7fe9ea854919757f0eb686101e6,
+        sssom:50fe01f56dc856aa80ec3a5d272d27e4,
+        sssom:5140786870975c4b9d84e391f4a29f9e,
+        sssom:54641fc4c6e65b38beb967edf0a475ae,
+        sssom:574b9600c6a95c709bad2020331841a5,
+        sssom:57d6216889835cfa9567f1b0f691f46d,
+        sssom:58651ba6f1f95a90836df77042f6aa5c,
+        sssom:5b8b25cb8f185fff8cac959b7128933c,
+        sssom:5bf29ee88c165adab50aec7e4df35159,
+        sssom:5f0e3360e82f5dba87fc40a9b98fe353,
+        sssom:61afca8a20c455479b126b1f6b5870a7,
+        sssom:63f3da6d204a53f7933266b2d5529dec,
+        sssom:641ad182a93457f9a1dfdd5531bcd0b6,
+        sssom:655ffee36f9b589ea17beeea7e95d5d2,
+        sssom:66f57921785c5e4d8b16b279807f397a,
+        sssom:67a7a900cf3050ffadcfbb978c4e341e,
+        sssom:68326ea0daf9527d86d7504945fde870,
+        sssom:68d5fd9715095ced8ba8d5707d2d5a15,
+        sssom:693f99e69efa5302bd673b8faf503820,
+        sssom:69e591e1e2af54f984f64d29b5390af7,
+        sssom:6d0420e6c6565e9d94b67b074567bec2,
+        sssom:6d7748f6bc1c58ec99031d62ec7137a8,
+        sssom:6dab005b5f81582093b661e62db2b751,
+        sssom:72fa372dd1e95380911495b52e7c771e,
+        sssom:745c12e80ef7545d95c217c9e7011b4e,
+        sssom:74e8c3912ffa53ebbf30134706cbbac6,
+        sssom:75a4abb4bc5a572c97eea6e0605ffe51,
+        sssom:7ab034ebcf0c5bc1b02880c7c26fc1f3,
+        sssom:7f364b4c1410563fb90511eb2530f991,
+        sssom:80abf8ecaa495690807bfe16ec7d02c2,
+        sssom:828ec66668ba521688b27109f4b2ec26,
+        sssom:85b4449ef105547abc4d13d823c6c792,
+        sssom:8890e178a7f05004b4fc1b4645959f18,
+        sssom:8988e8c86fed5384a785f620d34bad99,
+        sssom:8d80edd1468455f0bde3bd6bca8a0680,
+        sssom:8f64bedb287b5f9db5e154fae9beef94,
+        sssom:9102f92da8715328aeae96e9a2ea574a,
+        sssom:915b738c6474566fb1b3d83e6752fb28,
+        sssom:92e8337ddc385fbbb08671e55ebc01b0,
+        sssom:947eef237c46500f9e4617671c9dc81e,
+        sssom:952ce52b549b5e46a8cd33072e922b3f,
+        sssom:98f9cedd1e1b5e3a8248e1766ef72e5c,
+        sssom:9990def1e8a758a5a3fd5b4f5dd02935,
+        sssom:99ce4e6360cf52c1bf499591e288fe5e,
+        sssom:99e54b63211d55c997a9f20e010a6fb7,
+        sssom:9b9d62c3294a580783e4a55855ea6134,
+        sssom:9cc42b44c43c50d2b4e94d3902b3a8ab,
+        sssom:a029d87b52ca58b7937db3e95ab5c2de,
+        sssom:a222e0697602545c93bd7100d4e38873,
+        sssom:a505124e326458838b4bc3a22fe18406,
+        sssom:a8743bd364995d90b0dc4c8032255e0a,
+        sssom:aa003e861f0b54088f9775c19e818327,
+        sssom:aac04a4637725b3898a06a59990ca1bf,
+        sssom:ab019dc8649d5c2f9896d7c3a2256c23,
+        sssom:ac0616d0d38e5ad089e504327ae428a3,
+        sssom:ad19e64969925eedbd33f384df7fd80f,
+        sssom:ad951639ffa75a668bb526353badd9c8,
+        sssom:ae9b887b26e550e793289f9e2cc2a610,
+        sssom:afc77a82742e5fdd998d4c0900b49a60,
+        sssom:b0ab041499645babaee8ad74181d1049,
+        sssom:b110edae2bd958f8992c7a12ecb42c5b,
+        sssom:b20d426969bf53f3aa27c2ebfeea8736,
+        sssom:b2b4aedbaf4d5959b5deedc0eab17789,
+        sssom:b55fddad566c52ec959372bbffc74ced,
+        sssom:b6ff93d1ec1e53ac9270118e4847a9f0,
+        sssom:b7e1e812d4725083a769ea2bc4a45430,
+        sssom:b817a0770f76579da2115a864f473921,
+        sssom:baaee09d00855ff6933fd0a981994430,
+        sssom:bbcc7224022b51d99b77d0f7faf19d78,
+        sssom:bdc6b72461c25aff955269cb2efdb4ff,
+        sssom:be2c00bcde1a5a669a1826eaeffef397,
+        sssom:c7bd50602b8f51d09fd94e8f37f88e44,
+        sssom:c7fcbf6fba6e55319001f5249f55ae7b,
+        sssom:ca7b15a99be058d9a98aed9a668dfc91,
+        sssom:cd272ce5963752c9b8597cea8094c17b,
+        sssom:cd5d35647e24573b89b331cdaf0e59f3,
+        sssom:cda04be72b135819ba64cb4b4b28833d,
+        sssom:ce743b01bb935d058db57af6f2490869,
+        sssom:d1ff68df548255c9bf7ae19a48a3fb3d,
+        sssom:d619415494825f1ca384c5695c477e55,
+        sssom:da6e08e260ec593ab95ad7185a998066,
+        sssom:dbd5494b1d5655859fcf1b4a3c2b34b4,
+        sssom:e0b45af1f25d563eb456d98f1e9579de,
+        sssom:e0daf09b243e53eda5673cd8b05d43e0,
+        sssom:e621618fcf465cfe9728e315f27a50fc,
+        sssom:e6789f5ace8a585e8031518abe8fc2c8,
+        sssom:e970d587c9e85f94978234b90a4ac61f,
+        sssom:ea0ca59c9c4f58cf8e0d645b8b450de5,
+        sssom:ed1af6dece5950659fad2e0a8bc03609,
+        sssom:f08306c49ab15dc4820deb9b1c202cac,
+        sssom:f130536976ca5d848d1eb5c5f7aa687b,
+        sssom:f26202587cff52358399ebe8d0ad38f2,
+        sssom:f2ccbf949a575effb92eadc14ea3018d,
+        sssom:f2e4c13cffe55a04a3f1cfdf1c09644c,
+        sssom:f37ad3ddeede5a84acfb57607dbc1fb0,
+        sssom:f82080a182955e91a042f56705131e2a,
+        sssom:f88bc58f6a425af2bde43593438be909,
+        sssom:f8c89e2cafbb5d9280aaea0123b1ef71,
+        sssom:fbc40d5628835955ad1e2bc22d0ae6f6,
+        sssom:feaf50d2e437538f84a2e463d47b659c,
+        sssom:feb0ac52786457d3ba7504cb5dd412b1,
+        sssom:ff55053ec5e95027a66946ea788850e2,
+        sssom:ffb3d675be2b5120b505a4beee5eebd4 ;
+    sssom:object_source obo:mp ;
+    sssom:subject_source wikidata:Q24254958 ;
+    sssom:uuid "aa632c1bbb7755d092222e0845feb8fb"^^<xsd:string> .
+
+sssom:0023f6b7a80a5f34afb61218a8d2197e a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_521> ;
+    owl:annotatedTarget obo:MP_0005481 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "0023f6b7a80a5f34afb61218a8d2197e"^^<xsd:string> .
+
+sssom:01982371e05a5be084b6a4be8f671dfd a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_156207> ;
+    owl:annotatedTarget obo:MP_0009906 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "01982371e05a5be084b6a4be8f671dfd"^^<xsd:string> .
+
+sssom:04e188253985560393e1f19992844166 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_90025> ;
+    owl:annotatedTarget obo:MP_0000564 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "04e188253985560393e1f19992844166"^^<xsd:string> .
+
+sssom:06e7628efa7759ee985d091d9d99cbb9 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1077> ;
+    owl:annotatedTarget obo:MP_0030449 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "06e7628efa7759ee985d091d9d99cbb9"^^<xsd:string> .
+
+sssom:0c097130bc865e22a36188b5947e9e76 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93968> ;
+    owl:annotatedTarget obo:MP_0012259 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "0c097130bc865e22a36188b5947e9e76"^^<xsd:string> .
+
+sssom:0c1b853d3cd759d08664637e1e8f6f76 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1138> ;
+    owl:annotatedTarget obo:MP_0013980 ;
+    sssom:confidence "0.2253525"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "0c1b853d3cd759d08664637e1e8f6f76"^^<xsd:string> .
+
+sssom:0dfc6d784c4958698f2e769d865299d5 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_675> ;
+    owl:annotatedTarget obo:MP_0006261 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "0dfc6d784c4958698f2e769d865299d5"^^<xsd:string> .
+
+sssom:0eaf1abdb15c5ee6888052b095908c38 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99083> ;
+    owl:annotatedTarget obo:MP_0010460 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "0eaf1abdb15c5ee6888052b095908c38"^^<xsd:string> .
+
+sssom:12ace4827f3d55f6ac0d0b9b34f5d859 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_268744> ;
+    owl:annotatedTarget obo:MP_0012547 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "12ace4827f3d55f6ac0d0b9b34f5d859"^^<xsd:string> .
+
+sssom:13389184f37f522581a680eb6de4ab21 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_450> ;
+    owl:annotatedTarget obo:MP_0004133 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "13389184f37f522581a680eb6de4ab21"^^<xsd:string> .
+
+sssom:16a0cc239aca5bf8a5ed74ad84242fbc a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_79364> ;
+    owl:annotatedTarget obo:MP_0000414 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "16a0cc239aca5bf8a5ed74ad84242fbc"^^<xsd:string> .
+
+sssom:16dd99e1f5755f3a98d940aff5287e90 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_157769> ;
+    owl:annotatedTarget obo:MP_0002767 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "16dd99e1f5755f3a98d940aff5287e90"^^<xsd:string> .
+
+sssom:184260135ff65001945233987ca8b670 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_216675> ;
+    owl:annotatedTarget obo:MP_0004110 ;
+    sssom:confidence "0.2348475"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "184260135ff65001945233987ca8b670"^^<xsd:string> .
+
+sssom:1b74a235b6565c1c9d85897734c5727a a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_217604> ;
+    owl:annotatedTarget obo:MP_0002795 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "1b74a235b6565c1c9d85897734c5727a"^^<xsd:string> .
+
+sssom:241fc94f62db5444880897e85a2a1a0a a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_101043> ;
+    owl:annotatedTarget obo:MP_0002747 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "241fc94f62db5444880897e85a2a1a0a"^^<xsd:string> .
+
+sssom:2bcf0b73e9ee57e8b1611e6b934dbc9b a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2882> ;
+    owl:annotatedTarget obo:MP_0010077 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "2bcf0b73e9ee57e8b1611e6b934dbc9b"^^<xsd:string> .
+
+sssom:2e3b8c4ba5525657acb25a6a043d79a5 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_64720> ;
+    owl:annotatedTarget obo:MP_0002035 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "2e3b8c4ba5525657acb25a6a043d79a5"^^<xsd:string> .
+
+sssom:2edf9fb942c259de993df012c13607f9 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1041> ;
+    owl:annotatedTarget obo:MP_0002192 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "2edf9fb942c259de993df012c13607f9"^^<xsd:string> .
+
+sssom:330c271944d250e6a39d6e2085084878 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_180139> ;
+    owl:annotatedTarget obo:MP_0001121 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "330c271944d250e6a39d6e2085084878"^^<xsd:string> .
+
+sssom:3565ea34a096539a856e6f31c32356c5 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_3193> ;
+    owl:annotatedTarget obo:MP_0010471 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "3565ea34a096539a856e6f31c32356c5"^^<xsd:string> .
+
+sssom:37d44f6409c45ecc868521e37fd00dcf a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_95708> ;
+    owl:annotatedTarget obo:MP_0003378 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "37d44f6409c45ecc868521e37fd00dcf"^^<xsd:string> .
+
+sssom:3f56b0382a1155889eb58edb786c1fa2 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_214> ;
+    owl:annotatedTarget obo:MP_0020400 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "3f56b0382a1155889eb58edb786c1fa2"^^<xsd:string> .
+
+sssom:3f9689ea5a5b5b0f92ed2cf379bea3f0 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_439167> ;
+    owl:annotatedTarget obo:MP_0006372 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "3f9689ea5a5b5b0f92ed2cf379bea3f0"^^<xsd:string> .
+
+sssom:40b93de851aa54dda5cdfef04a730f07 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99071> ;
+    owl:annotatedTarget obo:MP_0010481 ;
+    sssom:confidence "0.2372875"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "40b93de851aa54dda5cdfef04a730f07"^^<xsd:string> .
+
+sssom:40f8148df49e5d7292dd3a3b3830628e a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93976> ;
+    owl:annotatedTarget obo:MP_0003142 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "40f8148df49e5d7292dd3a3b3830628e"^^<xsd:string> .
+
+sssom:42449a58e46b54e18d939781446ecde7 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_3384> ;
+    owl:annotatedTarget obo:MP_0002633 ;
+    sssom:confidence "0.23611"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "42449a58e46b54e18d939781446ecde7"^^<xsd:string> .
+
+sssom:431db4a8fbd45a0d96e28d3276cbf1d3 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1531> ;
+    owl:annotatedTarget obo:MP_0000081 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "431db4a8fbd45a0d96e28d3276cbf1d3"^^<xsd:string> .
+
+sssom:44312819aabb53999633e60808695721 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_95720> ;
+    owl:annotatedTarget obo:MP_0003499 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "44312819aabb53999633e60808695721"^^<xsd:string> .
+
+sssom:48b84850f75a5111abc8055c5f07a4c9 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_306773> ;
+    owl:annotatedTarget obo:MP_0005604 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "48b84850f75a5111abc8055c5f07a4c9"^^<xsd:string> .
+
+sssom:4989007c6b9f5f3caacf982512dad73d a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98823> ;
+    owl:annotatedTarget obo:MP_0005481 ;
+    sssom:confidence "0.2327575"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "4989007c6b9f5f3caacf982512dad73d"^^<xsd:string> .
+
+sssom:4acb20b6ea6d527484332a4822c76427 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_97275> ;
+    owl:annotatedTarget obo:MP_0001847 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "4acb20b6ea6d527484332a4822c76427"^^<xsd:string> .
+
+sssom:4cddf839a4c25225933e7535edea8df6 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98427> ;
+    owl:annotatedTarget obo:MP_0002872 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "4cddf839a4c25225933e7535edea8df6"^^<xsd:string> .
+
+sssom:4dffe6ee814f5259818838093d540d89 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93101> ;
+    owl:annotatedTarget obo:MP_0003446 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "4dffe6ee814f5259818838093d540d89"^^<xsd:string> .
+
+sssom:4e5941c5b7aa59fa858cfbd15ef1c7fe a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_284804> ;
+    owl:annotatedTarget obo:MP_0006159 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "4e5941c5b7aa59fa858cfbd15ef1c7fe"^^<xsd:string> .
+
+sssom:501bc93087cb576689fdd6af9981520f a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98575> ;
+    owl:annotatedTarget obo:MP_0030166 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "501bc93087cb576689fdd6af9981520f"^^<xsd:string> .
+
+sssom:5050a7fe9ea854919757f0eb686101e6 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2014> ;
+    owl:annotatedTarget obo:MP_0000111 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "5050a7fe9ea854919757f0eb686101e6"^^<xsd:string> .
+
+sssom:50fe01f56dc856aa80ec3a5d272d27e4 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_263413> ;
+    owl:annotatedTarget obo:MP_0003667 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "50fe01f56dc856aa80ec3a5d272d27e4"^^<xsd:string> .
+
+sssom:5140786870975c4b9d84e391f4a29f9e a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98282> ;
+    owl:annotatedTarget obo:MP_0009440 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "5140786870975c4b9d84e391f4a29f9e"^^<xsd:string> .
+
+sssom:54641fc4c6e65b38beb967edf0a475ae a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_3148> ;
+    owl:annotatedTarget obo:MP_0002030 ;
+    sssom:confidence "0.246835"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "54641fc4c6e65b38beb967edf0a475ae"^^<xsd:string> .
+
+sssom:574b9600c6a95c709bad2020331841a5 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_101023> ;
+    owl:annotatedTarget obo:MP_0013545 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "574b9600c6a95c709bad2020331841a5"^^<xsd:string> .
+
+sssom:57d6216889835cfa9567f1b0f691f46d a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_3280> ;
+    owl:annotatedTarget obo:MP_0012545 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "57d6216889835cfa9567f1b0f691f46d"^^<xsd:string> .
+
+sssom:58651ba6f1f95a90836df77042f6aa5c a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_95448> ;
+    owl:annotatedTarget obo:MP_0006115 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "58651ba6f1f95a90836df77042f6aa5c"^^<xsd:string> .
+
+sssom:5b8b25cb8f185fff8cac959b7128933c a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_96321> ;
+    owl:annotatedTarget obo:MP_0004025 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "5b8b25cb8f185fff8cac959b7128933c"^^<xsd:string> .
+
+sssom:5bf29ee88c165adab50aec7e4df35159 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1160> ;
+    owl:annotatedTarget obo:MP_0012080 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "5bf29ee88c165adab50aec7e4df35159"^^<xsd:string> .
+
+sssom:5f0e3360e82f5dba87fc40a9b98fe353 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_79389> ;
+    owl:annotatedTarget obo:MP_0003786 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "5f0e3360e82f5dba87fc40a9b98fe353"^^<xsd:string> .
+
+sssom:61afca8a20c455479b126b1f6b5870a7 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98947> ;
+    owl:annotatedTarget obo:MP_0010716 ;
+    sssom:confidence "0.2317075"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "61afca8a20c455479b126b1f6b5870a7"^^<xsd:string> .
+
+sssom:63f3da6d204a53f7933266b2d5529dec a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99106> ;
+    owl:annotatedTarget obo:MP_0010404 ;
+    sssom:confidence "0.22973"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "63f3da6d204a53f7933266b2d5529dec"^^<xsd:string> .
+
+sssom:641ad182a93457f9a1dfdd5531bcd0b6 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_3427> ;
+    owl:annotatedTarget obo:MP_0010427 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "641ad182a93457f9a1dfdd5531bcd0b6"^^<xsd:string> .
+
+sssom:655ffee36f9b589ea17beeea7e95d5d2 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1199> ;
+    owl:annotatedTarget obo:MP_0003276 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "655ffee36f9b589ea17beeea7e95d5d2"^^<xsd:string> .
+
+sssom:66f57921785c5e4d8b16b279807f397a a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_83463> ;
+    owl:annotatedTarget obo:MP_0000018 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "66f57921785c5e4d8b16b279807f397a"^^<xsd:string> .
+
+sssom:67a7a900cf3050ffadcfbb978c4e341e a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_199323> ;
+    owl:annotatedTarget obo:MP_0003665 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "67a7a900cf3050ffadcfbb978c4e341e"^^<xsd:string> .
+
+sssom:68326ea0daf9527d86d7504945fde870 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1054> ;
+    owl:annotatedTarget obo:MP_0010483 ;
+    sssom:confidence "0.2363625"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "68326ea0daf9527d86d7504945fde870"^^<xsd:string> .
+
+sssom:68d5fd9715095ced8ba8d5707d2d5a15 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_3190> ;
+    owl:annotatedTarget obo:MP_0010449 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "68d5fd9715095ced8ba8d5707d2d5a15"^^<xsd:string> .
+
+sssom:693f99e69efa5302bd673b8faf503820 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98691> ;
+    owl:annotatedTarget obo:MP_0001389 ;
+    sssom:confidence "0.244185"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "693f99e69efa5302bd673b8faf503820"^^<xsd:string> .
+
+sssom:69e591e1e2af54f984f64d29b5390af7 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99105> ;
+    owl:annotatedTarget obo:MP_0010408 ;
+    sssom:confidence "0.22973"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "69e591e1e2af54f984f64d29b5390af7"^^<xsd:string> .
+
+sssom:6d0420e6c6565e9d94b67b074567bec2 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_448270> ;
+    owl:annotatedTarget obo:MP_0011660 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "6d0420e6c6565e9d94b67b074567bec2"^^<xsd:string> .
+
+sssom:6d7748f6bc1c58ec99031d62ec7137a8 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2287> ;
+    owl:annotatedTarget obo:MP_0030475 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "6d7748f6bc1c58ec99031d62ec7137a8"^^<xsd:string> .
+
+sssom:6dab005b5f81582093b661e62db2b751 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_268369> ;
+    owl:annotatedTarget obo:MP_0012547 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "6dab005b5f81582093b661e62db2b751"^^<xsd:string> .
+
+sssom:72fa372dd1e95380911495b52e7c771e a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_3169> ;
+    owl:annotatedTarget obo:MP_0003445 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "72fa372dd1e95380911495b52e7c771e"^^<xsd:string> .
+
+sssom:745c12e80ef7545d95c217c9e7011b4e a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_91414> ;
+    owl:annotatedTarget obo:MP_0002013 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "745c12e80ef7545d95c217c9e7011b4e"^^<xsd:string> .
+
+sssom:74e8c3912ffa53ebbf30134706cbbac6 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99107> ;
+    owl:annotatedTarget obo:MP_0010450 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "74e8c3912ffa53ebbf30134706cbbac6"^^<xsd:string> .
+
+sssom:75a4abb4bc5a572c97eea6e0605ffe51 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_95458> ;
+    owl:annotatedTarget obo:MP_0006125 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "75a4abb4bc5a572c97eea6e0605ffe51"^^<xsd:string> .
+
+sssom:7ab034ebcf0c5bc1b02880c7c26fc1f3 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_141269> ;
+    owl:annotatedTarget obo:MP_0008798 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "7ab034ebcf0c5bc1b02880c7c26fc1f3"^^<xsd:string> .
+
+sssom:7f364b4c1410563fb90511eb2530f991 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1848> ;
+    owl:annotatedTarget obo:MP_0000520 ;
+    sssom:confidence "0.2448975"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "7f364b4c1410563fb90511eb2530f991"^^<xsd:string> .
+
+sssom:80abf8ecaa495690807bfe16ec7d02c2 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_660> ;
+    owl:annotatedTarget obo:MP_0003052 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "80abf8ecaa495690807bfe16ec7d02c2"^^<xsd:string> .
+
+sssom:828ec66668ba521688b27109f4b2ec26 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_155878> ;
+    owl:annotatedTarget obo:MP_0011615 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "828ec66668ba521688b27109f4b2ec26"^^<xsd:string> .
+
+sssom:85b4449ef105547abc4d13d823c6c792 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99047> ;
+    owl:annotatedTarget obo:MP_0011669 ;
+    sssom:confidence "0.24"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "85b4449ef105547abc4d13d823c6c792"^^<xsd:string> .
+
+sssom:8890e178a7f05004b4fc1b4645959f18 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_77> ;
+    owl:annotatedTarget obo:MP_0005261 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "8890e178a7f05004b4fc1b4645959f18"^^<xsd:string> .
+
+sssom:8988e8c86fed5384a785f620d34bad99 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_79365> ;
+    owl:annotatedTarget obo:MP_0000412 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "8988e8c86fed5384a785f620d34bad99"^^<xsd:string> .
+
+sssom:8d80edd1468455f0bde3bd6bca8a0680 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99867> ;
+    owl:annotatedTarget obo:MP_0014127 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "8d80edd1468455f0bde3bd6bca8a0680"^^<xsd:string> .
+
+sssom:8f64bedb287b5f9db5e154fae9beef94 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99103> ;
+    owl:annotatedTarget obo:MP_0010405 ;
+    sssom:confidence "0.23077"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "8f64bedb287b5f9db5e154fae9beef94"^^<xsd:string> .
+
+sssom:9102f92da8715328aeae96e9a2ea574a a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_963> ;
+    owl:annotatedTarget obo:MP_0003506 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "9102f92da8715328aeae96e9a2ea574a"^^<xsd:string> .
+
+sssom:915b738c6474566fb1b3d83e6752fb28 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_411709> ;
+    owl:annotatedTarget obo:MP_0000520 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "915b738c6474566fb1b3d83e6752fb28"^^<xsd:string> .
+
+sssom:92e8337ddc385fbbb08671e55ebc01b0 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99081> ;
+    owl:annotatedTarget obo:MP_0004158 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "92e8337ddc385fbbb08671e55ebc01b0"^^<xsd:string> .
+
+sssom:947eef237c46500f9e4617671c9dc81e a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_263714> ;
+    owl:annotatedTarget obo:MP_0004023 ;
+    sssom:confidence "0.226415"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "947eef237c46500f9e4617671c9dc81e"^^<xsd:string> .
+
+sssom:952ce52b549b5e46a8cd33072e922b3f a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2913> ;
+    owl:annotatedTarget obo:MP_0000562 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "952ce52b549b5e46a8cd33072e922b3f"^^<xsd:string> .
+
+sssom:98f9cedd1e1b5e3a8248e1766ef72e5c a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_166415> ;
+    owl:annotatedTarget obo:MP_0001496 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "98f9cedd1e1b5e3a8248e1766ef72e5c"^^<xsd:string> .
+
+sssom:9990def1e8a758a5a3fd5b4f5dd02935 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98653> ;
+    owl:annotatedTarget obo:MP_0020486 ;
+    sssom:confidence "0.2325575"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "9990def1e8a758a5a3fd5b4f5dd02935"^^<xsd:string> .
+
+sssom:99ce4e6360cf52c1bf499591e288fe5e a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_141163> ;
+    owl:annotatedTarget obo:MP_0030328 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "99ce4e6360cf52c1bf499591e288fe5e"^^<xsd:string> .
+
+sssom:99e54b63211d55c997a9f20e010a6fb7 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93338> ;
+    owl:annotatedTarget obo:MP_0004083 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "99e54b63211d55c997a9f20e010a6fb7"^^<xsd:string> .
+
+sssom:9b9d62c3294a580783e4a55855ea6134 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_431341> ;
+    owl:annotatedTarget obo:MP_0011852 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "9b9d62c3294a580783e4a55855ea6134"^^<xsd:string> .
+
+sssom:9cc42b44c43c50d2b4e94d3902b3a8ab a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_123411> ;
+    owl:annotatedTarget obo:MP_0005638 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "9cc42b44c43c50d2b4e94d3902b3a8ab"^^<xsd:string> .
+
+sssom:a029d87b52ca58b7937db3e95ab5c2de a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_755> ;
+    owl:annotatedTarget obo:MP_0005536 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "a029d87b52ca58b7937db3e95ab5c2de"^^<xsd:string> .
+
+sssom:a222e0697602545c93bd7100d4e38873 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1666> ;
+    owl:annotatedTarget obo:MP_0000644 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "a222e0697602545c93bd7100d4e38873"^^<xsd:string> .
+
+sssom:a505124e326458838b4bc3a22fe18406 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_101063> ;
+    owl:annotatedTarget obo:MP_0011252 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "a505124e326458838b4bc3a22fe18406"^^<xsd:string> .
+
+sssom:a8743bd364995d90b0dc4c8032255e0a a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_46724> ;
+    owl:annotatedTarget obo:MP_0010530 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "a8743bd364995d90b0dc4c8032255e0a"^^<xsd:string> .
+
+sssom:aa003e861f0b54088f9775c19e818327 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1457> ;
+    owl:annotatedTarget obo:MP_0003387 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "aa003e861f0b54088f9775c19e818327"^^<xsd:string> .
+
+sssom:aac04a4637725b3898a06a59990ca1bf a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1203> ;
+    owl:annotatedTarget obo:MP_0003272 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "aac04a4637725b3898a06a59990ca1bf"^^<xsd:string> .
+
+sssom:ab019dc8649d5c2f9896d7c3a2256c23 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_3426> ;
+    owl:annotatedTarget obo:MP_0000284 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ab019dc8649d5c2f9896d7c3a2256c23"^^<xsd:string> .
+
+sssom:ac0616d0d38e5ad089e504327ae428a3 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_329931> ;
+    owl:annotatedTarget obo:MP_0002743 ;
+    sssom:confidence "0.23077"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ac0616d0d38e5ad089e504327ae428a3"^^<xsd:string> .
+
+sssom:ad19e64969925eedbd33f384df7fd80f a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1671> ;
+    owl:annotatedTarget obo:MP_0012710 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ad19e64969925eedbd33f384df7fd80f"^^<xsd:string> .
+
+sssom:ad951639ffa75a668bb526353badd9c8 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_209> ;
+    owl:annotatedTarget obo:MP_0005421 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ad951639ffa75a668bb526353badd9c8"^^<xsd:string> .
+
+sssom:ae9b887b26e550e793289f9e2cc2a610 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1464> ;
+    owl:annotatedTarget obo:MP_0010432 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ae9b887b26e550e793289f9e2cc2a610"^^<xsd:string> .
+
+sssom:afc77a82742e5fdd998d4c0900b49a60 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99044> ;
+    owl:annotatedTarget obo:MP_0011667 ;
+    sssom:confidence "0.22963"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "afc77a82742e5fdd998d4c0900b49a60"^^<xsd:string> .
+
+sssom:b0ab041499645babaee8ad74181d1049 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_363483> ;
+    owl:annotatedTarget obo:MP_0004478 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "b0ab041499645babaee8ad74181d1049"^^<xsd:string> .
+
+sssom:b110edae2bd958f8992c7a12ecb42c5b a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_263746> ;
+    owl:annotatedTarget obo:MP_0004023 ;
+    sssom:confidence "0.226415"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "b110edae2bd958f8992c7a12ecb42c5b"^^<xsd:string> .
+
+sssom:b20d426969bf53f3aa27c2ebfeea8736 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2130> ;
+    owl:annotatedTarget obo:MP_0008985 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "b20d426969bf53f3aa27c2ebfeea8736"^^<xsd:string> .
+
+sssom:b2b4aedbaf4d5959b5deedc0eab17789 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98722> ;
+    owl:annotatedTarget obo:MP_0010412 ;
+    sssom:confidence "0.2457625"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "b2b4aedbaf4d5959b5deedc0eab17789"^^<xsd:string> .
+
+sssom:b55fddad566c52ec959372bbffc74ced a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93108> ;
+    owl:annotatedTarget obo:MP_0002135 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "b55fddad566c52ec959372bbffc74ced"^^<xsd:string> .
+
+sssom:b6ff93d1ec1e53ac9270118e4847a9f0 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_780> ;
+    owl:annotatedTarget obo:MP_0002036 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "b6ff93d1ec1e53ac9270118e4847a9f0"^^<xsd:string> .
+
+sssom:b7e1e812d4725083a769ea2bc4a45430 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98613> ;
+    owl:annotatedTarget obo:MP_0006193 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "b7e1e812d4725083a769ea2bc4a45430"^^<xsd:string> .
+
+sssom:b817a0770f76579da2115a864f473921 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99079> ;
+    owl:annotatedTarget obo:MP_0004161 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "b817a0770f76579da2115a864f473921"^^<xsd:string> .
+
+sssom:baaee09d00855ff6933fd0a981994430 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93100> ;
+    owl:annotatedTarget obo:MP_0003604 ;
+    sssom:confidence "0.2450975"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "baaee09d00855ff6933fd0a981994430"^^<xsd:string> .
+
+sssom:bbcc7224022b51d99b77d0f7faf19d78 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2038> ;
+    owl:annotatedTarget obo:MP_0010480 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "bbcc7224022b51d99b77d0f7faf19d78"^^<xsd:string> .
+
+sssom:bdc6b72461c25aff955269cb2efdb4ff a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93> ;
+    owl:annotatedTarget obo:MP_0011516 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "bdc6b72461c25aff955269cb2efdb4ff"^^<xsd:string> .
+
+sssom:be2c00bcde1a5a669a1826eaeffef397 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_65681> ;
+    owl:annotatedTarget obo:MP_0001144 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "be2c00bcde1a5a669a1826eaeffef397"^^<xsd:string> .
+
+sssom:c7bd50602b8f51d09fd94e8f37f88e44 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93928> ;
+    owl:annotatedTarget obo:MP_0003598 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "c7bd50602b8f51d09fd94e8f37f88e44"^^<xsd:string> .
+
+sssom:c7fcbf6fba6e55319001f5249f55ae7b a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99098> ;
+    owl:annotatedTarget obo:MP_0010411 ;
+    sssom:confidence "0.2386375"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "c7fcbf6fba6e55319001f5249f55ae7b"^^<xsd:string> .
+
+sssom:ca7b15a99be058d9a98aed9a668dfc91 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_105> ;
+    owl:annotatedTarget obo:MP_0003591 ;
+    sssom:confidence "0.2272725"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ca7b15a99be058d9a98aed9a668dfc91"^^<xsd:string> .
+
+sssom:cd272ce5963752c9b8597cea8094c17b a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_3289> ;
+    owl:annotatedTarget obo:MP_0030496 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "cd272ce5963752c9b8597cea8094c17b"^^<xsd:string> .
+
+sssom:cd5d35647e24573b89b331cdaf0e59f3 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93969> ;
+    owl:annotatedTarget obo:MP_0009929 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "cd5d35647e24573b89b331cdaf0e59f3"^^<xsd:string> .
+
+sssom:cda04be72b135819ba64cb4b4b28833d a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_480501> ;
+    owl:annotatedTarget obo:MP_0003266 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "cda04be72b135819ba64cb4b4b28833d"^^<xsd:string> .
+
+sssom:ce743b01bb935d058db57af6f2490869 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_52759> ;
+    owl:annotatedTarget obo:MP_0001864 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ce743b01bb935d058db57af6f2490869"^^<xsd:string> .
+
+sssom:d1ff68df548255c9bf7ae19a48a3fb3d a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99099> ;
+    owl:annotatedTarget obo:MP_0010410 ;
+    sssom:confidence "0.234695"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "d1ff68df548255c9bf7ae19a48a3fb3d"^^<xsd:string> .
+
+sssom:d619415494825f1ca384c5695c477e55 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_98715> ;
+    owl:annotatedTarget obo:MP_0005515 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "d619415494825f1ca384c5695c477e55"^^<xsd:string> .
+
+sssom:da6e08e260ec593ab95ad7185a998066 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_738> ;
+    owl:annotatedTarget obo:MP_0005654 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "da6e08e260ec593ab95ad7185a998066"^^<xsd:string> .
+
+sssom:dbd5494b1d5655859fcf1b4a3c2b34b4 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_141229> ;
+    owl:annotatedTarget obo:MP_0008797 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "dbd5494b1d5655859fcf1b4a3c2b34b4"^^<xsd:string> .
+
+sssom:e0b45af1f25d563eb456d98f1e9579de a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2695> ;
+    owl:annotatedTarget obo:MP_0030117 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "e0b45af1f25d563eb456d98f1e9579de"^^<xsd:string> .
+
+sssom:e0daf09b243e53eda5673cd8b05d43e0 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99097> ;
+    owl:annotatedTarget obo:MP_0010419 ;
+    sssom:confidence "0.238095"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "e0daf09b243e53eda5673cd8b05d43e0"^^<xsd:string> .
+
+sssom:e621618fcf465cfe9728e315f27a50fc a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_118246> ;
+    owl:annotatedTarget obo:MP_0001326 ;
+    sssom:confidence "0.238095"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "e621618fcf465cfe9728e315f27a50fc"^^<xsd:string> .
+
+sssom:e6789f5ace8a585e8031518abe8fc2c8 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_211266> ;
+    owl:annotatedTarget obo:MP_0006093 ;
+    sssom:confidence "0.22807"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "e6789f5ace8a585e8031518abe8fc2c8"^^<xsd:string> .
+
+sssom:e970d587c9e85f94978234b90a4ac61f a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_674> ;
+    owl:annotatedTarget obo:MP_0013291 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "e970d587c9e85f94978234b90a4ac61f"^^<xsd:string> .
+
+sssom:ea0ca59c9c4f58cf8e0d645b8b450de5 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99104> ;
+    owl:annotatedTarget obo:MP_0010407 ;
+    sssom:confidence "0.2302625"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ea0ca59c9c4f58cf8e0d645b8b450de5"^^<xsd:string> .
+
+sssom:ed1af6dece5950659fad2e0a8bc03609 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_79225> ;
+    owl:annotatedTarget obo:MP_0009589 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ed1af6dece5950659fad2e0a8bc03609"^^<xsd:string> .
+
+sssom:f08306c49ab15dc4820deb9b1c202cac a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_1463> ;
+    owl:annotatedTarget obo:MP_0010409 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "f08306c49ab15dc4820deb9b1c202cac"^^<xsd:string> .
+
+sssom:f130536976ca5d848d1eb5c5f7aa687b a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_167848> ;
+    owl:annotatedTarget obo:MP_0005330 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "f130536976ca5d848d1eb5c5f7aa687b"^^<xsd:string> .
+
+sssom:f26202587cff52358399ebe8d0ad38f2 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2781> ;
+    owl:annotatedTarget obo:MP_0000067 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "f26202587cff52358399ebe8d0ad38f2"^^<xsd:string> .
+
+sssom:f2ccbf949a575effb92eadc14ea3018d a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_137914> ;
+    owl:annotatedTarget obo:MP_0008970 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "f2ccbf949a575effb92eadc14ea3018d"^^<xsd:string> .
+
+sssom:f2e4c13cffe55a04a3f1cfdf1c09644c a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_79383> ;
+    owl:annotatedTarget obo:MP_0003390 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "f2e4c13cffe55a04a3f1cfdf1c09644c"^^<xsd:string> .
+
+sssom:f37ad3ddeede5a84acfb57607dbc1fb0 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_141253> ;
+    owl:annotatedTarget obo:MP_0008799 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "f37ad3ddeede5a84acfb57607dbc1fb0"^^<xsd:string> .
+
+sssom:f82080a182955e91a042f56705131e2a a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2368> ;
+    owl:annotatedTarget obo:MP_0000757 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "f82080a182955e91a042f56705131e2a"^^<xsd:string> .
+
+sssom:f88bc58f6a425af2bde43593438be909 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_95443> ;
+    owl:annotatedTarget obo:MP_0000650 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "f88bc58f6a425af2bde43593438be909"^^<xsd:string> .
+
+sssom:f8c89e2cafbb5d9280aaea0123b1ef71 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_91495> ;
+    owl:annotatedTarget obo:MP_0010711 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "f8c89e2cafbb5d9280aaea0123b1ef71"^^<xsd:string> .
+
+sssom:fbc40d5628835955ad1e2bc22d0ae6f6 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_2162> ;
+    owl:annotatedTarget obo:MP_0005157 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "fbc40d5628835955ad1e2bc22d0ae6f6"^^<xsd:string> .
+
+sssom:feaf50d2e437538f84a2e463d47b659c a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_69> ;
+    owl:annotatedTarget obo:MP_0000604 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "feaf50d2e437538f84a2e463d47b659c"^^<xsd:string> .
+
+sssom:feb0ac52786457d3ba7504cb5dd412b1 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_99054> ;
+    owl:annotatedTarget obo:MP_0006128 ;
+    sssom:confidence "0.240385"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "feb0ac52786457d3ba7504cb5dd412b1"^^<xsd:string> .
+
+sssom:ff55053ec5e95027a66946ea788850e2 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_63260> ;
+    owl:annotatedTarget obo:MP_0008784 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ff55053ec5e95027a66946ea788850e2"^^<xsd:string> .
+
+sssom:ffb3d675be2b5120b505a4beee5eebd4 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://www.orpha.net/ORDO/Orphanet_93962> ;
+    owl:annotatedTarget obo:MP_0030126 ;
+    sssom:confidence "0.75"^^<xsd:double> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:uuid "ffb3d675be2b5120b505a4beee5eebd4"^^<xsd:string> .
+

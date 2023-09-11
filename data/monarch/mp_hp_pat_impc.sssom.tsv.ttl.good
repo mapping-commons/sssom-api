@@ -1,0 +1,1896 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:141b2888d4e15e81bff0906b451489e6 a sssom:MappingSet ;
+    dcterms:creator orcid:0000-0002-2232-0967 ;
+    dcterms:description "The IMPC Mouse Morphology Mappings: Gross Pathology & Tissue Collection Test (Phenotype)" ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    sssom:mapping_provider <https://www.mousephenotype.org> ;
+    sssom:mapping_set_id <file:///Users/anitac/Documents/GitHub/ols-mapping-commons/mp_hp_pat_impc> ;
+    sssom:mappings sssom:001e0db4a6ac505bbf9a9c45beb24672,
+        sssom:002d24f1947a55cbb31fc2660dcc8f8a,
+        sssom:004eea331e90579291d4ededba1c787d,
+        sssom:052921e5656e538fa65547e82966212e,
+        sssom:05d92c8b661a51d7ac841a0e0ca57210,
+        sssom:06e31d6834fe5b07ad87197dd1d2a2e2,
+        sssom:06ffd5f65fc0586784cf7ad40186ead5,
+        sssom:0773b33950bf56b081f2a01fad509d49,
+        sssom:082be847648b5e908efc7b0847950139,
+        sssom:0c525a2e1083598482c2abea094f103d,
+        sssom:0dc65eab7112570984b8a3a859a9999a,
+        sssom:0e2878d5ba9f5b89ac7ef483567ea62a,
+        sssom:0e522f2e96bc518ab437e9cd7e5709b1,
+        sssom:0efc1c43c4ec5e6892b92316a3225658,
+        sssom:107aec613c1159358a9f2a7ba6f91cd2,
+        sssom:10b6192445b654ba9be6666da796ebf5,
+        sssom:11f0d9c8d2f15b3e8acc9f216bb0ba73,
+        sssom:1205fd1b55cf5d3486a800e79e9a4da1,
+        sssom:1260e6ba0b7a5aa09c8af6bcd7233650,
+        sssom:13b69d093bc154529c26a8da11044824,
+        sssom:1409f1e0c95b53cf9eabc0f05892e6d0,
+        sssom:18210d4bc72057c58f93aafc8d242148,
+        sssom:186df2464d165be190b67a24e7ff0742,
+        sssom:187cf2c8bffe52e2baa7458ef8577932,
+        sssom:18f8dd524388583c8eca89b9f5db4aa3,
+        sssom:1c4ecf60f9e457d8851711ab3b911aef,
+        sssom:1e6f9e49e05d5bbdaad5c0d739d33733,
+        sssom:204d5d8c24d55a3bbe1072ebfb798173,
+        sssom:249992c7e5bd5058ab115f164d2ab4cf,
+        sssom:255ba126db5f54b6abab6d84205fb4a8,
+        sssom:26708964327a516a8215b36cdb4eb97d,
+        sssom:27b5cc4b509b5ad4b5a741fdc243b873,
+        sssom:28cd512aba9f55ea88400ecae2edf186,
+        sssom:2c087007bad656939daf51f2ac88cdad,
+        sssom:2e9ba17f9bed5aeb83c3a1e7921fe556,
+        sssom:2fd0b6b631995806a523967d79c8129b,
+        sssom:3077578803505183943f86ab1a03a755,
+        sssom:34f58b76d76555d4b390c68b652304ad,
+        sssom:353975bdaa5e5b409347b066081e0aac,
+        sssom:36f15fd355e85c2292fcb370aa47eff7,
+        sssom:3ad1867fc8a05ad7b5062ab11e07b432,
+        sssom:3affd47a10375f4f8c15c53c69462e27,
+        sssom:3bfa8caf092e57ebbc2d27fe98cdce62,
+        sssom:3c9274631b9a528baf6bdd59777b25a0,
+        sssom:3f346cf9ccd85f31b229640bd636d933,
+        sssom:406a4a82d57e54ec861f40e86b80642a,
+        sssom:407d3c2f61095f20a0cfa57d970c904f,
+        sssom:40853825441e54ce8bab7123802e4ae9,
+        sssom:416ed2a7ba215ebcb0e6882cd5621d3f,
+        sssom:41cc589445cf5f7ea06db5a95546fb5b,
+        sssom:426870c9c9295ab398bd0b7878df80b9,
+        sssom:42ac3f9d48005d8381b719a0c53c4b01,
+        sssom:42bc6f21cbd25e52a7d0d0f44d3f55f6,
+        sssom:4469ce739d4e50c1820be3f7f4541735,
+        sssom:44feeee38cb656138776b5d8acb10ca3,
+        sssom:49a3c64ecede5cb0b636b5cdd03e087b,
+        sssom:4a64b3cc4ecb50ccaeffab30a3c1e69d,
+        sssom:4aa14661de8b5defaed986e4a2d61689,
+        sssom:4bb37350c74b5ccda27759e2ff115ed5,
+        sssom:4be9bf8babd154f0832c12a424836aae,
+        sssom:4c8657acd6555a30a1e0aeaf1ffb011f,
+        sssom:4e0c4ecd8db050639b688a1f0a6a0b8b,
+        sssom:4edbb16850005a239ac0e649f1aef705,
+        sssom:5005e31d8a085f6c890afcbab7c05427,
+        sssom:51a231d9a9615bdd96f944d314597219,
+        sssom:5213f736b62d5450bdf096b5c449364e,
+        sssom:526e20fcc3055b6591b3ac60453b4e9d,
+        sssom:52a2ad8f73ae583682806e6656a6413f,
+        sssom:52b8b27b39de59e48cbd2059d959bd69,
+        sssom:5525193d57255fe59371349971622af0,
+        sssom:55a0f1fcef83589cbd309cb6e20a94d1,
+        sssom:56689a6e6f25554cbfd5c7a45ebd0f43,
+        sssom:56bd098422295ed999e376e5af770184,
+        sssom:59265daedfd95ea0b303acd43ffcbbcd,
+        sssom:592ce10c1b23502e86f136107f25c1e9,
+        sssom:5a46e629f1d357b48aefe530018e4d9c,
+        sssom:5a87527f71df512191aacb1f9cca7fee,
+        sssom:5ce8384555a65d60abd05aa944a5eae3,
+        sssom:5cfa94a93f105cd493f79401491823bb,
+        sssom:5feb9bb5e043579aa9ec71c1c72144e5,
+        sssom:5ff99d9735465f4f9446177de357f29f,
+        sssom:62aaf345cdd55702b3898e92931f415e,
+        sssom:64b1d65817c755d49822f70d229d0b8f,
+        sssom:657523b9c3de5788ab7cdaae6e4357c2,
+        sssom:6792e461151a581582694babce22dc3c,
+        sssom:67e4f0364f5d59c1893ae5d563e7c7f2,
+        sssom:68fcd3b6047b5ecaa2f2f6a2f70eeb21,
+        sssom:6adc2d9791305ba18d97a0b7d1b00950,
+        sssom:6b3e86b01b1b51de901148841adfd4db,
+        sssom:6c46ea0fb9cd5f43b5e8dacf54b3f23a,
+        sssom:6cc2466cfbec5e2b96066d282901c643,
+        sssom:6d4c75a5db605ad0b712c795cb4c599e,
+        sssom:6f651ebf658c506bbfb1d96f7d812720,
+        sssom:724ae4a147ea5d36a9653fa86ce3f946,
+        sssom:72f88554eec151cdb9bf594038182917,
+        sssom:73785de060fb5e13bdf0c07244f3b483,
+        sssom:74e347e1bc145503a46942911a02a70f,
+        sssom:767c379f90f25b54a007fd7f9eedede2,
+        sssom:7832dc8801f8590d9194710e14d80e08,
+        sssom:798a69e1e2075c97be02545c603a6aa1,
+        sssom:7ab6acedddd15f4eaec338880bd31b5d,
+        sssom:7ec6842bd32a5c648b73ab51abe36d46,
+        sssom:7f89538c269a506c8a5451512d91c344,
+        sssom:80bc17d9fd1f5b519a52b08f786b1ada,
+        sssom:815ddb235d5c55529743a3057318b752,
+        sssom:825bb2ec1dc050b49253077db78a09a4,
+        sssom:83f8bbc09ba5581bb75480b5682a7cb9,
+        sssom:843ade3757c4580189f9f7c0a9eda9d1,
+        sssom:843c514d07ec58fc93d3454939131fe3,
+        sssom:8459e6e7621055b2a8bb98f9a0bc498d,
+        sssom:84ecb50ca65159e393d679ffcfe26585,
+        sssom:86e13de53ae2587384e3debc57b9afee,
+        sssom:870bf9f203ca5e5180932f52983173bb,
+        sssom:87578d96eb4d5a0b93bf8f0e30591cf7,
+        sssom:8a67bf4ca0475a53a279dc420918103b,
+        sssom:8eb72932232157b48e05684b2ffaa48a,
+        sssom:9036fb82bbab5ee88c6335586f73bbcc,
+        sssom:943fc20762d8535aac33215107e1acb0,
+        sssom:948daa5e286b5c389fa93cb4f13ad535,
+        sssom:9544ff25a8795763a710c838a8ddc056,
+        sssom:9587a7efd1615334a5f584de5bbc796a,
+        sssom:97d3d745f40f5b88a7fb18fdadd1500b,
+        sssom:984889024d555f1d94894d53240b07f8,
+        sssom:99fe62df38265e73a6ff4e1f146b92bc,
+        sssom:9a6d8c20a5015c899a04920d804b198c,
+        sssom:9b4b27a0f07750d79ba33cdc5cd6a1d2,
+        sssom:9bf1a5d048295138bb4529d021c180dd,
+        sssom:a2336dd4a2025e778d8d3d30d0437f9d,
+        sssom:a258129980c85fc5931b2ffdf0de4733,
+        sssom:a262784422335e60ab892be1672a9053,
+        sssom:a6386f32331050c9b2dd3812bd8b5845,
+        sssom:a6f45c41bd155274aac7b49a59a2f8f0,
+        sssom:a7cf0f08fce45d6db1f8b0b03585b30b,
+        sssom:a7e636215a875a07be9fce5e2485d9a4,
+        sssom:a8fd4b9a7fdd5b8ea016ec834f9e434e,
+        sssom:ab8c5b931c11528ea1c98917b9de02cf,
+        sssom:ac1c783168f55df4b1b850918a72e214,
+        sssom:ac731d20813b580e9c0f9d0cd039b7c3,
+        sssom:af190c59b67b5a5783b1cca443849f10,
+        sssom:b335b572125153b58025a9e659f39c58,
+        sssom:b39dfb52dd6f518bad45cf3830a78ef6,
+        sssom:b90cafd7e20a5c3693da3e06f946b1ff,
+        sssom:b95e07c469fa578784469e63761206fc,
+        sssom:bd56f708b44859cea0b1e676fbd430b8,
+        sssom:bd60a69e62ef5facaa28481540f5b568,
+        sssom:bd68e8caeece58a6b02ed5243ecf9b34,
+        sssom:c0adcdedd67b55929e4438b88b41777c,
+        sssom:c0f77f49d5e15e4683815d55761dddad,
+        sssom:c110789844ce565faaeb8128c6e9c40b,
+        sssom:c16fc30b147358ac9cf88e1eb6663ef7,
+        sssom:c5bc483d04d0570c84c6a21479891e1a,
+        sssom:cc033e371d235b3aadad6411e3e9c547,
+        sssom:ceae616004eb5a6baa8c3a1aea3de97d,
+        sssom:d0448946f1fe5665a771dd4f53cde0b0,
+        sssom:d04b5a9660785579a5218bbffa36db84,
+        sssom:d0ca8ce559f65c39b0d3271b3ecd4f62,
+        sssom:d16d27104d0b5ffb82ecd506110fbc3f,
+        sssom:d1e7f9ccab5f5380a1d9decd52c9c1c1,
+        sssom:d28b0990cbbb5c538274b6c054d4328d,
+        sssom:d5e97df74ae8557ab5dfb9e7a9e0a00c,
+        sssom:d62c13a75a825ed397a28dde5df80a4b,
+        sssom:d78086f388955af69ffd917b150a7c78,
+        sssom:d849969196335ecdb4f96b90890edef6,
+        sssom:da4d49e00842515eb5e11f1a33db839f,
+        sssom:db14fb54475a5ac28ab078aafc4ca3f4,
+        sssom:db7bb6ae95415d4ea2cff63dad5d7724,
+        sssom:dd13a3b2fccb54859ebb80c9daff6d53,
+        sssom:dd49f34b50ef53f0bddb7320287d2214,
+        sssom:de873a21c2c05f38a7497124c02c53c0,
+        sssom:e0c2e7880a3e5e52bf2cdfa9f8ea1eaa,
+        sssom:e0fc09f41f3753da9860dd0ae39ce06c,
+        sssom:e402891c176a561f8e790b1eaf349573,
+        sssom:e5a8d397b82d5759943920b208b65a84,
+        sssom:e607d4d766095ee092b9552a89edfb59,
+        sssom:e7f2954d6626583eb60183871ba52f33,
+        sssom:e8413124c9985257b33c90668de285be,
+        sssom:e86e32444356512eb0d303c1f4fa1219,
+        sssom:ebd1942cf03f56f1b2b8514f80f0fc75,
+        sssom:ecdcd377f02b50a68b5f24322c303342,
+        sssom:ed799c88f01254699e23af6a589d21e5,
+        sssom:ee37cba5990c5dae824370b6a721cbe5,
+        sssom:ef94cf00d33c57f6bc4858af94550031,
+        sssom:f0766407a0055cab87d1288cf4d27e4f,
+        sssom:f248ff19bf49537e8801e6e2ff508d27,
+        sssom:f395af7a46335813978e9693384b5b1b,
+        sssom:fd1b3cb5bbdb5353affa7ab0de597c12,
+        sssom:fd7d9157c8b750aa82c38039b3bfd1e8,
+        sssom:fdad2d5b7f4656cb8a35dd2fe246f13c ;
+    sssom:uuid "141b2888d4e15e81bff0906b451489e6"^^<xsd:string> .
+
+sssom:001e0db4a6ac505bbf9a9c45beb24672 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001175 ;
+    owl:annotatedTarget obo:HP_0002088 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal lung morphology" ;
+    sssom:subject_label "abnormal lung morphology" ;
+    sssom:uuid "001e0db4a6ac505bbf9a9c45beb24672"^^<xsd:string> .
+
+sssom:002d24f1947a55cbb31fc2660dcc8f8a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000495 ;
+    owl:annotatedTarget obo:HP_0002250 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal large intestine morphology" ;
+    sssom:subject_label "abnormal colon morphology" ;
+    sssom:uuid "002d24f1947a55cbb31fc2660dcc8f8a"^^<xsd:string> .
+
+sssom:004eea331e90579291d4ededba1c787d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000018 ;
+    owl:annotatedTarget obo:HP_0008551 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Microtia" ;
+    sssom:subject_label "small ears" ;
+    sssom:uuid "004eea331e90579291d4ededba1c787d"^^<xsd:string> .
+
+sssom:052921e5656e538fa65547e82966212e a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002092 ;
+    owl:annotatedTarget obo:HP_0012372 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal eye morphology" ;
+    sssom:subject_label "abnormal eye morphology" ;
+    sssom:uuid "052921e5656e538fa65547e82966212e"^^<xsd:string> .
+
+sssom:05d92c8b661a51d7ac841a0e0ca57210 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004357 ;
+    owl:annotatedTarget obo:HP_0010504 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Increased length of the tibia" ;
+    sssom:subject_label "long tibia" ;
+    sssom:uuid "05d92c8b661a51d7ac841a0e0ca57210"^^<xsd:string> .
+
+sssom:06e31d6834fe5b07ad87197dd1d2a2e2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004247 ;
+    owl:annotatedTarget obo:HP_0002594 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Pancreatic hypoplasia" ;
+    sssom:subject_label "small pancreas" ;
+    sssom:uuid "06e31d6834fe5b07ad87197dd1d2a2e2"^^<xsd:string> .
+
+sssom:06ffd5f65fc0586784cf7ad40186ead5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002728 ;
+    owl:annotatedTarget obo:HP_0009556 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Absent tibia" ;
+    sssom:subject_label "absent tibia" ;
+    sssom:uuid "06ffd5f65fc0586784cf7ad40186ead5"^^<xsd:string> .
+
+sssom:0773b33950bf56b081f2a01fad509d49 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004002 ;
+    owl:annotatedTarget obo:HP_0005265 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the jejunum" ;
+    sssom:subject_label "abnormal jejunum morphology" ;
+    sssom:uuid "0773b33950bf56b081f2a01fad509d49"^^<xsd:string> .
+
+sssom:082be847648b5e908efc7b0847950139 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002768 ;
+    owl:annotatedTarget obo:HP_0000835 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Adrenal hypoplasia" ;
+    sssom:subject_label "small adrenal glands" ;
+    sssom:uuid "082be847648b5e908efc7b0847950139"^^<xsd:string> .
+
+sssom:0c525a2e1083598482c2abea094f103d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001783 ;
+    owl:annotatedTarget obo:HP_0025128 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Reduced intraabdominal adipose tissue" ;
+    sssom:subject_label "decreased white adipose tissue amount" ;
+    sssom:uuid "0c525a2e1083598482c2abea094f103d"^^<xsd:string> .
+
+sssom:0dc65eab7112570984b8a3a859a9999a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000633 ;
+    owl:annotatedTarget obo:HP_0012503 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the pituitary gland" ;
+    sssom:subject_label "abnormal pituitary gland morphology" ;
+    sssom:uuid "0dc65eab7112570984b8a3a859a9999a"^^<xsd:string> .
+
+sssom:0e2878d5ba9f5b89ac7ef483567ea62a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001296 ;
+    owl:annotatedTarget obo:HP_0001090 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormally large globe" ;
+    sssom:subject_label "macrophthalmia" ;
+    sssom:uuid "0e2878d5ba9f5b89ac7ef483567ea62a"^^<xsd:string> .
+
+sssom:0e522f2e96bc518ab437e9cd7e5709b1 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003795 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "abnormal bone structure" ;
+    sssom:uuid "0e522f2e96bc518ab437e9cd7e5709b1"^^<xsd:string> .
+
+sssom:0efc1c43c4ec5e6892b92316a3225658 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0008725 ;
+    owl:annotatedTarget obo:HP_0031295 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Left atrial enlargement" ;
+    sssom:subject_label "enlarged heart atrium" ;
+    sssom:uuid "0efc1c43c4ec5e6892b92316a3225658"^^<xsd:string> .
+
+sssom:107aec613c1159358a9f2a7ba6f91cd2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009906 ;
+    owl:annotatedTarget obo:HP_0000158 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Macroglossia" ;
+    sssom:subject_label "increased tongue size" ;
+    sssom:uuid "107aec613c1159358a9f2a7ba6f91cd2"^^<xsd:string> .
+
+sssom:10b6192445b654ba9be6666da796ebf5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001102 ;
+    owl:annotatedTarget obo:HP_0031105 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal uterus morphology" ;
+    sssom:subject_label "abnormal uterus morphology" ;
+    sssom:uuid "10b6192445b654ba9be6666da796ebf5"^^<xsd:string> .
+
+sssom:11f0d9c8d2f15b3e8acc9f216bb0ba73 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000627 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "abnormal mammary gland morphology" ;
+    sssom:uuid "11f0d9c8d2f15b3e8acc9f216bb0ba73"^^<xsd:string> .
+
+sssom:1205fd1b55cf5d3486a800e79e9a4da1 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001181 ;
+    owl:annotatedTarget obo:HP_0006703 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Aplasia/Hypoplasia of the lungs" ;
+    sssom:subject_label "absent lung" ;
+    sssom:uuid "1205fd1b55cf5d3486a800e79e9a4da1"^^<xsd:string> .
+
+sssom:1260e6ba0b7a5aa09c8af6bcd7233650 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001092 ;
+    owl:annotatedTarget obo:HP_0410016 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of cranial ganglion" ;
+    sssom:subject_label "abnormal trigeminal ganglion morphology" ;
+    sssom:uuid "1260e6ba0b7a5aa09c8af6bcd7233650"^^<xsd:string> .
+
+sssom:13b69d093bc154529c26a8da11044824 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0008528 ;
+    owl:annotatedTarget obo:HP_0000113 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Polycystic kidney dysplasia" ;
+    sssom:subject_label "polycystic kidney" ;
+    sssom:uuid "13b69d093bc154529c26a8da11044824"^^<xsd:string> .
+
+sssom:1409f1e0c95b53cf9eabc0f05892e6d0 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002631 ;
+    owl:annotatedTarget obo:HP_0009714 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the epididymis" ;
+    sssom:subject_label "abnormal epididymis morphology" ;
+    sssom:uuid "1409f1e0c95b53cf9eabc0f05892e6d0"^^<xsd:string> .
+
+sssom:18210d4bc72057c58f93aafc8d242148 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000492 ;
+    owl:annotatedTarget obo:HP_0002034 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the rectum" ;
+    sssom:subject_label "abnormal rectum morphology" ;
+    sssom:uuid "18210d4bc72057c58f93aafc8d242148"^^<xsd:string> .
+
+sssom:186df2464d165be190b67a24e7ff0742 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005355 ;
+    owl:annotatedTarget obo:HP_0008249 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Thyroid hyperplasia" ;
+    sssom:subject_label "enlarged thyroid gland" ;
+    sssom:uuid "186df2464d165be190b67a24e7ff0742"^^<xsd:string> .
+
+sssom:187cf2c8bffe52e2baa7458ef8577932 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003558 ;
+    owl:annotatedTarget obo:HP_0000151 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Aplasia of the uterus" ;
+    sssom:subject_label "absent uterus" ;
+    sssom:uuid "187cf2c8bffe52e2baa7458ef8577932"^^<xsd:string> .
+
+sssom:18f8dd524388583c8eca89b9f5db4aa3 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004958 ;
+    owl:annotatedTarget obo:HP_0008711 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Benign prostatic hyperplasia" ;
+    sssom:subject_label "enlarged prostate gland" ;
+    sssom:uuid "18f8dd524388583c8eca89b9f5db4aa3"^^<xsd:string> .
+
+sssom:1c4ecf60f9e457d8851711ab3b911aef a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003655 ;
+    owl:annotatedTarget obo:HP_0100801 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Pancreatic aplasia" ;
+    sssom:subject_label "absent pancreas" ;
+    sssom:uuid "1c4ecf60f9e457d8851711ab3b911aef"^^<xsd:string> .
+
+sssom:1e6f9e49e05d5bbdaad5c0d739d33733 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004348 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "long femur" ;
+    sssom:uuid "1e6f9e49e05d5bbdaad5c0d739d33733"^^<xsd:string> .
+
+sssom:204d5d8c24d55a3bbe1072ebfb798173 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000017 ;
+    owl:annotatedTarget obo:HP_0000400 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Macrotia" ;
+    sssom:subject_label "big ears" ;
+    sssom:uuid "204d5d8c24d55a3bbe1072ebfb798173"^^<xsd:string> .
+
+sssom:249992c7e5bd5058ab115f164d2ab4cf a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002689 ;
+    owl:annotatedTarget obo:HP_0011070 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of molar morphology" ;
+    sssom:subject_label "abnormal molar morphology" ;
+    sssom:uuid "249992c7e5bd5058ab115f164d2ab4cf"^^<xsd:string> .
+
+sssom:255ba126db5f54b6abab6d84205fb4a8 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000636 ;
+    owl:annotatedTarget obo:HP_0012505 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Enlarged pituitary gland" ;
+    sssom:subject_label "enlarged pituitary gland" ;
+    sssom:uuid "255ba126db5f54b6abab6d84205fb4a8"^^<xsd:string> .
+
+sssom:26708964327a516a8215b36cdb4eb97d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005315 ;
+    owl:annotatedTarget obo:HP_0410279 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Atrophic parotid gland" ;
+    sssom:subject_label "absent pituitary gland" ;
+    sssom:uuid "26708964327a516a8215b36cdb4eb97d"^^<xsd:string> .
+
+sssom:27b5cc4b509b5ad4b5a741fdc243b873 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002059 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "abnormal seminal vesicle morphology" ;
+    sssom:uuid "27b5cc4b509b5ad4b5a741fdc243b873"^^<xsd:string> .
+
+sssom:28cd512aba9f55ea88400ecae2edf186 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000692 ;
+    owl:annotatedTarget obo:HP_0006270 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hypoplastic spleen" ;
+    sssom:subject_label "small spleen" ;
+    sssom:uuid "28cd512aba9f55ea88400ecae2edf186"^^<xsd:string> .
+
+sssom:2c087007bad656939daf51f2ac88cdad a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002282 ;
+    owl:annotatedTarget obo:HP_0002778 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal trachea morphology" ;
+    sssom:subject_label "abnormal trachea morphology" ;
+    sssom:uuid "2c087007bad656939daf51f2ac88cdad"^^<xsd:string> .
+
+sssom:2e9ba17f9bed5aeb83c3a1e7921fe556 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0010934 ;
+    owl:annotatedTarget obo:HP_0009003 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Increased subcutaneous truncal adipose tissue" ;
+    sssom:subject_label "increased subcutaneous adipose tissue amount" ;
+    sssom:uuid "2e9ba17f9bed5aeb83c3a1e7921fe556"^^<xsd:string> .
+
+sssom:2fd0b6b631995806a523967d79c8129b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003641 ;
+    owl:annotatedTarget obo:HP_0006703 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Aplasia/Hypoplasia of the lungs" ;
+    sssom:subject_label "small lung" ;
+    sssom:uuid "2fd0b6b631995806a523967d79c8129b"^^<xsd:string> .
+
+sssom:3077578803505183943f86ab1a03a755 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0007180 ;
+    owl:annotatedTarget obo:HP_0005995 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Decreased adipose tissue around neck" ;
+    sssom:subject_label "decreased brown fat amount" ;
+    sssom:uuid "3077578803505183943f86ab1a03a755"^^<xsd:string> .
+
+sssom:34f58b76d76555d4b390c68b652304ad a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001127 ;
+    owl:annotatedTarget obo:HP_0009724 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hypoplasia of the ovary" ;
+    sssom:subject_label "small ovary" ;
+    sssom:uuid "34f58b76d76555d4b390c68b652304ad"^^<xsd:string> .
+
+sssom:353975bdaa5e5b409347b066081e0aac a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003318 ;
+    owl:annotatedTarget obo:HP_0004792 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Rectoperineal fistula" ;
+    sssom:subject_label "rectoperineal fistula" ;
+    sssom:uuid "353975bdaa5e5b409347b066081e0aac"^^<xsd:string> .
+
+sssom:36f15fd355e85c2292fcb370aa47eff7 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0011156 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "abnormal hypodermis fat layer morphology" ;
+    sssom:uuid "36f15fd355e85c2292fcb370aa47eff7"^^<xsd:string> .
+
+sssom:3ad1867fc8a05ad7b5062ab11e07b432 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009509 ;
+    owl:annotatedTarget obo:HP_0025023 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Rectal atresia" ;
+    sssom:subject_label "absent rectum" ;
+    sssom:uuid "3ad1867fc8a05ad7b5062ab11e07b432"^^<xsd:string> .
+
+sssom:3affd47a10375f4f8c15c53c69462e27 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000470 ;
+    owl:annotatedTarget obo:HP_0002577 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the stomach" ;
+    sssom:subject_label "abnormal stomach morphology" ;
+    sssom:uuid "3affd47a10375f4f8c15c53c69462e27"^^<xsd:string> .
+
+sssom:3bfa8caf092e57ebbc2d27fe98cdce62 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000274 ;
+    owl:annotatedTarget obo:HP_0001640 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Cardiomegaly" ;
+    sssom:subject_label "enlarged heart" ;
+    sssom:uuid "3bfa8caf092e57ebbc2d27fe98cdce62"^^<xsd:string> .
+
+sssom:3c9274631b9a528baf6bdd59777b25a0 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001158 ;
+    owl:annotatedTarget obo:HP_0008775 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal prostate morphology" ;
+    sssom:subject_label "abnormal prostate gland morphology" ;
+    sssom:uuid "3c9274631b9a528baf6bdd59777b25a0"^^<xsd:string> .
+
+sssom:3f346cf9ccd85f31b229640bd636d933 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009084 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "blind uterus" ;
+    sssom:uuid "3f346cf9ccd85f31b229640bd636d933"^^<xsd:string> .
+
+sssom:406a4a82d57e54ec861f40e86b80642a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002651 ;
+    owl:annotatedTarget obo:HP_0045010 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of peripheral nerves" ;
+    sssom:subject_label "abnormal sciatic nerve morphology" ;
+    sssom:uuid "406a4a82d57e54ec861f40e86b80642a"^^<xsd:string> .
+
+sssom:407d3c2f61095f20a0cfa57d970c904f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003068 ;
+    owl:annotatedTarget obo:HP_0000105 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Enlarged kidney" ;
+    sssom:subject_label "enlarged kidney" ;
+    sssom:uuid "407d3c2f61095f20a0cfa57d970c904f"^^<xsd:string> .
+
+sssom:40853825441e54ce8bab7123802e4ae9 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004320 ;
+    owl:annotatedTarget obo:HP_0010309 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Bifid sternum" ;
+    sssom:subject_label "split sternum" ;
+    sssom:uuid "40853825441e54ce8bab7123802e4ae9"^^<xsd:string> .
+
+sssom:416ed2a7ba215ebcb0e6882cd5621d3f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000702 ;
+    owl:annotatedTarget obo:HP_0002716 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Lymphadenopathy" ;
+    sssom:subject_label "enlarged lymph nodes" ;
+    sssom:uuid "416ed2a7ba215ebcb0e6882cd5621d3f"^^<xsd:string> .
+
+sssom:41cc589445cf5f7ea06db5a95546fb5b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0006415 ;
+    owl:annotatedTarget obo:HP_0010469 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Absent testis" ;
+    sssom:subject_label "absent testes" ;
+    sssom:uuid "41cc589445cf5f7ea06db5a95546fb5b"^^<xsd:string> .
+
+sssom:426870c9c9295ab398bd0b7878df80b9 a owl:Axiom ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource obo:MP_0001297 ;
+    owl:annotatedTarget obo:HP_0000568 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Microphthalmia" ;
+    sssom:subject_label "microphthalmia" ;
+    sssom:uuid "426870c9c9295ab398bd0b7878df80b9"^^<xsd:string> .
+
+sssom:42ac3f9d48005d8381b719a0c53c4b01 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002691 ;
+    owl:annotatedTarget obo:HP_0100841 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Microgastria" ;
+    sssom:subject_label "small stomach" ;
+    sssom:uuid "42ac3f9d48005d8381b719a0c53c4b01"^^<xsd:string> .
+
+sssom:42bc6f21cbd25e52a7d0d0f44d3f55f6 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0008024 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "absent lymph nodes" ;
+    sssom:uuid "42bc6f21cbd25e52a7d0d0f44d3f55f6"^^<xsd:string> .
+
+sssom:4469ce739d4e50c1820be3f7f4541735 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003250 ;
+    owl:annotatedTarget obo:HP_0011467 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Absent gallbladder" ;
+    sssom:subject_label "absent gall bladder" ;
+    sssom:uuid "4469ce739d4e50c1820be3f7f4541735"^^<xsd:string> .
+
+sssom:44feeee38cb656138776b5d8acb10ca3 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001891 ;
+    owl:annotatedTarget obo:HP_0000238 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Hydrocephalus" ;
+    sssom:subject_label "hydroencephaly" ;
+    sssom:uuid "44feeee38cb656138776b5d8acb10ca3"^^<xsd:string> .
+
+sssom:49a3c64ecede5cb0b636b5cdd03e087b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002989 ;
+    owl:annotatedTarget obo:HP_0000089 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Renal hypoplasia" ;
+    sssom:subject_label "small kidney" ;
+    sssom:uuid "49a3c64ecede5cb0b636b5cdd03e087b"^^<xsd:string> .
+
+sssom:4a64b3cc4ecb50ccaeffab30a3c1e69d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001157 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "small seminal vesicle" ;
+    sssom:uuid "4a64b3cc4ecb50ccaeffab30a3c1e69d"^^<xsd:string> .
+
+sssom:4aa14661de8b5defaed986e4a2d61689 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000467 ;
+    owl:annotatedTarget obo:HP_0002031 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal esophagus morphology" ;
+    sssom:subject_label "abnormal esophagus morphology" ;
+    sssom:uuid "4aa14661de8b5defaed986e4a2d61689"^^<xsd:string> .
+
+sssom:4bb37350c74b5ccda27759e2ff115ed5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000494 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "abnormal cecum morphology" ;
+    sssom:uuid "4bb37350c74b5ccda27759e2ff115ed5"^^<xsd:string> .
+
+sssom:4be9bf8babd154f0832c12a424836aae a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000691 ;
+    owl:annotatedTarget obo:HP_0001744 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Splenomegaly" ;
+    sssom:subject_label "enlarged spleen" ;
+    sssom:uuid "4be9bf8babd154f0832c12a424836aae"^^<xsd:string> .
+
+sssom:4c8657acd6555a30a1e0aeaf1ffb011f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002102 ;
+    owl:annotatedTarget obo:HP_0031703 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal ear morphology" ;
+    sssom:subject_label "abnormal ear morphology" ;
+    sssom:uuid "4c8657acd6555a30a1e0aeaf1ffb011f"^^<xsd:string> .
+
+sssom:4e0c4ecd8db050639b688a1f0a6a0b8b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0006221 ;
+    owl:annotatedTarget obo:HP_0000609 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Optic nerve hypoplasia" ;
+    sssom:subject_label "optic nerve hypoplasia" ;
+    sssom:uuid "4e0c4ecd8db050639b688a1f0a6a0b8b"^^<xsd:string> .
+
+sssom:4edbb16850005a239ac0e649f1aef705 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005361 ;
+    owl:annotatedTarget obo:HP_0012506 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Small pituitary gland" ;
+    sssom:subject_label "small pituitary gland" ;
+    sssom:uuid "4edbb16850005a239ac0e649f1aef705"^^<xsd:string> .
+
+sssom:5005e31d8a085f6c890afcbab7c05427 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001192 ;
+    owl:annotatedTarget obo:HP_0040189 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Scaling skin" ;
+    sssom:subject_label "scaly skin" ;
+    sssom:uuid "5005e31d8a085f6c890afcbab7c05427"^^<xsd:string> .
+
+sssom:51a231d9a9615bdd96f944d314597219 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002219 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "decreased lymph node number" ;
+    sssom:uuid "51a231d9a9615bdd96f944d314597219"^^<xsd:string> .
+
+sssom:5213f736b62d5450bdf096b5c449364e a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000493 ;
+    owl:annotatedTarget obo:HP_0002035 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Rectal prolapse" ;
+    sssom:subject_label "rectal prolapse" ;
+    sssom:uuid "5213f736b62d5450bdf096b5c449364e"^^<xsd:string> .
+
+sssom:526e20fcc3055b6591b3ac60453b4e9d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002237 ;
+    owl:annotatedTarget obo:HP_0010640 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the nasal cavity" ;
+    sssom:subject_label "abnormal nasal cavity morphology" ;
+    sssom:uuid "526e20fcc3055b6591b3ac60453b4e9d"^^<xsd:string> .
+
+sssom:52a2ad8f73ae583682806e6656a6413f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002637 ;
+    owl:annotatedTarget obo:HP_0000013 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hypoplasia of the uterus" ;
+    sssom:subject_label "small uterus" ;
+    sssom:uuid "52a2ad8f73ae583682806e6656a6413f"^^<xsd:string> .
+
+sssom:52b8b27b39de59e48cbd2059d959bd69 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001330 ;
+    owl:annotatedTarget obo:HP_0000587 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the optic nerve" ;
+    sssom:subject_label "abnormal optic nerve morphology" ;
+    sssom:uuid "52b8b27b39de59e48cbd2059d959bd69"^^<xsd:string> .
+
+sssom:5525193d57255fe59371349971622af0 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000601 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "small liver" ;
+    sssom:uuid "5525193d57255fe59371349971622af0"^^<xsd:string> .
+
+sssom:55a0f1fcef83589cbd309cb6e20a94d1 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003271 ;
+    owl:annotatedTarget obo:HP_0030992 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the duodenum" ;
+    sssom:subject_label "abnormal duodenum morphology" ;
+    sssom:uuid "55a0f1fcef83589cbd309cb6e20a94d1"^^<xsd:string> .
+
+sssom:56689a6e6f25554cbfd5c7a45ebd0f43 a owl:Axiom ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource obo:MP_0002152 ;
+    owl:annotatedTarget obo:HP_0012443 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of brain morphology" ;
+    sssom:subject_label "abnormal brain morphology" ;
+    sssom:uuid "56689a6e6f25554cbfd5c7a45ebd0f43"^^<xsd:string> .
+
+sssom:56bd098422295ed999e376e5af770184 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009721 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "supernumerary mammary glands" ;
+    sssom:uuid "56bd098422295ed999e376e5af770184"^^<xsd:string> .
+
+sssom:59265daedfd95ea0b303acd43ffcbbcd a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000498 ;
+    owl:annotatedTarget obo:HP_0005235 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Jejunal atresia" ;
+    sssom:subject_label "absent jejunum" ;
+    sssom:uuid "59265daedfd95ea0b303acd43ffcbbcd"^^<xsd:string> .
+
+sssom:592ce10c1b23502e86f136107f25c1e9 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000703 ;
+    owl:annotatedTarget obo:HP_0000777 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the thymus" ;
+    sssom:subject_label "abnormal thymus morphology" ;
+    sssom:uuid "592ce10c1b23502e86f136107f25c1e9"^^<xsd:string> .
+
+sssom:5a46e629f1d357b48aefe530018e4d9c a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004931 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged epididymus" ;
+    sssom:uuid "5a46e629f1d357b48aefe530018e4d9c"^^<xsd:string> .
+
+sssom:5a87527f71df512191aacb1f9cca7fee a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000642 ;
+    owl:annotatedTarget obo:HP_0008221 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Adrenal hyperplasia" ;
+    sssom:subject_label "enlarged adrenal glands" ;
+    sssom:uuid "5a87527f71df512191aacb1f9cca7fee"^^<xsd:string> .
+
+sssom:5ce8384555a65d60abd05aa944a5eae3 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003450 ;
+    owl:annotatedTarget obo:HP_0006277 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Pancreatic hyperplasia" ;
+    sssom:subject_label "enlarged pancreas" ;
+    sssom:uuid "5ce8384555a65d60abd05aa944a5eae3"^^<xsd:string> .
+
+sssom:5cfa94a93f105cd493f79401491823bb a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004930 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "small epididymus" ;
+    sssom:uuid "5cfa94a93f105cd493f79401491823bb"^^<xsd:string> .
+
+sssom:5feb9bb5e043579aa9ec71c1c72144e5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002217 ;
+    owl:annotatedTarget obo:HP_0002732 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Lymph node hypoplasia" ;
+    sssom:subject_label "small lymph nodes" ;
+    sssom:uuid "5feb9bb5e043579aa9ec71c1c72144e5"^^<xsd:string> .
+
+sssom:5ff99d9735465f4f9446177de357f29f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001782 ;
+    owl:annotatedTarget obo:HP_0008993 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Increased intraabdominal fat" ;
+    sssom:subject_label "increased white adipose tissue amount" ;
+    sssom:uuid "5ff99d9735465f4f9446177de357f29f"^^<xsd:string> .
+
+sssom:62aaf345cdd55702b3898e92931f415e a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004349 ;
+    owl:annotatedTarget obo:HP_0012274 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Femoral aplasia" ;
+    sssom:subject_label "absent femur" ;
+    sssom:uuid "62aaf345cdd55702b3898e92931f415e"^^<xsd:string> .
+
+sssom:64b1d65817c755d49822f70d229d0b8f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009907 ;
+    owl:annotatedTarget obo:HP_0000171 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Microglossia" ;
+    sssom:subject_label "decreased tongue size" ;
+    sssom:uuid "64b1d65817c755d49822f70d229d0b8f"^^<xsd:string> .
+
+sssom:657523b9c3de5788ab7cdaae6e4357c2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002932 ;
+    owl:annotatedTarget obo:HP_0001367 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal joint morphology" ;
+    sssom:subject_label "abnormal joint morphology" ;
+    sssom:uuid "657523b9c3de5788ab7cdaae6e4357c2"^^<xsd:string> .
+
+sssom:6792e461151a581582694babce22dc3c a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003883 ;
+    owl:annotatedTarget obo:HP_0005207 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Gastic hypertrophy" ;
+    sssom:subject_label "enlarged stomach" ;
+    sssom:uuid "6792e461151a581582694babce22dc3c"^^<xsd:string> .
+
+sssom:67e4f0364f5d59c1893ae5d563e7c7f2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0011503 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "distended jejunum" ;
+    sssom:uuid "67e4f0364f5d59c1893ae5d563e7c7f2"^^<xsd:string> .
+
+sssom:68fcd3b6047b5ecaa2f2f6a2f70eeb21 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000158 ;
+    owl:annotatedTarget obo:HP_0010308 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Asternia" ;
+    sssom:subject_label "absent sternum" ;
+    sssom:uuid "68fcd3b6047b5ecaa2f2f6a2f70eeb21"^^<xsd:string> .
+
+sssom:6adc2d9791305ba18d97a0b7d1b00950 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005675 ;
+    owl:annotatedTarget obo:HP_0005233 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hypoplasia of the gallbladder" ;
+    sssom:subject_label "small gall bladder" ;
+    sssom:uuid "6adc2d9791305ba18d97a0b7d1b00950"^^<xsd:string> .
+
+sssom:6b3e86b01b1b51de901148841adfd4db a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000774 ;
+    owl:annotatedTarget obo:HP_0007058 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Generalized cerebral atrophy/hypoplasia" ;
+    sssom:subject_label "decreased brain size" ;
+    sssom:uuid "6b3e86b01b1b51de901148841adfd4db"^^<xsd:string> .
+
+sssom:6c46ea0fb9cd5f43b5e8dacf54b3f23a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009709 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "hydrometra" ;
+    sssom:uuid "6c46ea0fb9cd5f43b5e8dacf54b3f23a"^^<xsd:string> .
+
+sssom:6cc2466cfbec5e2b96066d282901c643 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002997 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged seminal vesicle" ;
+    sssom:uuid "6cc2466cfbec5e2b96066d282901c643"^^<xsd:string> .
+
+sssom:6d4c75a5db605ad0b712c795cb4c599e a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005238 ;
+    owl:annotatedTarget obo:HP_0001355 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Megalencephaly" ;
+    sssom:subject_label "increased brain size" ;
+    sssom:uuid "6d4c75a5db605ad0b712c795cb4c599e"^^<xsd:string> .
+
+sssom:6f651ebf658c506bbfb1d96f7d812720 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004819 ;
+    owl:annotatedTarget obo:HP_0001460 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Aplasia/Hypoplasia involving the skeletal musculature" ;
+    sssom:subject_label "decreased skeletal muscle mass" ;
+    sssom:uuid "6f651ebf658c506bbfb1d96f7d812720"^^<xsd:string> .
+
+sssom:724ae4a147ea5d36a9653fa86ce3f946 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0012672 ;
+    owl:annotatedTarget obo:HP_0010778 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Tracheomegaly" ;
+    sssom:subject_label "enlarged trachea" ;
+    sssom:uuid "724ae4a147ea5d36a9653fa86ce3f946"^^<xsd:string> .
+
+sssom:72f88554eec151cdb9bf594038182917 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001146 ;
+    owl:annotatedTarget obo:HP_0000035 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal testis morphology" ;
+    sssom:subject_label "abnormal testis morphology" ;
+    sssom:uuid "72f88554eec151cdb9bf594038182917"^^<xsd:string> .
+
+sssom:73785de060fb5e13bdf0c07244f3b483 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0011880 ;
+    owl:annotatedTarget obo:HP_0002247 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Duodenal atresia" ;
+    sssom:subject_label "absent duodenum" ;
+    sssom:uuid "73785de060fb5e13bdf0c07244f3b483"^^<xsd:string> .
+
+sssom:74e347e1bc145503a46942911a02a70f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002188 ;
+    owl:annotatedTarget obo:HP_0001961 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hypoplastic heart" ;
+    sssom:subject_label "small heart" ;
+    sssom:uuid "74e347e1bc145503a46942911a02a70f"^^<xsd:string> .
+
+sssom:767c379f90f25b54a007fd7f9eedede2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004906 ;
+    owl:annotatedTarget obo:HP_0100878 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Enlarged uterus" ;
+    sssom:subject_label "enlarged uterus" ;
+    sssom:uuid "767c379f90f25b54a007fd7f9eedede2"^^<xsd:string> .
+
+sssom:7832dc8801f8590d9194710e14d80e08 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002951 ;
+    owl:annotatedTarget obo:HP_0005990 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Thyroid hypoplasia" ;
+    sssom:subject_label "small thyroid gland" ;
+    sssom:uuid "7832dc8801f8590d9194710e14d80e08"^^<xsd:string> .
+
+sssom:798a69e1e2075c97be02545c603a6aa1 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0008529 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged optic nerve" ;
+    sssom:uuid "798a69e1e2075c97be02545c603a6aa1"^^<xsd:string> .
+
+sssom:7ab6acedddd15f4eaec338880bd31b5d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001944 ;
+    owl:annotatedTarget obo:HP_0012090 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal pancreas morphology" ;
+    sssom:subject_label "abnormal pancreas morphology" ;
+    sssom:uuid "7ab6acedddd15f4eaec338880bd31b5d"^^<xsd:string> .
+
+sssom:7ec6842bd32a5c648b73ab51abe36d46 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0011625 ;
+    owl:annotatedTarget obo:HP_0010474 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Bladder stones" ;
+    sssom:subject_label "cystolithiasis" ;
+    sssom:uuid "7ec6842bd32a5c648b73ab51abe36d46"^^<xsd:string> .
+
+sssom:7f89538c269a506c8a5451512d91c344 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002286 ;
+    owl:annotatedTarget obo:HP_0000028 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Cryptorchidism" ;
+    sssom:subject_label "cryptorchism" ;
+    sssom:uuid "7f89538c269a506c8a5451512d91c344"^^<xsd:string> .
+
+sssom:80bc17d9fd1f5b519a52b08f786b1ada a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000681 ;
+    owl:annotatedTarget obo:HP_0011772 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of thyroid morphology" ;
+    sssom:subject_label "abnormal thyroid gland morphology" ;
+    sssom:uuid "80bc17d9fd1f5b519a52b08f786b1ada"^^<xsd:string> .
+
+sssom:815ddb235d5c55529743a3057318b752 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002339 ;
+    owl:annotatedTarget obo:HP_0002733 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the lymph nodes" ;
+    sssom:subject_label "abnormal lymph node morphology" ;
+    sssom:uuid "815ddb235d5c55529743a3057318b752"^^<xsd:string> .
+
+sssom:825bb2ec1dc050b49253077db78a09a4 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0011875 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "absent stomach" ;
+    sssom:uuid "825bb2ec1dc050b49253077db78a09a4"^^<xsd:string> .
+
+sssom:83f8bbc09ba5581bb75480b5682a7cb9 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0011877 ;
+    owl:annotatedTarget obo:HP_0100839 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hepatic agenesis" ;
+    sssom:subject_label "absent liver" ;
+    sssom:uuid "83f8bbc09ba5581bb75480b5682a7cb9"^^<xsd:string> .
+
+sssom:843ade3757c4580189f9f7c0a9eda9d1 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003294 ;
+    owl:annotatedTarget obo:HP_0002576 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Intussusception" ;
+    sssom:subject_label "intussusception" ;
+    sssom:uuid "843ade3757c4580189f9f7c0a9eda9d1"^^<xsd:string> .
+
+sssom:843c514d07ec58fc93d3454939131fe3 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001333 ;
+    owl:annotatedTarget obo:HP_0012521 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Optic nerve aplasia" ;
+    sssom:subject_label "absent optic nerve" ;
+    sssom:uuid "843c514d07ec58fc93d3454939131fe3"^^<xsd:string> .
+
+sssom:8459e6e7621055b2a8bb98f9a0bc498d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004832 ;
+    owl:annotatedTarget obo:HP_0100879 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Enlarged ovaries" ;
+    sssom:subject_label "enlarged ovary" ;
+    sssom:uuid "8459e6e7621055b2a8bb98f9a0bc498d"^^<xsd:string> .
+
+sssom:84ecb50ca65159e393d679ffcfe26585 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0006065 ;
+    owl:annotatedTarget obo:HP_0004307 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormal anatomic location of the heart" ;
+    sssom:subject_label "abnormal heart position or orientation" ;
+    sssom:uuid "84ecb50ca65159e393d679ffcfe26585"^^<xsd:string> .
+
+sssom:86e13de53ae2587384e3debc57b9afee a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000629 ;
+    owl:annotatedTarget obo:HP_0100783 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Breast aplasia" ;
+    sssom:subject_label "absent mammary gland" ;
+    sssom:uuid "86e13de53ae2587384e3debc57b9afee"^^<xsd:string> .
+
+sssom:870bf9f203ca5e5180932f52983173bb a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000709 ;
+    owl:annotatedTarget obo:HP_0010516 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Thymus hyperplasia" ;
+    sssom:subject_label "enlarged thymus" ;
+    sssom:uuid "870bf9f203ca5e5180932f52983173bb"^^<xsd:string> .
+
+sssom:87578d96eb4d5a0b93bf8f0e30591cf7 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002731 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "megacolon" ;
+    sssom:uuid "87578d96eb4d5a0b93bf8f0e30591cf7"^^<xsd:string> .
+
+sssom:8a67bf4ca0475a53a279dc420918103b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002970 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "abnormal white adipose tissue morphology" ;
+    sssom:uuid "8a67bf4ca0475a53a279dc420918103b"^^<xsd:string> .
+
+sssom:8eb72932232157b48e05684b2ffaa48a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005314 ;
+    owl:annotatedTarget obo:HP_0008191 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Thyroid agenesis" ;
+    sssom:subject_label "absent thyroid gland" ;
+    sssom:uuid "8eb72932232157b48e05684b2ffaa48a"^^<xsd:string> .
+
+sssom:9036fb82bbab5ee88c6335586f73bbcc a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004321 ;
+    owl:annotatedTarget obo:HP_0000879 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Short sternum" ;
+    sssom:subject_label "short sternum" ;
+    sssom:uuid "9036fb82bbab5ee88c6335586f73bbcc"^^<xsd:string> .
+
+sssom:943fc20762d8535aac33215107e1acb0 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002135 ;
+    owl:annotatedTarget obo:HP_0012210 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal renal morphology" ;
+    sssom:subject_label "abnormal kidney morphology" ;
+    sssom:uuid "943fc20762d8535aac33215107e1acb0"^^<xsd:string> .
+
+sssom:948daa5e286b5c389fa93cb4f13ad535 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001147 ;
+    owl:annotatedTarget obo:HP_0008734 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Decreased testicular size" ;
+    sssom:subject_label "small testis" ;
+    sssom:uuid "948daa5e286b5c389fa93cb4f13ad535"^^<xsd:string> .
+
+sssom:9544ff25a8795763a710c838a8ddc056 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001293 ;
+    owl:annotatedTarget obo:HP_0000528 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Anophthalmia" ;
+    sssom:subject_label "anophthalmia" ;
+    sssom:uuid "9544ff25a8795763a710c838a8ddc056"^^<xsd:string> .
+
+sssom:9587a7efd1615334a5f584de5bbc796a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009000 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "absent cecum" ;
+    sssom:uuid "9587a7efd1615334a5f584de5bbc796a"^^<xsd:string> .
+
+sssom:97d3d745f40f5b88a7fb18fdadd1500b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0012279 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "wide sternum" ;
+    sssom:uuid "97d3d745f40f5b88a7fb18fdadd1500b"^^<xsd:string> .
+
+sssom:984889024d555f1d94894d53240b07f8 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001095 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged trigeminal ganglion" ;
+    sssom:uuid "984889024d555f1d94894d53240b07f8"^^<xsd:string> .
+
+sssom:99fe62df38265e73a6ff4e1f146b92bc a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003109 ;
+    owl:annotatedTarget obo:HP_0003097 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Short femur" ;
+    sssom:subject_label "short femur" ;
+    sssom:uuid "99fe62df38265e73a6ff4e1f146b92bc"^^<xsd:string> .
+
+sssom:9a6d8c20a5015c899a04920d804b198c a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002060 ;
+    owl:annotatedTarget obo:HP_0011121 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of skin morphology" ;
+    sssom:subject_label "abnormal skin morphology" ;
+    sssom:uuid "9a6d8c20a5015c899a04920d804b198c"^^<xsd:string> .
+
+sssom:9b4b27a0f07750d79ba33cdc5cd6a1d2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0011874 ;
+    owl:annotatedTarget obo:HP_0008635 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hypertrophy of the urinary bladder" ;
+    sssom:subject_label "enlarged urinary bladder" ;
+    sssom:uuid "9b4b27a0f07750d79ba33cdc5cd6a1d2"^^<xsd:string> .
+
+sssom:9bf1a5d048295138bb4529d021c180dd a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0011884 ;
+    owl:annotatedTarget obo:HP_0500027 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Aplastic colon" ;
+    sssom:subject_label "absent colon" ;
+    sssom:uuid "9bf1a5d048295138bb4529d021c180dd"^^<xsd:string> .
+
+sssom:a2336dd4a2025e778d8d3d30d0437f9d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009483 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged ileum" ;
+    sssom:uuid "a2336dd4a2025e778d8d3d30d0437f9d"^^<xsd:string> .
+
+sssom:a258129980c85fc5931b2ffdf0de4733 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000759 ;
+    owl:annotatedTarget obo:HP_0011805 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal skeletal muscle morphology" ;
+    sssom:subject_label "abnormal skeletal muscle morphology" ;
+    sssom:uuid "a258129980c85fc5931b2ffdf0de4733"^^<xsd:string> .
+
+sssom:a262784422335e60ab892be1672a9053 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002581 ;
+    owl:annotatedTarget obo:HP_0001549 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormal ileum morphology" ;
+    sssom:subject_label "abnormal ileum morphology" ;
+    sssom:uuid "a262784422335e60ab892be1672a9053"^^<xsd:string> .
+
+sssom:a6386f32331050c9b2dd3812bd8b5845 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000614 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "absent salivary gland" ;
+    sssom:uuid "a6386f32331050c9b2dd3812bd8b5845"^^<xsd:string> .
+
+sssom:a6f45c41bd155274aac7b49a59a2f8f0 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009905 ;
+    owl:annotatedTarget obo:HP_0010295 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Aplasia/Hypoplasia of the tongue" ;
+    sssom:subject_label "absent tongue" ;
+    sssom:uuid "a6f45c41bd155274aac7b49a59a2f8f0"^^<xsd:string> .
+
+sssom:a7cf0f08fce45d6db1f8b0b03585b30b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000599 ;
+    owl:annotatedTarget obo:HP_0002240 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hepatomegaly" ;
+    sssom:subject_label "enlarged liver" ;
+    sssom:uuid "a7cf0f08fce45d6db1f8b0b03585b30b"^^<xsd:string> .
+
+sssom:a7e636215a875a07be9fce5e2485d9a4 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000559 ;
+    owl:annotatedTarget obo:HP_0002823 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of femur morphology" ;
+    sssom:subject_label "abnormal femur morphology" ;
+    sssom:uuid "a7e636215a875a07be9fce5e2485d9a4"^^<xsd:string> .
+
+sssom:a8fd4b9a7fdd5b8ea016ec834f9e434e a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0008844 ;
+    owl:annotatedTarget obo:HP_0003758 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Reduced subcutaneous fat" ;
+    sssom:subject_label "decreased subcutaneous adipose tissue amount" ;
+    sssom:uuid "a8fd4b9a7fdd5b8ea016ec834f9e434e"^^<xsd:string> .
+
+sssom:ab8c5b931c11528ea1c98917b9de02cf a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000689 ;
+    owl:annotatedTarget obo:HP_0025408 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal spleen morphology" ;
+    sssom:subject_label "abnormal spleen morphology" ;
+    sssom:uuid "ab8c5b931c11528ea1c98917b9de02cf"^^<xsd:string> .
+
+sssom:ac1c783168f55df4b1b850918a72e214 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004882 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged lung" ;
+    sssom:uuid "ac1c783168f55df4b1b850918a72e214"^^<xsd:string> .
+
+sssom:ac731d20813b580e9c0f9d0cd039b7c3 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000499 ;
+    owl:annotatedTarget obo:HP_0011102 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Ileal atresia" ;
+    sssom:subject_label "absent ileum" ;
+    sssom:uuid "ac731d20813b580e9c0f9d0cd039b7c3"^^<xsd:string> .
+
+sssom:af190c59b67b5a5783b1cca443849f10 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0008725 ;
+    owl:annotatedTarget obo:HP_0030718 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Right atrial enlargement" ;
+    sssom:subject_label "enlarged heart atrium" ;
+    sssom:uuid "af190c59b67b5a5783b1cca443849f10"^^<xsd:string> .
+
+sssom:b335b572125153b58025a9e659f39c58 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000157 ;
+    owl:annotatedTarget obo:HP_0000766 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the sternum" ;
+    sssom:subject_label "abnormal sternum morphology" ;
+    sssom:uuid "b335b572125153b58025a9e659f39c58"^^<xsd:string> .
+
+sssom:b39dfb52dd6f518bad45cf3830a78ef6 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0011882 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged duodenum" ;
+    sssom:uuid "b39dfb52dd6f518bad45cf3830a78ef6"^^<xsd:string> .
+
+sssom:b90cafd7e20a5c3693da3e06f946b1ff a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_000095 ;
+    owl:annotatedTarget obo:HP_0002143 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the spinal cord" ;
+    sssom:subject_label "abnormal spinal cord morphology" ;
+    sssom:uuid "b90cafd7e20a5c3693da3e06f946b1ff"^^<xsd:string> .
+
+sssom:b95e07c469fa578784469e63761206fc a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009476 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged cecum" ;
+    sssom:uuid "b95e07c469fa578784469e63761206fc"^^<xsd:string> .
+
+sssom:bd56f708b44859cea0b1e676fbd430b8 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0010880 ;
+    owl:annotatedTarget obo:HP_0002032 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Esophageal atresia" ;
+    sssom:subject_label "small esophagus" ;
+    sssom:uuid "bd56f708b44859cea0b1e676fbd430b8"^^<xsd:string> .
+
+sssom:bd60a69e62ef5facaa28481540f5b568 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001200 ;
+    owl:annotatedTarget obo:HP_0001072 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Thickened skin" ;
+    sssom:subject_label "thick skin" ;
+    sssom:uuid "bd60a69e62ef5facaa28481540f5b568"^^<xsd:string> .
+
+sssom:bd68e8caeece58a6b02ed5243ecf9b34 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000598 ;
+    owl:annotatedTarget obo:HP_0410042 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal liver morphology" ;
+    sssom:subject_label "abnormal liver morphology" ;
+    sssom:uuid "bd68e8caeece58a6b02ed5243ecf9b34"^^<xsd:string> .
+
+sssom:c0adcdedd67b55929e4438b88b41777c a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002971 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "abnormal brown fat morphology" ;
+    sssom:uuid "c0adcdedd67b55929e4438b88b41777c"^^<xsd:string> .
+
+sssom:c0f77f49d5e15e4683815d55761dddad a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001148 ;
+    owl:annotatedTarget obo:HP_0000053 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Macroorchidism" ;
+    sssom:subject_label "enlarged testes" ;
+    sssom:uuid "c0f77f49d5e15e4683815d55761dddad"^^<xsd:string> .
+
+sssom:c110789844ce565faaeb8128c6e9c40b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000762 ;
+    owl:annotatedTarget obo:HP_0030809 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal tongue morphology" ;
+    sssom:subject_label "abnormal tongue morphology" ;
+    sssom:uuid "c110789844ce565faaeb8128c6e9c40b"^^<xsd:string> .
+
+sssom:c16fc30b147358ac9cf88e1eb6663ef7 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001159 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "absent prostate gland" ;
+    sssom:uuid "c16fc30b147358ac9cf88e1eb6663ef7"^^<xsd:string> .
+
+sssom:c5bc483d04d0570c84c6a21479891e1a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002764 ;
+    owl:annotatedTarget obo:HP_0005736 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Short tibia" ;
+    sssom:subject_label "short tibia" ;
+    sssom:uuid "c5bc483d04d0570c84c6a21479891e1a"^^<xsd:string> .
+
+sssom:cc033e371d235b3aadad6411e3e9c547 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000618 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "small salivary gland" ;
+    sssom:uuid "cc033e371d235b3aadad6411e3e9c547"^^<xsd:string> .
+
+sssom:ceae616004eb5a6baa8c3a1aea3de97d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002774 ;
+    owl:annotatedTarget obo:HP_0008687 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hypoplasia of the prostate" ;
+    sssom:subject_label "small prostate gland" ;
+    sssom:uuid "ceae616004eb5a6baa8c3a1aea3de97d"^^<xsd:string> .
+
+sssom:d0448946f1fe5665a771dd4f53cde0b0 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009342 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged gall bladder" ;
+    sssom:uuid "d0448946f1fe5665a771dd4f53cde0b0"^^<xsd:string> .
+
+sssom:d04b5a9660785579a5218bbffa36db84 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003578 ;
+    owl:annotatedTarget obo:HP_0010463 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Aplasia of the ovary" ;
+    sssom:subject_label "absent ovary" ;
+    sssom:uuid "d04b5a9660785579a5218bbffa36db84"^^<xsd:string> .
+
+sssom:d0ca8ce559f65c39b0d3271b3ecd4f62 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009252 ;
+    owl:annotatedTarget obo:HP_0010476 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Aplasia/Hypoplasia of the bladder" ;
+    sssom:subject_label "absent urinary bladder" ;
+    sssom:uuid "d0ca8ce559f65c39b0d3271b3ecd4f62"^^<xsd:string> .
+
+sssom:d16d27104d0b5ffb82ecd506110fbc3f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001199 ;
+    owl:annotatedTarget obo:HP_0000963 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Thin skin" ;
+    sssom:subject_label "thin skin" ;
+    sssom:uuid "d16d27104d0b5ffb82ecd506110fbc3f"^^<xsd:string> .
+
+sssom:d1e7f9ccab5f5380a1d9decd52c9c1c1 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002397 ;
+    owl:annotatedTarget obo:HP_0005561 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of bone marrow cell morphology" ;
+    sssom:subject_label "abnormal bone marrow morphology" ;
+    sssom:uuid "d1e7f9ccab5f5380a1d9decd52c9c1c1"^^<xsd:string> .
+
+sssom:d28b0990cbbb5c538274b6c054d4328d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005313 ;
+    owl:annotatedTarget obo:HP_0011743 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Adrenal gland agenesis" ;
+    sssom:subject_label "absent adrenal gland" ;
+    sssom:uuid "d28b0990cbbb5c538274b6c054d4328d"^^<xsd:string> .
+
+sssom:d5e97df74ae8557ab5dfb9e7a9e0a00c a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004549 ;
+    owl:annotatedTarget obo:HP_0100682 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Tracheal atresia" ;
+    sssom:subject_label "small trachea" ;
+    sssom:uuid "d5e97df74ae8557ab5dfb9e7a9e0a00c"^^<xsd:string> .
+
+sssom:d62c13a75a825ed397a28dde5df80a4b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003678 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "absent ear lobes" ;
+    sssom:uuid "d62c13a75a825ed397a28dde5df80a4b"^^<xsd:string> .
+
+sssom:d78086f388955af69ffd917b150a7c78 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003189 ;
+    owl:annotatedTarget obo:HP_0100240 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Synostosis of joints" ;
+    sssom:subject_label "fused joints" ;
+    sssom:uuid "d78086f388955af69ffd917b150a7c78"^^<xsd:string> .
+
+sssom:d849969196335ecdb4f96b90890edef6 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003321 ;
+    owl:annotatedTarget obo:HP_0002575 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Tracheoesophageal fistula" ;
+    sssom:subject_label "tracheoesophageal fistula" ;
+    sssom:uuid "d849969196335ecdb4f96b90890edef6"^^<xsd:string> .
+
+sssom:da4d49e00842515eb5e11f1a33db839f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009552 ;
+    owl:annotatedTarget obo:HP_0041047 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Bladder outlet obstruction" ;
+    sssom:subject_label "urinary bladder obstruction" ;
+    sssom:uuid "da4d49e00842515eb5e11f1a33db839f"^^<xsd:string> .
+
+sssom:db14fb54475a5ac28ab078aafc4ca3f4 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003604 ;
+    owl:annotatedTarget obo:HP_0000122 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Unilateral renal agenesis" ;
+    sssom:subject_label "single kidney" ;
+    sssom:uuid "db14fb54475a5ac28ab078aafc4ca3f4"^^<xsd:string> .
+
+sssom:db7bb6ae95415d4ea2cff63dad5d7724 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000558 ;
+    owl:annotatedTarget obo:HP_0002992 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of tibia morphology" ;
+    sssom:subject_label "abnormal tibia morphology" ;
+    sssom:uuid "db7bb6ae95415d4ea2cff63dad5d7724"^^<xsd:string> .
+
+sssom:dd13a3b2fccb54859ebb80c9daff6d53 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000266 ;
+    owl:annotatedTarget obo:HP_0001654 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal heart morphology" ;
+    sssom:subject_label "abnormal heart morphology" ;
+    sssom:uuid "dd13a3b2fccb54859ebb80c9daff6d53"^^<xsd:string> .
+
+sssom:dd49f34b50ef53f0bddb7320287d2214 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000538 ;
+    owl:annotatedTarget obo:HP_0025487 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of bladder morphology" ;
+    sssom:subject_label "abnormal urinary bladder morphology" ;
+    sssom:uuid "dd49f34b50ef53f0bddb7320287d2214"^^<xsd:string> .
+
+sssom:de873a21c2c05f38a7497124c02c53c0 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005358 ;
+    owl:annotatedTarget obo:HP_0011063 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of incisor morphology" ;
+    sssom:subject_label "anbornormal incisor morphology" ;
+    sssom:uuid "de873a21c2c05f38a7497124c02c53c0"^^<xsd:string> .
+
+sssom:e0c2e7880a3e5e52bf2cdfa9f8ea1eaa a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001126 ;
+    owl:annotatedTarget obo:HP_0031065 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal ovarian morphology" ;
+    sssom:subject_label "abnormal ovary morphology" ;
+    sssom:uuid "e0c2e7880a3e5e52bf2cdfa9f8ea1eaa"^^<xsd:string> .
+
+sssom:e0fc09f41f3753da9860dd0ae39ce06c a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009516 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged salivary gland" ;
+    sssom:uuid "e0fc09f41f3753da9860dd0ae39ce06c"^^<xsd:string> .
+
+sssom:e402891c176a561f8e790b1eaf349573 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000706 ;
+    owl:annotatedTarget obo:HP_0000778 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Hypoplasia of the thymus" ;
+    sssom:subject_label "small thymus" ;
+    sssom:uuid "e402891c176a561f8e790b1eaf349573"^^<xsd:string> .
+
+sssom:e5a8d397b82d5759943920b208b65a84 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000613 ;
+    owl:annotatedTarget obo:HP_0010286 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal salivary gland morphology" ;
+    sssom:subject_label "abnormal salivary gland morphology" ;
+    sssom:uuid "e5a8d397b82d5759943920b208b65a84"^^<xsd:string> .
+
+sssom:e607d4d766095ee092b9552a89edfb59 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000690 ;
+    owl:annotatedTarget obo:HP_0001746 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Asplenia" ;
+    sssom:subject_label "absent spleen" ;
+    sssom:uuid "e607d4d766095ee092b9552a89edfb59"^^<xsd:string> .
+
+sssom:e7f2954d6626583eb60183871ba52f33 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003642 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "absent seminal vesicle" ;
+    sssom:uuid "e7f2954d6626583eb60183871ba52f33"^^<xsd:string> .
+
+sssom:e8413124c9985257b33c90668de285be a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0013129 ;
+    owl:annotatedTarget obo:HP_0011073 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of dental color" ;
+    sssom:subject_label "abnormal tooth colour" ;
+    sssom:uuid "e8413124c9985257b33c90668de285be"^^<xsd:string> .
+
+sssom:e86e32444356512eb0d303c1f4fa1219 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004818 ;
+    owl:annotatedTarget obo:HP_0003712 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Skeletal muscle hypertrophy" ;
+    sssom:subject_label "increased skeletal muscle mass" ;
+    sssom:uuid "e86e32444356512eb0d303c1f4fa1219"^^<xsd:string> .
+
+sssom:ebd1942cf03f56f1b2b8514f80f0fc75 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004727 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "absent epididymus" ;
+    sssom:uuid "ebd1942cf03f56f1b2b8514f80f0fc75"^^<xsd:string> .
+
+sssom:ecdcd377f02b50a68b5f24322c303342 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001093 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "small trigeminal ganglion" ;
+    sssom:uuid "ecdcd377f02b50a68b5f24322c303342"^^<xsd:string> .
+
+sssom:ed799c88f01254699e23af6a589d21e5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0009477 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "small cecum" ;
+    sssom:uuid "ed799c88f01254699e23af6a589d21e5"^^<xsd:string> .
+
+sssom:ee37cba5990c5dae824370b6a721cbe5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003296 ;
+    owl:annotatedTarget obo:HP_0004388 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Microcolon" ;
+    sssom:subject_label "microcolon" ;
+    sssom:uuid "ee37cba5990c5dae824370b6a721cbe5"^^<xsd:string> .
+
+sssom:ef94cf00d33c57f6bc4858af94550031 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000639 ;
+    owl:annotatedTarget obo:HP_0011732 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of adrenal morphology" ;
+    sssom:subject_label "abnormal adrenal gland morphology" ;
+    sssom:uuid "ef94cf00d33c57f6bc4858af94550031"^^<xsd:string> .
+
+sssom:f0766407a0055cab87d1288cf4d27e4f a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000005 ;
+    owl:annotatedTarget obo:HP_0000468 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Increased adipose tissue around neck" ;
+    sssom:subject_label "increased brown fat amount" ;
+    sssom:uuid "f0766407a0055cab87d1288cf4d27e4f"^^<xsd:string> .
+
+sssom:f248ff19bf49537e8801e6e2ff508d27 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005084 ;
+    owl:annotatedTarget obo:HP_0012437 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal gallbladder morphology" ;
+    sssom:subject_label "abnormal gall bladder morphology" ;
+    sssom:uuid "f248ff19bf49537e8801e6e2ff508d27"^^<xsd:string> .
+
+sssom:f395af7a46335813978e9693384b5b1b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004545 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No Term Found" ;
+    sssom:subject_label "enlarged esophagus" ;
+    sssom:uuid "f395af7a46335813978e9693384b5b1b"^^<xsd:string> .
+
+sssom:fd1b3cb5bbdb5353affa7ab0de597c12 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000705 ;
+    owl:annotatedTarget obo:HP_0005359 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Aplasia of the thymus" ;
+    sssom:subject_label "athymia" ;
+    sssom:uuid "fd1b3cb5bbdb5353affa7ab0de597c12"^^<xsd:string> .
+
+sssom:fd7d9157c8b750aa82c38039b3bfd1e8 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001211 ;
+    owl:annotatedTarget obo:HP_0007392 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Excessive wrinkled skin" ;
+    sssom:subject_label "wrinkled skin" ;
+    sssom:uuid "fd7d9157c8b750aa82c38039b3bfd1e8"^^<xsd:string> .
+
+sssom:fdad2d5b7f4656cb8a35dd2fe246f13c a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003320 ;
+    owl:annotatedTarget obo:HP_0000143 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Rectovaginal fistula" ;
+    sssom:subject_label "rectovaginal fistula" ;
+    sssom:uuid "fdad2d5b7f4656cb8a35dd2fe246f13c"^^<xsd:string> .
+

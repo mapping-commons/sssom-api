@@ -1,0 +1,526 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:2d803d7436655c06af3d42edeef5c691 a sssom:MappingSet ;
+    dcterms:creator orcid:0000-0002-2232-0967 ;
+    dcterms:description "The IMPC Mouse Morphology Mappings: X-ray Test" ;
+    dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    sssom:mapping_provider <https://www.mousephenotype.org> ;
+    sssom:mapping_set_id <file:///Users/anitac/Documents/GitHub/ols-mapping-commons/mp_hp_xry_impc> ;
+    sssom:mappings sssom:006859067f0a5e2986751aebf39fb36d,
+        sssom:01cb319276285940b7b46db42db85504,
+        sssom:09490b3fdd2e5671a0cb876c9bc3f06a,
+        sssom:0e7e8f6bc6a85275b2609b6bf58a30af,
+        sssom:10b53e1f4aee56669e3dad971278928a,
+        sssom:1165d63b5e5958f68d814656256f02b7,
+        sssom:1dae1a20708156fa8213381e8f0f7ad3,
+        sssom:1ee6bdc24265537b97b7be1150d023f2,
+        sssom:263cc5174fc05945ac599902e85acac8,
+        sssom:2774ba1d4feb5bb7a6a303324a0d6407,
+        sssom:2a4383e8c4195dfb95decbc1487b5e70,
+        sssom:2a817b9939745fcd827eda86f28bf485,
+        sssom:2e0d1c0b643958cdb2b4c740728659bc,
+        sssom:4066975a90ba53febdf538791f61f870,
+        sssom:42d031a25193521d9567aa642dab4b8a,
+        sssom:4740dd5c73895b73bf84c3cfccc8bf95,
+        sssom:48c8748e44b45ff7a1a2e51f5aad00e9,
+        sssom:4bb008ab82375c06b6ee52b86b170769,
+        sssom:5731274f0eab5e6caa3745ef0055e8aa,
+        sssom:57f444ba873d58bbbf5cfe8d94aaacac,
+        sssom:64c37bc90c85527ea71fa34a28454d02,
+        sssom:657523b9c3de5788ab7cdaae6e4357c2,
+        sssom:698177216c7d5d22ac99e6c59d39ca97,
+        sssom:749688b9ec7c50449872a9caeeb58274,
+        sssom:758f236fac7a5a0caaadc1f297440914,
+        sssom:7624e9abeff75e53b6053915f130e173,
+        sssom:7adb8f5200515ec095e2aa273f3e9bdd,
+        sssom:8e53ff397f83574ba8026922c9da8ddb,
+        sssom:93cd4aa7f4db58a0bfcac539f33f2a59,
+        sssom:93d1909d95a85143863c9a957363a2c1,
+        sssom:990cdb339ad1503897fc277dd6d3ca3b,
+        sssom:a7e636215a875a07be9fce5e2485d9a4,
+        sssom:a830b38f53a95ecd90a409ca91d00cfb,
+        sssom:ac402a6e5f545d2eb86fb8a18e97fe42,
+        sssom:b9c7081aa4835c0891f40d60e7c35565,
+        sssom:be8e7bb3e6175bedb54fc955304eb2d3,
+        sssom:c11ed0b8a8d1536e970605cab10bacbf,
+        sssom:c21e232546f35865908fd3805aeb0830,
+        sssom:c562a2e79d565ccda044fc3a40aa1346,
+        sssom:c5897bd408705075bf7f9d91b9184ff2,
+        sssom:c5bc483d04d0570c84c6a21479891e1a,
+        sssom:c74179c6851458329e2d6612bfa1b165,
+        sssom:c98642a376d15d2e8619f9861c5799e2,
+        sssom:d0347b1db2de556c84cca9aa4558e7b8,
+        sssom:db7bb6ae95415d4ea2cff63dad5d7724,
+        sssom:de4b5e43b4fb5291be95cd60c59e4fff,
+        sssom:e1e775ca4f935f96817a855c743702f7,
+        sssom:e5419e6858055fdcb074984700aa8eb5,
+        sssom:ea29638c5298588c8dd266385a4721be,
+        sssom:ec38c57fac4a50b6a3fd5713a217456e,
+        sssom:f711172bef0c5b4bb5b900845e7ea0af ;
+    sssom:uuid "2d803d7436655c06af3d42edeef5c691"^^<xsd:string> .
+
+sssom:006859067f0a5e2986751aebf39fb36d a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004647 ;
+    owl:annotatedTarget obo:HP_0030305 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Decreased number of vertebrae" ;
+    sssom:subject_label "decreased lumbar vertebrae number" ;
+    sssom:uuid "006859067f0a5e2986751aebf39fb36d"^^<xsd:string> .
+
+sssom:01cb319276285940b7b46db42db85504 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003048 ;
+    owl:annotatedTarget obo:HP_0003468 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal vertebral morphology" ;
+    sssom:subject_label "abnormal cervical vertebrae morphology" ;
+    sssom:uuid "01cb319276285940b7b46db42db85504"^^<xsd:string> .
+
+sssom:09490b3fdd2e5671a0cb876c9bc3f06a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004357 ;
+    owl:annotatedTarget obo:HP_0002992 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of tibia morphology" ;
+    sssom:subject_label "long tibia" ;
+    sssom:uuid "09490b3fdd2e5671a0cb876c9bc3f06a"^^<xsd:string> .
+
+sssom:0e7e8f6bc6a85275b2609b6bf58a30af a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004650 ;
+    owl:annotatedTarget obo:HP_0002946 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Supernumerary vertebrae" ;
+    sssom:subject_label "increased lumbar vertebrae number" ;
+    sssom:uuid "0e7e8f6bc6a85275b2609b6bf58a30af"^^<xsd:string> .
+
+sssom:10b53e1f4aee56669e3dad971278928a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004599 ;
+    owl:annotatedTarget obo:HP_0008438 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Vertebral arch anomaly" ;
+    sssom:subject_label "abnormal vertebral arch morphology" ;
+    sssom:uuid "10b53e1f4aee56669e3dad971278928a"^^<xsd:string> .
+
+sssom:1165d63b5e5958f68d814656256f02b7 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004083 ;
+    owl:annotatedTarget obo:HP_0005817 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Postaxial polysyndactyly of foot" ;
+    sssom:subject_label "polysyndactyly" ;
+    sssom:uuid "1165d63b5e5958f68d814656256f02b7"^^<xsd:string> .
+
+sssom:1dae1a20708156fa8213381e8f0f7ad3 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004174 ;
+    owl:annotatedTarget obo:HP_0010674 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the curvature of the vertebral column" ;
+    sssom:subject_label "abnormal spine curvature" ;
+    sssom:uuid "1dae1a20708156fa8213381e8f0f7ad3"^^<xsd:string> .
+
+sssom:1ee6bdc24265537b97b7be1150d023f2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000154 ;
+    owl:annotatedTarget obo:HP_0000902 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Rib fusion" ;
+    sssom:subject_label "rib fusion" ;
+    sssom:uuid "1ee6bdc24265537b97b7be1150d023f2"^^<xsd:string> .
+
+sssom:263cc5174fc05945ac599902e85acac8 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004613 ;
+    owl:annotatedTarget obo:HP_0002948 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Vertebral fusion" ;
+    sssom:subject_label "fusion of vertebral arches" ;
+    sssom:uuid "263cc5174fc05945ac599902e85acac8"^^<xsd:string> .
+
+sssom:2774ba1d4feb5bb7a6a303324a0d6407 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003345 ;
+    owl:annotatedTarget obo:HP_0000921 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Missing ribs" ;
+    sssom:subject_label "decreased rib number" ;
+    sssom:uuid "2774ba1d4feb5bb7a6a303324a0d6407"^^<xsd:string> .
+
+sssom:2a4383e8c4195dfb95decbc1487b5e70 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000149 ;
+    owl:annotatedTarget obo:HP_0000782 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the scapula" ;
+    sssom:subject_label "abnormal scapula morphology" ;
+    sssom:uuid "2a4383e8c4195dfb95decbc1487b5e70"^^<xsd:string> .
+
+sssom:2a817b9939745fcd827eda86f28bf485 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004609 ;
+    owl:annotatedTarget obo:HP_0002948 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Vertebral fusion" ;
+    sssom:subject_label "vertebral fusion" ;
+    sssom:uuid "2a817b9939745fcd827eda86f28bf485"^^<xsd:string> .
+
+sssom:2e0d1c0b643958cdb2b4c740728659bc a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0010102 ;
+    owl:annotatedTarget obo:HP_0002946 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Supernumerary vertebrae" ;
+    sssom:subject_label "increased caudal vertebrae number" ;
+    sssom:uuid "2e0d1c0b643958cdb2b4c740728659bc"^^<xsd:string> .
+
+sssom:4066975a90ba53febdf538791f61f870 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002544 ;
+    owl:annotatedTarget obo:HP_0001156 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Brachydactyly" ;
+    sssom:subject_label "brachydactyly" ;
+    sssom:uuid "4066975a90ba53febdf538791f61f870"^^<xsd:string> .
+
+sssom:42d031a25193521d9567aa642dab4b8a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003047 ;
+    owl:annotatedTarget obo:HP_0003468 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal vertebral morphology" ;
+    sssom:subject_label "abnormal thoracic vertebrae morphology" ;
+    sssom:uuid "42d031a25193521d9567aa642dab4b8a"^^<xsd:string> .
+
+sssom:4740dd5c73895b73bf84c3cfccc8bf95 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003049 ;
+    owl:annotatedTarget obo:HP_0003468 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal vertebral morphology" ;
+    sssom:subject_label "abnormal lumbar vertebrae morphology" ;
+    sssom:uuid "4740dd5c73895b73bf84c3cfccc8bf95"^^<xsd:string> .
+
+sssom:48c8748e44b45ff7a1a2e51f5aad00e9 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002759 ;
+    owl:annotatedTarget obo:HP_0003468 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal vertebral morphology" ;
+    sssom:subject_label "abnormal caudal vertebrae morphology" ;
+    sssom:uuid "48c8748e44b45ff7a1a2e51f5aad00e9"^^<xsd:string> .
+
+sssom:4bb008ab82375c06b6ee52b86b170769 a owl:Axiom ;
+    owl:annotatedProperty skos:exactMatch ;
+    owl:annotatedSource obo:MP_0005270 ;
+    owl:annotatedTarget obo:HP_0010668 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the zygomatic bone" ;
+    sssom:subject_label "abnormal zygomatic bone morphology" ;
+    sssom:uuid "4bb008ab82375c06b6ee52b86b170769"^^<xsd:string> .
+
+sssom:5731274f0eab5e6caa3745ef0055e8aa a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002110 ;
+    owl:annotatedTarget obo:HP_0011297 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal digit morphology" ;
+    sssom:subject_label "abnormal digit morphology" ;
+    sssom:uuid "5731274f0eab5e6caa3745ef0055e8aa"^^<xsd:string> .
+
+sssom:57f444ba873d58bbbf5cfe8d94aaacac a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000564 ;
+    owl:annotatedTarget obo:HP_0001159 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Syndactyly" ;
+    sssom:subject_label "syndactyly" ;
+    sssom:uuid "57f444ba873d58bbbf5cfe8d94aaacac"^^<xsd:string> .
+
+sssom:64c37bc90c85527ea71fa34a28454d02 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000162 ;
+    owl:annotatedTarget obo:HP_0002938 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Lumbar hyperlordosis" ;
+    sssom:subject_label "lordosis" ;
+    sssom:uuid "64c37bc90c85527ea71fa34a28454d02"^^<xsd:string> .
+
+sssom:657523b9c3de5788ab7cdaae6e4357c2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002932 ;
+    owl:annotatedTarget obo:HP_0001367 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal joint morphology" ;
+    sssom:subject_label "abnormal joint morphology" ;
+    sssom:uuid "657523b9c3de5788ab7cdaae6e4357c2"^^<xsd:string> .
+
+sssom:698177216c7d5d22ac99e6c59d39ca97 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000552 ;
+    owl:annotatedTarget obo:HP_0045009 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal morphology of the radius" ;
+    sssom:subject_label "abnormal radius morphology" ;
+    sssom:uuid "698177216c7d5d22ac99e6c59d39ca97"^^<xsd:string> .
+
+sssom:749688b9ec7c50449872a9caeeb58274 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000150 ;
+    owl:annotatedTarget obo:HP_0001547 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the rib cage" ;
+    sssom:subject_label "abnormal rib morphology" ;
+    sssom:uuid "749688b9ec7c50449872a9caeeb58274"^^<xsd:string> .
+
+sssom:758f236fac7a5a0caaadc1f297440914 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000137 ;
+    owl:annotatedTarget obo:HP_0003468 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal vertebral morphology" ;
+    sssom:subject_label "abnormal vertebrae morphology" ;
+    sssom:uuid "758f236fac7a5a0caaadc1f297440914"^^<xsd:string> .
+
+sssom:7624e9abeff75e53b6053915f130e173 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0001539 ;
+    owl:annotatedTarget obo:HP_0030305 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Decreased number of vertebrae" ;
+    sssom:subject_label "decreased caudal vertebrae number" ;
+    sssom:uuid "7624e9abeff75e53b6053915f130e173"^^<xsd:string> .
+
+sssom:7adb8f5200515ec095e2aa273f3e9bdd a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004648 ;
+    owl:annotatedTarget obo:HP_0030305 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Decreased number of vertebrae" ;
+    sssom:subject_label "decreased thoracic vertebrae number" ;
+    sssom:uuid "7adb8f5200515ec095e2aa273f3e9bdd"^^<xsd:string> .
+
+sssom:8e53ff397f83574ba8026922c9da8ddb a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000438 ;
+    owl:annotatedTarget obo:HP_0002648 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of calvarial morphology" ;
+    sssom:subject_label "abnormal cranium morphology" ;
+    sssom:uuid "8e53ff397f83574ba8026922c9da8ddb"^^<xsd:string> .
+
+sssom:93cd4aa7f4db58a0bfcac539f33f2a59 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005298 ;
+    owl:annotatedTarget obo:HP_0000889 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the clavicle" ;
+    sssom:subject_label "abnormal clavicle morphology" ;
+    sssom:uuid "93cd4aa7f4db58a0bfcac539f33f2a59"^^<xsd:string> .
+
+sssom:93d1909d95a85143863c9a957363a2c1 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004509 ;
+    owl:annotatedTarget obo:HP_0002644 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of pelvic girdle bone morphology" ;
+    sssom:subject_label "abnormal pelvic girdle bone morphology" ;
+    sssom:uuid "93d1909d95a85143863c9a957363a2c1"^^<xsd:string> .
+
+sssom:990cdb339ad1503897fc277dd6d3ca3b a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004649 ;
+    owl:annotatedTarget obo:HP_0030305 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Decreased number of vertebrae" ;
+    sssom:subject_label "decreased sacral vertebrae number" ;
+    sssom:uuid "990cdb339ad1503897fc277dd6d3ca3b"^^<xsd:string> .
+
+sssom:a7e636215a875a07be9fce5e2485d9a4 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000559 ;
+    owl:annotatedTarget obo:HP_0002823 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of femur morphology" ;
+    sssom:subject_label "abnormal femur morphology" ;
+    sssom:uuid "a7e636215a875a07be9fce5e2485d9a4"^^<xsd:string> .
+
+sssom:a830b38f53a95ecd90a409ca91d00cfb a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0010099 ;
+    owl:annotatedTarget obo:HP_0001547 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of the rib cage" ;
+    sssom:subject_label "abnormal thoracic cage shape" ;
+    sssom:uuid "a830b38f53a95ecd90a409ca91d00cfb"^^<xsd:string> .
+
+sssom:ac402a6e5f545d2eb86fb8a18e97fe42 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0010100 ;
+    owl:annotatedTarget obo:HP_0002946 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Supernumerary vertebrae" ;
+    sssom:subject_label "increased cervical vertebrae number" ;
+    sssom:uuid "ac402a6e5f545d2eb86fb8a18e97fe42"^^<xsd:string> .
+
+sssom:b9c7081aa4835c0891f40d60e7c35565 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000480 ;
+    owl:annotatedTarget sssom:NoTermFound ;
+    sssom:mapping_justification semapv:ManualMappingCuration ;
+    sssom:object_label "No term found" ;
+    sssom:subject_label "increased rib number" ;
+    sssom:uuid "b9c7081aa4835c0891f40d60e7c35565"^^<xsd:string> .
+
+sssom:be8e7bb3e6175bedb54fc955304eb2d3 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005296 ;
+    owl:annotatedTarget obo:HP_0031095 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal humerus morphology" ;
+    sssom:subject_label "abnormal humerus morphology" ;
+    sssom:uuid "be8e7bb3e6175bedb54fc955304eb2d3"^^<xsd:string> .
+
+sssom:c11ed0b8a8d1536e970605cab10bacbf a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000455 ;
+    owl:annotatedTarget obo:HP_0000326 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the maxilla" ;
+    sssom:subject_label "abnormal maxilla morphology" ;
+    sssom:uuid "c11ed0b8a8d1536e970605cab10bacbf"^^<xsd:string> .
+
+sssom:c21e232546f35865908fd3805aeb0830 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0003036 ;
+    owl:annotatedTarget obo:HP_0003468 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormal vertebral morphology" ;
+    sssom:subject_label "vertebral transformation" ;
+    sssom:uuid "c21e232546f35865908fd3805aeb0830"^^<xsd:string> .
+
+sssom:c562a2e79d565ccda044fc3a40aa1346 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0005108 ;
+    owl:annotatedTarget obo:HP_0040071 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormal morphology of ulna" ;
+    sssom:subject_label "abnormal ulna morphology" ;
+    sssom:uuid "c562a2e79d565ccda044fc3a40aa1346"^^<xsd:string> .
+
+sssom:c5897bd408705075bf7f9d91b9184ff2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004646 ;
+    owl:annotatedTarget obo:HP_0030305 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Decreased number of vertebrae" ;
+    sssom:subject_label "decreased cervical vertebrae number" ;
+    sssom:uuid "c5897bd408705075bf7f9d91b9184ff2"^^<xsd:string> .
+
+sssom:c5bc483d04d0570c84c6a21479891e1a a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002764 ;
+    owl:annotatedTarget obo:HP_0005736 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Short tibia" ;
+    sssom:subject_label "short tibia" ;
+    sssom:uuid "c5bc483d04d0570c84c6a21479891e1a"^^<xsd:string> .
+
+sssom:c74179c6851458329e2d6612bfa1b165 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0004651 ;
+    owl:annotatedTarget obo:HP_0002946 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Supernumerary vertebrae" ;
+    sssom:subject_label "increased thoracic vertebrae number" ;
+    sssom:uuid "c74179c6851458329e2d6612bfa1b165"^^<xsd:string> .
+
+sssom:c98642a376d15d2e8619f9861c5799e2 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002187 ;
+    owl:annotatedTarget obo:HP_0002991 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of fibula morphology" ;
+    sssom:subject_label "abnormal fibula morphology" ;
+    sssom:uuid "c98642a376d15d2e8619f9861c5799e2"^^<xsd:string> .
+
+sssom:d0347b1db2de556c84cca9aa4558e7b8 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000458 ;
+    owl:annotatedTarget obo:HP_0000277 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of the mandible" ;
+    sssom:subject_label "abnormal mandible morphology" ;
+    sssom:uuid "d0347b1db2de556c84cca9aa4558e7b8"^^<xsd:string> .
+
+sssom:db7bb6ae95415d4ea2cff63dad5d7724 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000558 ;
+    owl:annotatedTarget obo:HP_0002992 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Abnormality of tibia morphology" ;
+    sssom:subject_label "abnormal tibia morphology" ;
+    sssom:uuid "db7bb6ae95415d4ea2cff63dad5d7724"^^<xsd:string> .
+
+sssom:de4b5e43b4fb5291be95cd60c59e4fff a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0010101 ;
+    owl:annotatedTarget obo:HP_0002946 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Supernumerary vertebrae" ;
+    sssom:subject_label "increased sacral vertebrae number" ;
+    sssom:uuid "de4b5e43b4fb5291be95cd60c59e4fff"^^<xsd:string> .
+
+sssom:e1e775ca4f935f96817a855c743702f7 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000565 ;
+    owl:annotatedTarget obo:HP_0012165 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Oligodactyly" ;
+    sssom:subject_label "oligodactyly" ;
+    sssom:uuid "e1e775ca4f935f96817a855c743702f7"^^<xsd:string> .
+
+sssom:e5419e6858055fdcb074984700aa8eb5 a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0002100 ;
+    owl:annotatedTarget obo:HP_0006482 ;
+    sssom:mapping_justification semapv:LogicalReasoning ;
+    sssom:object_label "Abnormality of dental morphology" ;
+    sssom:subject_label "abnormal tooth morphology" ;
+    sssom:uuid "e5419e6858055fdcb074984700aa8eb5"^^<xsd:string> .
+
+sssom:ea29638c5298588c8dd266385a4721be a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000161 ;
+    owl:annotatedTarget obo:HP_0002650 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Scoliosis" ;
+    sssom:subject_label "scoliosis" ;
+    sssom:uuid "ea29638c5298588c8dd266385a4721be"^^<xsd:string> .
+
+sssom:ec38c57fac4a50b6a3fd5713a217456e a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000160 ;
+    owl:annotatedTarget obo:HP_0002808 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Kyphosis" ;
+    sssom:subject_label "kyphosis" ;
+    sssom:uuid "ec38c57fac4a50b6a3fd5713a217456e"^^<xsd:string> .
+
+sssom:f711172bef0c5b4bb5b900845e7ea0af a owl:Axiom ;
+    owl:annotatedProperty skos:closeMatch ;
+    owl:annotatedSource obo:MP_0000562 ;
+    owl:annotatedTarget obo:HP_0010442 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_label "Polydactyly" ;
+    sssom:subject_label "polydactyly" ;
+    sssom:uuid "f711172bef0c5b4bb5b900845e7ea0af"^^<xsd:string> .
+
