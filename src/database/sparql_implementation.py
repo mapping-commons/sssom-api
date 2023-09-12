@@ -191,7 +191,7 @@ class SparqlImpl(SparqlImplementation):
 
     def get_ui_mappings_by_curie(self, search_filter: SearchEntity) -> Iterable[dict]:
         filters = search_filter.dict()
-        
+
         if filters["mapping_justification"] is not None:
             justifs = filters["mapping_justification"]
             filters["mapping_justification"] = [expand_uri(justif) for justif in justifs]
@@ -266,8 +266,9 @@ class SparqlImpl(SparqlImplementation):
                     r[f"{field}"] = bindings_list
 
             r["mappings"] = {
-                "href": request.url_for(name="mappings_by_mapping_set",  # type: ignore
-                                        id=r["uuid"],
+                "href": request.url_for(
+                    name="mappings_by_mapping_set",  # type: ignore
+                    id=r["uuid"],
                 )
             }
             r.pop("_x")
