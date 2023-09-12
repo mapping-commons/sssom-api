@@ -1,10 +1,9 @@
 import argparse
-
-# import json
 import uuid
 from typing import Tuple
 
 import yaml
+from pyld.jsonld import expand
 from rdflib import Graph
 from sssom.parsers import parse_sssom_table
 from sssom.writers import to_json
@@ -58,12 +57,12 @@ def update_context(input: dict) -> dict:
 
 def add_uuid_n_expand_curie(input) -> dict:
     input["@id"], input["uuid"] = generate_uuid([input["mapping_set_id"]])
-    
+
     if not input.get("mappings"):
         return input
-    
+
     context = get_context(input)
-    
+
     for mapping in input["mappings"]:
         mapping_key = [
             mapping["subject_id"],
@@ -73,7 +72,7 @@ def add_uuid_n_expand_curie(input) -> dict:
         ]
         mapping["@id"], mapping["uuid"] = generate_uuid(mapping_key)
         mapping["@type"] = "Mapping"
-        
+
         mapping["subject_id"] = expand_curie(mapping["subject_id"], context)
         mapping["object_id"] = expand_curie(mapping["object_id"], context)
     return input
@@ -87,31 +86,31 @@ def expand_curie(curie, context):
     namespace = curie.split(":")[0]
     if "http" in namespace:
         return curie
-    
+
     return curie.replace(f"{namespace}:", context[f"{namespace}"])
 
 
 def read_mappings(config: str):
-    # mappings_graph = ConjunctiveGraph()
-    mappings_json = []
-
     registry = registry_parser(config)
 
     for _, mapping_set_ref in registry.mapping_set_references.items():  # type: ignore
         print(f"Parsing mapping_set_id {mapping_set_ref.mapping_set_id}")
-        # mappings_graph += to_rdf_graph(parse_sssom_table(mapping_set_ref.mapping_set_id))
-        mappings_json = update_context(add_uuid_n_expand_curie(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id))))
-        
 
-    
+        mapping_jsonld = update_context(
+            add_uuid_n_expand_curie(to_json(parse_sssom_table(mapping_set_ref.mapping_set_id)))
+        )
+
+        context = get_context(mapping_jsonld)
+
+        g = Graph()
+        g.parse(data={"@graph": expand(mapping_jsonld, None)}, format="json-ld")  # type: ignore
+        g.parse(data={"@context": context}, format="json-ld")  # type: ignore
+
+        g.serialize(f"../data/monarch/{mapping_set_ref.local_name}.ttl", format="turtle")
 
 
 def main(args):
-    # mappings_graph = read_mappings(args.registry)
     read_mappings(args.registry)
-    # mappings_graph.serialize("../data/mappings.ttl")
-    # with open("../data/mappings.jsonld", "w", encoding="utf-8") as f:
-    #     json.dump(mappings_graph, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
