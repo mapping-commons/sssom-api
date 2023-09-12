@@ -57,12 +57,12 @@ def _create_facets(data: Iterable[object]) -> FacetInfo:
     iter_mj, iter_pred, iter_conf = itertools.tee(data, 3)
 
     list_iter_conf = list(iter_conf)
-    
+
     if len(list_iter_conf) == 0:
         return FacetInfo(
             mapping_justification={},
             predicate_id={},
-            confidence=ConfidenceInfo(min=0, max=1)
+            confidence=ConfidenceInfo(min=0, max=1),
         )
     return FacetInfo(
         mapping_justification=countby(lambda d: compress_uri(d["mapping_justification"]), iter_mj),
@@ -117,8 +117,6 @@ def parse_fields_type(multivalued_fields: List[str], slots: List[str]) -> Tuple[
     fields_single = set(slots) - fields_list
 
     return fields_list, fields_single
-
-
 
 
 def expand_uri(uri: str) -> str:
