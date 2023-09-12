@@ -189,14 +189,19 @@ class SparqlImpl(SparqlImplementation):
 
     def get_ui_mappings_by_curie(self, search_filter: SearchEntity) -> Iterable[dict]:
         filters = search_filter.dict()
+        
+        if filters["mapping_justification"] != None:
+            justifs = filters["mapping_justification"]
+            filters["mapping_justification"] = [expand_uri(justif) for justif in justifs]
+            
         curies = filters.pop("curies")
-
         filters["subject_id"] = [expand_uri(curie) for curie in curies]
         bindings = self.get_mappings_by_field(filters)
         for row in bindings:
             row["subject_id_curie"] = compress_uri(row["subject_id"])
             row["predicate_id_curie"] = compress_uri(row["predicate_id"])
             row["object_id_curie"] = compress_uri(row["object_id"])
+            row["mapping_justification_curie"] = compress_uri(row["mapping_justification"])
             yield row
 
         filters.pop("subject_id")
@@ -206,6 +211,7 @@ class SparqlImpl(SparqlImplementation):
             row["subject_id_curie"] = compress_uri(row["subject_id"])
             row["predicate_id_curie"] = compress_uri(row["predicate_id"])
             row["object_id_curie"] = compress_uri(row["object_id"])
+            row["mapping_justification_curie"] = compress_uri(row["mapping_justification"])
             yield row
 
     def get_mappings_by_filter(self, filter: Union[List[dict], None]) -> Iterable[dict]:

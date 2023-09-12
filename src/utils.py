@@ -65,7 +65,7 @@ def _create_facets(data: Iterable[object]) -> FacetInfo:
             confidence=ConfidenceInfo(min=0, max=1)
         )
     return FacetInfo(
-        mapping_justification=countby(lambda d: d["mapping_justification"], iter_mj),
+        mapping_justification=countby(lambda d: compress_uri(d["mapping_justification"]), iter_mj),
         predicate_id=countby(lambda d: compress_uri(d["predicate_id"]), iter_pred),
         confidence=ConfidenceInfo(
             min=min(
