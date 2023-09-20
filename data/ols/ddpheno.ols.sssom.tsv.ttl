@@ -1,0 +1,138 @@
+@prefix PMID: <http://www.ncbi.nlm.nih.gov/pubmed/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:f6ec4b20927155e295e739d2a37b3c5a a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "ddpheno.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/ddpheno.ols.sssom.tsv> ;
+    sssom:mappings sssom:11c6d7a1079a5e58bccffa1a5b8ec4ef,
+        sssom:1f9c6dfd49e15c638044449f4c6ac345,
+        sssom:4f83290c495c575695925c8c6486f419,
+        sssom:65ffcca7c9585cfb97c4715d022a850e,
+        sssom:6e0228afd25b53679d658adfff8e89b3,
+        sssom:7652282403ff5cc49a27a49d51ac6900,
+        sssom:7e804ffd7fd75d9089bfc9bfce974519,
+        sssom:8dc0b3af05825c2e8f4b2ec2a9ac99ef,
+        sssom:9182930202fb5d01a4f306eaa970b052,
+        sssom:91b56e8c753a55539016cd3387f46f14,
+        sssom:b209a18effd45563b413bbd5767d7ef0,
+        sssom:be1a5bd69821540987c080ceda2aef49,
+        sssom:e9e1dcd3be375d82b0a6315ad7af7384 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/ddpheno> ;
+            sssom:local_id "ddpheno.ols" ] ;
+    sssom:uuid "f6ec4b20927155e295e739d2a37b3c5a"^^<xsd:string> .
+
+sssom:11c6d7a1079a5e58bccffa1a5b8ec4ef a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000406> ;
+    owl:annotatedTarget PMID:18366659 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "increased vegetative cell size" ;
+    sssom:uuid "11c6d7a1079a5e58bccffa1a5b8ec4ef"^^<xsd:string> .
+
+sssom:1f9c6dfd49e15c638044449f4c6ac345 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000004> ;
+    owl:annotatedTarget PMID:18366659 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "decreased migratory slug size" ;
+    sssom:uuid "1f9c6dfd49e15c638044449f4c6ac345"^^<xsd:string> .
+
+sssom:4f83290c495c575695925c8c6486f419 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000701> ;
+    owl:annotatedTarget PMID:18366659 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "aberrant aggregation territory size" ;
+    sssom:uuid "4f83290c495c575695925c8c6486f419"^^<xsd:string> .
+
+sssom:65ffcca7c9585cfb97c4715d022a850e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000379> ;
+    owl:annotatedTarget PMID:18366659 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "decreased vegetative cell size" ;
+    sssom:uuid "65ffcca7c9585cfb97c4715d022a850e"^^<xsd:string> .
+
+sssom:6e0228afd25b53679d658adfff8e89b3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000207> ;
+    owl:annotatedTarget PMID:18366659 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "increased standing slug length" ;
+    sssom:uuid "6e0228afd25b53679d658adfff8e89b3"^^<xsd:string> .
+
+sssom:7652282403ff5cc49a27a49d51ac6900 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000518> ;
+    owl:annotatedTarget <pato:0000599> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased width" ;
+    sssom:subject_label "increased stalk width" ;
+    sssom:uuid "7652282403ff5cc49a27a49d51ac6900"^^<xsd:string> .
+
+sssom:7e804ffd7fd75d9089bfc9bfce974519 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000208> ;
+    owl:annotatedTarget PMID:18366659 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "decreased standing slug width" ;
+    sssom:uuid "7e804ffd7fd75d9089bfc9bfce974519"^^<xsd:string> .
+
+sssom:8dc0b3af05825c2e8f4b2ec2a9ac99ef a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000383> ;
+    owl:annotatedTarget <pato:0000574> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased length" ;
+    sssom:subject_label "decreased stalk length" ;
+    sssom:uuid "8dc0b3af05825c2e8f4b2ec2a9ac99ef"^^<xsd:string> .
+
+sssom:9182930202fb5d01a4f306eaa970b052 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000165> ;
+    owl:annotatedTarget <pato:0000573> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased length" ;
+    sssom:subject_label "increased stalk length" ;
+    sssom:uuid "9182930202fb5d01a4f306eaa970b052"^^<xsd:string> .
+
+sssom:91b56e8c753a55539016cd3387f46f14 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000140> ;
+    owl:annotatedTarget PMID:4338436 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "decreased slime trail" ;
+    sssom:uuid "91b56e8c753a55539016cd3387f46f14"^^<xsd:string> .
+
+sssom:b209a18effd45563b413bbd5767d7ef0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000549> ;
+    owl:annotatedTarget <pato:0000600> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased width" ;
+    sssom:subject_label "decreased stalk width" ;
+    sssom:uuid "b209a18effd45563b413bbd5767d7ef0"^^<xsd:string> .
+
+sssom:be1a5bd69821540987c080ceda2aef49 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000003> ;
+    owl:annotatedTarget PMID:18366659 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "increased migratory slug length" ;
+    sssom:uuid "be1a5bd69821540987c080ceda2aef49"^^<xsd:string> .
+
+sssom:e9e1dcd3be375d82b0a6315ad7af7384 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <ddpheno:0000160> ;
+    owl:annotatedTarget PMID:18366659 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "increased migratory slug size" ;
+    sssom:uuid "e9e1dcd3be375d82b0a6315ad7af7384"^^<xsd:string> .
+

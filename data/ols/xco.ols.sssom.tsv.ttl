@@ -1,0 +1,1688 @@
+@prefix CHEBI_2: <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:> .
+@prefix MESH: <http://id.nlm.nih.gov/mesh/> .
+@prefix MGI: <http://www.informatics.jax.org/accession/> .
+@prefix PMID: <http://www.ncbi.nlm.nih.gov/pubmed/> .
+@prefix PubChem_Compound: <https://pubchem.ncbi.nlm.nih.gov/compound/> .
+@prefix UniProtKB: <https://www.uniprot.org/uniprot/> .
+@prefix chebi: <http://purl.obolibrary.org/obo/chebi/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:122b4775ea975da893177408de7e7559 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "xco.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/xco.ols.sssom.tsv> ;
+    sssom:mappings sssom:002f7cb77ff75e6e85f1fcaa3a091341,
+        sssom:00765ce9e15a588280cb0ec70b17b729,
+        sssom:007ed1e3880b50bb856913ae9183af5a,
+        sssom:0283308c52845ae9b5c33f517953a569,
+        sssom:03516852682b5c90b0d1ac7ef7fd9b76,
+        sssom:0521d53f87135df9b62f5d494c148a32,
+        sssom:05b53cfbec8152bf9ddc31f8b1f7f125,
+        sssom:069a49b08d4d5c4aa8f14f57fb7d8c02,
+        sssom:0730fc59b4f85de39b53a2a8d2017207,
+        sssom:073d3af276a45fde815294eb106e3628,
+        sssom:0740e23e71355366a1758b3a12e09348,
+        sssom:076678981639550dbef18d9f4ade37c5,
+        sssom:0851521512df522d8c224fda7a89b8c2,
+        sssom:08c8d33cbed8566ba2c08da5e4d35d36,
+        sssom:0aa84c1ca1ea5948bce5ee879821049c,
+        sssom:0b7814a2b2125663bec37284a67c53f1,
+        sssom:0c3e0d30dcaf5d6e9c2218d3c9856445,
+        sssom:0c4328117fd253a4a7a714e7040b23ec,
+        sssom:0ce51d4d6cf85307a37b7e9f5d3ec0c2,
+        sssom:0d7047e5cc1654618079c994e3f64725,
+        sssom:0fab3236d4a95fba8c0ac4718386cf2a,
+        sssom:10c12aa144415977a2835272c3708c0f,
+        sssom:119b9412d3e750c58f5f8158aa5b4c77,
+        sssom:12e09914a5cc54bb93a8bc1e4c865bcd,
+        sssom:1332c5c60fbf5f58a637cad92104f719,
+        sssom:13d5e91aff605813ab2a485995355957,
+        sssom:1525ea7fd6615a7e89dd653dc9f2e64f,
+        sssom:1529b5d07bc95451aaa82191641f42c7,
+        sssom:153e21efa8da5e5f8e27e007ff99ae69,
+        sssom:155014dae82a5ac691f33cfb65c663bd,
+        sssom:15ffbbb854135592b2dfe4671d691b8f,
+        sssom:17b1e8042dd05d6981641a150ed87368,
+        sssom:1898ffad8afa5e3894e4794d4f208eff,
+        sssom:1ddc747131c75b4783ccf877cfc1b6e7,
+        sssom:23a6e1017eff5d47b1c56917cea18e3a,
+        sssom:255dc7b024f35e1fb0b98f38a7f88f43,
+        sssom:27c8c71b921856eb9819463483d07cb7,
+        sssom:29eda7dabd9750798026bc124b1ad1e2,
+        sssom:2aa8a95c1ea75fb9bd3dce88857407c5,
+        sssom:2bca80c84dd2580e9ddb4d25b123f016,
+        sssom:2c0c3712a48951d0804032cb8d618034,
+        sssom:2e7779485dd958ad95b7f647b6bce2a8,
+        sssom:2e85f1b45e08517e8f4d0d60e10b23fe,
+        sssom:315f2b7bf57e575fa69718b8ae9fabc1,
+        sssom:32ed94c450de56e298f4bcb50fc750b6,
+        sssom:33f25942c4f85b9ba3d336a018a64ac6,
+        sssom:349e76d1e7535f54964812c269331794,
+        sssom:3568006cdaac5e9eaa66a3d5357d535c,
+        sssom:39147ca114f4520289ac554d08f57bbe,
+        sssom:3a27a2f768d25aacabb2264e5cbcd00f,
+        sssom:3a34e73a90c95caa848f3a12a2f09200,
+        sssom:3bfc6147bd0d58c4863e2158f132269c,
+        sssom:3c287bdd9ddb52b98295ad5a291ecf74,
+        sssom:425289f9836d5075960a6c18d1fed8eb,
+        sssom:446ff65dcf0d5706b15a010965856f13,
+        sssom:46dba889f2cc5697a7588d1b94a7eaaf,
+        sssom:48d97e5fb8705db5899432be40be6edd,
+        sssom:4fbe0a159c6f5a0baa6d61b7898512ea,
+        sssom:560e04e9511059f483249cb9fa190364,
+        sssom:567551029eaf5f8594d1e20cb223dc4e,
+        sssom:576b223c6c465c5fa586ae3307aec815,
+        sssom:5ab86a3d40095ef4b7fde78af4e3a0cb,
+        sssom:5c0c59cd79b754909cfc14970281acad,
+        sssom:5d1f49e9c2865220bbb2e7ba74b6f3de,
+        sssom:5ea466f73dc659eb98616024d464c843,
+        sssom:5ec34a01828d54deba25ad34ff8b4a44,
+        sssom:605825b41c9d5f9fb6cd6f912d1174b4,
+        sssom:637c77f82ac95b438fe0fd1d80cf0399,
+        sssom:6632b28cfbec5cc982664a45ee4f5013,
+        sssom:67da52fc7d885b23ad11437cffb6bbfa,
+        sssom:69dcee519b175b99b365e0cac7c7a250,
+        sssom:6abbdc1c0b6a58738c71d849c68eb7e7,
+        sssom:6b7dc8e364865a069f2c28b553ba6fff,
+        sssom:6cda648a2b7d5ee1b3d8fd7c328098cb,
+        sssom:715d79dcbcda52d4a93b90dc68802a18,
+        sssom:71ae95f80c1259c0a776b5631e7dac5d,
+        sssom:72502b69a76f5141a0688b69f2a68d2f,
+        sssom:72b9a6b6a01256f5a4f067ca97546725,
+        sssom:74aeb11f0c3b5c0f9874d1d1b1bee520,
+        sssom:75ab44e14703554d8f17a1cdd07de369,
+        sssom:75d8de23195b5f4c9d3528278cb997a3,
+        sssom:77b134d08b6f5de0b933422b4e1601bd,
+        sssom:7b947f5375b35d1a95f04a902f537938,
+        sssom:7dc7f05076ba5cfe9d66f6fdc0de9edb,
+        sssom:80f02243a521598c8ef496cd0db0d195,
+        sssom:81ecb3671bc85cd5a298dc2ea8c1f341,
+        sssom:835b2bd1e4ad548a98b0f11f7cea77e9,
+        sssom:85a992d33dd250728aa636d0d2c98aa9,
+        sssom:8725ffede5ca574e8231a5ee53b6e7c5,
+        sssom:87f92017973854f09c3c2f4438340939,
+        sssom:8c236656ea09596693712d7bb6792c14,
+        sssom:8c3fec9d9c9b5a15ae360fd2603d2068,
+        sssom:8ce034248aee5dbba4085ce2864b894b,
+        sssom:8e77f91b094c5242a0a4479c3386b68d,
+        sssom:8f3ae4a4ca0954d4a52155a6b08eb53c,
+        sssom:93ad15a6f4085797a362e2242fb333cc,
+        sssom:943bfedcc0a354739ef2b88cd80f906e,
+        sssom:96b4edcc49505391baf84ba2c54d02c9,
+        sssom:975877db0b225fc2a9398cbb15341b08,
+        sssom:9b819a7f993b5a07b6a6d43e22946564,
+        sssom:a0458ebb71ef5636a4248f5f81e3a0d8,
+        sssom:a0993242f51757699f252bd2cfe5d650,
+        sssom:a09e2fb42e355d1b87e8e2d5c28131e9,
+        sssom:a2e0f496ab2d555ca38acd3d9e48ccac,
+        sssom:a3712f21dab459638e79021649604491,
+        sssom:a42bd44781d659b5be4fdc09a2c60e83,
+        sssom:a46158778e1450f6a46e892c7e3813c0,
+        sssom:a4c53723ab245904b668e50cf35376b5,
+        sssom:a60350f824b554bcadaae41f37e6840b,
+        sssom:a6098e61e95f504fbbc0f65d4fa6b7b5,
+        sssom:a878ae9a89115f0097ea9d13f1f84f36,
+        sssom:aa8249bda6425daa897eed0948cc9109,
+        sssom:aaca40182a0c57f99ec87e78e871642b,
+        sssom:ac817c05d8f850c2a94327161d204d2f,
+        sssom:af256facce7d54f8859510f5c2ff8ec4,
+        sssom:afc0728f82de51f2b8f77ab3530bc363,
+        sssom:b3606aa9c371505280e62bf062645cf4,
+        sssom:b4a9fcb4bd3652fdba19216abad98b27,
+        sssom:b68f3a14aea65086b3a084139127ffde,
+        sssom:b6f6d9c715075ffab59ed195cad867c2,
+        sssom:b824a7d2536054f28cf51946f1b3f170,
+        sssom:b836456ce2d65f9881be079770f6b6ae,
+        sssom:b9b8ad33b6bf509eb6e459ea111c5a78,
+        sssom:bbb0c90d0f8c5ee0980b5ef27a8c6a8a,
+        sssom:bbb6518096af5586884a7dd9d1424c6f,
+        sssom:bbea3c62c7aa53ba8f3a63991292a47d,
+        sssom:bcb284d08ed1529fbe317c9629f02a2c,
+        sssom:bcb2f6d75af05c8091b5f432e01a9147,
+        sssom:bebff5a5d641534b88e843e5779a6b98,
+        sssom:c4db15e4b9a05332aa9babbfdc2c97da,
+        sssom:c881202901cf5c52a9d53ae30d581c84,
+        sssom:c88607231a885c2bb75df967346d251b,
+        sssom:ca0ef9763e3b5a80a9f0c579d28d14cc,
+        sssom:cb7debfe96065f02bf399a1809723285,
+        sssom:cc7acc534e3c568e882f2909964e6452,
+        sssom:cc7c66c660b05de5b7018b744d80516d,
+        sssom:cd2f3cf59ccf5a82ad5bb3138394f7d5,
+        sssom:cd68424e875d51d58a4404389a803481,
+        sssom:cda4727977ef5f96a1512ad0a911587f,
+        sssom:d1fbd7d9eb195d809916148d56aede27,
+        sssom:d34cb9cb37b75fe78286d659d8153b52,
+        sssom:d4f3df33d6ad5218821ad75d7802bc03,
+        sssom:d5e2ea5020f95e71a28ba14e1a910c9c,
+        sssom:d95bf90ff78951afb225a3c3d4912c0f,
+        sssom:d9c41019033655b8a50f973e7d5fa991,
+        sssom:d9d346c84ac05fa1ba16da1b2c2f5446,
+        sssom:d9f74fec857053d4ab24d5d9920163ea,
+        sssom:da211b00591e51c08a75efd1ee3fd413,
+        sssom:daab8aa82ff75ceda187ea9cdf312c1c,
+        sssom:defdbbb237bb5840a76525779a20610c,
+        sssom:e54ca5deb6e95293b59a1e5aa9d75b1f,
+        sssom:e5c6ff51d4035212884635d0b596254f,
+        sssom:e76b1861734e5db0aafd2e49e42923ec,
+        sssom:e9b7fe1e9d5a5323b1d0ece5d21d4dc8,
+        sssom:e9fc2c08ea6b59cba153f4430b4f8431,
+        sssom:eb17e22c63ff5308987703fe678e7f95,
+        sssom:ebc4979763535454ae4fc3b72d474332,
+        sssom:efa037b14d73538ea92996b83c668a7a,
+        sssom:f037d0f0c5835ea1a5d090b0f49143e1,
+        sssom:f070e2d351e95b8c9eeb4a51471e0671,
+        sssom:f0eb98c2f77b5866bc542a726fe25896,
+        sssom:f3024c2ef49155e5af03639a3753b937,
+        sssom:f58b4a020c24578a8691e85b965e09cc,
+        sssom:f6a95296cf435d84993ad4f343ad8e92,
+        sssom:f821c1e447c859c780e19689e9be6ab9,
+        sssom:f9b5af125f085b7e9c2664453b426710,
+        sssom:f9eb47c143915f75b043e0619f0258a1,
+        sssom:fa11b278e25a5381bb7026ac6689af46,
+        sssom:fafd5d9d2f93523da9a6c97d51e033a3,
+        sssom:ffeda69aa25b5227aaac2313c7009d4b ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/xco> ;
+            sssom:local_id "xco.ols" ] ;
+    sssom:uuid "122b4775ea975da893177408de7e7559"^^<xsd:string> .
+
+sssom:002f7cb77ff75e6e85f1fcaa3a091341 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000442> ;
+    owl:annotatedTarget chebi:17356 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "2-acetamidofluorene" ;
+    sssom:subject_label "controlled 2-acetamidofluorene content diet" ;
+    sssom:uuid "002f7cb77ff75e6e85f1fcaa3a091341"^^<xsd:string> .
+
+sssom:00765ce9e15a588280cb0ec70b17b729 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000178> ;
+    owl:annotatedTarget chebi:9516 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "thapsigargin" ;
+    sssom:subject_label "thapsigargin" ;
+    sssom:uuid "00765ce9e15a588280cb0ec70b17b729"^^<xsd:string> .
+
+sssom:007ed1e3880b50bb856913ae9183af5a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000290> ;
+    owl:annotatedTarget <rgd:1585218> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "peripheral myelin protein 2" ;
+    sssom:uuid "007ed1e3880b50bb856913ae9183af5a"^^<xsd:string> .
+
+sssom:0283308c52845ae9b5c33f517953a569 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000254> ;
+    owl:annotatedTarget chebi:29101 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sodium(1+)" ;
+    sssom:subject_label "sodium ion solution" ;
+    sssom:uuid "0283308c52845ae9b5c33f517953a569"^^<xsd:string> .
+
+sssom:03516852682b5c90b0d1ac7ef7fd9b76 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000351> ;
+    owl:annotatedTarget MESH:D015112 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "4-nitroquinoline N-oxide" ;
+    sssom:uuid "03516852682b5c90b0d1ac7ef7fd9b76"^^<xsd:string> .
+
+sssom:0521d53f87135df9b62f5d494c148a32 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000497> ;
+    owl:annotatedTarget MESH:D010300 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Parkinson disease inducing chemical" ;
+    sssom:uuid "0521d53f87135df9b62f5d494c148a32"^^<xsd:string> .
+
+sssom:05b53cfbec8152bf9ddc31f8b1f7f125 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000267> ;
+    owl:annotatedTarget chebi:8005 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "peptidoglycan" ;
+    sssom:subject_label "peptidoglycan-polysaccharide" ;
+    sssom:uuid "05b53cfbec8152bf9ddc31f8b1f7f125"^^<xsd:string> .
+
+sssom:069a49b08d4d5c4aa8f14f57fb7d8c02 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000123> ;
+    owl:annotatedTarget chebi:35358 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sulfonamide" ;
+    sssom:subject_label "sulfonamide" ;
+    sssom:uuid "069a49b08d4d5c4aa8f14f57fb7d8c02"^^<xsd:string> .
+
+sssom:0730fc59b4f85de39b53a2a8d2017207 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000485> ;
+    owl:annotatedTarget <file:///work/NCBI_Taxon:281310> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Haemophilus influenzae 86-028NP H2 mutant" ;
+    sssom:uuid "0730fc59b4f85de39b53a2a8d2017207"^^<xsd:string> .
+
+sssom:073d3af276a45fde815294eb106e3628 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000253> ;
+    owl:annotatedTarget chebi:29101 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sodium(1+)" ;
+    sssom:subject_label "sodium ion" ;
+    sssom:uuid "073d3af276a45fde815294eb106e3628"^^<xsd:string> .
+
+sssom:0740e23e71355366a1758b3a12e09348 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000191> ;
+    owl:annotatedTarget chebi:48432 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "angiotensin II" ;
+    sssom:subject_label "angiotensin II" ;
+    sssom:uuid "0740e23e71355366a1758b3a12e09348"^^<xsd:string> .
+
+sssom:076678981639550dbef18d9f4ade37c5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000342> ;
+    owl:annotatedTarget chebi:24431 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "chemical entity" ;
+    sssom:subject_label "chemical with specified structure" ;
+    sssom:uuid "076678981639550dbef18d9f4ade37c5"^^<xsd:string> .
+
+sssom:0851521512df522d8c224fda7a89b8c2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000185> ;
+    owl:annotatedTarget chebi:29108 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "calcium(2+)" ;
+    sssom:subject_label "calcium ion solution" ;
+    sssom:uuid "0851521512df522d8c224fda7a89b8c2"^^<xsd:string> .
+
+sssom:08c8d33cbed8566ba2c08da5e4d35d36 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000130> ;
+    owl:annotatedTarget chebi:6121 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ketamine" ;
+    sssom:subject_label "ketamine" ;
+    sssom:uuid "08c8d33cbed8566ba2c08da5e4d35d36"^^<xsd:string> .
+
+sssom:0aa84c1ca1ea5948bce5ee879821049c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000346> ;
+    owl:annotatedTarget PubChem_Compound:CID_12967 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N-methyl-N-nitrosourea" ;
+    sssom:uuid "0aa84c1ca1ea5948bce5ee879821049c"^^<xsd:string> .
+
+sssom:0b7814a2b2125663bec37284a67c53f1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000445> ;
+    owl:annotatedTarget chebi:26020 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "phosphate" ;
+    sssom:subject_label "phosphate buffered saline" ;
+    sssom:uuid "0b7814a2b2125663bec37284a67c53f1"^^<xsd:string> .
+
+sssom:0c3e0d30dcaf5d6e9c2218d3c9856445 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000373> ;
+    owl:annotatedTarget MESH:D003714 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "surgical denervation" ;
+    sssom:uuid "0c3e0d30dcaf5d6e9c2218d3c9856445"^^<xsd:string> .
+
+sssom:0c4328117fd253a4a7a714e7040b23ec a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000263> ;
+    owl:annotatedTarget chebi:53181 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "pristane" ;
+    sssom:subject_label "pristane" ;
+    sssom:uuid "0c4328117fd253a4a7a714e7040b23ec"^^<xsd:string> .
+
+sssom:0ce51d4d6cf85307a37b7e9f5d3ec0c2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000553> ;
+    owl:annotatedTarget chebi:68478 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "everolimus" ;
+    sssom:subject_label "everolimus" ;
+    sssom:uuid "0ce51d4d6cf85307a37b7e9f5d3ec0c2"^^<xsd:string> .
+
+sssom:0d7047e5cc1654618079c994e3f64725 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000390> ;
+    owl:annotatedTarget chebi:35221 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "antimetabolite" ;
+    sssom:subject_label "antimetabolite" ;
+    sssom:uuid "0d7047e5cc1654618079c994e3f64725"^^<xsd:string> .
+
+sssom:0fab3236d4a95fba8c0ac4718386cf2a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000355> ;
+    owl:annotatedTarget chebi:21759 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "N-methyl-N'-nitro-N-nitrosoguanidine" ;
+    sssom:subject_label "controlled N-methyl-N'-nitro-N-nitrosoguanidine content drinking water" ;
+    sssom:uuid "0fab3236d4a95fba8c0ac4718386cf2a"^^<xsd:string> .
+
+sssom:10c12aa144415977a2835272c3708c0f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000090> ;
+    owl:annotatedTarget MESH:D015127 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "7,12-dimethyltetraphene (DMBA)" ;
+    sssom:uuid "10c12aa144415977a2835272c3708c0f"^^<xsd:string> .
+
+sssom:119b9412d3e750c58f5f8158aa5b4c77 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000405> ;
+    owl:annotatedTarget chebi:27899 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cisplatin" ;
+    sssom:subject_label "controlled cisplatin content drinking water" ;
+    sssom:uuid "119b9412d3e750c58f5f8158aa5b4c77"^^<xsd:string> .
+
+sssom:12e09914a5cc54bb93a8bc1e4c865bcd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000476> ;
+    owl:annotatedTarget <file:///work/NCBI_Taxon:1313> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Streptococcus pneumoniae" ;
+    sssom:uuid "12e09914a5cc54bb93a8bc1e4c865bcd"^^<xsd:string> .
+
+sssom:1332c5c60fbf5f58a637cad92104f719 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000409> ;
+    owl:annotatedTarget chebi:6801 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "metformin" ;
+    sssom:subject_label "controlled metformin content drinking water" ;
+    sssom:uuid "1332c5c60fbf5f58a637cad92104f719"^^<xsd:string> .
+
+sssom:13d5e91aff605813ab2a485995355957 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000388> ;
+    owl:annotatedTarget chebi:46195 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "paracetamol" ;
+    sssom:subject_label "acetaminophen" ;
+    sssom:uuid "13d5e91aff605813ab2a485995355957"^^<xsd:string> .
+
+sssom:1525ea7fd6615a7e89dd653dc9f2e64f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000145> ;
+    owl:annotatedTarget chebi:8093 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "phenylephrine" ;
+    sssom:subject_label "phenylephrine" ;
+    sssom:uuid "1525ea7fd6615a7e89dd653dc9f2e64f"^^<xsd:string> .
+
+sssom:1529b5d07bc95451aaa82191641f42c7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000473> ;
+    owl:annotatedTarget chebi:50202 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "naringenin" ;
+    sssom:subject_label "naringenin" ;
+    sssom:uuid "1529b5d07bc95451aaa82191641f42c7"^^<xsd:string> .
+
+sssom:153e21efa8da5e5f8e27e007ff99ae69 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000482> ;
+    owl:annotatedTarget chebi:33281 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "antimicrobial agent" ;
+    sssom:subject_label "antimicrobial agent" ;
+    sssom:uuid "153e21efa8da5e5f8e27e007ff99ae69"^^<xsd:string> .
+
+sssom:155014dae82a5ac691f33cfb65c663bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000408> ;
+    owl:annotatedTarget chebi:6801 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "metformin" ;
+    sssom:subject_label "metformin" ;
+    sssom:uuid "155014dae82a5ac691f33cfb65c663bd"^^<xsd:string> .
+
+sssom:15ffbbb854135592b2dfe4671d691b8f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000090> ;
+    owl:annotatedTarget chebi:254496 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "7,12-dimethyltetraphene" ;
+    sssom:subject_label "7,12-dimethyltetraphene (DMBA)" ;
+    sssom:uuid "15ffbbb854135592b2dfe4671d691b8f"^^<xsd:string> .
+
+sssom:17b1e8042dd05d6981641a150ed87368 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000324> ;
+    owl:annotatedTarget chebi:15734 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "primary alcohol" ;
+    sssom:subject_label "primary alcohol" ;
+    sssom:uuid "17b1e8042dd05d6981641a150ed87368"^^<xsd:string> .
+
+sssom:1898ffad8afa5e3894e4794d4f208eff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000530> ;
+    owl:annotatedTarget MGI:1917258 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "gene transfer of the murine angiotensin I converting enzyme 2 gene using an adenovirus vector" ;
+    sssom:uuid "1898ffad8afa5e3894e4794d4f208eff"^^<xsd:string> .
+
+sssom:1ddc747131c75b4783ccf877cfc1b6e7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000428> ;
+    owl:annotatedTarget chebi:28757 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fructose" ;
+    sssom:subject_label "fructose" ;
+    sssom:uuid "1ddc747131c75b4783ccf877cfc1b6e7"^^<xsd:string> .
+
+sssom:23a6e1017eff5d47b1c56917cea18e3a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000143> ;
+    owl:annotatedTarget chebi:15355 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "acetylcholine" ;
+    sssom:subject_label "acetylcholine" ;
+    sssom:uuid "23a6e1017eff5d47b1c56917cea18e3a"^^<xsd:string> .
+
+sssom:255dc7b024f35e1fb0b98f38a7f88f43 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000426> ;
+    owl:annotatedTarget chebi:17241 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "1H-pyrazole" ;
+    sssom:subject_label "1H-pyrazole" ;
+    sssom:uuid "255dc7b024f35e1fb0b98f38a7f88f43"^^<xsd:string> .
+
+sssom:27c8c71b921856eb9819463483d07cb7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000397> ;
+    owl:annotatedTarget chebi:33216 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "bisphenol A" ;
+    sssom:subject_label "bisphenol A" ;
+    sssom:uuid "27c8c71b921856eb9819463483d07cb7"^^<xsd:string> .
+
+sssom:29eda7dabd9750798026bc124b1ad1e2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000530> ;
+    owl:annotatedTarget <rgd:1550521> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "gene transfer of the murine angiotensin I converting enzyme 2 gene using an adenovirus vector" ;
+    sssom:uuid "29eda7dabd9750798026bc124b1ad1e2"^^<xsd:string> .
+
+sssom:2aa8a95c1ea75fb9bd3dce88857407c5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000395> ;
+    owl:annotatedTarget chebi:16907 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "4-nitroquinoline N-oxide" ;
+    sssom:subject_label "controlled 4-nitroquinoline N-oxide content drinking water" ;
+    sssom:uuid "2aa8a95c1ea75fb9bd3dce88857407c5"^^<xsd:string> .
+
+sssom:2bca80c84dd2580e9ddb4d25b123f016 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000314> ;
+    owl:annotatedTarget chebi:35225 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "buffer" ;
+    sssom:subject_label "buffer" ;
+    sssom:uuid "2bca80c84dd2580e9ddb4d25b123f016"^^<xsd:string> .
+
+sssom:2c0c3712a48951d0804032cb8d618034 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000445> ;
+    owl:annotatedTarget chebi:35225 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "buffer" ;
+    sssom:subject_label "phosphate buffered saline" ;
+    sssom:uuid "2c0c3712a48951d0804032cb8d618034"^^<xsd:string> .
+
+sssom:2e7779485dd958ad95b7f647b6bce2a8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000172> ;
+    owl:annotatedTarget chebi:16646 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "carbohydrate" ;
+    sssom:subject_label "carbohydrate" ;
+    sssom:uuid "2e7779485dd958ad95b7f647b6bce2a8"^^<xsd:string> .
+
+sssom:2e85f1b45e08517e8f4d0d60e10b23fe a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000196> ;
+    owl:annotatedTarget chebi:5441 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "glyburide" ;
+    sssom:subject_label "glybenclamide" ;
+    sssom:uuid "2e85f1b45e08517e8f4d0d60e10b23fe"^^<xsd:string> .
+
+sssom:315f2b7bf57e575fa69718b8ae9fabc1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000484> ;
+    owl:annotatedTarget chebi:29007 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ceftriaxone" ;
+    sssom:subject_label "ceftriaxone" ;
+    sssom:uuid "315f2b7bf57e575fa69718b8ae9fabc1"^^<xsd:string> .
+
+sssom:32ed94c450de56e298f4bcb50fc750b6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000438> ;
+    owl:annotatedTarget chebi:3347 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "candesartan" ;
+    sssom:subject_label "candesartan" ;
+    sssom:uuid "32ed94c450de56e298f4bcb50fc750b6"^^<xsd:string> .
+
+sssom:33f25942c4f85b9ba3d336a018a64ac6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000445> ;
+    owl:annotatedTarget chebi:26710 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sodium chloride" ;
+    sssom:subject_label "phosphate buffered saline" ;
+    sssom:uuid "33f25942c4f85b9ba3d336a018a64ac6"^^<xsd:string> .
+
+sssom:349e76d1e7535f54964812c269331794 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000138> ;
+    owl:annotatedTarget chebi:6872 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "methylene blue" ;
+    sssom:subject_label "methylene blue" ;
+    sssom:uuid "349e76d1e7535f54964812c269331794"^^<xsd:string> .
+
+sssom:3568006cdaac5e9eaa66a3d5357d535c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000393> ;
+    owl:annotatedTarget chebi:73755 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "1,2-dimethylhydrazine" ;
+    sssom:subject_label "1,2-dimethylhydrazine" ;
+    sssom:uuid "3568006cdaac5e9eaa66a3d5357d535c"^^<xsd:string> .
+
+sssom:39147ca114f4520289ac554d08f57bbe a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000376> ;
+    owl:annotatedTarget <ma:0002761> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "saphenous nerve" ;
+    sssom:subject_label "saphenous nerve axotomy" ;
+    sssom:uuid "39147ca114f4520289ac554d08f57bbe"^^<xsd:string> .
+
+sssom:3a27a2f768d25aacabb2264e5cbcd00f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000288> ;
+    owl:annotatedTarget PMID:10323205 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "R16 peptide of interphotoreceptor retinoid-binding protein" ;
+    sssom:uuid "3a27a2f768d25aacabb2264e5cbcd00f"^^<xsd:string> .
+
+sssom:3a34e73a90c95caa848f3a12a2f09200 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000474> ;
+    owl:annotatedTarget chebi:50647 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "alendronate(1-)" ;
+    sssom:subject_label "alendronate" ;
+    sssom:uuid "3a34e73a90c95caa848f3a12a2f09200"^^<xsd:string> .
+
+sssom:3bfc6147bd0d58c4863e2158f132269c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000280> ;
+    owl:annotatedTarget MESH:D013185 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "squalene" ;
+    sssom:uuid "3bfc6147bd0d58c4863e2158f132269c"^^<xsd:string> .
+
+sssom:3c287bdd9ddb52b98295ad5a291ecf74 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000499> ;
+    owl:annotatedTarget chebi:17963 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine" ;
+    sssom:subject_label "1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine" ;
+    sssom:uuid "3c287bdd9ddb52b98295ad5a291ecf74"^^<xsd:string> .
+
+sssom:425289f9836d5075960a6c18d1fed8eb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000422> ;
+    owl:annotatedTarget chebi:36141 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "quinone" ;
+    sssom:subject_label "quinone" ;
+    sssom:uuid "425289f9836d5075960a6c18d1fed8eb"^^<xsd:string> .
+
+sssom:446ff65dcf0d5706b15a010965856f13 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000390> ;
+    owl:annotatedTarget MESH:D000963 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "antimetabolite" ;
+    sssom:uuid "446ff65dcf0d5706b15a010965856f13"^^<xsd:string> .
+
+sssom:46dba889f2cc5697a7588d1b94a7eaaf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000388> ;
+    owl:annotatedTarget MESH:D000082 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "acetaminophen" ;
+    sssom:uuid "46dba889f2cc5697a7588d1b94a7eaaf"^^<xsd:string> .
+
+sssom:48d97e5fb8705db5899432be40be6edd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000325> ;
+    owl:annotatedTarget chebi:16236 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ethanol" ;
+    sssom:subject_label "ethanol" ;
+    sssom:uuid "48d97e5fb8705db5899432be40be6edd"^^<xsd:string> .
+
+sssom:4fbe0a159c6f5a0baa6d61b7898512ea a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000346> ;
+    owl:annotatedTarget chebi:50102 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "N-methyl-N-nitrosourea" ;
+    sssom:subject_label "N-methyl-N-nitrosourea" ;
+    sssom:uuid "4fbe0a159c6f5a0baa6d61b7898512ea"^^<xsd:string> .
+
+sssom:560e04e9511059f483249cb9fa190364 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000310> ;
+    owl:annotatedTarget chebi:5557 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "guanethidine" ;
+    sssom:subject_label "guanethidine" ;
+    sssom:uuid "560e04e9511059f483249cb9fa190364"^^<xsd:string> .
+
+sssom:567551029eaf5f8594d1e20cb223dc4e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000467> ;
+    owl:annotatedTarget chebi:26537 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "retinoid" ;
+    sssom:subject_label "retinoid" ;
+    sssom:uuid "567551029eaf5f8594d1e20cb223dc4e"^^<xsd:string> .
+
+sssom:576b223c6c465c5fa586ae3307aec815 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000435> ;
+    owl:annotatedTarget chebi:35610 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "antineoplastic agent" ;
+    sssom:subject_label "antineoplastic agent" ;
+    sssom:uuid "576b223c6c465c5fa586ae3307aec815"^^<xsd:string> .
+
+sssom:5ab86a3d40095ef4b7fde78af4e3a0cb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000507> ;
+    owl:annotatedTarget chebi:364453 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "carprofen" ;
+    sssom:subject_label "carprofen" ;
+    sssom:uuid "5ab86a3d40095ef4b7fde78af4e3a0cb"^^<xsd:string> .
+
+sssom:5c0c59cd79b754909cfc14970281acad a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000150> ;
+    owl:annotatedTarget chebi:29103 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "potassium(1+)" ;
+    sssom:subject_label "potassium ion" ;
+    sssom:uuid "5c0c59cd79b754909cfc14970281acad"^^<xsd:string> .
+
+sssom:5d1f49e9c2865220bbb2e7ba74b6f3de a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000479> ;
+    owl:annotatedTarget <file:///work/NCBI_Taxon:727> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Haemophilus influenzae" ;
+    sssom:uuid "5d1f49e9c2865220bbb2e7ba74b6f3de"^^<xsd:string> .
+
+sssom:5ea466f73dc659eb98616024d464c843 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000468> ;
+    owl:annotatedTarget chebi:12777 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "vitamin A" ;
+    sssom:subject_label "vitamin A" ;
+    sssom:uuid "5ea466f73dc659eb98616024d464c843"^^<xsd:string> .
+
+sssom:5ec34a01828d54deba25ad34ff8b4a44 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000351> ;
+    owl:annotatedTarget chebi:16907 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "4-nitroquinoline N-oxide" ;
+    sssom:subject_label "4-nitroquinoline N-oxide" ;
+    sssom:uuid "5ec34a01828d54deba25ad34ff8b4a44"^^<xsd:string> .
+
+sssom:605825b41c9d5f9fb6cd6f912d1174b4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000483> ;
+    owl:annotatedTarget chebi:33282 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "antibacterial agent" ;
+    sssom:subject_label "antibacterial agent" ;
+    sssom:uuid "605825b41c9d5f9fb6cd6f912d1174b4"^^<xsd:string> .
+
+sssom:637c77f82ac95b438fe0fd1d80cf0399 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000280> ;
+    owl:annotatedTarget chebi:15440 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "squalene" ;
+    sssom:subject_label "squalene" ;
+    sssom:uuid "637c77f82ac95b438fe0fd1d80cf0399"^^<xsd:string> .
+
+sssom:6632b28cfbec5cc982664a45ee4f5013 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000393> ;
+    owl:annotatedTarget MESH:D019813 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "1,2-dimethylhydrazine" ;
+    sssom:uuid "6632b28cfbec5cc982664a45ee4f5013"^^<xsd:string> .
+
+sssom:67da52fc7d885b23ad11437cffb6bbfa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000376> ;
+    owl:annotatedTarget MESH:D019771 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "saphenous nerve axotomy" ;
+    sssom:uuid "67da52fc7d885b23ad11437cffb6bbfa"^^<xsd:string> .
+
+sssom:69dcee519b175b99b365e0cac7c7a250 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000323> ;
+    owl:annotatedTarget chebi:30879 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "alcohol" ;
+    sssom:subject_label "alcohol" ;
+    sssom:uuid "69dcee519b175b99b365e0cac7c7a250"^^<xsd:string> .
+
+sssom:6abbdc1c0b6a58738c71d849c68eb7e7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000486> ;
+    owl:annotatedTarget <file:///work/NCBI_Taxon:281310> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Haemophilus influenzae 86-028NP C5 mutant" ;
+    sssom:uuid "6abbdc1c0b6a58738c71d849c68eb7e7"^^<xsd:string> .
+
+sssom:6b7dc8e364865a069f2c28b553ba6fff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000513> ;
+    owl:annotatedTarget chebi:34687 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "dibutyl phthalate" ;
+    sssom:subject_label "dibutyl phthalate" ;
+    sssom:uuid "6b7dc8e364865a069f2c28b553ba6fff"^^<xsd:string> .
+
+sssom:6cda648a2b7d5ee1b3d8fd7c328098cb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000218> ;
+    owl:annotatedTarget CHEBI_2:295732 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "4-alpha-phorbol 12,13-didecanoate" ;
+    sssom:uuid "6cda648a2b7d5ee1b3d8fd7c328098cb"^^<xsd:string> .
+
+sssom:715d79dcbcda52d4a93b90dc68802a18 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000311> ;
+    owl:annotatedTarget chebi:29103 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "potassium(1+)" ;
+    sssom:subject_label "potassium ion solution" ;
+    sssom:uuid "715d79dcbcda52d4a93b90dc68802a18"^^<xsd:string> .
+
+sssom:71ae95f80c1259c0a776b5631e7dac5d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000374> ;
+    owl:annotatedTarget MESH:D019771 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "axotomy" ;
+    sssom:uuid "71ae95f80c1259c0a776b5631e7dac5d"^^<xsd:string> .
+
+sssom:72502b69a76f5141a0688b69f2a68d2f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000354> ;
+    owl:annotatedTarget chebi:21759 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "N-methyl-N'-nitro-N-nitrosoguanidine" ;
+    sssom:subject_label "N-methyl-N'-nitro-N-nitrosoguanidine" ;
+    sssom:uuid "72502b69a76f5141a0688b69f2a68d2f"^^<xsd:string> .
+
+sssom:72b9a6b6a01256f5a4f067ca97546725 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000511> ;
+    owl:annotatedTarget chebi:35701 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ester" ;
+    sssom:subject_label "ester" ;
+    sssom:uuid "72b9a6b6a01256f5a4f067ca97546725"^^<xsd:string> .
+
+sssom:74aeb11f0c3b5c0f9874d1d1b1bee520 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000294> ;
+    owl:annotatedTarget chebi:50114 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "estrogen" ;
+    sssom:subject_label "estrogen/estrogen analog" ;
+    sssom:uuid "74aeb11f0c3b5c0f9874d1d1b1bee520"^^<xsd:string> .
+
+sssom:75ab44e14703554d8f17a1cdd07de369 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000403> ;
+    owl:annotatedTarget chebi:27899 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cisplatin" ;
+    sssom:subject_label "controlled cisplatin content diet" ;
+    sssom:uuid "75ab44e14703554d8f17a1cdd07de369"^^<xsd:string> .
+
+sssom:75d8de23195b5f4c9d3528278cb997a3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000316> ;
+    owl:annotatedTarget chebi:35225 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "buffer" ;
+    sssom:subject_label "calcium-free buffer solution" ;
+    sssom:uuid "75d8de23195b5f4c9d3528278cb997a3"^^<xsd:string> .
+
+sssom:77b134d08b6f5de0b933422b4e1601bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000417> ;
+    owl:annotatedTarget chebi:76989 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "phytoestrogen" ;
+    sssom:subject_label "controlled phytoestrogen content diet" ;
+    sssom:uuid "77b134d08b6f5de0b933422b4e1601bd"^^<xsd:string> .
+
+sssom:7b947f5375b35d1a95f04a902f537938 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000345> ;
+    owl:annotatedTarget PubChem_Compound:CID_12967 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N-ethyl-N-nitrosourea" ;
+    sssom:uuid "7b947f5375b35d1a95f04a902f537938"^^<xsd:string> .
+
+sssom:7dc7f05076ba5cfe9d66f6fdc0de9edb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000310> ;
+    owl:annotatedTarget MESH:D006145 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "guanethidine" ;
+    sssom:uuid "7dc7f05076ba5cfe9d66f6fdc0de9edb"^^<xsd:string> .
+
+sssom:80f02243a521598c8ef496cd0db0d195 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000289> ;
+    owl:annotatedTarget PMID:18203685 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "R14 peptide of interphotoreceptor retinoid-binding protein" ;
+    sssom:uuid "80f02243a521598c8ef496cd0db0d195"^^<xsd:string> .
+
+sssom:81ecb3671bc85cd5a298dc2ea8c1f341 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000317> ;
+    owl:annotatedTarget chebi:35225 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "buffer" ;
+    sssom:subject_label "buffered calcium ion solution" ;
+    sssom:uuid "81ecb3671bc85cd5a298dc2ea8c1f341"^^<xsd:string> .
+
+sssom:835b2bd1e4ad548a98b0f11f7cea77e9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000533> ;
+    owl:annotatedTarget chebi:17939 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "puromycin" ;
+    sssom:subject_label "puromycin" ;
+    sssom:uuid "835b2bd1e4ad548a98b0f11f7cea77e9"^^<xsd:string> .
+
+sssom:85a992d33dd250728aa636d0d2c98aa9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000319> ;
+    owl:annotatedTarget PMID:2142618 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "artificial aortocaval fistula" ;
+    sssom:uuid "85a992d33dd250728aa636d0d2c98aa9"^^<xsd:string> .
+
+sssom:8725ffede5ca574e8231a5ee53b6e7c5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000477> ;
+    owl:annotatedTarget <file:///work/NCBI_Taxon:373153> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Streptococcus pneumoniae D39" ;
+    sssom:uuid "8725ffede5ca574e8231a5ee53b6e7c5"^^<xsd:string> .
+
+sssom:87f92017973854f09c3c2f4438340939 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000506> ;
+    owl:annotatedTarget chebi:35475 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "non-steroidal anti-inflammatory drug" ;
+    sssom:subject_label "non-steroidal anti-inflammatory drug" ;
+    sssom:uuid "87f92017973854f09c3c2f4438340939"^^<xsd:string> .
+
+sssom:8c236656ea09596693712d7bb6792c14 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000375> ;
+    owl:annotatedTarget MESH:D019771 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "sciatic nerve axotomy" ;
+    sssom:uuid "8c236656ea09596693712d7bb6792c14"^^<xsd:string> .
+
+sssom:8c3fec9d9c9b5a15ae360fd2603d2068 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000432> ;
+    owl:annotatedTarget chebi:17992 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sucrose" ;
+    sssom:subject_label "sucrose" ;
+    sssom:uuid "8c3fec9d9c9b5a15ae360fd2603d2068"^^<xsd:string> .
+
+sssom:8ce034248aee5dbba4085ce2864b894b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000263> ;
+    owl:annotatedTarget MESH:C009042 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "pristane" ;
+    sssom:uuid "8ce034248aee5dbba4085ce2864b894b"^^<xsd:string> .
+
+sssom:8e77f91b094c5242a0a4479c3386b68d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000472> ;
+    owl:annotatedTarget chebi:75095 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "chrysin" ;
+    sssom:subject_label "chrysin" ;
+    sssom:uuid "8e77f91b094c5242a0a4479c3386b68d"^^<xsd:string> .
+
+sssom:8f3ae4a4ca0954d4a52155a6b08eb53c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000396> ;
+    owl:annotatedTarget chebi:33853 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "phenols" ;
+    sssom:subject_label "phenolic/phenol derivative" ;
+    sssom:uuid "8f3ae4a4ca0954d4a52155a6b08eb53c"^^<xsd:string> .
+
+sssom:93ad15a6f4085797a362e2242fb333cc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000313> ;
+    owl:annotatedTarget chebi:49713 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lithium(1+)" ;
+    sssom:subject_label "lithium ion" ;
+    sssom:uuid "93ad15a6f4085797a362e2242fb333cc"^^<xsd:string> .
+
+sssom:943bfedcc0a354739ef2b88cd80f906e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000500> ;
+    owl:annotatedTarget chebi:34905 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "paraquat" ;
+    sssom:subject_label "paraquat" ;
+    sssom:uuid "943bfedcc0a354739ef2b88cd80f906e"^^<xsd:string> .
+
+sssom:96b4edcc49505391baf84ba2c54d02c9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000469> ;
+    owl:annotatedTarget chebi:6067 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "isotretinoin" ;
+    sssom:subject_label "isotretinoin" ;
+    sssom:uuid "96b4edcc49505391baf84ba2c54d02c9"^^<xsd:string> .
+
+sssom:975877db0b225fc2a9398cbb15341b08 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000439> ;
+    owl:annotatedTarget chebi:76329 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "3-methyl-4'-dimethylaminoazobenzene" ;
+    sssom:subject_label "controlled 3-methyl-4'-dimethylaminoazobenzene content drinking water" ;
+    sssom:uuid "975877db0b225fc2a9398cbb15341b08"^^<xsd:string> .
+
+sssom:9b819a7f993b5a07b6a6d43e22946564 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000184> ;
+    owl:annotatedTarget chebi:29108 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "calcium(2+)" ;
+    sssom:subject_label "calcium ion" ;
+    sssom:uuid "9b819a7f993b5a07b6a6d43e22946564"^^<xsd:string> .
+
+sssom:a0458ebb71ef5636a4248f5f81e3a0d8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000293> ;
+    owl:annotatedTarget chebi:33371 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "technetium-99" ;
+    sssom:subject_label "99mTc-sestamibi" ;
+    sssom:uuid "a0458ebb71ef5636a4248f5f81e3a0d8"^^<xsd:string> .
+
+sssom:a0993242f51757699f252bd2cfe5d650 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000142> ;
+    owl:annotatedTarget chebi:29321 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sodium nitroprusside" ;
+    sssom:subject_label "sodium nitroprusside" ;
+    sssom:uuid "a0993242f51757699f252bd2cfe5d650"^^<xsd:string> .
+
+sssom:a09e2fb42e355d1b87e8e2d5c28131e9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000345> ;
+    owl:annotatedTarget chebi:23995 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "N-ethyl-N-nitrosourea" ;
+    sssom:subject_label "N-ethyl-N-nitrosourea" ;
+    sssom:uuid "a09e2fb42e355d1b87e8e2d5c28131e9"^^<xsd:string> .
+
+sssom:a2e0f496ab2d555ca38acd3d9e48ccac a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000302> ;
+    owl:annotatedTarget chebi:48607 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lithium chloride" ;
+    sssom:subject_label "lithium chloride solution" ;
+    sssom:uuid "a2e0f496ab2d555ca38acd3d9e48ccac"^^<xsd:string> .
+
+sssom:a3712f21dab459638e79021649604491 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000273> ;
+    owl:annotatedTarget chebi:3435 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "carrageenan" ;
+    sssom:subject_label "carrageenan" ;
+    sssom:uuid "a3712f21dab459638e79021649604491"^^<xsd:string> .
+
+sssom:a42bd44781d659b5be4fdc09a2c60e83 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000091> ;
+    owl:annotatedTarget chebi:35341 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "steroid" ;
+    sssom:subject_label "steroid" ;
+    sssom:uuid "a42bd44781d659b5be4fdc09a2c60e83"^^<xsd:string> .
+
+sssom:a46158778e1450f6a46e892c7e3813c0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000678> ;
+    owl:annotatedTarget <rgd:69283> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "gene transfer of the rat MER proto-oncogene, tyrosine kinase gene using an adenovirus vector" ;
+    sssom:uuid "a46158778e1450f6a46e892c7e3813c0"^^<xsd:string> .
+
+sssom:a4c53723ab245904b668e50cf35376b5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000440> ;
+    owl:annotatedTarget chebi:76329 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "3-methyl-4'-dimethylaminoazobenzene" ;
+    sssom:subject_label "controlled 3-methyl-4'-dimethylaminoazobenzene content diet" ;
+    sssom:uuid "a4c53723ab245904b668e50cf35376b5"^^<xsd:string> .
+
+sssom:a60350f824b554bcadaae41f37e6840b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000200> ;
+    owl:annotatedTarget chebi:48430 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "4-methyl-2-oxopentanoic acid" ;
+    sssom:subject_label "4-methyl-2-oxopentanoic acid" ;
+    sssom:uuid "a60350f824b554bcadaae41f37e6840b"^^<xsd:string> .
+
+sssom:a6098e61e95f504fbbc0f65d4fa6b7b5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000404> ;
+    owl:annotatedTarget chebi:33216 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "bisphenol A" ;
+    sssom:subject_label "controlled bisphenol A content diet" ;
+    sssom:uuid "a6098e61e95f504fbbc0f65d4fa6b7b5"^^<xsd:string> .
+
+sssom:a878ae9a89115f0097ea9d13f1f84f36 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000162> ;
+    owl:annotatedTarget chebi:55326 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "pentolinium tartrate" ;
+    sssom:subject_label "pentolinium" ;
+    sssom:uuid "a878ae9a89115f0097ea9d13f1f84f36"^^<xsd:string> .
+
+sssom:aa8249bda6425daa897eed0948cc9109 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000410> ;
+    owl:annotatedTarget chebi:6801 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "metformin" ;
+    sssom:subject_label "controlled metformin content diet" ;
+    sssom:uuid "aa8249bda6425daa897eed0948cc9109"^^<xsd:string> .
+
+sssom:aaca40182a0c57f99ec87e78e871642b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000534> ;
+    owl:annotatedTarget chebi:38940 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sunitinib" ;
+    sssom:subject_label "sunitinib" ;
+    sssom:uuid "aaca40182a0c57f99ec87e78e871642b"^^<xsd:string> .
+
+sssom:ac817c05d8f850c2a94327161d204d2f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000192> ;
+    owl:annotatedTarget chebi:16973 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "11-deoxycorticosterone" ;
+    sssom:subject_label "deoxycorticosterone acetate" ;
+    sssom:uuid "ac817c05d8f850c2a94327161d204d2f"^^<xsd:string> .
+
+sssom:af256facce7d54f8859510f5c2ff8ec4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000478> ;
+    owl:annotatedTarget <file:///work/NCBI_Taxon:170187> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Streptococcus pneumoniae TIGR4" ;
+    sssom:uuid "af256facce7d54f8859510f5c2ff8ec4"^^<xsd:string> .
+
+sssom:afc0728f82de51f2b8f77ab3530bc363 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000229> ;
+    owl:annotatedTarget chebi:26764 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "steroid hormone" ;
+    sssom:subject_label "steroid hormone" ;
+    sssom:uuid "afc0728f82de51f2b8f77ab3530bc363"^^<xsd:string> .
+
+sssom:b3606aa9c371505280e62bf062645cf4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000339> ;
+    owl:annotatedTarget chebi:51050 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "titanium dioxide nanoparticle" ;
+    sssom:subject_label "titanium dioxide nanoparticles" ;
+    sssom:uuid "b3606aa9c371505280e62bf062645cf4"^^<xsd:string> .
+
+sssom:b4a9fcb4bd3652fdba19216abad98b27 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000132> ;
+    owl:annotatedTarget chebi:44932 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "acepromazine" ;
+    sssom:subject_label "acepromazine" ;
+    sssom:uuid "b4a9fcb4bd3652fdba19216abad98b27"^^<xsd:string> .
+
+sssom:b68f3a14aea65086b3a084139127ffde a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000155> ;
+    owl:annotatedTarget chebi:26710 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sodium chloride" ;
+    sssom:subject_label "sodium chloride solution" ;
+    sssom:uuid "b68f3a14aea65086b3a084139127ffde"^^<xsd:string> .
+
+sssom:b6f6d9c715075ffab59ed195cad867c2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000441> ;
+    owl:annotatedTarget chebi:17356 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "2-acetamidofluorene" ;
+    sssom:subject_label "controlled 2-acetamidofluorene content drinking water" ;
+    sssom:uuid "b6f6d9c715075ffab59ed195cad867c2"^^<xsd:string> .
+
+sssom:b824a7d2536054f28cf51946f1b3f170 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000398> ;
+    owl:annotatedTarget chebi:27899 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cisplatin" ;
+    sssom:subject_label "cisplatin" ;
+    sssom:uuid "b824a7d2536054f28cf51946f1b3f170"^^<xsd:string> .
+
+sssom:b836456ce2d65f9881be079770f6b6ae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000424> ;
+    owl:annotatedTarget chebi:41039 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "benfotiamine" ;
+    sssom:subject_label "benfotiamine" ;
+    sssom:uuid "b836456ce2d65f9881be079770f6b6ae"^^<xsd:string> .
+
+sssom:b9b8ad33b6bf509eb6e459ea111c5a78 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000471> ;
+    owl:annotatedTarget chebi:16243 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "quercetin" ;
+    sssom:subject_label "quercetin" ;
+    sssom:uuid "b9b8ad33b6bf509eb6e459ea111c5a78"^^<xsd:string> .
+
+sssom:bbb0c90d0f8c5ee0980b5ef27a8c6a8a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000341> ;
+    owl:annotatedTarget chebi:50906 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "role" ;
+    sssom:subject_label "chemical with specified function" ;
+    sssom:uuid "bbb0c90d0f8c5ee0980b5ef27a8c6a8a"^^<xsd:string> .
+
+sssom:bbb6518096af5586884a7dd9d1424c6f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000501> ;
+    owl:annotatedTarget chebi:28201 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "rotenone" ;
+    sssom:subject_label "rotenone" ;
+    sssom:uuid "bbb6518096af5586884a7dd9d1424c6f"^^<xsd:string> .
+
+sssom:bbea3c62c7aa53ba8f3a63991292a47d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000378> ;
+    owl:annotatedTarget chebi:33234 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "vitamin E" ;
+    sssom:subject_label "vitamin E" ;
+    sssom:uuid "bbea3c62c7aa53ba8f3a63991292a47d"^^<xsd:string> .
+
+sssom:bcb284d08ed1529fbe317c9629f02a2c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000219> ;
+    owl:annotatedTarget chebi:46932 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "dihydrocapsaicin" ;
+    sssom:subject_label "dihydrocapsaicin" ;
+    sssom:uuid "bcb284d08ed1529fbe317c9629f02a2c"^^<xsd:string> .
+
+sssom:bcb2f6d75af05c8091b5f432e01a9147 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000395> ;
+    owl:annotatedTarget MESH:D015112 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "controlled 4-nitroquinoline N-oxide content drinking water" ;
+    sssom:uuid "bcb2f6d75af05c8091b5f432e01a9147"^^<xsd:string> .
+
+sssom:bebff5a5d641534b88e843e5779a6b98 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000156> ;
+    owl:annotatedTarget chebi:26710 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sodium chloride" ;
+    sssom:subject_label "0.9% sodium chloride solution" ;
+    sssom:uuid "bebff5a5d641534b88e843e5779a6b98"^^<xsd:string> .
+
+sssom:c4db15e4b9a05332aa9babbfdc2c97da a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000391> ;
+    owl:annotatedTarget chebi:472552 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "5-bromo-2'-deoxyuridine" ;
+    sssom:subject_label "5-bromo-2'-deoxyuridine" ;
+    sssom:uuid "c4db15e4b9a05332aa9babbfdc2c97da"^^<xsd:string> .
+
+sssom:c881202901cf5c52a9d53ae30d581c84 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000226> ;
+    owl:annotatedTarget UniProtKB:P01500 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "apamin" ;
+    sssom:uuid "c881202901cf5c52a9d53ae30d581c84"^^<xsd:string> .
+
+sssom:c88607231a885c2bb75df967346d251b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000241> ;
+    owl:annotatedTarget chebi:9288 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "streptozocin" ;
+    sssom:subject_label "streptozotocin" ;
+    sssom:uuid "c88607231a885c2bb75df967346d251b"^^<xsd:string> .
+
+sssom:ca0ef9763e3b5a80a9f0c579d28d14cc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000131> ;
+    owl:annotatedTarget chebi:165540 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "N-Linoleoyl valine" ;
+    sssom:subject_label "xylazine" ;
+    sssom:uuid "ca0ef9763e3b5a80a9f0c579d28d14cc"^^<xsd:string> .
+
+sssom:cb7debfe96065f02bf399a1809723285 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000391> ;
+    owl:annotatedTarget MESH:D001973 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "5-bromo-2'-deoxyuridine" ;
+    sssom:uuid "cb7debfe96065f02bf399a1809723285"^^<xsd:string> .
+
+sssom:cc7acc534e3c568e882f2909964e6452 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000375> ;
+    owl:annotatedTarget <ma:0001172> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sciatic nerve" ;
+    sssom:subject_label "sciatic nerve axotomy" ;
+    sssom:uuid "cc7acc534e3c568e882f2909964e6452"^^<xsd:string> .
+
+sssom:cc7c66c660b05de5b7018b744d80516d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000407> ;
+    owl:annotatedTarget chebi:35526 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "hypoglycemic agent" ;
+    sssom:subject_label "hypoglycemic agent" ;
+    sssom:uuid "cc7c66c660b05de5b7018b744d80516d"^^<xsd:string> .
+
+sssom:cd2f3cf59ccf5a82ad5bb3138394f7d5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000428> ;
+    owl:annotatedTarget chebi:15824 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "D-fructose" ;
+    sssom:subject_label "fructose" ;
+    sssom:uuid "cd2f3cf59ccf5a82ad5bb3138394f7d5"^^<xsd:string> .
+
+sssom:cd68424e875d51d58a4404389a803481 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000379> ;
+    owl:annotatedTarget chebi:22470 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "alpha-tocopherol" ;
+    sssom:subject_label "alpha-tocopherol" ;
+    sssom:uuid "cd68424e875d51d58a4404389a803481"^^<xsd:string> .
+
+sssom:cda4727977ef5f96a1512ad0a911587f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000161> ;
+    owl:annotatedTarget chebi:6541 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "losartan" ;
+    sssom:subject_label "losartan" ;
+    sssom:uuid "cda4727977ef5f96a1512ad0a911587f"^^<xsd:string> .
+
+sssom:d1fbd7d9eb195d809916148d56aede27 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000124> ;
+    owl:annotatedTarget chebi:47426 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "furosemide" ;
+    sssom:subject_label "furosemide" ;
+    sssom:uuid "d1fbd7d9eb195d809916148d56aede27"^^<xsd:string> .
+
+sssom:d34cb9cb37b75fe78286d659d8153b52 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000315> ;
+    owl:annotatedTarget chebi:35225 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "buffer" ;
+    sssom:subject_label "buffer solution" ;
+    sssom:uuid "d34cb9cb37b75fe78286d659d8153b52"^^<xsd:string> .
+
+sssom:d4f3df33d6ad5218821ad75d7802bc03 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000418> ;
+    owl:annotatedTarget chebi:76989 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "phytoestrogen" ;
+    sssom:subject_label "phytoestrogen-free diet" ;
+    sssom:uuid "d4f3df33d6ad5218821ad75d7802bc03"^^<xsd:string> .
+
+sssom:d5e2ea5020f95e71a28ba14e1a910c9c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000427> ;
+    owl:annotatedTarget chebi:15948 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lycopene" ;
+    sssom:subject_label "lycopene" ;
+    sssom:uuid "d5e2ea5020f95e71a28ba14e1a910c9c"^^<xsd:string> .
+
+sssom:d95bf90ff78951afb225a3c3d4912c0f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000301> ;
+    owl:annotatedTarget chebi:49713 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lithium(1+)" ;
+    sssom:subject_label "lithium ion solution" ;
+    sssom:uuid "d95bf90ff78951afb225a3c3d4912c0f"^^<xsd:string> .
+
+sssom:d9c41019033655b8a50f973e7d5fa991 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000474> ;
+    owl:annotatedTarget chebi:2567 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "alendronic acid" ;
+    sssom:subject_label "alendronate" ;
+    sssom:uuid "d9c41019033655b8a50f973e7d5fa991"^^<xsd:string> .
+
+sssom:d9d346c84ac05fa1ba16da1b2c2f5446 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000134> ;
+    owl:annotatedTarget chebi:6804 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "methacholine" ;
+    sssom:subject_label "methacholine" ;
+    sssom:uuid "d9d346c84ac05fa1ba16da1b2c2f5446"^^<xsd:string> .
+
+sssom:d9f74fec857053d4ab24d5d9920163ea a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000505> ;
+    owl:annotatedTarget chebi:67079 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "anti-inflammatory agent" ;
+    sssom:subject_label "anti-inflammatory agent" ;
+    sssom:uuid "d9f74fec857053d4ab24d5d9920163ea"^^<xsd:string> .
+
+sssom:da211b00591e51c08a75efd1ee3fd413 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000224> ;
+    owl:annotatedTarget chebi:34956 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ruthenium red" ;
+    sssom:subject_label "ruthenium red" ;
+    sssom:uuid "da211b00591e51c08a75efd1ee3fd413"^^<xsd:string> .
+
+sssom:daab8aa82ff75ceda187ea9cdf312c1c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000434> ;
+    owl:annotatedTarget chebi:34432 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "4-octylphenol" ;
+    sssom:subject_label "octylphenol" ;
+    sssom:uuid "daab8aa82ff75ceda187ea9cdf312c1c"^^<xsd:string> .
+
+sssom:defdbbb237bb5840a76525779a20610c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000295> ;
+    owl:annotatedTarget chebi:41922 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "diethylstilbestrol" ;
+    sssom:subject_label "diethylstilbestrol" ;
+    sssom:uuid "defdbbb237bb5840a76525779a20610c"^^<xsd:string> .
+
+sssom:e54ca5deb6e95293b59a1e5aa9d75b1f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000256> ;
+    owl:annotatedTarget chebi:64317 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "isoprenaline" ;
+    sssom:subject_label "isoproterenol" ;
+    sssom:uuid "e54ca5deb6e95293b59a1e5aa9d75b1f"^^<xsd:string> .
+
+sssom:e5c6ff51d4035212884635d0b596254f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000406> ;
+    owl:annotatedTarget chebi:33216 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "bisphenol A" ;
+    sssom:subject_label "controlled bisphenol A content drinking water" ;
+    sssom:uuid "e5c6ff51d4035212884635d0b596254f"^^<xsd:string> .
+
+sssom:e76b1861734e5db0aafd2e49e42923ec a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000512> ;
+    owl:annotatedTarget chebi:50905 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "teratogenic agent" ;
+    sssom:subject_label "teratogen" ;
+    sssom:uuid "e76b1861734e5db0aafd2e49e42923ec"^^<xsd:string> .
+
+sssom:e9b7fe1e9d5a5323b1d0ece5d21d4dc8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000312> ;
+    owl:annotatedTarget chebi:32588 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "potassium chloride" ;
+    sssom:subject_label "potassium chloride solution" ;
+    sssom:uuid "e9b7fe1e9d5a5323b1d0ece5d21d4dc8"^^<xsd:string> .
+
+sssom:e9fc2c08ea6b59cba153f4430b4f8431 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000187> ;
+    owl:annotatedTarget chebi:9729 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "trimethaphan camsylate" ;
+    sssom:subject_label "trimethaphan camsylate" ;
+    sssom:uuid "e9fc2c08ea6b59cba153f4430b4f8431"^^<xsd:string> .
+
+sssom:eb17e22c63ff5308987703fe678e7f95 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000207> ;
+    owl:annotatedTarget chebi:76329 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "3-methyl-4'-dimethylaminoazobenzene" ;
+    sssom:subject_label "3-methyl-4'-dimethylaminoazobenzene" ;
+    sssom:uuid "eb17e22c63ff5308987703fe678e7f95"^^<xsd:string> .
+
+sssom:ebc4979763535454ae4fc3b72d474332 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000173> ;
+    owl:annotatedTarget chebi:18154 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "polysaccharide" ;
+    sssom:subject_label "polysaccharide" ;
+    sssom:uuid "ebc4979763535454ae4fc3b72d474332"^^<xsd:string> .
+
+sssom:efa037b14d73538ea92996b83c668a7a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000162> ;
+    owl:annotatedTarget chebi:347401 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "pentolinium ion" ;
+    sssom:subject_label "pentolinium" ;
+    sssom:uuid "efa037b14d73538ea92996b83c668a7a"^^<xsd:string> .
+
+sssom:f037d0f0c5835ea1a5d090b0f49143e1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000270> ;
+    owl:annotatedTarget chebi:3380 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "captopril" ;
+    sssom:subject_label "captopril" ;
+    sssom:uuid "f037d0f0c5835ea1a5d090b0f49143e1"^^<xsd:string> .
+
+sssom:f070e2d351e95b8c9eeb4a51471e0671 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000208> ;
+    owl:annotatedTarget chebi:17356 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "2-acetamidofluorene" ;
+    sssom:subject_label "2-acetamidofluorene" ;
+    sssom:uuid "f070e2d351e95b8c9eeb4a51471e0671"^^<xsd:string> .
+
+sssom:f0eb98c2f77b5866bc542a726fe25896 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000487> ;
+    owl:annotatedTarget <file:///work/NCBI_Taxon:170187> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Streptococcus pneumoniae TIGR4 LuxS mutant" ;
+    sssom:uuid "f0eb98c2f77b5866bc542a726fe25896"^^<xsd:string> .
+
+sssom:f3024c2ef49155e5af03639a3753b937 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000329> ;
+    owl:annotatedTarget chebi:16973 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "11-deoxycorticosterone" ;
+    sssom:subject_label "controlled deoxycorticosterone content saline drink" ;
+    sssom:uuid "f3024c2ef49155e5af03639a3753b937"^^<xsd:string> .
+
+sssom:f58b4a020c24578a8691e85b965e09cc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000498> ;
+    owl:annotatedTarget chebi:78741 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "oxidopamine" ;
+    sssom:subject_label "oxidopamine" ;
+    sssom:uuid "f58b4a020c24578a8691e85b965e09cc"^^<xsd:string> .
+
+sssom:f6a95296cf435d84993ad4f343ad8e92 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000433> ;
+    owl:annotatedTarget chebi:17992 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sucrose" ;
+    sssom:subject_label "controlled sucrose content drinking water" ;
+    sssom:uuid "f6a95296cf435d84993ad4f343ad8e92"^^<xsd:string> .
+
+sssom:f821c1e447c859c780e19689e9be6ab9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000174> ;
+    owl:annotatedTarget chebi:15443 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "inulin" ;
+    sssom:subject_label "inulin" ;
+    sssom:uuid "f821c1e447c859c780e19689e9be6ab9"^^<xsd:string> .
+
+sssom:f9b5af125f085b7e9c2664453b426710 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000093> ;
+    owl:annotatedTarget chebi:33848 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "polycyclic arene" ;
+    sssom:subject_label "polycyclic arene" ;
+    sssom:uuid "f9b5af125f085b7e9c2664453b426710"^^<xsd:string> .
+
+sssom:f9eb47c143915f75b043e0619f0258a1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000227> ;
+    owl:annotatedTarget UniProtKB:P13487 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "charybdotoxin" ;
+    sssom:uuid "f9eb47c143915f75b043e0619f0258a1"^^<xsd:string> .
+
+sssom:fa11b278e25a5381bb7026ac6689af46 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000481> ;
+    owl:annotatedTarget <file:///work/NCBI_Taxon:281310> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Haemophilus influenzae 86-028NP" ;
+    sssom:uuid "fa11b278e25a5381bb7026ac6689af46"^^<xsd:string> .
+
+sssom:fafd5d9d2f93523da9a6c97d51e033a3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000525> ;
+    owl:annotatedTarget chebi:3011 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "benazepril" ;
+    sssom:subject_label "benazepril" ;
+    sssom:uuid "fafd5d9d2f93523da9a6c97d51e033a3"^^<xsd:string> .
+
+sssom:ffeda69aa25b5227aaac2313c7009d4b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <xco:0000317> ;
+    owl:annotatedTarget chebi:29108 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "calcium(2+)" ;
+    sssom:subject_label "buffered calcium ion solution" ;
+    sssom:uuid "ffeda69aa25b5227aaac2313c7009d4b"^^<xsd:string> .
+

@@ -1,0 +1,13 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:a4c2564a400d555ea9fe2d3e25253215 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "flopo.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/flopo.ols.sssom.tsv> ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/flopo> ;
+            sssom:local_id "flopo.ols" ] ;
+    sssom:uuid "a4c2564a400d555ea9fe2d3e25253215"^^<xsd:string> .
+

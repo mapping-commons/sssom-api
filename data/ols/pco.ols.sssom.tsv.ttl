@@ -1,0 +1,26 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:11d6dd3a8ae75874be8b95cc1fca5094 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "pco.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/pco.ols.sssom.tsv> ;
+    sssom:mappings sssom:4db046a4a5355f379d4f908e91bb7759 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/pco> ;
+            sssom:local_id "pco.ols" ] ;
+    sssom:uuid "11d6dd3a8ae75874be8b95cc1fca5094"^^<xsd:string> .
+
+sssom:4db046a4a5355f379d4f908e91bb7759 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pco:0000059> ;
+    owl:annotatedTarget <edam:1868> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Taxon" ;
+    sssom:subject_label "taxon as collection of organisms" ;
+    sssom:uuid "4db046a4a5355f379d4f908e91bb7759"^^<xsd:string> .
+

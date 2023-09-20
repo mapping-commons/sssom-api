@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:476aa35b561158229983e26fecfb6fe8 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "wbls.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/wbls.ols.sssom.tsv> ;
+    sssom:mappings sssom:95a3bdf9093152628989996d99a59c5e,
+        sssom:d0015b950dde54f5b165e81371b6da0e ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/wbls> ;
+            sssom:local_id "wbls.ols" ] ;
+    sssom:uuid "476aa35b561158229983e26fecfb6fe8"^^<xsd:string> .
+
+sssom:95a3bdf9093152628989996d99a59c5e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <wbls:0000725> ;
+    owl:annotatedTarget <opl:0000172> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "24 hour schistosomulum stage" ;
+    sssom:subject_label "24 hr schistosomulum" ;
+    sssom:uuid "95a3bdf9093152628989996d99a59c5e"^^<xsd:string> .
+
+sssom:d0015b950dde54f5b165e81371b6da0e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <wbls:0000724> ;
+    owl:annotatedTarget <opl:0000017> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "3 hour schistosomulum stage" ;
+    sssom:subject_label "3 hr schistosomulum" ;
+    sssom:uuid "d0015b950dde54f5b165e81371b6da0e"^^<xsd:string> .
+

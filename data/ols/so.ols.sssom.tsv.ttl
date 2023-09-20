@@ -1,0 +1,3261 @@
+@prefix PMID: <http://www.ncbi.nlm.nih.gov/pubmed/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix wikipedia.en: <http://en.wikipedia.org/wiki/> .
+
+sssom:29997f5a6ef65cab8fc90aebbdbc53ab a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "so.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/so.ols.sssom.tsv> ;
+    sssom:mappings sssom:0151f628aba153f694c7c0b131b6da50,
+        sssom:024f33cde66d5b89af9691207e4e5234,
+        sssom:0339bf1e0d605882af4323ef21e0d3c6,
+        sssom:03483469ea3c5a0fbdcde44de36f731c,
+        sssom:03c141d4aaee508487397ec9eabcb9f8,
+        sssom:04886aa880cd5ef1b1aa700cf6eaed17,
+        sssom:04ffcb4a935557629ece0ebb0dd8f8ce,
+        sssom:05422315c7e05bc0b838ecda0e0f6127,
+        sssom:06ffbae3e855565398bb22eeb83eb216,
+        sssom:070ad3538977592489e8f10fd9d43b85,
+        sssom:0891998ea69c59e5addabaf50c2dc836,
+        sssom:08cd38223cf85ad2bf77565c471c44af,
+        sssom:094e36e565bc520b98d62ad07354d5bb,
+        sssom:09ec713074e95ad799401c3972145ae0,
+        sssom:0a2aaf25371f5c1698e3a7f01bdfe2e8,
+        sssom:0ada799155ef56968dd53f78895a71a3,
+        sssom:0aec025377f05b8c8affd572ae22a052,
+        sssom:0b094543e99d5b23aef0041ff2b37075,
+        sssom:0b664f81e9dc5de2b127e73d2d90a568,
+        sssom:0c260d1578b45d95a387c4558bc71b36,
+        sssom:0d8baad3de0b512998c3852940aae54b,
+        sssom:0fd154284423521c8d24cbe33e540255,
+        sssom:1086066b00fb570b879d67165666104d,
+        sssom:112607fcdd2656c1a5fbe4ebfae7bf07,
+        sssom:11431b99764e51a2a4ba807b7a531a57,
+        sssom:1166dd5f20195c18a765ad5dfd76ced6,
+        sssom:11d79e485a755b458cf2df48a961abb2,
+        sssom:128c9a04ba0851cd9d48451076cb05c9,
+        sssom:13db4ff31d8259c3a621fa191f2100f1,
+        sssom:145c5fcf3ae35e7ba3243358d278ad9a,
+        sssom:148c6ee9a0fe527ca78fce5f46fffba0,
+        sssom:14f3696b516458d5b6f6fdce6021c10a,
+        sssom:15f66a6e4542541eaf1dc1b6b5bd464d,
+        sssom:16b29dffd4a750b2b1b730dbeb9b0428,
+        sssom:17af1f369fd85ae5a9f5a3afc1e89869,
+        sssom:189d0e361dbe59b5b42de3f74781b43d,
+        sssom:1a22b115273b5b7a8d18a27cdee38156,
+        sssom:1abfa8babd965cd79bc36c4bc53bab2c,
+        sssom:1b33afc60525589e9a92fc433531ac67,
+        sssom:1b3fe378a51451e19888f492b2dbf5f2,
+        sssom:1c24c6c5069053df9f73f73c49ef129d,
+        sssom:1d93947416bb5ce0987b0f1750a580f1,
+        sssom:1d9febbe595a5215bed8f9c262fe7697,
+        sssom:1da3d34f0db2580480c89e65e5f26a2d,
+        sssom:1f242a8e05905983a87bddd88168efb0,
+        sssom:1f3f6f14a5ca568b8058a7aaf354d54f,
+        sssom:1f7f32312c2d5e5fadfa8a4c61e638ef,
+        sssom:20efce70a3e0567bbfc5e47fb8f64671,
+        sssom:20f37df84ceb5688878535031fe59f24,
+        sssom:215f5146079c55acb5c09ec0341fc653,
+        sssom:23552ec3856952588f7e8c05ade457ca,
+        sssom:24a106d475ee5261a8805d1c672da710,
+        sssom:24d8c59f36a95716a732e19847cbfbf1,
+        sssom:24da2e39da985d5f8206600a1862c3b9,
+        sssom:2643de3bdaf2575584a3afb267050da3,
+        sssom:267912d53e115ef0ab6b1a53882a2b62,
+        sssom:2739d9d414d353209cfc468a4c505c42,
+        sssom:278444ea670f51dfaa14f8ba90592d1b,
+        sssom:28409220894159518b094bbbc5b5fa3e,
+        sssom:28f1dd2f6aae5513bdc3486de4ad3828,
+        sssom:2975638fa21655b99288cf7aecf459b9,
+        sssom:2b3310d7e72c5dab892f2f99bbf4e416,
+        sssom:2c69e03cfe775488a15745f70ab919cb,
+        sssom:2d68302c9d7f55ebac9f866228e3ca70,
+        sssom:2da0224589ab5ef0b0774a9fcf37c1f8,
+        sssom:2dd8e06a860a5e19af21d3f63317b0f0,
+        sssom:2dffd02a81c25b198803ce032ffd5212,
+        sssom:2feac7192dc9598f91e39e60bc022134,
+        sssom:30c848ab00fe5731a6e72252da7669b2,
+        sssom:30c9ddea42c652e782fcfd6f8437b4ac,
+        sssom:30d89adbe2ae5af2886b42e7bec44593,
+        sssom:317ac72060fd5d33b3d6433ccfc0b0f2,
+        sssom:322ebfa36408540182aa9c78ba50e26b,
+        sssom:322edf6e9e5c58e688b69c5fde8c5e81,
+        sssom:33c7bd500cd058e48375a0e3bdc2733e,
+        sssom:35a3d813ab0f50a2b932b7be044df77b,
+        sssom:3632a7ebd6225e6b95c68541b1d90a73,
+        sssom:36c3fc5881cb5431bee8d219da6537aa,
+        sssom:377e549a66065dc287d72848ca8318b6,
+        sssom:38abdd7f26ba55b6a4164fcae9607221,
+        sssom:38bdf60181695faf9349e679ce406b9e,
+        sssom:38dd05693de35aa9a9ea910c55ea4ecf,
+        sssom:39570b64bc975cf2bbaa3e349df3ed7e,
+        sssom:395a24596b235fa583c24facadea6e57,
+        sssom:3ac0e437e4e55096a7ed32087ae13565,
+        sssom:3c4e05a072de5d83960b89a1986e4844,
+        sssom:3d2a1c4df29c593cb5afc932d072376b,
+        sssom:3de4218bcccf5b3c93f1382358d4ea5f,
+        sssom:3e24489b60a25254ba83c8ca02e7ca0b,
+        sssom:3e3e4d60353b5c86920a8b7479461999,
+        sssom:3e539b60841d55a1b4a03acb76a87b0a,
+        sssom:3ef08a8eb710578a8f6428a52f482dc3,
+        sssom:3fa7adbaf1cb5ad2937f951da1ae1750,
+        sssom:401740b0901652e495b4180d181a7124,
+        sssom:405b7cbd3ff4571983ae62d2b36620ce,
+        sssom:40fd97b7377d5cec824e0a20256e66e0,
+        sssom:41a6d92c5fdb5f8d99516cc6fafcc938,
+        sssom:41bb645852755424a9648ced5d751757,
+        sssom:421c2b3f3f705086b885c37ffe303ef8,
+        sssom:427d3b2ad278515f8b275ce3fd180250,
+        sssom:466ff875f18550e897b174ee87598fe8,
+        sssom:46a79f65f18350e7a3158b3bef6f0c5b,
+        sssom:48523edb30d75b4d8e757485e04407df,
+        sssom:485a2adf02f35e75a891a55835e74568,
+        sssom:48981d214b8d5c8b8fb8fec4038dc051,
+        sssom:49bac1d87b3058a9b3713cac9a74bd2e,
+        sssom:4a88cba2db955457a3cebaf47b73fe0d,
+        sssom:4b213cf4eda254149a65986dcab663e2,
+        sssom:4b834f2f7c615379a76b785f73bdf5e2,
+        sssom:4c3e34674632544cbae0024922197934,
+        sssom:4cd46241e5d85ca096cd8a0c479d7b29,
+        sssom:4d37e7068a2058dd8cb2b378fb0135e0,
+        sssom:4d4427ebe10f51a1b24d6dbab2447e58,
+        sssom:4daef898e56b5ce2811216c4a0ce9ac0,
+        sssom:4f5b8b5bb7be5f8ab1021f71ed372ff8,
+        sssom:5152b55fa3485d809f85a8e2c456009b,
+        sssom:51c546e71fa8595999d0a861b859a951,
+        sssom:527cb3258e3659e4bc0b995da21491e4,
+        sssom:536b1716247150bc984660668b0f7db0,
+        sssom:53b8028fc03e5b13a5c2e0a5db551503,
+        sssom:547b4b0c05f75d4785ee71c377c29e7c,
+        sssom:57178255118357ab9cd14bb29275f51e,
+        sssom:5858296a9019553f90dad386090511e5,
+        sssom:58b2e408351c5459b2e7f38cf24ee9d5,
+        sssom:58fce937c0785ddb81d01deb6da2f5d4,
+        sssom:59e2455678305b038637418aef1efc3a,
+        sssom:5a560597f6b351258fed1454e3d27691,
+        sssom:5b6064057a1a56229906b87fd2191ae4,
+        sssom:5bbc075d45225012b98888bfde0a4101,
+        sssom:5ce9c18cfd3d538fa2cd952ccd255c9c,
+        sssom:5d4119141e445a489020f3931878854d,
+        sssom:5dff7a3945c75a38a8a7ac26e0c106cf,
+        sssom:602088a1822959fe8a61ddc7a370c787,
+        sssom:60a2535ff5645a288cff4148044d43a9,
+        sssom:636b776be38558b8ace8f3863e4f7453,
+        sssom:637b9cc3141455608b1f45e16dace7ac,
+        sssom:641b458a9dda501b9d4e9c7441fe1365,
+        sssom:642f93449e96593cbcb8d4de06ec8e46,
+        sssom:6517b19d6120575a8a2f168b9b5a3764,
+        sssom:6517c095d33951b9a0fc73c47b67cc7d,
+        sssom:6519bb9e26db5585adb29beb50664dbf,
+        sssom:66c2f492c3f65e4f90aef8fa8ff92699,
+        sssom:6712aaa4356d58e8ac1b235dba26e101,
+        sssom:67719f96e5eb5af7835868bef6aac898,
+        sssom:6819191d1df057e2ae7efb7f86cfd130,
+        sssom:6913cc821dcb5f8dad9ccd2d55a8b558,
+        sssom:69995fc077b45747bf5bae2316d0b267,
+        sssom:69c92d179e985eabb9d727b08064e06e,
+        sssom:6eb59b2b32525d47884b87643e9194af,
+        sssom:6eb800a8dce05799aacc938e14a60175,
+        sssom:6ecd1da54b0450bb85a23e21071758f9,
+        sssom:70329436a5e85bd1817d654f655208e6,
+        sssom:710d67760249576982440b645ebf355b,
+        sssom:71f166cd86bc5b7ca5f1a5dfb02e4339,
+        sssom:7295ef242f1c503aba2dc08866d64991,
+        sssom:72dfd089610f5491919c4dd79771ceab,
+        sssom:72ff13d13ac1586aa5df691220c9abc1,
+        sssom:75a7e3ed3536515db681c1ff7e414998,
+        sssom:75b28dd007e855219529c4d9570ae060,
+        sssom:787fb1068cbc59d9990b251d0d6fb30e,
+        sssom:78d7011970215ca38f76b3b64d227a70,
+        sssom:7a6ba504d0dc541f861de10bf05af8b6,
+        sssom:7b2994caf76a5bcb97ab4a5650b3c7b2,
+        sssom:7be1e2fd2c8958b7b705fee51a8428fa,
+        sssom:7c294e192b74589cb6a765a3ca6e1344,
+        sssom:7cf4b209b960596a9c785533f2a8cc2a,
+        sssom:7dde4fc8286f505c90f21681c0647c6a,
+        sssom:7ea09ea1d715565abc40e349f9e14677,
+        sssom:7ee2d6351fe45a96892ad4282c3bcc6e,
+        sssom:7ee966ef4e3659bf8ee57cb79a40727b,
+        sssom:7eedd7ba83bb5b019fa275df8e348ba6,
+        sssom:815b8ebce5965d8695e5d98c6a2b760b,
+        sssom:81961cf3144053ab82ee185bd2c0b90e,
+        sssom:8266ded298e05822a5dfd5e89cfca993,
+        sssom:829017f824e456fa85a124680a91ebd8,
+        sssom:8313b69a1f775580afb4b7bc01fbe14c,
+        sssom:835b30e571fd5a09b8d7dc122e92f5e9,
+        sssom:86c6c095235f57a281664f5354195628,
+        sssom:86d1ce4c9ca15b8a88a8c53466c37849,
+        sssom:86f0fe15a44d520898d51f22cd4c57f3,
+        sssom:8721d9880ca35e3f9b80ca3c226350b1,
+        sssom:879973620372584ca0e300464b5e9e38,
+        sssom:87b3c5f44fbc5ebf84c216b713f3e701,
+        sssom:87cf7689045b55c2a473a4064d6879e5,
+        sssom:88a44ee5368f5191b7f064f028a23453,
+        sssom:8963cde8ca875be0900974dc1f73ae72,
+        sssom:89770d0fa3d85ae6a709d76e91af461f,
+        sssom:89e4bb6d99f0573ba5b49bb6bd58441b,
+        sssom:8c3c55b3b7bb559a81b1815696c66552,
+        sssom:8c8bb9972f3651ef872066c5c520b6df,
+        sssom:8d0cea9855415d7ab6404f6b3172c666,
+        sssom:8e044c7a36135a99936beacef1279806,
+        sssom:8e769b93405a5eb48cc14c61b761ba5e,
+        sssom:8ec472310ecf5d808dc135b78f87aad3,
+        sssom:8f0e4299d9885c47ad2a52ae6e22af54,
+        sssom:90250afa25575f4db45459a1762c3330,
+        sssom:90e70c3b729e5340878967db375d363a,
+        sssom:92517b8b35e0539495d027387dbe3a69,
+        sssom:9330c231c95259fca12b56f80b12ccea,
+        sssom:93844e1e17a45c2caeb23fccb33be188,
+        sssom:93c0217b31ba5b3dbda6e496301cd05b,
+        sssom:9401b192870f5308ae9d31c0d9b46dd1,
+        sssom:945ed705f5dd5b76a842461c35951eba,
+        sssom:94d74d56bd1352398da5a40973376b09,
+        sssom:95c38f2f54995f2c88a1ce2da68f4e48,
+        sssom:96514ff30fd256b48b59acce6792ab35,
+        sssom:97f5d16e0af95047a08628d6af91302b,
+        sssom:981f2e3c3adb59bfbdf0b7fdb4522a23,
+        sssom:984f252707a2521b8fed2d8dc30e7ac2,
+        sssom:99fbbfe0483a5dc28d502e5cd0955792,
+        sssom:9bccdc9a5ad7501b8f73e2833f3c6825,
+        sssom:9ca14c492b7751f68e6d32c9880204dc,
+        sssom:9cec86269d975522a5756ffdc3a4642e,
+        sssom:9e52e7836c645a89bd72c7f2f8089bb6,
+        sssom:9f2bd602f9b95d3184e41be78ee92597,
+        sssom:a03b7b4c641259a580cbcc5e65caab40,
+        sssom:a07ab09de0e2581283e1fdfa88a852ef,
+        sssom:a163a3743cf956a5be0cb4b99316c5bb,
+        sssom:a1ed8d993d1b5973ab7307064f0f967e,
+        sssom:a26217f41ff25f63a7a49477970b4b7f,
+        sssom:a28273603f695f93963f2436c1f90f8d,
+        sssom:a28c0b67f917557f99b0802ddb68a473,
+        sssom:a4254f5962cf56b5a2b8fd352c0dfbb0,
+        sssom:a50c27648b9450469c15b83e27ee6f32,
+        sssom:a554ba27a49058d78bd0b8e8f971cd92,
+        sssom:a57bd653140150f19f7200a7d715a4c5,
+        sssom:a64f403ed2fe5767a643509eafabfea7,
+        sssom:a6cae5821c455bfcb3b5fa73f0da671d,
+        sssom:a6f4d6082c695a5eb574d68ddd0f0dbc,
+        sssom:a6f5ee06dd305fae92cce840b4405aea,
+        sssom:a743ed5c19605423aa65fb48a13eb3ff,
+        sssom:a7b6a6e7fd535e7890107745beb8f69c,
+        sssom:a7ff16c088f656f7a0668e20f2d859f8,
+        sssom:a80c2e1987395251a1d314dc68fcf736,
+        sssom:a8a0c939daa75359a6e4aae5cb01deb9,
+        sssom:aa0ff91ee289597a95bfda71b47e6880,
+        sssom:ab1a7392cc085620b8310136aa1ab152,
+        sssom:acc3aff8b4d2523aa98dff49695265d8,
+        sssom:add88626e04a58a0ad464ac19c8c63b9,
+        sssom:b2c1da9528d1516b9b2c11116595370d,
+        sssom:b34b6b5942d655158053b8ea5f027530,
+        sssom:b363396ee5d351d6a2c2bac06e09f839,
+        sssom:b387d0ad9cc05f4088e6b6add554465d,
+        sssom:b4fbc078b37352079bc64048ba8e20c6,
+        sssom:b64444b9b4625039bc85bad7011b0225,
+        sssom:b72a0a3367f2549e9e0b08e35cdf54b9,
+        sssom:b82cdd16bf9750cba68ba751d0017e2d,
+        sssom:b9712c1aedd751d993418b8cfd60107b,
+        sssom:b9c37662252b5a15b4b6984143af2dd9,
+        sssom:ba3719e25ffb5900a4f8c3ae4cd3c8b0,
+        sssom:baaf06eee0735ebaaf10c8507cc2ab2e,
+        sssom:baed14e1ed0558e3ae420b37863afebd,
+        sssom:bc588d7a76905ce3801e32f71c75efe2,
+        sssom:bcf3584863fb5422b4084e99f938df55,
+        sssom:bd655dbd8bf655f59e01fbd050bc70cd,
+        sssom:bdbcb13bdc9f5a65a9c14e472d73dfc2,
+        sssom:be742154ce535ca2b2ba33e83d2e11a4,
+        sssom:be98cdab15f252ed831f52f2095b1b0b,
+        sssom:bedcdf805d595de2af69d925401c0859,
+        sssom:bf1d29f85aad52328772a38bac247c86,
+        sssom:bfb2dee8c76d576e9632b59797beb96f,
+        sssom:c08b37171d56521f83383f7b7be23538,
+        sssom:c0af3bc3854a553489aba22b1d69d4c0,
+        sssom:c1609ab963fd536186554e5dfa71eb83,
+        sssom:c1a0bc6a6ccc53e892f58608d4a2989b,
+        sssom:c2de1a22db4751dea5e34712e72b92e4,
+        sssom:c31fceda59975397bcd7dd2708663d5a,
+        sssom:c3fe9d32cd435a078a8bbaec63a6005d,
+        sssom:c5c39cd29a3255239c6b46565a3ac8b8,
+        sssom:c663ffd83de65fc6ac48f0b408a53f05,
+        sssom:c671b2ca41ca5d478b6eb9ad3568cec0,
+        sssom:c69aa55ad2d0578d856f3596b6ebacee,
+        sssom:c6a02d23f8df53eda25beec33bd62102,
+        sssom:c79202d0fca35149b1f5a5ea213401ba,
+        sssom:c893a42a2add5582b4e217cb1779906a,
+        sssom:c8b2db1228db5a97b10a0af5339e3332,
+        sssom:cad45e16fd08596ebea40d6f2fc66cc5,
+        sssom:cae067335b17533b8d808ec74422e8cc,
+        sssom:cbb3a2f9fe44568a8b8bd9c7a7206643,
+        sssom:cd1f3d1452ba511e8d67d8d47c142d13,
+        sssom:cda13abd02835a9a9a7ec4abd5e2ac87,
+        sssom:ce6c0eabd84b525b9c2b14827d326f48,
+        sssom:cff501b0262e578a80e021ebd84194d2,
+        sssom:d0584d1410b15f7386ea51f75a948afc,
+        sssom:d108941d7d915602bbdff6fa6c4a95bc,
+        sssom:d1b53989e240555bb47e7f3727a17db9,
+        sssom:d358fbd53cbd5467b8d7b667403f7ee9,
+        sssom:d3a9e70ed69b5e69a08f8398bf04ca73,
+        sssom:d464e412f9af553cbf88245070b40765,
+        sssom:d4aa2acffc005e729ea58c93b33ce37e,
+        sssom:d5262d9144305165a45003e2a7c5da1d,
+        sssom:d5cf46db253a588d9d7db2e666e3ac43,
+        sssom:d603fa0e6e4f52a3a27b062953857b27,
+        sssom:d685649049ed59b5863192936e3413b6,
+        sssom:d693caa16e6b5f5497f14bcd58469860,
+        sssom:d69ac88dcfbf5ade9e88afeeb28024f0,
+        sssom:d7bac14758315c99964fd387928f76bb,
+        sssom:d7f292b664a054228c957e795e9cfee1,
+        sssom:d8645391f3ad54999451c754949c6c45,
+        sssom:d897bbae527a52d48a46f0bd9c683338,
+        sssom:d8a035b0e30758a4b620d9e095d15565,
+        sssom:d98eb8f05eaa58d796dde0aed60444aa,
+        sssom:db1a243d476a514f95d25cd115e73c45,
+        sssom:dbc7889c31b153c1badb3a3a7dd92d0d,
+        sssom:dc25fe0e7c735ff68b5ea7db591d90a5,
+        sssom:dd13527edaf050e0abc5f65acde2b2d5,
+        sssom:e0b7b8aa63c45eff81958f571a22dba4,
+        sssom:e188313788e659489566942bd60c0153,
+        sssom:e2b33316b84252e391786b9bb76a86d5,
+        sssom:e2eca9f3ce705971b94094b52812f370,
+        sssom:e2fec31fa1fe5cfea24f58cd3309657c,
+        sssom:e30770a07fe35a78a479c3ab72379e5c,
+        sssom:e3120481dacf540c9e1903e09e415b71,
+        sssom:e425df502d6157aa9f9a4601dd78d920,
+        sssom:e60c55d2ba095b308d6aca4e30b272d1,
+        sssom:e68450a390ab51a9a0f75022b47ed0f7,
+        sssom:e6c7f1726e2b5c19867b35558bcee295,
+        sssom:e8114f48df215639bd43347da35e5ce2,
+        sssom:e8998b0b87615a3699e5c2a220fe4589,
+        sssom:e8abf5230fd555b3aae03e857d0d2c98,
+        sssom:e91cacf122d659969629da5edab86ea2,
+        sssom:e935f8dde5d55da98d579e4e4c856d05,
+        sssom:e9365c27b1475300a2efb1fbcb0f663e,
+        sssom:e98048db722655cc9bba109c781c8847,
+        sssom:e9e8e2e4dfd35e1aa038d75490591692,
+        sssom:eb6dc44fca4257cb98b81ebfbf0f648e,
+        sssom:ebaa061c6b5d50ebbe73decf20295807,
+        sssom:ebf90cf0240153408f2dfb58e951b3bb,
+        sssom:ed710b7435a75302a5d524e621a1143d,
+        sssom:ee50c3346c5f5720876f2059a29cf437,
+        sssom:ee7d920e1552511dbb415879b08f3125,
+        sssom:ef9f84cc0fd5561992460eb1c528c1de,
+        sssom:eff0e6ce51f456358e7e1f79abf1482b,
+        sssom:f21046f3c2395010b27c492120a296df,
+        sssom:f3233e23b6e95cacaaf7690af9b65858,
+        sssom:f4f57eae4de85e2ea67d67d467799291,
+        sssom:f5551945c3315df88fd3590161097f13,
+        sssom:f565b06b5f6853478a0fa25f4234661e,
+        sssom:f621c9aed66a54caabaf5e8c36fc40da,
+        sssom:f63b6e489ce05e8bad026e4321834b78,
+        sssom:f6ab1b899c9e52799159e5e63a1e080d,
+        sssom:f80db9070071540db2ea095f0994ab8b,
+        sssom:f8330d09393253548abf173186d47181,
+        sssom:f8c8288effc65d379352384dbcc5e9f7,
+        sssom:f8ccfe8675f35c0fa39e2c2d5a5b6b00,
+        sssom:f901d1b672075a31b31287b24759fdd3,
+        sssom:f91de3744be55d6f855a2c06bd36001a,
+        sssom:f926c570be295f428175ae6540164cd3,
+        sssom:f9d9a585e5865dd7a76c3f3ec99fab0d,
+        sssom:fa17ed870ef651e79d251030d07b06f6,
+        sssom:faea9b54acaf5570bb82dabee56cc6e2,
+        sssom:fb1c55fa3595599ea3c627806e0817bb,
+        sssom:fcc347b5aa7d5a5898fb08f73180e5de,
+        sssom:fdb7005027025d96a658979e3e135ae7,
+        sssom:fded56c1d97051709e7b1fd94f256dd4,
+        sssom:fe36918f89595e8c95c035a4f229431c,
+        sssom:fe918459ae8f5f4f83a9df0627b52291,
+        sssom:ff3e60b221b45e69a4b62c8479438c0c ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/so> ;
+            sssom:local_id "so.ols" ] ;
+    sssom:uuid "29997f5a6ef65cab8fc90aebbdbc53ab"^^<xsd:string> .
+
+sssom:0151f628aba153f694c7c0b131b6da50 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000544> ;
+    owl:annotatedTarget wikipedia.en:Helitron ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "helitron" ;
+    sssom:uuid "0151f628aba153f694c7c0b131b6da50"^^<xsd:string> .
+
+sssom:024f33cde66d5b89af9691207e4e5234 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001336> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?041> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "wyosine" ;
+    sssom:uuid "024f33cde66d5b89af9691207e4e5234"^^<xsd:string> .
+
+sssom:0339bf1e0d605882af4323ef21e0d3c6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001370> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?078> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_carboxymethylaminomethyl_two_prime_O_methyluridine" ;
+    sssom:uuid "0339bf1e0d605882af4323ef21e0d3c6"^^<xsd:string> .
+
+sssom:03483469ea3c5a0fbdcde44de36f731c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001382> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?105> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_isopentenylaminomethyl_two_prime_O_methyluridine" ;
+    sssom:uuid "03483469ea3c5a0fbdcde44de36f731c"^^<xsd:string> .
+
+sssom:03c141d4aaee508487397ec9eabcb9f8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000314> ;
+    owl:annotatedTarget wikipedia.en:Direct_repeat ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "direct_repeat" ;
+    sssom:uuid "03c141d4aaee508487397ec9eabcb9f8"^^<xsd:string> .
+
+sssom:04886aa880cd5ef1b1aa700cf6eaed17 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000149> ;
+    owl:annotatedTarget wikipedia.en:Contig ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "contig" ;
+    sssom:uuid "04886aa880cd5ef1b1aa700cf6eaed17"^^<xsd:string> .
+
+sssom:04ffcb4a935557629ece0ebb0dd8f8ce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000172> ;
+    owl:annotatedTarget wikipedia.en:CAAT_box ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "CAAT_signal" ;
+    sssom:uuid "04ffcb4a935557629ece0ebb0dd8f8ce"^^<xsd:string> .
+
+sssom:05422315c7e05bc0b838ecda0e0f6127 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001174> ;
+    owl:annotatedTarget wikipedia.en:Anticodon ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "anticodon" ;
+    sssom:uuid "05422315c7e05bc0b838ecda0e0f6127"^^<xsd:string> .
+
+sssom:06ffbae3e855565398bb22eeb83eb216 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000056> ;
+    owl:annotatedTarget wikipedia.en:Hypoploid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "hypoploid" ;
+    sssom:uuid "06ffbae3e855565398bb22eeb83eb216"^^<xsd:string> .
+
+sssom:070ad3538977592489e8f10fd9d43b85 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000379> ;
+    owl:annotatedTarget wikipedia.en:GcvB_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "GcvB_RNA" ;
+    sssom:uuid "070ad3538977592489e8f10fd9d43b85"^^<xsd:string> .
+
+sssom:0891998ea69c59e5addabaf50c2dc836 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000036> ;
+    owl:annotatedTarget wikipedia.en:Matrix_attachment_site ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "matrix_attachment_site" ;
+    sssom:uuid "0891998ea69c59e5addabaf50c2dc836"^^<xsd:string> .
+
+sssom:08cd38223cf85ad2bf77565c471c44af a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000412> ;
+    owl:annotatedTarget wikipedia.en:Restriction_fragment ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "restriction_fragment" ;
+    sssom:uuid "08cd38223cf85ad2bf77565c471c44af"^^<xsd:string> .
+
+sssom:094e36e565bc520b98d62ad07354d5bb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0005836> ;
+    owl:annotatedTarget wikipedia.en:Regulatory_region ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "regulatory_region" ;
+    sssom:uuid "094e36e565bc520b98d62ad07354d5bb"^^<xsd:string> .
+
+sssom:09ec713074e95ad799401c3972145ae0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000147> ;
+    owl:annotatedTarget wikipedia.en:Exon ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "exon" ;
+    sssom:uuid "09ec713074e95ad799401c3972145ae0"^^<xsd:string> .
+
+sssom:0a2aaf25371f5c1698e3a7f01bdfe2e8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000644> ;
+    owl:annotatedTarget wikipedia.en:Antisense_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "antisense_RNA" ;
+    sssom:uuid "0a2aaf25371f5c1698e3a7f01bdfe2e8"^^<xsd:string> .
+
+sssom:0ada799155ef56968dd53f78895a71a3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001369> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?077> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_carboxymethylaminomethyluridine" ;
+    sssom:uuid "0ada799155ef56968dd53f78895a71a3"^^<xsd:string> .
+
+sssom:0aec025377f05b8c8affd572ae22a052 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001285> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?024> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N4_acetylcytidine" ;
+    sssom:uuid "0aec025377f05b8c8affd572ae22a052"^^<xsd:string> .
+
+sssom:0b094543e99d5b23aef0041ff2b37075 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000204> ;
+    owl:annotatedTarget <http://en.wikipedia.org/wiki/5'_UTR> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_prime_UTR" ;
+    sssom:uuid "0b094543e99d5b23aef0041ff2b37075"^^<xsd:string> .
+
+sssom:0b664f81e9dc5de2b127e73d2d90a568 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001365> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?073> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methylaminomethyl_two_thiouridine" ;
+    sssom:uuid "0b664f81e9dc5de2b127e73d2d90a568"^^<xsd:string> .
+
+sssom:0c260d1578b45d95a387c4558bc71b36 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000065> ;
+    owl:annotatedTarget wikipedia.en:Frameshift_mutation ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "frameshift_sequence_variation" ;
+    sssom:uuid "0c260d1578b45d95a387c4558bc71b36"^^<xsd:string> .
+
+sssom:0d8baad3de0b512998c3852940aae54b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001394> ;
+    owl:annotatedTarget <mod:00907> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-glutamine residue" ;
+    sssom:subject_label "modified_L_glutamine" ;
+    sssom:uuid "0d8baad3de0b512998c3852940aae54b"^^<xsd:string> .
+
+sssom:0fd154284423521c8d24cbe33e540255 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000154> ;
+    owl:annotatedTarget wikipedia.en:P1-derived_artificial_chromosome ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "PAC" ;
+    sssom:uuid "0fd154284423521c8d24cbe33e540255"^^<xsd:string> .
+
+sssom:1086066b00fb570b879d67165666104d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000156> ;
+    owl:annotatedTarget wikipedia.en:Cosmid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cosmid" ;
+    sssom:uuid "1086066b00fb570b879d67165666104d"^^<xsd:string> .
+
+sssom:112607fcdd2656c1a5fbe4ebfae7bf07 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000756> ;
+    owl:annotatedTarget wikipedia.en:CDNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cDNA" ;
+    sssom:uuid "112607fcdd2656c1a5fbe4ebfae7bf07"^^<xsd:string> .
+
+sssom:11431b99764e51a2a4ba807b7a531a57 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001289> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?028> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "lysidine" ;
+    sssom:uuid "11431b99764e51a2a4ba807b7a531a57"^^<xsd:string> .
+
+sssom:1166dd5f20195c18a765ad5dfd76ced6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001282> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?021> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methylcytidine" ;
+    sssom:uuid "1166dd5f20195c18a765ad5dfd76ced6"^^<xsd:string> .
+
+sssom:11d79e485a755b458cf2df48a961abb2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000336> ;
+    owl:annotatedTarget wikipedia.en:Pseudogene ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "pseudogene" ;
+    sssom:uuid "11d79e485a755b458cf2df48a961abb2"^^<xsd:string> .
+
+sssom:128c9a04ba0851cd9d48451076cb05c9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001313> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?089> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_N6_2_prime_O_trimethyladenosine" ;
+    sssom:uuid "128c9a04ba0851cd9d48451076cb05c9"^^<xsd:string> .
+
+sssom:13db4ff31d8259c3a621fa191f2100f1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001017> ;
+    owl:annotatedTarget wikipedia.en:Silent_mutation ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "silent_mutation" ;
+    sssom:uuid "13db4ff31d8259c3a621fa191f2100f1"^^<xsd:string> .
+
+sssom:145c5fcf3ae35e7ba3243358d278ad9a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000178> ;
+    owl:annotatedTarget wikipedia.en:Operon ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "operon" ;
+    sssom:uuid "145c5fcf3ae35e7ba3243358d278ad9a"^^<xsd:string> .
+
+sssom:148c6ee9a0fe527ca78fce5f46fffba0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001283> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?022> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_prime_O_methylcytidine" ;
+    sssom:uuid "148c6ee9a0fe527ca78fce5f46fffba0"^^<xsd:string> .
+
+sssom:14f3696b516458d5b6f6fdce6021c10a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001333> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?038> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "peroxywybutosine" ;
+    sssom:uuid "14f3696b516458d5b6f6fdce6021c10a"^^<xsd:string> .
+
+sssom:15f66a6e4542541eaf1dc1b6b5bd464d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000404> ;
+    owl:annotatedTarget wikipedia.en:Vault_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "vault_RNA" ;
+    sssom:uuid "15f66a6e4542541eaf1dc1b6b5bd464d"^^<xsd:string> .
+
+sssom:16b29dffd4a750b2b1b730dbeb9b0428 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001377> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?094> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "three_methylpseudouridine" ;
+    sssom:uuid "16b29dffd4a750b2b1b730dbeb9b0428"^^<xsd:string> .
+
+sssom:17af1f369fd85ae5a9f5a3afc1e89869 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001352> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?060> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_thio_two_prime_O_methyluridine" ;
+    sssom:uuid "17af1f369fd85ae5a9f5a3afc1e89869"^^<xsd:string> .
+
+sssom:189d0e361dbe59b5b42de3f74781b43d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000406> ;
+    owl:annotatedTarget wikipedia.en:Twintron ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "twintron" ;
+    sssom:uuid "189d0e361dbe59b5b42de3f74781b43d"^^<xsd:string> .
+
+sssom:1a22b115273b5b7a8d18a27cdee38156 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001393> ;
+    owl:annotatedTarget <mod:00918> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-tryptophan residue" ;
+    sssom:subject_label "modified_L_tryptophan" ;
+    sssom:uuid "1a22b115273b5b7a8d18a27cdee38156"^^<xsd:string> .
+
+sssom:1abfa8babd965cd79bc36c4bc53bab2c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000037> ;
+    owl:annotatedTarget wikipedia.en:Locus_control_region ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "locus_control_region" ;
+    sssom:uuid "1abfa8babd965cd79bc36c4bc53bab2c"^^<xsd:string> .
+
+sssom:1b33afc60525589e9a92fc433531ac67 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000817> ;
+    owl:annotatedTarget wikipedia.en:Wild_type ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "wild_type" ;
+    sssom:uuid "1b33afc60525589e9a92fc433531ac67"^^<xsd:string> .
+
+sssom:1b3fe378a51451e19888f492b2dbf5f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001234> ;
+    owl:annotatedTarget wikipedia.en:Mobile ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mobile" ;
+    sssom:uuid "1b3fe378a51451e19888f492b2dbf5f2"^^<xsd:string> .
+
+sssom:1c24c6c5069053df9f73f73c49ef129d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000696> ;
+    owl:annotatedTarget wikipedia.en:Oligonucleotide ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "oligo" ;
+    sssom:uuid "1c24c6c5069053df9f73f73c49ef129d"^^<xsd:string> .
+
+sssom:1d93947416bb5ce0987b0f1750a580f1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000185> ;
+    owl:annotatedTarget wikipedia.en:Primary_transcript ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "primary_transcript" ;
+    sssom:uuid "1d93947416bb5ce0987b0f1750a580f1"^^<xsd:string> .
+
+sssom:1d9febbe595a5215bed8f9c262fe7697 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000234> ;
+    owl:annotatedTarget wikipedia.en:MRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mRNA" ;
+    sssom:uuid "1d9febbe595a5215bed8f9c262fe7697"^^<xsd:string> .
+
+sssom:1da3d34f0db2580480c89e65e5f26a2d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000028> ;
+    owl:annotatedTarget wikipedia.en:Base_pair ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "base_pair" ;
+    sssom:uuid "1da3d34f0db2580480c89e65e5f26a2d"^^<xsd:string> .
+
+sssom:1f242a8e05905983a87bddd88168efb0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001291> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?083> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N4_2_prime_O_dimethylcytidine" ;
+    sssom:uuid "1f242a8e05905983a87bddd88168efb0"^^<xsd:string> .
+
+sssom:1f3f6f14a5ca568b8058a7aaf354d54f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000043> ;
+    owl:annotatedTarget wikipedia.en:Robertsonian_fusion ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Robertsonian_fusion" ;
+    sssom:uuid "1f3f6f14a5ca568b8058a7aaf354d54f"^^<xsd:string> .
+
+sssom:1f7f32312c2d5e5fadfa8a4c61e638ef a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000619> ;
+    owl:annotatedTarget wikipedia.en:A-box ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "A_box" ;
+    sssom:uuid "1f7f32312c2d5e5fadfa8a4c61e638ef"^^<xsd:string> .
+
+sssom:20efce70a3e0567bbfc5e47fb8f64671 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001329> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?034> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N2_2_prime_O_dimethylguanosine" ;
+    sssom:uuid "20efce70a3e0567bbfc5e47fb8f64671"^^<xsd:string> .
+
+sssom:20f37df84ceb5688878535031fe59f24 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000319> ;
+    owl:annotatedTarget wikipedia.en:Stop_codon ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "stop_codon" ;
+    sssom:uuid "20f37df84ceb5688878535031fe59f24"^^<xsd:string> .
+
+sssom:215f5146079c55acb5c09ec0341fc653 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000853> ;
+    owl:annotatedTarget wikipedia.en:Homology_\(biology\) ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "homologous_region" ;
+    sssom:uuid "215f5146079c55acb5c09ec0341fc653"^^<xsd:string> .
+
+sssom:23552ec3856952588f7e8c05ade457ca a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000634> ;
+    owl:annotatedTarget wikipedia.en:Polycistronic_mRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "polycistronic_mRNA" ;
+    sssom:uuid "23552ec3856952588f7e8c05ade457ca"^^<xsd:string> .
+
+sssom:24a106d475ee5261a8805d1c672da710 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001819> ;
+    owl:annotatedTarget wikipedia.en:Silent_mutation ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "synonymous_variant" ;
+    sssom:uuid "24a106d475ee5261a8805d1c672da710"^^<xsd:string> .
+
+sssom:24d8c59f36a95716a732e19847cbfbf1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000205> ;
+    owl:annotatedTarget wikipedia.en:Three_prime_untranslated_region ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "three_prime_UTR" ;
+    sssom:uuid "24d8c59f36a95716a732e19847cbfbf1"^^<xsd:string> .
+
+sssom:24da2e39da985d5f8206600a1862c3b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000294> ;
+    owl:annotatedTarget wikipedia.en:Inverted_repeat ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "inverted_repeat" ;
+    sssom:uuid "24da2e39da985d5f8206600a1862c3b9"^^<xsd:string> .
+
+sssom:2643de3bdaf2575584a3afb267050da3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001182> ;
+    owl:annotatedTarget wikipedia.en:Iron_responsive_element ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "iron_responsive_element" ;
+    sssom:uuid "2643de3bdaf2575584a3afb267050da3"^^<xsd:string> .
+
+sssom:267912d53e115ef0ab6b1a53882a2b62 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001015> ;
+    owl:annotatedTarget wikipedia.en:Wobble_base_pair ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "wobble_base_pair" ;
+    sssom:uuid "267912d53e115ef0ab6b1a53882a2b62"^^<xsd:string> .
+
+sssom:2739d9d414d353209cfc468a4c505c42 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001289> ;
+    owl:annotatedTarget wikipedia.en:Lysidine ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "lysidine" ;
+    sssom:uuid "2739d9d414d353209cfc468a4c505c42"^^<xsd:string> .
+
+sssom:278444ea670f51dfaa14f8ba90592d1b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001647> ;
+    owl:annotatedTarget wikipedia.en:Kozak_consensus_sequence ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "kozak_sequence" ;
+    sssom:uuid "278444ea670f51dfaa14f8ba90592d1b"^^<xsd:string> .
+
+sssom:28409220894159518b094bbbc5b5fa3e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001402> ;
+    owl:annotatedTarget <mod:01158> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-selenocysteine residue" ;
+    sssom:subject_label "modified_L_selenocysteine" ;
+    sssom:uuid "28409220894159518b094bbbc5b5fa3e"^^<xsd:string> .
+
+sssom:28f1dd2f6aae5513bdc3486de4ad3828 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000051> ;
+    owl:annotatedTarget wikipedia.en:Hybridization_probe ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "probe" ;
+    sssom:uuid "28f1dd2f6aae5513bdc3486de4ad3828"^^<xsd:string> .
+
+sssom:2975638fa21655b99288cf7aecf459b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001032> ;
+    owl:annotatedTarget wikipedia.en:Mitochondrial_DNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mitochondrial_DNA" ;
+    sssom:uuid "2975638fa21655b99288cf7aecf459b9"^^<xsd:string> .
+
+sssom:2b3310d7e72c5dab892f2f99bbf4e416 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001373> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?086> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "one_methyl_three_three_amino_three_carboxypropyl_pseudouridine" ;
+    sssom:uuid "2b3310d7e72c5dab892f2f99bbf4e416"^^<xsd:string> .
+
+sssom:2c69e03cfe775488a15745f70ab919cb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1001284> ;
+    owl:annotatedTarget wikipedia.en:Regulon ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "regulon" ;
+    sssom:uuid "2c69e03cfe775488a15745f70ab919cb"^^<xsd:string> .
+
+sssom:2d68302c9d7f55ebac9f866228e3ca70 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000376> ;
+    owl:annotatedTarget wikipedia.en:6S_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "RNA_6S" ;
+    sssom:uuid "2d68302c9d7f55ebac9f866228e3ca70"^^<xsd:string> .
+
+sssom:2da0224589ab5ef0b0774a9fcf37c1f8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000297> ;
+    owl:annotatedTarget wikipedia.en:D_loop ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "D_loop" ;
+    sssom:uuid "2da0224589ab5ef0b0774a9fcf37c1f8"^^<xsd:string> .
+
+sssom:2dd8e06a860a5e19af21d3f63317b0f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001349> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?057> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_thiouridine" ;
+    sssom:uuid "2dd8e06a860a5e19af21d3f63317b0f0"^^<xsd:string> .
+
+sssom:2dffd02a81c25b198803ce032ffd5212 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001024> ;
+    owl:annotatedTarget wikipedia.en:Haplotype ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "haplotype" ;
+    sssom:uuid "2dffd02a81c25b198803ce032ffd5212"^^<xsd:string> .
+
+sssom:2feac7192dc9598f91e39e60bc022134 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1001274> ;
+    owl:annotatedTarget wikipedia.en:SECIS_element ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "SECIS_element" ;
+    sssom:uuid "2feac7192dc9598f91e39e60bc022134"^^<xsd:string> .
+
+sssom:30c848ab00fe5731a6e72252da7669b2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000023> ;
+    owl:annotatedTarget wikipedia.en:K-turn ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "K_turn_RNA_motif" ;
+    sssom:uuid "30c848ab00fe5731a6e72252da7669b2"^^<xsd:string> .
+
+sssom:30c9ddea42c652e782fcfd6f8437b4ac a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001391> ;
+    owl:annotatedTarget <mod:00906> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-glutamic acid residue" ;
+    sssom:subject_label "modified_L_glutamic_acid" ;
+    sssom:uuid "30c9ddea42c652e782fcfd6f8437b4ac"^^<xsd:string> .
+
+sssom:30d89adbe2ae5af2886b42e7bec44593 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000029> ;
+    owl:annotatedTarget wikipedia.en:Chromosomal_deletion ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "chromosomal_deletion" ;
+    sssom:uuid "30d89adbe2ae5af2886b42e7bec44593"^^<xsd:string> .
+
+sssom:317ac72060fd5d33b3d6433ccfc0b0f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001360> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?068> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methoxycarbonylmethyluridine" ;
+    sssom:uuid "317ac72060fd5d33b3d6433ccfc0b0f2"^^<xsd:string> .
+
+sssom:322ebfa36408540182aa9c78ba50e26b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001301> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?007> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_methylthio_N6_isopentenyladenosine" ;
+    sssom:uuid "322ebfa36408540182aa9c78ba50e26b"^^<xsd:string> .
+
+sssom:322edf6e9e5c58e688b69c5fde8c5e81 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001297> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?003> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_methyladenosine" ;
+    sssom:uuid "322edf6e9e5c58e688b69c5fde8c5e81"^^<xsd:string> .
+
+sssom:33c7bd500cd058e48375a0e3bdc2733e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001344> ;
+    owl:annotatedTarget wikipedia.en:5-methyluridine ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methyluridine" ;
+    sssom:uuid "33c7bd500cd058e48375a0e3bdc2733e"^^<xsd:string> .
+
+sssom:35a3d813ab0f50a2b932b7be044df77b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000380> ;
+    owl:annotatedTarget wikipedia.en:Hammerhead_ribozyme ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "hammerhead_ribozyme" ;
+    sssom:uuid "35a3d813ab0f50a2b932b7be044df77b"^^<xsd:string> .
+
+sssom:3632a7ebd6225e6b95c68541b1d90a73 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000396> ;
+    owl:annotatedTarget wikipedia.en:U6_snRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "U6_snRNA" ;
+    sssom:uuid "3632a7ebd6225e6b95c68541b1d90a73"^^<xsd:string> .
+
+sssom:36c3fc5881cb5431bee8d219da6537aa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001354> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?060> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_hydroxyuridine" ;
+    sssom:uuid "36c3fc5881cb5431bee8d219da6537aa"^^<xsd:string> .
+
+sssom:377e549a66065dc287d72848ca8318b6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001399> ;
+    owl:annotatedTarget <mod:00916> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-serine residue" ;
+    sssom:subject_label "modified_L_serine" ;
+    sssom:uuid "377e549a66065dc287d72848ca8318b6"^^<xsd:string> .
+
+sssom:38abdd7f26ba55b6a4164fcae9607221 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001312> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?088> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_2_prime_O_dimethyladenosine" ;
+    sssom:uuid "38abdd7f26ba55b6a4164fcae9607221"^^<xsd:string> .
+
+sssom:38bdf60181695faf9349e679ce406b9e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001281> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?020> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "three_methylcytidine" ;
+    sssom:uuid "38bdf60181695faf9349e679ce406b9e"^^<xsd:string> .
+
+sssom:38dd05693de35aa9a9ea910c55ea4ecf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001362> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?070> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methoxycarbonylmethyl_two_thiouridine" ;
+    sssom:uuid "38dd05693de35aa9a9ea910c55ea4ecf"^^<xsd:string> .
+
+sssom:39570b64bc975cf2bbaa3e349df3ed7e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001306> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?012> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_methylthio_N6_threonyl_carbamoyladenosine" ;
+    sssom:uuid "39570b64bc975cf2bbaa3e349df3ed7e"^^<xsd:string> .
+
+sssom:395a24596b235fa583c24facadea6e57 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001361> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?069> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methoxycarbonylmethyl_two_prime_O_methyluridine" ;
+    sssom:uuid "395a24596b235fa583c24facadea6e57"^^<xsd:string> .
+
+sssom:3ac0e437e4e55096a7ed32087ae13565 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001405> ;
+    owl:annotatedTarget <mod:00919> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-tyrosine residue" ;
+    sssom:subject_label "modified_L_tyrosine" ;
+    sssom:uuid "3ac0e437e4e55096a7ed32087ae13565"^^<xsd:string> .
+
+sssom:3c4e05a072de5d83960b89a1986e4844 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001006> ;
+    owl:annotatedTarget wikipedia.en:Prophage ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "prophage" ;
+    sssom:uuid "3c4e05a072de5d83960b89a1986e4844"^^<xsd:string> .
+
+sssom:3d2a1c4df29c593cb5afc932d072376b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001583> ;
+    owl:annotatedTarget wikipedia.en:Missense_mutation ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "missense_variant" ;
+    sssom:uuid "3d2a1c4df29c593cb5afc932d072376b"^^<xsd:string> .
+
+sssom:3de4218bcccf5b3c93f1382358d4ea5f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000286> ;
+    owl:annotatedTarget wikipedia.en:Long_terminal_repeat ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "long_terminal_repeat" ;
+    sssom:uuid "3de4218bcccf5b3c93f1382358d4ea5f"^^<xsd:string> .
+
+sssom:3e24489b60a25254ba83c8ca02e7ca0b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001111> ;
+    owl:annotatedTarget wikipedia.en:Beta_sheet ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "beta_strand" ;
+    sssom:uuid "3e24489b60a25254ba83c8ca02e7ca0b"^^<xsd:string> .
+
+sssom:3e3e4d60353b5c86920a8b7479461999 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001342> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?101> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "isowyosine" ;
+    sssom:uuid "3e3e4d60353b5c86920a8b7479461999"^^<xsd:string> .
+
+sssom:3e539b60841d55a1b4a03acb76a87b0a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000057> ;
+    owl:annotatedTarget <http://en.wikipedia.org/wiki/Operator_(biology)#Operator> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "operator" ;
+    sssom:uuid "3e539b60841d55a1b4a03acb76a87b0a"^^<xsd:string> .
+
+sssom:3ef08a8eb710578a8f6428a52f482dc3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000552> ;
+    owl:annotatedTarget wikipedia.en:Shine-Dalgarno_sequence ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Shine_Dalgarno_sequence" ;
+    sssom:uuid "3ef08a8eb710578a8f6428a52f482dc3"^^<xsd:string> .
+
+sssom:3fa7adbaf1cb5ad2937f951da1ae1750 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001389> ;
+    owl:annotatedTarget <mod:00904> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-aspartic acid residue" ;
+    sssom:subject_label "modified_L_aspartic_acid" ;
+    sssom:uuid "3fa7adbaf1cb5ad2937f951da1ae1750"^^<xsd:string> .
+
+sssom:401740b0901652e495b4180d181a7124 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000180> ;
+    owl:annotatedTarget wikipedia.en:Retrotransposon ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "retrotransposon" ;
+    sssom:uuid "401740b0901652e495b4180d181a7124"^^<xsd:string> .
+
+sssom:405b7cbd3ff4571983ae62d2b36620ce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001338> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?090> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N2_7_dimethylguanosine" ;
+    sssom:uuid "405b7cbd3ff4571983ae62d2b36620ce"^^<xsd:string> .
+
+sssom:40fd97b7377d5cec824e0a20256e66e0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001296> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?002> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_methyladenosine" ;
+    sssom:uuid "40fd97b7377d5cec824e0a20256e66e0"^^<xsd:string> .
+
+sssom:41a6d92c5fdb5f8d99516cc6fafcc938 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001183> ;
+    owl:annotatedTarget wikipedia.en:Morpholino ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "morpholino_backbone" ;
+    sssom:uuid "41a6d92c5fdb5f8d99516cc6fafcc938"^^<xsd:string> .
+
+sssom:41bb645852755424a9648ced5d751757 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000359> ;
+    owl:annotatedTarget wikipedia.en:Floxed ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "floxed" ;
+    sssom:uuid "41bb645852755424a9648ced5d751757"^^<xsd:string> .
+
+sssom:421c2b3f3f705086b885c37ffe303ef8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001390> ;
+    owl:annotatedTarget <mod:00905> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-cysteine residue" ;
+    sssom:subject_label "modified_L_cysteine" ;
+    sssom:uuid "421c2b3f3f705086b885c37ffe303ef8"^^<xsd:string> .
+
+sssom:427d3b2ad278515f8b275ce3fd180250 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000044> ;
+    owl:annotatedTarget wikipedia.en:Chromosomal_translocation ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "chromosomal_translocation" ;
+    sssom:uuid "427d3b2ad278515f8b275ce3fd180250"^^<xsd:string> .
+
+sssom:466ff875f18550e897b174ee87598fe8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000704> ;
+    owl:annotatedTarget wikipedia.en:Gene ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "gene" ;
+    sssom:uuid "466ff875f18550e897b174ee87598fe8"^^<xsd:string> .
+
+sssom:46a79f65f18350e7a3158b3bef6f0c5b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001193> ;
+    owl:annotatedTarget wikipedia.en:Glycerol_nucleic_acid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "GNA_oligo" ;
+    sssom:uuid "46a79f65f18350e7a3158b3bef6f0c5b"^^<xsd:string> .
+
+sssom:48523edb30d75b4d8e757485e04407df a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001294> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?107> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N4_N4_2_prime_O_trimethylcytidine" ;
+    sssom:uuid "48523edb30d75b4d8e757485e04407df"^^<xsd:string> .
+
+sssom:485a2adf02f35e75a891a55835e74568 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001304> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?010> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_glycinylcarbamoyladenosine" ;
+    sssom:uuid "485a2adf02f35e75a891a55835e74568"^^<xsd:string> .
+
+sssom:48981d214b8d5c8b8fb8fec4038dc051 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001325> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?030> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N2_methylguanosine" ;
+    sssom:uuid "48981d214b8d5c8b8fb8fec4038dc051"^^<xsd:string> .
+
+sssom:49bac1d87b3058a9b3713cac9a74bd2e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001292> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?084> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_hydroxymethylcytidine" ;
+    sssom:uuid "49bac1d87b3058a9b3713cac9a74bd2e"^^<xsd:string> .
+
+sssom:4a88cba2db955457a3cebaf47b73fe0d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000980> ;
+    owl:annotatedTarget wikipedia.en:Minicircle ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "minicircle" ;
+    sssom:uuid "4a88cba2db955457a3cebaf47b73fe0d"^^<xsd:string> .
+
+sssom:4b213cf4eda254149a65986dcab663e2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000165> ;
+    owl:annotatedTarget wikipedia.en:Enhancer_\(genetics\) ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "enhancer" ;
+    sssom:uuid "4b213cf4eda254149a65986dcab663e2"^^<xsd:string> .
+
+sssom:4b834f2f7c615379a76b785f73bdf5e2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001332> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?037> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "wybutosine" ;
+    sssom:uuid "4b834f2f7c615379a76b785f73bdf5e2"^^<xsd:string> .
+
+sssom:4c3e34674632544cbae0024922197934 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001026> ;
+    owl:annotatedTarget wikipedia.en:Genome ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "genome" ;
+    sssom:uuid "4c3e34674632544cbae0024922197934"^^<xsd:string> .
+
+sssom:4cd46241e5d85ca096cd8a0c479d7b29 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001398> ;
+    owl:annotatedTarget <mod:00909> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-histidine residue" ;
+    sssom:subject_label "modified_L_histidine" ;
+    sssom:uuid "4cd46241e5d85ca096cd8a0c479d7b29"^^<xsd:string> .
+
+sssom:4d37e7068a2058dd8cb2b378fb0135e0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001346> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?054> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_two_prime_O_dimethyluridine" ;
+    sssom:uuid "4d37e7068a2058dd8cb2b378fb0135e0"^^<xsd:string> .
+
+sssom:4d4427ebe10f51a1b24d6dbab2447e58 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000633> ;
+    owl:annotatedTarget wikipedia.en:Monocistronic_mRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "monocistronic_mRNA" ;
+    sssom:uuid "4d4427ebe10f51a1b24d6dbab2447e58"^^<xsd:string> .
+
+sssom:4daef898e56b5ce2811216c4a0ce9ac0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001307> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?013> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_methyl_N6_threonylcarbamoyladenosine" ;
+    sssom:uuid "4daef898e56b5ce2811216c4a0ce9ac0"^^<xsd:string> .
+
+sssom:4f5b8b5bb7be5f8ab1021f71ed372ff8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000252> ;
+    owl:annotatedTarget wikipedia.en:RRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "rRNA" ;
+    sssom:uuid "4f5b8b5bb7be5f8ab1021f71ed372ff8"^^<xsd:string> .
+
+sssom:5152b55fa3485d809f85a8e2c456009b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000188> ;
+    owl:annotatedTarget wikipedia.en:Intron ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "intron" ;
+    sssom:uuid "5152b55fa3485d809f85a8e2c456009b"^^<xsd:string> .
+
+sssom:51c546e71fa8595999d0a861b859a951 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001376> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?093> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methyldihydrouridine" ;
+    sssom:uuid "51c546e71fa8595999d0a861b859a951"^^<xsd:string> .
+
+sssom:527cb3258e3659e4bc0b995da21491e4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000581> ;
+    owl:annotatedTarget wikipedia.en:5%27_cap ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cap" ;
+    sssom:uuid "527cb3258e3659e4bc0b995da21491e4"^^<xsd:string> .
+
+sssom:536b1716247150bc984660668b0f7db0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001093> ;
+    owl:annotatedTarget wikipedia.en:Protein_protein_interaction ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "protein_protein_contact" ;
+    sssom:uuid "536b1716247150bc984660668b0f7db0"^^<xsd:string> .
+
+sssom:53b8028fc03e5b13a5c2e0a5db551503 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000159> ;
+    owl:annotatedTarget wikipedia.en:Nucleotide_deletion ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "deletion" ;
+    sssom:uuid "53b8028fc03e5b13a5c2e0a5db551503"^^<xsd:string> .
+
+sssom:547b4b0c05f75d4785ee71c377c29e7c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001256> ;
+    owl:annotatedTarget wikipedia.en:Allopolyploid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "allopolyploid" ;
+    sssom:uuid "547b4b0c05f75d4785ee71c377c29e7c"^^<xsd:string> .
+
+sssom:57178255118357ab9cd14bb29275f51e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001532> ;
+    owl:annotatedTarget wikipedia.en:Recombination_Signal_Sequences ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "recombination_signal_sequence" ;
+    sssom:uuid "57178255118357ab9cd14bb29275f51e"^^<xsd:string> .
+
+sssom:5858296a9019553f90dad386090511e5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000407> ;
+    owl:annotatedTarget wikipedia.en:18S_ribosomal_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cytosolic_18S_rRNA" ;
+    sssom:uuid "5858296a9019553f90dad386090511e5"^^<xsd:string> .
+
+sssom:58b2e408351c5459b2e7f38cf24ee9d5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000612> ;
+    owl:annotatedTarget wikipedia.en:Polypyrimidine_tract ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "polypyrimidine_tract" ;
+    sssom:uuid "58b2e408351c5459b2e7f38cf24ee9d5"^^<xsd:string> .
+
+sssom:58fce937c0785ddb81d01deb6da2f5d4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001180> ;
+    owl:annotatedTarget wikipedia.en:AU-rich_element ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "AU_rich_element" ;
+    sssom:uuid "58fce937c0785ddb81d01deb6da2f5d4"^^<xsd:string> .
+
+sssom:59e2455678305b038637418aef1efc3a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001298> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?004> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_prime_O_methyladenosine" ;
+    sssom:uuid "59e2455678305b038637418aef1efc3a"^^<xsd:string> .
+
+sssom:5a560597f6b351258fed1454e3d27691 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001334> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?039> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "hydroxywybutosine" ;
+    sssom:uuid "5a560597f6b351258fed1454e3d27691"^^<xsd:string> .
+
+sssom:5b6064057a1a56229906b87fd2191ae4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001819> ;
+    owl:annotatedTarget wikipedia.en:Synonymous_mutation ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "synonymous_variant" ;
+    sssom:uuid "5b6064057a1a56229906b87fd2191ae4"^^<xsd:string> .
+
+sssom:5bbc075d45225012b98888bfde0a4101 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001118> ;
+    owl:annotatedTarget wikipedia.en:Pi_helix ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "pi_helix" ;
+    sssom:uuid "5bbc075d45225012b98888bfde0a4101"^^<xsd:string> .
+
+sssom:5ce9c18cfd3d538fa2cd952ccd255c9c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001327> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?032> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_prime_O_methylguanosine" ;
+    sssom:uuid "5ce9c18cfd3d538fa2cd952ccd255c9c"^^<xsd:string> .
+
+sssom:5d4119141e445a489020f3931878854d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000395> ;
+    owl:annotatedTarget wikipedia.en:U5_snRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "U5_snRNA" ;
+    sssom:uuid "5d4119141e445a489020f3931878854d"^^<xsd:string> .
+
+sssom:5dff7a3945c75a38a8a7ac26e0c106cf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001343> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?106> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N2_7_2prirme_O_trimethylguanosine" ;
+    sssom:uuid "5dff7a3945c75a38a8a7ac26e0c106cf"^^<xsd:string> .
+
+sssom:602088a1822959fe8a61ddc7a370c787 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001395> ;
+    owl:annotatedTarget <mod:00913> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-methionine residue" ;
+    sssom:subject_label "modified_L_methionine" ;
+    sssom:uuid "602088a1822959fe8a61ddc7a370c787"^^<xsd:string> .
+
+sssom:60a2535ff5645a288cff4148044d43a9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001309> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?015> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_methylthio_N6_hydroxynorvalyl_carbamoyladenosine" ;
+    sssom:uuid "60a2535ff5645a288cff4148044d43a9"^^<xsd:string> .
+
+sssom:636b776be38558b8ace8f3863e4f7453 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001364> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?072> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methylaminomethyluridine" ;
+    sssom:uuid "636b776be38558b8ace8f3863e4f7453"^^<xsd:string> .
+
+sssom:637b9cc3141455608b1f45e16dace7ac a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000624> ;
+    owl:annotatedTarget wikipedia.en:Telomere ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "telomere" ;
+    sssom:uuid "637b9cc3141455608b1f45e16dace7ac"^^<xsd:string> .
+
+sssom:641b458a9dda501b9d4e9c7441fe1365 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000646> ;
+    owl:annotatedTarget wikipedia.en:SiRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "siRNA" ;
+    sssom:uuid "641b458a9dda501b9d4e9c7441fe1365"^^<xsd:string> .
+
+sssom:642f93449e96593cbcb8d4de06ec8e46 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001381> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?104> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_isopentenylaminomethyl_two_thiouridine" ;
+    sssom:uuid "642f93449e96593cbcb8d4de06ec8e46"^^<xsd:string> .
+
+sssom:6517b19d6120575a8a2f168b9b5a3764 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000206> ;
+    owl:annotatedTarget wikipedia.en:Short_interspersed_nuclear_element ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "SINE_element" ;
+    sssom:uuid "6517b19d6120575a8a2f168b9b5a3764"^^<xsd:string> .
+
+sssom:6517c095d33951b9a0fc73c47b67cc7d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001387> ;
+    owl:annotatedTarget <mod:00901> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-alanine residue" ;
+    sssom:subject_label "modified_L_alanine" ;
+    sssom:uuid "6517c095d33951b9a0fc73c47b67cc7d"^^<xsd:string> .
+
+sssom:6519bb9e26db5585adb29beb50664dbf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000339> ;
+    owl:annotatedTarget wikipedia.en:Recombination_hotspot ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "recombination_hotspot" ;
+    sssom:uuid "6519bb9e26db5585adb29beb50664dbf"^^<xsd:string> .
+
+sssom:66c2f492c3f65e4f90aef8fa8ff92699 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000387> ;
+    owl:annotatedTarget wikipedia.en:RprA_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "RprA_RNA" ;
+    sssom:uuid "66c2f492c3f65e4f90aef8fa8ff92699"^^<xsd:string> .
+
+sssom:6712aaa4356d58e8ac1b235dba26e101 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001236> ;
+    owl:annotatedTarget wikipedia.en:Nucleobase ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "base" ;
+    sssom:uuid "6712aaa4356d58e8ac1b235dba26e101"^^<xsd:string> .
+
+sssom:67719f96e5eb5af7835868bef6aac898 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000627> ;
+    owl:annotatedTarget wikipedia.en:Insulator_\(genetics\) ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "insulator" ;
+    sssom:uuid "67719f96e5eb5af7835868bef6aac898"^^<xsd:string> .
+
+sssom:6819191d1df057e2ae7efb7f86cfd130 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000032> ;
+    owl:annotatedTarget wikipedia.en:Indel ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "delins" ;
+    sssom:uuid "6819191d1df057e2ae7efb7f86cfd130"^^<xsd:string> .
+
+sssom:6913cc821dcb5f8dad9ccd2d55a8b558 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001404> ;
+    owl:annotatedTarget <mod:00915> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-proline residue" ;
+    sssom:subject_label "modified_L_proline" ;
+    sssom:uuid "6913cc821dcb5f8dad9ccd2d55a8b558"^^<xsd:string> .
+
+sssom:69995fc077b45747bf5bae2316d0b267 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000374> ;
+    owl:annotatedTarget wikipedia.en:Ribozyme ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "ribozyme" ;
+    sssom:uuid "69995fc077b45747bf5bae2316d0b267"^^<xsd:string> .
+
+sssom:69c92d179e985eabb9d727b08064e06e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000389> ;
+    owl:annotatedTarget wikipedia.en:Spot_42_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "spot_42_RNA" ;
+    sssom:uuid "69c92d179e985eabb9d727b08064e06e"^^<xsd:string> .
+
+sssom:6eb59b2b32525d47884b87643e9194af a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000276> ;
+    owl:annotatedTarget wikipedia.en:MiRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "miRNA" ;
+    sssom:uuid "6eb59b2b32525d47884b87643e9194af"^^<xsd:string> .
+
+sssom:6eb800a8dce05799aacc938e14a60175 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001344> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?052> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methyluridine" ;
+    sssom:uuid "6eb800a8dce05799aacc938e14a60175"^^<xsd:string> .
+
+sssom:6ecd1da54b0450bb85a23e21071758f9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001318> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?044> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "epoxyqueuosine" ;
+    sssom:uuid "6ecd1da54b0450bb85a23e21071758f9"^^<xsd:string> .
+
+sssom:70329436a5e85bd1817d654f655208e6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000274> ;
+    owl:annotatedTarget wikipedia.en:SnRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "snRNA" ;
+    sssom:uuid "70329436a5e85bd1817d654f655208e6"^^<xsd:string> .
+
+sssom:710d67760249576982440b645ebf355b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001335> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?040> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "undermodified_hydroxywybutosine" ;
+    sssom:uuid "710d67760249576982440b645ebf355b"^^<xsd:string> .
+
+sssom:71f166cd86bc5b7ca5f1a5dfb02e4339 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001237> ;
+    owl:annotatedTarget wikipedia.en:Amino_acid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "amino_acid" ;
+    sssom:uuid "71f166cd86bc5b7ca5f1a5dfb02e4339"^^<xsd:string> .
+
+sssom:7295ef242f1c503aba2dc08866d64991 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001287> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?026> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_two_prime_O_dimethylcytidine" ;
+    sssom:uuid "7295ef242f1c503aba2dc08866d64991"^^<xsd:string> .
+
+sssom:72dfd089610f5491919c4dd79771ceab a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001284> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?023> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_thiocytidine" ;
+    sssom:uuid "72dfd089610f5491919c4dd79771ceab"^^<xsd:string> .
+
+sssom:72ff13d13ac1586aa5df691220c9abc1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000318> ;
+    owl:annotatedTarget wikipedia.en:Start_codon ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "start_codon" ;
+    sssom:uuid "72ff13d13ac1586aa5df691220c9abc1"^^<xsd:string> .
+
+sssom:75a7e3ed3536515db681c1ff7e414998 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001314> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?097> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "one_two_prime_O_dimethyladenosine" ;
+    sssom:uuid "75a7e3ed3536515db681c1ff7e414998"^^<xsd:string> .
+
+sssom:75b28dd007e855219529c4d9570ae060 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001406> ;
+    owl:annotatedTarget <mod:00902> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-arginine residue" ;
+    sssom:subject_label "modified_L_arginine" ;
+    sssom:uuid "75b28dd007e855219529c4d9570ae060"^^<xsd:string> .
+
+sssom:787fb1068cbc59d9990b251d0d6fb30e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001534> ;
+    owl:annotatedTarget PMID:16027110 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "nuclear_rim_localization_signal" ;
+    sssom:uuid "787fb1068cbc59d9990b251d0d6fb30e"^^<xsd:string> .
+
+sssom:78d7011970215ca38f76b3b64d227a70 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000330> ;
+    owl:annotatedTarget wikipedia.en:Conserved_region ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "conserved_region" ;
+    sssom:uuid "78d7011970215ca38f76b3b64d227a70"^^<xsd:string> .
+
+sssom:7a6ba504d0dc541f861de10bf05af8b6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001378> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?098> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_taurinomethyluridine" ;
+    sssom:uuid "7a6ba504d0dc541f861de10bf05af8b6"^^<xsd:string> .
+
+sssom:7b2994caf76a5bcb97ab4a5650b3c7b2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000360> ;
+    owl:annotatedTarget wikipedia.en:Codon ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "codon" ;
+    sssom:uuid "7b2994caf76a5bcb97ab4a5650b3c7b2"^^<xsd:string> .
+
+sssom:7be1e2fd2c8958b7b705fee51a8428fa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000365> ;
+    owl:annotatedTarget wikipedia.en:Integron ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "integron" ;
+    sssom:uuid "7be1e2fd2c8958b7b705fee51a8428fa"^^<xsd:string> .
+
+sssom:7c294e192b74589cb6a765a3ca6e1344 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001372> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?085> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "three_methyluridine" ;
+    sssom:uuid "7c294e192b74589cb6a765a3ca6e1344"^^<xsd:string> .
+
+sssom:7cf4b209b960596a9c785533f2a8cc2a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000569> ;
+    owl:annotatedTarget wikipedia.en:Retrotransposed ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "retrotransposed" ;
+    sssom:uuid "7cf4b209b960596a9c785533f2a8cc2a"^^<xsd:string> .
+
+sssom:7dde4fc8286f505c90f21681c0647c6a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001299> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?005> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_methylthio_N6_methyladenosine" ;
+    sssom:uuid "7dde4fc8286f505c90f21681c0647c6a"^^<xsd:string> .
+
+sssom:7ea09ea1d715565abc40e349f9e14677 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001189> ;
+    owl:annotatedTarget wikipedia.en:Locked_nucleic_acid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "LNA_oligo" ;
+    sssom:uuid "7ea09ea1d715565abc40e349f9e14677"^^<xsd:string> .
+
+sssom:7ee2d6351fe45a96892ad4282c3bcc6e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000577> ;
+    owl:annotatedTarget wikipedia.en:Centromere ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "centromere" ;
+    sssom:uuid "7ee2d6351fe45a96892ad4282c3bcc6e"^^<xsd:string> .
+
+sssom:7ee966ef4e3659bf8ee57cb79a40727b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000398> ;
+    owl:annotatedTarget wikipedia.en:U11_snRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "U11_snRNA" ;
+    sssom:uuid "7ee966ef4e3659bf8ee57cb79a40727b"^^<xsd:string> .
+
+sssom:7eedd7ba83bb5b019fa275df8e348ba6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000673> ;
+    owl:annotatedTarget wikipedia.en:RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "transcript" ;
+    sssom:uuid "7eedd7ba83bb5b019fa275df8e348ba6"^^<xsd:string> .
+
+sssom:815b8ebce5965d8695e5d98c6a2b760b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000035> ;
+    owl:annotatedTarget wikipedia.en:Riboswitch ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "riboswitch" ;
+    sssom:uuid "815b8ebce5965d8695e5d98c6a2b760b"^^<xsd:string> .
+
+sssom:81961cf3144053ab82ee185bd2c0b90e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001035> ;
+    owl:annotatedTarget wikipedia.en:PiRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "piRNA" ;
+    sssom:uuid "81961cf3144053ab82ee185bd2c0b90e"^^<xsd:string> .
+
+sssom:8266ded298e05822a5dfd5e89cfca993 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001347> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?055> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "one_methylpseudouridine" ;
+    sssom:uuid "8266ded298e05822a5dfd5e89cfca993"^^<xsd:string> .
+
+sssom:829017f824e456fa85a124680a91ebd8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001358> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?066> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_carboxyhydroxymethyl_uridine" ;
+    sssom:uuid "829017f824e456fa85a124680a91ebd8"^^<xsd:string> .
+
+sssom:8313b69a1f775580afb4b7bc01fbe14c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001326> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?031> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "seven_methylguanosine" ;
+    sssom:uuid "8313b69a1f775580afb4b7bc01fbe14c"^^<xsd:string> .
+
+sssom:835b30e571fd5a09b8d7dc122e92f5e9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000772> ;
+    owl:annotatedTarget wikipedia.en:Genomic_island ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "genomic_island" ;
+    sssom:uuid "835b30e571fd5a09b8d7dc122e92f5e9"^^<xsd:string> .
+
+sssom:86c6c095235f57a281664f5354195628 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000243> ;
+    owl:annotatedTarget wikipedia.en:Internal_ribosome_entry_site ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "internal_ribosome_entry_site" ;
+    sssom:uuid "86c6c095235f57a281664f5354195628"^^<xsd:string> .
+
+sssom:86d1ce4c9ca15b8a88a8c53466c37849 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000390> ;
+    owl:annotatedTarget wikipedia.en:Telomerase_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "telomerase_RNA" ;
+    sssom:uuid "86d1ce4c9ca15b8a88a8c53466c37849"^^<xsd:string> .
+
+sssom:86f0fe15a44d520898d51f22cd4c57f3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001315> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?102> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_acetyladenosine" ;
+    sssom:uuid "86f0fe15a44d520898d51f22cd4c57f3"^^<xsd:string> .
+
+sssom:8721d9880ca35e3f9b80ca3c226350b1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000854> ;
+    owl:annotatedTarget <http://en.wikipedia.org/wiki/Paralog#Paralogy> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "paralogous_region" ;
+    sssom:uuid "8721d9880ca35e3f9b80ca3c226350b1"^^<xsd:string> .
+
+sssom:879973620372584ca0e300464b5e9e38 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001228> ;
+    owl:annotatedTarget wikipedia.en:Dihydrouridine ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "dihydrouridine" ;
+    sssom:uuid "879973620372584ca0e300464b5e9e38"^^<xsd:string> .
+
+sssom:87b3c5f44fbc5ebf84c216b713f3e701 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001350> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?058> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "four_thiouridine" ;
+    sssom:uuid "87b3c5f44fbc5ebf84c216b713f3e701"^^<xsd:string> .
+
+sssom:87cf7689045b55c2a473a4064d6879e5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000276> ;
+    owl:annotatedTarget wikipedia.en:StRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "miRNA" ;
+    sssom:uuid "87cf7689045b55c2a473a4064d6879e5"^^<xsd:string> .
+
+sssom:88a44ee5368f5191b7f064f028a23453 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000658> ;
+    owl:annotatedTarget wikipedia.en:Interspersed_repeat ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "dispersed_repeat" ;
+    sssom:uuid "88a44ee5368f5191b7f064f028a23453"^^<xsd:string> .
+
+sssom:8963cde8ca875be0900974dc1f73ae72 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001210> ;
+    owl:annotatedTarget wikipedia.en:Translational_frameshift ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "translational_frameshift" ;
+    sssom:uuid "8963cde8ca875be0900974dc1f73ae72"^^<xsd:string> .
+
+sssom:89770d0fa3d85ae6a709d76e91af461f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001308> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?014> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_hydroxynorvalylcarbamoyladenosine" ;
+    sssom:uuid "89770d0fa3d85ae6a709d76e91af461f"^^<xsd:string> .
+
+sssom:89e4bb6d99f0573ba5b49bb6bd58441b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001317> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?043> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "queuosine" ;
+    sssom:uuid "89e4bb6d99f0573ba5b49bb6bd58441b"^^<xsd:string> .
+
+sssom:8c3c55b3b7bb559a81b1815696c66552 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001400> ;
+    owl:annotatedTarget <mod:00912> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-lysine residue" ;
+    sssom:subject_label "modified_L_lysine" ;
+    sssom:uuid "8c3c55b3b7bb559a81b1815696c66552"^^<xsd:string> .
+
+sssom:8c8bb9972f3651ef872066c5c520b6df a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001392> ;
+    owl:annotatedTarget <mod:00917> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-threonine residue" ;
+    sssom:subject_label "modified_L_threonine" ;
+    sssom:uuid "8c8bb9972f3651ef872066c5c520b6df"^^<xsd:string> .
+
+sssom:8d0cea9855415d7ab6404f6b3172c666 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000003> ;
+    owl:annotatedTarget wikipedia.en:G-quadruplex ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "G_quartet" ;
+    sssom:uuid "8d0cea9855415d7ab6404f6b3172c666"^^<xsd:string> .
+
+sssom:8e044c7a36135a99936beacef1279806 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000207> ;
+    owl:annotatedTarget wikipedia.en:Simple_sequence_length_polymorphism ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "simple_sequence_length_variation" ;
+    sssom:uuid "8e044c7a36135a99936beacef1279806"^^<xsd:string> .
+
+sssom:8e769b93405a5eb48cc14c61b761ba5e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001368> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?076> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_carbamoylmethyl_two_prime_O_methyluridine" ;
+    sssom:uuid "8e769b93405a5eb48cc14c61b761ba5e"^^<xsd:string> .
+
+sssom:8ec472310ecf5d808dc135b78f87aad3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000088> ;
+    owl:annotatedTarget wikipedia.en:Mitochondrial_gene ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mt_gene" ;
+    sssom:uuid "8ec472310ecf5d808dc135b78f87aad3"^^<xsd:string> .
+
+sssom:8f0e4299d9885c47ad2a52ae6e22af54 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000008> ;
+    owl:annotatedTarget wikipedia.en:Point_mutation ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "point_mutation" ;
+    sssom:uuid "8f0e4299d9885c47ad2a52ae6e22af54"^^<xsd:string> .
+
+sssom:90250afa25575f4db45459a1762c3330 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000037> ;
+    owl:annotatedTarget wikipedia.en:Chromosomal_duplication ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "chromosomal_duplication" ;
+    sssom:uuid "90250afa25575f4db45459a1762c3330"^^<xsd:string> .
+
+sssom:90e70c3b729e5340878967db375d363a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000391> ;
+    owl:annotatedTarget wikipedia.en:U1_snRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "U1_snRNA" ;
+    sssom:uuid "90e70c3b729e5340878967db375d363a"^^<xsd:string> .
+
+sssom:92517b8b35e0539495d027387dbe3a69 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001000> ;
+    owl:annotatedTarget wikipedia.en:16S_ribosomal_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cytosolic_16S_rRNA" ;
+    sssom:uuid "92517b8b35e0539495d027387dbe3a69"^^<xsd:string> .
+
+sssom:9330c231c95259fca12b56f80b12ccea a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000728> ;
+    owl:annotatedTarget wikipedia.en:Intein ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "intein" ;
+    sssom:uuid "9330c231c95259fca12b56f80b12ccea"^^<xsd:string> .
+
+sssom:93844e1e17a45c2caeb23fccb33be188 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001397> ;
+    owl:annotatedTarget <mod:00914> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-phenylalanine residue" ;
+    sssom:subject_label "modified_L_phenylalanine" ;
+    sssom:uuid "93844e1e17a45c2caeb23fccb33be188"^^<xsd:string> .
+
+sssom:93c0217b31ba5b3dbda6e496301cd05b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001356> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?064> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "uridine_five_oxyacetic_acid" ;
+    sssom:uuid "93c0217b31ba5b3dbda6e496301cd05b"^^<xsd:string> .
+
+sssom:9401b192870f5308ae9d31c0d9b46dd1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000603> ;
+    owl:annotatedTarget wikipedia.en:Group_II_intron ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "group_II_intron" ;
+    sssom:uuid "9401b192870f5308ae9d31c0d9b46dd1"^^<xsd:string> .
+
+sssom:945ed705f5dd5b76a842461c35951eba a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001396> ;
+    owl:annotatedTarget <mod:00910> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-isoleucine residue" ;
+    sssom:subject_label "modified_L_isoleucine" ;
+    sssom:uuid "945ed705f5dd5b76a842461c35951eba"^^<xsd:string> .
+
+sssom:94d74d56bd1352398da5a40973376b09 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001401> ;
+    owl:annotatedTarget <mod:00911> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-leucine residue" ;
+    sssom:subject_label "modified_L_leucine" ;
+    sssom:uuid "94d74d56bd1352398da5a40973376b09"^^<xsd:string> .
+
+sssom:95c38f2f54995f2c88a1ce2da68f4e48 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000399> ;
+    owl:annotatedTarget wikipedia.en:U12_snRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "U12_snRNA" ;
+    sssom:uuid "95c38f2f54995f2c88a1ce2da68f4e48"^^<xsd:string> .
+
+sssom:96514ff30fd256b48b59acce6792ab35 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000625> ;
+    owl:annotatedTarget wikipedia.en:Silencer_\(DNA\) ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "silencer" ;
+    sssom:uuid "96514ff30fd256b48b59acce6792ab35"^^<xsd:string> .
+
+sssom:97f5d16e0af95047a08628d6af91302b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001286> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?025> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_formylcytidine" ;
+    sssom:uuid "97f5d16e0af95047a08628d6af91302b"^^<xsd:string> .
+
+sssom:981f2e3c3adb59bfbdf0b7fdb4522a23 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001683> ;
+    owl:annotatedTarget wikipedia.en:Sequence_motif ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "sequence_motif" ;
+    sssom:uuid "981f2e3c3adb59bfbdf0b7fdb4522a23"^^<xsd:string> .
+
+sssom:984f252707a2521b8fed2d8dc30e7ac2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0005853> ;
+    owl:annotatedTarget wikipedia.en:Gene_cassette ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "gene_cassette" ;
+    sssom:uuid "984f252707a2521b8fed2d8dc30e7ac2"^^<xsd:string> .
+
+sssom:99fbbfe0483a5dc28d502e5cd0955792 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000732> ;
+    owl:annotatedTarget wikipedia.en:Predicted ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "predicted" ;
+    sssom:uuid "99fbbfe0483a5dc28d502e5cd0955792"^^<xsd:string> .
+
+sssom:9bccdc9a5ad7501b8f73e2833f3c6825 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000440> ;
+    owl:annotatedTarget wikipedia.en:Vector_\(molecular_biology\) ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "vector_replicon" ;
+    sssom:uuid "9bccdc9a5ad7501b8f73e2833f3c6825"^^<xsd:string> .
+
+sssom:9ca14c492b7751f68e6d32c9880204dc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001317> ;
+    owl:annotatedTarget wikipedia.en:Queuosine ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "queuosine" ;
+    sssom:uuid "9ca14c492b7751f68e6d32c9880204dc"^^<xsd:string> .
+
+sssom:9cec86269d975522a5756ffdc3a4642e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001295> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?001> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "one_methyladenosine" ;
+    sssom:uuid "9cec86269d975522a5756ffdc3a4642e"^^<xsd:string> .
+
+sssom:9e52e7836c645a89bd72c7f2f8089bb6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000087> ;
+    owl:annotatedTarget wikipedia.en:Nuclear_gene ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "nuclear_gene" ;
+    sssom:uuid "9e52e7836c645a89bd72c7f2f8089bb6"^^<xsd:string> .
+
+sssom:9f2bd602f9b95d3184e41be78ee92597 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000860> ;
+    owl:annotatedTarget wikipedia.en:Syntenic ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "syntenic" ;
+    sssom:uuid "9f2bd602f9b95d3184e41be78ee92597"^^<xsd:string> .
+
+sssom:a03b7b4c641259a580cbcc5e65caab40 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001310> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?016> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_prime_O_ribosyladenosine_phosphate" ;
+    sssom:uuid "a03b7b4c641259a580cbcc5e65caab40"^^<xsd:string> .
+
+sssom:a07ab09de0e2581283e1fdfa88a852ef a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000653> ;
+    owl:annotatedTarget wikipedia.en:28S_ribosomal_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cytosolic_28S_rRNA" ;
+    sssom:uuid "a07ab09de0e2581283e1fdfa88a852ef"^^<xsd:string> .
+
+sssom:a163a3743cf956a5be0cb4b99316c5bb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000405> ;
+    owl:annotatedTarget wikipedia.en:Y_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Y_RNA" ;
+    sssom:uuid "a163a3743cf956a5be0cb4b99316c5bb"^^<xsd:string> .
+
+sssom:a1ed8d993d1b5973ab7307064f0f967e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001290> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?082> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N4_methylcytidine" ;
+    sssom:uuid "a1ed8d993d1b5973ab7307064f0f967e"^^<xsd:string> .
+
+sssom:a26217f41ff25f63a7a49477970b4b7f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001351> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?059> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methyl_2_thiouridine" ;
+    sssom:uuid "a26217f41ff25f63a7a49477970b4b7f"^^<xsd:string> .
+
+sssom:a28273603f695f93963f2436c1f90f8d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001311> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?080> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_N6_dimethyladenosine" ;
+    sssom:uuid "a28273603f695f93963f2436c1f90f8d"^^<xsd:string> .
+
+sssom:a28c0b67f917557f99b0802ddb68a473 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001302> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?008> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_cis_hydroxyisopentenyl_adenosine" ;
+    sssom:uuid "a28c0b67f917557f99b0802ddb68a473"^^<xsd:string> .
+
+sssom:a4254f5962cf56b5a2b8fd352c0dfbb0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001018> ;
+    owl:annotatedTarget wikipedia.en:Epitope ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "epitope" ;
+    sssom:uuid "a4254f5962cf56b5a2b8fd352c0dfbb0"^^<xsd:string> .
+
+sssom:a50c27648b9450469c15b83e27ee6f32 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001254> ;
+    owl:annotatedTarget wikipedia.en:Polyploid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "polyploid" ;
+    sssom:uuid "a50c27648b9450469c15b83e27ee6f32"^^<xsd:string> .
+
+sssom:a554ba27a49058d78bd0b8e8f971cd92 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000865> ;
+    owl:annotatedTarget wikipedia.en:Frameshift ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "frameshift" ;
+    sssom:uuid "a554ba27a49058d78bd0b8e8f971cd92"^^<xsd:string> .
+
+sssom:a57bd653140150f19f7200a7d715a4c5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001288> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?027> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N4_acetyl_2_prime_O_methylcytidine" ;
+    sssom:uuid "a57bd653140150f19f7200a7d715a4c5"^^<xsd:string> .
+
+sssom:a64f403ed2fe5767a643509eafabfea7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000005> ;
+    owl:annotatedTarget wikipedia.en:Satellite_DNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "satellite_DNA" ;
+    sssom:uuid "a64f403ed2fe5767a643509eafabfea7"^^<xsd:string> .
+
+sssom:a6cae5821c455bfcb3b5fa73f0da671d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001228> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?051> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "dihydrouridine" ;
+    sssom:uuid "a6cae5821c455bfcb3b5fa73f0da671d"^^<xsd:string> .
+
+sssom:a6f4d6082c695a5eb574d68ddd0f0dbc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001042> ;
+    owl:annotatedTarget wikipedia.en:Bacteriophage ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "phage_sequence" ;
+    sssom:uuid "a6f4d6082c695a5eb574d68ddd0f0dbc"^^<xsd:string> .
+
+sssom:a6f5ee06dd305fae92cce840b4405aea a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000705> ;
+    owl:annotatedTarget wikipedia.en:Tandem_repeat ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "tandem_repeat" ;
+    sssom:uuid "a6f5ee06dd305fae92cce840b4405aea"^^<xsd:string> .
+
+sssom:a743ed5c19605423aa65fb48a13eb3ff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000348> ;
+    owl:annotatedTarget wikipedia.en:Nucleic_acid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "nucleic_acid" ;
+    sssom:uuid "a743ed5c19605423aa65fb48a13eb3ff"^^<xsd:string> .
+
+sssom:a7b6a6e7fd535e7890107745beb8f69c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000031> ;
+    owl:annotatedTarget wikipedia.en:Aptamer ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "aptamer" ;
+    sssom:uuid "a7b6a6e7fd535e7890107745beb8f69c"^^<xsd:string> .
+
+sssom:a7ff16c088f656f7a0668e20f2d859f8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000162> ;
+    owl:annotatedTarget wikipedia.en:Splice_site ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "splice_site" ;
+    sssom:uuid "a7ff16c088f656f7a0668e20f2d859f8"^^<xsd:string> .
+
+sssom:a80c2e1987395251a1d314dc68fcf736 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001080> ;
+    owl:annotatedTarget wikipedia.en:Coiled_coil ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "coiled_coil" ;
+    sssom:uuid "a80c2e1987395251a1d314dc68fcf736"^^<xsd:string> .
+
+sssom:a8a0c939daa75359a6e4aae5cb01deb9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000054> ;
+    owl:annotatedTarget wikipedia.en:Aneuploid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "aneuploid" ;
+    sssom:uuid "a8a0c939daa75359a6e4aae5cb01deb9"^^<xsd:string> .
+
+sssom:aa0ff91ee289597a95bfda71b47e6880 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001023> ;
+    owl:annotatedTarget wikipedia.en:Allele ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "allele" ;
+    sssom:uuid "aa0ff91ee289597a95bfda71b47e6880"^^<xsd:string> .
+
+sssom:ab1a7392cc085620b8310136aa1ab152 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0002027> ;
+    owl:annotatedTarget PMID:26684391 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "uORF" ;
+    sssom:uuid "ab1a7392cc085620b8310136aa1ab152"^^<xsd:string> .
+
+sssom:acc3aff8b4d2523aa98dff49695265d8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001117> ;
+    owl:annotatedTarget wikipedia.en:Alpha_helix ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "alpha_helix" ;
+    sssom:uuid "acc3aff8b4d2523aa98dff49695265d8"^^<xsd:string> .
+
+sssom:add88626e04a58a0ad464ac19c8c63b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001300> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?006> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_isopentenyladenosine" ;
+    sssom:uuid "add88626e04a58a0ad464ac19c8c63b9"^^<xsd:string> .
+
+sssom:b2c1da9528d1516b9b2c11116595370d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000605> ;
+    owl:annotatedTarget wikipedia.en:Intergenic_region ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "intergenic_region" ;
+    sssom:uuid "b2c1da9528d1516b9b2c11116595370d"^^<xsd:string> .
+
+sssom:b34b6b5942d655158053b8ea5f027530 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001339> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?091> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N2_N2_7_trimethylguanosine" ;
+    sssom:uuid "b34b6b5942d655158053b8ea5f027530"^^<xsd:string> .
+
+sssom:b363396ee5d351d6a2c2bac06e09f839 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000253> ;
+    owl:annotatedTarget wikipedia.en:TRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "tRNA" ;
+    sssom:uuid "b363396ee5d351d6a2c2bac06e09f839"^^<xsd:string> .
+
+sssom:b387d0ad9cc05f4088e6b6add554465d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001044> ;
+    owl:annotatedTarget wikipedia.en:Numt ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "nuclear_mt_pseudogene" ;
+    sssom:uuid "b387d0ad9cc05f4088e6b6add554465d"^^<xsd:string> .
+
+sssom:b4fbc078b37352079bc64048ba8e20c6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000393> ;
+    owl:annotatedTarget wikipedia.en:U4_snRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "U4_snRNA" ;
+    sssom:uuid "b4fbc078b37352079bc64048ba8e20c6"^^<xsd:string> .
+
+sssom:b64444b9b4625039bc85bad7011b0225 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001062> ;
+    owl:annotatedTarget wikipedia.en:Propeptide ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "propeptide" ;
+    sssom:uuid "b64444b9b4625039bc85bad7011b0225"^^<xsd:string> .
+
+sssom:b72a0a3367f2549e9e0b08e35cdf54b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001280> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?081> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_prime_O_methylinosine" ;
+    sssom:uuid "b72a0a3367f2549e9e0b08e35cdf54b9"^^<xsd:string> .
+
+sssom:b82cdd16bf9750cba68ba751d0017e2d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001371> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?079> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_carboxymethylaminomethyl_two_thiouridine" ;
+    sssom:uuid "b82cdd16bf9750cba68ba751d0017e2d"^^<xsd:string> .
+
+sssom:b9712c1aedd751d993418b8cfd60107b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001345> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?053> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_prime_O_methyluridine" ;
+    sssom:uuid "b9712c1aedd751d993418b8cfd60107b"^^<xsd:string> .
+
+sssom:b9c37662252b5a15b4b6984143af2dd9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001357> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?065> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "uridine_five_oxyacetic_acid_methyl_ester" ;
+    sssom:uuid "b9c37662252b5a15b4b6984143af2dd9"^^<xsd:string> .
+
+sssom:ba3719e25ffb5900a4f8c3ae4cd3c8b0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000383> ;
+    owl:annotatedTarget wikipedia.en:MicF_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "MicF_RNA" ;
+    sssom:uuid "ba3719e25ffb5900a4f8c3ae4cd3c8b0"^^<xsd:string> .
+
+sssom:baaf06eee0735ebaaf10c8507cc2ab2e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001363> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?071> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_aminomethyl_two_thiouridine" ;
+    sssom:uuid "baaf06eee0735ebaaf10c8507cc2ab2e"^^<xsd:string> .
+
+sssom:baed14e1ed0558e3ae420b37863afebd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001341> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?100> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "four_demethylwyosine" ;
+    sssom:uuid "baed14e1ed0558e3ae420b37863afebd"^^<xsd:string> .
+
+sssom:bc588d7a76905ce3801e32f71c75efe2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001248> ;
+    owl:annotatedTarget <http://en.wikipedia.org/wiki/Genome_assembly#Genome_assembly> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "assembly" ;
+    sssom:uuid "bc588d7a76905ce3801e32f71c75efe2"^^<xsd:string> .
+
+sssom:bcf3584863fb5422b4084e99f938df55 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001011> ;
+    owl:annotatedTarget wikipedia.en:Peptide_nucleic_acid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "PNA_oligo" ;
+    sssom:uuid "bcf3584863fb5422b4084e99f938df55"^^<xsd:string> .
+
+sssom:bd655dbd8bf655f59e01fbd050bc70cd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001229> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?050> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "pseudouridine" ;
+    sssom:uuid "bd655dbd8bf655f59e01fbd050bc70cd"^^<xsd:string> .
+
+sssom:bdbcb13bdc9f5a65a9c14e472d73dfc2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000713> ;
+    owl:annotatedTarget wikipedia.en:DNA_motif ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "DNA_motif" ;
+    sssom:uuid "bdbcb13bdc9f5a65a9c14e472d73dfc2"^^<xsd:string> .
+
+sssom:be742154ce535ca2b2ba33e83d2e11a4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000141> ;
+    owl:annotatedTarget wikipedia.en:Terminator_\(genetics\) ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "terminator" ;
+    sssom:uuid "be742154ce535ca2b2ba33e83d2e11a4"^^<xsd:string> .
+
+sssom:be98cdab15f252ed831f52f2095b1b0b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000158> ;
+    owl:annotatedTarget wikipedia.en:Fosmid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "fosmid" ;
+    sssom:uuid "be98cdab15f252ed831f52f2095b1b0b"^^<xsd:string> .
+
+sssom:bedcdf805d595de2af69d925401c0859 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000045> ;
+    owl:annotatedTarget wikipedia.en:Ring_chromosome ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "ring_chromosome" ;
+    sssom:uuid "bedcdf805d595de2af69d925401c0859"^^<xsd:string> .
+
+sssom:bf1d29f85aad52328772a38bac247c86 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000587> ;
+    owl:annotatedTarget wikipedia.en:Group_I_intron ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "group_I_intron" ;
+    sssom:uuid "bf1d29f85aad52328772a38bac247c86"^^<xsd:string> .
+
+sssom:bfb2dee8c76d576e9632b59797beb96f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001830> ;
+    owl:annotatedTarget wikipedia.en:Amplified_fragment_length_polymorphism ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "AFLP_fragment" ;
+    sssom:uuid "bfb2dee8c76d576e9632b59797beb96f"^^<xsd:string> .
+
+sssom:c08b37171d56521f83383f7b7be23538 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000289> ;
+    owl:annotatedTarget wikipedia.en:Microsatellite ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "microsatellite" ;
+    sssom:uuid "c08b37171d56521f83383f7b7be23538"^^<xsd:string> .
+
+sssom:c0af3bc3854a553489aba22b1d69d4c0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000384> ;
+    owl:annotatedTarget wikipedia.en:OxyS_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "OxyS_RNA" ;
+    sssom:uuid "c0af3bc3854a553489aba22b1d69d4c0"^^<xsd:string> .
+
+sssom:c1609ab963fd536186554e5dfa71eb83 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000307> ;
+    owl:annotatedTarget wikipedia.en:CpG_island ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "CpG_island" ;
+    sssom:uuid "c1609ab963fd536186554e5dfa71eb83"^^<xsd:string> .
+
+sssom:c1a0bc6a6ccc53e892f58608d4a2989b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001323> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?049> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "archaeosine" ;
+    sssom:uuid "c1a0bc6a6ccc53e892f58608d4a2989b"^^<xsd:string> .
+
+sssom:c2de1a22db4751dea5e34712e72b92e4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001322> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?048> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "seven_aminomethyl_seven_deazaguanosine" ;
+    sssom:uuid "c2de1a22db4751dea5e34712e72b92e4"^^<xsd:string> .
+
+sssom:c31fceda59975397bcd7dd2708663d5a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001229> ;
+    owl:annotatedTarget wikipedia.en:Pseudouridine ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "pseudouridine" ;
+    sssom:uuid "c31fceda59975397bcd7dd2708663d5a"^^<xsd:string> .
+
+sssom:c3fe9d32cd435a078a8bbaec63a6005d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001355> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?063> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methoxyuridine" ;
+    sssom:uuid "c3fe9d32cd435a078a8bbaec63a6005d"^^<xsd:string> .
+
+sssom:c5c39cd29a3255239c6b46565a3ac8b8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000006> ;
+    owl:annotatedTarget wikipedia.en:RAPD ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "PCR_product" ;
+    sssom:uuid "c5c39cd29a3255239c6b46565a3ac8b8"^^<xsd:string> .
+
+sssom:c663ffd83de65fc6ac48f0b408a53f05 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001191> ;
+    owl:annotatedTarget wikipedia.en:Threose_nucleic_acid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "TNA_oligo" ;
+    sssom:uuid "c663ffd83de65fc6ac48f0b408a53f05"^^<xsd:string> .
+
+sssom:c671b2ca41ca5d478b6eb9ad3568cec0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000287> ;
+    owl:annotatedTarget wikipedia.en:Fusion_gene ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "fusion_gene" ;
+    sssom:uuid "c671b2ca41ca5d478b6eb9ad3568cec0"^^<xsd:string> .
+
+sssom:c69aa55ad2d0578d856f3596b6ebacee a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001374> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?087> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_carboxymethyluridine" ;
+    sssom:uuid "c69aa55ad2d0578d856f3596b6ebacee"^^<xsd:string> .
+
+sssom:c6a02d23f8df53eda25beec33bd62102 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001331> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?036> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_prime_O_ribosylguanosine_phosphate" ;
+    sssom:uuid "c6a02d23f8df53eda25beec33bd62102"^^<xsd:string> .
+
+sssom:c79202d0fca35149b1f5a5ea213401ba a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000500> ;
+    owl:annotatedTarget wikipedia.en:Hoogsteen_base_pair ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hoogsteen_base_pair" ;
+    sssom:uuid "c79202d0fca35149b1f5a5ea213401ba"^^<xsd:string> .
+
+sssom:c893a42a2add5582b4e217cb1779906a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000233> ;
+    owl:annotatedTarget wikipedia.en:Mature_transcript ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mature_transcript" ;
+    sssom:uuid "c893a42a2add5582b4e217cb1779906a"^^<xsd:string> .
+
+sssom:c8b2db1228db5a97b10a0af5339e3332 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000018> ;
+    owl:annotatedTarget wikipedia.en:Linkage_group ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "linkage_group" ;
+    sssom:uuid "c8b2db1228db5a97b10a0af5339e3332"^^<xsd:string> .
+
+sssom:cad45e16fd08596ebea40d6f2fc66cc5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001366> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?074> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_methylaminomethyl_two_selenouridine" ;
+    sssom:uuid "cad45e16fd08596ebea40d6f2fc66cc5"^^<xsd:string> .
+
+sssom:cae067335b17533b8d808ec74422e8cc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001340> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?096> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "one_two_prime_O_dimethylguanosine" ;
+    sssom:uuid "cae067335b17533b8d808ec74422e8cc"^^<xsd:string> .
+
+sssom:cbb3a2f9fe44568a8b8bd9c7a7206643 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001064> ;
+    owl:annotatedTarget wikipedia.en:Peptide ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "active_peptide" ;
+    sssom:uuid "cbb3a2f9fe44568a8b8bd9c7a7206643"^^<xsd:string> .
+
+sssom:cd1f3d1452ba511e8d67d8d47c142d13 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000193> ;
+    owl:annotatedTarget wikipedia.en:Restriction_fragment_length_polymorphism ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "RFLP_fragment" ;
+    sssom:uuid "cd1f3d1452ba511e8d67d8d47c142d13"^^<xsd:string> .
+
+sssom:cda13abd02835a9a9a7ec4abd5e2ac87 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001279> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?019> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "one_two_prime_O_dimethylinosine" ;
+    sssom:uuid "cda13abd02835a9a9a7ec4abd5e2ac87"^^<xsd:string> .
+
+sssom:ce6c0eabd84b525b9c2b14827d326f48 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001528> ;
+    owl:annotatedTarget wikipedia.en:Nuclear_localization_signal ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "nuclear_localization_signal" ;
+    sssom:uuid "ce6c0eabd84b525b9c2b14827d326f48"^^<xsd:string> .
+
+sssom:cff501b0262e578a80e021ebd84194d2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001305> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?011> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N6_threonylcarbamoyladenosine" ;
+    sssom:uuid "cff501b0262e578a80e021ebd84194d2"^^<xsd:string> .
+
+sssom:d0584d1410b15f7386ea51f75a948afc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0002294> ;
+    owl:annotatedTarget wikipedia.en:D_loop ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mitochondrial_D_loop" ;
+    sssom:uuid "d0584d1410b15f7386ea51f75a948afc"^^<xsd:string> .
+
+sssom:d108941d7d915602bbdff6fa6c4a95bc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001027> ;
+    owl:annotatedTarget wikipedia.en:Genotype ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "genotype" ;
+    sssom:uuid "d108941d7d915602bbdff6fa6c4a95bc"^^<xsd:string> .
+
+sssom:d1b53989e240555bb47e7f3727a17db9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001386> ;
+    owl:annotatedTarget <mod:00908> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified glycine residue" ;
+    sssom:subject_label "modified_glycine" ;
+    sssom:uuid "d1b53989e240555bb47e7f3727a17db9"^^<xsd:string> .
+
+sssom:d358fbd53cbd5467b8d7b667403f7ee9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001078> ;
+    owl:annotatedTarget wikipedia.en:Secondary_structure ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "polypeptide_secondary_structure" ;
+    sssom:uuid "d358fbd53cbd5467b8d7b667403f7ee9"^^<xsd:string> .
+
+sssom:d3a9e70ed69b5e69a08f8398bf04ca73 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000157> ;
+    owl:annotatedTarget wikipedia.en:Phagemid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "phagemid" ;
+    sssom:uuid "d3a9e70ed69b5e69a08f8398bf04ca73"^^<xsd:string> .
+
+sssom:d464e412f9af553cbf88245070b40765 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001321> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?047> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "seven_cyano_seven_deazaguanosine" ;
+    sssom:uuid "d464e412f9af553cbf88245070b40765"^^<xsd:string> .
+
+sssom:d4aa2acffc005e729ea58c93b33ce37e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001303> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?009> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_methylthio_N6_cis_hydroxyisopentenyl_adenosine" ;
+    sssom:uuid "d4aa2acffc005e729ea58c93b33ce37e"^^<xsd:string> .
+
+sssom:d5262d9144305165a45003e2a7c5da1d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001230> ;
+    owl:annotatedTarget wikipedia.en:Inosine ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "inosine" ;
+    sssom:uuid "d5262d9144305165a45003e2a7c5da1d"^^<xsd:string> .
+
+sssom:d5cf46db253a588d9d7db2e666e3ac43 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000717> ;
+    owl:annotatedTarget wikipedia.en:Reading_frame ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "reading_frame" ;
+    sssom:uuid "d5cf46db253a588d9d7db2e666e3ac43"^^<xsd:string> .
+
+sssom:d603fa0e6e4f52a3a27b062953857b27 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000902> ;
+    owl:annotatedTarget wikipedia.en:Transgene ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "transgene" ;
+    sssom:uuid "d603fa0e6e4f52a3a27b062953857b27"^^<xsd:string> .
+
+sssom:d685649049ed59b5863192936e3413b6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001403> ;
+    owl:annotatedTarget <mod:00920> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-valine residue" ;
+    sssom:subject_label "modified_L_valine" ;
+    sssom:uuid "d685649049ed59b5863192936e3413b6"^^<xsd:string> .
+
+sssom:d693caa16e6b5f5497f14bcd58469860 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000375> ;
+    owl:annotatedTarget wikipedia.en:5.8S_ribosomal_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cytosolic_5_8S_rRNA" ;
+    sssom:uuid "d693caa16e6b5f5497f14bcd58469860"^^<xsd:string> .
+
+sssom:d69ac88dcfbf5ade9e88afeeb28024f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001079> ;
+    owl:annotatedTarget wikipedia.en:Structural_motif ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "polypeptide_structural_motif" ;
+    sssom:uuid "d69ac88dcfbf5ade9e88afeeb28024f0"^^<xsd:string> .
+
+sssom:d7bac14758315c99964fd387928f76bb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000855> ;
+    owl:annotatedTarget <http://en.wikipedia.org/wiki/Ortholog#Orthology> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "orthologous_region" ;
+    sssom:uuid "d7bac14758315c99964fd387928f76bb"^^<xsd:string> .
+
+sssom:d7f292b664a054228c957e795e9cfee1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000313> ;
+    owl:annotatedTarget wikipedia.en:Stem_loop ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "stem_loop" ;
+    sssom:uuid "d7f292b664a054228c957e795e9cfee1"^^<xsd:string> .
+
+sssom:d8645391f3ad54999451c754949c6c45 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001380> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?103> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_isopentenylaminomethyl_uridine" ;
+    sssom:uuid "d8645391f3ad54999451c754949c6c45"^^<xsd:string> .
+
+sssom:d897bbae527a52d48a46f0bd9c683338 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000296> ;
+    owl:annotatedTarget wikipedia.en:Origin_of_replication ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "origin_of_replication" ;
+    sssom:uuid "d897bbae527a52d48a46f0bd9c683338"^^<xsd:string> .
+
+sssom:d8a035b0e30758a4b620d9e095d15565 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000652> ;
+    owl:annotatedTarget wikipedia.en:5S_ribosomal_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cytosolic_5S_rRNA" ;
+    sssom:uuid "d8a035b0e30758a4b620d9e095d15565"^^<xsd:string> .
+
+sssom:d98eb8f05eaa58d796dde0aed60444aa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000584> ;
+    owl:annotatedTarget wikipedia.en:TmRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "tmRNA" ;
+    sssom:uuid "d98eb8f05eaa58d796dde0aed60444aa"^^<xsd:string> .
+
+sssom:db1a243d476a514f95d25cd115e73c45 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000724> ;
+    owl:annotatedTarget wikipedia.en:Origin_of_transfer ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "oriT" ;
+    sssom:uuid "db1a243d476a514f95d25cd115e73c45"^^<xsd:string> .
+
+sssom:dbc7889c31b153c1badb3a3a7dd92d0d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001179> ;
+    owl:annotatedTarget wikipedia.en:Small_nucleolar_RNA_U3 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "U3_snoRNA" ;
+    sssom:uuid "dbc7889c31b153c1badb3a3a7dd92d0d"^^<xsd:string> .
+
+sssom:dc25fe0e7c735ff68b5ea7db591d90a5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001008> ;
+    owl:annotatedTarget wikipedia.en:Tetraloop ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "tetraloop" ;
+    sssom:uuid "dc25fe0e7c735ff68b5ea7db591d90a5"^^<xsd:string> .
+
+sssom:dd13527edaf050e0abc5f65acde2b2d5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001348> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?056> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "two_prime_O_methylpseudouridine" ;
+    sssom:uuid "dd13527edaf050e0abc5f65acde2b2d5"^^<xsd:string> .
+
+sssom:e0b7b8aa63c45eff81958f571a22dba4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001353> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?061> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "three_three_amino_three_carboxypropyl_uridine" ;
+    sssom:uuid "e0b7b8aa63c45eff81958f571a22dba4"^^<xsd:string> .
+
+sssom:e188313788e659489566942bd60c0153 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000140> ;
+    owl:annotatedTarget wikipedia.en:Attenuator ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "attenuator" ;
+    sssom:uuid "e188313788e659489566942bd60c0153"^^<xsd:string> .
+
+sssom:e2b33316b84252e391786b9bb76a86d5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001235> ;
+    owl:annotatedTarget wikipedia.en:Replicon_\(genetics\) ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "replicon" ;
+    sssom:uuid "e2b33316b84252e391786b9bb76a86d5"^^<xsd:string> .
+
+sssom:e2eca9f3ce705971b94094b52812f370 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000353> ;
+    owl:annotatedTarget wikipedia.en:Sequence_assembly ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "sequence_assembly" ;
+    sssom:uuid "e2eca9f3ce705971b94094b52812f370"^^<xsd:string> .
+
+sssom:e2fec31fa1fe5cfea24f58cd3309657c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000969> ;
+    owl:annotatedTarget wikipedia.en:Rolling_circle ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "rolling_circle" ;
+    sssom:uuid "e2fec31fa1fe5cfea24f58cd3309657c"^^<xsd:string> .
+
+sssom:e30770a07fe35a78a479c3ab72379e5c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001789> ;
+    owl:annotatedTarget wikipedia.en:Mating-type_region ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mating_type_region" ;
+    sssom:uuid "e30770a07fe35a78a479c3ab72379e5c"^^<xsd:string> .
+
+sssom:e3120481dacf540c9e1903e09e415b71 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001255> ;
+    owl:annotatedTarget wikipedia.en:Autopolyploid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "autopolyploid" ;
+    sssom:uuid "e3120481dacf540c9e1903e09e415b71"^^<xsd:string> .
+
+sssom:e425df502d6157aa9f9a4601dd78d920 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001293> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?095> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_formyl_two_prime_O_methylcytidine" ;
+    sssom:uuid "e425df502d6157aa9f9a4601dd78d920"^^<xsd:string> .
+
+sssom:e60c55d2ba095b308d6aca4e30b272d1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000077> ;
+    owl:annotatedTarget wikipedia.en:Antisense ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "antisense" ;
+    sssom:uuid "e60c55d2ba095b308d6aca4e30b272d1"^^<xsd:string> .
+
+sssom:e68450a390ab51a9a0f75022b47ed0f7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000167> ;
+    owl:annotatedTarget wikipedia.en:Promoter ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "promoter" ;
+    sssom:uuid "e68450a390ab51a9a0f75022b47ed0f7"^^<xsd:string> .
+
+sssom:e6c7f1726e2b5c19867b35558bcee295 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000409> ;
+    owl:annotatedTarget wikipedia.en:Binding_site ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "binding_site" ;
+    sssom:uuid "e6c7f1726e2b5c19867b35558bcee295"^^<xsd:string> .
+
+sssom:e8114f48df215639bd43347da35e5ce2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000741> ;
+    owl:annotatedTarget wikipedia.en:Kinetoplast ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "kinetoplast" ;
+    sssom:uuid "e8114f48df215639bd43347da35e5ce2"^^<xsd:string> .
+
+sssom:e8998b0b87615a3699e5c2a220fe4589 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0005850> ;
+    owl:annotatedTarget wikipedia.en:Primer_binding_site ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "primer_binding_site" ;
+    sssom:uuid "e8998b0b87615a3699e5c2a220fe4589"^^<xsd:string> .
+
+sssom:e8abf5230fd555b3aae03e857d0d2c98 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001319> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?045> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "galactosyl_queuosine" ;
+    sssom:uuid "e8abf5230fd555b3aae03e857d0d2c98"^^<xsd:string> .
+
+sssom:e91cacf122d659969629da5edab86ea2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001375> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?092> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "three_two_prime_O_dimethyluridine" ;
+    sssom:uuid "e91cacf122d659969629da5edab86ea2"^^<xsd:string> .
+
+sssom:e935f8dde5d55da98d579e4e4c856d05 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000655> ;
+    owl:annotatedTarget wikipedia.en:NcRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "ncRNA" ;
+    sssom:uuid "e935f8dde5d55da98d579e4e4c856d05"^^<xsd:string> .
+
+sssom:e9365c27b1475300a2efb1fbcb0f663e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001330> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?035> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N2_N2_2_prime_O_trimethylguanosine" ;
+    sssom:uuid "e9365c27b1475300a2efb1fbcb0f663e"^^<xsd:string> .
+
+sssom:e98048db722655cc9bba109c781c8847 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000030> ;
+    owl:annotatedTarget wikipedia.en:Chromosomal_inversion ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "chromosomal_inversion" ;
+    sssom:uuid "e98048db722655cc9bba109c781c8847"^^<xsd:string> .
+
+sssom:e9e8e2e4dfd35e1aa038d75490591692 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000055> ;
+    owl:annotatedTarget wikipedia.en:Hyperploid ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "hyperploid" ;
+    sssom:uuid "e9e8e2e4dfd35e1aa038d75490591692"^^<xsd:string> .
+
+sssom:eb6dc44fca4257cb98b81ebfbf0f648e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001320> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?046> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mannosyl_queuosine" ;
+    sssom:uuid "eb6dc44fca4257cb98b81ebfbf0f648e"^^<xsd:string> .
+
+sssom:ebaa061c6b5d50ebbe73decf20295807 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000643> ;
+    owl:annotatedTarget wikipedia.en:Minisatellite ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "minisatellite" ;
+    sssom:uuid "ebaa061c6b5d50ebbe73decf20295807"^^<xsd:string> .
+
+sssom:ebf90cf0240153408f2dfb58e951b3bb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000174> ;
+    owl:annotatedTarget wikipedia.en:TATA_box ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "TATA_box" ;
+    sssom:uuid "ebf90cf0240153408f2dfb58e951b3bb"^^<xsd:string> .
+
+sssom:ed710b7435a75302a5d524e621a1143d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001019> ;
+    owl:annotatedTarget wikipedia.en:Copy_number_variation ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "copy_number_variation" ;
+    sssom:uuid "ed710b7435a75302a5d524e621a1143d"^^<xsd:string> .
+
+sssom:ee50c3346c5f5720876f2059a29cf437 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001107> ;
+    owl:annotatedTarget wikipedia.en:Beta_bulge ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "beta_bulge" ;
+    sssom:uuid "ee50c3346c5f5720876f2059a29cf437"^^<xsd:string> .
+
+sssom:ee7d920e1552511dbb415879b08f3125 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001367> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?075> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_carbamoylmethyluridine" ;
+    sssom:uuid "ee7d920e1552511dbb415879b08f3125"^^<xsd:string> .
+
+sssom:ef9f84cc0fd5561992460eb1c528c1de a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001337> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?042> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "methylwyosine" ;
+    sssom:uuid "ef9f84cc0fd5561992460eb1c528c1de"^^<xsd:string> .
+
+sssom:eff0e6ce51f456358e7e1f79abf1482b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000602> ;
+    owl:annotatedTarget wikipedia.en:Guide_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "guide_RNA" ;
+    sssom:uuid "eff0e6ce51f456358e7e1f79abf1482b"^^<xsd:string> .
+
+sssom:f21046f3c2395010b27c492120a296df a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000101> ;
+    owl:annotatedTarget wikipedia.en:Transposable_element ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "transposable_element" ;
+    sssom:uuid "f21046f3c2395010b27c492120a296df"^^<xsd:string> .
+
+sssom:f3233e23b6e95cacaaf7690af9b65858 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001531> ;
+    owl:annotatedTarget wikipedia.en:Nuclear_export_signal ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "nuclear_export_signal" ;
+    sssom:uuid "f3233e23b6e95cacaaf7690af9b65858"^^<xsd:string> .
+
+sssom:f4f57eae4de85e2ea67d67d467799291 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000175> ;
+    owl:annotatedTarget wikipedia.en:Pribnow_box ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "minus_10_signal" ;
+    sssom:uuid "f4f57eae4de85e2ea67d67d467799291"^^<xsd:string> .
+
+sssom:f5551945c3315df88fd3590161097f13 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000392> ;
+    owl:annotatedTarget wikipedia.en:U2_snRNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "U2_snRNA" ;
+    sssom:uuid "f5551945c3315df88fd3590161097f13"^^<xsd:string> .
+
+sssom:f565b06b5f6853478a0fa25f4234661e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000893> ;
+    owl:annotatedTarget wikipedia.en:Silenced ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "silenced" ;
+    sssom:uuid "f565b06b5f6853478a0fa25f4234661e"^^<xsd:string> .
+
+sssom:f621c9aed66a54caabaf5e8c36fc40da a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:1000017> ;
+    owl:annotatedTarget wikipedia.en:Transversion ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "transversion" ;
+    sssom:uuid "f621c9aed66a54caabaf5e8c36fc40da"^^<xsd:string> .
+
+sssom:f63b6e489ce05e8bad026e4321834b78 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000104> ;
+    owl:annotatedTarget wikipedia.en:Polypeptide ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "polypeptide" ;
+    sssom:uuid "f63b6e489ce05e8bad026e4321834b78"^^<xsd:string> .
+
+sssom:f6ab1b899c9e52799159e5e63a1e080d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000378> ;
+    owl:annotatedTarget wikipedia.en:DsrA_RNA ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "DsrA_RNA" ;
+    sssom:uuid "f6ab1b899c9e52799159e5e63a1e080d"^^<xsd:string> .
+
+sssom:f80db9070071540db2ea095f0994ab8b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001328> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?033> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "N2_N2_dimethylguanosine" ;
+    sssom:uuid "f80db9070071540db2ea095f0994ab8b"^^<xsd:string> .
+
+sssom:f8330d09393253548abf173186d47181 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000341> ;
+    owl:annotatedTarget wikipedia.en:Cytological_band ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "chromosome_band" ;
+    sssom:uuid "f8330d09393253548abf173186d47181"^^<xsd:string> .
+
+sssom:f8c8288effc65d379352384dbcc5e9f7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001379> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?099> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_taurinomethyl_two_thiouridine" ;
+    sssom:uuid "f8c8288effc65d379352384dbcc5e9f7"^^<xsd:string> .
+
+sssom:f8ccfe8675f35c0fa39e2c2d5a5b6b00 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000340> ;
+    owl:annotatedTarget wikipedia.en:Chromosome ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "chromosome" ;
+    sssom:uuid "f8ccfe8675f35c0fa39e2c2d5a5b6b00"^^<xsd:string> .
+
+sssom:f901d1b672075a31b31287b24759fdd3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000418> ;
+    owl:annotatedTarget wikipedia.en:Signal_peptide ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "signal_peptide" ;
+    sssom:uuid "f901d1b672075a31b31287b24759fdd3"^^<xsd:string> .
+
+sssom:f91de3744be55d6f855a2c06bd36001a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001037> ;
+    owl:annotatedTarget wikipedia.en:Mobile_genetic_element ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mobile_genetic_element" ;
+    sssom:uuid "f91de3744be55d6f855a2c06bd36001a"^^<xsd:string> .
+
+sssom:f926c570be295f428175ae6540164cd3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001388> ;
+    owl:annotatedTarget <mod:00903> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "modified L-asparagine residue" ;
+    sssom:subject_label "modified_L_asparagine" ;
+    sssom:uuid "f926c570be295f428175ae6540164cd3"^^<xsd:string> .
+
+sssom:f9d9a585e5865dd7a76c3f3ec99fab0d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000591> ;
+    owl:annotatedTarget wikipedia.en:Pseudoknot ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "pseudoknot" ;
+    sssom:uuid "f9d9a585e5865dd7a76c3f3ec99fab0d"^^<xsd:string> .
+
+sssom:fa17ed870ef651e79d251030d07b06f6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001119> ;
+    owl:annotatedTarget wikipedia.en:310_helix ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "three_ten_helix" ;
+    sssom:uuid "fa17ed870ef651e79d251030d07b06f6"^^<xsd:string> .
+
+sssom:faea9b54acaf5570bb82dabee56cc6e2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000755> ;
+    owl:annotatedTarget <http://en.wikipedia.org/wiki/Plasmid_vector#Vectors> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "plasmid_vector" ;
+    sssom:uuid "faea9b54acaf5570bb82dabee56cc6e2"^^<xsd:string> .
+
+sssom:fb1c55fa3595599ea3c627806e0817bb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001089> ;
+    owl:annotatedTarget wikipedia.en:Post_translational_modification ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "post_translationally_modified_region" ;
+    sssom:uuid "fb1c55fa3595599ea3c627806e0817bb"^^<xsd:string> .
+
+sssom:fcc347b5aa7d5a5898fb08f73180e5de a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000973> ;
+    owl:annotatedTarget wikipedia.en:Insertion_sequence ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "insertion_sequence" ;
+    sssom:uuid "fcc347b5aa7d5a5898fb08f73180e5de"^^<xsd:string> .
+
+sssom:fdb7005027025d96a658979e3e135ae7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001359> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?067> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "five_carboxyhydroxymethyl_uridine_methyl_ester" ;
+    sssom:uuid "fdb7005027025d96a658979e3e135ae7"^^<xsd:string> .
+
+sssom:fded56c1d97051709e7b1fd94f256dd4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001278> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?018> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "one_methylinosine" ;
+    sssom:uuid "fded56c1d97051709e7b1fd94f256dd4"^^<xsd:string> .
+
+sssom:fe36918f89595e8c95c035a4f229431c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0000112> ;
+    owl:annotatedTarget wikipedia.en:Primer_\(molecular_biology\) ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "primer" ;
+    sssom:uuid "fe36918f89595e8c95c035a4f229431c"^^<xsd:string> .
+
+sssom:fe918459ae8f5f4f83a9df0627b52291 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001324> ;
+    owl:annotatedTarget <http://rna.rega.kuleuven.be/cgi-bin/rnamods/rnashow.pl?029> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "one_methylguanosine" ;
+    sssom:uuid "fe918459ae8f5f4f83a9df0627b52291"^^<xsd:string> .
+
+sssom:ff3e60b221b45e69a4b62c8479438c0c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <so:0001213> ;
+    owl:annotatedTarget wikipedia.en:Group_III_intron ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "group_III_intron" ;
+    sssom:uuid "ff3e60b221b45e69a4b62c8479438c0c"^^<xsd:string> .
+

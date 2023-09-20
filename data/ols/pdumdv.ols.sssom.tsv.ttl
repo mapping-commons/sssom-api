@@ -1,0 +1,56 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:2339c9492497539e86ca38f445d1d9fd a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "pdumdv.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/pdumdv.ols.sssom.tsv> ;
+    sssom:mappings sssom:6696fee0b80f5cf897a26fbdd440d30e,
+        sssom:6c32dced6cdc5c3d9a5a0d9c1e05aabf,
+        sssom:8d169cf291d151c89c65e39e53d84258,
+        sssom:c9402c08287b530ba9fda7aaea30d73a ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/pdumdv> ;
+            sssom:local_id "pdumdv.ols" ] ;
+    sssom:uuid "2339c9492497539e86ca38f445d1d9fd"^^<xsd:string> .
+
+sssom:6696fee0b80f5cf897a26fbdd440d30e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pdumdv:0000100> ;
+    owl:annotatedTarget <uberon:0000106> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "zygote stage" ;
+    sssom:subject_label "zygote stage" ;
+    sssom:uuid "6696fee0b80f5cf897a26fbdd440d30e"^^<xsd:string> .
+
+sssom:6c32dced6cdc5c3d9a5a0d9c1e05aabf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pdumdv:0000200> ;
+    owl:annotatedTarget <uberon:0000107> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cleavage stage" ;
+    sssom:subject_label "cleaving embryo stage" ;
+    sssom:uuid "6c32dced6cdc5c3d9a5a0d9c1e05aabf"^^<xsd:string> .
+
+sssom:8d169cf291d151c89c65e39e53d84258 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pdumdv:0000090> ;
+    owl:annotatedTarget <uberon:0000105> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "life cycle stage" ;
+    sssom:subject_label "Platynereis life cycle stage" ;
+    sssom:uuid "8d169cf291d151c89c65e39e53d84258"^^<xsd:string> .
+
+sssom:c9402c08287b530ba9fda7aaea30d73a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <pdumdv:0001600> ;
+    owl:annotatedTarget <uberon:0000113> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "post-juvenile adult stage" ;
+    sssom:subject_label "adult (Heteronereis) stage" ;
+    sssom:uuid "c9402c08287b530ba9fda7aaea30d73a"^^<xsd:string> .
+

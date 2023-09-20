@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:beb3e0d0477154cf849992b898abf549 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "aism.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/aism.ols.sssom.tsv> ;
+    sssom:mappings sssom:187852a8621c57b2a84592d38d55fdc8,
+        sssom:32037099c9df5073b66541777397e86d,
+        sssom:6ac0e80999ea525dbf9e99cc16db89fc,
+        sssom:db0e0a23ae365e798b125bf0840ca1be,
+        sssom:def0e958257d5d7292d0fe555769e994,
+        sssom:f4ea7aa9e37257ddae9e72f538873633 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/aism> ;
+            sssom:local_id "aism.ols" ] ;
+    sssom:uuid "beb3e0d0477154cf849992b898abf549"^^<xsd:string> .
+
+sssom:187852a8621c57b2a84592d38d55fdc8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aism:0000004> ;
+    owl:annotatedTarget <hao:0000221> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "conjunctiva" ;
+    sssom:subject_label "conjunctiva" ;
+    sssom:uuid "187852a8621c57b2a84592d38d55fdc8"^^<xsd:string> .
+
+sssom:32037099c9df5073b66541777397e86d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aism:0000137> ;
+    owl:annotatedTarget <uberon:0001054> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Malpighian tubule" ;
+    sssom:subject_label "malphigian tube" ;
+    sssom:uuid "32037099c9df5073b66541777397e86d"^^<xsd:string> .
+
+sssom:6ac0e80999ea525dbf9e99cc16db89fc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aism:0000003> ;
+    owl:annotatedTarget <hao:0000909> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sclerite" ;
+    sssom:subject_label "esclerito" ;
+    sssom:uuid "6ac0e80999ea525dbf9e99cc16db89fc"^^<xsd:string> .
+
+sssom:db0e0a23ae365e798b125bf0840ca1be a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aism:0004283> ;
+    owl:annotatedTarget <hao:0000929> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "segment" ;
+    sssom:subject_label "insect body segment" ;
+    sssom:uuid "db0e0a23ae365e798b125bf0840ca1be"^^<xsd:string> .
+
+sssom:def0e958257d5d7292d0fe555769e994 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aism:0000003> ;
+    owl:annotatedTarget <uberon:6004475> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "insect sclerite" ;
+    sssom:subject_label "esclerito" ;
+    sssom:uuid "def0e958257d5d7292d0fe555769e994"^^<xsd:string> .
+
+sssom:f4ea7aa9e37257ddae9e72f538873633 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <aism:0004305> ;
+    owl:annotatedTarget <hao:0001098> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "capitate peg sensillum" ;
+    sssom:subject_label "sensilla ampullacea" ;
+    sssom:uuid "f4ea7aa9e37257ddae9e72f538873633"^^<xsd:string> .
+

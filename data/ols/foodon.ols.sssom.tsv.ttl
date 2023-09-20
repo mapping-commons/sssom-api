@@ -1,0 +1,813 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix eolife: <https://eol.org/pages/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix wikipedia.en: <http://en.wikipedia.org/wiki/> .
+
+sssom:237c9f1c39785bb2921e505e618f742f a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "foodon.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/foodon.ols.sssom.tsv> ;
+    sssom:mappings sssom:018eaee5a09f5566845e1bc31bc29973,
+        sssom:0543963a726e59d0a960a521ca9c7624,
+        sssom:09ba2ffceaa151aea7f10bfc325ae393,
+        sssom:0a6860c91e02539e91b5b5ca55343961,
+        sssom:0ec1eae6d82f578692a2ed400e439a5e,
+        sssom:0f47da58be1651298ad2f52bddc547ad,
+        sssom:101e33d2529d5cb986a347361ca4c4e6,
+        sssom:108199d3a7d65491aef9c730165d6caa,
+        sssom:1130ebd596c55f68a730a7251c6ffb40,
+        sssom:146b1dcc1aa856f0a6599784cebe92f2,
+        sssom:23a2bf8c81f15fd7bafe06e2dfe43668,
+        sssom:2697c41af2575c0c959ac69b00cee680,
+        sssom:2bca0c88627254e99de493d10a39daa8,
+        sssom:2dbcfec1dd58530ca8baf4e8be357fb6,
+        sssom:317b56639ae75da58561793d83223b44,
+        sssom:318966fc8d945a8fbb4cb9eaae6149a8,
+        sssom:3341288b42fa5344819d60b92e62a393,
+        sssom:368cf52f69105afb9d3dffac8e06c7b8,
+        sssom:3e8cad5bb7fe5dc8af060c753851a323,
+        sssom:41b3bd71ae9e5a1b8ac72c3e179c5d8b,
+        sssom:4250918dade352fab221acbbc48e20a8,
+        sssom:445237778a6858b88580d0c11980e62a,
+        sssom:47d4e944a96a5f5ea92a48f0ce840ce5,
+        sssom:48ac9d1d25cd5e438c62029375c69d2f,
+        sssom:4a17d58b48195501afedcb72bd3f5a21,
+        sssom:4d258fa1cf025903b5f00ee9d461e626,
+        sssom:507ab8ec39c85016823a20485e71794c,
+        sssom:50dd57039ca45e938feab7afb445387a,
+        sssom:51de61f4da0a5229955e3f76ecf47835,
+        sssom:55dd5c704d42565da54cba4135b06f60,
+        sssom:5bffcf95563a5ce489eb06bd45d6f7a7,
+        sssom:5c1d0be759225fe6b0f5c9a7140c1a90,
+        sssom:6727828d547a56738a0d43074708061b,
+        sssom:68a32d8cd5fb58c7848332a0395768b5,
+        sssom:6937e33675f85a1493d868780e5ba29b,
+        sssom:6f314417116c57bc86ccbd1fbf5d1b2f,
+        sssom:730ff86eaac25d1d98b944bfc2003d71,
+        sssom:7793c407a8d651d2962f28c05cf466bf,
+        sssom:7ca9596a20bb5b2e82e5923be343a686,
+        sssom:7f8ae3f3509955ac9e7819e0b842c472,
+        sssom:80c2490d920a5d698901142aaf61b261,
+        sssom:82410e9936005408bb8e4abefefd25a2,
+        sssom:8304a22592f351ec8f33f22bef94469b,
+        sssom:84335e8f12265d04a895dbe29aa290c6,
+        sssom:8488de80a01d52aa86a1607714da33bc,
+        sssom:85e860f3dcc250d7bb648b587eb77052,
+        sssom:8902af946091552eb431049193dea367,
+        sssom:8c0b0f39580456ba925c442f2f0bfb14,
+        sssom:8e05ca11b1415ee7a838d2426dc489dd,
+        sssom:8e7c937b39795bc5867ee6f7d6d319f9,
+        sssom:aef39cd10ede5d9d87b458f67a4602b8,
+        sssom:b13479f2e1c354d5a8b3ddc95f13040e,
+        sssom:b636fef67da155ccb43f8db8daa60a8c,
+        sssom:ba15986c5b6e54229b7254e2fdf0efe6,
+        sssom:bc59c8d83658543fb5e355a3101a0572,
+        sssom:bf162619adaa5a9fb06b3ab20f0a2453,
+        sssom:bf64fbad5fd9558fbbc0f6db8e638dc1,
+        sssom:c09c48b585855a52b638a0b08d76b12e,
+        sssom:c4674f920697512f936f0f1bdc0b07cf,
+        sssom:c711ae678c955fcfa1e1a14f1b1b1237,
+        sssom:c71e71c3010551299f8f78687efeae34,
+        sssom:c9f82ec776bc51e78bf184b0421a8069,
+        sssom:cac69f352f245c8a8293c39e0fc276a7,
+        sssom:cc4efbb01e6750a5a4c8bec9d4f86093,
+        sssom:cd88ad1c36cb5f1f803c69523c0c45a0,
+        sssom:d05f0c7afe545385ae36fd9a11bed686,
+        sssom:d2de4884917f5f65bdbcc2496ce136bf,
+        sssom:d393059ebc0b53f89fdcea56df3d2c48,
+        sssom:d4896813fa0a5a01955eb34dfe14dcb7,
+        sssom:d600171d299e5e888681d6b4de5b999c,
+        sssom:d61ebb0ed8c956ce9b07667bfd5a2abb,
+        sssom:e1e73158897f5dcea99e57286c4bd288,
+        sssom:e6ec510454fa5bc696d45dbd88d0d9ad,
+        sssom:e96fab0edea1512ba9fbfb005287ddd9,
+        sssom:ec760bf7536059bc92d823d313c1b06a,
+        sssom:ed86a984d5625deb861e99a73d373e07,
+        sssom:f0aca3aa1623500981d30062b081ae70,
+        sssom:f21c4a95b5fa50b7a4237ca96722f6e1,
+        sssom:f2ec79bf87315e64b59aeedbd9f6e0b9,
+        sssom:f5e1756375a25faf9f9e2d2e65fd90dc,
+        sssom:f66d738c40b15a5ebfa25b85e4ca488f,
+        sssom:f746fb1d842150c8b2c7eb4f022d1b43,
+        sssom:f7d7b8cf4ccc5d1e861fa8cd5423fc57,
+        sssom:f84891fc97ba5b1d922a14f7ddeb0f5a,
+        sssom:f93823e9e1795dd58d7e911e0ae933f9,
+        sssom:fbf58b9176c052e882cb6c7b7343991c,
+        sssom:fdc4f422a9e35068b16b16b0bb949d20,
+        sssom:ffd3b1ce6dd75b51a2f5983ed8991394 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/foodon> ;
+            sssom:local_id "foodon.ols" ] ;
+    sssom:uuid "237c9f1c39785bb2921e505e618f742f"^^<xsd:string> .
+
+sssom:018eaee5a09f5566845e1bc31bc29973 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004030> ;
+    owl:annotatedTarget <itis:681857> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Neotropius acutirostris" ;
+    sssom:uuid "018eaee5a09f5566845e1bc31bc29973"^^<xsd:string> .
+
+sssom:0543963a726e59d0a960a521ca9c7624 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03414301> ;
+    owl:annotatedTarget <langual:B4301> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mustard and cress" ;
+    sssom:uuid "0543963a726e59d0a960a521ca9c7624"^^<xsd:string> .
+
+sssom:09ba2ffceaa151aea7f10bfc325ae393 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004013> ;
+    owl:annotatedTarget <itis:170337> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mugil gaimardianus" ;
+    sssom:uuid "09ba2ffceaa151aea7f10bfc325ae393"^^<xsd:string> .
+
+sssom:0a6860c91e02539e91b5b5ca55343961 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004017> ;
+    owl:annotatedTarget <itis:81012> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Siliqua costata" ;
+    sssom:uuid "0a6860c91e02539e91b5b5ca55343961"^^<xsd:string> .
+
+sssom:0ec1eae6d82f578692a2ed400e439a5e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003975> ;
+    owl:annotatedTarget <itis:630461> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Prolatilus jugularis" ;
+    sssom:uuid "0ec1eae6d82f578692a2ed400e439a5e"^^<xsd:string> .
+
+sssom:0f47da58be1651298ad2f52bddc547ad a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003995> ;
+    owl:annotatedTarget <itis:79743> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Argopecten aequisulcatus" ;
+    sssom:uuid "0f47da58be1651298ad2f52bddc547ad"^^<xsd:string> .
+
+sssom:101e33d2529d5cb986a347361ca4c4e6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003957> ;
+    owl:annotatedTarget <itis:616695> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cheilopogon heterurus hubbsi" ;
+    sssom:uuid "101e33d2529d5cb986a347361ca4c4e6"^^<xsd:string> .
+
+sssom:108199d3a7d65491aef9c730165d6caa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411606> ;
+    owl:annotatedTarget <langual:B1606> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "triple succotash" ;
+    sssom:uuid "108199d3a7d65491aef9c730165d6caa"^^<xsd:string> .
+
+sssom:1130ebd596c55f68a730a7251c6ffb40 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003984> ;
+    owl:annotatedTarget <itis:98479> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Loxorhynchus grandis" ;
+    sssom:uuid "1130ebd596c55f68a730a7251c6ffb40"^^<xsd:string> .
+
+sssom:146b1dcc1aa856f0a6599784cebe92f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411224> ;
+    owl:annotatedTarget eolife:2267 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "oyster" ;
+    sssom:uuid "146b1dcc1aa856f0a6599784cebe92f2"^^<xsd:string> .
+
+sssom:23a2bf8c81f15fd7bafe06e2dfe43668 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00002914> ;
+    owl:annotatedTarget <ncbitaxon:1489931> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Spariformes" ;
+    sssom:subject_label "fish, spariform" ;
+    sssom:uuid "23a2bf8c81f15fd7bafe06e2dfe43668"^^<xsd:string> .
+
+sssom:2697c41af2575c0c959ac69b00cee680 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004032> ;
+    owl:annotatedTarget <itis:167056> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pterygotrigla picta" ;
+    sssom:uuid "2697c41af2575c0c959ac69b00cee680"^^<xsd:string> .
+
+sssom:2bca0c88627254e99de493d10a39daa8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004021> ;
+    owl:annotatedTarget <itis:635418> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Bathycongrus aequoreus" ;
+    sssom:uuid "2bca0c88627254e99de493d10a39daa8"^^<xsd:string> .
+
+sssom:2dbcfec1dd58530ca8baf4e8be357fb6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00002915> ;
+    owl:annotatedTarget <ncbitaxon:30857> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Nemipteridae" ;
+    sssom:subject_label "threadfin bream family" ;
+    sssom:uuid "2dbcfec1dd58530ca8baf4e8be357fb6"^^<xsd:string> .
+
+sssom:317b56639ae75da58561793d83223b44 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004015> ;
+    owl:annotatedTarget <itis:616423> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Paralichthys microps" ;
+    sssom:uuid "317b56639ae75da58561793d83223b44"^^<xsd:string> .
+
+sssom:318966fc8d945a8fbb4cb9eaae6149a8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03412975> ;
+    owl:annotatedTarget <langual:B2975> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "gum arabic" ;
+    sssom:uuid "318966fc8d945a8fbb4cb9eaae6149a8"^^<xsd:string> .
+
+sssom:3341288b42fa5344819d60b92e62a393 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004009> ;
+    owl:annotatedTarget <itis:635550> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Gymnothorax mareei" ;
+    sssom:uuid "3341288b42fa5344819d60b92e62a393"^^<xsd:string> .
+
+sssom:368cf52f69105afb9d3dffac8e06c7b8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411361> ;
+    owl:annotatedTarget <langual:B1361> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "succotash" ;
+    sssom:uuid "368cf52f69105afb9d3dffac8e06c7b8"^^<xsd:string> .
+
+sssom:3e8cad5bb7fe5dc8af060c753851a323 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00002890> ;
+    owl:annotatedTarget eolife:8013 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "heron" ;
+    sssom:uuid "3e8cad5bb7fe5dc8af060c753851a323"^^<xsd:string> .
+
+sssom:41b3bd71ae9e5a1b8ac72c3e179c5d8b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411489> ;
+    owl:annotatedTarget <langual:B1489> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "scallop" ;
+    sssom:uuid "41b3bd71ae9e5a1b8ac72c3e179c5d8b"^^<xsd:string> .
+
+sssom:4250918dade352fab221acbbc48e20a8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004019> ;
+    owl:annotatedTarget <itis:81017> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Solen viridis" ;
+    sssom:uuid "4250918dade352fab221acbbc48e20a8"^^<xsd:string> .
+
+sssom:445237778a6858b88580d0c11980e62a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411223> ;
+    owl:annotatedTarget eolife:2235 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mussel" ;
+    sssom:uuid "445237778a6858b88580d0c11980e62a"^^<xsd:string> .
+
+sssom:47d4e944a96a5f5ea92a48f0ce840ce5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003962> ;
+    owl:annotatedTarget <itis:79431> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Glycymeris decussata" ;
+    sssom:uuid "47d4e944a96a5f5ea92a48f0ce840ce5"^^<xsd:string> .
+
+sssom:48ac9d1d25cd5e438c62029375c69d2f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03600011> ;
+    owl:annotatedTarget <dron:00033450> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "resveratrol Oral Capsule" ;
+    sssom:subject_label "resveratrol supplement" ;
+    sssom:uuid "48ac9d1d25cd5e438c62029375c69d2f"^^<xsd:string> .
+
+sssom:4a17d58b48195501afedcb72bd3f5a21 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03301343> ;
+    owl:annotatedTarget <langual:B4416> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "cellulose product" ;
+    sssom:uuid "4a17d58b48195501afedcb72bd3f5a21"^^<xsd:string> .
+
+sssom:4d258fa1cf025903b5f00ee9d461e626 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003991> ;
+    owl:annotatedTarget <itis:161329> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Conger cinereus marginatus" ;
+    sssom:uuid "4d258fa1cf025903b5f00ee9d461e626"^^<xsd:string> .
+
+sssom:507ab8ec39c85016823a20485e71794c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003982> ;
+    owl:annotatedTarget <itis:567575> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Euvola diegensis" ;
+    sssom:uuid "507ab8ec39c85016823a20485e71794c"^^<xsd:string> .
+
+sssom:50dd57039ca45e938feab7afb445387a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003980> ;
+    owl:annotatedTarget <itis:98680> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cancer anthonyi" ;
+    sssom:uuid "50dd57039ca45e938feab7afb445387a"^^<xsd:string> .
+
+sssom:51de61f4da0a5229955e3f76ecf47835 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003986> ;
+    owl:annotatedTarget <itis:165442> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cypselurus simus" ;
+    sssom:uuid "51de61f4da0a5229955e3f76ecf47835"^^<xsd:string> .
+
+sssom:55dd5c704d42565da54cba4135b06f60 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003976> ;
+    owl:annotatedTarget <itis:572657> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Ilisha fuerthii" ;
+    sssom:uuid "55dd5c704d42565da54cba4135b06f60"^^<xsd:string> .
+
+sssom:5bffcf95563a5ce489eb06bd45d6f7a7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411489> ;
+    owl:annotatedTarget eolife:2249 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "scallop" ;
+    sssom:uuid "5bffcf95563a5ce489eb06bd45d6f7a7"^^<xsd:string> .
+
+sssom:5c1d0be759225fe6b0f5c9a7140c1a90 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003996> ;
+    owl:annotatedTarget <itis:81537> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chione californiensis" ;
+    sssom:uuid "5c1d0be759225fe6b0f5c9a7140c1a90"^^<xsd:string> .
+
+sssom:6727828d547a56738a0d43074708061b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003965> ;
+    owl:annotatedTarget <itis:568285> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Simomactra planulata" ;
+    sssom:uuid "6727828d547a56738a0d43074708061b"^^<xsd:string> .
+
+sssom:68a32d8cd5fb58c7848332a0395768b5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004035> ;
+    owl:annotatedTarget <itis:81481> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Venerupis aureus" ;
+    sssom:uuid "68a32d8cd5fb58c7848332a0395768b5"^^<xsd:string> .
+
+sssom:6937e33675f85a1493d868780e5ba29b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00001204> ;
+    owl:annotatedTarget wikipedia.en:Legume ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "yam bean food product" ;
+    sssom:uuid "6937e33675f85a1493d868780e5ba29b"^^<xsd:string> .
+
+sssom:6f314417116c57bc86ccbd1fbf5d1b2f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411224> ;
+    owl:annotatedTarget <langual:B1224> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "oyster" ;
+    sssom:uuid "6f314417116c57bc86ccbd1fbf5d1b2f"^^<xsd:string> .
+
+sssom:730ff86eaac25d1d98b944bfc2003d71 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004006> ;
+    owl:annotatedTarget <itis:81252> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Donax texasianus" ;
+    sssom:uuid "730ff86eaac25d1d98b944bfc2003d71"^^<xsd:string> .
+
+sssom:7793c407a8d651d2962f28c05cf466bf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004011> ;
+    owl:annotatedTarget <itis:550936> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Lutjanus jordani" ;
+    sssom:uuid "7793c407a8d651d2962f28c05cf466bf"^^<xsd:string> .
+
+sssom:7ca9596a20bb5b2e82e5923be343a686 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004005> ;
+    owl:annotatedTarget <itis:168732> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Decapterus koheru" ;
+    sssom:uuid "7ca9596a20bb5b2e82e5923be343a686"^^<xsd:string> .
+
+sssom:7f8ae3f3509955ac9e7819e0b842c472 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003964> ;
+    owl:annotatedTarget <itis:161857> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Anchoviella perfasciata" ;
+    sssom:uuid "7f8ae3f3509955ac9e7819e0b842c472"^^<xsd:string> .
+
+sssom:80c2490d920a5d698901142aaf61b261 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003983> ;
+    owl:annotatedTarget <itis:79581> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Atrina serrata" ;
+    sssom:uuid "80c2490d920a5d698901142aaf61b261"^^<xsd:string> .
+
+sssom:82410e9936005408bb8e4abefefd25a2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003955> ;
+    owl:annotatedTarget <itis:169520> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mactrotoma nasuta" ;
+    sssom:uuid "82410e9936005408bb8e4abefefd25a2"^^<xsd:string> .
+
+sssom:8304a22592f351ec8f33f22bef94469b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003970> ;
+    owl:annotatedTarget <itis:568284> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Simomactra falcata" ;
+    sssom:uuid "8304a22592f351ec8f33f22bef94469b"^^<xsd:string> .
+
+sssom:84335e8f12265d04a895dbe29aa290c6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004001> ;
+    owl:annotatedTarget <itis:161334> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Conger oligoporus" ;
+    sssom:uuid "84335e8f12265d04a895dbe29aa290c6"^^<xsd:string> .
+
+sssom:8488de80a01d52aa86a1607714da33bc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003966> ;
+    owl:annotatedTarget <itis:620991> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chaceon fenneri" ;
+    sssom:uuid "8488de80a01d52aa86a1607714da33bc"^^<xsd:string> .
+
+sssom:85e860f3dcc250d7bb648b587eb77052 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003999> ;
+    owl:annotatedTarget <itis:79644> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chlamys circularis aequisculata" ;
+    sssom:uuid "85e860f3dcc250d7bb648b587eb77052"^^<xsd:string> .
+
+sssom:8902af946091552eb431049193dea367 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003971> ;
+    owl:annotatedTarget <itis:79745> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Argopecten lineolaris" ;
+    sssom:uuid "8902af946091552eb431049193dea367"^^<xsd:string> .
+
+sssom:8c0b0f39580456ba925c442f2f0bfb14 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003978> ;
+    owl:annotatedTarget <itis:172467> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Orcynopsis unicolor" ;
+    sssom:uuid "8c0b0f39580456ba925c442f2f0bfb14"^^<xsd:string> .
+
+sssom:8e05ca11b1415ee7a838d2426dc489dd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003974> ;
+    owl:annotatedTarget <itis:630462> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Pseudopercis numida" ;
+    sssom:uuid "8e05ca11b1415ee7a838d2426dc489dd"^^<xsd:string> .
+
+sssom:8e7c937b39795bc5867ee6f7d6d319f9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004014> ;
+    owl:annotatedTarget <itis:81778> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Panopea bitruncata" ;
+    sssom:uuid "8e7c937b39795bc5867ee6f7d6d319f9"^^<xsd:string> .
+
+sssom:aef39cd10ede5d9d87b458f67a4602b8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003993> ;
+    owl:annotatedTarget <itis:550886> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Thyrsitops lepidopoides" ;
+    sssom:uuid "aef39cd10ede5d9d87b458f67a4602b8"^^<xsd:string> .
+
+sssom:b13479f2e1c354d5a8b3ddc95f13040e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003972> ;
+    owl:annotatedTarget <itis:161949> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Coregonus alpenae" ;
+    sssom:uuid "b13479f2e1c354d5a8b3ddc95f13040e"^^<xsd:string> .
+
+sssom:b636fef67da155ccb43f8db8daa60a8c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411331> ;
+    owl:annotatedTarget <langual:B1331> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "clam" ;
+    sssom:uuid "b636fef67da155ccb43f8db8daa60a8c"^^<xsd:string> .
+
+sssom:ba15986c5b6e54229b7254e2fdf0efe6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003990> ;
+    owl:annotatedTarget <itis:95886> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Protrachypene precipua" ;
+    sssom:uuid "ba15986c5b6e54229b7254e2fdf0efe6"^^<xsd:string> .
+
+sssom:bc59c8d83658543fb5e355a3101a0572 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003961> ;
+    owl:annotatedTarget <itis:165435> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Cypselurus comatus" ;
+    sssom:uuid "bc59c8d83658543fb5e355a3101a0572"^^<xsd:string> .
+
+sssom:bf162619adaa5a9fb06b3ab20f0a2453 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411075> ;
+    owl:annotatedTarget eolife:15276 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "palinurid spiny lobster" ;
+    sssom:uuid "bf162619adaa5a9fb06b3ab20f0a2453"^^<xsd:string> .
+
+sssom:bf64fbad5fd9558fbbc0f6db8e638dc1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004022> ;
+    owl:annotatedTarget <itis:646516> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Corvula batabana" ;
+    sssom:uuid "bf64fbad5fd9558fbbc0f6db8e638dc1"^^<xsd:string> .
+
+sssom:c09c48b585855a52b638a0b08d76b12e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411223> ;
+    owl:annotatedTarget <langual:B1223> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mussel" ;
+    sssom:uuid "c09c48b585855a52b638a0b08d76b12e"^^<xsd:string> .
+
+sssom:c4674f920697512f936f0f1bdc0b07cf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003967> ;
+    owl:annotatedTarget <itis:645691> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Galeoides decadactylus" ;
+    sssom:uuid "c4674f920697512f936f0f1bdc0b07cf"^^<xsd:string> .
+
+sssom:c711ae678c955fcfa1e1a14f1b1b1237 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004018> ;
+    owl:annotatedTarget <itis:568295> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Solen rostriformis" ;
+    sssom:uuid "c711ae678c955fcfa1e1a14f1b1b1237"^^<xsd:string> .
+
+sssom:c71e71c3010551299f8f78687efeae34 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411288> ;
+    owl:annotatedTarget <langual:B1288> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "mineral water (food source)" ;
+    sssom:uuid "c71e71c3010551299f8f78687efeae34"^^<xsd:string> .
+
+sssom:c9f82ec776bc51e78bf184b0421a8069 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003963> ;
+    owl:annotatedTarget <itis:567850> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mactromeris catilliformis" ;
+    sssom:uuid "c9f82ec776bc51e78bf184b0421a8069"^^<xsd:string> .
+
+sssom:cac69f352f245c8a8293c39e0fc276a7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003968> ;
+    owl:annotatedTarget <itis:697658> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Simomactra dolabriformis" ;
+    sssom:uuid "cac69f352f245c8a8293c39e0fc276a7"^^<xsd:string> .
+
+sssom:cc4efbb01e6750a5a4c8bec9d4f86093 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003960> ;
+    owl:annotatedTarget <itis:164736> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Urophycis earllii" ;
+    sssom:uuid "cc4efbb01e6750a5a4c8bec9d4f86093"^^<xsd:string> .
+
+sssom:cd88ad1c36cb5f1f803c69523c0c45a0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003955> ;
+    owl:annotatedTarget <itis:567854> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mactrotoma nasuta" ;
+    sssom:uuid "cd88ad1c36cb5f1f803c69523c0c45a0"^^<xsd:string> .
+
+sssom:d05f0c7afe545385ae36fd9a11bed686 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003988> ;
+    owl:annotatedTarget <itis:564146> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Dipturus olseni" ;
+    sssom:uuid "d05f0c7afe545385ae36fd9a11bed686"^^<xsd:string> .
+
+sssom:d2de4884917f5f65bdbcc2496ce136bf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004029> ;
+    owl:annotatedTarget <itis:170261> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Nemadactylus carponotatus" ;
+    sssom:uuid "d2de4884917f5f65bdbcc2496ce136bf"^^<xsd:string> .
+
+sssom:d393059ebc0b53f89fdcea56df3d2c48 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003994> ;
+    owl:annotatedTarget <itis:79351> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Anadara baughmani" ;
+    sssom:uuid "d393059ebc0b53f89fdcea56df3d2c48"^^<xsd:string> .
+
+sssom:d4896813fa0a5a01955eb34dfe14dcb7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003969> ;
+    owl:annotatedTarget <itis:567851> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mactromeris hemphillii" ;
+    sssom:uuid "d4896813fa0a5a01955eb34dfe14dcb7"^^<xsd:string> .
+
+sssom:d600171d299e5e888681d6b4de5b999c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003977> ;
+    owl:annotatedTarget <itis:616139> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chascanopsetta crumenalis" ;
+    sssom:uuid "d600171d299e5e888681d6b4de5b999c"^^<xsd:string> .
+
+sssom:d61ebb0ed8c956ce9b07667bfd5a2abb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004016> ;
+    owl:annotatedTarget <itis:81281> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Sanguinolaria sanguinolenta" ;
+    sssom:uuid "d61ebb0ed8c956ce9b07667bfd5a2abb"^^<xsd:string> .
+
+sssom:e1e73158897f5dcea99e57286c4bd288 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003998> ;
+    owl:annotatedTarget <itis:81559> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Chione undatella" ;
+    sssom:uuid "e1e73158897f5dcea99e57286c4bd288"^^<xsd:string> .
+
+sssom:e6ec510454fa5bc696d45dbd88d0d9ad a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03414130> ;
+    owl:annotatedTarget eolife:46560658 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "guitarfish genus" ;
+    sssom:uuid "e6ec510454fa5bc696d45dbd88d0d9ad"^^<xsd:string> .
+
+sssom:e96fab0edea1512ba9fbfb005287ddd9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003956> ;
+    owl:annotatedTarget <itis:82376> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Loligo ocula" ;
+    sssom:uuid "e96fab0edea1512ba9fbfb005287ddd9"^^<xsd:string> .
+
+sssom:ec760bf7536059bc92d823d313c1b06a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004003> ;
+    owl:annotatedTarget <itis:79869> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Crassostrea gigas kumamoto" ;
+    sssom:uuid "ec760bf7536059bc92d823d313c1b06a"^^<xsd:string> .
+
+sssom:ed86a984d5625deb861e99a73d373e07 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004031> ;
+    owl:annotatedTarget <itis:645936> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Polydactylus quadrifilis" ;
+    sssom:uuid "ed86a984d5625deb861e99a73d373e07"^^<xsd:string> .
+
+sssom:f0aca3aa1623500981d30062b081ae70 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003989> ;
+    owl:annotatedTarget <itis:168307> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Epigonus crassicaudus" ;
+    sssom:uuid "f0aca3aa1623500981d30062b081ae70"^^<xsd:string> .
+
+sssom:f21c4a95b5fa50b7a4237ca96722f6e1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003958> ;
+    owl:annotatedTarget <itis:646212> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Meuschenia galii" ;
+    sssom:uuid "f21c4a95b5fa50b7a4237ca96722f6e1"^^<xsd:string> .
+
+sssom:f2ec79bf87315e64b59aeedbd9f6e0b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004023> ;
+    owl:annotatedTarget <itis:630218> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Diagramma pictum" ;
+    sssom:uuid "f2ec79bf87315e64b59aeedbd9f6e0b9"^^<xsd:string> .
+
+sssom:f5e1756375a25faf9f9e2d2e65fd90dc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003973> ;
+    owl:annotatedTarget <itis:168731> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Decapterus scombrinus" ;
+    sssom:uuid "f5e1756375a25faf9f9e2d2e65fd90dc"^^<xsd:string> .
+
+sssom:f66d738c40b15a5ebfa25b85e4ca488f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004026> ;
+    owl:annotatedTarget <itis:636217> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Hoplunnis diomediana" ;
+    sssom:uuid "f66d738c40b15a5ebfa25b85e4ca488f"^^<xsd:string> .
+
+sssom:f746fb1d842150c8b2c7eb4f022d1b43 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004033> ;
+    owl:annotatedTarget <itis:168713> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Trachinotus kennedyi" ;
+    sssom:uuid "f746fb1d842150c8b2c7eb4f022d1b43"^^<xsd:string> .
+
+sssom:f7d7b8cf4ccc5d1e861fa8cd5423fc57 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004007> ;
+    owl:annotatedTarget <itis:635509> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Echidna peli" ;
+    sssom:uuid "f7d7b8cf4ccc5d1e861fa8cd5423fc57"^^<xsd:string> .
+
+sssom:f84891fc97ba5b1d922a14f7ddeb0f5a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004034> ;
+    owl:annotatedTarget <itis:97676> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Scyllarides aequinoctialis" ;
+    sssom:uuid "f84891fc97ba5b1d922a14f7ddeb0f5a"^^<xsd:string> .
+
+sssom:f93823e9e1795dd58d7e911e0ae933f9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004010> ;
+    owl:annotatedTarget <itis:81257> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Iphigenia brasiliana" ;
+    sssom:uuid "f93823e9e1795dd58d7e911e0ae933f9"^^<xsd:string> .
+
+sssom:fbf58b9176c052e882cb6c7b7343991c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00003959> ;
+    owl:annotatedTarget <itis:567852> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Mactrotoma californica" ;
+    sssom:uuid "fbf58b9176c052e882cb6c7b7343991c"^^<xsd:string> .
+
+sssom:fdc4f422a9e35068b16b16b0bb949d20 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:03411075> ;
+    owl:annotatedTarget <langual:B1075> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "palinurid spiny lobster" ;
+    sssom:uuid "fdc4f422a9e35068b16b16b0bb949d20"^^<xsd:string> .
+
+sssom:ffd3b1ce6dd75b51a2f5983ed8991394 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <foodon:00004002> ;
+    owl:annotatedTarget <itis:161947> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "Coregonus reighardi" ;
+    sssom:uuid "ffd3b1ce6dd75b51a2f5983ed8991394"^^<xsd:string> .
+

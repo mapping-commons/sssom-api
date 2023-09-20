@@ -1,0 +1,13 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:6596ec9d9c1e51fb838a7a6ff2cc241c a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "bco.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/bco.ols.sssom.tsv> ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/bco> ;
+            sssom:local_id "bco.ols" ] ;
+    sssom:uuid "6596ec9d9c1e51fb838a7a6ff2cc241c"^^<xsd:string> .
+

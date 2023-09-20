@@ -1,0 +1,1896 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:88386195e07455eca78385218e08bae8 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "phipo.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/phipo.ols.sssom.tsv> ;
+    sssom:mappings sssom:05061b9c0c675266ac63c2cb9c2c2142,
+        sssom:051fbc7e946055ccb1f3477dfab6af12,
+        sssom:060c42e7321d59e6aa4e1c08ea7924df,
+        sssom:0612c55e7d045b7296565dfc44ec2fa5,
+        sssom:067df826f67852b5a3d8e962498f6160,
+        sssom:073a6fbe46495e839f8b2c8346166e65,
+        sssom:0a4b8f9081c358f683506d67e80dbbf3,
+        sssom:0a664136c02652d38d55a0f695ff255a,
+        sssom:0a760b139ed7558e8c7ec26776955ab7,
+        sssom:0a775a80e7ef59deb221bc08b647b800,
+        sssom:0d577f3d1e0c545b8e39f9a580fc4feb,
+        sssom:0f1b640d82ed5d7fb3cbff5027d9673a,
+        sssom:0fa925b2926a514cbcf365d423cf17cd,
+        sssom:12e3d1460a0357c390bfb54abdbd73a5,
+        sssom:13ca9e1743c054f0b343a0bae75d6823,
+        sssom:1537ea4ca15c5501bea2e8912c8a3572,
+        sssom:156ac358169e5e68b64567220ad6642f,
+        sssom:165d3c0234b65b78b4bedddb0ff65d59,
+        sssom:17640e17001b5eecbe41ac1c30760305,
+        sssom:17f3af2d5a355faa9de5bfe918ed09fb,
+        sssom:186c69ac11fa5905aed23712feb50173,
+        sssom:1c1b3f4d17955998bb02b62b977e0fa2,
+        sssom:1d51c6b09b8450e4a2efaf7ea7bd410b,
+        sssom:1ed3cb0589b75411a8ae1413ff19a79d,
+        sssom:1f7c9a2bbb185b1a938b514f509cc7f2,
+        sssom:212acbd868205f5087b1b707a156963a,
+        sssom:25c3d8cce4fb5dd5939a5e5efa740a88,
+        sssom:25d49ac4a721581a888497755cb2a63f,
+        sssom:2721361a7daa5159837b95f77d86f4a9,
+        sssom:27aaab221e9353119acaae8704840dc3,
+        sssom:2976f500964052cc9ba0d4a9008febdd,
+        sssom:2a91fe6810595af29f6a955037d3dfc8,
+        sssom:2b1560a0cdb95a44be6887f363c0773a,
+        sssom:2bf81a85dd6b54bfb238374fd9bf0842,
+        sssom:2e2de437e3c252278d5a1c7778168515,
+        sssom:2e8223d9a81a53bbb4191fcf35131f6c,
+        sssom:32c9f378caf4508ba065b1bd3d457f95,
+        sssom:3399bef41c455b5cb88bbfa1f5363ab7,
+        sssom:34b6dc79c6dc59b9a52d08e1d50af74f,
+        sssom:399e69ea4bfd5149acc430b023a023f1,
+        sssom:3a83d2deec0b58e196ef5995f3cb291f,
+        sssom:3fa15ff37e59573aa4ede3369ae36d60,
+        sssom:40fd3ec538a95490a2620e9a9ecd251a,
+        sssom:413c1585a7c05ce4a31af6864aa8c590,
+        sssom:430841725859520999b65f7d13e03074,
+        sssom:445e65ddb5e8586c910eae8110dd208f,
+        sssom:455aa0170dfd51d4875996b9e416b0e7,
+        sssom:46ef822db8aa5ac2b496a6cc0abecb27,
+        sssom:47cf917923ad570c80726ab3bd8c6073,
+        sssom:49f4aa2ecd8752699a7094c1c42cf51d,
+        sssom:4b22a1e54b2f5ee9b3da5b449e9cbec5,
+        sssom:4be3536b5ecf57beb0f57b15e4451286,
+        sssom:4c33b3cfe0d5533ea838088d6b9f9846,
+        sssom:4c883359d93159b3a1f7c8b83e6915f5,
+        sssom:4e97a1cd272150afa34a1ee8127378d4,
+        sssom:51a30eed8dc5585890740f054f5bc902,
+        sssom:51dc5dd5b03b5cad965459543d0639cd,
+        sssom:52d70601583052ae84288553ffffefc5,
+        sssom:546558c53d65541588c9b73bec8213ac,
+        sssom:55cda866a4d35439a5f62c868c117eb0,
+        sssom:58e6bbb7a05d52248488c07ab0a8d905,
+        sssom:59a10004c1d851dc87a70d9c6879f13a,
+        sssom:59bd18a61d5c5d78985b256f289db4bd,
+        sssom:5a868473e997569b8b07f1787595e12a,
+        sssom:5b4d1de6b8b851d78e950851ea63d00e,
+        sssom:5bc666fcd2485f8ab41eff746e79edc4,
+        sssom:5d7d8b0e1ac85f7281253b6ba0827cba,
+        sssom:60b131c5b8a05332b4db7463c36df7e9,
+        sssom:60d71383bfab5e9484131d0fb4e2eebd,
+        sssom:60f37df27f4d59b1ae1130944e6761ca,
+        sssom:618120d619d95f34bbf94dfcf8c09764,
+        sssom:641922eb80f85ef1a54caba437b15d0c,
+        sssom:64de78ecbf74583a96ca68f1bcd62e2a,
+        sssom:64e9e43fac665353b309ecd1457e83a2,
+        sssom:64ea7d1acc4f503d87fab71679e6b5f9,
+        sssom:65b24072ccf85426a33181ab5ff40893,
+        sssom:6af78774e85b57c5ad722b88e735c67e,
+        sssom:6b0af7447e7953469e404c9979c208eb,
+        sssom:6d9c1aa670f158bd983d47d6fe5b5f76,
+        sssom:6e01836cbfd15aa99f149ac46c139669,
+        sssom:6f4b6e91e0d058e39dfa11ef879c89a9,
+        sssom:707ff37227fb57d4b052bf477d6227b9,
+        sssom:70d918d25cd75639a53138ed2bb2adb3,
+        sssom:71314a7f28645affbcb094be5898b8b4,
+        sssom:713a26fe242e5e43a157ce27ec7b9257,
+        sssom:722f19ee4f3652e998150c908e81255e,
+        sssom:73aebfcef9ca5c85b7bad587f5e12ed0,
+        sssom:73da76ddbcb75f419a88c2869a8d923b,
+        sssom:743ef63ee2e853c7bb4ac129c4f85150,
+        sssom:76a5e3118b755b6b85425edb4eec4666,
+        sssom:78ce712e0e6e5b80852832236dc87602,
+        sssom:793c49c4084a50b28da1563e7ebddf02,
+        sssom:7a6e90aa18e75d2cad3de9f8c8612d3b,
+        sssom:7ace6e9d372b5ae899a985bc8947e9ae,
+        sssom:7bcb7c590dab51cebc2bd35f9be80d1e,
+        sssom:7bcfb3c7ea6956da955145f5a247e956,
+        sssom:7f56d753459b5997a9eef2700e2c998a,
+        sssom:7f718de951295eb6888f6950519a4908,
+        sssom:800531ff503a5358b344884cf21ac040,
+        sssom:80393fcf3f2c5ee59071dcd462b9c593,
+        sssom:8190ee3331ed51f2b9aa96b1aa5ec9dc,
+        sssom:81a6a54fcfab50fe9161b205c5b74eb9,
+        sssom:82a74c194c985cbc8f24e98b3b79d78f,
+        sssom:83a82c0864dc5585816ff755b070c7e4,
+        sssom:856160159bc154709d6ddaa34a688931,
+        sssom:8699aa7483b95a1199f4c621d4aa1c22,
+        sssom:86cc876a030c548ab5a59feb5f15088f,
+        sssom:877c1b527195583ebee97ae72b354977,
+        sssom:8802638f02ca554ba3e72aac71722fa9,
+        sssom:8c16e32d8217540d9990e0225f1cabb6,
+        sssom:8f196c0445835757a5214736508a5c86,
+        sssom:8f6b6ec4fda55d93aaa274aaf6c363a9,
+        sssom:910c979dc70e5aabbe5e897bccaea5bc,
+        sssom:9326a01e98765194b530a24a7ec58bbd,
+        sssom:93ddc9c7412257b7acf86db017d6f25f,
+        sssom:96bbe4fd95d25fbd9c89c577b226813c,
+        sssom:97f0ac8292345f8fb404db61dd398b28,
+        sssom:9b15c10d4d2d5b2ea62b1d98ecd0e665,
+        sssom:9ca1f103d36a52a1ad464055d47d37ff,
+        sssom:9ddc171458785ca3ac703479991f5845,
+        sssom:9efe2b5ab4c65d87bc65f4ac416d27f9,
+        sssom:a162157c2ddb57af983214aa1623f9ce,
+        sssom:a1aed20ea9d1525e95b46fe057e51844,
+        sssom:a265e2d1fed25f378f9b4336e159d7bd,
+        sssom:a7fce3f899de58a39d24aac712c2da09,
+        sssom:a8510188fdfd573da6865e8f901f2f0e,
+        sssom:a88aabf863745a55b26c84a29905f18a,
+        sssom:a9ae5e7c7c605dbead47f2824db54020,
+        sssom:ab26d36d00c85f20930678ce9a025b6d,
+        sssom:ab404dd7b0ea51e2b3687f5dde39a26e,
+        sssom:abba4fd38b2556dbb9a103fdffa7e9e4,
+        sssom:af210894f8e356af97128f75649ec8e5,
+        sssom:b008e778aeb557a685d8676394cf9d5f,
+        sssom:b0cf61fca2c0564581101a6e1a569fbc,
+        sssom:b10d8cd1e0fa56d392ab739da8c36832,
+        sssom:b57f8eafd9005aca89cef45de1ee3f39,
+        sssom:b6e36228301c5e1a816601276cf76f70,
+        sssom:b7622731c0a85b71927186b66b3b9258,
+        sssom:b8592b8b7819528bb49b0e1fba1717c7,
+        sssom:b87284e3d8d550bcbdb444c8b159a457,
+        sssom:b8d1059cc69657fbb58dba0b0e01fc25,
+        sssom:b8e3ad33a5bc5b42ab53d70ae1f7d0d1,
+        sssom:b91059897aa055bfa9fe97c941ce4d19,
+        sssom:ba6c4d4961fe554bb65f95097f937005,
+        sssom:bc52ed26b5b05a22969dbac55b0761d5,
+        sssom:bcb0ad8ddbca582299abd10f94f72135,
+        sssom:beaab957ccc45ed0b5d6027dee59759e,
+        sssom:c09241aaea6f52ca94296673e21a5d36,
+        sssom:c153dd64a28c53d59aaa5451f5ac02ce,
+        sssom:c2d8d1164fcd5b4cb2cd55d22c78327c,
+        sssom:c6ff588f83545b8ebbea143ff17dad60,
+        sssom:c7292173d3e251148ce5080a2f652ede,
+        sssom:c76fbbb9091351deb9ff5336884a3b71,
+        sssom:c872015c0c3852eaa300252a06e7576b,
+        sssom:cba0834d7a42544f919a3f161de45135,
+        sssom:cf50d574233a5102b8cea393793407af,
+        sssom:d2a099ea731e525ea260052041a1727a,
+        sssom:d48fa93d03e3527289c5ba98a5b734e7,
+        sssom:d7fe3d53d0725183a4be756d80623044,
+        sssom:d9fb6c352460535bb5f9822817c736ad,
+        sssom:ddfdf5b38225530399ecd40ac14b08a3,
+        sssom:de818732d6c256caae9aac570317a855,
+        sssom:e1f55b7130555ae0b191671dc39f5406,
+        sssom:e303d34055c057b69101f3db3302d977,
+        sssom:e30d29dbca6c57c081bf9519c86fbc36,
+        sssom:e377436f0d3f5818bb9608111f1df2f7,
+        sssom:e379d00803d45f77a0225becbccf196a,
+        sssom:e43f32f85c975040b0245565f867301b,
+        sssom:e53523132e1251bab6ae9537787a44bd,
+        sssom:e7ed093029465039889c269465707faa,
+        sssom:e91c0373571a5955b2fcc1137a4b381a,
+        sssom:ea9fec0e262058ccadac0d2633f2ebd1,
+        sssom:eb2308018fc050beb09ce7d84d6b1209,
+        sssom:eb660f38ab3c5c35a4067dfa7c342dc7,
+        sssom:ec98bd6270ea5c2ca586947e89aafc79,
+        sssom:ed0ab72825845c569406cf88ffd0eaa2,
+        sssom:ef2c70f0c52258c0a3f19aa4e334dd8c,
+        sssom:efad46061215532e962c076b5fc20caa,
+        sssom:f3620fc3f22653c6a200070b70fc21b1,
+        sssom:f4f02ac89e6c54c5afcff551940b64ce,
+        sssom:f5e8aef54ecb5a41878f1470fac2cf64,
+        sssom:f8725d074211532dafab24ef7ced9e46,
+        sssom:f914b8ce9aa553fe9cc3f97c15fcba87,
+        sssom:fafc9adc1669566aa10ff05a6592e085,
+        sssom:fd84fbbc8b58557ebd5f0eaee5308f91,
+        sssom:fd9d151d2c585835833d5b030993aa58,
+        sssom:fddbcdf36a615059b2bc8e0b7bfc9578,
+        sssom:ff8ff3be8f43557c97a8f810b2cfd1f2 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/phipo> ;
+            sssom:local_id "phipo.ols" ] ;
+    sssom:uuid "88386195e07455eca78385218e08bae8"^^<xsd:string> .
+
+sssom:05061b9c0c675266ac63c2cb9c2c2142 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000201> ;
+    owl:annotatedTarget <fypo:0005232> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein complex binding" ;
+    sssom:subject_label "obsolete normal pathogen host protein complex binding" ;
+    sssom:uuid "05061b9c0c675266ac63c2cb9c2c2142"^^<xsd:string> .
+
+sssom:051fbc7e946055ccb1f3477dfab6af12 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000433> ;
+    owl:annotatedTarget <fypo:0000660> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal catalytic activity" ;
+    sssom:subject_label "normal catalytic activity" ;
+    sssom:uuid "051fbc7e946055ccb1f3477dfab6af12"^^<xsd:string> .
+
+sssom:060c42e7321d59e6aa4e1c08ea7924df a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000264> ;
+    owl:annotatedTarget <fypo:0005573> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal nuclear transport" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction nuclear transport" ;
+    sssom:uuid "060c42e7321d59e6aa4e1c08ea7924df"^^<xsd:string> .
+
+sssom:0612c55e7d045b7296565dfc44ec2fa5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001038> ;
+    owl:annotatedTarget <fypo:0001076> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal level of substance in cell" ;
+    sssom:subject_label "normal level of substance in cell" ;
+    sssom:uuid "0612c55e7d045b7296565dfc44ec2fa5"^^<xsd:string> .
+
+sssom:067df826f67852b5a3d8e962498f6160 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000172> ;
+    owl:annotatedTarget <fypo:0002133> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished protein-RNA interaction" ;
+    sssom:subject_label "obsolete abolished pathogen host interaction RNA binding" ;
+    sssom:uuid "067df826f67852b5a3d8e962498f6160"^^<xsd:string> .
+
+sssom:073a6fbe46495e839f8b2c8346166e65 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000156> ;
+    owl:annotatedTarget <fypo:0002135> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased protein-RNA interaction" ;
+    sssom:subject_label "increased RNA binding" ;
+    sssom:uuid "073a6fbe46495e839f8b2c8346166e65"^^<xsd:string> .
+
+sssom:0a4b8f9081c358f683506d67e80dbbf3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001011> ;
+    owl:annotatedTarget <fypo:0001071> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal transport" ;
+    sssom:subject_label "normal transport" ;
+    sssom:uuid "0a4b8f9081c358f683506d67e80dbbf3"^^<xsd:string> .
+
+sssom:0a664136c02652d38d55a0f695ff255a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001061> ;
+    owl:annotatedTarget <fypo:0000826> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased RNA level" ;
+    sssom:subject_label "decreased RNA level" ;
+    sssom:uuid "0a664136c02652d38d55a0f695ff255a"^^<xsd:string> .
+
+sssom:0a760b139ed7558e8c7ec26776955ab7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000193> ;
+    owl:annotatedTarget <fypo:0000657> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased DNA binding" ;
+    sssom:subject_label "obsolete increased pathogen host interaction DNA binding" ;
+    sssom:uuid "0a760b139ed7558e8c7ec26776955ab7"^^<xsd:string> .
+
+sssom:0a775a80e7ef59deb221bc08b647b800 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000141> ;
+    owl:annotatedTarget <fypo:0005784> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased extent and duration of protein-protein interaction" ;
+    sssom:subject_label "decreased extent and duration of protein-protein interaction" ;
+    sssom:uuid "0a775a80e7ef59deb221bc08b647b800"^^<xsd:string> .
+
+sssom:0d577f3d1e0c545b8e39f9a580fc4feb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000208> ;
+    owl:annotatedTarget <fypo:0005785> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased duration of protein-protein interaction" ;
+    sssom:subject_label "obsolete decreased duration of pathogen host protein-protein interaction" ;
+    sssom:uuid "0d577f3d1e0c545b8e39f9a580fc4feb"^^<xsd:string> .
+
+sssom:0f1b640d82ed5d7fb3cbff5027d9673a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001024> ;
+    owl:annotatedTarget <fypo:0001661> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased cellular cAMP level" ;
+    sssom:subject_label "increased cellular cAMP level" ;
+    sssom:uuid "0f1b640d82ed5d7fb3cbff5027d9673a"^^<xsd:string> .
+
+sssom:0fa925b2926a514cbcf365d423cf17cd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000493> ;
+    owl:annotatedTarget <go:0044238> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "primary metabolic process" ;
+    sssom:subject_label "primary metabolic process phenotype" ;
+    sssom:uuid "0fa925b2926a514cbcf365d423cf17cd"^^<xsd:string> .
+
+sssom:12e3d1460a0357c390bfb54abdbd73a5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000938> ;
+    owl:annotatedTarget <fypo:0000647> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "vegetative cell lysis" ;
+    sssom:subject_label "vegetative cell lysis" ;
+    sssom:uuid "12e3d1460a0357c390bfb54abdbd73a5"^^<xsd:string> .
+
+sssom:13ca9e1743c054f0b343a0bae75d6823 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000244> ;
+    owl:annotatedTarget <fypo:0002956> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein localization to nucleus" ;
+    sssom:subject_label "abnormal protein localization to nucleus" ;
+    sssom:uuid "13ca9e1743c054f0b343a0bae75d6823"^^<xsd:string> .
+
+sssom:1537ea4ca15c5501bea2e8912c8a3572 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000227> ;
+    owl:annotatedTarget <go:0019748> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "secondary metabolic process" ;
+    sssom:subject_label "obsolete pathogen host interaction secondary metabolic process phenotype" ;
+    sssom:uuid "1537ea4ca15c5501bea2e8912c8a3572"^^<xsd:string> .
+
+sssom:156ac358169e5e68b64567220ad6642f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000267> ;
+    owl:annotatedTarget <fypo:0003578> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal vacuolar transport" ;
+    sssom:subject_label "abnormal vacuolar transport" ;
+    sssom:uuid "156ac358169e5e68b64567220ad6642f"^^<xsd:string> .
+
+sssom:165d3c0234b65b78b4bedddb0ff65d59 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000146> ;
+    owl:annotatedTarget <fypo:0000655> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal DNA binding" ;
+    sssom:subject_label "normal DNA binding" ;
+    sssom:uuid "165d3c0234b65b78b4bedddb0ff65d59"^^<xsd:string> .
+
+sssom:17640e17001b5eecbe41ac1c30760305 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000330> ;
+    owl:annotatedTarget <fypo:0002116> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal transmembrane transporter activity" ;
+    sssom:subject_label "abnormal transporter activity" ;
+    sssom:uuid "17640e17001b5eecbe41ac1c30760305"^^<xsd:string> .
+
+sssom:17f3af2d5a355faa9de5bfe918ed09fb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001118> ;
+    owl:annotatedTarget <fypo:0000329> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein modification during vegetative growth" ;
+    sssom:subject_label "abnormal protein modification" ;
+    sssom:uuid "17f3af2d5a355faa9de5bfe918ed09fb"^^<xsd:string> .
+
+sssom:186c69ac11fa5905aed23712feb50173 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001306> ;
+    owl:annotatedTarget <fypo:0000271> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to salt stress" ;
+    sssom:subject_label "sensitive to salt stress" ;
+    sssom:uuid "186c69ac11fa5905aed23712feb50173"^^<xsd:string> .
+
+sssom:1c1b3f4d17955998bb02b62b977e0fa2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001270> ;
+    owl:annotatedTarget <fypo:0001201> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to calcium ion starvation" ;
+    sssom:subject_label "sensitive to calcium ion starvation" ;
+    sssom:uuid "1c1b3f4d17955998bb02b62b977e0fa2"^^<xsd:string> .
+
+sssom:1d51c6b09b8450e4a2efaf7ea7bd410b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000437> ;
+    owl:annotatedTarget <fypo:0000662> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased catalytic activity" ;
+    sssom:subject_label "increased catalytic activity" ;
+    sssom:uuid "1d51c6b09b8450e4a2efaf7ea7bd410b"^^<xsd:string> .
+
+sssom:1ed3cb0589b75411a8ae1413ff19a79d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000139> ;
+    owl:annotatedTarget <fypo:0003591> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein complex binding" ;
+    sssom:subject_label "abnormal protein complex binding" ;
+    sssom:uuid "1ed3cb0589b75411a8ae1413ff19a79d"^^<xsd:string> .
+
+sssom:1f7c9a2bbb185b1a938b514f509cc7f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000432> ;
+    owl:annotatedTarget <fypo:0000654> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "catalytic activity phenotype" ;
+    sssom:subject_label "catalytic activity phenotype" ;
+    sssom:uuid "1f7c9a2bbb185b1a938b514f509cc7f2"^^<xsd:string> .
+
+sssom:212acbd868205f5087b1b707a156963a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001074> ;
+    owl:annotatedTarget <fypo:0002015> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to iron ion starvation" ;
+    sssom:subject_label "sensitive to iron ion starvation" ;
+    sssom:uuid "212acbd868205f5087b1b707a156963a"^^<xsd:string> .
+
+sssom:25c3d8cce4fb5dd5939a5e5efa740a88 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000098> ;
+    owl:annotatedTarget <fypo:0003798> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal meiosis II" ;
+    sssom:subject_label "normal meiosis II" ;
+    sssom:uuid "25c3d8cce4fb5dd5939a5e5efa740a88"^^<xsd:string> .
+
+sssom:25d49ac4a721581a888497755cb2a63f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000982> ;
+    owl:annotatedTarget <fypo:0000478> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal meiosis" ;
+    sssom:subject_label "normal meiosis" ;
+    sssom:uuid "25d49ac4a721581a888497755cb2a63f"^^<xsd:string> .
+
+sssom:2721361a7daa5159837b95f77d86f4a9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000197> ;
+    owl:annotatedTarget <fypo:0000704> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein-protein interaction" ;
+    sssom:subject_label "obsolete abnormal pathogen host protein protein interaction" ;
+    sssom:uuid "2721361a7daa5159837b95f77d86f4a9"^^<xsd:string> .
+
+sssom:27aaab221e9353119acaae8704840dc3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001279> ;
+    owl:annotatedTarget <fypo:0000669> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished peptidase activity" ;
+    sssom:subject_label "abolished peptidase activity" ;
+    sssom:uuid "27aaab221e9353119acaae8704840dc3"^^<xsd:string> .
+
+sssom:2976f500964052cc9ba0d4a9008febdd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000150> ;
+    owl:annotatedTarget <fypo:0000657> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased DNA binding" ;
+    sssom:subject_label "increased DNA binding" ;
+    sssom:uuid "2976f500964052cc9ba0d4a9008febdd"^^<xsd:string> .
+
+sssom:2a91fe6810595af29f6a955037d3dfc8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000263> ;
+    owl:annotatedTarget <fypo:0005573> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal nuclear transport" ;
+    sssom:subject_label "abnormal nuclear transport" ;
+    sssom:uuid "2a91fe6810595af29f6a955037d3dfc8"^^<xsd:string> .
+
+sssom:2b1560a0cdb95a44be6887f363c0773a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000416> ;
+    owl:annotatedTarget <fypo:0000706> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal molecular function" ;
+    sssom:subject_label "normal molecular function" ;
+    sssom:uuid "2b1560a0cdb95a44be6887f363c0773a"^^<xsd:string> .
+
+sssom:2bf81a85dd6b54bfb238374fd9bf0842 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000135> ;
+    owl:annotatedTarget <fypo:0000705> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished protein-protein interaction" ;
+    sssom:subject_label "abolished protein-protein interaction" ;
+    sssom:uuid "2bf81a85dd6b54bfb238374fd9bf0842"^^<xsd:string> .
+
+sssom:2e2de437e3c252278d5a1c7778168515 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000144> ;
+    owl:annotatedTarget <fypo:0005232> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein complex binding" ;
+    sssom:subject_label "normal protein complex binding" ;
+    sssom:uuid "2e2de437e3c252278d5a1c7778168515"^^<xsd:string> .
+
+sssom:2e8223d9a81a53bbb4191fcf35131f6c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000189> ;
+    owl:annotatedTarget <fypo:0003735> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered DNA binding specificity" ;
+    sssom:subject_label "obsolete altered pathogen host interaction DNA binding specificity" ;
+    sssom:uuid "2e8223d9a81a53bbb4191fcf35131f6c"^^<xsd:string> .
+
+sssom:32c9f378caf4508ba065b1bd3d457f95 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001025> ;
+    owl:annotatedTarget <fypo:0000834> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered protein level" ;
+    sssom:subject_label "altered protein level" ;
+    sssom:uuid "32c9f378caf4508ba065b1bd3d457f95"^^<xsd:string> .
+
+sssom:3399bef41c455b5cb88bbfa1f5363ab7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001027> ;
+    owl:annotatedTarget <fypo:0000835> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased protein level" ;
+    sssom:subject_label "decreased protein level" ;
+    sssom:uuid "3399bef41c455b5cb88bbfa1f5363ab7"^^<xsd:string> .
+
+sssom:34b6dc79c6dc59b9a52d08e1d50af74f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000261> ;
+    owl:annotatedTarget <fypo:0003886> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal endocytosis" ;
+    sssom:subject_label "abnormal endocytosis" ;
+    sssom:uuid "34b6dc79c6dc59b9a52d08e1d50af74f"^^<xsd:string> .
+
+sssom:399e69ea4bfd5149acc430b023a023f1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000510> ;
+    owl:annotatedTarget <fypo:0000002> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell phenotype" ;
+    sssom:subject_label "pathogen host interaction cell phenotype" ;
+    sssom:uuid "399e69ea4bfd5149acc430b023a023f1"^^<xsd:string> .
+
+sssom:3a83d2deec0b58e196ef5995f3cb291f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000257> ;
+    owl:annotatedTarget <fypo:0001720> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal transport" ;
+    sssom:subject_label "abnormal transport" ;
+    sssom:uuid "3a83d2deec0b58e196ef5995f3cb291f"^^<xsd:string> .
+
+sssom:3fa15ff37e59573aa4ede3369ae36d60 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000262> ;
+    owl:annotatedTarget <fypo:0003886> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal endocytosis" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction endocytosis" ;
+    sssom:uuid "3fa15ff37e59573aa4ede3369ae36d60"^^<xsd:string> .
+
+sssom:40fd3ec538a95490a2620e9a9ecd251a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000246> ;
+    owl:annotatedTarget <fypo:0001375> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished protein localization" ;
+    sssom:subject_label "abolished pathogen protein localization within host" ;
+    sssom:uuid "40fd3ec538a95490a2620e9a9ecd251a"^^<xsd:string> .
+
+sssom:413c1585a7c05ce4a31af6864aa8c590 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001019> ;
+    owl:annotatedTarget <fypo:0000582> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased rate of spore germination" ;
+    sssom:subject_label "decreased rate of asexual spore germination" ;
+    sssom:uuid "413c1585a7c05ce4a31af6864aa8c590"^^<xsd:string> .
+
+sssom:430841725859520999b65f7d13e03074 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000191> ;
+    owl:annotatedTarget <fypo:0000658> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased DNA binding" ;
+    sssom:subject_label "obsolete decreased pathogen host interaction DNA binding" ;
+    sssom:uuid "430841725859520999b65f7d13e03074"^^<xsd:string> .
+
+sssom:445e65ddb5e8586c910eae8110dd208f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001098> ;
+    owl:annotatedTarget <fypo:0000304> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to stress during vegetative growth" ;
+    sssom:subject_label "sensitive to stress" ;
+    sssom:uuid "445e65ddb5e8586c910eae8110dd208f"^^<xsd:string> .
+
+sssom:455aa0170dfd51d4875996b9e416b0e7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000945> ;
+    owl:annotatedTarget <fypo:0002142> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered cellular reactive oxygen species level" ;
+    sssom:subject_label "altered cellular reactive oxygen species level" ;
+    sssom:uuid "455aa0170dfd51d4875996b9e416b0e7"^^<xsd:string> .
+
+sssom:46ef822db8aa5ac2b496a6cc0abecb27 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001009> ;
+    owl:annotatedTarget <fypo:0000213> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal vesicle-mediated transport during vegetative growth" ;
+    sssom:subject_label "abnormal vesicle-mediated transport during vegetative growth" ;
+    sssom:uuid "46ef822db8aa5ac2b496a6cc0abecb27"^^<xsd:string> .
+
+sssom:47cf917923ad570c80726ab3bd8c6073 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000256> ;
+    owl:annotatedTarget <fypo:0000149> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "transport phenotype" ;
+    sssom:subject_label "transport phenotype" ;
+    sssom:uuid "47cf917923ad570c80726ab3bd8c6073"^^<xsd:string> .
+
+sssom:49f4aa2ecd8752699a7094c1c42cf51d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000158> ;
+    owl:annotatedTarget <fypo:0001092> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "binding phenotype" ;
+    sssom:subject_label "binding phenotype" ;
+    sssom:uuid "49f4aa2ecd8752699a7094c1c42cf51d"^^<xsd:string> .
+
+sssom:4b22a1e54b2f5ee9b3da5b449e9cbec5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000167> ;
+    owl:annotatedTarget <fypo:0002131> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "protein-RNA interaction phenotype" ;
+    sssom:subject_label "obsolete pathogen host interaction RNA binding phenotype" ;
+    sssom:uuid "4b22a1e54b2f5ee9b3da5b449e9cbec5"^^<xsd:string> .
+
+sssom:4be3536b5ecf57beb0f57b15e4451286 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000975> ;
+    owl:annotatedTarget <fypo:0003937> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased cell population growth" ;
+    sssom:subject_label "increased unicellular population growth" ;
+    sssom:uuid "4be3536b5ecf57beb0f57b15e4451286"^^<xsd:string> .
+
+sssom:4c33b3cfe0d5533ea838088d6b9f9846 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000140> ;
+    owl:annotatedTarget <fypo:0005785> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased duration of protein-protein interaction" ;
+    sssom:subject_label "decreased duration of protein-protein interaction" ;
+    sssom:uuid "4c33b3cfe0d5533ea838088d6b9f9846"^^<xsd:string> .
+
+sssom:4c883359d93159b3a1f7c8b83e6915f5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001035> ;
+    owl:annotatedTarget <fypo:0000991> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased level of substance in cell" ;
+    sssom:subject_label "decreased level of substance in cell" ;
+    sssom:uuid "4c883359d93159b3a1f7c8b83e6915f5"^^<xsd:string> .
+
+sssom:4e97a1cd272150afa34a1ee8127378d4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000231> ;
+    owl:annotatedTarget <go:0009403> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "toxin biosynthetic process" ;
+    sssom:subject_label "obsolete pathogen host interaction toxin biosynthetic process phenotype" ;
+    sssom:uuid "4e97a1cd272150afa34a1ee8127378d4"^^<xsd:string> .
+
+sssom:51a30eed8dc5585890740f054f5bc902 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001036> ;
+    owl:annotatedTarget <fypo:0000990> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased level of substance in cell" ;
+    sssom:subject_label "increased level of substance in cell" ;
+    sssom:uuid "51a30eed8dc5585890740f054f5bc902"^^<xsd:string> .
+
+sssom:51dc5dd5b03b5cad965459543d0639cd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000096> ;
+    owl:annotatedTarget <fypo:0006526> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal meiosis II" ;
+    sssom:subject_label "abnormal meiosis II" ;
+    sssom:uuid "51dc5dd5b03b5cad965459543d0639cd"^^<xsd:string> .
+
+sssom:52d70601583052ae84288553ffffefc5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000415> ;
+    owl:annotatedTarget <fypo:0000287> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal subcellular component" ;
+    sssom:subject_label "abnormal subcellular component" ;
+    sssom:uuid "52d70601583052ae84288553ffffefc5"^^<xsd:string> .
+
+sssom:546558c53d65541588c9b73bec8213ac a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000450> ;
+    owl:annotatedTarget <fypo:0000665> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal peptidase activity" ;
+    sssom:subject_label "normal pathogen peptidase activity" ;
+    sssom:uuid "546558c53d65541588c9b73bec8213ac"^^<xsd:string> .
+
+sssom:55cda866a4d35439a5f62c868c117eb0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000133> ;
+    owl:annotatedTarget <fypo:0000704> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein-protein interaction" ;
+    sssom:subject_label "abnormal protein-protein interaction" ;
+    sssom:uuid "55cda866a4d35439a5f62c868c117eb0"^^<xsd:string> .
+
+sssom:58e6bbb7a05d52248488c07ab0a8d905 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000237> ;
+    owl:annotatedTarget <fypo:0002333> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "protein localization phenotype" ;
+    sssom:subject_label "protein localization phenotype" ;
+    sssom:uuid "58e6bbb7a05d52248488c07ab0a8d905"^^<xsd:string> .
+
+sssom:59a10004c1d851dc87a70d9c6879f13a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000151> ;
+    owl:annotatedTarget <fypo:0006555> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal multiple protein binding to DNA" ;
+    sssom:subject_label "abnormal multiple protein binding to DNA" ;
+    sssom:uuid "59a10004c1d851dc87a70d9c6879f13a"^^<xsd:string> .
+
+sssom:59bd18a61d5c5d78985b256f289db4bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000176> ;
+    owl:annotatedTarget <fypo:0002135> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased protein-RNA interaction" ;
+    sssom:subject_label "obsolete increased pathogen host interaction RNA binding" ;
+    sssom:uuid "59bd18a61d5c5d78985b256f289db4bd"^^<xsd:string> .
+
+sssom:5a868473e997569b8b07f1787595e12a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000929> ;
+    owl:annotatedTarget <fypo:0000628> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal cellular process" ;
+    sssom:subject_label "abnormal cellular process" ;
+    sssom:uuid "5a868473e997569b8b07f1787595e12a"^^<xsd:string> .
+
+sssom:5b4d1de6b8b851d78e950851ea63d00e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001044> ;
+    owl:annotatedTarget <fypo:0001983> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "protein absent from cell" ;
+    sssom:subject_label "obsolete protein absent in a pathogen host interaction" ;
+    sssom:uuid "5b4d1de6b8b851d78e950851ea63d00e"^^<xsd:string> .
+
+sssom:5bc666fcd2485f8ab41eff746e79edc4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000924> ;
+    owl:annotatedTarget <go:0002679> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "respiratory burst involved in defense response" ;
+    sssom:subject_label "host defense-induced oxidative burst level phenotype" ;
+    sssom:uuid "5bc666fcd2485f8ab41eff746e79edc4"^^<xsd:string> .
+
+sssom:5d7d8b0e1ac85f7281253b6ba0827cba a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000239> ;
+    owl:annotatedTarget <fypo:0001370> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein localization" ;
+    sssom:subject_label "abnormal protein localization" ;
+    sssom:uuid "5d7d8b0e1ac85f7281253b6ba0827cba"^^<xsd:string> .
+
+sssom:60b131c5b8a05332b4db7463c36df7e9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000178> ;
+    owl:annotatedTarget <fypo:0000653> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DNA binding phenotype" ;
+    sssom:subject_label "obsolete pathogen host interaction DNA binding phenotype" ;
+    sssom:uuid "60b131c5b8a05332b4db7463c36df7e9"^^<xsd:string> .
+
+sssom:60d71383bfab5e9484131d0fb4e2eebd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001060> ;
+    owl:annotatedTarget <fypo:0000824> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered RNA level" ;
+    sssom:subject_label "altered RNA level" ;
+    sssom:uuid "60d71383bfab5e9484131d0fb4e2eebd"^^<xsd:string> .
+
+sssom:60f37df27f4d59b1ae1130944e6761ca a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000247> ;
+    owl:annotatedTarget <fypo:0003450> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished protein localization to nucleus" ;
+    sssom:subject_label "abolished pathogen protein localization to host nucleus" ;
+    sssom:uuid "60f37df27f4d59b1ae1130944e6761ca"^^<xsd:string> .
+
+sssom:618120d619d95f34bbf94dfcf8c09764 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001119> ;
+    owl:annotatedTarget <fypo:0000775> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein phosphorylation during vegetative growth" ;
+    sssom:subject_label "abnormal protein phosphorylation" ;
+    sssom:uuid "618120d619d95f34bbf94dfcf8c09764"^^<xsd:string> .
+
+sssom:641922eb80f85ef1a54caba437b15d0c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000153> ;
+    owl:annotatedTarget <fypo:0002357> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein-RNA interaction" ;
+    sssom:subject_label "normal RNA binding" ;
+    sssom:uuid "641922eb80f85ef1a54caba437b15d0c"^^<xsd:string> .
+
+sssom:64de78ecbf74583a96ca68f1bcd62e2a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000254> ;
+    owl:annotatedTarget <fypo:0003058> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal RNA localization" ;
+    sssom:subject_label "obsolete normal pathogen host interaction RNA localization" ;
+    sssom:uuid "64de78ecbf74583a96ca68f1bcd62e2a"^^<xsd:string> .
+
+sssom:64e9e43fac665353b309ecd1457e83a2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001076> ;
+    owl:annotatedTarget <fypo:0000039> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "growth auxotrophic for lysine" ;
+    sssom:subject_label "growth auxotrophic for lysine" ;
+    sssom:uuid "64e9e43fac665353b309ecd1457e83a2"^^<xsd:string> .
+
+sssom:64ea7d1acc4f503d87fab71679e6b5f9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000206> ;
+    owl:annotatedTarget <fypo:0005119> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered protein binding specificity" ;
+    sssom:subject_label "obsolete altered pathogen and host protein binding specificity" ;
+    sssom:uuid "64ea7d1acc4f503d87fab71679e6b5f9"^^<xsd:string> .
+
+sssom:65b24072ccf85426a33181ab5ff40893 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000438> ;
+    owl:annotatedTarget <fypo:0003347> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered substrate specificity" ;
+    sssom:subject_label "altered substrate specificity" ;
+    sssom:uuid "65b24072ccf85426a33181ab5ff40893"^^<xsd:string> .
+
+sssom:6af78774e85b57c5ad722b88e735c67e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001023> ;
+    owl:annotatedTarget <fypo:0001660> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased cellular cAMP level" ;
+    sssom:subject_label "decreased cellular cAMP level" ;
+    sssom:uuid "6af78774e85b57c5ad722b88e735c67e"^^<xsd:string> .
+
+sssom:6b0af7447e7953469e404c9979c208eb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000435> ;
+    owl:annotatedTarget <fypo:0000664> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished catalytic activity" ;
+    sssom:subject_label "abolished catalytic activity" ;
+    sssom:uuid "6b0af7447e7953469e404c9979c208eb"^^<xsd:string> .
+
+sssom:6d9c1aa670f158bd983d47d6fe5b5f76 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001303> ;
+    owl:annotatedTarget <fypo:0000270> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to osmotic stress" ;
+    sssom:subject_label "sensitive to osmotic stress" ;
+    sssom:uuid "6d9c1aa670f158bd983d47d6fe5b5f76"^^<xsd:string> .
+
+sssom:6e01836cbfd15aa99f149ac46c139669 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000145> ;
+    owl:annotatedTarget <fypo:0000656> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal DNA binding" ;
+    sssom:subject_label "abnormal DNA binding" ;
+    sssom:uuid "6e01836cbfd15aa99f149ac46c139669"^^<xsd:string> .
+
+sssom:6f4b6e91e0d058e39dfa11ef879c89a9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001020> ;
+    owl:annotatedTarget <fypo:0001188> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to Calcofluor White" ;
+    sssom:subject_label "sensitive to calcofluor white" ;
+    sssom:uuid "6f4b6e91e0d058e39dfa11ef879c89a9"^^<xsd:string> .
+
+sssom:707ff37227fb57d4b052bf477d6227b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000136> ;
+    owl:annotatedTarget <fypo:0001645> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased protein-protein interaction" ;
+    sssom:subject_label "decreased protein-protein interaction" ;
+    sssom:uuid "707ff37227fb57d4b052bf477d6227b9"^^<xsd:string> .
+
+sssom:70d918d25cd75639a53138ed2bb2adb3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000505> ;
+    owl:annotatedTarget <fypo:0000001> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "phenotype" ;
+    sssom:subject_label "phenotype" ;
+    sssom:uuid "70d918d25cd75639a53138ed2bb2adb3"^^<xsd:string> .
+
+sssom:71314a7f28645affbcb094be5898b8b4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001075> ;
+    owl:annotatedTarget <fypo:0000128> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "auxotrophy" ;
+    sssom:subject_label "auxotrophic growth" ;
+    sssom:uuid "71314a7f28645affbcb094be5898b8b4"^^<xsd:string> .
+
+sssom:713a26fe242e5e43a157ce27ec7b9257 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000413> ;
+    owl:annotatedTarget <fypo:0000707> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal molecular function" ;
+    sssom:subject_label "abnormal molecular function" ;
+    sssom:uuid "713a26fe242e5e43a157ce27ec7b9257"^^<xsd:string> .
+
+sssom:722f19ee4f3652e998150c908e81255e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001120> ;
+    owl:annotatedTarget <fypo:0001838> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased protein phosphorylation during vegetative growth" ;
+    sssom:subject_label "decreased protein phosphorylation" ;
+    sssom:uuid "722f19ee4f3652e998150c908e81255e"^^<xsd:string> .
+
+sssom:73aebfcef9ca5c85b7bad587f5e12ed0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000268> ;
+    owl:annotatedTarget <fypo:0003578> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal vacuolar transport" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction vacuolar transport" ;
+    sssom:uuid "73aebfcef9ca5c85b7bad587f5e12ed0"^^<xsd:string> .
+
+sssom:73da76ddbcb75f419a88c2869a8d923b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000271> ;
+    owl:annotatedTarget <fypo:0006553> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein localization to nucleus" ;
+    sssom:subject_label "normal protein localization to nucleus" ;
+    sssom:uuid "73da76ddbcb75f419a88c2869a8d923b"^^<xsd:string> .
+
+sssom:743ef63ee2e853c7bb4ac129c4f85150 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000147> ;
+    owl:annotatedTarget <fypo:0000659> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished DNA binding" ;
+    sssom:subject_label "abolished DNA binding" ;
+    sssom:uuid "743ef63ee2e853c7bb4ac129c4f85150"^^<xsd:string> .
+
+sssom:76a5e3118b755b6b85425edb4eec4666 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000185> ;
+    owl:annotatedTarget <fypo:0006555> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal multiple protein binding to DNA" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction multiple protein binding to DNA" ;
+    sssom:uuid "76a5e3118b755b6b85425edb4eec4666"^^<xsd:string> .
+
+sssom:78ce712e0e6e5b80852832236dc87602 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000235> ;
+    owl:annotatedTarget <fypo:0000138> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "localization phenotype" ;
+    sssom:subject_label "localization phenotype" ;
+    sssom:uuid "78ce712e0e6e5b80852832236dc87602"^^<xsd:string> .
+
+sssom:793c49c4084a50b28da1563e7ebddf02 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001062> ;
+    owl:annotatedTarget <fypo:0001890> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased RNA level" ;
+    sssom:subject_label "increased RNA level" ;
+    sssom:uuid "793c49c4084a50b28da1563e7ebddf02"^^<xsd:string> .
+
+sssom:7a6e90aa18e75d2cad3de9f8c8612d3b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000407> ;
+    owl:annotatedTarget <fypo:0000334> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cellular component organization phenotype" ;
+    sssom:subject_label "cellular component organization phenotype" ;
+    sssom:uuid "7a6e90aa18e75d2cad3de9f8c8612d3b"^^<xsd:string> .
+
+sssom:7ace6e9d372b5ae899a985bc8947e9ae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000187> ;
+    owl:annotatedTarget <fypo:0000659> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished DNA binding" ;
+    sssom:subject_label "obsolete abolished pathogen host interaction DNA binding" ;
+    sssom:uuid "7ace6e9d372b5ae899a985bc8947e9ae"^^<xsd:string> .
+
+sssom:7bcb7c590dab51cebc2bd35f9be80d1e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000255> ;
+    owl:annotatedTarget <fypo:0000149> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "transport phenotype" ;
+    sssom:subject_label "obsolete pathogen host interaction transport phenotype" ;
+    sssom:uuid "7bcb7c590dab51cebc2bd35f9be80d1e"^^<xsd:string> .
+
+sssom:7bcfb3c7ea6956da955145f5a247e956 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001302> ;
+    owl:annotatedTarget <fypo:0000851> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "resistance to osmotic stress" ;
+    sssom:subject_label "resistance to osmotic stress" ;
+    sssom:uuid "7bcfb3c7ea6956da955145f5a247e956"^^<xsd:string> .
+
+sssom:7f56d753459b5997a9eef2700e2c998a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000168> ;
+    owl:annotatedTarget <fypo:0002132> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein-RNA interaction" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction RNA binding" ;
+    sssom:uuid "7f56d753459b5997a9eef2700e2c998a"^^<xsd:string> .
+
+sssom:7f718de951295eb6888f6950519a4908 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000511> ;
+    owl:annotatedTarget <fypo:0000003> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell population phenotype" ;
+    sssom:subject_label "obsolete pathogen host interaction cell population phenotype" ;
+    sssom:uuid "7f718de951295eb6888f6950519a4908"^^<xsd:string> .
+
+sssom:800531ff503a5358b344884cf21ac040 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000154> ;
+    owl:annotatedTarget <fypo:0002133> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished protein-RNA interaction" ;
+    sssom:subject_label "abolished RNA binding" ;
+    sssom:uuid "800531ff503a5358b344884cf21ac040"^^<xsd:string> .
+
+sssom:80393fcf3f2c5ee59071dcd462b9c593 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001134> ;
+    owl:annotatedTarget <fypo:0001214> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to potassium chloride" ;
+    sssom:subject_label "sensitive to potassium chloride" ;
+    sssom:uuid "80393fcf3f2c5ee59071dcd462b9c593"^^<xsd:string> .
+
+sssom:8190ee3331ed51f2b9aa96b1aa5ec9dc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000259> ;
+    owl:annotatedTarget <fypo:0005747> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein transport" ;
+    sssom:subject_label "normal protein transport" ;
+    sssom:uuid "8190ee3331ed51f2b9aa96b1aa5ec9dc"^^<xsd:string> .
+
+sssom:81a6a54fcfab50fe9161b205c5b74eb9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000253> ;
+    owl:annotatedTarget <fypo:0003058> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal RNA localization" ;
+    sssom:subject_label "normal RNA localization" ;
+    sssom:uuid "81a6a54fcfab50fe9161b205c5b74eb9"^^<xsd:string> .
+
+sssom:82a74c194c985cbc8f24e98b3b79d78f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000174> ;
+    owl:annotatedTarget <fypo:0002134> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased protein-RNA interaction" ;
+    sssom:subject_label "obsolete decreased pathogen host interaction RNA binding" ;
+    sssom:uuid "82a74c194c985cbc8f24e98b3b79d78f"^^<xsd:string> .
+
+sssom:83a82c0864dc5585816ff755b070c7e4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000159> ;
+    owl:annotatedTarget <fypo:0001233> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal subcellular component" ;
+    sssom:subject_label "normal subcellular component" ;
+    sssom:uuid "83a82c0864dc5585816ff755b070c7e4"^^<xsd:string> .
+
+sssom:856160159bc154709d6ddaa34a688931 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000379> ;
+    owl:annotatedTarget <fypo:0004805> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal cell wall organization" ;
+    sssom:subject_label "abnormal cell wall organization" ;
+    sssom:uuid "856160159bc154709d6ddaa34a688931"^^<xsd:string> .
+
+sssom:8699aa7483b95a1199f4c621d4aa1c22 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000034> ;
+    owl:annotatedTarget <fypo:0000002> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell phenotype" ;
+    sssom:subject_label "cell phenotype" ;
+    sssom:uuid "8699aa7483b95a1199f4c621d4aa1c22"^^<xsd:string> .
+
+sssom:86cc876a030c548ab5a59feb5f15088f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000937> ;
+    owl:annotatedTarget <fypo:0002489> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spore lysis" ;
+    sssom:subject_label "asexual spore lysis present" ;
+    sssom:uuid "86cc876a030c548ab5a59feb5f15088f"^^<xsd:string> .
+
+sssom:877c1b527195583ebee97ae72b354977 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001096> ;
+    owl:annotatedTarget <fypo:0002046> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "resistance to stress" ;
+    sssom:subject_label "resistance to stress" ;
+    sssom:uuid "877c1b527195583ebee97ae72b354977"^^<xsd:string> .
+
+sssom:8802638f02ca554ba3e72aac71722fa9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001063> ;
+    owl:annotatedTarget <fypo:0001889> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "RNA absent from cell" ;
+    sssom:subject_label "RNA absent from cell" ;
+    sssom:uuid "8802638f02ca554ba3e72aac71722fa9"^^<xsd:string> .
+
+sssom:8c16e32d8217540d9990e0225f1cabb6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000214> ;
+    owl:annotatedTarget <fypo:0001571> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased protein-protein interaction" ;
+    sssom:subject_label "increased pathogen host protein-protein interaction" ;
+    sssom:uuid "8c16e32d8217540d9990e0225f1cabb6"^^<xsd:string> .
+
+sssom:8f196c0445835757a5214736508a5c86 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000514> ;
+    owl:annotatedTarget <fypo:0002057> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell population viability" ;
+    sssom:subject_label "population viability phenotype" ;
+    sssom:uuid "8f196c0445835757a5214736508a5c86"^^<xsd:string> .
+
+sssom:8f6b6ec4fda55d93aaa274aaf6c363a9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001034> ;
+    owl:annotatedTarget <fypo:0001888> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "substance absent from cell" ;
+    sssom:subject_label "substance absent from cell" ;
+    sssom:uuid "8f6b6ec4fda55d93aaa274aaf6c363a9"^^<xsd:string> .
+
+sssom:910c979dc70e5aabbe5e897bccaea5bc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001022> ;
+    owl:annotatedTarget <fypo:0001659> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered cellular cAMP level" ;
+    sssom:subject_label "altered cellular cAMP level" ;
+    sssom:uuid "910c979dc70e5aabbe5e897bccaea5bc"^^<xsd:string> .
+
+sssom:9326a01e98765194b530a24a7ec58bbd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000249> ;
+    owl:annotatedTarget <fypo:0004853> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "RNA localization phenotype" ;
+    sssom:subject_label "RNA localization phenotype" ;
+    sssom:uuid "9326a01e98765194b530a24a7ec58bbd"^^<xsd:string> .
+
+sssom:93ddc9c7412257b7acf86db017d6f25f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000248> ;
+    owl:annotatedTarget <fypo:0003450> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished protein localization to nucleus" ;
+    sssom:subject_label "abolished protein localization to nucleus" ;
+    sssom:uuid "93ddc9c7412257b7acf86db017d6f25f"^^<xsd:string> .
+
+sssom:96bbe4fd95d25fbd9c89c577b226813c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000152> ;
+    owl:annotatedTarget <fypo:0002132> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein-RNA interaction" ;
+    sssom:subject_label "abnormal RNA binding" ;
+    sssom:uuid "96bbe4fd95d25fbd9c89c577b226813c"^^<xsd:string> .
+
+sssom:97f0ac8292345f8fb404db61dd398b28 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001304> ;
+    owl:annotatedTarget <fypo:0000852> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "resistance to salt stress" ;
+    sssom:subject_label "resistance to salt stress" ;
+    sssom:uuid "97f0ac8292345f8fb404db61dd398b28"^^<xsd:string> .
+
+sssom:9b15c10d4d2d5b2ea62b1d98ecd0e665 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000496> ;
+    owl:annotatedTarget <go:0009403> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "toxin biosynthetic process" ;
+    sssom:subject_label "toxin biosynthetic process phenotype" ;
+    sssom:uuid "9b15c10d4d2d5b2ea62b1d98ecd0e665"^^<xsd:string> .
+
+sssom:9ca1f103d36a52a1ad464055d47d37ff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000238> ;
+    owl:annotatedTarget <fypo:0002333> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "protein localization phenotype" ;
+    sssom:subject_label "obsolete pathogen host interaction protein localization phenotype" ;
+    sssom:uuid "9ca1f103d36a52a1ad464055d47d37ff"^^<xsd:string> .
+
+sssom:9ddc171458785ca3ac703479991f5845 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000930> ;
+    owl:annotatedTarget <fypo:0000114> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cellular process phenotype" ;
+    sssom:subject_label "cellular process phenotype" ;
+    sssom:uuid "9ddc171458785ca3ac703479991f5845"^^<xsd:string> .
+
+sssom:9efe2b5ab4c65d87bc65f4ac416d27f9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000137> ;
+    owl:annotatedTarget <fypo:0001571> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased protein-protein interaction" ;
+    sssom:subject_label "increased protein-protein interaction" ;
+    sssom:uuid "9efe2b5ab4c65d87bc65f4ac416d27f9"^^<xsd:string> .
+
+sssom:a162157c2ddb57af983214aa1623f9ce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000241> ;
+    owl:annotatedTarget <fypo:0001440> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein complex localization" ;
+    sssom:subject_label "abnormal protein complex localization" ;
+    sssom:uuid "a162157c2ddb57af983214aa1623f9ce"^^<xsd:string> .
+
+sssom:a1aed20ea9d1525e95b46fe057e51844 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000936> ;
+    owl:annotatedTarget <fypo:0002488> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell lysis" ;
+    sssom:subject_label "cell lysis" ;
+    sssom:uuid "a1aed20ea9d1525e95b46fe057e51844"^^<xsd:string> .
+
+sssom:a265e2d1fed25f378f9b4336e159d7bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001010> ;
+    owl:annotatedTarget <fypo:0006432> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal vesicle-mediated transport during vegetative growth" ;
+    sssom:subject_label "normal vesicle-mediated transport during vegetative growth" ;
+    sssom:uuid "a265e2d1fed25f378f9b4336e159d7bd"^^<xsd:string> .
+
+sssom:a7fce3f899de58a39d24aac712c2da09 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000199> ;
+    owl:annotatedTarget <fypo:0000703> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein-protein interaction" ;
+    sssom:subject_label "obsolete normal pathogen host protein protein interaction" ;
+    sssom:uuid "a7fce3f899de58a39d24aac712c2da09"^^<xsd:string> .
+
+sssom:a8510188fdfd573da6865e8f901f2f0e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000148> ;
+    owl:annotatedTarget <fypo:0003735> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered DNA binding specificity" ;
+    sssom:subject_label "altered DNA binding specificity" ;
+    sssom:uuid "a8510188fdfd573da6865e8f901f2f0e"^^<xsd:string> .
+
+sssom:a88aabf863745a55b26c84a29905f18a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000436> ;
+    owl:annotatedTarget <fypo:0000663> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased catalytic activity" ;
+    sssom:subject_label "decreased catalytic activity" ;
+    sssom:uuid "a88aabf863745a55b26c84a29905f18a"^^<xsd:string> .
+
+sssom:a9ae5e7c7c605dbead47f2824db54020 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000202> ;
+    owl:annotatedTarget <fypo:0003591> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein complex binding" ;
+    sssom:subject_label "obsolete abnormal pathogen host protein complex binding" ;
+    sssom:uuid "a9ae5e7c7c605dbead47f2824db54020"^^<xsd:string> .
+
+sssom:ab26d36d00c85f20930678ce9a025b6d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000212> ;
+    owl:annotatedTarget <fypo:0001645> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased protein-protein interaction" ;
+    sssom:subject_label "decreased pathogen host protein-protein interaction" ;
+    sssom:uuid "ab26d36d00c85f20930678ce9a025b6d"^^<xsd:string> .
+
+sssom:ab404dd7b0ea51e2b3687f5dde39a26e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000400> ;
+    owl:annotatedTarget <fypo:0000335> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal cellular component organization" ;
+    sssom:subject_label "abnormal cellular component organization" ;
+    sssom:uuid "ab404dd7b0ea51e2b3687f5dde39a26e"^^<xsd:string> .
+
+sssom:abba4fd38b2556dbb9a103fdffa7e9e4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000210> ;
+    owl:annotatedTarget <fypo:0005784> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased extent and duration of protein-protein interaction" ;
+    sssom:subject_label "obsolete decreased extent and duration of pathogen host protein-protein interaction" ;
+    sssom:uuid "abba4fd38b2556dbb9a103fdffa7e9e4"^^<xsd:string> .
+
+sssom:af210894f8e356af97128f75649ec8e5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001021> ;
+    owl:annotatedTarget <fypo:0005984> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to Congo Red" ;
+    sssom:subject_label "sensitive to congo red" ;
+    sssom:uuid "af210894f8e356af97128f75649ec8e5"^^<xsd:string> .
+
+sssom:b008e778aeb557a685d8676394cf9d5f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000983> ;
+    owl:annotatedTarget <fypo:0000052> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal meiotic cell cycle" ;
+    sssom:subject_label "abnormal meiotic cell cycle" ;
+    sssom:uuid "b008e778aeb557a685d8676394cf9d5f"^^<xsd:string> .
+
+sssom:b0cf61fca2c0564581101a6e1a569fbc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000097> ;
+    owl:annotatedTarget <fypo:0003603> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal meiosis I" ;
+    sssom:subject_label "abnormal meiosis I" ;
+    sssom:uuid "b0cf61fca2c0564581101a6e1a569fbc"^^<xsd:string> .
+
+sssom:b10d8cd1e0fa56d392ab739da8c36832 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000258> ;
+    owl:annotatedTarget <fypo:0001720> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal transport" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction transport" ;
+    sssom:uuid "b10d8cd1e0fa56d392ab739da8c36832"^^<xsd:string> .
+
+sssom:b57f8eafd9005aca89cef45de1ee3f39 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000944> ;
+    owl:annotatedTarget <fypo:0000989> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered level of substance in cell" ;
+    sssom:subject_label "altered level of substance in cell" ;
+    sssom:uuid "b57f8eafd9005aca89cef45de1ee3f39"^^<xsd:string> .
+
+sssom:b6e36228301c5e1a816601276cf76f70 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000260> ;
+    owl:annotatedTarget <fypo:0005747> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein transport" ;
+    sssom:subject_label "obsolete normal pathogen host interaction protein transport" ;
+    sssom:uuid "b6e36228301c5e1a816601276cf76f70"^^<xsd:string> .
+
+sssom:b7622731c0a85b71927186b66b3b9258 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000149> ;
+    owl:annotatedTarget <fypo:0000658> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased DNA binding" ;
+    sssom:subject_label "decreased DNA binding" ;
+    sssom:uuid "b7622731c0a85b71927186b66b3b9258"^^<xsd:string> .
+
+sssom:b8592b8b7819528bb49b0e1fba1717c7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000269> ;
+    owl:annotatedTarget <fypo:0003627> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein localization" ;
+    sssom:subject_label "normal protein localization" ;
+    sssom:uuid "b8592b8b7819528bb49b0e1fba1717c7"^^<xsd:string> .
+
+sssom:b87284e3d8d550bcbdb444c8b159a457 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001084> ;
+    owl:annotatedTarget <fypo:0000636> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased cell population growth rate" ;
+    sssom:subject_label "increased unicellular population growth rate" ;
+    sssom:uuid "b87284e3d8d550bcbdb444c8b159a457"^^<xsd:string> .
+
+sssom:b8d1059cc69657fbb58dba0b0e01fc25 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000272> ;
+    owl:annotatedTarget <fypo:0006553> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein localization to nucleus" ;
+    sssom:subject_label "normal pathogen protein localization to host nucleus" ;
+    sssom:uuid "b8d1059cc69657fbb58dba0b0e01fc25"^^<xsd:string> .
+
+sssom:b8e3ad33a5bc5b42ab53d70ae1f7d0d1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000478> ;
+    owl:annotatedTarget <go:0005811> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lipid droplet" ;
+    sssom:subject_label "lipid droplet phenotype" ;
+    sssom:uuid "b8e3ad33a5bc5b42ab53d70ae1f7d0d1"^^<xsd:string> .
+
+sssom:b91059897aa055bfa9fe97c941ce4d19 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000180> ;
+    owl:annotatedTarget <fypo:0000656> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal DNA binding" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction DNA binding" ;
+    sssom:uuid "b91059897aa055bfa9fe97c941ce4d19"^^<xsd:string> .
+
+sssom:ba6c4d4961fe554bb65f95097f937005 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001029> ;
+    owl:annotatedTarget <fypo:0002126> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished protein localization to plasma membrane during vegetative growth" ;
+    sssom:subject_label "abolished protein localization to plasma membrane, with protein mislocalized to cytoplasm" ;
+    sssom:uuid "ba6c4d4961fe554bb65f95097f937005"^^<xsd:string> .
+
+sssom:bc52ed26b5b05a22969dbac55b0761d5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001307> ;
+    owl:annotatedTarget <fypo:0002811> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to non-ionic osmotic stress" ;
+    sssom:subject_label "sensitive to non-ionic osmotic stress" ;
+    sssom:uuid "bc52ed26b5b05a22969dbac55b0761d5"^^<xsd:string> .
+
+sssom:bcb0ad8ddbca582299abd10f94f72135 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000245> ;
+    owl:annotatedTarget <fypo:0001375> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abolished protein localization" ;
+    sssom:subject_label "abolished protein localization" ;
+    sssom:uuid "bcb0ad8ddbca582299abd10f94f72135"^^<xsd:string> .
+
+sssom:beaab957ccc45ed0b5d6027dee59759e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000495> ;
+    owl:annotatedTarget <go:0044550> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "secondary metabolite biosynthetic process" ;
+    sssom:subject_label "secondary metabolite biosynthetic process phenotype" ;
+    sssom:uuid "beaab957ccc45ed0b5d6027dee59759e"^^<xsd:string> .
+
+sssom:c09241aaea6f52ca94296673e21a5d36 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000380> ;
+    owl:annotatedTarget <fypo:0002115> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal transmembrane transporter activity" ;
+    sssom:subject_label "normal transporter activity" ;
+    sssom:uuid "c09241aaea6f52ca94296673e21a5d36"^^<xsd:string> .
+
+sssom:c153dd64a28c53d59aaa5451f5ac02ce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000518> ;
+    owl:annotatedTarget <fypo:0006791> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lipid droplets present in normal numbers" ;
+    sssom:subject_label "lipid droplets present in normal numbers" ;
+    sssom:uuid "c153dd64a28c53d59aaa5451f5ac02ce"^^<xsd:string> .
+
+sssom:c2d8d1164fcd5b4cb2cd55d22c78327c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000934> ;
+    owl:annotatedTarget <fypo:0002403> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal nucleus" ;
+    sssom:subject_label "abnormal nucleus" ;
+    sssom:uuid "c2d8d1164fcd5b4cb2cd55d22c78327c"^^<xsd:string> .
+
+sssom:c6ff588f83545b8ebbea143ff17dad60 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000252> ;
+    owl:annotatedTarget <fypo:0003057> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal RNA localization" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction RNA localization" ;
+    sssom:uuid "c6ff588f83545b8ebbea143ff17dad60"^^<xsd:string> .
+
+sssom:c7292173d3e251148ce5080a2f652ede a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000143> ;
+    owl:annotatedTarget <fypo:0000653> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DNA binding phenotype" ;
+    sssom:subject_label "DNA binding phenotype" ;
+    sssom:uuid "c7292173d3e251148ce5080a2f652ede"^^<xsd:string> .
+
+sssom:c76fbbb9091351deb9ff5336884a3b71 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001026> ;
+    owl:annotatedTarget <fypo:0000836> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "increased protein level" ;
+    sssom:subject_label "increased protein level" ;
+    sssom:uuid "c76fbbb9091351deb9ff5336884a3b71"^^<xsd:string> .
+
+sssom:c872015c0c3852eaa300252a06e7576b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000226> ;
+    owl:annotatedTarget <go:0044550> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "secondary metabolite biosynthetic process" ;
+    sssom:subject_label "obsolete pathogen host interaction secondary metabolite biosynthetic process phenotype" ;
+    sssom:uuid "c872015c0c3852eaa300252a06e7576b"^^<xsd:string> .
+
+sssom:cba0834d7a42544f919a3f161de45135 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000250> ;
+    owl:annotatedTarget <fypo:0004853> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "RNA localization phenotype" ;
+    sssom:subject_label "obsolete pathogen host interaction RNA localization phenotype" ;
+    sssom:uuid "cba0834d7a42544f919a3f161de45135"^^<xsd:string> .
+
+sssom:cf50d574233a5102b8cea393793407af a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000265> ;
+    owl:annotatedTarget <fypo:0005744> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein transport" ;
+    sssom:subject_label "abnormal protein transport" ;
+    sssom:uuid "cf50d574233a5102b8cea393793407af"^^<xsd:string> .
+
+sssom:d2a099ea731e525ea260052041a1727a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000099> ;
+    owl:annotatedTarget <fypo:0003563> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal meiosis I" ;
+    sssom:subject_label "normal meiosis I" ;
+    sssom:uuid "d2a099ea731e525ea260052041a1727a"^^<xsd:string> .
+
+sssom:d48fa93d03e3527289c5ba98a5b734e7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000036> ;
+    owl:annotatedTarget <fypo:0000356> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal lipid droplet morphology" ;
+    sssom:subject_label "abnormal lipid droplet morphology" ;
+    sssom:uuid "d48fa93d03e3527289c5ba98a5b734e7"^^<xsd:string> .
+
+sssom:d7fe3d53d0725183a4be756d80623044 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000183> ;
+    owl:annotatedTarget <fypo:0000655> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal DNA binding" ;
+    sssom:subject_label "obsolete normal pathogen host interaction DNA binding" ;
+    sssom:uuid "d7fe3d53d0725183a4be756d80623044"^^<xsd:string> .
+
+sssom:d9fb6c352460535bb5f9822817c736ad a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000494> ;
+    owl:annotatedTarget <go:0019748> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "secondary metabolic process" ;
+    sssom:subject_label "secondary metabolic process phenotype" ;
+    sssom:uuid "d9fb6c352460535bb5f9822817c736ad"^^<xsd:string> .
+
+sssom:ddfdf5b38225530399ecd40ac14b08a3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000266> ;
+    owl:annotatedTarget <fypo:0005744> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein transport" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction protein transport" ;
+    sssom:uuid "ddfdf5b38225530399ecd40ac14b08a3"^^<xsd:string> .
+
+sssom:de818732d6c256caae9aac570317a855 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000142> ;
+    owl:annotatedTarget <fypo:0002131> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "protein-RNA interaction phenotype" ;
+    sssom:subject_label "RNA binding phenotype" ;
+    sssom:uuid "de818732d6c256caae9aac570317a855"^^<xsd:string> .
+
+sssom:e1f55b7130555ae0b191671dc39f5406 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000171> ;
+    owl:annotatedTarget <fypo:0002357> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein-RNA interaction" ;
+    sssom:subject_label "obsolete normal pathogen host interaction RNA binding" ;
+    sssom:uuid "e1f55b7130555ae0b191671dc39f5406"^^<xsd:string> .
+
+sssom:e303d34055c057b69101f3db3302d977 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001018> ;
+    owl:annotatedTarget <fypo:0000305> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal spore germination" ;
+    sssom:subject_label "abnormal asexual spore germination" ;
+    sssom:uuid "e303d34055c057b69101f3db3302d977"^^<xsd:string> .
+
+sssom:e30d29dbca6c57c081bf9519c86fbc36 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000243> ;
+    owl:annotatedTarget <fypo:0002956> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein localization to nucleus" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction protein localization to nucleus" ;
+    sssom:uuid "e30d29dbca6c57c081bf9519c86fbc36"^^<xsd:string> .
+
+sssom:e377436f0d3f5818bb9608111f1df2f7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001008> ;
+    owl:annotatedTarget <fypo:0005973> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal transport during vegetative growth" ;
+    sssom:subject_label "abnormal transport during vegetative growth" ;
+    sssom:uuid "e377436f0d3f5818bb9608111f1df2f7"^^<xsd:string> .
+
+sssom:e379d00803d45f77a0225becbccf196a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001135> ;
+    owl:annotatedTarget <fypo:0000112> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to sorbitol" ;
+    sssom:subject_label "sensitive to sorbitol" ;
+    sssom:uuid "e379d00803d45f77a0225becbccf196a"^^<xsd:string> .
+
+sssom:e43f32f85c975040b0245565f867301b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000134> ;
+    owl:annotatedTarget <fypo:0000703> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal protein-protein interaction" ;
+    sssom:subject_label "normal protein-protein interaction" ;
+    sssom:uuid "e43f32f85c975040b0245565f867301b"^^<xsd:string> .
+
+sssom:e53523132e1251bab6ae9537787a44bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000932> ;
+    owl:annotatedTarget <fypo:0000627> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal cellular process" ;
+    sssom:subject_label "normal cellular process" ;
+    sssom:uuid "e53523132e1251bab6ae9537787a44bd"^^<xsd:string> .
+
+sssom:e7ed093029465039889c269465707faa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000939> ;
+    owl:annotatedTarget <fypo:0002489> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spore lysis" ;
+    sssom:subject_label "asexual spore lysis absent" ;
+    sssom:uuid "e7ed093029465039889c269465707faa"^^<xsd:string> .
+
+sssom:e91c0373571a5955b2fcc1137a4b381a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000217> ;
+    owl:annotatedTarget <go:0044238> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "primary metabolic process" ;
+    sssom:subject_label "obsolete pathogen host interaction primary metabolic process phenotype" ;
+    sssom:uuid "e91c0373571a5955b2fcc1137a4b381a"^^<xsd:string> .
+
+sssom:ea9fec0e262058ccadac0d2633f2ebd1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001098> ;
+    owl:annotatedTarget <fypo:0002549> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensitive to stress" ;
+    sssom:subject_label "sensitive to stress" ;
+    sssom:uuid "ea9fec0e262058ccadac0d2633f2ebd1"^^<xsd:string> .
+
+sssom:eb2308018fc050beb09ce7d84d6b1209 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000974> ;
+    owl:annotatedTarget <fypo:0000046> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased cell population growth" ;
+    sssom:subject_label "decreased unicellular population growth" ;
+    sssom:uuid "eb2308018fc050beb09ce7d84d6b1209"^^<xsd:string> .
+
+sssom:eb660f38ab3c5c35a4067dfa7c342dc7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000242> ;
+    owl:annotatedTarget <fypo:0001440> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal protein complex localization" ;
+    sssom:subject_label "obsolete abnormal pathogen host interaction protein complex localization" ;
+    sssom:uuid "eb660f38ab3c5c35a4067dfa7c342dc7"^^<xsd:string> .
+
+sssom:ec98bd6270ea5c2ca586947e89aafc79 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000409> ;
+    owl:annotatedTarget <fypo:0002114> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "transmembrane transporter activity phenotype" ;
+    sssom:subject_label "transporter activity phenotype" ;
+    sssom:uuid "ec98bd6270ea5c2ca586947e89aafc79"^^<xsd:string> .
+
+sssom:ed0ab72825845c569406cf88ffd0eaa2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001085> ;
+    owl:annotatedTarget <fypo:0001355> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased vegetative cell population growth" ;
+    sssom:subject_label "decreased unicellular population growth rate" ;
+    sssom:uuid "ed0ab72825845c569406cf88ffd0eaa2"^^<xsd:string> .
+
+sssom:ef2c70f0c52258c0a3f19aa4e334dd8c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000981> ;
+    owl:annotatedTarget <fypo:0000051> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal meiosis" ;
+    sssom:subject_label "abnormal meiosis" ;
+    sssom:uuid "ef2c70f0c52258c0a3f19aa4e334dd8c"^^<xsd:string> .
+
+sssom:efad46061215532e962c076b5fc20caa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001086> ;
+    owl:annotatedTarget <fypo:0000336> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal cellular component assembly" ;
+    sssom:subject_label "abnormal cellular component assembly" ;
+    sssom:uuid "efad46061215532e962c076b5fc20caa"^^<xsd:string> .
+
+sssom:f3620fc3f22653c6a200070b70fc21b1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000328> ;
+    owl:annotatedTarget <fypo:0006003> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal cellular component organization" ;
+    sssom:subject_label "normal cellular component organization" ;
+    sssom:uuid "f3620fc3f22653c6a200070b70fc21b1"^^<xsd:string> .
+
+sssom:f4f02ac89e6c54c5afcff551940b64ce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000251> ;
+    owl:annotatedTarget <fypo:0003057> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal RNA localization" ;
+    sssom:subject_label "abnormal RNA localization" ;
+    sssom:uuid "f4f02ac89e6c54c5afcff551940b64ce"^^<xsd:string> .
+
+sssom:f5e8aef54ecb5a41878f1470fac2cf64 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000018> ;
+    owl:annotatedTarget <fypo:0002552> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lipid droplets present in decreased numbers" ;
+    sssom:subject_label "lipid droplets present in decreased numbers" ;
+    sssom:uuid "f5e8aef54ecb5a41878f1470fac2cf64"^^<xsd:string> .
+
+sssom:f8725d074211532dafab24ef7ced9e46 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001222> ;
+    owl:annotatedTarget <fypo:0000004> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell viability" ;
+    sssom:subject_label "cell viability phenotype" ;
+    sssom:uuid "f8725d074211532dafab24ef7ced9e46"^^<xsd:string> .
+
+sssom:f914b8ce9aa553fe9cc3f97c15fcba87 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000138> ;
+    owl:annotatedTarget <fypo:0005119> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "altered protein binding specificity" ;
+    sssom:subject_label "altered protein binding specificity" ;
+    sssom:uuid "f914b8ce9aa553fe9cc3f97c15fcba87"^^<xsd:string> .
+
+sssom:fafc9adc1669566aa10ff05a6592e085 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000404> ;
+    owl:annotatedTarget <fypo:0003037> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal cell phenotype" ;
+    sssom:subject_label "abnormal cell phenotype" ;
+    sssom:uuid "fafc9adc1669566aa10ff05a6592e085"^^<xsd:string> .
+
+sssom:fd84fbbc8b58557ebd5f0eaee5308f91 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000132> ;
+    owl:annotatedTarget <fypo:0000702> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "protein-protein interaction phenotype" ;
+    sssom:subject_label "protein-protein interaction phenotype" ;
+    sssom:uuid "fd84fbbc8b58557ebd5f0eaee5308f91"^^<xsd:string> .
+
+sssom:fd9d151d2c585835833d5b030993aa58 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0001064> ;
+    owl:annotatedTarget <fypo:0000840> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "normal RNA level" ;
+    sssom:subject_label "normal RNA level" ;
+    sssom:uuid "fd9d151d2c585835833d5b030993aa58"^^<xsd:string> .
+
+sssom:fddbcdf36a615059b2bc8e0b7bfc9578 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000155> ;
+    owl:annotatedTarget <fypo:0002134> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decreased protein-RNA interaction" ;
+    sssom:subject_label "decreased RNA binding" ;
+    sssom:uuid "fddbcdf36a615059b2bc8e0b7bfc9578"^^<xsd:string> .
+
+sssom:ff8ff3be8f43557c97a8f810b2cfd1f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <phipo:0000434> ;
+    owl:annotatedTarget <fypo:0000661> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abnormal catalytic activity" ;
+    sssom:subject_label "abnormal catalytic activity" ;
+    sssom:uuid "ff8ff3be8f43557c97a8f810b2cfd1f2"^^<xsd:string> .
+

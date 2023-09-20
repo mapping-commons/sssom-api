@@ -1,0 +1,135 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:fc5a308b33df530b98dc3bd8db7d19f4 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "cdao.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/cdao.ols.sssom.tsv> ;
+    sssom:mappings sssom:2108ff9186735f62b600fb1b82066d63,
+        sssom:385c174329185c99b09be2d296d0eb17,
+        sssom:528958d155995849855e0f7f7fe2cf15,
+        sssom:64765c7fffdc559aa4963fb42630c9b8,
+        sssom:74735cc95abc53ffbd16e53de5f51f6f,
+        sssom:766010d2c69c535c81fcd5450583c753,
+        sssom:8c427e6ad9c4519ba6b1ae9429035b38,
+        sssom:ac414d8a98b1592ea2351ddfe450dcb6,
+        sssom:ccfe023de2d95266a9d86b510c345efe,
+        sssom:f177d31c7d645fe4b829f82c98382f7b,
+        sssom:f2dc6b17973a5b6bbab223576df59bcd,
+        sssom:fe16cd4c7f2a5e4398041fe280bc2ec2 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/cdao> ;
+            sssom:local_id "cdao.ols" ] ;
+    sssom:uuid "fc5a308b33df530b98dc3bd8db7d19f4"^^<xsd:string> .
+
+sssom:2108ff9186735f62b600fb1b82066d63 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000065> ;
+    owl:annotatedTarget <cdao:0000062> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "evolutionaryTransition" ;
+    sssom:subject_label "anageneticChange" ;
+    sssom:uuid "2108ff9186735f62b600fb1b82066d63"^^<xsd:string> .
+
+sssom:385c174329185c99b09be2d296d0eb17 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000124> ;
+    owl:annotatedTarget <cdao:0000033> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Dichotomy" ;
+    sssom:subject_label "Bifurcation" ;
+    sssom:uuid "385c174329185c99b09be2d296d0eb17"^^<xsd:string> .
+
+sssom:528958d155995849855e0f7f7fe2cf15 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000018> ;
+    owl:annotatedTarget <cdao:0000130> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "FullyResolvedTree" ;
+    sssom:subject_label "BifurcatingTree" ;
+    sssom:uuid "528958d155995849855e0f7f7fe2cf15"^^<xsd:string> .
+
+sssom:64765c7fffdc559aa4963fb42630c9b8 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000062> ;
+    owl:annotatedTarget <cdao:0000065> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "anageneticChange" ;
+    sssom:subject_label "evolutionaryTransition" ;
+    sssom:uuid "64765c7fffdc559aa4963fb42630c9b8"^^<xsd:string> .
+
+sssom:74735cc95abc53ffbd16e53de5f51f6f a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000048> ;
+    owl:annotatedTarget <cdao:0000129> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "HolophyleticGroup" ;
+    sssom:subject_label "Clade" ;
+    sssom:uuid "74735cc95abc53ffbd16e53de5f51f6f"^^<xsd:string> .
+
+sssom:766010d2c69c535c81fcd5450583c753 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000129> ;
+    owl:annotatedTarget <cdao:0000048> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Clade" ;
+    sssom:subject_label "HolophyleticGroup" ;
+    sssom:uuid "766010d2c69c535c81fcd5450583c753"^^<xsd:string> .
+
+sssom:8c427e6ad9c4519ba6b1ae9429035b38 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000099> ;
+    owl:annotatedTarget <cdao:0000024> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Branch" ;
+    sssom:subject_label "Edge" ;
+    sssom:uuid "8c427e6ad9c4519ba6b1ae9429035b38"^^<xsd:string> .
+
+sssom:ac414d8a98b1592ea2351ddfe450dcb6 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000033> ;
+    owl:annotatedTarget <cdao:0000124> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Bifurcation" ;
+    sssom:subject_label "Dichotomy" ;
+    sssom:uuid "ac414d8a98b1592ea2351ddfe450dcb6"^^<xsd:string> .
+
+sssom:ccfe023de2d95266a9d86b510c345efe a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000121> ;
+    owl:annotatedTarget <cdao:0000122> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cladogenesis" ;
+    sssom:subject_label "speciation" ;
+    sssom:uuid "ccfe023de2d95266a9d86b510c345efe"^^<xsd:string> .
+
+sssom:f177d31c7d645fe4b829f82c98382f7b a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000122> ;
+    owl:annotatedTarget <cdao:0000121> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "speciation" ;
+    sssom:subject_label "cladogenesis" ;
+    sssom:uuid "f177d31c7d645fe4b829f82c98382f7b"^^<xsd:string> .
+
+sssom:f2dc6b17973a5b6bbab223576df59bcd a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000024> ;
+    owl:annotatedTarget <cdao:0000099> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Edge" ;
+    sssom:subject_label "Branch" ;
+    sssom:uuid "f2dc6b17973a5b6bbab223576df59bcd"^^<xsd:string> .
+
+sssom:fe16cd4c7f2a5e4398041fe280bc2ec2 a owl:Axiom ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <cdao:0000130> ;
+    owl:annotatedTarget <cdao:0000018> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "BifurcatingTree" ;
+    sssom:subject_label "FullyResolvedTree" ;
+    sssom:uuid "fe16cd4c7f2a5e4398041fe280bc2ec2"^^<xsd:string> .
+

@@ -1,0 +1,276 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:aaee83e60e195dfdac6c5a72f1888c22 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "taxrank.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/taxrank.ols.sssom.tsv> ;
+    sssom:mappings sssom:0537f3fa8e21598cbc4e7b13aa182cf2,
+        sssom:12b305ab05125a5797d8e103e54086d0,
+        sssom:166db904bbba54be92589ff430bb6efa,
+        sssom:188f60d937785166b21b528b05bc7fe9,
+        sssom:1e4b51d2f9b95ce294706602ada5b192,
+        sssom:207e74cacf05568dbe77ae14fc1933a7,
+        sssom:26eebdc2fbcc5a988ddb1bc160d99916,
+        sssom:39ffc74148c951f49fc788cba4ef2f03,
+        sssom:542891a35a0553b2821f618a628362a6,
+        sssom:5977ff82af5650f498d6f8432af50ffc,
+        sssom:61d33d7ad81355a49df309fe16351355,
+        sssom:686ba18954c4529d9aabbe2acc0a6e85,
+        sssom:73fa18d572915e4b93709512dd983990,
+        sssom:7e0d28f72a3d553d9713951d36db40a6,
+        sssom:8ebdd8e3d3065eb69c946de6e5b8e824,
+        sssom:a2a9aca2518455909500d8326c4d46f8,
+        sssom:a5928e9bf6395afa8c9ded75cf94e049,
+        sssom:a7b7edb2dd94514d92014cedd6e6115d,
+        sssom:a9720668279d5e7b8a952fe01fd29a58,
+        sssom:acf3eb1e548354499c2baf93c272f5c6,
+        sssom:bba469233705546e91b54933d16fc021,
+        sssom:c77362dc3ad3571299418d9b489924c3,
+        sssom:d797303953a45cd0be0d12f56fc11a73,
+        sssom:edd666682e3b5e959b39127c9f995d21,
+        sssom:f121f4914eb65477a33f31f405924f3a,
+        sssom:f4c5d2b426525b2fbc03d326520d1800 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/taxrank> ;
+            sssom:local_id "taxrank.ols" ] ;
+    sssom:uuid "aaee83e60e195dfdac6c5a72f1888c22"^^<xsd:string> .
+
+sssom:0537f3fa8e21598cbc4e7b13aa182cf2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000023> ;
+    owl:annotatedTarget <ncbitaxon:subspecies> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "subspecies" ;
+    sssom:subject_label "subspecies" ;
+    sssom:uuid "0537f3fa8e21598cbc4e7b13aa182cf2"^^<xsd:string> .
+
+sssom:12b305ab05125a5797d8e103e54086d0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000003> ;
+    owl:annotatedTarget <ncbitaxon:order> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "order" ;
+    sssom:subject_label "order" ;
+    sssom:uuid "12b305ab05125a5797d8e103e54086d0"^^<xsd:string> .
+
+sssom:166db904bbba54be92589ff430bb6efa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000022> ;
+    owl:annotatedTarget <ncbitaxon:superkingdom> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "superkingdom" ;
+    sssom:subject_label "superkingdom" ;
+    sssom:uuid "166db904bbba54be92589ff430bb6efa"^^<xsd:string> .
+
+sssom:188f60d937785166b21b528b05bc7fe9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000009> ;
+    owl:annotatedTarget <ncbitaxon:subgenus> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "subgenus" ;
+    sssom:subject_label "subgenus" ;
+    sssom:uuid "188f60d937785166b21b528b05bc7fe9"^^<xsd:string> .
+
+sssom:1e4b51d2f9b95ce294706602ada5b192 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000026> ;
+    owl:annotatedTarget <ncbitaxon:forma> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "forma" ;
+    sssom:subject_label "forma" ;
+    sssom:uuid "1e4b51d2f9b95ce294706602ada5b192"^^<xsd:string> .
+
+sssom:207e74cacf05568dbe77ae14fc1933a7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000018> ;
+    owl:annotatedTarget <ncbitaxon:superfamily> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "superfamily" ;
+    sssom:subject_label "superfamily" ;
+    sssom:uuid "207e74cacf05568dbe77ae14fc1933a7"^^<xsd:string> .
+
+sssom:26eebdc2fbcc5a988ddb1bc160d99916 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000021> ;
+    owl:annotatedTarget <ncbitaxon:parvorder> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "parvorder" ;
+    sssom:subject_label "parvorder" ;
+    sssom:uuid "26eebdc2fbcc5a988ddb1bc160d99916"^^<xsd:string> .
+
+sssom:39ffc74148c951f49fc788cba4ef2f03 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000015> ;
+    owl:annotatedTarget <ncbitaxon:superclass> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "superclass" ;
+    sssom:subject_label "superclass" ;
+    sssom:uuid "39ffc74148c951f49fc788cba4ef2f03"^^<xsd:string> .
+
+sssom:542891a35a0553b2821f618a628362a6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000024> ;
+    owl:annotatedTarget <ncbitaxon:subfamily> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "subfamily" ;
+    sssom:subject_label "subfamily" ;
+    sssom:uuid "542891a35a0553b2821f618a628362a6"^^<xsd:string> .
+
+sssom:5977ff82af5650f498d6f8432af50ffc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000020> ;
+    owl:annotatedTarget <ncbitaxon:superorder> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "superorder" ;
+    sssom:subject_label "superorder" ;
+    sssom:uuid "5977ff82af5650f498d6f8432af50ffc"^^<xsd:string> .
+
+sssom:61d33d7ad81355a49df309fe16351355 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000006> ;
+    owl:annotatedTarget <ncbitaxon:species> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "species" ;
+    sssom:subject_label "species" ;
+    sssom:uuid "61d33d7ad81355a49df309fe16351355"^^<xsd:string> .
+
+sssom:686ba18954c4529d9aabbe2acc0a6e85 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000016> ;
+    owl:annotatedTarget <ncbitaxon:varietas> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "varietas" ;
+    sssom:subject_label "varietas" ;
+    sssom:uuid "686ba18954c4529d9aabbe2acc0a6e85"^^<xsd:string> .
+
+sssom:73fa18d572915e4b93709512dd983990 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000014> ;
+    owl:annotatedTarget <ncbitaxon:suborder> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "suborder" ;
+    sssom:subject_label "suborder" ;
+    sssom:uuid "73fa18d572915e4b93709512dd983990"^^<xsd:string> .
+
+sssom:7e0d28f72a3d553d9713951d36db40a6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000017> ;
+    owl:annotatedTarget <ncbitaxon:kingdom> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "kingdom" ;
+    sssom:subject_label "kingdom" ;
+    sssom:uuid "7e0d28f72a3d553d9713951d36db40a6"^^<xsd:string> .
+
+sssom:8ebdd8e3d3065eb69c946de6e5b8e824 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000008> ;
+    owl:annotatedTarget <ncbitaxon:subphylum> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "subphylum" ;
+    sssom:subject_label "subphylum" ;
+    sssom:uuid "8ebdd8e3d3065eb69c946de6e5b8e824"^^<xsd:string> .
+
+sssom:a2a9aca2518455909500d8326c4d46f8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000028> ;
+    owl:annotatedTarget <ncbitaxon:subtribe> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "subtribe" ;
+    sssom:subject_label "subtribe" ;
+    sssom:uuid "a2a9aca2518455909500d8326c4d46f8"^^<xsd:string> .
+
+sssom:a5928e9bf6395afa8c9ded75cf94e049 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000013> ;
+    owl:annotatedTarget <ncbitaxon:infraorder> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "infraorder" ;
+    sssom:subject_label "infraorder" ;
+    sssom:uuid "a5928e9bf6395afa8c9ded75cf94e049"^^<xsd:string> .
+
+sssom:a7b7edb2dd94514d92014cedd6e6115d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000002> ;
+    owl:annotatedTarget <ncbitaxon:class> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "class" ;
+    sssom:subject_label "class" ;
+    sssom:uuid "a7b7edb2dd94514d92014cedd6e6115d"^^<xsd:string> .
+
+sssom:a9720668279d5e7b8a952fe01fd29a58 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000007> ;
+    owl:annotatedTarget <ncbitaxon:subclass> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "subclass" ;
+    sssom:subject_label "subclass" ;
+    sssom:uuid "a9720668279d5e7b8a952fe01fd29a58"^^<xsd:string> .
+
+sssom:acf3eb1e548354499c2baf93c272f5c6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000004> ;
+    owl:annotatedTarget <ncbitaxon:family> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "family" ;
+    sssom:subject_label "family" ;
+    sssom:uuid "acf3eb1e548354499c2baf93c272f5c6"^^<xsd:string> .
+
+sssom:bba469233705546e91b54933d16fc021 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000001> ;
+    owl:annotatedTarget <ncbitaxon:phylum> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "phylum" ;
+    sssom:subject_label "phylum" ;
+    sssom:uuid "bba469233705546e91b54933d16fc021"^^<xsd:string> .
+
+sssom:c77362dc3ad3571299418d9b489924c3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000025> ;
+    owl:annotatedTarget <ncbitaxon:tribe> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "tribe" ;
+    sssom:subject_label "tribe" ;
+    sssom:uuid "c77362dc3ad3571299418d9b489924c3"^^<xsd:string> .
+
+sssom:d797303953a45cd0be0d12f56fc11a73 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000029> ;
+    owl:annotatedTarget <ncbitaxon:subkingdom> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "subkingdom" ;
+    sssom:subject_label "subkingdom" ;
+    sssom:uuid "d797303953a45cd0be0d12f56fc11a73"^^<xsd:string> .
+
+sssom:edd666682e3b5e959b39127c9f995d21 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000005> ;
+    owl:annotatedTarget <ncbitaxon:genus> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "genus" ;
+    sssom:subject_label "genus" ;
+    sssom:uuid "edd666682e3b5e959b39127c9f995d21"^^<xsd:string> .
+
+sssom:f121f4914eb65477a33f31f405924f3a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000027> ;
+    owl:annotatedTarget <ncbitaxon:superphylum> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "superphylum" ;
+    sssom:subject_label "superphylum" ;
+    sssom:uuid "f121f4914eb65477a33f31f405924f3a"^^<xsd:string> .
+
+sssom:f4c5d2b426525b2fbc03d326520d1800 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <taxrank:0000019> ;
+    owl:annotatedTarget <ncbitaxon:infraclass> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "infraclass" ;
+    sssom:subject_label "infraclass" ;
+    sssom:uuid "f4c5d2b426525b2fbc03d326520d1800"^^<xsd:string> .
+

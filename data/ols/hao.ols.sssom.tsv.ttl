@@ -1,0 +1,626 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:a9bd556eb80a51e39cdd7fc51b10bec8 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "hao.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/hao.ols.sssom.tsv> ;
+    sssom:mappings sssom:0be54b9fe3c054d38e992a099bc7ba2f,
+        sssom:0d6f97f445a851a69fd49ad03c580687,
+        sssom:0d7ba0d5701e562bb39c4af171182d8c,
+        sssom:13034eb747485628bc389ed94cc5f638,
+        sssom:16534c4b9a3e5989b86cf2f66bb51397,
+        sssom:16d1ae525aad5fada40c850a0732f08f,
+        sssom:19afa1ef95a25a6ea7bccddde813e05f,
+        sssom:1ae4bfe23844587298614c4ff448d3f5,
+        sssom:1b705dc9764c56d8baf8380e0ccc9bf8,
+        sssom:1ed4d2712f1b59338fd8e47771f1122e,
+        sssom:1fa8db3d2e1255568aa5b056bafdde4b,
+        sssom:200dec07c4ef5272b6eff13e4328715a,
+        sssom:206e6c31e3dd5603958dfbc47504c82a,
+        sssom:23b18beba844595ebca26be101897268,
+        sssom:27f9891c171954ceadb5444186470618,
+        sssom:282805a974865416974445239b6dc383,
+        sssom:289196c8b8ea58e090604015099e6582,
+        sssom:2981c7aa9c3f568a817231ef277f254f,
+        sssom:29e0a6b13c6e52279c44bb44c77624ff,
+        sssom:2b0955de126d5b85acb6ff6797e1be4d,
+        sssom:2b0c9728c7975002a5ac6bc986262e43,
+        sssom:2ef36d8d77bb50ac8a4c9e03ca0f67c1,
+        sssom:36be12f6bb245099acc55f6de0d8ad5f,
+        sssom:3cda1f3f1d995549a739d70969ea8d4c,
+        sssom:3eeab2e38b2c58cab1efb76ab8918b5c,
+        sssom:494fc7ee70aa5afb991b17ddfb53044b,
+        sssom:5117c7d07ec2576a8249495b9f72b95d,
+        sssom:5c9200105c8953168ab48a06e751e596,
+        sssom:61a9cf3cf72b50bca576f14dc36a21f8,
+        sssom:648e61a1190452d4ac6921ac495b3566,
+        sssom:68cbbdf94d825352b059e1e3ba235c6e,
+        sssom:6a31568fc5b750f5848653eac357d690,
+        sssom:792f029d2ddf5a66b766e3988a851925,
+        sssom:79be16d2e8dd540589d44de55eb17928,
+        sssom:7c91e633e2b15c349e14ceb81b659ca9,
+        sssom:83009f0a330f55a8a8122d08f74a42bb,
+        sssom:83e385ae409a5604bc776c035b9fa77b,
+        sssom:923b9e3dd0545a9994b79eb585c03bc2,
+        sssom:938126b396f75dea8f89a9a53ab73215,
+        sssom:98be489e238d57d2accce41f1e0bf09e,
+        sssom:9c09a0ebef6f59d183aef31501477738,
+        sssom:a6e0bb8481ee5ef482baf056f33cdea7,
+        sssom:a73a4be7b5db58608cc7cec12c01a50f,
+        sssom:ab4b297f73925bbbb263d8b7b4b48179,
+        sssom:b22c981ba9895789bb9346085bd601fd,
+        sssom:b254e2463c1e5eaeb911aa69e8f5ec95,
+        sssom:b5648347609e5510a389c0724d7ecd5d,
+        sssom:bb51bf1289ab524883065006fa9588ac,
+        sssom:bfacf198145454f6b9c92910a155ed8e,
+        sssom:c05591b82563572ba4055bcdd1022ffd,
+        sssom:cb619fd4cec958eb8f900a07fed4e085,
+        sssom:dfd8e85f6ff25cccab9e59c94ab10483,
+        sssom:e0aa7533b2e55ddb9bc2ae577cbb7582,
+        sssom:e38f6effccdd58df82e7a9f637fc2673,
+        sssom:e74d3ea028985254972efdc2defe878a,
+        sssom:eacf62326c63511aa3bed15b4213053b,
+        sssom:eb76f238dd7953b199b000a560638fa9,
+        sssom:ec8e0d722b3a5937a4b895170a84e3f0,
+        sssom:f0001e8f97e5544da122f7b3fc3bb652,
+        sssom:fb16c2be77a45fe7b12203231d248677,
+        sssom:ff34d47eda08511799ea86c5dd07ab51 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/hao> ;
+            sssom:local_id "hao.ols" ] ;
+    sssom:uuid "a9bd556eb80a51e39cdd7fc51b10bec8"^^<xsd:string> .
+
+sssom:0be54b9fe3c054d38e992a099bc7ba2f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000011> ;
+    owl:annotatedTarget <caro:0000011> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "connected anatomical system" ;
+    sssom:subject_label "anatomical system" ;
+    sssom:uuid "0be54b9fe3c054d38e992a099bc7ba2f"^^<xsd:string> .
+
+sssom:0d6f97f445a851a69fd49ad03c580687 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000009> ;
+    owl:annotatedTarget <caro:0000009> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "anatomical point" ;
+    sssom:subject_label "anatomical point" ;
+    sssom:uuid "0d6f97f445a851a69fd49ad03c580687"^^<xsd:string> .
+
+sssom:0d7ba0d5701e562bb39c4af171182d8c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000008> ;
+    owl:annotatedTarget <caro:0000008> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "anatomical line" ;
+    sssom:subject_label "anatomical line" ;
+    sssom:uuid "0d7ba0d5701e562bb39c4af171182d8c"^^<xsd:string> .
+
+sssom:13034eb747485628bc389ed94cc5f638 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000067> ;
+    owl:annotatedTarget <caro:0000067> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "simple cuboidal epithelium" ;
+    sssom:subject_label "simple cuboidal epithelium" ;
+    sssom:uuid "13034eb747485628bc389ed94cc5f638"^^<xsd:string> .
+
+sssom:16534c4b9a3e5989b86cf2f66bb51397 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000069> ;
+    owl:annotatedTarget <caro:0000069> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "multilaminar epithelium" ;
+    sssom:subject_label "multilaminar epithelium" ;
+    sssom:uuid "16534c4b9a3e5989b86cf2f66bb51397"^^<xsd:string> .
+
+sssom:16d1ae525aad5fada40c850a0732f08f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000007> ;
+    owl:annotatedTarget <caro:0000007> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "immaterial anatomical entity" ;
+    sssom:subject_label "immaterial anatomical entity" ;
+    sssom:uuid "16d1ae525aad5fada40c850a0732f08f"^^<xsd:string> .
+
+sssom:19afa1ef95a25a6ea7bccddde813e05f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000027> ;
+    owl:annotatedTarget <caro:0000027> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "male organism" ;
+    sssom:subject_label "male organism" ;
+    sssom:uuid "19afa1ef95a25a6ea7bccddde813e05f"^^<xsd:string> .
+
+sssom:1ae4bfe23844587298614c4ff448d3f5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000043> ;
+    owl:annotatedTarget <caro:0000043> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "tissue" ;
+    sssom:subject_label "portion of tissue" ;
+    sssom:uuid "1ae4bfe23844587298614c4ff448d3f5"^^<xsd:string> .
+
+sssom:1b705dc9764c56d8baf8380e0ccc9bf8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000032> ;
+    owl:annotatedTarget <caro:0000032> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "organism subdivision" ;
+    sssom:subject_label "organism subdivision" ;
+    sssom:uuid "1b705dc9764c56d8baf8380e0ccc9bf8"^^<xsd:string> .
+
+sssom:1ed4d2712f1b59338fd8e47771f1122e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0001547> ;
+    owl:annotatedTarget <fbbt:00000038> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "chorion" ;
+    sssom:subject_label "chorion" ;
+    sssom:uuid "1ed4d2712f1b59338fd8e47771f1122e"^^<xsd:string> .
+
+sssom:1fa8db3d2e1255568aa5b056bafdde4b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000054> ;
+    owl:annotatedTarget <caro:0000054> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "anatomical group" ;
+    sssom:subject_label "anatomical group" ;
+    sssom:uuid "1fa8db3d2e1255568aa5b056bafdde4b"^^<xsd:string> .
+
+sssom:200dec07c4ef5272b6eff13e4328715a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000715> ;
+    owl:annotatedTarget <fbbt:00006011> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "pharate adult" ;
+    sssom:subject_label "pharate adult" ;
+    sssom:uuid "200dec07c4ef5272b6eff13e4328715a"^^<xsd:string> .
+
+sssom:206e6c31e3dd5603958dfbc47504c82a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0001732> ;
+    owl:annotatedTarget <fbbt:00005093> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "nervous system" ;
+    sssom:subject_label "nervous system" ;
+    sssom:uuid "206e6c31e3dd5603958dfbc47504c82a"^^<xsd:string> .
+
+sssom:23b18beba844595ebca26be101897268 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000050> ;
+    owl:annotatedTarget <caro:0000050> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "protogynous hermaphroditic organism" ;
+    sssom:subject_label "protogynous hermaphroditic organism" ;
+    sssom:uuid "23b18beba844595ebca26be101897268"^^<xsd:string> .
+
+sssom:27f9891c171954ceadb5444186470618 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000073> ;
+    owl:annotatedTarget <caro:0000073> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "unilaminar epithelium" ;
+    sssom:subject_label "unilaminar epithelium" ;
+    sssom:uuid "27f9891c171954ceadb5444186470618"^^<xsd:string> .
+
+sssom:282805a974865416974445239b6dc383 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000930> ;
+    owl:annotatedTarget <fbbt:00005155> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sense organ" ;
+    sssom:subject_label "sense organ" ;
+    sssom:uuid "282805a974865416974445239b6dc383"^^<xsd:string> .
+
+sssom:289196c8b8ea58e090604015099e6582 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000019> ;
+    owl:annotatedTarget <caro:0000019> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "compound organ component" ;
+    sssom:subject_label "compound organ component" ;
+    sssom:uuid "289196c8b8ea58e090604015099e6582"^^<xsd:string> .
+
+sssom:2981c7aa9c3f568a817231ef277f254f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000042> ;
+    owl:annotatedTarget <caro:0000042> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "extraembryonic structure" ;
+    sssom:subject_label "extraembryonic structure" ;
+    sssom:uuid "2981c7aa9c3f568a817231ef277f254f"^^<xsd:string> .
+
+sssom:29e0a6b13c6e52279c44bb44c77624ff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000068> ;
+    owl:annotatedTarget <caro:0000068> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "simple columnar epithlium" ;
+    sssom:subject_label "simple columnar epithelium" ;
+    sssom:uuid "29e0a6b13c6e52279c44bb44c77624ff"^^<xsd:string> .
+
+sssom:2b0955de126d5b85acb6ff6797e1be4d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000066> ;
+    owl:annotatedTarget <caro:0000066> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "epithelium" ;
+    sssom:subject_label "epithelium" ;
+    sssom:uuid "2b0955de126d5b85acb6ff6797e1be4d"^^<xsd:string> .
+
+sssom:2b0c9728c7975002a5ac6bc986262e43 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000028> ;
+    owl:annotatedTarget <caro:0000028> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "female organism" ;
+    sssom:subject_label "female organism" ;
+    sssom:uuid "2b0c9728c7975002a5ac6bc986262e43"^^<xsd:string> .
+
+sssom:2ef36d8d77bb50ac8a4c9e03ca0f67c1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0001599> ;
+    owl:annotatedTarget <fbbt:00004856> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "organ system" ;
+    sssom:subject_label "organ system" ;
+    sssom:uuid "2ef36d8d77bb50ac8a4c9e03ca0f67c1"^^<xsd:string> .
+
+sssom:36be12f6bb245099acc55f6de0d8ad5f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000003> ;
+    owl:annotatedTarget <caro:0000003> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "connected anatomical structure" ;
+    sssom:subject_label "anatomical structure" ;
+    sssom:uuid "36be12f6bb245099acc55f6de0d8ad5f"^^<xsd:string> .
+
+sssom:3cda1f3f1d995549a739d70969ea8d4c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000065> ;
+    owl:annotatedTarget <caro:0000065> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "basal lamina" ;
+    sssom:subject_label "basal lamina" ;
+    sssom:uuid "3cda1f3f1d995549a739d70969ea8d4c"^^<xsd:string> .
+
+sssom:3eeab2e38b2c58cab1efb76ab8918b5c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000074> ;
+    owl:annotatedTarget <caro:0000074> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "solid compound organ" ;
+    sssom:subject_label "solid compound organ" ;
+    sssom:uuid "3eeab2e38b2c58cab1efb76ab8918b5c"^^<xsd:string> .
+
+sssom:494fc7ee70aa5afb991b17ddfb53044b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0001580> ;
+    owl:annotatedTarget <fbbt:00005055> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "digestive system" ;
+    sssom:subject_label "digestive system" ;
+    sssom:uuid "494fc7ee70aa5afb991b17ddfb53044b"^^<xsd:string> .
+
+sssom:5117c7d07ec2576a8249495b9f72b95d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000013> ;
+    owl:annotatedTarget <caro:0000013> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell" ;
+    sssom:subject_label "cell" ;
+    sssom:uuid "5117c7d07ec2576a8249495b9f72b95d"^^<xsd:string> .
+
+sssom:5c9200105c8953168ab48a06e751e596 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000070> ;
+    owl:annotatedTarget <caro:0000070> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "simple squamous epithelium" ;
+    sssom:subject_label "simple squamous epithelium" ;
+    sssom:uuid "5c9200105c8953168ab48a06e751e596"^^<xsd:string> .
+
+sssom:61a9cf3cf72b50bca576f14dc36a21f8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000063> ;
+    owl:annotatedTarget <caro:0000063> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "portion of cell substance" ;
+    sssom:subject_label "portion of cell substance" ;
+    sssom:uuid "61a9cf3cf72b50bca576f14dc36a21f8"^^<xsd:string> .
+
+sssom:648e61a1190452d4ac6921ac495b3566 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000049> ;
+    owl:annotatedTarget <caro:0000049> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "protandrous hermaphroditic organism" ;
+    sssom:subject_label "protandrous hermaphroditic organism" ;
+    sssom:uuid "648e61a1190452d4ac6921ac495b3566"^^<xsd:string> .
+
+sssom:68cbbdf94d825352b059e1e3ba235c6e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000072> ;
+    owl:annotatedTarget <caro:0000072> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cavitated compound organ" ;
+    sssom:subject_label "cavitated compound organ" ;
+    sssom:uuid "68cbbdf94d825352b059e1e3ba235c6e"^^<xsd:string> .
+
+sssom:6a31568fc5b750f5848653eac357d690 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000004> ;
+    owl:annotatedTarget <caro:0000004> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "organism substance" ;
+    sssom:subject_label "portion of organism substance" ;
+    sssom:uuid "6a31568fc5b750f5848653eac357d690"^^<xsd:string> .
+
+sssom:792f029d2ddf5a66b766e3988a851925 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000029> ;
+    owl:annotatedTarget <caro:0000029> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "hermaphroditic organism" ;
+    sssom:subject_label "hermaphroditic organism" ;
+    sssom:uuid "792f029d2ddf5a66b766e3988a851925"^^<xsd:string> .
+
+sssom:79be16d2e8dd540589d44de55eb17928 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000071> ;
+    owl:annotatedTarget <caro:0000071> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "atypical epithelium" ;
+    sssom:subject_label "atypical epithelium" ;
+    sssom:uuid "79be16d2e8dd540589d44de55eb17928"^^<xsd:string> .
+
+sssom:7c91e633e2b15c349e14ceb81b659ca9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000005> ;
+    owl:annotatedTarget <caro:0000005> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "anatomical space" ;
+    sssom:subject_label "anatomical space" ;
+    sssom:uuid "7c91e633e2b15c349e14ceb81b659ca9"^^<xsd:string> .
+
+sssom:83009f0a330f55a8a8122d08f74a42bb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000062> ;
+    owl:annotatedTarget <caro:0000062> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell space" ;
+    sssom:subject_label "cell space" ;
+    sssom:uuid "83009f0a330f55a8a8122d08f74a42bb"^^<xsd:string> .
+
+sssom:83e385ae409a5604bc776c035b9fa77b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000012> ;
+    owl:annotatedTarget <caro:0000012> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "multicellular organism" ;
+    sssom:subject_label "multi-cellular organism" ;
+    sssom:uuid "83e385ae409a5604bc776c035b9fa77b"^^<xsd:string> .
+
+sssom:923b9e3dd0545a9994b79eb585c03bc2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000055> ;
+    owl:annotatedTarget <caro:0000055> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "multi-tissue structure" ;
+    sssom:subject_label "multi-tissue structure" ;
+    sssom:uuid "923b9e3dd0545a9994b79eb585c03bc2"^^<xsd:string> .
+
+sssom:938126b396f75dea8f89a9a53ab73215 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000286> ;
+    owl:annotatedTarget <fbbt:00000034> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "egg" ;
+    sssom:subject_label "egg" ;
+    sssom:uuid "938126b396f75dea8f89a9a53ab73215"^^<xsd:string> .
+
+sssom:98be489e238d57d2accce41f1e0bf09e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000000> ;
+    owl:annotatedTarget <caro:0000000> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "anatomical entity" ;
+    sssom:subject_label "anatomical entity" ;
+    sssom:uuid "98be489e238d57d2accce41f1e0bf09e"^^<xsd:string> .
+
+sssom:9c09a0ebef6f59d183aef31501477738 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000666> ;
+    owl:annotatedTarget <fbbt:00004510> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ommatidium" ;
+    sssom:subject_label "ommatidium" ;
+    sssom:uuid "9c09a0ebef6f59d183aef31501477738"^^<xsd:string> .
+
+sssom:a6e0bb8481ee5ef482baf056f33cdea7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000461> ;
+    owl:annotatedTarget <fbbt:00001730> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "larval head" ;
+    sssom:subject_label "larval head" ;
+    sssom:uuid "a6e0bb8481ee5ef482baf056f33cdea7"^^<xsd:string> .
+
+sssom:a73a4be7b5db58608cc7cec12c01a50f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000006> ;
+    owl:annotatedTarget <caro:0000006> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "material anatomical entity" ;
+    sssom:subject_label "material anatomical entity" ;
+    sssom:uuid "a73a4be7b5db58608cc7cec12c01a50f"^^<xsd:string> .
+
+sssom:ab4b297f73925bbbb263d8b7b4b48179 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0001545> ;
+    owl:annotatedTarget <fbbt:00005065> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "adipose system" ;
+    sssom:subject_label "adipose system" ;
+    sssom:uuid "ab4b297f73925bbbb263d8b7b4b48179"^^<xsd:string> .
+
+sssom:b22c981ba9895789bb9346085bd601fd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000010> ;
+    owl:annotatedTarget <caro:0000010> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "anatomical boundary" ;
+    sssom:subject_label "anatomical surface" ;
+    sssom:uuid "b22c981ba9895789bb9346085bd601fd"^^<xsd:string> .
+
+sssom:b254e2463c1e5eaeb911aa69e8f5ec95 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000045> ;
+    owl:annotatedTarget <caro:0000045> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sequential hermaphroditic organism" ;
+    sssom:subject_label "sequential hermaphroditic organism" ;
+    sssom:uuid "b254e2463c1e5eaeb911aa69e8f5ec95"^^<xsd:string> .
+
+sssom:b5648347609e5510a389c0724d7ecd5d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000641> ;
+    owl:annotatedTarget <zfa:0005145> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "muscle" ;
+    sssom:subject_label "muscle" ;
+    sssom:uuid "b5648347609e5510a389c0724d7ecd5d"^^<xsd:string> .
+
+sssom:bb51bf1289ab524883065006fa9588ac a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000077> ;
+    owl:annotatedTarget <caro:0000077> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "epithelial cell" ;
+    sssom:subject_label "epithelial cell" ;
+    sssom:uuid "bb51bf1289ab524883065006fa9588ac"^^<xsd:string> .
+
+sssom:bfacf198145454f6b9c92910a155ed8e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000459> ;
+    owl:annotatedTarget <fbbt:00001727> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "larva" ;
+    sssom:subject_label "larva" ;
+    sssom:uuid "bfacf198145454f6b9c92910a155ed8e"^^<xsd:string> .
+
+sssom:c05591b82563572ba4055bcdd1022ffd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000030> ;
+    owl:annotatedTarget <caro:0000030> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "asexual multi-cellular organism" ;
+    sssom:subject_label "asexual organism" ;
+    sssom:uuid "c05591b82563572ba4055bcdd1022ffd"^^<xsd:string> .
+
+sssom:cb619fd4cec958eb8f900a07fed4e085 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000040> ;
+    owl:annotatedTarget <caro:0000040> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "acellular anatomical structure" ;
+    sssom:subject_label "acellular anatomical structure" ;
+    sssom:uuid "cb619fd4cec958eb8f900a07fed4e085"^^<xsd:string> .
+
+sssom:dfd8e85f6ff25cccab9e59c94ab10483 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000014> ;
+    owl:annotatedTarget <caro:0000014> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell part" ;
+    sssom:subject_label "cell component" ;
+    sssom:uuid "dfd8e85f6ff25cccab9e59c94ab10483"^^<xsd:string> .
+
+sssom:e0aa7533b2e55ddb9bc2ae577cbb7582 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000041> ;
+    owl:annotatedTarget <caro:0000041> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "anatomical cluster" ;
+    sssom:subject_label "anatomical cluster" ;
+    sssom:uuid "e0aa7533b2e55ddb9bc2ae577cbb7582"^^<xsd:string> .
+
+sssom:e38f6effccdd58df82e7a9f637fc2673 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000048> ;
+    owl:annotatedTarget <caro:0000048> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "gonochoristic organism" ;
+    sssom:subject_label "gonochoristic organism" ;
+    sssom:uuid "e38f6effccdd58df82e7a9f637fc2673"^^<xsd:string> .
+
+sssom:e74d3ea028985254972efdc2defe878a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000087> ;
+    owl:annotatedTarget <fbbt:00003004> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "adult" ;
+    sssom:subject_label "adult" ;
+    sssom:uuid "e74d3ea028985254972efdc2defe878a"^^<xsd:string> .
+
+sssom:eacf62326c63511aa3bed15b4213053b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000024> ;
+    owl:annotatedTarget <caro:0000024> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "compound organ" ;
+    sssom:subject_label "compound organ" ;
+    sssom:uuid "eacf62326c63511aa3bed15b4213053b"^^<xsd:string> .
+
+sssom:eb76f238dd7953b199b000a560638fa9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0001584> ;
+    owl:annotatedTarget <fbbt:00005057> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "circulatory system" ;
+    sssom:subject_label "circulatory system" ;
+    sssom:uuid "eb76f238dd7953b199b000a560638fa9"^^<xsd:string> .
+
+sssom:ec8e0d722b3a5937a4b895170a84e3f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000021> ;
+    owl:annotatedTarget <caro:0000021> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "simple organ" ;
+    sssom:subject_label "simple organ" ;
+    sssom:uuid "ec8e0d722b3a5937a4b895170a84e3f0"^^<xsd:string> .
+
+sssom:f0001e8f97e5544da122f7b3fc3bb652 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000933> ;
+    owl:annotatedTarget <fbbt:00007152> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensillum" ;
+    sssom:subject_label "sensillum" ;
+    sssom:uuid "f0001e8f97e5544da122f7b3fc3bb652"^^<xsd:string> .
+
+sssom:fb16c2be77a45fe7b12203231d248677 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0000046> ;
+    owl:annotatedTarget <caro:0000046> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "synchronous hermaphroditic organism" ;
+    sssom:subject_label "synchronous hermaphroditic organism" ;
+    sssom:uuid "fb16c2be77a45fe7b12203231d248677"^^<xsd:string> .
+
+sssom:ff34d47eda08511799ea86c5dd07ab51 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <hao:0001583> ;
+    owl:annotatedTarget <fbbt:00005094> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "central nervous system" ;
+    sssom:subject_label "central nervous system" ;
+    sssom:uuid "ff34d47eda08511799ea86c5dd07ab51"^^<xsd:string> .
+

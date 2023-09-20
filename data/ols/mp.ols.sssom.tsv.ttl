@@ -1,0 +1,4126 @@
+@prefix GO_2: <http://amigo.geneontology.org/amigo/term/GO:> .
+@prefix MGI: <http://www.informatics.jax.org/accession/> .
+@prefix PMID: <http://www.ncbi.nlm.nih.gov/pubmed/> .
+@prefix UMLS: <http://linkedlifedata.com/resource/umls/id/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:e22aefae4ce1551f830dda66c65e14e5 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "mp.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/mp.ols.sssom.tsv> ;
+    sssom:mappings sssom:0143f2627c625186981e71f49a8b304e,
+        sssom:0225987eef8452639b444b089073a9a5,
+        sssom:035cfea4b17359418b72bdb95a8a3bab,
+        sssom:0366d0e8bd9e5d3d8eb9e9642f92f068,
+        sssom:03ddba1ffdf35ec4b00dcd4d3cdc47b5,
+        sssom:0524b4c5efbd5c94a3e236ac8fcccc07,
+        sssom:0531b19f2e22562d90b6116d9f130fff,
+        sssom:06020d0fc2f75667afea42a841cf880c,
+        sssom:06f60e9f14b5561fb30fb8f08e66d911,
+        sssom:0761174e45a75a7895a01a3c83d9297b,
+        sssom:07c93232cadc5b019cd7a1d5f5e68827,
+        sssom:08898ad283fc52d1a366a3d579d21576,
+        sssom:08b998b2e77258fa8ed84270e524bc03,
+        sssom:09eee828f3bd5c37a8bfeeb8577dae70,
+        sssom:09f66b4a77205a39bbe5aea11b15cedf,
+        sssom:0d10d36fe0fe5603801113fb6e251fe7,
+        sssom:0d44a103c2c2541db6b755fb8c338e2d,
+        sssom:0d4b21dae3fd563da835fdbfe14ea997,
+        sssom:0ef09c92acf55fda8b1053c76873418e,
+        sssom:11181b1cd2cb52ce8d7b3e8d07baa376,
+        sssom:116db7a6d80d57629b28e8c3cec3a227,
+        sssom:1231c7da5c405c1a9606633b26d809ec,
+        sssom:13a3878e4afc50cb80cf6ff39004880d,
+        sssom:13ea5c97dfff5f528a0b7bab80c850c4,
+        sssom:152480a4bc28599c98f3438278abe372,
+        sssom:167b80bdcc425a6b8b910ced67347e77,
+        sssom:1688bc8a8f2453b68ddfc25c1df1e61d,
+        sssom:181ac20443ab57c19086a2ed22383685,
+        sssom:18f957af28225d8e828f0129ee5a4b2c,
+        sssom:19245e14090f571baa94c7be8ab33002,
+        sssom:19d93b6d5f6f5a1ea91c680fd923717b,
+        sssom:1acac062810154d0ad9ea2d89e883ede,
+        sssom:1bc08da8395c52e58883a0aa5549dd58,
+        sssom:1bc7f8b793b25e379ec97dbce4943728,
+        sssom:1bdae29b012f5525bf00f643caf0d8e3,
+        sssom:1c0a557edd8c5e368f86f561053c62b4,
+        sssom:1c0ca8330b9354a681a04b1130173f50,
+        sssom:1c0e577aec95525694f616452ded509f,
+        sssom:1c45364465eb51c882e2f7575e678747,
+        sssom:1c5792b1adfe5c06a1c3fbe2b139cbf3,
+        sssom:1c6101e1f318566eb7a2349abc1a4bc9,
+        sssom:1d1eec6f68275381a63b4a7428bcbeae,
+        sssom:1d526a42aaa255099f5667f371362a66,
+        sssom:1e418a66b08a5d90bca485ad0b845ff1,
+        sssom:1eb9246e43475daabb05fb0932dc1505,
+        sssom:1ec9f148ba6f57bbac69e466ca4a6530,
+        sssom:1ecc146f6412594a95670d7180b12687,
+        sssom:1f4c6e7deb8651b5bb060b97d555b966,
+        sssom:1f5faa272f955d9da7484af2d85b8a38,
+        sssom:1f76ef2b167b53c8a70b324abf7b0d4f,
+        sssom:20384c5fcd18521c8db19199575a9343,
+        sssom:20c09fb36f455707b3e2bdad79164893,
+        sssom:218983f7a3ee5f85a361ca62a3d38a5d,
+        sssom:21fe8990e8965d4188d3c59e9cd469ca,
+        sssom:2242a845d93f59ce98bc9a04dc798274,
+        sssom:226428b86f445b49ba944a36c396f5db,
+        sssom:2324c251e9d255b8a2914836dec93cc3,
+        sssom:237201fb48df513aa045403217905d9d,
+        sssom:246387d008ff5caa8c32370bc1f0b1ea,
+        sssom:24e02cf7872751e791d1d15e89687d93,
+        sssom:25bbca3dbed45c1b84d9e9dfc7432d61,
+        sssom:25e68d4e9e745e29b78c557363f1c2d2,
+        sssom:261c1b681ffc543bbb308f7c22338a55,
+        sssom:263b29493be75ba9a11c5b93d6e22406,
+        sssom:26626fd1cf7650e6b831598bab27600f,
+        sssom:2682f9eb77aa588da0f38f566bc73857,
+        sssom:26d210e7875a59ad8daa74eed2564beb,
+        sssom:27a13849eac957a1b961c423ccfea555,
+        sssom:290d60a101e85dbb8637fc6054e6500f,
+        sssom:29121ae9be1657e79473d41ffeca569e,
+        sssom:291418eec3d95675b2821e6eac282f17,
+        sssom:2986128f8f1352b1a232554193609c01,
+        sssom:2a0c345994c15c6fa715c79a8732198a,
+        sssom:2a4e0f0466a85c268b2baeb2729ee274,
+        sssom:2ada1f8c5e7e51098e0929559c882146,
+        sssom:2c6882d9924252e686cc55becc96986d,
+        sssom:2cc67c03abee5e1bb257ea8e3de7e435,
+        sssom:2f36d5fcaf2a5b469b7664bd48caee32,
+        sssom:2f4aad4f2ffc5d93aabf9f87dd9597f9,
+        sssom:2fa0773f942c5830bb7ac740d373cb51,
+        sssom:30679cd3f919582ab10ad766488b98e8,
+        sssom:316e2005592953b28991f0a5a916917f,
+        sssom:3179b03b74af58a9ba70274134295ed5,
+        sssom:31dcf870eaea587d9ef08fbd610f0bf0,
+        sssom:3229aca2241457c6b2a7db8ba981046a,
+        sssom:3239602456bf565c893f2f8699e674c5,
+        sssom:3322070019da59a3b121529f3cc4ab77,
+        sssom:3333aaaf6d3e565cb536ac082e9c3758,
+        sssom:344a9fa948f85929b1a50f01f474dc66,
+        sssom:34680430d7ea5f959c5ba68ed58b255a,
+        sssom:35242ba0f93f59318a5bc9c19a7af7f8,
+        sssom:352b2660ae635a7ba49863fdc268d47c,
+        sssom:367da74b2b565c2ba41dad131f5dbf58,
+        sssom:369ab111d118595db7117955a5a43252,
+        sssom:3835520347275dc1b38c90fd19c1b0cf,
+        sssom:392d2ab2c09759d382aa083d47247a18,
+        sssom:392f8aeaddfe5132a0a1df99ad36c830,
+        sssom:39c6153f62c75e188fe980ede996aa07,
+        sssom:3beb5ba6beaf54138ba8f600d840a257,
+        sssom:3cea412ba02954a9839e7cf2ccec3c13,
+        sssom:3da96c785f795705a242a050f9a823da,
+        sssom:3e3a41966ace56f19d2bbe95b85dc34b,
+        sssom:3e83676236e65290ac6ccbf997ca0206,
+        sssom:3e9587ebb99b52c987149f017d6ec20e,
+        sssom:3e9b8340a71d5e949a4e6533a10b6b4a,
+        sssom:3ea297c2e3585cf1acf48edd5c59f727,
+        sssom:3f884f741f7455f7b99e441ba31f6da8,
+        sssom:3fd8f45b0b2c5a06a64d188a8d7e2a1c,
+        sssom:4077ea0d4b4a5cff8c17c330bd12b808,
+        sssom:40f5ea865c60574d83ce085d204da82f,
+        sssom:41703d7a073656e8844a09a57271b32d,
+        sssom:4196e4bd13c5534c80a357e154fb3e4b,
+        sssom:428d9b7df0a95ee38b9fed4932827bc7,
+        sssom:430e4dff1d2f5e97a24e4dde458198c7,
+        sssom:43638de7fe8d57a694a22025b1967b18,
+        sssom:4450da7c8a605c26a6475d0a463c4856,
+        sssom:4458bd1e3b655562a1ccf3e9c28962c2,
+        sssom:457979e9e1bd593fb7c7eaec0cd06a8a,
+        sssom:4589d185186c52e9862fa817dbd00184,
+        sssom:4751b6b0a8505bd19c66ec4e54cf18e6,
+        sssom:4757dbf9206b521b9fcc67aea32d7459,
+        sssom:4924e18c47175f2c9fbfd697c6760142,
+        sssom:498c514df69157d3b01d871e09997e9a,
+        sssom:4af9de1327dd524b802b246d6bc43172,
+        sssom:4b6c0a868c3a569eb1cb514acf86749b,
+        sssom:4b6f7dcac08755488aee72a567ff6aaa,
+        sssom:4bae5a4be5dd559f9b2907040095c697,
+        sssom:5063171af0ce531a90091bf4009709b1,
+        sssom:513eba1a6f2d5a6aa6e77bdc9280003e,
+        sssom:514a1ed50e855cf18ca0bf785e89c1e1,
+        sssom:518bb03e2e285710b7898ffe9a19fafd,
+        sssom:51d7cbb4507358939c6b8872de64e444,
+        sssom:5256ae79053050aa9fc08ad166657a06,
+        sssom:52a814e90ceb50f59fb0eebe50a8dcf4,
+        sssom:53978ff12b2e518f88fa8574d4643864,
+        sssom:54a1e84262b75eb1a1e3d295ec9694aa,
+        sssom:54c0950628b2540fbb8a3942a25154a0,
+        sssom:54c0e16df8d450019851f99f4b6ab085,
+        sssom:55dc4f3196b35ab89047a7a47dc903d4,
+        sssom:56ede2d5f64c5c6dbdc6e41178a5965b,
+        sssom:5719352b468458c698b21c5178e24f54,
+        sssom:5758dadad50f59fe98557316af114f9c,
+        sssom:58c498fbbd9f58cd9c2d3bf70b2bd573,
+        sssom:58d21636dc025bdd9728e89dc73b0452,
+        sssom:59469423f7ab5bd78c1f45ac52aace32,
+        sssom:5a25fcf9b42c556db273d4ecfee54048,
+        sssom:5ad834da848a5daf9daceda78ce4ecbf,
+        sssom:5c4909942c8f5cf6ae177915881900ea,
+        sssom:5c5e726d681b500d8a709ebb464aef37,
+        sssom:5ca253cbd4c2573abc61c86b279b40f6,
+        sssom:5cb6dafdbc075af1b86e672da7bef350,
+        sssom:5d3cd5e47caa5b82a916b318856f3474,
+        sssom:5d9bebf8249c58bbb87a44e55dd510ea,
+        sssom:5db56e984d3b576d931d908eb0b998ea,
+        sssom:5e5a7c3fc780541586ddf7b38db67aa7,
+        sssom:5ea3243441d55bbfa2b1b1876aeee60d,
+        sssom:600cf77ffbd25e32a9c9eb2f409f1a56,
+        sssom:60a2f86714f9553ab0c95303539b054c,
+        sssom:61f4619661a55b5380fc1b3b4fafb44d,
+        sssom:629133d267e45967a16eaaa61bfb49e4,
+        sssom:62b715adb0955daebebba566cfe9feab,
+        sssom:62bf82eb43315832b024b36627fe1491,
+        sssom:62c8473589c95b71823d725a5f88a33d,
+        sssom:636761fc5a0857618deef7adc50ee943,
+        sssom:6409bf5ba73e50eab3da89b3ae1c9ed9,
+        sssom:642bf4f3d4d954469b51350fd903fb2c,
+        sssom:666d9f18a0825d2cbd9869a4a3a1b1da,
+        sssom:672c551cb1c251969776a621e9038e8e,
+        sssom:67b30afb70445c03a0e7e672cf325c54,
+        sssom:67d8a191e7ce5f9887afecf054b7d7d9,
+        sssom:683487d09e76562eab15d5410e37b22b,
+        sssom:6855e7fd9f6a5729ae49bce26324b689,
+        sssom:68b85308136559579feaad0b43c2c0b5,
+        sssom:6a49a089cbd158e783acfd459e819338,
+        sssom:6b3b5ddf2b7c50c48891aa46bd587cd5,
+        sssom:6c2562337f145edb92c9ab829f90d691,
+        sssom:6cbc780ff0d658b9867b10e857299c1c,
+        sssom:6d170d443d555dc2b0ae540e5259d691,
+        sssom:6d60656e5ed95b049bc11d69e227ec43,
+        sssom:6f2733a3e61157fda2eb062ba7e8c3d1,
+        sssom:6f51331d7ac850b18c1b535fb896dfb6,
+        sssom:6fbbfd726fd65ba68a2fccf19f65c7b5,
+        sssom:7004420d603756ddb07af1e3ad7c9c32,
+        sssom:70a0bd9a8700507ebe5e570c0de0c0bb,
+        sssom:719c5dbfbd435ef9a76fdfa36d46f0f0,
+        sssom:72f9db7ddb0c53d1b9699a669bf6cd43,
+        sssom:735cd2d8293356ada175033a1b19965d,
+        sssom:73ea3b6c34135733b0dd9e8e127bad57,
+        sssom:740185538c7e506aac4e3cbc676a651f,
+        sssom:744b6a046a28541491564797f2527624,
+        sssom:751ea9b0099f5fd18fb37c070abeedd8,
+        sssom:7536026a9dae56ff820f8c3cd9a8f78a,
+        sssom:754f2f407a6d5a14ba88476f83c50172,
+        sssom:75794fba25b85197ba6a649a86aa4a47,
+        sssom:75fd1ee630e65235a1d51aa9a6bf1c3c,
+        sssom:763fdbfcf2445abd8e44c0de7e458898,
+        sssom:7684794d76b05670808a9c69510af1a3,
+        sssom:7718c092da62563f8073f5e17b17a4db,
+        sssom:772a692dd4925d44b4483539d990ad24,
+        sssom:77eecf3f75ae5846ab963c9f205a3a5b,
+        sssom:78a5584c59845a7da29d6c20d892249e,
+        sssom:793c1ee33ab65d188292b8f59c11f137,
+        sssom:79ef4eaff9f55fddb84a8b4b9158f7c7,
+        sssom:7adefb5133c45644a34e5a91310f11c4,
+        sssom:7bb71662cb485d27a6297b87d26b31b0,
+        sssom:7cae9a068cda5850b3802500b578639b,
+        sssom:7d35264e9b4a52a98b8b09d289f52dd7,
+        sssom:7d447b76394d5dd3ad078b2b82c3a09a,
+        sssom:7e16b61c878c564eb209632c928647e6,
+        sssom:7e19167df4e65ed4bc2d6dc9b1e96184,
+        sssom:7f25348a892c58a7a6ba7ac5b59ace45,
+        sssom:7f4366705b545e948936d378e14c8a37,
+        sssom:7f6215fbf6d258f4978bb64aa6992f26,
+        sssom:7f678354b5465a1394c711620245ae3c,
+        sssom:7f9b78c8fa3658f59dd5346b236b21e8,
+        sssom:8052f08fdb3950d9b185444921f7879b,
+        sssom:8182c270fa9c5d4f9d80317ac77653e8,
+        sssom:838a6d307d075de1af1eda5a1d85c6bc,
+        sssom:83bc40e4c5e659ebbf9ba4bfdfaee163,
+        sssom:83e1969c51e95023b694f1cf9d188948,
+        sssom:8401cd3214c158438c0cda9a9fb88e59,
+        sssom:85c695ddc55757179f394ec4180ee1c6,
+        sssom:870503b0a2f157d9bd31230facaa1779,
+        sssom:883666ab678f5b748b77293894f1f151,
+        sssom:8902bb4c51d85ab3a8ed5af23209ea28,
+        sssom:892e964975395e599a7fc557a208dc22,
+        sssom:8ad577ddb3e1517f9f573c4ef0f7f39a,
+        sssom:8c3ce22f857b553fa62f6b0abc529243,
+        sssom:8c61b190e9c95076a40ccb92ad0a1c79,
+        sssom:8e009955de535c54bda5e5c71a6c6581,
+        sssom:8e59ae8daca85174b5dd6581f3017281,
+        sssom:8ebf82ee00a9569a81b7a00ab7c56e85,
+        sssom:8f534b9e757c59cb9670234bdf1dd241,
+        sssom:8f78b9757abf51329082d2b7ba9bcc11,
+        sssom:9098634e00fc5b56b90e362f6a7aa9a2,
+        sssom:9154fd54164e5b23b7a149b0bc61b248,
+        sssom:921891b95b44591e944bb1bbdee073f1,
+        sssom:92487894ce6f5b3d908133f80c5274ac,
+        sssom:9264aff8b4125a45968fd30c67953060,
+        sssom:927d719d860151b3bdcc6f75cc7a5421,
+        sssom:92b97dadb3a75e95ae45c38b2aaecb1d,
+        sssom:944f01278e11553fb4b5ac71324a8991,
+        sssom:955d0b32a87855c88593a5d034f9a16b,
+        sssom:95bde046a10b50ceb16c511cf183c6d6,
+        sssom:96f5caf81fc159e5a04ee978d8c8df20,
+        sssom:9722c05318e1523d86bed2bc65b20853,
+        sssom:972c9e55d121518a8f1b958febd3aa7d,
+        sssom:987689c4adc058d6a4e4f19a64d405fd,
+        sssom:993a032e1a245669924acad56e228010,
+        sssom:995c5a8ea30a532fa7aded12db3f270b,
+        sssom:99fb01865d35580eb0f4622cfdb74d8a,
+        sssom:9a46c5a2dbdc5a67b0c981fff43c073d,
+        sssom:9adf50e8c9415f23b9dbb12a3106bbc3,
+        sssom:9b689b3806955d8582c4404ac3da7407,
+        sssom:9c0578889ee050a69dbe3c986767c172,
+        sssom:9d6ae6ead4035ac9b23de6f363f905b3,
+        sssom:9db1203ee80e5f8f9532173dc53abe82,
+        sssom:9db24927b4c85f178bdbd31486ac0906,
+        sssom:9db348c8ca5d59819da0e66829fbdf5b,
+        sssom:9dfad8d7f9915385bc07ea419981f212,
+        sssom:9fbb93ab62495e9d9b5c206de4d8dbd8,
+        sssom:a159fa6a6905553a9e563ab39e268839,
+        sssom:a16d3a07fcff59989de5d2a7d1a2dc33,
+        sssom:a19264333e335c4d8383f55c83595886,
+        sssom:a1ac895be19f5ca4a8532dbebc934c78,
+        sssom:a25f0552fa2150babe255999f05451ae,
+        sssom:a30bcac88352561494a5ec1a3570520d,
+        sssom:a37a67d720895b2987bfda833bb442d2,
+        sssom:a4a192a67d05503cbdc0b14ea7432121,
+        sssom:a57368007e0a5fe2bd54f9fe06d964b5,
+        sssom:a718dceb32fe5a5e98c954a86e95787b,
+        sssom:a7a21a7a135a5bd7a28de4273ac76079,
+        sssom:a7ec4a19e1e45378a0d4a5e3770a6abd,
+        sssom:a92cec9f422e5a9dbeff1d7183f9421d,
+        sssom:a9a116acf5b85acd8f03a5b346955304,
+        sssom:a9e4908985b753d5936d6aae37512531,
+        sssom:aa63cd09f65c5608b571247d8ebde185,
+        sssom:aaed0ca8cc465bd9bcce7a35f2c93952,
+        sssom:ab8c588a377c5a84b16cced33f31c1ca,
+        sssom:abc2ad6c0ce652d09dd479a321924e66,
+        sssom:ad6a5de886d55b06b53f8396b431fba3,
+        sssom:ae11fcbafed659beb80badfff48fa632,
+        sssom:ae376f70bd3f59b2b112390c1e965503,
+        sssom:ae7b1ad5e09e514293b776501e05b71e,
+        sssom:aea58bae08c7581aa53d7fe956235b69,
+        sssom:af272422df2d536c88ef23836eed84f1,
+        sssom:af53a96f6f4152908d6b840bcfc36efb,
+        sssom:afcafe70ef5e506d92c09f5c98885b33,
+        sssom:affc2b4a0b4457d08113015fa7c8d42e,
+        sssom:b080eb2385d95252821fa8526379868b,
+        sssom:b226fb48893a533f9d79b3d01164dd45,
+        sssom:b294493e379158c9b483668333b744be,
+        sssom:b41e62bd85c1553598071ed4c6fc20c4,
+        sssom:b56c15629445540e95729e99460bafdd,
+        sssom:b616bf2ccd215c6d8af3faf1ccfe99b6,
+        sssom:b7194cd07e2a5f438670d83619f3e853,
+        sssom:b96a2dd661f05155ae558b465d488323,
+        sssom:b9a02391394f51e0ad784ccf32101a43,
+        sssom:b9a0d42271dd51f4901aa06e83d61e26,
+        sssom:b9c2e01ab83651859b377bb195b7f4f3,
+        sssom:ba07c8a439c15e1f8a212154e5dcac53,
+        sssom:ba65e898579e5016b7459a79bdb6cb0f,
+        sssom:ba9bef58974353399aecbd4c77f2d623,
+        sssom:baced0db22185cc48c7ae2d91c21e3ba,
+        sssom:bb3d9ca59be455fc9500723a87de0c78,
+        sssom:bb53859e6981526c9f35c61b96c9b2c1,
+        sssom:bb6df4bfed5b58d19d45dbce6f960606,
+        sssom:bbaace59ca7b5bce9c3c1bb5b7483c79,
+        sssom:bbcaf064c174588491166d0f280a0984,
+        sssom:bbe77f2f79a35545bd13b65570a422e7,
+        sssom:bced9fe167685fbf8c100eaf43c123a5,
+        sssom:be60a8df85c35ee4b2e0fe298213a798,
+        sssom:be8ab9dc92f05dfda29874e8b074979e,
+        sssom:beee22d57e5b549789184e3b60eaa2a3,
+        sssom:bef1d6979be454289c38b99015cda2b9,
+        sssom:bf2989d9d1a55b4fb70eed8b3443cf68,
+        sssom:bf3d31cb406752cba6b9dbd4ab7cb123,
+        sssom:c02579154ac15f888bebfe105f6a328c,
+        sssom:c0f16149d3f4558fadda3cb4467f6cc5,
+        sssom:c151c0cab60154019eeec6d3d0efda4d,
+        sssom:c1b771447b035aa182a2cf46b37b0a57,
+        sssom:c1bf16f47a1457b5ac27becda83b04e1,
+        sssom:c1de68a3c29c5d8296b1131aefe75120,
+        sssom:c1f7f7bb5d165bb2bb05ca788f7a0369,
+        sssom:c2a5807ddaef5e2d979ec9651fe1d4f3,
+        sssom:c3581335f46b5607b0994ec69f32c962,
+        sssom:c35db1f2c7995caba52e03c787281cab,
+        sssom:c37669ae28795ef594f0aa0f63cecdf0,
+        sssom:c46fe9ee41865cf48e44f7f0b73b6159,
+        sssom:c4865ffc528c51c6a821658a9f1ff96e,
+        sssom:c50ca2d1ae9b5c698067087f76e5a2e3,
+        sssom:c562d75fb8c75ac0a30c80f43f20748a,
+        sssom:c58ec767cc625e11bb7c104b3f1b723e,
+        sssom:c612b8ff45cc5731bb156d12c6eb8c6f,
+        sssom:c64479642b8455ebb76899ee6190386a,
+        sssom:c68c8e4b079a51ef94dfe2ba6c5324f7,
+        sssom:c7df5198fcb15aefaa0e203808ff95b6,
+        sssom:c87ed4f9e16b5d2199a068d95a6c2d82,
+        sssom:c945f7d082735043a8b4d7685cfa8fe3,
+        sssom:cc0d4dd1815c52d5bbf2bbda19d132a7,
+        sssom:ccb3371f4e3359fca6e463bfa55a45ff,
+        sssom:cd07480d00d3586086ae166b7b5ed90b,
+        sssom:cd10f8b5155d50d2b2f0a6a5d9a0f57f,
+        sssom:cda685c5ec3754bcaab4a9d2b2edbf49,
+        sssom:cde0524fb8c45f899eeed282273f3411,
+        sssom:ce727fe2e3ba55ce8fc83bda343a5381,
+        sssom:cec241b98aed5ce0b864449ec051f874,
+        sssom:cfb3b250a03c5b9eb0f955e5dd3d7ac9,
+        sssom:d08461e11fa9525cbb521179f12ad695,
+        sssom:d0d5ab4c97405f81b856f3e4ecff49ee,
+        sssom:d16c6029d190518b88df502c230fefa4,
+        sssom:d2cd6ed9d5ef5efd95f8debabf41b6bd,
+        sssom:d355f81c695955c9af462d0d7a17ed58,
+        sssom:d49eed7866745fd4b5fa20ddb7fb403d,
+        sssom:d4fab15db06050c6bb7d038ce7720aae,
+        sssom:d50cdd308ebc5afc95f4da1c16f1a8d2,
+        sssom:d57e539739d45a089123abc4f0123301,
+        sssom:d60917b1feab5b108d8d6c374e2ab7f9,
+        sssom:d6b910f7765753b09f5bce27f4a7e1a3,
+        sssom:d6e6b70d40595378a06c487ea69e316a,
+        sssom:d732f33dfbf25f7cb51b5ee003380a9d,
+        sssom:d7ab0e1b1b975ba19c258f313ca34fbf,
+        sssom:d838e18bfb8c5d9a82366639dba3f52a,
+        sssom:d925d61e5f93565096bce07516f71823,
+        sssom:d968e8c6b05a54fb969fb801069ea94d,
+        sssom:d9a2973c447e5d6f94aaba20c90515b5,
+        sssom:dc11a2b2cee55a5fa0420710dc35d801,
+        sssom:dce2ac6e10e656fca1fcc8d3e63be3f4,
+        sssom:dd4223a166ed57a4bb9c77eeb04f157f,
+        sssom:de22422d08fa5d4984fe97a06b53d270,
+        sssom:df25223c32cd5ef4b9933a15b418945f,
+        sssom:e04b0f326faf556499798aa4d8182be0,
+        sssom:e18838b6bf44512eab52c9123bf1eaf3,
+        sssom:e1b7f60c3f155728a38a49ccfc903250,
+        sssom:e1c2c2b78b2956cfaff71db0610fa9eb,
+        sssom:e2c9724317c1584b81c1503565d56ffb,
+        sssom:e36f57d237b5540ba5502a4e565edf83,
+        sssom:e3c73977ad9c5bf5b7023d07f5fc8664,
+        sssom:e45b0685880c5a248b785355e0f3ffce,
+        sssom:e46408f97683522a8fc7f3e5169936d5,
+        sssom:e4c2218d361151e4a4fb3b2002899593,
+        sssom:e4d4649b989b58b7a64b5a8098fe9872,
+        sssom:e60f7624b0b859f98c7ad77fe42ce9bf,
+        sssom:e861cd8042135cef8dd9f17513bdefa3,
+        sssom:eab4dfe4398456c595da232b9af46b67,
+        sssom:eaf75bbb5f025572b88c3076da8dc615,
+        sssom:eb41e4b51166564faecd7edc06ac0d95,
+        sssom:eb8306041bfd57f7a48bfb7a93c38ca9,
+        sssom:ebebb6fbcdc7570c948d5757f0997a35,
+        sssom:ec14855a55b95855b423b6433a74f317,
+        sssom:ec7de7daae4d5636849a21e613263fed,
+        sssom:ecb8a9b2af7a5baa9921934e3bb1ed36,
+        sssom:ecba59eaf77c532c9b9cfd14b72f00a8,
+        sssom:ed27421fe98157e4b52dc3553b00053e,
+        sssom:edb7dc4ab61d51569e4cfe4392164637,
+        sssom:edf0bd6c0c5c5eaeaf1220650a01ade3,
+        sssom:ee0c2da4e19159a78ead33acb210a151,
+        sssom:ef38757c8d135ab3954df0e33df911a7,
+        sssom:effc820ea83554d38f3dd706d9dcf87f,
+        sssom:f08a8c97c51b5f408643549cbec888c3,
+        sssom:f0f61dd22afe55cba7f9c338f925fd01,
+        sssom:f130f98cd62b5e81b2e09ad5058f952b,
+        sssom:f2bc0ba0a76a5d7f8ee313e55b27b39e,
+        sssom:f2ccaeee032f539d9de4767948ff58c6,
+        sssom:f35d93a82c7a593688835f5498dc7b50,
+        sssom:f5ca56c55db95d7485af852cf6c12def,
+        sssom:f5ee0b243d9a5f33a47e4c0063edbc36,
+        sssom:f7c156557435577a8a6f4909d1d0d966,
+        sssom:f8c8907500db57d9ad62624fc3904cfe,
+        sssom:f92bfac73e0e52b1a5f76d5743c555a2,
+        sssom:f937f5b3afa2500c8032e33c43f98b34,
+        sssom:f9aa7ba517f258c192d61f4f58be1e54,
+        sssom:f9fe0d69faef55f6a8d2017bb32fb08e,
+        sssom:fa62232e2e3c5b56a2f70b144514b0e0,
+        sssom:fa83f685b87d59e9960a895e0c5d776e,
+        sssom:fae2b27888f35a418a5fd50beafbc264,
+        sssom:fd2c8634f5c056c2912ed1f5145140a0,
+        sssom:fdbaf1a163355f9cbba19b5ae7e82598,
+        sssom:fdbafae3369b560e9a8bb7f0638133ce,
+        sssom:ff6e78366d855e4193b967604eae9f62,
+        sssom:ffef8a7ac5e55ca1b2862bc189ea9e65,
+        sssom:fff488b3e88f5978932d0e730c8fa819 ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/mp> ;
+            sssom:local_id "mp.ols" ] ;
+    sssom:uuid "e22aefae4ce1551f830dda66c65e14e5"^^<xsd:string> .
+
+sssom:0143f2627c625186981e71f49a8b304e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002126> ;
+    owl:annotatedTarget MGI:2173586 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete hematology: no defect detected" ;
+    sssom:uuid "0143f2627c625186981e71f49a8b304e"^^<xsd:string> .
+
+sssom:0225987eef8452639b444b089073a9a5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005267> ;
+    owl:annotatedTarget <ma:0000193> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory cortex" ;
+    sssom:subject_label "abnormal olfactory cortex morphology" ;
+    sssom:uuid "0225987eef8452639b444b089073a9a5"^^<xsd:string> .
+
+sssom:035cfea4b17359418b72bdb95a8a3bab a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010186> ;
+    owl:annotatedTarget <cl:0002038> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T follicular helper cell" ;
+    sssom:subject_label "increased T follicular helper cell number" ;
+    sssom:uuid "035cfea4b17359418b72bdb95a8a3bab"^^<xsd:string> .
+
+sssom:0366d0e8bd9e5d3d8eb9e9642f92f068 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002099> ;
+    owl:annotatedTarget MGI:2173548 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete vibrissae: no defect detected" ;
+    sssom:uuid "0366d0e8bd9e5d3d8eb9e9642f92f068"^^<xsd:string> .
+
+sssom:03ddba1ffdf35ec4b00dcd4d3cdc47b5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008027> ;
+    owl:annotatedTarget <ma:0000910> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spinal cord white matter" ;
+    sssom:subject_label "abnormal spinal cord white matter morphology" ;
+    sssom:uuid "03ddba1ffdf35ec4b00dcd4d3cdc47b5"^^<xsd:string> .
+
+sssom:0524b4c5efbd5c94a3e236ac8fcccc07 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001163> ;
+    owl:annotatedTarget <ma:0002422> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "prostate gland anterior lobe" ;
+    sssom:subject_label "abnormal prostate gland anterior lobe morphology" ;
+    sssom:uuid "0524b4c5efbd5c94a3e236ac8fcccc07"^^<xsd:string> .
+
+sssom:0531b19f2e22562d90b6116d9f130fff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009684> ;
+    owl:annotatedTarget <ma:0001129> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spinal cord lateral motor column" ;
+    sssom:subject_label "abnormal spinal cord lateral motor column morphology" ;
+    sssom:uuid "0531b19f2e22562d90b6116d9f130fff"^^<xsd:string> .
+
+sssom:06020d0fc2f75667afea42a841cf880c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002156> ;
+    owl:annotatedTarget MGI:2173616 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete central nervous system: no defect detected" ;
+    sssom:uuid "06020d0fc2f75667afea42a841cf880c"^^<xsd:string> .
+
+sssom:06f60e9f14b5561fb30fb8f08e66d911 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002083> ;
+    owl:annotatedTarget MGI:2173528 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "premature death" ;
+    sssom:uuid "06f60e9f14b5561fb30fb8f08e66d911"^^<xsd:string> .
+
+sssom:0761174e45a75a7895a01a3c83d9297b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001004> ;
+    owl:annotatedTarget <cl:0000210> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "photoreceptor cell" ;
+    sssom:subject_label "abnormal retina photoreceptor morphology" ;
+    sssom:uuid "0761174e45a75a7895a01a3c83d9297b"^^<xsd:string> .
+
+sssom:07c93232cadc5b019cd7a1d5f5e68827 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002140> ;
+    owl:annotatedTarget MGI:2173600 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete liver/hepatic system: no defect detected" ;
+    sssom:uuid "07c93232cadc5b019cd7a1d5f5e68827"^^<xsd:string> .
+
+sssom:08898ad283fc52d1a366a3d579d21576 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001253> ;
+    owl:annotatedTarget <go:0040007> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "growth" ;
+    sssom:subject_label "abnormal body height" ;
+    sssom:uuid "08898ad283fc52d1a366a3d579d21576"^^<xsd:string> .
+
+sssom:08b998b2e77258fa8ed84270e524bc03 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005068> ;
+    owl:annotatedTarget <fma:63147> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Natural killer cell" ;
+    sssom:subject_label "abnormal NK cell morphology" ;
+    sssom:uuid "08b998b2e77258fa8ed84270e524bc03"^^<xsd:string> .
+
+sssom:09eee828f3bd5c37a8bfeeb8577dae70 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011210> ;
+    owl:annotatedTarget <ma:0002899> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "temporomandibular joint" ;
+    sssom:subject_label "abnormal temporomandibular joint morphology" ;
+    sssom:uuid "09eee828f3bd5c37a8bfeeb8577dae70"^^<xsd:string> .
+
+sssom:09f66b4a77205a39bbe5aea11b15cedf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002174> ;
+    owl:annotatedTarget GO_2:0007669 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal gastrulation movements" ;
+    sssom:uuid "09f66b4a77205a39bbe5aea11b15cedf"^^<xsd:string> .
+
+sssom:0d10d36fe0fe5603801113fb6e251fe7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010841> ;
+    owl:annotatedTarget <cl:0000904> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "central memory CD4-positive, alpha-beta T cell" ;
+    sssom:subject_label "increased central memory CD4-positive, alpha-beta T cell number" ;
+    sssom:uuid "0d10d36fe0fe5603801113fb6e251fe7"^^<xsd:string> .
+
+sssom:0d44a103c2c2541db6b755fb8c338e2d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011572> ;
+    owl:annotatedTarget <fma:3740> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Bulb of aorta" ;
+    sssom:subject_label "abnormal aorta bulb morphology" ;
+    sssom:uuid "0d44a103c2c2541db6b755fb8c338e2d"^^<xsd:string> .
+
+sssom:0d4b21dae3fd563da835fdbfe14ea997 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0003633> ;
+    owl:annotatedTarget MGI:2173618 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal nervous system physiology" ;
+    sssom:uuid "0d4b21dae3fd563da835fdbfe14ea997"^^<xsd:string> .
+
+sssom:0ef09c92acf55fda8b1053c76873418e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002092> ;
+    owl:annotatedTarget MGI:2173536 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal eye morphology" ;
+    sssom:uuid "0ef09c92acf55fda8b1053c76873418e"^^<xsd:string> .
+
+sssom:11181b1cd2cb52ce8d7b3e8d07baa376 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009921> ;
+    owl:annotatedTarget <cl:0000960> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T3 B cell" ;
+    sssom:subject_label "abnormal transitional stage T3 B cell morphology" ;
+    sssom:uuid "11181b1cd2cb52ce8d7b3e8d07baa376"^^<xsd:string> .
+
+sssom:116db7a6d80d57629b28e8c3cec3a227 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004098> ;
+    owl:annotatedTarget <cl:0001031> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellar granule cell" ;
+    sssom:subject_label "abnormal cerebellar granule cell morphology" ;
+    sssom:uuid "116db7a6d80d57629b28e8c3cec3a227"^^<xsd:string> .
+
+sssom:1231c7da5c405c1a9606633b26d809ec a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010766> ;
+    owl:annotatedTarget <cl:0000623> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "natural killer cell" ;
+    sssom:subject_label "abnormal NK cell physiology" ;
+    sssom:uuid "1231c7da5c405c1a9606633b26d809ec"^^<xsd:string> .
+
+sssom:13a3878e4afc50cb80cf6ff39004880d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002065> ;
+    owl:annotatedTarget MGI:2173570 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal fear/anxiety-related behavior" ;
+    sssom:uuid "13a3878e4afc50cb80cf6ff39004880d"^^<xsd:string> .
+
+sssom:13ea5c97dfff5f528a0b7bab80c850c4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001286> ;
+    owl:annotatedTarget <go:0001654> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "eye development" ;
+    sssom:subject_label "abnormal eye development" ;
+    sssom:uuid "13ea5c97dfff5f528a0b7bab80c850c4"^^<xsd:string> .
+
+sssom:152480a4bc28599c98f3438278abe372 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010670> ;
+    owl:annotatedTarget <go:0006924> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "activation-induced cell death of T cells" ;
+    sssom:subject_label "abnormal activation-induced cell death of T cells" ;
+    sssom:uuid "152480a4bc28599c98f3438278abe372"^^<xsd:string> .
+
+sssom:167b80bdcc425a6b8b910ced67347e77 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011240> ;
+    owl:annotatedTarget <cl:0002357> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fetal derived definitive erythrocyte" ;
+    sssom:subject_label "abnormal fetal derived definitive erythrocyte morphology" ;
+    sssom:uuid "167b80bdcc425a6b8b910ced67347e77"^^<xsd:string> .
+
+sssom:1688bc8a8f2453b68ddfc25c1df1e61d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011344> ;
+    owl:annotatedTarget <ma:0001677> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "loop of henle ascending limb thick segment" ;
+    sssom:subject_label "abnormal loop of Henle ascending limb thick segment morphology" ;
+    sssom:uuid "1688bc8a8f2453b68ddfc25c1df1e61d"^^<xsd:string> .
+
+sssom:181ac20443ab57c19086a2ed22383685 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008045> ;
+    owl:annotatedTarget <cl:0000623> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "natural killer cell" ;
+    sssom:subject_label "decreased NK cell number" ;
+    sssom:uuid "181ac20443ab57c19086a2ed22383685"^^<xsd:string> .
+
+sssom:18f957af28225d8e828f0129ee5a4b2c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010837> ;
+    owl:annotatedTarget <cl:0000909> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD8-positive, alpha-beta memory T cell" ;
+    sssom:subject_label "abnormal CD8-positive, alpha-beta memory T cell morphology" ;
+    sssom:uuid "18f957af28225d8e828f0129ee5a4b2c"^^<xsd:string> .
+
+sssom:19245e14090f571baa94c7be8ab33002 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010183> ;
+    owl:annotatedTarget <fma:70572> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T-helper lymphocyte" ;
+    sssom:subject_label "abnormal CD4-positive helper T cell morphology" ;
+    sssom:uuid "19245e14090f571baa94c7be8ab33002"^^<xsd:string> .
+
+sssom:19d93b6d5f6f5a1ea91c680fd923717b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009920> ;
+    owl:annotatedTarget <cl:0000959> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T2 B cell" ;
+    sssom:subject_label "abnormal transitional stage T2 B cell morphology" ;
+    sssom:uuid "19d93b6d5f6f5a1ea91c680fd923717b"^^<xsd:string> .
+
+sssom:1acac062810154d0ad9ea2d89e883ede a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001701> ;
+    owl:annotatedTarget GO_2:0007669 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "incomplete embryo turning" ;
+    sssom:uuid "1acac062810154d0ad9ea2d89e883ede"^^<xsd:string> .
+
+sssom:1bc08da8395c52e58883a0aa5549dd58 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010957> ;
+    owl:annotatedTarget <go:0009060> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aerobic respiration" ;
+    sssom:subject_label "abnormal aerobic respiration" ;
+    sssom:uuid "1bc08da8395c52e58883a0aa5549dd58"^^<xsd:string> .
+
+sssom:1bc7f8b793b25e379ec97dbce4943728 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008050> ;
+    owl:annotatedTarget <cl:0000813> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "memory T cell" ;
+    sssom:subject_label "decreased memory T cell number" ;
+    sssom:uuid "1bc7f8b793b25e379ec97dbce4943728"^^<xsd:string> .
+
+sssom:1bdae29b012f5525bf00f643caf0d8e3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002096> ;
+    owl:annotatedTarget MGI:2173545 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete abnormal skin condition/ morphology" ;
+    sssom:uuid "1bdae29b012f5525bf00f643caf0d8e3"^^<xsd:string> .
+
+sssom:1c0a557edd8c5e368f86f561053c62b4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000913> ;
+    owl:annotatedTarget <go:0007420> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "brain development" ;
+    sssom:subject_label "abnormal brain development" ;
+    sssom:uuid "1c0a557edd8c5e368f86f561053c62b4"^^<xsd:string> .
+
+sssom:1c0ca8330b9354a681a04b1130173f50 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002138> ;
+    owl:annotatedTarget MGI:2173598 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal hepatobiliary system morphology" ;
+    sssom:uuid "1c0ca8330b9354a681a04b1130173f50"^^<xsd:string> .
+
+sssom:1c0e577aec95525694f616452ded509f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002139> ;
+    owl:annotatedTarget MGI:2173599 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal hepatobiliary system physiology" ;
+    sssom:uuid "1c0e577aec95525694f616452ded509f"^^<xsd:string> .
+
+sssom:1c45364465eb51c882e2f7575e678747 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001756> ;
+    owl:annotatedTarget <go:0060073> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "micturition" ;
+    sssom:subject_label "abnormal urination" ;
+    sssom:uuid "1c45364465eb51c882e2f7575e678747"^^<xsd:string> .
+
+sssom:1c5792b1adfe5c06a1c3fbe2b139cbf3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010810> ;
+    owl:annotatedTarget <fma:62501> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Type II alveolar epithelial cell" ;
+    sssom:subject_label "increased type II pneumocyte number" ;
+    sssom:uuid "1c5792b1adfe5c06a1c3fbe2b139cbf3"^^<xsd:string> .
+
+sssom:1c6101e1f318566eb7a2349abc1a4bc9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011341> ;
+    owl:annotatedTarget <ma:0001679> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "loop of henle descending limb" ;
+    sssom:subject_label "abnormal loop of Henle descending limb morphology" ;
+    sssom:uuid "1c6101e1f318566eb7a2349abc1a4bc9"^^<xsd:string> .
+
+sssom:1d1eec6f68275381a63b4a7428bcbeae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002095> ;
+    owl:annotatedTarget MGI:2173544 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal skin pigmentation" ;
+    sssom:uuid "1d1eec6f68275381a63b4a7428bcbeae"^^<xsd:string> .
+
+sssom:1d526a42aaa255099f5667f371362a66 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011908> ;
+    owl:annotatedTarget <cl:0002351> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "progenitor cell of endocrine pancreas" ;
+    sssom:subject_label "abnormal pancreatic endocrine progenitor cell proliferation" ;
+    sssom:uuid "1d526a42aaa255099f5667f371362a66"^^<xsd:string> .
+
+sssom:1e418a66b08a5d90bca485ad0b845ff1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010817> ;
+    owl:annotatedTarget <cl:0002062> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "type I pneumocyte" ;
+    sssom:subject_label "absent type I pneumocytes" ;
+    sssom:uuid "1e418a66b08a5d90bca485ad0b845ff1"^^<xsd:string> .
+
+sssom:1eb9246e43475daabb05fb0932dc1505 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010835> ;
+    owl:annotatedTarget <cl:0000897> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD4-positive, alpha-beta memory T cell" ;
+    sssom:subject_label "increased CD4-positive, alpha-beta memory T cell number" ;
+    sssom:uuid "1eb9246e43475daabb05fb0932dc1505"^^<xsd:string> .
+
+sssom:1ec9f148ba6f57bbac69e466ca4a6530 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001264> ;
+    owl:annotatedTarget <go:0040014> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "regulation of multicellular organism growth" ;
+    sssom:subject_label "increased body size" ;
+    sssom:uuid "1ec9f148ba6f57bbac69e466ca4a6530"^^<xsd:string> .
+
+sssom:1ecc146f6412594a95670d7180b12687 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011004> ;
+    owl:annotatedTarget <fma:70541> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Stem cell of epidermis" ;
+    sssom:subject_label "abnormal epidermal stem cell morphology" ;
+    sssom:uuid "1ecc146f6412594a95670d7180b12687"^^<xsd:string> .
+
+sssom:1f4c6e7deb8651b5bb060b97d555b966 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002143> ;
+    owl:annotatedTarget MGI:2173603 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete digestive system: no defect detected" ;
+    sssom:uuid "1f4c6e7deb8651b5bb060b97d555b966"^^<xsd:string> .
+
+sssom:1f5faa272f955d9da7484af2d85b8a38 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005068> ;
+    owl:annotatedTarget <fma:83601> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Null lymphocyte" ;
+    sssom:subject_label "abnormal NK cell morphology" ;
+    sssom:uuid "1f5faa272f955d9da7484af2d85b8a38"^^<xsd:string> .
+
+sssom:1f76ef2b167b53c8a70b324abf7b0d4f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010917> ;
+    owl:annotatedTarget <fma:14118> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Dense-core granulated cell" ;
+    sssom:subject_label "absent solitary pulmonary neuroendocrine cells" ;
+    sssom:uuid "1f76ef2b167b53c8a70b324abf7b0d4f"^^<xsd:string> .
+
+sssom:20384c5fcd18521c8db19199575a9343 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002061> ;
+    owl:annotatedTarget MGI:2173566 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal aggression-related behavior" ;
+    sssom:uuid "20384c5fcd18521c8db19199575a9343"^^<xsd:string> .
+
+sssom:20c09fb36f455707b3e2bdad79164893 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002447> ;
+    owl:annotatedTarget MGI:2173584 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal erythrocyte morphology" ;
+    sssom:uuid "20c09fb36f455707b3e2bdad79164893"^^<xsd:string> .
+
+sssom:218983f7a3ee5f85a361ca62a3d38a5d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0012079> ;
+    owl:annotatedTarget <go:0050883> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "musculoskeletal movement, spinal reflex action" ;
+    sssom:subject_label "abnormal spinal reflex" ;
+    sssom:uuid "218983f7a3ee5f85a361ca62a3d38a5d"^^<xsd:string> .
+
+sssom:21fe8990e8965d4188d3c59e9cd469ca a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011702> ;
+    owl:annotatedTarget <go:0048144> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fibroblast proliferation" ;
+    sssom:subject_label "abnormal fibroblast proliferation" ;
+    sssom:uuid "21fe8990e8965d4188d3c59e9cd469ca"^^<xsd:string> .
+
+sssom:2242a845d93f59ce98bc9a04dc798274 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001006> ;
+    owl:annotatedTarget <cl:0000573> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "retinal cone cell" ;
+    sssom:subject_label "abnormal retina cone cell morphology" ;
+    sssom:uuid "2242a845d93f59ce98bc9a04dc798274"^^<xsd:string> .
+
+sssom:226428b86f445b49ba944a36c396f5db a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010812> ;
+    owl:annotatedTarget <fma:62501> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Type II alveolar epithelial cell" ;
+    sssom:subject_label "absent type II pneumocytes" ;
+    sssom:uuid "226428b86f445b49ba944a36c396f5db"^^<xsd:string> .
+
+sssom:2324c251e9d255b8a2914836dec93cc3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010954> ;
+    owl:annotatedTarget <go:0045333> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cellular respiration" ;
+    sssom:subject_label "abnormal cellular respiration" ;
+    sssom:uuid "2324c251e9d255b8a2914836dec93cc3"^^<xsd:string> .
+
+sssom:237201fb48df513aa045403217905d9d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009875> ;
+    owl:annotatedTarget MGI:llw2 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "absent interdigital cell death" ;
+    sssom:uuid "237201fb48df513aa045403217905d9d"^^<xsd:string> .
+
+sssom:246387d008ff5caa8c32370bc1f0b1ea a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010184> ;
+    owl:annotatedTarget <cl:0002038> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T follicular helper cell" ;
+    sssom:subject_label "abnormal T follicular helper cell morphology" ;
+    sssom:uuid "246387d008ff5caa8c32370bc1f0b1ea"^^<xsd:string> .
+
+sssom:24e02cf7872751e791d1d15e89687d93 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010959> ;
+    owl:annotatedTarget <go:0006119> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "oxidative phosphorylation" ;
+    sssom:subject_label "abnormal oxidative phosphorylation" ;
+    sssom:uuid "24e02cf7872751e791d1d15e89687d93"^^<xsd:string> .
+
+sssom:25bbca3dbed45c1b84d9e9dfc7432d61 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002162> ;
+    owl:annotatedTarget MGI:2173622 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete reproductive system: no defect detected" ;
+    sssom:uuid "25bbca3dbed45c1b84d9e9dfc7432d61"^^<xsd:string> .
+
+sssom:25e68d4e9e745e29b78c557363f1c2d2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002122> ;
+    owl:annotatedTarget MGI:2173582 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete metabolism: no defect detected" ;
+    sssom:uuid "25e68d4e9e745e29b78c557363f1c2d2"^^<xsd:string> .
+
+sssom:261c1b681ffc543bbb308f7c22338a55 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010132> ;
+    owl:annotatedTarget <cl:0000806> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DN2 thymocyte" ;
+    sssom:subject_label "decreased DN2 thymocyte number" ;
+    sssom:uuid "261c1b681ffc543bbb308f7c22338a55"^^<xsd:string> .
+
+sssom:263b29493be75ba9a11c5b93d6e22406 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004249> ;
+    owl:annotatedTarget <ma:0002771> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "crista ampullaris" ;
+    sssom:subject_label "abnormal crista ampullaris morphology" ;
+    sssom:uuid "263b29493be75ba9a11c5b93d6e22406"^^<xsd:string> .
+
+sssom:26626fd1cf7650e6b831598bab27600f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002135> ;
+    owl:annotatedTarget MGI:2173595 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal kidney morphology" ;
+    sssom:uuid "26626fd1cf7650e6b831598bab27600f"^^<xsd:string> .
+
+sssom:2682f9eb77aa588da0f38f566bc73857 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010766> ;
+    owl:annotatedTarget <fma:63147> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Natural killer cell" ;
+    sssom:subject_label "abnormal NK cell physiology" ;
+    sssom:uuid "2682f9eb77aa588da0f38f566bc73857"^^<xsd:string> .
+
+sssom:26d210e7875a59ad8daa74eed2564beb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009734> ;
+    owl:annotatedTarget <ma:0002785> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "prostate duct" ;
+    sssom:subject_label "abnormal prostate gland duct morphology" ;
+    sssom:uuid "26d210e7875a59ad8daa74eed2564beb"^^<xsd:string> .
+
+sssom:27a13849eac957a1b961c423ccfea555 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002111> ;
+    owl:annotatedTarget MGI:2173551 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal tail morphology" ;
+    sssom:uuid "27a13849eac957a1b961c423ccfea555"^^<xsd:string> .
+
+sssom:290d60a101e85dbb8637fc6054e6500f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005168> ;
+    owl:annotatedTarget <go:0007143> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "female meiotic nuclear division" ;
+    sssom:subject_label "abnormal female meiosis" ;
+    sssom:uuid "290d60a101e85dbb8637fc6054e6500f"^^<xsd:string> .
+
+sssom:29121ae9be1657e79473d41ffeca569e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011245> ;
+    owl:annotatedTarget <cl:0002357> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fetal derived definitive erythrocyte" ;
+    sssom:subject_label "abnormal fetal derived definitive erythrocyte physiology" ;
+    sssom:uuid "29121ae9be1657e79473d41ffeca569e"^^<xsd:string> .
+
+sssom:291418eec3d95675b2821e6eac282f17 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001672> ;
+    owl:annotatedTarget <go:0007275> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "multicellular organism development" ;
+    sssom:subject_label "abnormal embryo development" ;
+    sssom:uuid "291418eec3d95675b2821e6eac282f17"^^<xsd:string> .
+
+sssom:2986128f8f1352b1a232554193609c01 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010131> ;
+    owl:annotatedTarget <cl:0000806> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DN2 thymocyte" ;
+    sssom:subject_label "increased DN2 thymocyte number" ;
+    sssom:uuid "2986128f8f1352b1a232554193609c01"^^<xsd:string> .
+
+sssom:2a0c345994c15c6fa715c79a8732198a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002166> ;
+    owl:annotatedTarget MGI:2173626 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal tumor susceptibility" ;
+    sssom:uuid "2a0c345994c15c6fa715c79a8732198a"^^<xsd:string> .
+
+sssom:2a4e0f0466a85c268b2baeb2729ee274 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0003729> ;
+    owl:annotatedTarget <go:0001750> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "photoreceptor outer segment" ;
+    sssom:subject_label "abnormal photoreceptor outer segment morphology" ;
+    sssom:uuid "2a4e0f0466a85c268b2baeb2729ee274"^^<xsd:string> .
+
+sssom:2ada1f8c5e7e51098e0929559c882146 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009868> ;
+    owl:annotatedTarget <ma:0002572> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "descending thoracic aorta" ;
+    sssom:subject_label "abnormal descending thoracic aorta morphology" ;
+    sssom:uuid "2ada1f8c5e7e51098e0929559c882146"^^<xsd:string> .
+
+sssom:2c6882d9924252e686cc55becc96986d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002274> ;
+    owl:annotatedTarget <cl:0002062> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "type I pneumocyte" ;
+    sssom:subject_label "abnormal type I pneumocyte morphology" ;
+    sssom:uuid "2c6882d9924252e686cc55becc96986d"^^<xsd:string> .
+
+sssom:2cc67c03abee5e1bb257ea8e3de7e435 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011719> ;
+    owl:annotatedTarget <go:0042267> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "natural killer cell mediated cytotoxicity" ;
+    sssom:subject_label "abnormal natural killer cell mediated cytotoxicity" ;
+    sssom:uuid "2cc67c03abee5e1bb257ea8e3de7e435"^^<xsd:string> .
+
+sssom:2f36d5fcaf2a5b469b7664bd48caee32 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010817> ;
+    owl:annotatedTarget <fma:62500> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Type I alveolar epithelial cell" ;
+    sssom:subject_label "absent type I pneumocytes" ;
+    sssom:uuid "2f36d5fcaf2a5b469b7664bd48caee32"^^<xsd:string> .
+
+sssom:2f4aad4f2ffc5d93aabf9f87dd9597f9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002350> ;
+    owl:annotatedTarget <ma:0000749> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "efferent lymphatic vessel" ;
+    sssom:subject_label "abnormal efferent lymphatic vessel morphology" ;
+    sssom:uuid "2f4aad4f2ffc5d93aabf9f87dd9597f9"^^<xsd:string> .
+
+sssom:2fa0773f942c5830bb7ac740d373cb51 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002107> ;
+    owl:annotatedTarget MGI:2173560 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete musculature: no defect detected" ;
+    sssom:uuid "2fa0773f942c5830bb7ac740d373cb51"^^<xsd:string> .
+
+sssom:30679cd3f919582ab10ad766488b98e8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010833> ;
+    owl:annotatedTarget <cl:0000813> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "memory T cell" ;
+    sssom:subject_label "abnormal memory T cell morphology" ;
+    sssom:uuid "30679cd3f919582ab10ad766488b98e8"^^<xsd:string> .
+
+sssom:316e2005592953b28991f0a5a916917f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001035> ;
+    owl:annotatedTarget <ma:0002470> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "submandibular ganglion" ;
+    sssom:subject_label "abnormal submandibular ganglion morphology" ;
+    sssom:uuid "316e2005592953b28991f0a5a916917f"^^<xsd:string> .
+
+sssom:3179b03b74af58a9ba70274134295ed5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002092> ;
+    owl:annotatedTarget <go:0001654> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "eye development" ;
+    sssom:subject_label "abnormal eye morphology" ;
+    sssom:uuid "3179b03b74af58a9ba70274134295ed5"^^<xsd:string> .
+
+sssom:31dcf870eaea587d9ef08fbd610f0bf0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011910> ;
+    owl:annotatedTarget <cl:0002351> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "progenitor cell of endocrine pancreas" ;
+    sssom:subject_label "decreased pancreatic endocrine progenitor cell proliferation" ;
+    sssom:uuid "31dcf870eaea587d9ef08fbd610f0bf0"^^<xsd:string> .
+
+sssom:3229aca2241457c6b2a7db8ba981046a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009924> ;
+    owl:annotatedTarget <cl:0000958> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T1 B cell" ;
+    sssom:subject_label "absent transitional stage T1 B cells" ;
+    sssom:uuid "3229aca2241457c6b2a7db8ba981046a"^^<xsd:string> .
+
+sssom:3239602456bf565c893f2f8699e674c5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002073> ;
+    owl:annotatedTarget MGI:2173539 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal hair growth" ;
+    sssom:uuid "3239602456bf565c893f2f8699e674c5"^^<xsd:string> .
+
+sssom:3322070019da59a3b121529f3cc4ab77 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002131> ;
+    owl:annotatedTarget MGI:2173591 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete heart/cardiovascular system: no defect detected" ;
+    sssom:uuid "3322070019da59a3b121529f3cc4ab77"^^<xsd:string> .
+
+sssom:3333aaaf6d3e565cb536ac082e9c3758 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000026> ;
+    owl:annotatedTarget <go:0042472> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "inner ear morphogenesis" ;
+    sssom:subject_label "abnormal inner ear morphology" ;
+    sssom:uuid "3333aaaf6d3e565cb536ac082e9c3758"^^<xsd:string> .
+
+sssom:344a9fa948f85929b1a50f01f474dc66 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010042> ;
+    owl:annotatedTarget <cl:1000036> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CL_1000036" ;
+    sssom:subject_label "abnormal oval cell physiology" ;
+    sssom:uuid "344a9fa948f85929b1a50f01f474dc66"^^<xsd:string> .
+
+sssom:34680430d7ea5f959c5ba68ed58b255a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008400> ;
+    owl:annotatedTarget <cl:0000793> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD4-positive, alpha-beta intraepithelial T cell" ;
+    sssom:subject_label "abnormal CD4-positive, alpha-beta intraepithelial T cell morphology" ;
+    sssom:uuid "34680430d7ea5f959c5ba68ed58b255a"^^<xsd:string> .
+
+sssom:35242ba0f93f59318a5bc9c19a7af7f8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010153> ;
+    owl:annotatedTarget <ma:0002951> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "gastroesophageal sphincter" ;
+    sssom:subject_label "abnormal gastroesophageal sphincter morphology" ;
+    sssom:uuid "35242ba0f93f59318a5bc9c19a7af7f8"^^<xsd:string> .
+
+sssom:352b2660ae635a7ba49863fdc268d47c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009867> ;
+    owl:annotatedTarget <ma:0002570> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ascending aorta" ;
+    sssom:subject_label "abnormal ascending aorta morphology" ;
+    sssom:uuid "352b2660ae635a7ba49863fdc268d47c"^^<xsd:string> .
+
+sssom:367da74b2b565c2ba41dad131f5dbf58 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002275> ;
+    owl:annotatedTarget <cl:0002063> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "type II pneumocyte" ;
+    sssom:subject_label "abnormal type II pneumocyte morphology" ;
+    sssom:uuid "367da74b2b565c2ba41dad131f5dbf58"^^<xsd:string> .
+
+sssom:369ab111d118595db7117955a5a43252 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002103> ;
+    owl:annotatedTarget MGI:2173557 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete ears: no defect detected" ;
+    sssom:uuid "369ab111d118595db7117955a5a43252"^^<xsd:string> .
+
+sssom:3835520347275dc1b38c90fd19c1b0cf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001964> ;
+    owl:annotatedTarget <go:0007605> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensory perception of sound" ;
+    sssom:subject_label "obsolete abnormal auditory threshold" ;
+    sssom:uuid "3835520347275dc1b38c90fd19c1b0cf"^^<xsd:string> .
+
+sssom:392d2ab2c09759d382aa083d47247a18 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009927> ;
+    owl:annotatedTarget <cl:0000959> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T2 B cell" ;
+    sssom:subject_label "absent transitional stage T2 B cells" ;
+    sssom:uuid "392d2ab2c09759d382aa083d47247a18"^^<xsd:string> .
+
+sssom:392f8aeaddfe5132a0a1df99ad36c830 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001675> ;
+    owl:annotatedTarget <go:0001705> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ectoderm formation" ;
+    sssom:subject_label "abnormal ectoderm development" ;
+    sssom:uuid "392f8aeaddfe5132a0a1df99ad36c830"^^<xsd:string> .
+
+sssom:39c6153f62c75e188fe980ede996aa07 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009872> ;
+    owl:annotatedTarget <ma:0002904> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aorta tunica intima" ;
+    sssom:subject_label "abnormal aorta tunica intima morphology" ;
+    sssom:uuid "39c6153f62c75e188fe980ede996aa07"^^<xsd:string> .
+
+sssom:3beb5ba6beaf54138ba8f600d840a257 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002121> ;
+    owl:annotatedTarget MGI:2173580 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete other metabolic defect" ;
+    sssom:uuid "3beb5ba6beaf54138ba8f600d840a257"^^<xsd:string> .
+
+sssom:3cea412ba02954a9839e7cf2ccec3c13 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009976> ;
+    owl:annotatedTarget <ma:0002742> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellar peduncle" ;
+    sssom:subject_label "abnormal cerebellar peduncle morphology" ;
+    sssom:uuid "3cea412ba02954a9839e7cf2ccec3c13"^^<xsd:string> .
+
+sssom:3da96c785f795705a242a050f9a823da a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002085> ;
+    owl:annotatedTarget MGI:2173530 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal embryonic tissue morphology" ;
+    sssom:uuid "3da96c785f795705a242a050f9a823da"^^<xsd:string> .
+
+sssom:3e3a41966ace56f19d2bbe95b85dc34b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010913> ;
+    owl:annotatedTarget <cl:0000165> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "neuroendocrine cell" ;
+    sssom:subject_label "abnormal neuroendocrine cell morphology" ;
+    sssom:uuid "3e3a41966ace56f19d2bbe95b85dc34b"^^<xsd:string> .
+
+sssom:3e83676236e65290ac6ccbf997ca0206 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0030178> ;
+    owl:annotatedTarget <hp:0001965> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Abnormal scalp morphology" ;
+    sssom:subject_label "abnormal scalp morphology" ;
+    sssom:uuid "3e83676236e65290ac6ccbf997ca0206"^^<xsd:string> .
+
+sssom:3e9587ebb99b52c987149f017d6ec20e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009942> ;
+    owl:annotatedTarget <cl:0000626> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory granule cell" ;
+    sssom:subject_label "abnormal olfactory bulb granule cell morphology" ;
+    sssom:uuid "3e9587ebb99b52c987149f017d6ec20e"^^<xsd:string> .
+
+sssom:3e9b8340a71d5e949a4e6533a10b6b4a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011343> ;
+    owl:annotatedTarget <ma:0001678> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "loop of henle ascending limb thin segment" ;
+    sssom:subject_label "abnormal loop of Henle ascending limb thin segment morphology" ;
+    sssom:uuid "3e9b8340a71d5e949a4e6533a10b6b4a"^^<xsd:string> .
+
+sssom:3ea297c2e3585cf1acf48edd5c59f727 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002114> ;
+    owl:annotatedTarget MGI:2173562 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal axial skeleton morphology" ;
+    sssom:uuid "3ea297c2e3585cf1acf48edd5c59f727"^^<xsd:string> .
+
+sssom:3f884f741f7455f7b99e441ba31f6da8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010196> ;
+    owl:annotatedTarget <ma:0000751> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lymphatic vessel smooth muscle" ;
+    sssom:subject_label "abnormal lymphatic vessel smooth muscle morphology" ;
+    sssom:uuid "3f884f741f7455f7b99e441ba31f6da8"^^<xsd:string> .
+
+sssom:3fd8f45b0b2c5a06a64d188a8d7e2a1c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0030023> ;
+    owl:annotatedTarget PMID:1754386 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal meiotic telomere clustering" ;
+    sssom:uuid "3fd8f45b0b2c5a06a64d188a8d7e2a1c"^^<xsd:string> .
+
+sssom:4077ea0d4b4a5cff8c17c330bd12b808 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010849> ;
+    owl:annotatedTarget <cl:0000913> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "effector memory CD8-positive, alpha-beta T cell" ;
+    sssom:subject_label "abnormal effector memory CD8-positive, alpha-beta T cell number" ;
+    sssom:uuid "4077ea0d4b4a5cff8c17c330bd12b808"^^<xsd:string> .
+
+sssom:40f5ea865c60574d83ce085d204da82f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009380> ;
+    owl:annotatedTarget <ma:0001740> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "prostate gland ventral lobe" ;
+    sssom:subject_label "abnormal prostate gland ventral lobe morphology" ;
+    sssom:uuid "40f5ea865c60574d83ce085d204da82f"^^<xsd:string> .
+
+sssom:41703d7a073656e8844a09a57271b32d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010958> ;
+    owl:annotatedTarget <go:0006099> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "tricarboxylic acid cycle" ;
+    sssom:subject_label "abnormal tricarboxylic acid cycle" ;
+    sssom:uuid "41703d7a073656e8844a09a57271b32d"^^<xsd:string> .
+
+sssom:4196e4bd13c5534c80a357e154fb3e4b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011513> ;
+    owl:annotatedTarget <ma:0002077> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "vertebral artery" ;
+    sssom:subject_label "abnormal vertebral artery morphology" ;
+    sssom:uuid "4196e4bd13c5534c80a357e154fb3e4b"^^<xsd:string> .
+
+sssom:428d9b7df0a95ee38b9fed4932827bc7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002151> ;
+    owl:annotatedTarget MGI:2173611 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal neural tube morphology" ;
+    sssom:uuid "428d9b7df0a95ee38b9fed4932827bc7"^^<xsd:string> .
+
+sssom:430e4dff1d2f5e97a24e4dde458198c7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010847> ;
+    owl:annotatedTarget <cl:0000907> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "central memory CD8-positive, alpha-beta T cell" ;
+    sssom:subject_label "increased central memory CD8 positive, alpha-beta T cell number" ;
+    sssom:uuid "430e4dff1d2f5e97a24e4dde458198c7"^^<xsd:string> .
+
+sssom:43638de7fe8d57a694a22025b1967b18 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011342> ;
+    owl:annotatedTarget <ma:0001676> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "loop of henle ascending limb" ;
+    sssom:subject_label "abnormal loop of Henle ascending limb morphology" ;
+    sssom:uuid "43638de7fe8d57a694a22025b1967b18"^^<xsd:string> .
+
+sssom:4450da7c8a605c26a6475d0a463c4856 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010839> ;
+    owl:annotatedTarget <cl:0000909> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD8-positive, alpha-beta memory T cell" ;
+    sssom:subject_label "decreased CD8-positive, alpha-beta memory T cell number" ;
+    sssom:uuid "4450da7c8a605c26a6475d0a463c4856"^^<xsd:string> .
+
+sssom:4458bd1e3b655562a1ccf3e9c28962c2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010677> ;
+    owl:annotatedTarget <go:0006924> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "activation-induced cell death of T cells" ;
+    sssom:subject_label "decreased activation-induced cell death of T cells" ;
+    sssom:uuid "4458bd1e3b655562a1ccf3e9c28962c2"^^<xsd:string> .
+
+sssom:457979e9e1bd593fb7c7eaec0cd06a8a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0006083> ;
+    owl:annotatedTarget <ma:0002856> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "blood vessel elastic tissue" ;
+    sssom:subject_label "abnormal blood vessel elastic tissue morphology" ;
+    sssom:uuid "457979e9e1bd593fb7c7eaec0cd06a8a"^^<xsd:string> .
+
+sssom:4589d185186c52e9862fa817dbd00184 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009952> ;
+    owl:annotatedTarget <ma:0000974> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory bulb subependymal zone" ;
+    sssom:subject_label "abnormal olfactory bulb subventricular zone morphology" ;
+    sssom:uuid "4589d185186c52e9862fa817dbd00184"^^<xsd:string> .
+
+sssom:4751b6b0a8505bd19c66ec4e54cf18e6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010850> ;
+    owl:annotatedTarget <cl:0000913> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "effector memory CD8-positive, alpha-beta T cell" ;
+    sssom:subject_label "increased effector memory CD8-positive, alpha-beta T cell number" ;
+    sssom:uuid "4751b6b0a8505bd19c66ec4e54cf18e6"^^<xsd:string> .
+
+sssom:4757dbf9206b521b9fcc67aea32d7459 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011911> ;
+    owl:annotatedTarget <cl:0002351> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "progenitor cell of endocrine pancreas" ;
+    sssom:subject_label "abnormal pancreatic endocrine progenitor cell physiology" ;
+    sssom:uuid "4757dbf9206b521b9fcc67aea32d7459"^^<xsd:string> .
+
+sssom:4924e18c47175f2c9fbfd697c6760142 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008048> ;
+    owl:annotatedTarget <cl:0000813> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "memory T cell" ;
+    sssom:subject_label "abnormal memory T cell number" ;
+    sssom:uuid "4924e18c47175f2c9fbfd697c6760142"^^<xsd:string> .
+
+sssom:498c514df69157d3b01d871e09997e9a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002088> ;
+    owl:annotatedTarget MGI:2173533 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal embryonic growth/weight/body size" ;
+    sssom:uuid "498c514df69157d3b01d871e09997e9a"^^<xsd:string> .
+
+sssom:4af9de1327dd524b802b246d6bc43172 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002110> ;
+    owl:annotatedTarget MGI:2173550 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal digit morphology" ;
+    sssom:uuid "4af9de1327dd524b802b246d6bc43172"^^<xsd:string> .
+
+sssom:4b6c0a868c3a569eb1cb514acf86749b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010917> ;
+    owl:annotatedTarget <cl:0002066> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Feyrter cell" ;
+    sssom:subject_label "absent solitary pulmonary neuroendocrine cells" ;
+    sssom:uuid "4b6c0a868c3a569eb1cb514acf86749b"^^<xsd:string> .
+
+sssom:4b6f7dcac08755488aee72a567ff6aaa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009679> ;
+    owl:annotatedTarget <ma:0002751> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spinal cord ventral column" ;
+    sssom:subject_label "abnormal spinal cord ventral column morphology" ;
+    sssom:uuid "4b6f7dcac08755488aee72a567ff6aaa"^^<xsd:string> .
+
+sssom:4bae5a4be5dd559f9b2907040095c697 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001265> ;
+    owl:annotatedTarget <go:0040014> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "regulation of multicellular organism growth" ;
+    sssom:subject_label "decreased body size" ;
+    sssom:uuid "4bae5a4be5dd559f9b2907040095c697"^^<xsd:string> .
+
+sssom:5063171af0ce531a90091bf4009709b1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011241> ;
+    owl:annotatedTarget <cl:0002357> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fetal derived definitive erythrocyte" ;
+    sssom:subject_label "abnormal fetal derived definitive erythrocyte cell number" ;
+    sssom:uuid "5063171af0ce531a90091bf4009709b1"^^<xsd:string> .
+
+sssom:513eba1a6f2d5a6aa6e77bdc9280003e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011739> ;
+    owl:annotatedTarget <cl:0002084> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Boettcher cell" ;
+    sssom:subject_label "abnormal Boettcher cell morphology" ;
+    sssom:uuid "513eba1a6f2d5a6aa6e77bdc9280003e"^^<xsd:string> .
+
+sssom:514a1ed50e855cf18ca0bf785e89c1e1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008047> ;
+    owl:annotatedTarget <cl:0002343> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decidual natural killer cell, human" ;
+    sssom:subject_label "absent uterine NK cells" ;
+    sssom:uuid "514a1ed50e855cf18ca0bf785e89c1e1"^^<xsd:string> .
+
+sssom:518bb03e2e285710b7898ffe9a19fafd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009956> ;
+    owl:annotatedTarget <ma:0000201> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellar layer" ;
+    sssom:subject_label "abnormal cerebellar layer morphology" ;
+    sssom:uuid "518bb03e2e285710b7898ffe9a19fafd"^^<xsd:string> .
+
+sssom:51d7cbb4507358939c6b8872de64e444 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010844> ;
+    owl:annotatedTarget <cl:0000905> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "effector memory CD4-positive, alpha-beta T cell" ;
+    sssom:subject_label "increased effector memory CD4-positive, alpha-beta T cell number" ;
+    sssom:uuid "51d7cbb4507358939c6b8872de64e444"^^<xsd:string> .
+
+sssom:5256ae79053050aa9fc08ad166657a06 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005059> ;
+    owl:annotatedTarget <go:0007041> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lysosomal transport" ;
+    sssom:subject_label "lysosomal protein accumulation" ;
+    sssom:uuid "5256ae79053050aa9fc08ad166657a06"^^<xsd:string> .
+
+sssom:52a814e90ceb50f59fb0eebe50a8dcf4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002164> ;
+    owl:annotatedTarget MGI:2173624 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal gland physiology" ;
+    sssom:uuid "52a814e90ceb50f59fb0eebe50a8dcf4"^^<xsd:string> .
+
+sssom:53978ff12b2e518f88fa8574d4643864 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008043> ;
+    owl:annotatedTarget <fma:63147> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Natural killer cell" ;
+    sssom:subject_label "abnormal NK cell number" ;
+    sssom:uuid "53978ff12b2e518f88fa8574d4643864"^^<xsd:string> .
+
+sssom:54a1e84262b75eb1a1e3d295ec9694aa a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010766> ;
+    owl:annotatedTarget <fma:83601> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Null lymphocyte" ;
+    sssom:subject_label "abnormal NK cell physiology" ;
+    sssom:uuid "54a1e84262b75eb1a1e3d295ec9694aa"^^<xsd:string> .
+
+sssom:54c0950628b2540fbb8a3942a25154a0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001696> ;
+    owl:annotatedTarget GO_2:0007669 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "failure to gastrulate" ;
+    sssom:uuid "54c0950628b2540fbb8a3942a25154a0"^^<xsd:string> .
+
+sssom:54c0e16df8d450019851f99f4b6ab085 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009873> ;
+    owl:annotatedTarget <ma:0002903> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aorta tunica media" ;
+    sssom:subject_label "abnormal aorta tunica media morphology" ;
+    sssom:uuid "54c0e16df8d450019851f99f4b6ab085"^^<xsd:string> .
+
+sssom:55dc4f3196b35ab89047a7a47dc903d4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010468> ;
+    owl:annotatedTarget <ma:0002569> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "thoracic aorta" ;
+    sssom:subject_label "abnormal thoracic aorta morphology" ;
+    sssom:uuid "55dc4f3196b35ab89047a7a47dc903d4"^^<xsd:string> .
+
+sssom:56ede2d5f64c5c6dbdc6e41178a5965b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011210> ;
+    owl:annotatedTarget <fma:54832> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Temporomandibular joint" ;
+    sssom:subject_label "abnormal temporomandibular joint morphology" ;
+    sssom:uuid "56ede2d5f64c5c6dbdc6e41178a5965b"^^<xsd:string> .
+
+sssom:5719352b468458c698b21c5178e24f54 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010195> ;
+    owl:annotatedTarget <ma:0000750> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lymphatic vessel endothelium" ;
+    sssom:subject_label "abnormal lymphatic vessel endothelium morphology" ;
+    sssom:uuid "5719352b468458c698b21c5178e24f54"^^<xsd:string> .
+
+sssom:5758dadad50f59fe98557316af114f9c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011159> ;
+    owl:annotatedTarget <fma:70963> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Dermal-epidermal junction" ;
+    sssom:subject_label "abnormal epidermal-dermal junction morphology" ;
+    sssom:uuid "5758dadad50f59fe98557316af114f9c"^^<xsd:string> .
+
+sssom:58c498fbbd9f58cd9c2d3bf70b2bd573 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005076> ;
+    owl:annotatedTarget <go:0030154> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cell differentiation" ;
+    sssom:subject_label "abnormal cell differentiation" ;
+    sssom:uuid "58c498fbbd9f58cd9c2d3bf70b2bd573"^^<xsd:string> .
+
+sssom:58d21636dc025bdd9728e89dc73b0452 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011702> ;
+    owl:annotatedTarget <cl:0000057> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fibroblast" ;
+    sssom:subject_label "abnormal fibroblast proliferation" ;
+    sssom:uuid "58d21636dc025bdd9728e89dc73b0452"^^<xsd:string> .
+
+sssom:59469423f7ab5bd78c1f45ac52aace32 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0030023> ;
+    owl:annotatedTarget <go:0045141> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "meiotic telomere clustering" ;
+    sssom:subject_label "abnormal meiotic telomere clustering" ;
+    sssom:uuid "59469423f7ab5bd78c1f45ac52aace32"^^<xsd:string> .
+
+sssom:5a25fcf9b42c556db273d4ecfee54048 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010041> ;
+    owl:annotatedTarget <cl:1000036> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CL_1000036" ;
+    sssom:subject_label "absent oval cells" ;
+    sssom:uuid "5a25fcf9b42c556db273d4ecfee54048"^^<xsd:string> .
+
+sssom:5ad834da848a5daf9daceda78ce4ecbf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009489> ;
+    owl:annotatedTarget <ma:0000709> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "blood vessel endothelium" ;
+    sssom:subject_label "abnormal blood vessel endothelium morphology" ;
+    sssom:uuid "5ad834da848a5daf9daceda78ce4ecbf"^^<xsd:string> .
+
+sssom:5c4909942c8f5cf6ae177915881900ea a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009861> ;
+    owl:annotatedTarget <ma:0002952> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "pyloric sphincter" ;
+    sssom:subject_label "abnormal pyloric sphincter morphology" ;
+    sssom:uuid "5c4909942c8f5cf6ae177915881900ea"^^<xsd:string> .
+
+sssom:5c5e726d681b500d8a709ebb464aef37 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001700> ;
+    owl:annotatedTarget GO_2:0007669 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal embryo turning" ;
+    sssom:uuid "5c5e726d681b500d8a709ebb464aef37"^^<xsd:string> .
+
+sssom:5ca253cbd4c2573abc61c86b279b40f6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002102> ;
+    owl:annotatedTarget <go:0042471> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "ear morphogenesis" ;
+    sssom:subject_label "abnormal ear morphology" ;
+    sssom:uuid "5ca253cbd4c2573abc61c86b279b40f6"^^<xsd:string> .
+
+sssom:5cb6dafdbc075af1b86e672da7bef350 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010134> ;
+    owl:annotatedTarget <cl:0000807> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DN3 thymocyte" ;
+    sssom:subject_label "decreased DN3 thymocyte number" ;
+    sssom:uuid "5cb6dafdbc075af1b86e672da7bef350"^^<xsd:string> .
+
+sssom:5d3cd5e47caa5b82a916b318856f3474 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010914> ;
+    owl:annotatedTarget <cl:0002066> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Feyrter cell" ;
+    sssom:subject_label "abnormal solitary pulmonary neuroendocrine cell morphology" ;
+    sssom:uuid "5d3cd5e47caa5b82a916b318856f3474"^^<xsd:string> .
+
+sssom:5d9bebf8249c58bbb87a44e55dd510ea a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009677> ;
+    owl:annotatedTarget <ma:0002749> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spinal cord dorsal column" ;
+    sssom:subject_label "abnormal spinal cord dorsal column morphology" ;
+    sssom:uuid "5d9bebf8249c58bbb87a44e55dd510ea"^^<xsd:string> .
+
+sssom:5db56e984d3b576d931d908eb0b998ea a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002108> ;
+    owl:annotatedTarget MGI:2173558 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal muscle morphology" ;
+    sssom:uuid "5db56e984d3b576d931d908eb0b998ea"^^<xsd:string> .
+
+sssom:5e5a7c3fc780541586ddf7b38db67aa7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002148> ;
+    owl:annotatedTarget MGI:2173608 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal hypersensitivity reaction" ;
+    sssom:uuid "5e5a7c3fc780541586ddf7b38db67aa7"^^<xsd:string> .
+
+sssom:5ea3243441d55bbfa2b1b1876aeee60d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010843> ;
+    owl:annotatedTarget <cl:0000905> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "effector memory CD4-positive, alpha-beta T cell" ;
+    sssom:subject_label "abnormal effector memory CD4-positive, alpha-beta T cell morphology" ;
+    sssom:uuid "5ea3243441d55bbfa2b1b1876aeee60d"^^<xsd:string> .
+
+sssom:600cf77ffbd25e32a9c9eb2f409f1a56 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010136> ;
+    owl:annotatedTarget <cl:0000808> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DN4 thymocyte" ;
+    sssom:subject_label "decreased DN4 thymocyte number" ;
+    sssom:uuid "600cf77ffbd25e32a9c9eb2f409f1a56"^^<xsd:string> .
+
+sssom:60a2f86714f9553ab0c95303539b054c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010846> ;
+    owl:annotatedTarget <cl:0000907> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "central memory CD8-positive, alpha-beta T cell" ;
+    sssom:subject_label "abnormal central memory CD8 positive, alpha-beta T cell morphology" ;
+    sssom:uuid "60a2f86714f9553ab0c95303539b054c"^^<xsd:string> .
+
+sssom:61f4619661a55b5380fc1b3b4fafb44d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002098> ;
+    owl:annotatedTarget MGI:2173547 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal vibrissa morphology" ;
+    sssom:uuid "61f4619661a55b5380fc1b3b4fafb44d"^^<xsd:string> .
+
+sssom:629133d267e45967a16eaaa61bfb49e4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002069> ;
+    owl:annotatedTarget MGI:2173574 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal consumption behavior" ;
+    sssom:uuid "629133d267e45967a16eaaa61bfb49e4"^^<xsd:string> .
+
+sssom:62b715adb0955daebebba566cfe9feab a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008046> ;
+    owl:annotatedTarget <cl:0000623> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "natural killer cell" ;
+    sssom:subject_label "absent NK cells" ;
+    sssom:uuid "62b715adb0955daebebba566cfe9feab"^^<xsd:string> .
+
+sssom:62bf82eb43315832b024b36627fe1491 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002274> ;
+    owl:annotatedTarget <fma:62500> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Type I alveolar epithelial cell" ;
+    sssom:subject_label "abnormal type I pneumocyte morphology" ;
+    sssom:uuid "62bf82eb43315832b024b36627fe1491"^^<xsd:string> .
+
+sssom:62c8473589c95b71823d725a5f88a33d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011211> ;
+    owl:annotatedTarget <fma:19039> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Common fibular nerve" ;
+    sssom:subject_label "abnormal common peroneal nerve morphology" ;
+    sssom:uuid "62c8473589c95b71823d725a5f88a33d"^^<xsd:string> .
+
+sssom:636761fc5a0857618deef7adc50ee943 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001680> ;
+    owl:annotatedTarget <go:0001707> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "mesoderm formation" ;
+    sssom:subject_label "abnormal mesoderm development" ;
+    sssom:uuid "636761fc5a0857618deef7adc50ee943"^^<xsd:string> .
+
+sssom:6409bf5ba73e50eab3da89b3ae1c9ed9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000920> ;
+    owl:annotatedTarget <go:0042552> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "myelination" ;
+    sssom:subject_label "abnormal myelination" ;
+    sssom:uuid "6409bf5ba73e50eab3da89b3ae1c9ed9"^^<xsd:string> .
+
+sssom:642bf4f3d4d954469b51350fd903fb2c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009676> ;
+    owl:annotatedTarget <go:0007599> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "hemostasis" ;
+    sssom:subject_label "abnormal hemostasis" ;
+    sssom:uuid "642bf4f3d4d954469b51350fd903fb2c"^^<xsd:string> .
+
+sssom:666d9f18a0825d2cbd9869a4a3a1b1da a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002062> ;
+    owl:annotatedTarget MGI:2173567 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal associative learning" ;
+    sssom:uuid "666d9f18a0825d2cbd9869a4a3a1b1da"^^<xsd:string> .
+
+sssom:672c551cb1c251969776a621e9038e8e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009450> ;
+    owl:annotatedTarget <go:0007413> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "axonal fasciculation" ;
+    sssom:subject_label "abnormal axon fasciculation" ;
+    sssom:uuid "672c551cb1c251969776a621e9038e8e"^^<xsd:string> .
+
+sssom:67b30afb70445c03a0e7e672cf325c54 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010129> ;
+    owl:annotatedTarget <cl:0000894> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DN1 thymic pro-T cell" ;
+    sssom:subject_label "increased DN1 thymic pro-T cell number" ;
+    sssom:uuid "67b30afb70445c03a0e7e672cf325c54"^^<xsd:string> .
+
+sssom:67d8a191e7ce5f9887afecf054b7d7d9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001005> ;
+    owl:annotatedTarget <cl:0000604> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "retinal rod cell" ;
+    sssom:subject_label "abnormal retina rod cell morphology" ;
+    sssom:uuid "67d8a191e7ce5f9887afecf054b7d7d9"^^<xsd:string> .
+
+sssom:683487d09e76562eab15d5410e37b22b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002161> ;
+    owl:annotatedTarget MGI:2173621 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal fertility/fecundity" ;
+    sssom:uuid "683487d09e76562eab15d5410e37b22b"^^<xsd:string> .
+
+sssom:6855e7fd9f6a5729ae49bce26324b689 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009678> ;
+    owl:annotatedTarget <ma:0002750> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spinal cord lateral column" ;
+    sssom:subject_label "abnormal spinal cord lateral column morphology" ;
+    sssom:uuid "6855e7fd9f6a5729ae49bce26324b689"^^<xsd:string> .
+
+sssom:68b85308136559579feaad0b43c2c0b5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002087> ;
+    owl:annotatedTarget MGI:2173532 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete embryogenesis: no defect detected" ;
+    sssom:uuid "68b85308136559579feaad0b43c2c0b5"^^<xsd:string> .
+
+sssom:6a49a089cbd158e783acfd459e819338 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002106> ;
+    owl:annotatedTarget MGI:2173559 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal muscle physiology" ;
+    sssom:uuid "6a49a089cbd158e783acfd459e819338"^^<xsd:string> .
+
+sssom:6b3b5ddf2b7c50c48891aa46bd587cd5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008401> ;
+    owl:annotatedTarget <cl:0000796> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD8-alpha-beta-positive, alpha-beta intraepithelial T cell" ;
+    sssom:subject_label "abnormal CD8 positive, alpha-beta intraepithelial T cell morphology" ;
+    sssom:uuid "6b3b5ddf2b7c50c48891aa46bd587cd5"^^<xsd:string> .
+
+sssom:6c2562337f145edb92c9ab829f90d691 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002089> ;
+    owl:annotatedTarget MGI:2173534 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal postnatal growth/weight/body size" ;
+    sssom:uuid "6c2562337f145edb92c9ab829f90d691"^^<xsd:string> .
+
+sssom:6cbc780ff0d658b9867b10e857299c1c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002070> ;
+    owl:annotatedTarget MGI:2173575 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete abnormal sleep pattern/circadian rhythm" ;
+    sssom:uuid "6cbc780ff0d658b9867b10e857299c1c"^^<xsd:string> .
+
+sssom:6d170d443d555dc2b0ae540e5259d691 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005058> ;
+    owl:annotatedTarget <go:0005764> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lysosome" ;
+    sssom:subject_label "abnormal lysosome morphology" ;
+    sssom:uuid "6d170d443d555dc2b0ae540e5259d691"^^<xsd:string> .
+
+sssom:6d60656e5ed95b049bc11d69e227ec43 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002168> ;
+    owl:annotatedTarget MGI:2173628 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete other aberrant phenotype" ;
+    sssom:uuid "6d60656e5ed95b049bc11d69e227ec43"^^<xsd:string> .
+
+sssom:6f2733a3e61157fda2eb062ba7e8c3d1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010810> ;
+    owl:annotatedTarget <cl:0002063> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "type II pneumocyte" ;
+    sssom:subject_label "increased type II pneumocyte number" ;
+    sssom:uuid "6f2733a3e61157fda2eb062ba7e8c3d1"^^<xsd:string> .
+
+sssom:6f51331d7ac850b18c1b535fb896dfb6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002118> ;
+    owl:annotatedTarget MGI:2173578 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal lipid homeostasis" ;
+    sssom:uuid "6f51331d7ac850b18c1b535fb896dfb6"^^<xsd:string> .
+
+sssom:6fbbfd726fd65ba68a2fccf19f65c7b5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010105> ;
+    owl:annotatedTarget <ma:0002982> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sublingual ganglion" ;
+    sssom:subject_label "abnormal sublingual ganglion morphology" ;
+    sssom:uuid "6fbbfd726fd65ba68a2fccf19f65c7b5"^^<xsd:string> .
+
+sssom:7004420d603756ddb07af1e3ad7c9c32 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0003730> ;
+    owl:annotatedTarget <go:0001917> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "photoreceptor inner segment" ;
+    sssom:subject_label "abnormal photoreceptor inner segment morphology" ;
+    sssom:uuid "7004420d603756ddb07af1e3ad7c9c32"^^<xsd:string> .
+
+sssom:70a0bd9a8700507ebe5e570c0de0c0bb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010915> ;
+    owl:annotatedTarget <cl:0002066> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Feyrter cell" ;
+    sssom:subject_label "increased solitary pulmonary neuroendocrine cell number" ;
+    sssom:uuid "70a0bd9a8700507ebe5e570c0de0c0bb"^^<xsd:string> .
+
+sssom:719c5dbfbd435ef9a76fdfa36d46f0f0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010913> ;
+    owl:annotatedTarget <fma:83810> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Neuroendocrine cell" ;
+    sssom:subject_label "abnormal neuroendocrine cell morphology" ;
+    sssom:uuid "719c5dbfbd435ef9a76fdfa36d46f0f0"^^<xsd:string> .
+
+sssom:72f9db7ddb0c53d1b9699a669bf6cd43 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010168> ;
+    owl:annotatedTarget <cl:0000792> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD4-positive, CD25-positive, alpha-beta regulatory T cell" ;
+    sssom:subject_label "increased CD4-positive, CD25-positive, alpha-beta regulatory T cell number" ;
+    sssom:uuid "72f9db7ddb0c53d1b9699a669bf6cd43"^^<xsd:string> .
+
+sssom:735cd2d8293356ada175033a1b19965d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010816> ;
+    owl:annotatedTarget <cl:0002062> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "type I pneumocyte" ;
+    sssom:subject_label "decreased type I pneumocyte number" ;
+    sssom:uuid "735cd2d8293356ada175033a1b19965d"^^<xsd:string> .
+
+sssom:73ea3b6c34135733b0dd9e8e127bad57 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011211> ;
+    owl:annotatedTarget <ma:0001169> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "peroneal nerve" ;
+    sssom:subject_label "abnormal common peroneal nerve morphology" ;
+    sssom:uuid "73ea3b6c34135733b0dd9e8e127bad57"^^<xsd:string> .
+
+sssom:740185538c7e506aac4e3cbc676a651f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010188> ;
+    owl:annotatedTarget <cl:0002038> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T follicular helper cell" ;
+    sssom:subject_label "abnormal T follicular helper cell differentiation" ;
+    sssom:uuid "740185538c7e506aac4e3cbc676a651f"^^<xsd:string> .
+
+sssom:744b6a046a28541491564797f2527624 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002102> ;
+    owl:annotatedTarget MGI:2173556 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal ear morphology" ;
+    sssom:uuid "744b6a046a28541491564797f2527624"^^<xsd:string> .
+
+sssom:751ea9b0099f5fd18fb37c070abeedd8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010189> ;
+    owl:annotatedTarget <cl:0002038> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T follicular helper cell" ;
+    sssom:subject_label "abnormal T follicular helper cell physiology" ;
+    sssom:uuid "751ea9b0099f5fd18fb37c070abeedd8"^^<xsd:string> .
+
+sssom:7536026a9dae56ff820f8c3cd9a8f78a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000864> ;
+    owl:annotatedTarget <ma:0000202> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellum vermis" ;
+    sssom:subject_label "abnormal cerebellum vermis morphology" ;
+    sssom:uuid "7536026a9dae56ff820f8c3cd9a8f78a"^^<xsd:string> .
+
+sssom:754f2f407a6d5a14ba88476f83c50172 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010230> ;
+    owl:annotatedTarget <cl:0000960> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T3 B cell" ;
+    sssom:subject_label "absent transitional stage T3 B cells" ;
+    sssom:uuid "754f2f407a6d5a14ba88476f83c50172"^^<xsd:string> .
+
+sssom:75794fba25b85197ba6a649a86aa4a47 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0003632> ;
+    owl:annotatedTarget MGI:2173613 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal nervous system morphology" ;
+    sssom:uuid "75794fba25b85197ba6a649a86aa4a47"^^<xsd:string> .
+
+sssom:75fd1ee630e65235a1d51aa9a6bf1c3c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011243> ;
+    owl:annotatedTarget <cl:0002357> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fetal derived definitive erythrocyte" ;
+    sssom:subject_label "decreased fetal derived definitive erythrocyte cell number" ;
+    sssom:uuid "75fd1ee630e65235a1d51aa9a6bf1c3c"^^<xsd:string> .
+
+sssom:763fdbfcf2445abd8e44c0de7e458898 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009948> ;
+    owl:annotatedTarget <ma:0000970> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory bulb glomerular layer" ;
+    sssom:subject_label "abnormal olfactory bulb glomerular layer morphology" ;
+    sssom:uuid "763fdbfcf2445abd8e44c0de7e458898"^^<xsd:string> .
+
+sssom:7684794d76b05670808a9c69510af1a3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001544> ;
+    owl:annotatedTarget MGI:2173590 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal cardiovascular system physiology" ;
+    sssom:uuid "7684794d76b05670808a9c69510af1a3"^^<xsd:string> .
+
+sssom:7718c092da62563f8073f5e17b17a4db a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011004> ;
+    owl:annotatedTarget <cl:1000428> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "stem cell of epidermis" ;
+    sssom:subject_label "abnormal epidermal stem cell morphology" ;
+    sssom:uuid "7718c092da62563f8073f5e17b17a4db"^^<xsd:string> .
+
+sssom:772a692dd4925d44b4483539d990ad24 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001967> ;
+    owl:annotatedTarget <go:0007605> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensory perception of sound" ;
+    sssom:subject_label "deafness" ;
+    sssom:uuid "772a692dd4925d44b4483539d990ad24"^^<xsd:string> .
+
+sssom:77eecf3f75ae5846ab963c9f205a3a5b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010040> ;
+    owl:annotatedTarget <cl:1000036> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CL_1000036" ;
+    sssom:subject_label "abnormal oval cell morphology" ;
+    sssom:uuid "77eecf3f75ae5846ab963c9f205a3a5b"^^<xsd:string> .
+
+sssom:78a5584c59845a7da29d6c20d892249e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010775> ;
+    owl:annotatedTarget <ma:0002555> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "scaphoid" ;
+    sssom:subject_label "abnormal scaphoid morphology" ;
+    sssom:uuid "78a5584c59845a7da29d6c20d892249e"^^<xsd:string> .
+
+sssom:793c1ee33ab65d188292b8f59c11f137 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002066> ;
+    owl:annotatedTarget MGI:2173571 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal motor capabilities/coordination/movement" ;
+    sssom:uuid "793c1ee33ab65d188292b8f59c11f137"^^<xsd:string> .
+
+sssom:79ef4eaff9f55fddb84a8b4b9158f7c7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002145> ;
+    owl:annotatedTarget MGI:2173605 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal T cell differentiation" ;
+    sssom:uuid "79ef4eaff9f55fddb84a8b4b9158f7c7"^^<xsd:string> .
+
+sssom:7adefb5133c45644a34e5a91310f11c4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001695> ;
+    owl:annotatedTarget GO_2:0007669 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal gastrulation" ;
+    sssom:uuid "7adefb5133c45644a34e5a91310f11c4"^^<xsd:string> .
+
+sssom:7bb71662cb485d27a6297b87d26b31b0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008391> ;
+    owl:annotatedTarget <cl:0000670> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "primordial germ cell" ;
+    sssom:subject_label "abnormal primordial germ cell morphology" ;
+    sssom:uuid "7bb71662cb485d27a6297b87d26b31b0"^^<xsd:string> .
+
+sssom:7cae9a068cda5850b3802500b578639b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009865> ;
+    owl:annotatedTarget <ma:0000702> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aorta smooth muscle" ;
+    sssom:subject_label "abnormal aorta smooth muscle morphology" ;
+    sssom:uuid "7cae9a068cda5850b3802500b578639b"^^<xsd:string> .
+
+sssom:7d35264e9b4a52a98b8b09d289f52dd7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002144> ;
+    owl:annotatedTarget MGI:2173604 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal B cell differentiation" ;
+    sssom:uuid "7d35264e9b4a52a98b8b09d289f52dd7"^^<xsd:string> .
+
+sssom:7d447b76394d5dd3ad078b2b82c3a09a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002132> ;
+    owl:annotatedTarget MGI:2173592 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal respiratory system morphology" ;
+    sssom:uuid "7d447b76394d5dd3ad078b2b82c3a09a"^^<xsd:string> .
+
+sssom:7e16b61c878c564eb209632c928647e6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000202> ;
+    owl:annotatedTarget <go:0004035> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "alkaline phosphatase activity" ;
+    sssom:subject_label "abnormal circulating alkaline phosphatase level" ;
+    sssom:uuid "7e16b61c878c564eb209632c928647e6"^^<xsd:string> .
+
+sssom:7e19167df4e65ed4bc2d6dc9b1e96184 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000266> ;
+    owl:annotatedTarget <go:0007505> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "adult fat body development" ;
+    sssom:subject_label "abnormal heart morphology" ;
+    sssom:uuid "7e19167df4e65ed4bc2d6dc9b1e96184"^^<xsd:string> .
+
+sssom:7f25348a892c58a7a6ba7ac5b59ace45 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011416> ;
+    owl:annotatedTarget <ma:0002713> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "testis interstitial tissue" ;
+    sssom:subject_label "abnormal testis interstitial tissue morphology" ;
+    sssom:uuid "7f25348a892c58a7a6ba7ac5b59ace45"^^<xsd:string> .
+
+sssom:7f4366705b545e948936d378e14c8a37 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001224> ;
+    owl:annotatedTarget <go:0006915> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "apoptotic process" ;
+    sssom:subject_label "abnormal keratinocyte apoptosis" ;
+    sssom:uuid "7f4366705b545e948936d378e14c8a37"^^<xsd:string> .
+
+sssom:7f6215fbf6d258f4978bb64aa6992f26 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008397> ;
+    owl:annotatedTarget <cl:0000792> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD4-positive, CD25-positive, alpha-beta regulatory T cell" ;
+    sssom:subject_label "abnormal CD4-positive, CD25-positive, alpha-beta regulatory T cell morphology" ;
+    sssom:uuid "7f6215fbf6d258f4978bb64aa6992f26"^^<xsd:string> .
+
+sssom:7f678354b5465a1394c711620245ae3c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010676> ;
+    owl:annotatedTarget <go:0006924> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "activation-induced cell death of T cells" ;
+    sssom:subject_label "increased activation-induced cell death of T cells" ;
+    sssom:uuid "7f678354b5465a1394c711620245ae3c"^^<xsd:string> .
+
+sssom:7f9b78c8fa3658f59dd5346b236b21e8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010948> ;
+    owl:annotatedTarget GO_2:00006302 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal double-strand DNA break repair" ;
+    sssom:uuid "7f9b78c8fa3658f59dd5346b236b21e8"^^<xsd:string> .
+
+sssom:8052f08fdb3950d9b185444921f7879b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002207> ;
+    owl:annotatedTarget MGI:2173614 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal long-term potentiation" ;
+    sssom:uuid "8052f08fdb3950d9b185444921f7879b"^^<xsd:string> .
+
+sssom:8182c270fa9c5d4f9d80317ac77653e8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009951> ;
+    owl:annotatedTarget <ma:0000973> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory bulb mitral cell layer" ;
+    sssom:subject_label "abnormal olfactory bulb mitral cell layer morphology" ;
+    sssom:uuid "8182c270fa9c5d4f9d80317ac77653e8"^^<xsd:string> .
+
+sssom:838a6d307d075de1af1eda5a1d85c6bc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008045> ;
+    owl:annotatedTarget <fma:83601> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Null lymphocyte" ;
+    sssom:subject_label "decreased NK cell number" ;
+    sssom:uuid "838a6d307d075de1af1eda5a1d85c6bc"^^<xsd:string> .
+
+sssom:83bc40e4c5e659ebbf9ba4bfdfaee163 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001963> ;
+    owl:annotatedTarget MGI:2173555 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal hearing physiology" ;
+    sssom:uuid "83bc40e4c5e659ebbf9ba4bfdfaee163"^^<xsd:string> .
+
+sssom:83e1969c51e95023b694f1cf9d188948 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009451> ;
+    owl:annotatedTarget <go:0007129> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "homologous chromosome pairing at meiosis" ;
+    sssom:subject_label "abnormal chromosomal synapsis" ;
+    sssom:uuid "83e1969c51e95023b694f1cf9d188948"^^<xsd:string> .
+
+sssom:8401cd3214c158438c0cda9a9fb88e59 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002134> ;
+    owl:annotatedTarget MGI:2173594 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete respiratory system: no defect detected" ;
+    sssom:uuid "8401cd3214c158438c0cda9a9fb88e59"^^<xsd:string> .
+
+sssom:85c695ddc55757179f394ec4180ee1c6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009945> ;
+    owl:annotatedTarget <ma:0000966> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "accessory olfactory bulb" ;
+    sssom:subject_label "abnormal accessory olfactory bulb morphology" ;
+    sssom:uuid "85c695ddc55757179f394ec4180ee1c6"^^<xsd:string> .
+
+sssom:870503b0a2f157d9bd31230facaa1779 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004942> ;
+    owl:annotatedTarget <go:0002339> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "B cell selection" ;
+    sssom:subject_label "abnormal B cell selection" ;
+    sssom:uuid "870503b0a2f157d9bd31230facaa1779"^^<xsd:string> .
+
+sssom:883666ab678f5b748b77293894f1f151 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002113> ;
+    owl:annotatedTarget MGI:2173561 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal skeleton development" ;
+    sssom:uuid "883666ab678f5b748b77293894f1f151"^^<xsd:string> .
+
+sssom:8902bb4c51d85ab3a8ed5af23209ea28 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002136> ;
+    owl:annotatedTarget MGI:2173596 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal kidney physiology" ;
+    sssom:uuid "8902bb4c51d85ab3a8ed5af23209ea28"^^<xsd:string> .
+
+sssom:892e964975395e599a7fc557a208dc22 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008296> ;
+    owl:annotatedTarget <ma:0001887> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "adrenal gland cortex zone" ;
+    sssom:subject_label "abnormal adrenal gland x-zone morphology" ;
+    sssom:uuid "892e964975395e599a7fc557a208dc22"^^<xsd:string> .
+
+sssom:8ad577ddb3e1517f9f573c4ef0f7f39a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009983> ;
+    owl:annotatedTarget <ma:0001009> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "medial cerebellar nucleus" ;
+    sssom:subject_label "abnormal cerebellum fastigial nucleus morphology" ;
+    sssom:uuid "8ad577ddb3e1517f9f573c4ef0f7f39a"^^<xsd:string> .
+
+sssom:8c3ce22f857b553fa62f6b0abc529243 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005112> ;
+    owl:annotatedTarget <ma:0001134> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spinal cord ventral horn" ;
+    sssom:subject_label "abnormal spinal cord ventral horn morphology" ;
+    sssom:uuid "8c3ce22f857b553fa62f6b0abc529243"^^<xsd:string> .
+
+sssom:8c61b190e9c95076a40ccb92ad0a1c79 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010009> ;
+    owl:annotatedTarget <ma:0000978> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "piriform cortex" ;
+    sssom:subject_label "abnormal piriform cortex morphology" ;
+    sssom:uuid "8c61b190e9c95076a40ccb92ad0a1c79"^^<xsd:string> .
+
+sssom:8e009955de535c54bda5e5c71a6c6581 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004113> ;
+    owl:annotatedTarget <ma:0000475> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "arch of aorta" ;
+    sssom:subject_label "abnormal aortic arch morphology" ;
+    sssom:uuid "8e009955de535c54bda5e5c71a6c6581"^^<xsd:string> .
+
+sssom:8e59ae8daca85174b5dd6581f3017281 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008243> ;
+    owl:annotatedTarget <cl:0000517> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "macrophage derived foam cell" ;
+    sssom:subject_label "abnormal macrophage derived foam cell morphology" ;
+    sssom:uuid "8e59ae8daca85174b5dd6581f3017281"^^<xsd:string> .
+
+sssom:8ebf82ee00a9569a81b7a00ab7c56e85 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000906> ;
+    owl:annotatedTarget <ma:0001057> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "trigeminal V mesencephalic nucleus" ;
+    sssom:subject_label "abnormal trigeminal V mesencephalic nucleus morphology" ;
+    sssom:uuid "8ebf82ee00a9569a81b7a00ab7c56e85"^^<xsd:string> .
+
+sssom:8f534b9e757c59cb9670234bdf1dd241 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009394> ;
+    owl:annotatedTarget <cl:0002343> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decidual natural killer cell, human" ;
+    sssom:subject_label "increased uterine NK cell number" ;
+    sssom:uuid "8f534b9e757c59cb9670234bdf1dd241"^^<xsd:string> .
+
+sssom:8f78b9757abf51329082d2b7ba9bcc11 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010915> ;
+    owl:annotatedTarget <fma:14118> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Dense-core granulated cell" ;
+    sssom:subject_label "increased solitary pulmonary neuroendocrine cell number" ;
+    sssom:uuid "8f78b9757abf51329082d2b7ba9bcc11"^^<xsd:string> .
+
+sssom:9098634e00fc5b56b90e362f6a7aa9a2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001264> ;
+    owl:annotatedTarget <go:0040007> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "growth" ;
+    sssom:subject_label "increased body size" ;
+    sssom:uuid "9098634e00fc5b56b90e362f6a7aa9a2"^^<xsd:string> .
+
+sssom:9154fd54164e5b23b7a149b0bc61b248 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008925> ;
+    owl:annotatedTarget <cl:0001031> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellar granule cell" ;
+    sssom:subject_label "increased cerebellar granule cell number" ;
+    sssom:uuid "9154fd54164e5b23b7a149b0bc61b248"^^<xsd:string> .
+
+sssom:921891b95b44591e944bb1bbdee073f1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002762> ;
+    owl:annotatedTarget <cl:0001031> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellar granule cell" ;
+    sssom:subject_label "ectopic cerebellar granule cells" ;
+    sssom:uuid "921891b95b44591e944bb1bbdee073f1"^^<xsd:string> .
+
+sssom:92487894ce6f5b3d908133f80c5274ac a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001693> ;
+    owl:annotatedTarget <go:0007369> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "gastrulation" ;
+    sssom:subject_label "failure of primitive streak formation" ;
+    sssom:uuid "92487894ce6f5b3d908133f80c5274ac"^^<xsd:string> .
+
+sssom:9264aff8b4125a45968fd30c67953060 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004755> ;
+    owl:annotatedTarget <ma:0001675> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "loop of henle" ;
+    sssom:subject_label "abnormal loop of Henle morphology" ;
+    sssom:uuid "9264aff8b4125a45968fd30c67953060"^^<xsd:string> .
+
+sssom:927d719d860151b3bdcc6f75cc7a5421 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000714> ;
+    owl:annotatedTarget <cl:0000893> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "thymocyte" ;
+    sssom:subject_label "increased thymocyte number" ;
+    sssom:uuid "927d719d860151b3bdcc6f75cc7a5421"^^<xsd:string> .
+
+sssom:92b97dadb3a75e95ae45c38b2aaecb1d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004230> ;
+    owl:annotatedTarget <cl:0002355> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "primitive red blood cell" ;
+    sssom:subject_label "abnormal embryonic erythrocyte morphology" ;
+    sssom:uuid "92b97dadb3a75e95ae45c38b2aaecb1d"^^<xsd:string> .
+
+sssom:944f01278e11553fb4b5ac71324a8991 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011706> ;
+    owl:annotatedTarget <go:0010761> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fibroblast migration" ;
+    sssom:subject_label "abnormal fibroblast migration" ;
+    sssom:uuid "944f01278e11553fb4b5ac71324a8991"^^<xsd:string> .
+
+sssom:955d0b32a87855c88593a5d034f9a16b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002084> ;
+    owl:annotatedTarget MGI:2173529 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal developmental patterning" ;
+    sssom:uuid "955d0b32a87855c88593a5d034f9a16b"^^<xsd:string> .
+
+sssom:95bde046a10b50ceb16c511cf183c6d6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009949> ;
+    owl:annotatedTarget <ma:0000971> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory bulb granule cell layer" ;
+    sssom:subject_label "abnormal olfactory bulb granule cell layer morphology" ;
+    sssom:uuid "95bde046a10b50ceb16c511cf183c6d6"^^<xsd:string> .
+
+sssom:96f5caf81fc159e5a04ee978d8c8df20 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010187> ;
+    owl:annotatedTarget <cl:0002038> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T follicular helper cell" ;
+    sssom:subject_label "decreased T follicular helper cell number" ;
+    sssom:uuid "96f5caf81fc159e5a04ee978d8c8df20"^^<xsd:string> .
+
+sssom:9722c05318e1523d86bed2bc65b20853 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002767> ;
+    owl:annotatedTarget <mpath:711> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "situs ambiguus" ;
+    sssom:subject_label "situs ambiguus" ;
+    sssom:uuid "9722c05318e1523d86bed2bc65b20853"^^<xsd:string> .
+
+sssom:972c9e55d121518a8f1b958febd3aa7d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009960> ;
+    owl:annotatedTarget <ma:0000991> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellum anterior lobe" ;
+    sssom:subject_label "abnormal cerebellum anterior lobe morphology" ;
+    sssom:uuid "972c9e55d121518a8f1b958febd3aa7d"^^<xsd:string> .
+
+sssom:987689c4adc058d6a4e4f19a64d405fd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002998> ;
+    owl:annotatedTarget <go:0046849> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "bone remodeling" ;
+    sssom:subject_label "abnormal bone remodeling" ;
+    sssom:uuid "987689c4adc058d6a4e4f19a64d405fd"^^<xsd:string> .
+
+sssom:993a032e1a245669924acad56e228010 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002551> ;
+    owl:annotatedTarget MGI:2173585 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal blood coagulation" ;
+    sssom:uuid "993a032e1a245669924acad56e228010"^^<xsd:string> .
+
+sssom:995c5a8ea30a532fa7aded12db3f270b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008398> ;
+    owl:annotatedTarget <cl:0000795> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD8-positive, alpha-beta regulatory T cell" ;
+    sssom:subject_label "abnormal CD8-positive, alpha-beta regulatory T cell morphology" ;
+    sssom:uuid "995c5a8ea30a532fa7aded12db3f270b"^^<xsd:string> .
+
+sssom:99fb01865d35580eb0f4622cfdb74d8a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010674> ;
+    owl:annotatedTarget <go:0071948> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "activation-induced B cell apoptotic process" ;
+    sssom:subject_label "increased activation-induced B cell apoptosis" ;
+    sssom:uuid "99fb01865d35580eb0f4622cfdb74d8a"^^<xsd:string> .
+
+sssom:9a46c5a2dbdc5a67b0c981fff43c073d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001253> ;
+    owl:annotatedTarget <go:0040014> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "regulation of multicellular organism growth" ;
+    sssom:subject_label "abnormal body height" ;
+    sssom:uuid "9a46c5a2dbdc5a67b0c981fff43c073d"^^<xsd:string> .
+
+sssom:9adf50e8c9415f23b9dbb12a3106bbc3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008057> ;
+    owl:annotatedTarget <go:0006260> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DNA replication" ;
+    sssom:subject_label "abnormal DNA replication" ;
+    sssom:uuid "9adf50e8c9415f23b9dbb12a3106bbc3"^^<xsd:string> .
+
+sssom:9b689b3806955d8582c4404ac3da7407 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0006282> ;
+    owl:annotatedTarget <ma:0001119> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spinal cord dorsal horn" ;
+    sssom:subject_label "abnormal spinal cord dorsal horn morphology" ;
+    sssom:uuid "9b689b3806955d8582c4404ac3da7407"^^<xsd:string> .
+
+sssom:9c0578889ee050a69dbe3c986767c172 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002112> ;
+    owl:annotatedTarget MGI:2173552 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete extremities: no defect detected" ;
+    sssom:uuid "9c0578889ee050a69dbe3c986767c172"^^<xsd:string> .
+
+sssom:9d6ae6ead4035ac9b23de6f363f905b3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002152> ;
+    owl:annotatedTarget MGI:2173612 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal brain morphology" ;
+    sssom:uuid "9d6ae6ead4035ac9b23de6f363f905b3"^^<xsd:string> .
+
+sssom:9db1203ee80e5f8f9532173dc53abe82 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001648> ;
+    owl:annotatedTarget <go:0006915> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "apoptotic process" ;
+    sssom:subject_label "abnormal apoptosis" ;
+    sssom:uuid "9db1203ee80e5f8f9532173dc53abe82"^^<xsd:string> .
+
+sssom:9db24927b4c85f178bdbd31486ac0906 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008503> ;
+    owl:annotatedTarget <ma:0000002> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "spinal cord grey matter" ;
+    sssom:subject_label "abnormal spinal cord grey matter morphology" ;
+    sssom:uuid "9db24927b4c85f178bdbd31486ac0906"^^<xsd:string> .
+
+sssom:9db348c8ca5d59819da0e66829fbdf5b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008044> ;
+    owl:annotatedTarget <fma:63147> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Natural killer cell" ;
+    sssom:subject_label "increased NK cell number" ;
+    sssom:uuid "9db348c8ca5d59819da0e66829fbdf5b"^^<xsd:string> .
+
+sssom:9dfad8d7f9915385bc07ea419981f212 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008043> ;
+    owl:annotatedTarget <fma:83601> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Null lymphocyte" ;
+    sssom:subject_label "abnormal NK cell number" ;
+    sssom:uuid "9dfad8d7f9915385bc07ea419981f212"^^<xsd:string> .
+
+sssom:9fbb93ab62495e9d9b5c206de4d8dbd8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008876> ;
+    owl:annotatedTarget <cl:0002343> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decidual natural killer cell, human" ;
+    sssom:subject_label "decreased uterine NK cell number" ;
+    sssom:uuid "9fbb93ab62495e9d9b5c206de4d8dbd8"^^<xsd:string> .
+
+sssom:a159fa6a6905553a9e563ab39e268839 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001790> ;
+    owl:annotatedTarget <go:0006955> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "immune response" ;
+    sssom:subject_label "abnormal immune system physiology" ;
+    sssom:uuid "a159fa6a6905553a9e563ab39e268839"^^<xsd:string> .
+
+sssom:a16d3a07fcff59989de5d2a7d1a2dc33 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002089> ;
+    owl:annotatedTarget <go:0040007> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "growth" ;
+    sssom:subject_label "abnormal postnatal growth/weight/body size" ;
+    sssom:uuid "a16d3a07fcff59989de5d2a7d1a2dc33"^^<xsd:string> .
+
+sssom:a19264333e335c4d8383f55c83595886 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009950> ;
+    owl:annotatedTarget <ma:0000972> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory bulb internal plexiform layer" ;
+    sssom:subject_label "abnormal olfactory bulb internal plexiform layer morphology" ;
+    sssom:uuid "a19264333e335c4d8383f55c83595886"^^<xsd:string> .
+
+sssom:a1ac895be19f5ca4a8532dbebc934c78 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008399> ;
+    owl:annotatedTarget <cl:0000797> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "alpha-beta intraepithelial T cell" ;
+    sssom:subject_label "abnormal alpha-beta intraepithelial T cell morphology" ;
+    sssom:uuid "a1ac895be19f5ca4a8532dbebc934c78"^^<xsd:string> .
+
+sssom:a25f0552fa2150babe255999f05451ae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009979> ;
+    owl:annotatedTarget <ma:0000203> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "deep cerebellar nucleus" ;
+    sssom:subject_label "abnormal cerebellum deep nucleus morphology" ;
+    sssom:uuid "a25f0552fa2150babe255999f05451ae"^^<xsd:string> .
+
+sssom:a30bcac88352561494a5ec1a3570520d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010792> ;
+    owl:annotatedTarget <ma:0002683> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "stomach mucosa" ;
+    sssom:subject_label "abnormal stomach mucosa morphology" ;
+    sssom:uuid "a30bcac88352561494a5ec1a3570520d"^^<xsd:string> .
+
+sssom:a37a67d720895b2987bfda833bb442d2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002097> ;
+    owl:annotatedTarget MGI:2173546 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete skin: no defect detected" ;
+    sssom:uuid "a37a67d720895b2987bfda833bb442d2"^^<xsd:string> .
+
+sssom:a4a192a67d05503cbdc0b14ea7432121 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002063> ;
+    owl:annotatedTarget MGI:2173568 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal learning/memory/conditioning" ;
+    sssom:uuid "a4a192a67d05503cbdc0b14ea7432121"^^<xsd:string> .
+
+sssom:a57368007e0a5fe2bd54f9fe06d964b5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004943> ;
+    owl:annotatedTarget <go:0002346> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "B cell positive selection" ;
+    sssom:subject_label "abnormal B cell positive selection" ;
+    sssom:uuid "a57368007e0a5fe2bd54f9fe06d964b5"^^<xsd:string> .
+
+sssom:a718dceb32fe5a5e98c954a86e95787b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002100> ;
+    owl:annotatedTarget MGI:2173553 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal tooth morphology" ;
+    sssom:uuid "a718dceb32fe5a5e98c954a86e95787b"^^<xsd:string> .
+
+sssom:a7a21a7a135a5bd7a28de4273ac76079 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010836> ;
+    owl:annotatedTarget <cl:0000897> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD4-positive, alpha-beta memory T cell" ;
+    sssom:subject_label "decreased CD4-positive, alpha-beta memory T cell number" ;
+    sssom:uuid "a7a21a7a135a5bd7a28de4273ac76079"^^<xsd:string> .
+
+sssom:a7ec4a19e1e45378a0d4a5e3770a6abd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001265> ;
+    owl:annotatedTarget <go:0040007> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "growth" ;
+    sssom:subject_label "decreased body size" ;
+    sssom:uuid "a7ec4a19e1e45378a0d4a5e3770a6abd"^^<xsd:string> .
+
+sssom:a92cec9f422e5a9dbeff1d7183f9421d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008054> ;
+    owl:annotatedTarget <cl:0002343> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decidual natural killer cell, human" ;
+    sssom:subject_label "abnormal uterine NK cell morphology" ;
+    sssom:uuid "a92cec9f422e5a9dbeff1d7183f9421d"^^<xsd:string> .
+
+sssom:a9a116acf5b85acd8f03a5b346955304 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001963> ;
+    owl:annotatedTarget <go:0007605> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensory perception of sound" ;
+    sssom:subject_label "abnormal hearing physiology" ;
+    sssom:uuid "a9a116acf5b85acd8f03a5b346955304"^^<xsd:string> .
+
+sssom:a9e4908985b753d5936d6aae37512531 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0003632> ;
+    owl:annotatedTarget MGI:2173617 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal nervous system morphology" ;
+    sssom:uuid "a9e4908985b753d5936d6aae37512531"^^<xsd:string> .
+
+sssom:aa63cd09f65c5608b571247d8ebde185 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002091> ;
+    owl:annotatedTarget MGI:2173538 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete eye: no defect detected" ;
+    sssom:uuid "aa63cd09f65c5608b571247d8ebde185"^^<xsd:string> .
+
+sssom:aaed0ca8cc465bd9bcce7a35f2c93952 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000297> ;
+    owl:annotatedTarget <go:0007505> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "adult fat body development" ;
+    sssom:subject_label "abnormal atrioventricular cushion morphology" ;
+    sssom:uuid "aaed0ca8cc465bd9bcce7a35f2c93952"^^<xsd:string> .
+
+sssom:ab8c588a377c5a84b16cced33f31c1ca a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009978> ;
+    owl:annotatedTarget <ma:0002430> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellum white matter" ;
+    sssom:subject_label "abnormal cerebellum white matter morphology" ;
+    sssom:uuid "ab8c588a377c5a84b16cced33f31c1ca"^^<xsd:string> .
+
+sssom:abc2ad6c0ce652d09dd479a321924e66 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011253> ;
+    owl:annotatedTarget <mpath:714> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "situs inversus with levocardia" ;
+    sssom:subject_label "situs inversus with levocardia" ;
+    sssom:uuid "abc2ad6c0ce652d09dd479a321924e66"^^<xsd:string> .
+
+sssom:ad6a5de886d55b06b53f8396b431fba3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011339> ;
+    owl:annotatedTarget <ma:0002606> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "glomerular mesangium" ;
+    sssom:subject_label "abnormal glomerular mesangium morphology" ;
+    sssom:uuid "ad6a5de886d55b06b53f8396b431fba3"^^<xsd:string> .
+
+sssom:ae11fcbafed659beb80badfff48fa632 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009870> ;
+    owl:annotatedTarget <ma:0000474> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "abdominal aorta" ;
+    sssom:subject_label "abnormal abdominal aorta morphology" ;
+    sssom:uuid "ae11fcbafed659beb80badfff48fa632"^^<xsd:string> .
+
+sssom:ae376f70bd3f59b2b112390c1e965503 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009203> ;
+    owl:annotatedTarget UMLS:C0341787 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "external male genitalia hypoplasia" ;
+    sssom:uuid "ae376f70bd3f59b2b112390c1e965503"^^<xsd:string> .
+
+sssom:ae7b1ad5e09e514293b776501e05b71e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002115> ;
+    owl:annotatedTarget MGI:2173563 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal limb bone morphology" ;
+    sssom:uuid "ae7b1ad5e09e514293b776501e05b71e"^^<xsd:string> .
+
+sssom:aea58bae08c7581aa53d7fe956235b69 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002076> ;
+    owl:annotatedTarget MGI:2173542 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete abnormal hair follicle structure/orientation" ;
+    sssom:uuid "aea58bae08c7581aa53d7fe956235b69"^^<xsd:string> .
+
+sssom:af272422df2d536c88ef23836eed84f1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010776> ;
+    owl:annotatedTarget <ma:0000386> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "placenta" ;
+    sssom:subject_label "abnormal placenta metrial gland morphology" ;
+    sssom:uuid "af272422df2d536c88ef23836eed84f1"^^<xsd:string> .
+
+sssom:af53a96f6f4152908d6b840bcfc36efb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009862> ;
+    owl:annotatedTarget <ma:0002859> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aorta elastic tissue" ;
+    sssom:subject_label "abnormal aorta elastic tissue morphology" ;
+    sssom:uuid "af53a96f6f4152908d6b840bcfc36efb"^^<xsd:string> .
+
+sssom:afcafe70ef5e506d92c09f5c98885b33 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002075> ;
+    owl:annotatedTarget MGI:2173541 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal coat/hair pigmentation" ;
+    sssom:uuid "afcafe70ef5e506d92c09f5c98885b33"^^<xsd:string> .
+
+sssom:affc2b4a0b4457d08113015fa7c8d42e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005169> ;
+    owl:annotatedTarget <go:0007140> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "male meiotic nuclear division" ;
+    sssom:subject_label "abnormal male meiosis" ;
+    sssom:uuid "affc2b4a0b4457d08113015fa7c8d42e"^^<xsd:string> .
+
+sssom:b080eb2385d95252821fa8526379868b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008049> ;
+    owl:annotatedTarget <cl:0000813> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "memory T cell" ;
+    sssom:subject_label "increased memory T cell number" ;
+    sssom:uuid "b080eb2385d95252821fa8526379868b"^^<xsd:string> .
+
+sssom:b226fb48893a533f9d79b3d01164dd45 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010812> ;
+    owl:annotatedTarget <cl:0002063> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "type II pneumocyte" ;
+    sssom:subject_label "absent type II pneumocytes" ;
+    sssom:uuid "b226fb48893a533f9d79b3d01164dd45"^^<xsd:string> .
+
+sssom:b294493e379158c9b483668333b744be a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001663> ;
+    owl:annotatedTarget MGI:2173602 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal digestive system physiology" ;
+    sssom:uuid "b294493e379158c9b483668333b744be"^^<xsd:string> .
+
+sssom:b41e62bd85c1553598071ed4c6fc20c4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010133> ;
+    owl:annotatedTarget <cl:0000807> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DN3 thymocyte" ;
+    sssom:subject_label "increased DN3 thymocyte number" ;
+    sssom:uuid "b41e62bd85c1553598071ed4c6fc20c4"^^<xsd:string> .
+
+sssom:b56c15629445540e95729e99460bafdd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002127> ;
+    owl:annotatedTarget MGI:2173587 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal cardiovascular system morphology" ;
+    sssom:uuid "b56c15629445540e95729e99460bafdd"^^<xsd:string> .
+
+sssom:b616bf2ccd215c6d8af3faf1ccfe99b6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002072> ;
+    owl:annotatedTarget MGI:2173577 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete neurological/behavioral: no defect detected" ;
+    sssom:uuid "b616bf2ccd215c6d8af3faf1ccfe99b6"^^<xsd:string> .
+
+sssom:b7194cd07e2a5f438670d83619f3e853 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001224> ;
+    owl:annotatedTarget <go:0030216> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "keratinocyte differentiation" ;
+    sssom:subject_label "abnormal keratinocyte apoptosis" ;
+    sssom:uuid "b7194cd07e2a5f438670d83619f3e853"^^<xsd:string> .
+
+sssom:b96a2dd661f05155ae558b465d488323 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0003633> ;
+    owl:annotatedTarget MGI:2173615 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal nervous system physiology" ;
+    sssom:uuid "b96a2dd661f05155ae558b465d488323"^^<xsd:string> .
+
+sssom:b9a02391394f51e0ad784ccf32101a43 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009640> ;
+    owl:annotatedTarget <ma:0001681> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "kidney tubule epithelium" ;
+    sssom:subject_label "abnormal renal tubule epithelium morphology" ;
+    sssom:uuid "b9a02391394f51e0ad784ccf32101a43"^^<xsd:string> .
+
+sssom:b9a0d42271dd51f4901aa06e83d61e26 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000819> ;
+    owl:annotatedTarget <ma:0000194> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "main olfactory bulb" ;
+    sssom:subject_label "abnormal olfactory bulb morphology" ;
+    sssom:uuid "b9a0d42271dd51f4901aa06e83d61e26"^^<xsd:string> .
+
+sssom:b9c2e01ab83651859b377bb195b7f4f3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002117> ;
+    owl:annotatedTarget MGI:2173565 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete skeletal: no defect detected" ;
+    sssom:uuid "b9c2e01ab83651859b377bb195b7f4f3"^^<xsd:string> .
+
+sssom:ba07c8a439c15e1f8a212154e5dcac53 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009099> ;
+    owl:annotatedTarget <cl:0002343> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "decidual natural killer cell, human" ;
+    sssom:subject_label "abnormal uterine NK cell physiology" ;
+    sssom:uuid "ba07c8a439c15e1f8a212154e5dcac53"^^<xsd:string> .
+
+sssom:ba65e898579e5016b7459a79bdb6cb0f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010185> ;
+    owl:annotatedTarget <cl:0002038> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T follicular helper cell" ;
+    sssom:subject_label "abnormal T follicular helper cell number" ;
+    sssom:uuid "ba65e898579e5016b7459a79bdb6cb0f"^^<xsd:string> .
+
+sssom:ba9bef58974353399aecbd4c77f2d623 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011244> ;
+    owl:annotatedTarget <cl:0002357> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fetal derived definitive erythrocyte" ;
+    sssom:subject_label "absent fetal derived definitive erythrocytes" ;
+    sssom:uuid "ba9bef58974353399aecbd4c77f2d623"^^<xsd:string> .
+
+sssom:baced0db22185cc48c7ae2d91c21e3ba a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002123> ;
+    owl:annotatedTarget MGI:2173583 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal definitive hematopoiesis" ;
+    sssom:uuid "baced0db22185cc48c7ae2d91c21e3ba"^^<xsd:string> .
+
+sssom:bb3d9ca59be455fc9500723a87de0c78 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009381> ;
+    owl:annotatedTarget <ma:0001739> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "prostate gland dorsolateral lobe" ;
+    sssom:subject_label "abnormal prostate gland dorsolateral lobe morphology" ;
+    sssom:uuid "bb3d9ca59be455fc9500723a87de0c78"^^<xsd:string> .
+
+sssom:bb53859e6981526c9f35c61b96c9b2c1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008043> ;
+    owl:annotatedTarget <cl:0000623> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "natural killer cell" ;
+    sssom:subject_label "abnormal NK cell number" ;
+    sssom:uuid "bb53859e6981526c9f35c61b96c9b2c1"^^<xsd:string> .
+
+sssom:bb6df4bfed5b58d19d45dbce6f960606 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002078> ;
+    owl:annotatedTarget MGI:2173579 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal glucose homeostasis" ;
+    sssom:uuid "bb6df4bfed5b58d19d45dbce6f960606"^^<xsd:string> .
+
+sssom:bbaace59ca7b5bce9c3c1bb5b7483c79 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010107> ;
+    owl:annotatedTarget <go:0070293> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "renal absorption" ;
+    sssom:subject_label "abnormal renal reabsorption" ;
+    sssom:uuid "bbaace59ca7b5bce9c3c1bb5b7483c79"^^<xsd:string> .
+
+sssom:bbcaf064c174588491166d0f280a0984 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009947> ;
+    owl:annotatedTarget <ma:0000969> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory bulb external plexiform layer" ;
+    sssom:subject_label "abnormal olfactory bulb external plexiform layer morphology" ;
+    sssom:uuid "bbcaf064c174588491166d0f280a0984"^^<xsd:string> .
+
+sssom:bbe77f2f79a35545bd13b65570a422e7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010842> ;
+    owl:annotatedTarget <cl:0000904> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "central memory CD4-positive, alpha-beta T cell" ;
+    sssom:subject_label "decreased central memory CD4-positive, alpha-beta T cell number" ;
+    sssom:uuid "bbe77f2f79a35545bd13b65570a422e7"^^<xsd:string> .
+
+sssom:bced9fe167685fbf8c100eaf43c123a5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000272> ;
+    owl:annotatedTarget <ma:0000062> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aorta" ;
+    sssom:subject_label "abnormal aorta morphology" ;
+    sssom:uuid "bced9fe167685fbf8c100eaf43c123a5"^^<xsd:string> .
+
+sssom:be60a8df85c35ee4b2e0fe298213a798 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010955> ;
+    owl:annotatedTarget <go:0022904> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "respiratory electron transport chain" ;
+    sssom:subject_label "abnormal respiratory electron transport chain" ;
+    sssom:uuid "be60a8df85c35ee4b2e0fe298213a798"^^<xsd:string> .
+
+sssom:be8ab9dc92f05dfda29874e8b074979e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002081> ;
+    owl:annotatedTarget MGI:2173526 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "perinatal lethality" ;
+    sssom:uuid "be8ab9dc92f05dfda29874e8b074979e"^^<xsd:string> .
+
+sssom:beee22d57e5b549789184e3b60eaa2a3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010838> ;
+    owl:annotatedTarget <cl:0000909> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD8-positive, alpha-beta memory T cell" ;
+    sssom:subject_label "increased CD8-positive, alpha-beta memory T cell number" ;
+    sssom:uuid "beee22d57e5b549789184e3b60eaa2a3"^^<xsd:string> .
+
+sssom:bef1d6979be454289c38b99015cda2b9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009866> ;
+    owl:annotatedTarget <ma:0002901> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aorta wall" ;
+    sssom:subject_label "abnormal aorta wall morphology" ;
+    sssom:uuid "bef1d6979be454289c38b99015cda2b9"^^<xsd:string> .
+
+sssom:bf2989d9d1a55b4fb70eed8b3443cf68 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002471> ;
+    owl:annotatedTarget <go:0006956> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "complement activation" ;
+    sssom:subject_label "abnormal complement pathway" ;
+    sssom:uuid "bf2989d9d1a55b4fb70eed8b3443cf68"^^<xsd:string> .
+
+sssom:bf3d31cb406752cba6b9dbd4ab7cb123 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009926> ;
+    owl:annotatedTarget <cl:0000959> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T2 B cell" ;
+    sssom:subject_label "decreased transitional stage T2 B cell number" ;
+    sssom:uuid "bf3d31cb406752cba6b9dbd4ab7cb123"^^<xsd:string> .
+
+sssom:c02579154ac15f888bebfe105f6a328c a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010030> ;
+    owl:annotatedTarget <ma:0002482> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "orbit" ;
+    sssom:subject_label "abnormal orbit morphology" ;
+    sssom:uuid "c02579154ac15f888bebfe105f6a328c"^^<xsd:string> .
+
+sssom:c0f16149d3f4558fadda3cb4467f6cc5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011528> ;
+    owl:annotatedTarget <go:0060670> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "branching involved in labyrinthine layer morphogenesis" ;
+    sssom:subject_label "abnormal placental labyrinth villi branching morphogenesis" ;
+    sssom:uuid "c0f16149d3f4558fadda3cb4467f6cc5"^^<xsd:string> .
+
+sssom:c151c0cab60154019eeec6d3d0efda4d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002094> ;
+    owl:annotatedTarget MGI:2173543 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete coat: no defect detected" ;
+    sssom:uuid "c151c0cab60154019eeec6d3d0efda4d"^^<xsd:string> .
+
+sssom:c1b771447b035aa182a2cf46b37b0a57 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010229> ;
+    owl:annotatedTarget <cl:0000960> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T3 B cell" ;
+    sssom:subject_label "increased transitional stage T3 B cell number" ;
+    sssom:uuid "c1b771447b035aa182a2cf46b37b0a57"^^<xsd:string> .
+
+sssom:c1bf16f47a1457b5ac27becda83b04e1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002064> ;
+    owl:annotatedTarget MGI:2173569 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "seizures" ;
+    sssom:uuid "c1bf16f47a1457b5ac27becda83b04e1"^^<xsd:string> .
+
+sssom:c1de68a3c29c5d8296b1131aefe75120 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002074> ;
+    owl:annotatedTarget MGI:2173540 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal hair texture" ;
+    sssom:uuid "c1de68a3c29c5d8296b1131aefe75120"^^<xsd:string> .
+
+sssom:c1f7f7bb5d165bb2bb05ca788f7a0369 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000438> ;
+    owl:annotatedTarget <ma:0000316> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cranium" ;
+    sssom:subject_label "abnormal cranium morphology" ;
+    sssom:uuid "c1f7f7bb5d165bb2bb05ca788f7a0369"^^<xsd:string> .
+
+sssom:c2a5807ddaef5e2d979ec9651fe1d4f3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002149> ;
+    owl:annotatedTarget MGI:2173609 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete immune system: other functional anomaly" ;
+    sssom:uuid "c2a5807ddaef5e2d979ec9651fe1d4f3"^^<xsd:string> .
+
+sssom:c3581335f46b5607b0994ec69f32c962 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002137> ;
+    owl:annotatedTarget MGI:2173597 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete kidney/renal system: no defect detected" ;
+    sssom:uuid "c3581335f46b5607b0994ec69f32c962"^^<xsd:string> .
+
+sssom:c35db1f2c7995caba52e03c787281cab a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008058> ;
+    owl:annotatedTarget <go:0006281> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DNA repair" ;
+    sssom:subject_label "abnormal DNA repair" ;
+    sssom:uuid "c35db1f2c7995caba52e03c787281cab"^^<xsd:string> .
+
+sssom:c37669ae28795ef594f0aa0f63cecdf0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004944> ;
+    owl:annotatedTarget <go:0002352> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "B cell negative selection" ;
+    sssom:subject_label "abnormal B cell negative selection" ;
+    sssom:uuid "c37669ae28795ef594f0aa0f63cecdf0"^^<xsd:string> .
+
+sssom:c46fe9ee41865cf48e44f7f0b73b6159 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002128> ;
+    owl:annotatedTarget MGI:2173588 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal blood circulation" ;
+    sssom:uuid "c46fe9ee41865cf48e44f7f0b73b6159"^^<xsd:string> .
+
+sssom:c4865ffc528c51c6a821658a9f1ff96e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002275> ;
+    owl:annotatedTarget <fma:62501> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Type II alveolar epithelial cell" ;
+    sssom:subject_label "abnormal type II pneumocyte morphology" ;
+    sssom:uuid "c4865ffc528c51c6a821658a9f1ff96e"^^<xsd:string> .
+
+sssom:c50ca2d1ae9b5c698067087f76e5a2e3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009938> ;
+    owl:annotatedTarget <cl:0001033> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "hippocampal granule cell" ;
+    sssom:subject_label "abnormal hippocampus granule cell morphology" ;
+    sssom:uuid "c50ca2d1ae9b5c698067087f76e5a2e3"^^<xsd:string> .
+
+sssom:c562d75fb8c75ac0a30c80f43f20748a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002146> ;
+    owl:annotatedTarget MGI:2173606 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete immune system: other dysmorphology" ;
+    sssom:uuid "c562d75fb8c75ac0a30c80f43f20748a"^^<xsd:string> .
+
+sssom:c58ec767cc625e11bb7c104b3f1b723e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011706> ;
+    owl:annotatedTarget <cl:0000057> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fibroblast" ;
+    sssom:subject_label "abnormal fibroblast migration" ;
+    sssom:uuid "c58ec767cc625e11bb7c104b3f1b723e"^^<xsd:string> .
+
+sssom:c612b8ff45cc5731bb156d12c6eb8c6f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002167> ;
+    owl:annotatedTarget MGI:2173627 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete unaffected tumor susceptibility/resistance" ;
+    sssom:uuid "c612b8ff45cc5731bb156d12c6eb8c6f"^^<xsd:string> .
+
+sssom:c64479642b8455ebb76899ee6190386a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002163> ;
+    owl:annotatedTarget MGI:2173623 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal gland morphology" ;
+    sssom:uuid "c64479642b8455ebb76899ee6190386a"^^<xsd:string> .
+
+sssom:c68c8e4b079a51ef94dfe2ba6c5324f7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002349> ;
+    owl:annotatedTarget <ma:0000748> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "afferent lymphatic vessel" ;
+    sssom:subject_label "abnormal afferent lymphatic vessel morphology" ;
+    sssom:uuid "c68c8e4b079a51ef94dfe2ba6c5324f7"^^<xsd:string> .
+
+sssom:c7df5198fcb15aefaa0e203808ff95b6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010834> ;
+    owl:annotatedTarget <cl:0000897> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD4-positive, alpha-beta memory T cell" ;
+    sssom:subject_label "abnormal CD4-positive, alpha-beta memory T cell morphology" ;
+    sssom:uuid "c7df5198fcb15aefaa0e203808ff95b6"^^<xsd:string> .
+
+sssom:c87ed4f9e16b5d2199a068d95a6c2d82 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001158> ;
+    owl:annotatedTarget <ma:0000404> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "prostate gland" ;
+    sssom:subject_label "abnormal prostate gland morphology" ;
+    sssom:uuid "c87ed4f9e16b5d2199a068d95a6c2d82"^^<xsd:string> .
+
+sssom:c945f7d082735043a8b4d7685cfa8fe3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010848> ;
+    owl:annotatedTarget <cl:0000907> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "central memory CD8-positive, alpha-beta T cell" ;
+    sssom:subject_label "decreased central memory CD8 positive, alpha-beta T cell number" ;
+    sssom:uuid "c945f7d082735043a8b4d7685cfa8fe3"^^<xsd:string> .
+
+sssom:cc0d4dd1815c52d5bbf2bbda19d132a7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004231> ;
+    owl:annotatedTarget <go:0006874> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "intracellular calcium ion homeostasis" ;
+    sssom:subject_label "abnormal calcium ion homeostasis" ;
+    sssom:uuid "cc0d4dd1815c52d5bbf2bbda19d132a7"^^<xsd:string> .
+
+sssom:ccb3371f4e3359fca6e463bfa55a45ff a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010169> ;
+    owl:annotatedTarget <cl:0000792> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD4-positive, CD25-positive, alpha-beta regulatory T cell" ;
+    sssom:subject_label "decreased CD4-positive, CD25-positive, alpha-beta regulatory T cell number" ;
+    sssom:uuid "ccb3371f4e3359fca6e463bfa55a45ff"^^<xsd:string> .
+
+sssom:cd07480d00d3586086ae166b7b5ed90b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008044> ;
+    owl:annotatedTarget <cl:0000623> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "natural killer cell" ;
+    sssom:subject_label "increased NK cell number" ;
+    sssom:uuid "cd07480d00d3586086ae166b7b5ed90b"^^<xsd:string> .
+
+sssom:cd10f8b5155d50d2b2f0a6a5d9a0f57f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0012051> ;
+    owl:annotatedTarget UMLS:C0026838 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "spasticity" ;
+    sssom:uuid "cd10f8b5155d50d2b2f0a6a5d9a0f57f"^^<xsd:string> .
+
+sssom:cda685c5ec3754bcaab4a9d2b2edbf49 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001168> ;
+    owl:annotatedTarget <ma:0001737> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "prostate gland epithelium" ;
+    sssom:subject_label "abnormal prostate gland epithelium morphology" ;
+    sssom:uuid "cda685c5ec3754bcaab4a9d2b2edbf49"^^<xsd:string> .
+
+sssom:cde0524fb8c45f899eeed282273f3411 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010669> ;
+    owl:annotatedTarget <go:0071948> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "activation-induced B cell apoptotic process" ;
+    sssom:subject_label "abnormal activation-induced B cell apoptosis" ;
+    sssom:uuid "cde0524fb8c45f899eeed282273f3411"^^<xsd:string> .
+
+sssom:ce727fe2e3ba55ce8fc83bda343a5381 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009864> ;
+    owl:annotatedTarget <ma:0000701> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aorta endothelium" ;
+    sssom:subject_label "abnormal aorta endothelium morphology" ;
+    sssom:uuid "ce727fe2e3ba55ce8fc83bda343a5381"^^<xsd:string> .
+
+sssom:cec241b98aed5ce0b864449ec051f874 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002086> ;
+    owl:annotatedTarget MGI:2173531 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal extraembryonic tissue morphology" ;
+    sssom:uuid "cec241b98aed5ce0b864449ec051f874"^^<xsd:string> .
+
+sssom:cfb3b250a03c5b9eb0f955e5dd3d7ac9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010811> ;
+    owl:annotatedTarget <cl:0002063> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "type II pneumocyte" ;
+    sssom:subject_label "decreased type II pneumocyte number" ;
+    sssom:uuid "cfb3b250a03c5b9eb0f955e5dd3d7ac9"^^<xsd:string> .
+
+sssom:d08461e11fa9525cbb521179f12ad695 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008046> ;
+    owl:annotatedTarget <fma:83601> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Null lymphocyte" ;
+    sssom:subject_label "absent NK cells" ;
+    sssom:uuid "d08461e11fa9525cbb521179f12ad695"^^<xsd:string> .
+
+sssom:d0d5ab4c97405f81b856f3e4ecff49ee a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009925> ;
+    owl:annotatedTarget <cl:0000959> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T2 B cell" ;
+    sssom:subject_label "increased transitional stage T2 B cell number" ;
+    sssom:uuid "d0d5ab4c97405f81b856f3e4ecff49ee"^^<xsd:string> .
+
+sssom:d16c6029d190518b88df502c230fefa4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002068> ;
+    owl:annotatedTarget MGI:2173573 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal parental behavior" ;
+    sssom:uuid "d16c6029d190518b88df502c230fefa4"^^<xsd:string> .
+
+sssom:d2cd6ed9d5ef5efd95f8debabf41b6bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011242> ;
+    owl:annotatedTarget <cl:0002357> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fetal derived definitive erythrocyte" ;
+    sssom:subject_label "increased fetal derived definitive erythrocyte cell number" ;
+    sssom:uuid "d2cd6ed9d5ef5efd95f8debabf41b6bd"^^<xsd:string> .
+
+sssom:d355f81c695955c9af462d0d7a17ed58 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002116> ;
+    owl:annotatedTarget MGI:2173564 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal craniofacial bone morphology" ;
+    sssom:uuid "d355f81c695955c9af462d0d7a17ed58"^^<xsd:string> .
+
+sssom:d49eed7866745fd4b5fa20ddb7fb403d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000230> ;
+    owl:annotatedTarget MGI:2173589 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal systemic arterial blood pressure" ;
+    sssom:uuid "d49eed7866745fd4b5fa20ddb7fb403d"^^<xsd:string> .
+
+sssom:d4fab15db06050c6bb7d038ce7720aae a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010851> ;
+    owl:annotatedTarget <cl:0000913> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "effector memory CD8-positive, alpha-beta T cell" ;
+    sssom:subject_label "decreased effector memory CD8-positive, alpha-beta T cell number" ;
+    sssom:uuid "d4fab15db06050c6bb7d038ce7720aae"^^<xsd:string> .
+
+sssom:d50cdd308ebc5afc95f4da1c16f1a8d2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002067> ;
+    owl:annotatedTarget MGI:2173572 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal sensory capabilities/reflexes/nociception" ;
+    sssom:uuid "d50cdd308ebc5afc95f4da1c16f1a8d2"^^<xsd:string> .
+
+sssom:d57e539739d45a089123abc4f0123301 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002080> ;
+    owl:annotatedTarget MGI:2173525 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "prenatal lethality" ;
+    sssom:uuid "d57e539739d45a089123abc4f0123301"^^<xsd:string> .
+
+sssom:d60917b1feab5b108d8d6c374e2ab7f9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002160> ;
+    owl:annotatedTarget MGI:2173620 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal reproductive system morphology" ;
+    sssom:uuid "d60917b1feab5b108d8d6c374e2ab7f9"^^<xsd:string> .
+
+sssom:d6b910f7765753b09f5bce27f4a7e1a3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005068> ;
+    owl:annotatedTarget <cl:0000623> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "natural killer cell" ;
+    sssom:subject_label "abnormal NK cell morphology" ;
+    sssom:uuid "d6b910f7765753b09f5bce27f4a7e1a3"^^<xsd:string> .
+
+sssom:d6e6b70d40595378a06c487ea69e316a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004778> ;
+    owl:annotatedTarget <cl:0000517> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "macrophage derived foam cell" ;
+    sssom:subject_label "increased macrophage derived foam cell number" ;
+    sssom:uuid "d6e6b70d40595378a06c487ea69e316a"^^<xsd:string> .
+
+sssom:d732f33dfbf25f7cb51b5ee003380a9d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010228> ;
+    owl:annotatedTarget <cl:0000960> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T3 B cell" ;
+    sssom:subject_label "decreased transitional stage T3 B cell number" ;
+    sssom:uuid "d732f33dfbf25f7cb51b5ee003380a9d"^^<xsd:string> .
+
+sssom:d7ab0e1b1b975ba19c258f313ca34fbf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009869> ;
+    owl:annotatedTarget <ma:0002571> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "descending aorta" ;
+    sssom:subject_label "abnormal descending aorta morphology" ;
+    sssom:uuid "d7ab0e1b1b975ba19c258f313ca34fbf"^^<xsd:string> .
+
+sssom:d838e18bfb8c5d9a82366639dba3f52a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010914> ;
+    owl:annotatedTarget <fma:14118> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Dense-core granulated cell" ;
+    sssom:subject_label "abnormal solitary pulmonary neuroendocrine cell morphology" ;
+    sssom:uuid "d838e18bfb8c5d9a82366639dba3f52a"^^<xsd:string> .
+
+sssom:d925d61e5f93565096bce07516f71823 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009919> ;
+    owl:annotatedTarget <cl:0000958> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T1 B cell" ;
+    sssom:subject_label "abnormal transitional stage T1 B cell morphology" ;
+    sssom:uuid "d925d61e5f93565096bce07516f71823"^^<xsd:string> .
+
+sssom:d968e8c6b05a54fb969fb801069ea94d a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010981> ;
+    owl:annotatedTarget <go:0001658> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "branching involved in ureteric bud morphogenesis" ;
+    sssom:subject_label "abnormal branching involved in ureteric bud morphogenesis" ;
+    sssom:uuid "d968e8c6b05a54fb969fb801069ea94d"^^<xsd:string> .
+
+sssom:d9a2973c447e5d6f94aaba20c90515b5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008045> ;
+    owl:annotatedTarget <fma:63147> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Natural killer cell" ;
+    sssom:subject_label "decreased NK cell number" ;
+    sssom:uuid "d9a2973c447e5d6f94aaba20c90515b5"^^<xsd:string> .
+
+sssom:dc11a2b2cee55a5fa0420710dc35d801 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0003632> ;
+    owl:annotatedTarget <go:0007417> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "central nervous system development" ;
+    sssom:subject_label "abnormal nervous system morphology" ;
+    sssom:uuid "dc11a2b2cee55a5fa0420710dc35d801"^^<xsd:string> .
+
+sssom:dce2ac6e10e656fca1fcc8d3e63be3f4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002766> ;
+    owl:annotatedTarget <mpath:720> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "situs inversus" ;
+    sssom:subject_label "situs inversus" ;
+    sssom:uuid "dce2ac6e10e656fca1fcc8d3e63be3f4"^^<xsd:string> .
+
+sssom:dd4223a166ed57a4bb9c77eeb04f157f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010811> ;
+    owl:annotatedTarget <fma:62501> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Type II alveolar epithelial cell" ;
+    sssom:subject_label "decreased type II pneumocyte number" ;
+    sssom:uuid "dd4223a166ed57a4bb9c77eeb04f157f"^^<xsd:string> .
+
+sssom:de22422d08fa5d4984fe97a06b53d270 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004195> ;
+    owl:annotatedTarget <ma:0000369> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "kidney calyx" ;
+    sssom:subject_label "abnormal kidney calyx morphology" ;
+    sssom:uuid "de22422d08fa5d4984fe97a06b53d270"^^<xsd:string> .
+
+sssom:df25223c32cd5ef4b9933a15b418945f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000462> ;
+    owl:annotatedTarget MGI:2173601 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal digestive system morphology" ;
+    sssom:uuid "df25223c32cd5ef4b9933a15b418945f"^^<xsd:string> .
+
+sssom:e04b0f326faf556499798aa4d8182be0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009953> ;
+    owl:annotatedTarget <ma:0000976> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory tubercle" ;
+    sssom:subject_label "abnormal olfactory tubercle morphology" ;
+    sssom:uuid "e04b0f326faf556499798aa4d8182be0"^^<xsd:string> .
+
+sssom:e18838b6bf44512eab52c9123bf1eaf3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010840> ;
+    owl:annotatedTarget <cl:0000904> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "central memory CD4-positive, alpha-beta T cell" ;
+    sssom:subject_label "abnormal central memory CD4-positive, alpha-beta T cell morphology" ;
+    sssom:uuid "e18838b6bf44512eab52c9123bf1eaf3"^^<xsd:string> .
+
+sssom:e1b7f60c3f155728a38a49ccfc903250 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010816> ;
+    owl:annotatedTarget <fma:62500> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Type I alveolar epithelial cell" ;
+    sssom:subject_label "decreased type I pneumocyte number" ;
+    sssom:uuid "e1b7f60c3f155728a38a49ccfc903250"^^<xsd:string> .
+
+sssom:e1c2c2b78b2956cfaff71db0610fa9eb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010130> ;
+    owl:annotatedTarget <cl:0000894> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DN1 thymic pro-T cell" ;
+    sssom:subject_label "decreased DN1 thymic pro-T cell number" ;
+    sssom:uuid "e1c2c2b78b2956cfaff71db0610fa9eb"^^<xsd:string> .
+
+sssom:e2c9724317c1584b81c1503565d56ffb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010916> ;
+    owl:annotatedTarget <fma:14118> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Dense-core granulated cell" ;
+    sssom:subject_label "decreased solitary pulmonary neuroendocrine cell number" ;
+    sssom:uuid "e2c9724317c1584b81c1503565d56ffb"^^<xsd:string> .
+
+sssom:e36f57d237b5540ba5502a4e565edf83 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002159> ;
+    owl:annotatedTarget MGI:2173619 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete peripheral nervous system: no defect detected" ;
+    sssom:uuid "e36f57d237b5540ba5502a4e565edf83"^^<xsd:string> .
+
+sssom:e3c73977ad9c5bf5b7023d07f5fc8664 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009959> ;
+    owl:annotatedTarget <ma:0000200> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellum hemisphere" ;
+    sssom:subject_label "abnormal cerebellar hemisphere morphology" ;
+    sssom:uuid "e3c73977ad9c5bf5b7023d07f5fc8664"^^<xsd:string> .
+
+sssom:e45b0685880c5a248b785355e0f3ffce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002147> ;
+    owl:annotatedTarget MGI:2173607 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete immune system: immunodeficiency" ;
+    sssom:uuid "e45b0685880c5a248b785355e0f3ffce"^^<xsd:string> .
+
+sssom:e46408f97683522a8fc7f3e5169936d5 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008044> ;
+    owl:annotatedTarget <fma:83601> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Null lymphocyte" ;
+    sssom:subject_label "increased NK cell number" ;
+    sssom:uuid "e46408f97683522a8fc7f3e5169936d5"^^<xsd:string> .
+
+sssom:e4c2218d361151e4a4fb3b2002899593 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010947> ;
+    owl:annotatedTarget <go:0000012> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "single strand break repair" ;
+    sssom:subject_label "abnormal single-strand DNA break repair" ;
+    sssom:uuid "e4c2218d361151e4a4fb3b2002899593"^^<xsd:string> .
+
+sssom:e4d4649b989b58b7a64b5a8098fe9872 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009922> ;
+    owl:annotatedTarget <cl:0000958> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T1 B cell" ;
+    sssom:subject_label "increased transitional stage T1 B cell number" ;
+    sssom:uuid "e4d4649b989b58b7a64b5a8098fe9872"^^<xsd:string> .
+
+sssom:e60f7624b0b859f98c7ad77fe42ce9bf a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002071> ;
+    owl:annotatedTarget MGI:2173576 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete other abnormal behavior" ;
+    sssom:uuid "e60f7624b0b859f98c7ad77fe42ce9bf"^^<xsd:string> .
+
+sssom:e861cd8042135cef8dd9f17513bdefa3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0012051> ;
+    owl:annotatedTarget <hp:0001257> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Spasticita" ;
+    sssom:subject_label "spasticity" ;
+    sssom:uuid "e861cd8042135cef8dd9f17513bdefa3"^^<xsd:string> .
+
+sssom:eab4dfe4398456c595da232b9af46b67 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001683> ;
+    owl:annotatedTarget <go:0001707> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "mesoderm formation" ;
+    sssom:subject_label "absent mesoderm" ;
+    sssom:uuid "eab4dfe4398456c595da232b9af46b67"^^<xsd:string> .
+
+sssom:eaf75bbb5f025572b88c3076da8dc615 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005075> ;
+    owl:annotatedTarget <go:0042470> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "melanosome" ;
+    sssom:subject_label "abnormal melanosome morphology" ;
+    sssom:uuid "eaf75bbb5f025572b88c3076da8dc615"^^<xsd:string> .
+
+sssom:eb41e4b51166564faecd7edc06ac0d95 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0005237> ;
+    owl:annotatedTarget <ma:0000975> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory tract" ;
+    sssom:subject_label "abnormal olfactory tract morphology" ;
+    sssom:uuid "eb41e4b51166564faecd7edc06ac0d95"^^<xsd:string> .
+
+sssom:eb8306041bfd57f7a48bfb7a93c38ca9 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004409> ;
+    owl:annotatedTarget <ma:0002870> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "crista ampullaris neuroepithelium" ;
+    sssom:subject_label "abnormal crista ampullaris neuroepithelium morphology" ;
+    sssom:uuid "eb8306041bfd57f7a48bfb7a93c38ca9"^^<xsd:string> .
+
+sssom:ebebb6fbcdc7570c948d5757f0997a35 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002121> ;
+    owl:annotatedTarget MGI:2173581 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete other metabolic defect" ;
+    sssom:uuid "ebebb6fbcdc7570c948d5757f0997a35"^^<xsd:string> .
+
+sssom:ec14855a55b95855b423b6433a74f317 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001685> ;
+    owl:annotatedTarget <go:0001706> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "endoderm formation" ;
+    sssom:subject_label "abnormal endoderm development" ;
+    sssom:uuid "ec14855a55b95855b423b6433a74f317"^^<xsd:string> .
+
+sssom:ec7de7daae4d5636849a21e613263fed a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002150> ;
+    owl:annotatedTarget MGI:2173610 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete immune system: no defect detected" ;
+    sssom:uuid "ec7de7daae4d5636849a21e613263fed"^^<xsd:string> .
+
+sssom:ecb8a9b2af7a5baa9921934e3bb1ed36 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0003710> ;
+    owl:annotatedTarget <go:0060055> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "angiogenesis involved in wound healing" ;
+    sssom:subject_label "abnormal physiological neovascularization" ;
+    sssom:uuid "ecb8a9b2af7a5baa9921934e3bb1ed36"^^<xsd:string> .
+
+sssom:ecba59eaf77c532c9b9cfd14b72f00a8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010774> ;
+    owl:annotatedTarget <ma:0002990> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lymph node follicular mantle" ;
+    sssom:subject_label "abnormal lymph node follicular mantle morphology" ;
+    sssom:uuid "ecba59eaf77c532c9b9cfd14b72f00a8"^^<xsd:string> .
+
+sssom:ed27421fe98157e4b52dc3553b00053e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011909> ;
+    owl:annotatedTarget <cl:0002351> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "progenitor cell of endocrine pancreas" ;
+    sssom:subject_label "increased pancreatic endocrine progenitor cell proliferation" ;
+    sssom:uuid "ed27421fe98157e4b52dc3553b00053e"^^<xsd:string> .
+
+sssom:edb7dc4ab61d51569e4cfe4392164637 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0012013> ;
+    owl:annotatedTarget <nbo:0000635> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "avoidance behavior" ;
+    sssom:subject_label "abnormal innate avoidance response" ;
+    sssom:uuid "edb7dc4ab61d51569e4cfe4392164637"^^<xsd:string> .
+
+sssom:edf0bd6c0c5c5eaeaf1220650a01ade3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010135> ;
+    owl:annotatedTarget <cl:0000808> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "DN4 thymocyte" ;
+    sssom:subject_label "increased DN4 thymocyte number" ;
+    sssom:uuid "edf0bd6c0c5c5eaeaf1220650a01ade3"^^<xsd:string> .
+
+sssom:ee0c2da4e19159a78ead33acb210a151 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004941> ;
+    owl:annotatedTarget <cl:0000815> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "regulatory T cell" ;
+    sssom:subject_label "abnormal regulatory T cell morphology" ;
+    sssom:uuid "ee0c2da4e19159a78ead33acb210a151"^^<xsd:string> .
+
+sssom:ef38757c8d135ab3954df0e33df911a7 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008924> ;
+    owl:annotatedTarget <cl:0001031> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cerebellar granule cell" ;
+    sssom:subject_label "decreased cerebellar granule cell number" ;
+    sssom:uuid "ef38757c8d135ab3954df0e33df911a7"^^<xsd:string> .
+
+sssom:effc820ea83554d38f3dd706d9dcf87f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010916> ;
+    owl:annotatedTarget <cl:0002066> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Feyrter cell" ;
+    sssom:subject_label "decreased solitary pulmonary neuroendocrine cell number" ;
+    sssom:uuid "effc820ea83554d38f3dd706d9dcf87f"^^<xsd:string> .
+
+sssom:f08a8c97c51b5f408643549cbec888c3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002169> ;
+    owl:annotatedTarget MGI:2173629 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "no abnormal phenotype detected" ;
+    sssom:uuid "f08a8c97c51b5f408643549cbec888c3"^^<xsd:string> .
+
+sssom:f0f61dd22afe55cba7f9c338f925fd01 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002436> ;
+    owl:annotatedTarget <cl:0000794> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "CD8-positive, alpha-beta cytotoxic T cell" ;
+    sssom:subject_label "abnormal CD8-positive, alpha-beta cytotoxic T cell morphology" ;
+    sssom:uuid "f0f61dd22afe55cba7f9c338f925fd01"^^<xsd:string> .
+
+sssom:f130f98cd62b5e81b2e09ad5058f952b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010010> ;
+    owl:annotatedTarget <ma:0000977> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "islands of Calleja" ;
+    sssom:subject_label "abnormal islands of Calleja morphology" ;
+    sssom:uuid "f130f98cd62b5e81b2e09ad5058f952b"^^<xsd:string> .
+
+sssom:f2bc0ba0a76a5d7f8ee313e55b27b39e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0011246> ;
+    owl:annotatedTarget <cl:0002353> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "fetal liver hematopoietic progenitor cell" ;
+    sssom:subject_label "abnormal fetal liver hematopoietic progenitor cell morphology" ;
+    sssom:uuid "f2bc0ba0a76a5d7f8ee313e55b27b39e"^^<xsd:string> .
+
+sssom:f2ccaeee032f539d9de4767948ff58c6 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010675> ;
+    owl:annotatedTarget <go:0071948> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "activation-induced B cell apoptotic process" ;
+    sssom:subject_label "decreased activation-induced B cell apoptosis" ;
+    sssom:uuid "f2ccaeee032f539d9de4767948ff58c6"^^<xsd:string> .
+
+sssom:f35d93a82c7a593688835f5498dc7b50 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0008046> ;
+    owl:annotatedTarget <fma:63147> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Natural killer cell" ;
+    sssom:subject_label "absent NK cells" ;
+    sssom:uuid "f35d93a82c7a593688835f5498dc7b50"^^<xsd:string> .
+
+sssom:f5ca56c55db95d7485af852cf6c12def a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010845> ;
+    owl:annotatedTarget <cl:0000905> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "effector memory CD4-positive, alpha-beta T cell" ;
+    sssom:subject_label "decreased effector memory CD4-positive, alpha-beta T cell number" ;
+    sssom:uuid "f5ca56c55db95d7485af852cf6c12def"^^<xsd:string> .
+
+sssom:f5ee0b243d9a5f33a47e4c0063edbc36 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009871> ;
+    owl:annotatedTarget <ma:0002902> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "aorta tunica adventitia" ;
+    sssom:subject_label "abnormal aorta tunica adventitia morphology" ;
+    sssom:uuid "f5ee0b243d9a5f33a47e4c0063edbc36"^^<xsd:string> .
+
+sssom:f7c156557435577a8a6f4909d1d0d966 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009863> ;
+    owl:annotatedTarget <ma:0002858> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "heart elastic tissue" ;
+    sssom:subject_label "abnormal heart elastic tissue morphology" ;
+    sssom:uuid "f7c156557435577a8a6f4909d1d0d966"^^<xsd:string> .
+
+sssom:f8c8907500db57d9ad62624fc3904cfe a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0004133> ;
+    owl:annotatedTarget <mpath:712> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "heterotaxy" ;
+    sssom:subject_label "heterotaxia" ;
+    sssom:uuid "f8c8907500db57d9ad62624fc3904cfe"^^<xsd:string> .
+
+sssom:f92bfac73e0e52b1a5f76d5743c555a2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002093> ;
+    owl:annotatedTarget MGI:2173537 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete abnormal cornea/lens morphology" ;
+    sssom:uuid "f92bfac73e0e52b1a5f76d5743c555a2"^^<xsd:string> .
+
+sssom:f937f5b3afa2500c8032e33c43f98b34 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002089> ;
+    owl:annotatedTarget <go:0040014> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "regulation of multicellular organism growth" ;
+    sssom:subject_label "abnormal postnatal growth/weight/body size" ;
+    sssom:uuid "f937f5b3afa2500c8032e33c43f98b34"^^<xsd:string> .
+
+sssom:f9aa7ba517f258c192d61f4f58be1e54 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009944> ;
+    owl:annotatedTarget <ma:0002413> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "olfactory lobe" ;
+    sssom:subject_label "abnormal olfactory lobe morphology" ;
+    sssom:uuid "f9aa7ba517f258c192d61f4f58be1e54"^^<xsd:string> .
+
+sssom:f9fe0d69faef55f6a8d2017bb32fb08e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002082> ;
+    owl:annotatedTarget MGI:2173527 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "postnatal lethality" ;
+    sssom:uuid "f9fe0d69faef55f6a8d2017bb32fb08e"^^<xsd:string> .
+
+sssom:fa62232e2e3c5b56a2f70b144514b0e0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0001959> ;
+    owl:annotatedTarget <go:0007600> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "sensory perception" ;
+    sssom:subject_label "obsolete sensory system physiology/response abnormalities" ;
+    sssom:uuid "fa62232e2e3c5b56a2f70b144514b0e0"^^<xsd:string> .
+
+sssom:fa83f685b87d59e9960a895e0c5d776e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009980> ;
+    owl:annotatedTarget <ma:0001008> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "lateral cerebellar nucleus" ;
+    sssom:subject_label "abnormal cerebellum dentate nucleus morphology" ;
+    sssom:uuid "fa83f685b87d59e9960a895e0c5d776e"^^<xsd:string> .
+
+sssom:fae2b27888f35a418a5fd50beafbc264 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002165> ;
+    owl:annotatedTarget MGI:2173625 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete glands: no defect detected" ;
+    sssom:uuid "fae2b27888f35a418a5fd50beafbc264"^^<xsd:string> .
+
+sssom:fd2c8634f5c056c2912ed1f5145140a0 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002109> ;
+    owl:annotatedTarget MGI:2173549 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal limb morphology" ;
+    sssom:uuid "fd2c8634f5c056c2912ed1f5145140a0"^^<xsd:string> .
+
+sssom:fdbaf1a163355f9cbba19b5ae7e82598 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0010154> ;
+    owl:annotatedTarget <ma:0002951> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "gastroesophageal sphincter" ;
+    sssom:subject_label "abnormal gastroesophageal sphincter physiology" ;
+    sssom:uuid "fdbaf1a163355f9cbba19b5ae7e82598"^^<xsd:string> .
+
+sssom:fdbafae3369b560e9a8bb7f0638133ce a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0009923> ;
+    owl:annotatedTarget <cl:0000958> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "T1 B cell" ;
+    sssom:subject_label "decreased transitional stage T1 B cell number" ;
+    sssom:uuid "fdbafae3369b560e9a8bb7f0638133ce"^^<xsd:string> .
+
+sssom:ff6e78366d855e4193b967604eae9f62 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002133> ;
+    owl:annotatedTarget MGI:2173593 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "abnormal respiratory system physiology" ;
+    sssom:uuid "ff6e78366d855e4193b967604eae9f62"^^<xsd:string> .
+
+sssom:ffef8a7ac5e55ca1b2862bc189ea9e65 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0000715> ;
+    owl:annotatedTarget <cl:0000893> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "thymocyte" ;
+    sssom:subject_label "decreased thymocyte number" ;
+    sssom:uuid "ffef8a7ac5e55ca1b2862bc189ea9e65"^^<xsd:string> .
+
+sssom:fff488b3e88f5978932d0e730c8fa819 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <mp:0002101> ;
+    owl:annotatedTarget MGI:2173554 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "obsolete teeth: no defect detected" ;
+    sssom:uuid "fff488b3e88f5978932d0e730c8fa819"^^<xsd:string> .
+

@@ -1,0 +1,13 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:85d233fb8d3a5c8f8f7dfe380a2f3f17 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "psdo.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/psdo.ols.sssom.tsv> ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/psdo> ;
+            sssom:local_id "psdo.ols" ] ;
+    sssom:uuid "85d233fb8d3a5c8f8f7dfe380a2f3f17"^^<xsd:string> .
+

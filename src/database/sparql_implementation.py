@@ -9,7 +9,7 @@ from rdflib.namespace._RDF import RDF
 from sssom_schema import SSSOM, Mapping, MappingSet
 
 from ..models import SearchEntity
-from ..utils import compress_uri, expand_uri, parse_fields_type, sci2dec
+from ..utils import compress_uri, expand_uri, parse_fields_type
 
 
 class SparqlImpl(SparqlImplementation):
@@ -66,6 +66,14 @@ class SparqlImpl(SparqlImplementation):
                     filter = self.value_to_sparql(self.get_slot_uri(field))
                     if inverse:
                         query.where.append(f"OPTIONAL {{ ?{field} {filter} {subject} }}")
+                        continue
+
+                if field == "confidence":
+                    filter = self.value_to_sparql(self.get_slot_uri(field))
+                    query.add_filter(
+                        f'STR(?{field}) >= "{values["min"]}" && STR(?{field}) <= "{values["max"]}"'
+                    )
+                    continue
 
                 if values is not None:
                     values = list(map(lambda x: self.value_to_sparql(x), values))
@@ -100,7 +108,7 @@ class SparqlImpl(SparqlImplementation):
             if v["value"] == "None":
                 result[k] = None
             elif "confidence" in k:
-                result["confidence"] = sci2dec(v["value"])
+                result["confidence"] = float(v["value"])
             else:
                 result[k] = v["value"]
         return result
@@ -183,14 +191,19 @@ class SparqlImpl(SparqlImplementation):
 
     def get_ui_mappings_by_curie(self, search_filter: SearchEntity) -> Iterable[dict]:
         filters = search_filter.dict()
-        curies = filters.pop("curies")
 
+        if filters["mapping_justification"] is not None:
+            justifs = filters["mapping_justification"]
+            filters["mapping_justification"] = [expand_uri(justif) for justif in justifs]
+
+        curies = filters.pop("curies")
         filters["subject_id"] = [expand_uri(curie) for curie in curies]
         bindings = self.get_mappings_by_field(filters)
         for row in bindings:
             row["subject_id_curie"] = compress_uri(row["subject_id"])
             row["predicate_id_curie"] = compress_uri(row["predicate_id"])
             row["object_id_curie"] = compress_uri(row["object_id"])
+            row["mapping_justification_curie"] = compress_uri(row["mapping_justification"])
             yield row
 
         filters.pop("subject_id")
@@ -200,6 +213,7 @@ class SparqlImpl(SparqlImplementation):
             row["subject_id_curie"] = compress_uri(row["subject_id"])
             row["predicate_id_curie"] = compress_uri(row["predicate_id"])
             row["object_id_curie"] = compress_uri(row["object_id"])
+            row["mapping_justification_curie"] = compress_uri(row["mapping_justification"])
             yield row
 
     def get_mappings_by_filter(self, filter: Union[List[dict], None]) -> Iterable[dict]:
@@ -251,7 +265,12 @@ class SparqlImpl(SparqlImplementation):
                     bindings_list = self.transform_result_list(self._query(default_query_list))
                     r[f"{field}"] = bindings_list
 
-            r["mappings"] = {"href": request.url_for(name="mappings_by_mapping_set", id=r["uuid"])}
+            r["mappings"] = {
+                "href": request.url_for(
+                    name="mappings_by_mapping_set",  # type: ignore
+                    id=r["uuid"],
+                )
+            }
             r.pop("_x")
             yield r
 

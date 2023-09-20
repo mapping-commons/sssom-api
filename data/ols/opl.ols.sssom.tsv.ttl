@@ -1,0 +1,126 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:e44788bd2c915de0962bc8f6cfe8d2db a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "opl.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/opl.ols.sssom.tsv> ;
+    sssom:mappings sssom:245f82cd4ec9539cb4448c6347b40176,
+        sssom:34778eb9907b5d11b17db924b4b0abcc,
+        sssom:39a6ab9e628b5ad69abde0e44ba7a3bd,
+        sssom:467d0ec2a4675346b0b51ed43a7f13b3,
+        sssom:5a11a84dc9ee533291e2c3fcfe368351,
+        sssom:694040162bce5ebbb619e1d842095ea1,
+        sssom:74ee42083b1c515f8c25d946d4bb32f2,
+        sssom:89988285a7d251c988fd0f898460c099,
+        sssom:b854027efdb15c90bc6b1a501498b46e,
+        sssom:b9f236beefaa51d3aa4c4ea514afd830,
+        sssom:c7ee1c928ce25bde96bc30c38a19657f ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/opl> ;
+            sssom:local_id "opl.ols" ] ;
+    sssom:uuid "e44788bd2c915de0962bc8f6cfe8d2db"^^<xsd:string> .
+
+sssom:245f82cd4ec9539cb4448c6347b40176 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000027> ;
+    owl:annotatedTarget <fma:7163> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Skin" ;
+    sssom:subject_label "Homo sapiens skin" ;
+    sssom:uuid "245f82cd4ec9539cb4448c6347b40176"^^<xsd:string> .
+
+sssom:34778eb9907b5d11b17db924b4b0abcc a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000133> ;
+    owl:annotatedTarget <fma:7195> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Lung" ;
+    sssom:subject_label "Homo sapiens lung" ;
+    sssom:uuid "34778eb9907b5d11b17db924b4b0abcc"^^<xsd:string> .
+
+sssom:39a6ab9e628b5ad69abde0e44ba7a3bd a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000141> ;
+    owl:annotatedTarget <fma:7199> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Intestine" ;
+    sssom:subject_label "Homo sapiens intestine" ;
+    sssom:uuid "39a6ab9e628b5ad69abde0e44ba7a3bd"^^<xsd:string> .
+
+sssom:467d0ec2a4675346b0b51ed43a7f13b3 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000176> ;
+    owl:annotatedTarget <fma:9704> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Ureter" ;
+    sssom:subject_label "Homo sapiens ureter" ;
+    sssom:uuid "467d0ec2a4675346b0b51ed43a7f13b3"^^<xsd:string> .
+
+sssom:5a11a84dc9ee533291e2c3fcfe368351 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000019> ;
+    owl:annotatedTarget <fma:20935> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Cerebrospinal fluid" ;
+    sssom:subject_label "Homo sapiens cerebrospinal fluid" ;
+    sssom:uuid "5a11a84dc9ee533291e2c3fcfe368351"^^<xsd:string> .
+
+sssom:694040162bce5ebbb619e1d842095ea1 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000122> ;
+    owl:annotatedTarget <fma:63261> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Macrophage" ;
+    sssom:subject_label "Homo sapiens macrophage" ;
+    sssom:uuid "694040162bce5ebbb619e1d842095ea1"^^<xsd:string> .
+
+sssom:74ee42083b1c515f8c25d946d4bb32f2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000096> ;
+    owl:annotatedTarget <fma:62845> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Erythrocyte" ;
+    sssom:subject_label "Homo sapiens erythrocyte" ;
+    sssom:uuid "74ee42083b1c515f8c25d946d4bb32f2"^^<xsd:string> .
+
+sssom:89988285a7d251c988fd0f898460c099 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000097> ;
+    owl:annotatedTarget <fma:18934> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Vesical venous plexus" ;
+    sssom:subject_label "Homo sapiens vesical venus plexus" ;
+    sssom:uuid "89988285a7d251c988fd0f898460c099"^^<xsd:string> .
+
+sssom:b854027efdb15c90bc6b1a501498b46e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000005> ;
+    owl:annotatedTarget <fma:7197> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Liver" ;
+    sssom:subject_label "Homo sapiens liver" ;
+    sssom:uuid "b854027efdb15c90bc6b1a501498b46e"^^<xsd:string> .
+
+sssom:b9f236beefaa51d3aa4c4ea514afd830 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000219> ;
+    owl:annotatedTarget <fma:15900> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Urinary bladder" ;
+    sssom:subject_label "Homo sapiens urinary bladder" ;
+    sssom:uuid "b9f236beefaa51d3aa4c4ea514afd830"^^<xsd:string> .
+
+sssom:c7ee1c928ce25bde96bc30c38a19657f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <opl:0000040> ;
+    owl:annotatedTarget <fma:14515> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Hepatocyte" ;
+    sssom:subject_label "Homo sapiens hepatocyte" ;
+    sssom:uuid "c7ee1c928ce25bde96bc30c38a19657f"^^<xsd:string> .
+

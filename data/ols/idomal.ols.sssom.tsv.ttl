@@ -1,0 +1,13 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:d390801feb9758f9a3900827decfd6da a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "idomal.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/idomal.ols.sssom.tsv> ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/idomal> ;
+            sssom:local_id "idomal.ols" ] ;
+    sssom:uuid "d390801feb9758f9a3900827decfd6da"^^<xsd:string> .
+

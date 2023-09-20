@@ -1,0 +1,13 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:a38d5143a6e756ce99e094fa6f5e3e6f a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "fobi.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/fobi.ols.sssom.tsv> ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/fobi> ;
+            sssom:local_id "fobi.ols" ] ;
+    sssom:uuid "a38d5143a6e756ce99e094fa6f5e3e6f"^^<xsd:string> .
+

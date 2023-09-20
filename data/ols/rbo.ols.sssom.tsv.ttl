@@ -1,0 +1,176 @@
+@prefix MESH: <http://id.nlm.nih.gov/mesh/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+sssom:d4f8a2cccc145724ad9f47cfe287c235 a sssom:MappingSet ;
+    dcterms:license <https://w3id.org/sssom/license/unspecified> ;
+    sssom:local_name "rbo.ols.sssom.tsv" ;
+    sssom:mapping_set_group "ols_sssom_extracts" ;
+    sssom:mapping_set_id <https://w3id.org/commons/ols/mappings/rbo.ols.sssom.tsv> ;
+    sssom:mappings sssom:1f8e1802cff25c10b78d01967972ef8f,
+        sssom:356e70dc5e8e592b8de5d5456a3fdbeb,
+        sssom:3968d8592c405a0c8a6715ff5b827c3f,
+        sssom:44e257f4fc46548686c2570538f1da93,
+        sssom:6e16f083a90f55f0b4b46fc827b56b0a,
+        sssom:71cbbc89a12358cca8a69468e72065e8,
+        sssom:87ea8de2663457078c674c9544d5daca,
+        sssom:904b90af5d9157ed83dca96ddbae029a,
+        sssom:92abce01607a588aa3aad706876b150b,
+        sssom:95a9a1521d5f55b7863d986f8a438049,
+        sssom:9f5c8914fa5d5ed4b9ba03d2bdf8b89b,
+        sssom:a60d79553ceb57c88bbb8497d213c544,
+        sssom:b04b05742f455dda9b5026fc7bc49562,
+        sssom:b287d4ec6e565635baf76faf36b677d2,
+        sssom:e14022cc816f520b88b476e2209380f4,
+        sssom:fe23b80e14285a118e1e488700eb208e ;
+    sssom:other [ prov:wasDerivedFrom <https://www.ebi.ac.uk/ols4/ontologies/rbo> ;
+            sssom:local_id "rbo.ols" ] ;
+    sssom:uuid "d4f8a2cccc145724ad9f47cfe287c235"^^<xsd:string> .
+
+sssom:1f8e1802cff25c10b78d01967972ef8f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000115> ;
+    owl:annotatedTarget <ncit:C150121> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Radiation Dosimeter Device" ;
+    sssom:subject_label "radiation dosimeter device" ;
+    sssom:uuid "1f8e1802cff25c10b78d01967972ef8f"^^<xsd:string> .
+
+sssom:356e70dc5e8e592b8de5d5456a3fdbeb a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000124> ;
+    owl:annotatedTarget <go:0009987> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "cellular process" ;
+    sssom:subject_label "cellular process" ;
+    sssom:uuid "356e70dc5e8e592b8de5d5456a3fdbeb"^^<xsd:string> .
+
+sssom:3968d8592c405a0c8a6715ff5b827c3f a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00005066> ;
+    owl:annotatedTarget <uo:0010065> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "milligray per second" ;
+    sssom:subject_label "miligray per second" ;
+    sssom:uuid "3968d8592c405a0c8a6715ff5b827c3f"^^<xsd:string> .
+
+sssom:44e257f4fc46548686c2570538f1da93 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000117> ;
+    owl:annotatedTarget <ncit:C18982> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Radiation, Charged Particles" ;
+    sssom:subject_label "charged particle radiation" ;
+    sssom:uuid "44e257f4fc46548686c2570538f1da93"^^<xsd:string> .
+
+sssom:6e16f083a90f55f0b4b46fc827b56b0a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000112> ;
+    owl:annotatedTarget <ncit:C17052> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Ionizing Radiation" ;
+    sssom:subject_label "high linear energy transfer radiation" ;
+    sssom:uuid "6e16f083a90f55f0b4b46fc827b56b0a"^^<xsd:string> .
+
+sssom:71cbbc89a12358cca8a69468e72065e8 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000120> ;
+    owl:annotatedTarget <ncit:C44386> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Gamma Radiation" ;
+    sssom:subject_label "gamma radiation" ;
+    sssom:uuid "71cbbc89a12358cca8a69468e72065e8"^^<xsd:string> .
+
+sssom:87ea8de2663457078c674c9544d5daca a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000122> ;
+    owl:annotatedTarget MESH:D009688 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:subject_label "nuclear reactor" ;
+    sssom:uuid "87ea8de2663457078c674c9544d5daca"^^<xsd:string> .
+
+sssom:904b90af5d9157ed83dca96ddbae029a a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00015005> ;
+    owl:annotatedTarget <rex:0000007> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "beta-decay" ;
+    sssom:subject_label "beta decay" ;
+    sssom:uuid "904b90af5d9157ed83dca96ddbae029a"^^<xsd:string> .
+
+sssom:92abce01607a588aa3aad706876b150b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000118> ;
+    owl:annotatedTarget <ncit:C19015> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Risk Estimate" ;
+    sssom:subject_label "risk estimate" ;
+    sssom:uuid "92abce01607a588aa3aad706876b150b"^^<xsd:string> .
+
+sssom:95a9a1521d5f55b7863d986f8a438049 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000116> ;
+    owl:annotatedTarget <ncit:C17052> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Ionizing Radiation" ;
+    sssom:subject_label "ionizing radiation" ;
+    sssom:uuid "95a9a1521d5f55b7863d986f8a438049"^^<xsd:string> .
+
+sssom:9f5c8914fa5d5ed4b9ba03d2bdf8b89b a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000119> ;
+    owl:annotatedTarget <ncit:C19662> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Lifetime Risk" ;
+    sssom:subject_label "lifetime risk estimate" ;
+    sssom:uuid "9f5c8914fa5d5ed4b9ba03d2bdf8b89b"^^<xsd:string> .
+
+sssom:a60d79553ceb57c88bbb8497d213c544 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000123> ;
+    owl:annotatedTarget <go:0008150> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "biological_process" ;
+    sssom:subject_label "biological process" ;
+    sssom:uuid "a60d79553ceb57c88bbb8497d213c544"^^<xsd:string> .
+
+sssom:b04b05742f455dda9b5026fc7bc49562 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00015004> ;
+    owl:annotatedTarget <rex:0000017> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "alpha-decay" ;
+    sssom:subject_label "alpha decay" ;
+    sssom:uuid "b04b05742f455dda9b5026fc7bc49562"^^<xsd:string> .
+
+sssom:b287d4ec6e565635baf76faf36b677d2 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000121> ;
+    owl:annotatedTarget <ncit:C94854> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Particle Accelerator" ;
+    sssom:subject_label "particle accelerator" ;
+    sssom:uuid "b287d4ec6e565635baf76faf36b677d2"^^<xsd:string> .
+
+sssom:e14022cc816f520b88b476e2209380f4 a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00000113> ;
+    owl:annotatedTarget <ncit:C17052> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Ionizing Radiation" ;
+    sssom:subject_label "low linear energy transfer radiation" ;
+    sssom:uuid "e14022cc816f520b88b476e2209380f4"^^<xsd:string> .
+
+sssom:fe23b80e14285a118e1e488700eb208e a owl:Axiom ;
+    owl:annotatedProperty oboInOwl:hasDbXref ;
+    owl:annotatedSource <rbo:00002041> ;
+    owl:annotatedTarget <ncit:C129000> ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_label "Patient Registry Study" ;
+    sssom:subject_label "Registry study" ;
+    sssom:uuid "fe23b80e14285a118e1e488700eb208e"^^<xsd:string> .
+
