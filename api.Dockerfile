@@ -5,6 +5,7 @@ WORKDIR /code
 COPY pyproject.toml /code
 
 COPY ./src /code/app
+COPY ./resources /code/resources
 
 ENV PYTHONPATH=${PYTHONPATH}:${PWD}
 

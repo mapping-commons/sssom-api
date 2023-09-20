@@ -6,6 +6,7 @@ from sssom_schema import Mapping
 from ..database.sparql_implementation import (
     SparqlImpl,
     get_mapping_by_id,
+    get_mappings_by_filter_ui,
     get_mappings_field,
     get_mappings_query,
     get_ui_mapping_by_id,
@@ -58,3 +59,17 @@ router_ui = APIRouter(prefix="/mappings", tags=["mappings"])
 @router_ui.get("/{id}", summary="Get mapping by id")
 def mapping_by_id_ui(id: str, sparqlImpl: SparqlImpl = Depends(get_sparql_implementation)):
     return get_ui_mapping_by_id(sparqlImpl, id)
+
+    # TODO #66 check if valid curie in subject_id, predicate_id and object_id
+
+
+@router_ui.get("/", summary="Get mappings with optional filters")
+def mappings_ui(
+    sparqlImpl: SparqlImpl = Depends(get_sparql_implementation),
+    pagination: PaginationParams = Depends(),
+    subject_id: Union[str, None] = None,
+    predicate_id: Union[str, None] = None,
+    object_id: Union[str, None] = None,
+):
+    results = get_mappings_by_filter_ui(sparqlImpl, subject_id, predicate_id, object_id)
+    return paginate(results, **pagination.dict())

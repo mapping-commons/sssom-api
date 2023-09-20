@@ -19,7 +19,7 @@ services:
   triplestore:
     image: eclipse/rdf4j-workbench:latest
     environment:
-      - JVM_PARAMS=-Xms3G -Xmx5G
+      - JAVA_OPTS=-Xms10g -Xmx20g
       - RDF4J_DATA=/data 
     ports:
       - 8080:8080

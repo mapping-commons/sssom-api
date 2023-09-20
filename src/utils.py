@@ -1,17 +1,20 @@
 import itertools
+import json
 import math
 from typing import Iterable, List, Tuple, TypeVar, Union
 
-import curies
+from curies import Converter
 from fastapi import Request
 from toolz.itertoolz import count
 from toolz.recipes import countby
 
-from .models import FacetInfo, Page, PaginationInfo
-
-OBO_CURIE_CONVERTER = curies.get_obo_converter()
+from .models import ConfidenceInfo, FacetInfo, Page, PaginationInfo
 
 T = TypeVar("T")
+
+with open("./resources/obo.context.jsonld") as f:
+    OBO_CONTEXT = json.load(f)
+CURIE_OBO_CONVERTER = Converter.from_prefix_map(OBO_CONTEXT["@context"])
 
 
 def _replace_page_param(request: Request, new_page: Union[int, None]) -> Union[str, None]:
@@ -51,11 +54,26 @@ def paginate(iterable: Iterable[T], page: int, limit: int, request: Request) -> 
 
 
 def _create_facets(data: Iterable[object]) -> FacetInfo:
-    iter_mj, iter_pred = itertools.tee(data)
+    iter_mj, iter_pred, iter_conf = itertools.tee(data, 3)
 
+    list_iter_conf = list(iter_conf)
     return FacetInfo(
         mapping_justification=countby(lambda d: d["mapping_justification"], iter_mj),
-        predicate_id=countby(lambda d: d["predicate_id"], iter_pred),
+        predicate_id=countby(lambda d: compress_uri(d["predicate_id"]), iter_pred),
+        confidence=ConfidenceInfo(
+            min=min(
+                map(
+                    lambda d: d["confidence"] if d.get("confidence") else 0.0,  # type: ignore
+                    list_iter_conf,
+                )
+            ),
+            max=max(
+                map(
+                    lambda d: d["confidence"] if d.get("confidence") else 0.0,  # type: ignore
+                    list_iter_conf,
+                )
+            ),
+        ),
     )
 
 
@@ -79,7 +97,9 @@ def parser_filter(
         if field == "confidence":
             value = dec2sci(float(value))
         if field == "subject_id" or field == "object_id":
-            value = OBO_CURIE_CONVERTER.expand(value)
+            value = expand_uri(value)
+        if field == "predicate_id":
+            value = expand_uri(value)
         filter_pars.append({"field": field, "operator": operator, "value": value})
 
     return filter_pars
@@ -100,3 +120,11 @@ def sci2dec(number: str) -> float:
 # decimal notation to scientific e notation
 def dec2sci(number: float) -> str:
     return "{:.2E}".format(float(number))
+
+
+def expand_uri(uri: str) -> str:
+    return str(CURIE_OBO_CONVERTER.expand(uri))
+
+
+def compress_uri(uri: str) -> str:
+    return str(CURIE_OBO_CONVERTER.compress(uri))

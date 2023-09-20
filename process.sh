@@ -10,7 +10,7 @@ date
 SETUP=${WORKSPACE}/rdf4j_sssom.txt
 RDF4J=/opt/eclipse-rdf4j-${RDF4J_VERSION}
 RDF4JSERVER=${SERVER}/rdf4j-server
-DATA=/data
+DATA=/data/ols
 
 if [ `ls $DATA/*.jsonld.gz | wc -l` -lt 1 ]; then echo "ERROR: No data in data directory! Aborting.. " && exit 1; fi
 
