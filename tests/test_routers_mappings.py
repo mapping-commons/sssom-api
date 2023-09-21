@@ -9,12 +9,12 @@ def api_service(docker_ip, docker_services) -> str:
 
     api_port = docker_services.port_for("api", 8000)
     api_url = f"http://{docker_ip}:{api_port}/ui"
-    triplestore_port = docker_services.port_for("triplestore", 8080)
-    triplestore_url = f"http://{docker_ip}:{triplestore_port}/rdf4j-workbench"
+    triplestore_port = docker_services.port_for("triplestore", 9999)
+    triplestore_url = f"http://{docker_ip}:{triplestore_port}/"
     docker_services.wait_until_responsive(
-        timeout=120,
-        pause=0.1,
-        check=lambda: is_responsive(f"{triplestore_url}/repositories/sssom/repositories")
+        timeout=600,
+        pause=500,
+        check=lambda: is_responsive(f"{triplestore_url}/blazegraph")
     )
     return api_url
 
@@ -34,7 +34,7 @@ def test_get_single_mapping(api_service: str):
     assert response.status_code == 200
     body = response.json()
     assert body == {
-        "mapping_justification": "https://w3id.org/semapv/ManualMappingCuration",
+        "mapping_justification": "https://w3id.org/semapv/vocab/ManualMappingCuration",
         "mapping_date": "2021-05-27",
         "subject_id": "http://purl.obolibrary.org/obo/MP_0000001",
         "comment": "KidsFirst; the best you could do is the MP root term that covers all phenotypes both normal and abnormal",
@@ -50,4 +50,5 @@ def test_get_single_mapping(api_service: str):
         ],
         "subject_id_curie": "MP:0000001",
         "object_id_curie": "HP:0000118",
+        "predicate_id_curie": "skos:narrowMatch",
     }
