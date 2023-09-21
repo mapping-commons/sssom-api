@@ -408,6 +408,7 @@ def get_mappings_by_filter_ui(
         m["subject_id_curie"] = compress_uri(m["subject_id"])
         m["predicate_id_curie"] = compress_uri(m["predicate_id"])
         m["object_id_curie"] = compress_uri(m["object_id"])
+        m["mapping_justification_curie"] = compress_uri(m["mapping_justification"])
         yield m
 
 
@@ -428,6 +429,7 @@ def get_ui_mapping_by_id(imp: SparqlImpl, id: str) -> dict:
     mapping["subject_id_curie"] = compress_uri(mapping["subject_id"])
     mapping["predicate_id_curie"] = compress_uri(mapping["predicate_id"])
     mapping["object_id_curie"] = compress_uri(mapping["object_id"])
+    mapping["mapping_justification_curie"] = compress_uri(mapping["mapping_justification"])
 
     return mapping
 
