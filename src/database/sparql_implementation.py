@@ -157,7 +157,7 @@ class SparqlImpl(SparqlImplementation):
         default_query = self.default_query(
             type=Mapping.class_class_uri, slots=fields_single.union(fields_list), fields=fields
         )
-        bindings = self._query(default_query)
+        bindings = self._sparql_query(default_query)
         results = self.merge_objects(bindings, fields_list)
         for row in results:
             row.pop("_x")
@@ -227,7 +227,7 @@ class SparqlImpl(SparqlImplementation):
             ),
             filter,
         )
-        bindings = self._query(default_query)
+        bindings = self._sparql_query(default_query)
         results = self.merge_objects(bindings, fields_list)
         for row in results:
             row.pop("_x")
@@ -253,7 +253,7 @@ class SparqlImpl(SparqlImplementation):
         default_query = self.add_filters(
             self.default_query(type=MappingSet.class_class_uri, slots=fields_single), filter
         )
-        bindings = self._query(default_query)
+        bindings = self._sparql_query(default_query)
         for row in bindings:
             r = self.transform_result(row)
             # Search for multiple value attributes
@@ -262,7 +262,9 @@ class SparqlImpl(SparqlImplementation):
                     default_query_list = self.default_query(
                         type=MappingSet.class_class_uri, slots={field}, subject=r["_x"]
                     )
-                    bindings_list = self.transform_result_list(self._query(default_query_list))
+                    bindings_list = self.transform_result_list(
+                        self._sparql_query(default_query_list)
+                    )
                     r[f"{field}"] = bindings_list
 
             r["mappings"] = {
@@ -283,7 +285,7 @@ class SparqlImpl(SparqlImplementation):
             slots=fields_single.union(fields_list),
             subject=f"{SSSOM}{id}",
         )
-        bindings = self._query(default_query)
+        bindings = self._sparql_query(default_query)
         result = self.merge_objects(bindings, fields_list)[0]
 
         return result
@@ -301,7 +303,7 @@ class SparqlImpl(SparqlImplementation):
             fields=fields,
             inverse=True,
         )
-        bindings = self._query(default_query)
+        bindings = self._sparql_query(default_query)
         for row in bindings:
             r = self.transform_result(row)
             r.pop("_x")
@@ -333,7 +335,7 @@ class SparqlImpl(SparqlImplementation):
         query.where.append(
             f"?_x {self.value_to_sparql(self.get_slot_uri('mapping_provider'))} ?mapping_provider"
         )
-        bindings = self._query(query)
+        bindings = self._sparql_query(query)
         results = self.transform_result(bindings[0])
 
         # Splitting the query for efficiency (get results faster)
@@ -346,7 +348,7 @@ class SparqlImpl(SparqlImplementation):
             for pred in ["subject_id", "object_id"]
         ]
         query.where.append(" UNION ".join([f"{{ {clause} }}" for clause in clauses_entity]))
-        bindings = self._query(query)
+        bindings = self._sparql_query(query)
         results.update(self.transform_result(bindings[0]))
         return results
 
