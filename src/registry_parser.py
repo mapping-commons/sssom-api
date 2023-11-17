@@ -18,6 +18,7 @@ def registry_parser(config: str) -> MappingRegistry:
         MappingSetReference(
             mapping_set_id=mapping["mapping_set_id"],
             mapping_set_group=mapping["mapping_set_group"],
+            local_name=mapping["local_name"],
         )
         for mapping in data["mapping_set_references"]
     )
