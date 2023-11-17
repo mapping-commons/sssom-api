@@ -46,6 +46,13 @@ class SparqlImpl(SparqlImplementation):
             where=[],
         )
 
+        # Add Blazegraph optimization query hint
+        query.where.append(
+            """<http://www.bigdata.com/queryHints#Query>
+            <http://www.bigdata.com/queryHints#optimizer>
+            'Runtime'"""
+        )
+
         if subject is None:
             subject = "?_x"
         else:
@@ -63,20 +70,19 @@ class SparqlImpl(SparqlImplementation):
         if fields is not None:
             for field, values in fields.items():
                 if field == "mapping_set":
-                    filter = self.value_to_sparql(self.get_slot_uri(field))
+                    filter_value = self.value_to_sparql(self.get_slot_uri(field))
                     if inverse:
-                        query.where.append(f"OPTIONAL {{ ?{field} {filter} {subject} }}")
+                        query.where.append(f"OPTIONAL {{ ?{field} {filter_value} {subject} }}")
                         continue
 
                 if field == "confidence":
-                    filter = self.value_to_sparql(self.get_slot_uri(field))
                     query.add_filter(
                         f'STR(?{field}) >= "{values["min"]}" && STR(?{field}) <= "{values["max"]}"'
                     )
                     continue
 
                 if values is not None:
-                    values = list(map(lambda x: self.value_to_sparql(x), values))
+                    values = [self.value_to_sparql(x) for x in values]
                     query.add_filter(f'?{field} IN ( {", ".join(values)})')
 
         return query
@@ -318,13 +324,19 @@ class SparqlImpl(SparqlImplementation):
                 (COUNT(DISTINCT ?mapping) as ?nb_mapping)
                 (COUNT(DISTINCT ?mapping_set) as ?nb_mapping_set)
                 (COUNT(DISTINCT ?mapping_provider) as ?nb_mapping_provider)
-                (COUNT(DISTINCT ?entity) as ?nb_entity)
                 """
             ],
             where=[],
         )
         mappingset_uri = MappingSet.class_class_uri
         mapping_uri = Mapping.class_class_uri
+
+        # Add Blazegraph optimization query hint
+        query.where.append(
+            """<http://www.bigdata.com/queryHints#Query>
+            <http://www.bigdata.com/queryHints#optimizer>
+            'Runtime'"""
+        )
 
         query.where.append(
             f"?mapping_set {self.value_to_sparql(RDF.type)} {self.value_to_sparql(mappingset_uri)}"
@@ -333,7 +345,10 @@ class SparqlImpl(SparqlImplementation):
             f"?mapping {self.value_to_sparql(RDF.type)} {self.value_to_sparql(mapping_uri)}"
         )
         query.where.append(
-            f"?_x {self.value_to_sparql(self.get_slot_uri('mapping_provider'))} ?mapping_provider"
+            f"""
+            OPTIONAL {{
+             ?_x {self.value_to_sparql(self.get_slot_uri('mapping_provider'))} ?mapping_provider .
+            }}"""
         )
         bindings = self._sparql_query(query)
         results = self.transform_result(bindings[0])
