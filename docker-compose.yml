@@ -24,9 +24,9 @@ services:
     ports:
       - 9999:9999
     volumes:
-      - ./data/monarch:/data
-      - ./data/RWStore.properties:/RWStore.properties
-      - ./data/log4j.properties:/log4j.properties
+      - ./data:/data
+      - ./config/RWStore.properties:/RWStore.properties
+      - ./config/log4j.properties:/log4j.properties
     healthcheck:
       test: ["CMD", "curl", "-f", "http://triplestore:9999/"]
       interval: 3s
@@ -43,5 +43,5 @@ services:
     environment:
       - SERVER=http://triplestore:9999/blazegraph
     volumes:
-      - ./data/monarch:/data
-      - ./data/RWStore.properties:/RWStore.properties
+      - ./data:/data
+      - ./config/RWStore.properties:/RWStore.properties
