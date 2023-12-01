@@ -19,3 +19,7 @@ rebuild-%:
 build-sssom-api:
 	docker-compose up --build
 
+OBO_CONTEXT_URL = https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/contexts/obo.context.jsonld
+.PHONY: update_obo_context
+update_obo_context:
+	wget $(OBO_CONTEXT_URL) -O resources/obo.context.jsonld
