@@ -12,7 +12,7 @@ fastapi = "^0.95.0"
 uvicorn = {extras = ["standard"], version = "^0.21.1"}
 pydantic = {extras = ["dotenv"], version = "^1.10.7"}
 sssom-schema = "^0.15.0"
-sssom = "^0.3.41"
+sssom = "0.4.10"
 toolz = "^0.12.0"
 pyld = "^2.0.3"
 oaklib = "^0.5.21"
