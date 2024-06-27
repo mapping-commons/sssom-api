@@ -15,14 +15,22 @@ services:
       - triplestore
       - upload-triplestore
     environment:
-      - SPARQL_ENDPOINT=http://triplestore:8080/rdf4j-server/repositories/sssom
+      - SPARQL_ENDPOINT=http://triplestore:9999/blazegraph/namespace/kb/sparql
   triplestore:
-    image: eclipse/rdf4j-workbench:latest
+    image: anitacaron/blazegraph:v0.4
     environment:
-      - JAVA_OPTS=-Xms10g -Xmx20g
-      - RDF4J_DATA=/data 
+      - JAVA_OPTS=-Xmx10G
     ports:
-      - 8080:8080
+      - 9999:9999
+    volumes:
+      - ./data:/data
+      - ./config/RWStore.properties:/RWStore.properties
+      - ./config/log4j.properties:/log4j.properties
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://triplestore:9999/"]
+      interval: 3s
+      timeout: 5s
+      retries: 3
   upload-triplestore:
     build:
       context: .
@@ -32,6 +40,7 @@ services:
     links:
       - triplestore
     environment:
-      - SERVER=http://triplestore:8080
+      - SERVER=http://triplestore:9999/blazegraph
     volumes:
       - ./data:/data
+      - ./config/RWStore.properties:/RWStore.properties

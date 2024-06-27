@@ -57,8 +57,15 @@ def _create_facets(data: Iterable[object]) -> FacetInfo:
     iter_mj, iter_pred, iter_conf = itertools.tee(data, 3)
 
     list_iter_conf = list(iter_conf)
+
+    if len(list_iter_conf) == 0:
+        return FacetInfo(
+            mapping_justification={},
+            predicate_id={},
+            confidence=ConfidenceInfo(min=0, max=1),
+        )
     return FacetInfo(
-        mapping_justification=countby(lambda d: d["mapping_justification"], iter_mj),
+        mapping_justification=countby(lambda d: compress_uri(d["mapping_justification"]), iter_mj),
         predicate_id=countby(lambda d: compress_uri(d["predicate_id"]), iter_pred),
         confidence=ConfidenceInfo(
             min=min(
@@ -95,11 +102,11 @@ def parser_filter(
             return None
 
         if field == "confidence":
-            value = dec2sci(float(value))
+            value = float(value)
         if field == "subject_id" or field == "object_id":
-            value = expand_uri(value)
+            value = expand_uri(str(value))
         if field == "predicate_id":
-            value = expand_uri(value)
+            value = expand_uri(str(value))
         filter_pars.append({"field": field, "operator": operator, "value": value})
 
     return filter_pars
@@ -110,16 +117,6 @@ def parse_fields_type(multivalued_fields: List[str], slots: List[str]) -> Tuple[
     fields_single = set(slots) - fields_list
 
     return fields_list, fields_single
-
-
-# scientific e notation to decimal notation
-def sci2dec(number: str) -> float:
-    return float(number)
-
-
-# decimal notation to scientific e notation
-def dec2sci(number: float) -> str:
-    return "{:.2E}".format(float(number))
 
 
 def expand_uri(uri: str) -> str:
