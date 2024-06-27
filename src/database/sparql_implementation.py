@@ -13,6 +13,14 @@ from ..utils import compress_uri, expand_uri, parse_fields_type
 
 
 class SparqlImpl(SparqlImplementation):
+    MIN_FIELDS = [
+        "uuid",
+        "subject_id",
+        "predicate_id",
+        "object_id",
+        "mapping_justification",
+        "confidence"
+    ]
     def __post_init__(self, schema_view):
         super(SparqlImplementation, self).__post_init__()
         self.schema_view = schema_view
@@ -36,10 +44,11 @@ class SparqlImpl(SparqlImplementation):
     def default_query(
         self,
         type: str,
-        slots: set[str],
+        slots: Union[set[str], None] = None,
         subject: Union[str, None] = None,
         fields: Union[dict, None] = None,
         inverse: bool = False,
+        query_min: bool = False,
     ) -> SparqlQuery:
         query = SparqlQuery(
             select=["*"],
@@ -47,25 +56,45 @@ class SparqlImpl(SparqlImplementation):
         )
 
         # Add Blazegraph optimization query hint
-        query.where.append(
-            """<http://www.bigdata.com/queryHints#Query>
-            <http://www.bigdata.com/queryHints#optimizer>
-            'Runtime'"""
-        )
+        query.where.append("hint:Query hint:optimizer 'Static'")
 
         if subject is None:
             subject = "?_x"
         else:
             subject = f"<{subject}>"
 
-        query.where.append(
+        query.where = query.where + [
             f"{subject} {self.value_to_sparql(RDF.type)} {self.value_to_sparql(type)}"
-        )
+        ]
 
-        for f in slots:
-            f_uri = self.get_slot_uri(f)
-            opt = f"OPTIONAL {{ {subject} <{f_uri}> ?{f} }}"
-            query.where.append(opt)
+        if query_min:
+            for field in self.MIN_FIELDS:
+                f_uri = self.get_slot_uri(field)
+                opt = f"{subject} <{f_uri}> ?{field}"
+                query.where.append(opt)
+        else:
+            query.where = query.where + [
+                f"OPTIONAL {{ {subject} <{self.get_slot_uri(slot)}> ?{slot} }}"
+                for slot in slots if slot not in self.MIN_FIELDS  # type: ignore
+            ]
+
+        # if fields is not None:
+        #     fields_query = []
+        #     for field, _ in fields.items():
+        #         fields_query.append(f"{subject} <{self.get_slot_uri(field)}> ?{field}")
+        #     query.where = query.where + fields_query
+
+        # if not query_min:
+        #     query.add_filter(
+        #         f"""?p NOT IN (
+        #             {', '.join(
+        #                 [
+        #                     self.value_to_sparql(self.get_slot_uri(pred))
+        #                     for pred in self.MIN_FIELDS
+        #                 ] +
+        #                 [self.value_to_sparql(RDF.type)]
+        #                 )
+        #             })""")
 
         if fields is not None:
             for field, values in fields.items():
@@ -75,13 +104,13 @@ class SparqlImpl(SparqlImplementation):
                         query.where.append(f"OPTIONAL {{ ?{field} {filter_value} {subject} }}")
                         continue
 
-                if field == "confidence":
+                if field == "confidence" and query_min:
                     query.add_filter(
                         f'STR(?{field}) >= "{values["min"]}" && STR(?{field}) <= "{values["max"]}"'
                     )
                     continue
 
-                if values is not None:
+                if values is not None and query_min:
                     values = [self.value_to_sparql(x) for x in values]
                     query.add_filter(f'?{field} IN ( {", ".join(values)})')
 
@@ -160,11 +189,27 @@ class SparqlImpl(SparqlImplementation):
         fields_list, fields_single = self._get_fields(
             slots_type=self.schema_view.mapping_slots.copy()
         )
-        default_query = self.default_query(
-            type=Mapping.class_class_uri, slots=fields_single.union(fields_list), fields=fields
+        query_min = self.default_query(
+            type=Mapping.class_class_uri,
+            fields=fields,
+            query_min=True
         )
-        bindings = self._sparql_query(default_query)
-        results = self.merge_objects(bindings, fields_list)
+        bindings_min = self._sparql_query(query_min)
+        results = []
+        if bindings_min:
+            bindings_total = bindings_min.copy()
+            for i, mapping in enumerate(bindings_min):
+                mapping_uri = mapping["_x"]["value"]
+                query_full = self.default_query(
+                    type=Mapping.class_class_uri,
+                    subject=mapping_uri,
+                    slots=fields_single.union(fields_list),
+                    fields=fields,
+                )
+                bindings_full = self._sparql_query(query_full)
+                for results in bindings_full:
+                    bindings_total[i] = {**bindings_total[i], **results}
+            results = self.merge_objects(bindings_total, fields_list)
         for row in results:
             row.pop("_x")
             yield row
@@ -226,15 +271,30 @@ class SparqlImpl(SparqlImplementation):
         fields_list, fields_single = self._get_fields(
             slots_type=self.schema_view.mapping_slots.copy()
         )
-        default_query = self.add_filters(
+        query_min = self.add_filters(
             self.default_query(
                 type=Mapping.class_class_uri,
-                slots=fields_single.union(fields_list),
+                query_min=True
             ),
             filter,
         )
-        bindings = self._sparql_query(default_query)
-        results = self.merge_objects(bindings, fields_list)
+        bindings_min = self._sparql_query(query_min)
+        if bindings_min:
+            bindings_total = bindings_min.copy()
+            for i, mapping in enumerate(bindings_min):
+                mapping_uri = mapping["_x"]["value"]
+                query_full = self.add_filters(
+                    self.default_query(
+                        type=Mapping.class_class_uri,
+                        subject=mapping_uri,
+                        slots=fields_single.union(fields_list)
+                    ),
+                    filter,
+                )
+                bindings_full = self._sparql_query(query_full)
+                for results in bindings_full:
+                    bindings_total[i] = {**bindings_total[i], **results}
+            results = self.merge_objects(bindings_total, fields_list)
         for row in results:
             row.pop("_x")
             yield row
@@ -286,13 +346,21 @@ class SparqlImpl(SparqlImplementation):
         fields_list, fields_single = self._get_fields(
             slots_type=self.schema_view.mapping_slots.copy()
         )
-        default_query = self.default_query(
+        query_min = self.default_query(
             type=Mapping.class_class_uri,
-            slots=fields_single.union(fields_list),
             subject=f"{SSSOM}{id}",
+            query_min=True
         )
-        bindings = self._sparql_query(default_query)
-        result = self.merge_objects(bindings, fields_list)[0]
+        bindings_min = self._sparql_query(query_min)
+        query_full = self.default_query(
+            type=Mapping.class_class_uri,
+            subject=f"{SSSOM}{id}",
+            slots=fields_single.union(fields_list)
+        )
+        bindings_full = self._sparql_query(query_full)
+        for results in bindings_full:
+            bindings_min[0] = {**bindings_min[0], **results}
+        result = self.merge_objects(bindings_min, fields_list)[0]
 
         return result
 
@@ -332,11 +400,7 @@ class SparqlImpl(SparqlImplementation):
         mapping_uri = Mapping.class_class_uri
 
         # Add Blazegraph optimization query hint
-        query.where.append(
-            """<http://www.bigdata.com/queryHints#Query>
-            <http://www.bigdata.com/queryHints#optimizer>
-            'Runtime'"""
-        )
+        query.where.append("hint:Query hint:optimizer 'Runtime'")
 
         query.where.append(
             f"?mapping_set {self.value_to_sparql(RDF.type)} {self.value_to_sparql(mappingset_uri)}"
